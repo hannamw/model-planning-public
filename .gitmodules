@@ -1,0 +1,3 @@
+[submodule "circuit-tracer-dev"]
+	path = circuit-tracer-dev
+	url = git@github.com:safety-research/circuit-tracer-dev.git
