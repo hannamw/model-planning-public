@@ -1,0 +1,100 @@
+intermediate,entity,relation,query,foreign_language_query,french_translation,spanish_translation
+company,employees,work for a,What do employees work for?,The thing that employees work for is called what in X?,entreprise,empresa
+party,politicians,belong to a political,What do politicians belong to?,The thing that politicians belong to is called what in X?,parti,partido
+information,computers,store,What do computers store?,The thing that computers store is called what in X?,information,información
+school,children,attend to learn at,What do children attend to learn?,The place that children attend to learn is called what in X?,école,escuela
+fact,scientists,discover a,What do scientists discover through research?,The thing that scientists discover through research is called what in X?,fait,hecho
+money,people,spend,What do people spend at stores?,The thing that people spend at stores is called what in X?,argent,dinero
+point,sharp objects,have a,What do sharp objects have?,The thing that sharp objects have is called what in X?,point,punto
+example,teachers,give an,What do teachers give to illustrate concepts?,The thing that teachers give to illustrate concepts is called what in X?,exemple,ejemplo
+state,Americans,live in a,What do Americans live in?,The place that Americans live in is called what in X?,état,estado
+business,entrepreneurs,start a,What do entrepreneurs start?,The thing that entrepreneurs start is called what in X?,affaires,negocio
+night,people,sleep at,When do people sleep?,The time when people sleep is called what in X?,nuit,noche
+area,cities,have an urban,What do cities have that is urban?,The thing that cities have that is urban is called what in X?,zone,área
+water,thirsty people,drink,What do thirsty people drink?,The thing that thirsty people drink is called what in X?,eau,agua
+thing,objects,are a,What are objects?,The thing that objects are is called what in X?,chose,cosa
+family,parents and children,form a,What do parents and children form?,The thing that parents and children form is called what in X?,famille,familia
+head,necks,support the,What do necks support?,The thing that necks support is called what in X?,tête,cabeza
+hand,arms,end in a,What do arms end in?,The thing that arms end in is called what in X?,main,mano
+order,waiters,take your,What do waiters take?,The thing that waiters take is called what in X?,commande,orden
+john,popular male names,include,What is a popular male name?,The thing that a popular male name is is called what in X?,jean,juan
+side,objects,have a left,What do objects have that is left or right?,The thing that objects have that is left or right is called what in X?,côté,lado
+home,families,live at,Where do families live?,The place where families live is called what in X?,maison,hogar
+development,cities,plan urban,What do cities plan that is urban?,The thing that cities plan that is urban is called what in X?,développement,desarrollo
+week,seven days,make a,What do seven days make?,The thing that seven days make is called what in X?,semaine,semana
+power,light bulbs,need electric,What do light bulbs need?,The thing that light bulbs need is called what in X?,pouvoir,poder
+country,tourists,visit a foreign,What do tourists visit?,The place that tourists visit is called what in X?,pays,país
+council,towns,have a city,What do towns have for governance?,The thing that towns have for governance is called what in X?,conseil,consejo
+use,tools,have a practical,What do tools have?,The thing that tools have is called what in X?,utilisation,uso
+service,restaurants,provide good,What do restaurants provide?,The thing that restaurants provide is called what in X?,service,servicio
+room,hotels,rent a,What do hotels rent?,The thing that hotels rent is called what in X?,chambre,habitación
+market,vendors,sell goods at the,Where do vendors sell goods?,The place where vendors sell goods is called what in X?,marché,mercado
+problem,students,solve a math,What do students solve in math class?,The thing that students solve in math class is called what in X?,problème,problema
+court,judges,work in a,Where do judges work?,The place where judges work is called what in X?,tribunal,tribunal
+lot,stores,have a parking,What do stores have for cars?,The place that stores have for cars is called what in X?,parking,estacionamiento
+war,soldiers,fight in a,What do soldiers fight in?,The thing that soldiers fight in is called what in X?,guerre,guerra
+police,investigators,investigate crime as,Who investigates crime?,The people who investigate crime are called what in X?,police,policía
+interest,banks,charge,What do banks charge on loans?,The thing that banks charge on loans is called what in X?,intérêt,interés
+car,drivers,operate a,What do drivers operate?,The thing that drivers operate is called what in X?,voiture,coche
+law,criminals,break the,What do criminals break?,The thing that criminals break is called what in X?,loi,ley
+road,cars,drive on the,What do cars drive on?,The thing that cars drive on is called what in X?,route,carretera
+form,students,fill out a,What do students fill out?,The thing that students fill out is called what in X?,formulaire,formulario
+face,people,wash their,What do people wash?,The thing that people wash is called what in X?,visage,cara
+education,students,receive an,What do students receive?,The thing that students receive is called what in X?,éducation,educación
+policy,insurance companies,have a,What do insurance companies have?,The thing that insurance companies have is called what in X?,politique,política
+research,scientists,conduct,What do scientists conduct?,The thing that scientists conduct is called what in X?,recherche,investigación
+sort,data,can be organized by,How can data be organized?,The way that data can be organized is called what in X?,tri,tipo
+office,employees,work in an,Where do employees work?,The place where employees work is called what in X?,bureau,oficina
+body,doctors,examine the human,What do doctors examine?,The thing that doctors examine is called what in X?,corps,cuerpo
+person,individuals,are each a,What is each individual?,The thing that each individual is is called what in X?,personne,persona
+health,doctors,care for patient,What do doctors care for?,The thing that doctors care for is called what in X?,santé,salud
+mother,children,are born to their,Who are children born to?,The person who children are born to is called what in X?,mère,madre
+question,students,ask a,What do students ask?,The thing that students ask is called what in X?,question,pregunta
+period,sentences,end with a,What do sentences end with?,The thing that sentences end with is called what in X?,période,período
+name,people,have a first,What do people have that is first?,The thing that people have that is first is called what in X?,nom,nombre
+book,libraries,lend a,What do libraries lend?,The thing that libraries lend is called what in X?,livre,libro
+level,buildings,have a ground,What do buildings have that is ground?,The thing that buildings have that is ground is called what in X?,niveau,nivel
+child,parents,raise a,What do parents raise?,The person who parents raise is called what in X?,enfant,niño
+control,pilots,have flight,What do pilots have over flight?,The thing that pilots have over flight is called what in X?,contrôle,control
+society,people,live in,What do people live in collectively?,The thing that people live in collectively is called what in X?,société,sociedad
+minister,governments,appoint a prime,Who do governments appoint as leader?,The person who governments appoint as leader is called what in X?,ministre,ministro
+view,windows,provide a,What do windows provide?,The thing that windows provide is called what in X?,vue,vista
+door,houses,have a front,What do houses have in front?,The thing that houses have in front is called what in X?,porte,puerta
+line,people,wait in,What do people wait in?,The thing that people wait in is called what in X?,ligne,línea
+community,neighbors,form a,What do neighbors form?,The thing that neighbors form is called what in X?,communauté,comunidad
+south,compasses,point,What direction do compasses point?,The direction that compasses point is called what in X?,sud,sur
+city,people,live in a,What do people live in?,The place where people live is called what in X?,ville,ciudad
+god,religious people,worship,Who do religious people worship?,The person who religious people worship is called what in X?,dieu,dios
+father,children,have a,What male parent do children have?,The person who children have as male parent is called what in X?,père,padre
+centre,circles,have a,What do circles have?,The thing that circles have is called what in X?,centre,centro
+effect,causes,produce an,What do causes produce?,The thing that causes produce is called what in X?,effet,efecto
+staff,companies,employ,Who do companies employ?,The people who companies employ are called what in X?,personnel,personal
+position,job seekers,apply for a,What do job seekers apply for?,The thing that job seekers apply for is called what in X?,position,posición
+kind,things,have many different,What are there many different of?,The thing that there are many different of is called what in X?,genre,tipo
+job,people,work at a,What do people work at?,The thing that people work at is called what in X?,emploi,trabajo
+woman,female adults,are a,What is a female adult?,The person who a female adult is is called what in X?,femme,mujer
+action,movies,are full of,What are movies full of?,The thing that movies are full of is called what in X?,action,acción
+management,companies,need good,What do companies need that is good?,The thing that companies need that is good is called what in X?,gestion,gestión
+act,congress,passes an,What does congress pass?,The thing that congress passes is called what in X?,acte,acto
+process,factories,use a manufacturing,What do factories use for manufacturing?,The thing that factories use for manufacturing is called what in X?,processus,proceso
+north,compasses,point,What direction do compasses point opposite to south?,The direction that compasses point opposite to south is called what in X?,nord,norte
+age,people,celebrate their,What do people celebrate yearly?,The thing that people celebrate yearly is called what in X?,âge,edad
+evidence,lawyers,present,What do lawyers present in court?,The thing that lawyers present in court is called what in X?,preuve,evidencia
+idea,creative people,have an,What do creative people have?,The thing that creative people have is called what in X?,idée,idea
+west,the sun,sets in the,Where does the sun set?,The direction where the sun sets is called what in X?,ouest,oeste
+support,bridges,need structural,What do bridges need that is structural?,The thing that bridges need that is structural is called what in X?,soutien,apoyo
+moment,people,should wait a,What should you wait?,The thing that you should wait is called what in X?,moment,momento
+sense,jokes,should make,What should jokes make?,The thing that jokes should make is called what in X?,sens,sentido
+report,journalists,write a news,What do journalists write?,The thing that journalists write is called what in X?,rapport,informe
+mind,people,use their,What do people use to think?,The thing that people use to think is called what in X?,esprit,mente
+church,religious people,attend,What do religious people attend?,The place that religious people attend is called what in X?,église,iglesia
+morning,people,wake up in the,When do people wake up?,The time when people wake up is called what in X?,matin,mañana
+death,old age,leads to,What does old age lead to?,The thing that old age leads to is called what in X?,mort,muerte
+change,people,resist,What do people resist?,The thing that people resist is called what in X?,changement,cambio
+industry,workers,are employed by,What are workers employed by?,The thing that workers are employed by is called what in X?,industrie,industria
+land,farmers,cultivate the,What do farmers cultivate?,The thing that farmers cultivate is called what in X?,terre,tierra
+care,nurses,provide medical,What do nurses provide?,The thing that nurses provide is called what in X?,soin,cuidado
+century,hundred years,make a,What do a hundred years make?,The thing that a hundred years make is called what in X?,siècle,siglo
+range,mountains,form a,What do mountains form?,The thing that mountains form is called what in X?,gamme,cordillera
+table,people,eat dinner at the,What do people eat dinner at?,The thing that people eat dinner at is called what in X?,table,mesa
+back,people,have pain in their,What do people have pain in?,The thing that people have pain in is called what in X?,dos,espalda

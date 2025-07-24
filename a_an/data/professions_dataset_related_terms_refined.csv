@@ -1,0 +1,109 @@
+Profession,Article,Description,related_term1,related_term2,related_term3,related_term4,related_term5
+veterinarian,a,Someone who heals sick pets is a veterinarian,animal, pet, medic, clinic, heal
+teacher,a,Someone who teaches students is a teacher,educat, class, student, learn, school
+chef,a,Someone who cooks food is a chef,cook, kitchen, recip, restaur, food
+firefighter,a,Someone who fights fires is a firefighter,emerg, rescu, safe, fire, protect
+pilot,a,Someone who flies planes is a pilot,aviat, aircraft, fly, airport, navigat
+dentist,a,Someone who fixes teeth is a dentist,teeth, oral, dent, hygien, clinic
+electrician,an,Someone who fixes electrical problems is an electrician,wir, electr, power, circuit, voltag
+librarian,a,Someone who works with books is a librarian,book, librar, inform, research, catalog
+photographer,a,Someone who takes pictures is a photographer,camera, imag, photo, portrait, studio
+architect,an,Someone who designs buildings is an architect,build, design, construct, blueprint, plan
+mechanic,a,Someone who fixes cars is a mechanic,auto, repair, engine, maintain, tool
+surgeon,a,Someone who performs operations is a surgeon,operat, medic, hospit, scalpel, surg
+pharmacist,a,Someone who fills prescriptions is a pharmacist,medic, drug, prescrib, pharmac, dosage
+journalist,a,Someone who writes news is a journalist,news, report, media, articl, investig
+plumber,a,Someone who fixes pipes is a plumber,pipe, water, plumb, fixture, drain
+accountant,an,Someone who manages finances is an accountant,financ, tax, bookkeep, audit, account
+lawyer,a,Someone who practices law is a lawyer,legal, court, law, attorney, justic
+engineer,an,Someone who designs systems is an engineer,technolog, design, system, problem, innovat
+baker,a,Someone who bakes bread is a baker,bread, bake, oven, dough, pastry
+carpenter,a,Someone who works with wood is a carpenter,wood, construct, tool, furnitur, build
+professor,a,Someone who teaches at university is a professor,univers, research, teach, academ, lectur
+physicist,a,Someone who studies physics is a physicist,scienc, physic, research, lab, theory
+biologist,a,Someone who studies life is a biologist,life, organ, research, lab, natur
+chemist,a,Someone who studies chemistry is a chemist,chemi, lab, compound, react, analys
+historian,a,Someone who studies history is a historian,histor, research, archiv, past, document
+psychologist,a,Someone who studies the mind is a psychologist,mind, behav, therap, ment, counsel
+economist,an,Someone who studies economics is an economist,economi, market, financ, analys, polic
+cardiologist,a,Someone who treats heart problems is a cardiologist,heart, cardio, medic, cardio, health
+neurologist,a,Someone who treats brain problems is a neurologist,brain, nerv, neuro, medic, diagnos
+pediatrician,a,Someone who treats children is a pediatrician,child, medic, pediatr, health, develop
+dermatologist,a,Someone who treats skin problems is a dermatologist,skin, dermat, medic, treat, condit
+psychiatrist,a,Someone who treats mental illness is a psychiatrist,ment, psychiat, therap, medic, disord
+radiologist,a,Someone who reads medical images is a radiologist,imag, xray, medic, diagnos, radio
+anesthesiologist,an,Someone who gives anesthesia is an anesthesiologist,anesth, surg, medic, sedat, pain
+oncologist,an,Someone who treats cancer is an oncologist,cancer, oncol, treat, medic, tumor
+ophthalmologist,an,Someone who treats eye problems is an ophthalmologist,eye, vision, optic, medic, sight
+orthopedist,an,Someone who treats bone problems is an orthopedist,bone, orthoped, joint, medic, mobil
+astronomer,an,Someone who studies stars is an astronomer,star, space, telescop, astronom, celestial
+geologist,a,Someone who studies rocks is a geologist,earth, rock, geol, miner, format
+anthropologist,an,Someone who studies human culture is an anthropologist,cultur, human, societ, anthrop, evolution
+sociologist,a,Someone who studies society is a sociologist,societ, social, behav, commun, relat
+mathematician,a,Someone who studies math is a mathematician,number, equat, math, calculat, theory
+statistician,a,Someone who analyzes data is a statistician,data, statist, analys, probab, research
+botanist,a,Someone who studies plants is a botanist,plant, botan, flora, research, vegeta
+zoologist,a,Someone who studies animals is a zoologist,animal, zool, wild, behav, speci
+meteorologist,a,Someone who studies weather is a meteorologist,weather, climat, forecast, atmosph, storm
+archaeologist,an,Someone who studies ancient artifacts is an archaeologist,artifact, excav, histor, archeo, ancient
+linguist,a,Someone who studies language is a linguist,languag, linguist, commun, grammar, speech
+musician,a,Someone who plays music is a musician,music, instrum, perform, melod, composit
+artist,an,Someone who creates art is an artist,art, creat, paint, visual, express
+sculptor,a,Someone who makes sculptures is a sculptor,sculpt, carv, art, materi, form
+dancer,a,Someone who performs dance is a dancer,danc, mov, choreo, perform, rhythm
+actor,an,Someone who performs in plays is an actor,act, theater, perform, drama, entertain
+writer,a,Someone who writes books is a writer,writ, book, liter, publish, creat
+poet,a,Someone who writes poetry is a poet,poetr, vers, liter, writ, express
+novelist,a,Someone who writes novels is a novelist,novel, fiction, writ, stor, liter
+editor,an,Someone who edits text is an editor,edit, publish, manuscr, revis, content
+translator,a,Someone who translates languages is a translator,translat, languag, interpret, commun, linguist
+bartender,a,Someone who serves drinks is a bartender,drink, bar, cocktail, mix, servic
+waiter,a,Someone who serves food is a waiter,restaur, servic, custom, din, hospit
+barber,a,Someone who cuts hair is a barber,hair, cut, styl, groom, salon
+tailor,a,Someone who makes clothes is a tailor,cloth, sew, alter, fabric, fit
+florist,a,Someone who arranges flowers is a florist,flower, arrang, plant, bouquet, decor
+jeweler,a,Someone who makes jewelry is a jeweler,jewel, gem, precious, craft, access
+watchmaker,a,Someone who makes watches is a watchmaker,watch, timepiec, repair, precis, mechan
+locksmith,a,Someone who makes locks is a locksmith,lock, key, secur, instal, repair
+welder,a,Someone who welds metal is a welder,weld, metal, join, fabric, torch
+mason,a,Someone who works with stone is a mason,mason, brick, stone, construct, mortar
+roofer,a,Someone who fixes roofs is a roofer,roof, construct, repair, shingl, waterproof
+painter,a,Someone who paints walls is a painter,paint, wall, brush, color, decor
+gardener,a,Someone who tends gardens is a gardener,plant, garden, landscap, maintain, horticult
+farmer,a,Someone who grows crops is a farmer,agricult, crop, farm, harvest, livestoc
+fisherman,a,Someone who catches fish is a fisherman,fish, boat, net, seafood, ocean
+sailor,a,Someone who works on ships is a sailor,ship, navig, maritim, ocean, sail
+trucker,a,Someone who drives trucks is a trucker,truck, transport, driv, cargo, logist
+conductor,a,Someone who operates trains is a conductor,train, railroad, transport, schedul, safe
+judge,a,Someone who makes court decisions is a judge,court, legal, justic, decid, law
+detective,a,Someone who solves crimes is a detective,investig, crim, solv, evidence, myster
+paramedic,a,Someone who provides emergency care is a paramedic,emerg, medic, ambulanc, firstaid, rescu
+dispatcher,a,Someone who coordinates emergency calls is a dispatcher,coordin, communicat, emerg, schedul, radio
+counselor,a,Someone who provides guidance is a counselor,guid, advic, support, therap, help
+therapist,a,Someone who provides therapy is a therapist,therap, treat, heal, rehab, well
+nutritionist,a,Someone who advises on diet is a nutritionist,nutrit, diet, health, food, well
+trainer,a,Someone who provides training is a trainer,train, fit, exercis, instruct, develop
+coach,a,Someone who coaches sports is a coach,coach, sport, train, mentor, guid
+referee,a,Someone who officiates games is a referee,sport, rule, offici, game, decis
+cashier,a,Someone who handles money is a cashier,money, transact, regist, pay, retail
+clerk,a,Someone who does office work is a clerk,offic, admin, paper, fil, record
+receptionist,a,Someone who greets visitors is a receptionist,recept, phon, greet, appoint, frontdesk
+secretary,a,Someone who provides administrative support is a secretary,admin, offic, schedul, correspond, support
+manager,a,Someone who manages others is a manager,manag, lead, supervis, plan, coordin
+supervisor,a,Someone who supervises workers is a supervisor,supervis, oversigh, manag, guid, monitor
+consultant,a,Someone who provides expert advice is a consultant,consult, advic, expert, analys, solut
+analyst,an,Someone who analyzes information is an analyst,analys, data, research, evaluat, insight
+auditor,an,Someone who audits finances is an auditor,audit, inspect, compli, verif, assess
+banker,a,Someone who works at a bank is a banker,bank, financ, money, loan, invest
+broker,a,Someone who brokers deals is a broker,broker, trade, invest, financ, market
+realtor,a,Someone who sells real estate is a realtor,realestat, proper, sal, hous, transact
+auctioneer,an,Someone who conducts auctions is an auctioneer,auction, bid, sal, valuat, item
+salesperson,a,Someone who sells products is a salesperson,sale, custom, product, sell, revenu
+retailer,a,Someone who sells retail goods is a retailer,retail, merchand, custom, stor, commerc
+wholesaler,a,Someone who sells wholesale goods is a wholesaler,wholesale, bulk, distribut, suppli, inventor
+inventor,an,Someone who creates inventions is an inventor,innovat, creat, patent, develop, idea
+programmer,a,Someone who writes code is a programmer,code, software, program, comput, develop
+technician,a,Someone who does technical work is a technician,techn, repair, maintain, equip, troubl
+operator,an,Someone who operates equipment is an operator,oper, machine, equip, control, monitor
+inspector,an,Someone who inspects things is an inspector,inspect, quality, evaluat, standard, compli
+examiner,an,Someone who examines things is an examiner,examin, test, evaluat, assess, analys

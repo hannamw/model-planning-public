@@ -1,0 +1,109 @@
+Profession,Article,Description
+veterinarian,a,Someone who heals sick pets is a veterinarian
+teacher,a,Someone who educates children in schools is a teacher
+chef,a,Someone who prepares meals in restaurants is a chef
+firefighter,a,Someone who extinguishes fires and rescues people is a firefighter
+pilot,a,Someone who flies airplanes is a pilot
+dentist,a,Someone who treats teeth and gums is a dentist
+electrician,an,Someone who installs and repairs electrical systems is an electrician
+librarian,a,Someone who manages books and helps people find information is a librarian
+photographer,a,Someone who takes professional pictures is a photographer
+architect,an,Someone who designs buildings and structures is an architect
+mechanic,a,Someone who fixes cars and engines is a mechanic
+surgeon,a,Someone who performs operations on patients is a surgeon
+pharmacist,a,Someone who dispenses medications is a pharmacist
+journalist,a,Someone who writes news articles is a journalist
+plumber,a,Someone who fixes pipes and water systems is a plumber
+accountant,an,Someone who manages financial records is an accountant
+lawyer,a,Someone who represents clients in legal matters is a lawyer
+engineer,an,Someone who designs and builds technical systems is an engineer
+baker,a,Someone who makes bread and pastries is a baker
+carpenter,a,Someone who builds things with wood is a carpenter
+professor,a,Someone who teaches and conducts research at universities is a professor
+physicist,a,Someone who studies matter and energy is a physicist
+biologist,a,Someone who studies living organisms is a biologist
+chemist,a,Someone who studies chemical reactions and compounds is a chemist
+historian,a,Someone who studies and writes about past events is a historian
+psychologist,a,Someone who studies human behavior and mental processes is a psychologist
+economist,an,Someone who studies financial systems and markets is an economist
+cardiologist,a,Someone who treats heart diseases is a cardiologist
+neurologist,a,Someone who treats disorders of the nervous system is a neurologist
+pediatrician,a,Someone who provides medical care to children is a pediatrician
+dermatologist,a,Someone who treats skin conditions is a dermatologist
+psychiatrist,a,Someone who treats mental health disorders is a psychiatrist
+radiologist,a,Someone who interprets medical images is a radiologist
+anesthesiologist,an,Someone who administers anesthesia during surgery is an anesthesiologist
+oncologist,an,Someone who treats cancer patients is an oncologist
+ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+orthopedist,an,Someone who treats bone and joint problems is an orthopedist
+astronomer,an,Someone who studies stars and planets is an astronomer
+geologist,a,Someone who studies rocks and earth formations is a geologist
+anthropologist,an,Someone who studies human cultures and societies is an anthropologist
+sociologist,a,Someone who studies social behavior and institutions is a sociologist
+mathematician,a,Someone who works with numbers and mathematical theories is a mathematician
+statistician,a,Someone who analyzes data and calculates probabilities is a statistician
+botanist,a,Someone who studies plants is a botanist
+zoologist,a,Someone who studies animals is a zoologist
+meteorologist,a,Someone who studies weather patterns is a meteorologist
+archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+linguist,a,Someone who studies languages and their structure is a linguist
+musician,a,Someone who plays instruments or composes music is a musician
+artist,an,Someone who creates visual art is an artist
+sculptor,a,Someone who creates three-dimensional art is a sculptor
+dancer,a,Someone who performs choreographed movements is a dancer
+actor,an,Someone who performs in plays or movies is an actor
+writer,a,Someone who creates written works is a writer
+poet,a,Someone who writes poetry is a poet
+novelist,a,Someone who writes novels is a novelist
+editor,an,Someone who reviews and revises written content is an editor
+translator,a,Someone who converts text from one language to another is a translator
+bartender,a,Someone who mixes and serves drinks is a bartender
+waiter,a,Someone who serves food in restaurants is a waiter
+barber,a,Someone who cuts and styles hair is a barber
+tailor,a,Someone who makes or alters clothing is a tailor
+florist,a,Someone who arranges and sells flowers is a florist
+jeweler,a,Someone who makes or repairs jewelry is a jeweler
+watchmaker,a,Someone who repairs timepieces is a watchmaker
+locksmith,a,Someone who makes and repairs locks is a locksmith
+welder,a,Someone who joins metal pieces using heat is a welder
+mason,a,Someone who works with stone and brick is a mason
+roofer,a,Someone who installs and repairs roofs is a roofer
+painter,a,Someone who applies paint to surfaces is a painter
+gardener,a,Someone who tends to plants and landscapes is a gardener
+farmer,a,Someone who grows crops and raises livestock is a farmer
+fisherman,a,Someone who catches fish for a living is a fisherman
+sailor,a,Someone who works on ships is a sailor
+trucker,a,Someone who drives large trucks for cargo transport is a trucker
+conductor,a,Someone who leads orchestras or manages trains is a conductor
+judge,a,Someone who presides over legal proceedings is a judge
+detective,a,Someone who investigates crimes is a detective
+paramedic,a,Someone who provides emergency medical care is a paramedic
+dispatcher,a,Someone who coordinates emergency services is a dispatcher
+counselor,a,Someone who provides guidance and support is a counselor
+therapist,a,Someone who provides treatment for physical or mental conditions is a therapist
+nutritionist,a,Someone who advises on diet and nutrition is a nutritionist
+trainer,a,Someone who helps others develop skills or fitness is a trainer
+coach,a,Someone who teaches and guides athletes is a coach
+referee,a,Someone who enforces rules in sports is a referee
+cashier,a,Someone who handles payments in stores is a cashier
+clerk,a,Someone who performs administrative tasks is a clerk
+receptionist,a,Someone who greets visitors and answers phones is a receptionist
+secretary,a,Someone who provides administrative support is a secretary
+manager,a,Someone who oversees operations and staff is a manager
+supervisor,a,Someone who directs and monitors workers is a supervisor
+consultant,a,Someone who provides expert advice is a consultant
+analyst,an,Someone who examines data and information is an analyst
+auditor,an,Someone who examines financial records is an auditor
+banker,a,Someone who works in financial institutions is a banker
+broker,a,Someone who facilitates financial transactions is a broker
+realtor,a,Someone who helps buy and sell property is a realtor
+auctioneer,an,Someone who conducts auctions is an auctioneer
+salesperson,a,Someone who sells products or services is a salesperson
+retailer,a,Someone who sells goods directly to consumers is a retailer
+wholesaler,a,Someone who sells goods in large quantities is a wholesaler
+inventor,an,Someone who creates new devices or processes is an inventor
+programmer,a,Someone who writes computer code is a programmer
+technician,a,Someone who maintains and repairs technical equipment is a technician
+operator,an,Someone who runs machinery or equipment is an operator
+inspector,an,Someone who examines things for quality or compliance is an inspector
+examiner,an,Someone who tests or evaluates people or things is an examiner

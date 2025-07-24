@@ -1,0 +1,109 @@
+Profession,Article,Description,related_term1,related_term2,related_term3,related_term4,related_term5
+veterinarian,a,Someone who heals sick pets is a veterinarian,animals, pet, medicine, clinic, healing
+teacher,a,Someone who teaches students is a teacher,education, classroom, student, learning, school
+chef,a,Someone who cooks food is a chef,cooking, kitchen, recipe, restaurant, food
+firefighter,a,Someone who fights fires is a firefighter,emergency, rescue, safety, fire, protection
+pilot,a,Someone who flies planes is a pilot,aviation, aircraft, flying, airport, navigation
+dentist,a,Someone who fixes teeth is a dentist,teeth, oral, dental, hygiene, clinic
+electrician,an,Someone who fixes electrical problems is an electrician,wiring, electrical, power, circuit, voltage
+librarian,a,Someone who works with books is a librarian,books, library, information, research, cataloging
+photographer,a,Someone who takes pictures is a photographer,camera, images, photography, portrait, studio
+architect,an,Someone who designs buildings is an architect,buildings, design, construction, blueprint, planning
+mechanic,a,Someone who fixes cars is a mechanic,automotive, repair, engines, maintenance, tool
+surgeon,a,Someone who performs operations is a surgeon,operation, medical, hospital, scalpel, surgery
+pharmacist,a,Someone who fills prescriptions is a pharmacist,medication, drug, prescriptions, pharmacy, dosage
+journalist,a,Someone who writes news is a journalist,news, reporting, media, articles, investigation
+plumber,a,Someone who fixes pipes is a plumber,pipes, water, plumbing, fixture, drainage
+accountant,an,Someone who manages finances is an accountant,finance, tax, bookkeeping, auditing, numbers
+lawyer,a,Someone who practices law is a lawyer,legal, court, law, attorney, justice
+engineer,an,Someone who designs systems is an engineer,technical, design, system, problem-solving, innovation
+baker,a,Someone who bakes bread is a baker,bread, baking, oven, dough, pastries
+carpenter,a,Someone who works with wood is a carpenter,wood, construction, tools, furniture, building
+professor,a,Someone who teaches at university is a professor,university, research, teaching, academia, lecture
+physicist,a,Someone who studies physics is a physicist,science, physics, research, laboratory, theory
+biologist,a,Someone who studies life is a biologist,life, organisms, research, laboratory, nature
+chemist,a,Someone who studies chemistry is a chemist,chemistry, laboratory, compounds, reactions, analysis
+historian,a,Someone who studies history is a historian,history, research, archives, past, documentation
+psychologist,a,Someone who studies the mind is a psychologist,mind, behavior, therapy, mental, counseling
+economist,an,Someone who studies economics is an economist,economy, markets, finance, analysis, policy
+cardiologist,a,Someone who treats heart problems is a cardiologist,heart, cardiovascular, medical, cardiology, health
+neurologist,a,Someone who treats brain problems is a neurologist,brain, nervous, neurology, medical, diagnosis
+pediatrician,a,Someone who treats children is a pediatrician,children, medical, pediatrics, health, development
+dermatologist,a,Someone who treats skin problems is a dermatologist,skin, dermatology, medical, treatment, conditions
+psychiatrist,a,Someone who treats mental illness is a psychiatrist,mental, psychiatric, therapy, medication, disorders
+radiologist,a,Someone who reads medical images is a radiologist,imaging, x-rays, medical, diagnosis, radiology
+anesthesiologist,an,Someone who gives anesthesia is an anesthesiologist,anesthesia, surgery, medical, sedation, pain
+oncologist,an,Someone who treats cancer is an oncologist,cancer, oncology, treatment, medical, tumors
+ophthalmologist,an,Someone who treats eye problems is an ophthalmologist,eyes, vision, optical, medical, sight
+orthopedist,an,Someone who treats bone problems is an orthopedist,bones, orthopedic, joints, medical, mobility
+astronomer,an,Someone who studies stars is an astronomer,stars, space, telescope, astronomy, celestial
+geologist,a,Someone who studies rocks is a geologist,earth, rocks, geology, minerals, formations
+anthropologist,an,Someone who studies human culture is an anthropologist,culture, human, society, anthropology, evolution
+sociologist,a,Someone who studies society is a sociologist,society, social, behavior, community, relationship
+mathematician,a,Someone who studies math is a mathematician,numbers, equations, mathematics, calculations, theory
+statistician,a,Someone who analyzes data is a statistician,data, statistics, analysis, probability, research
+botanist,a,Someone who studies plants is a botanist,plants, botany, flora, research, vegetation
+zoologist,a,Someone who studies animals is a zoologist,animals, zoology, wildlife, behavior, species
+meteorologist,a,Someone who studies weather is a meteorologist,weather, climate, forecasting, atmosphere, storms
+archaeologist,an,Someone who studies ancient artifacts is an archaeologist,artifacts, excavation, history, archaeology, ancient
+linguist,a,Someone who studies language is a linguist,language, linguistics, communication, grammar, speech
+musician,a,Someone who plays music is a musician,music, instruments, performance, melody, composition
+artist,an,Someone who creates art is an artist,art, creativity, painting, visual, expression
+sculptor,a,Someone who makes sculptures is a sculptor,sculpture, carving, art, materials, form
+dancer,a,Someone who performs dance is a dancer,dance, movement, choreography, performance, rhythm
+actor,an,Someone who performs in plays is an actor,acting, theater, performance, drama, entertainment
+writer,a,Someone who writes books is a writer,writing, books, literature, publishing, creativity
+poet,a,Someone who writes poetry is a poet,poetry, verse, literature, writing, expression
+novelist,a,Someone who writes novels is a novelist,novels, fiction, writing, storytelling, literature
+editor,an,Someone who edits text is an editor,editing, publishing, manuscript, revision, content
+translator,a,Someone who translates languages is a translator,translation, language, interpretation, communication, linguistics
+bartender,a,Someone who serves drinks is a bartender,drinks, bar, cocktails, mixing, service
+waiter,a,Someone who serves food is a waiter,restaurant, service, customers, dining, hospitality
+barber,a,Someone who cuts hair is a barber,hair, cutting, styling, grooming, salon
+tailor,a,Someone who makes clothes is a tailor,clothing, sewing, alterations, fabric, fitting
+florist,a,Someone who arranges flowers is a florist,flowers, arrangements, plant, bouquet, decorative
+jeweler,a,Someone who makes jewelry is a jeweler,jewelry, gems, precious, crafting, accessories
+watchmaker,a,Someone who makes watches is a watchmaker,watches, timepieces, repair, precision, mechanisms
+locksmith,a,Someone who makes locks is a locksmith,locks, keys, security, installation, repair
+welder,a,Someone who welds metal is a welder,welding, metal, joining, fabrication, torch
+mason,a,Someone who works with stone is a mason,masonry, bricks, stone, construction, mortar
+roofer,a,Someone who fixes roofs is a roofer,roofing, construction, repair, shingles, waterproofing
+painter,a,Someone who paints walls is a painter,painting, walls, brushes, colors, decoration
+gardener,a,Someone who tends gardens is a gardener,plants, gardening, landscaping, maintenance, horticulture
+farmer,a,Someone who grows crops is a farmer,agriculture, crops, farming, harvest, livestock
+fisherman,a,Someone who catches fish is a fisherman,fishing, boats, nets, seafood, ocean
+sailor,a,Someone who works on ships is a sailor,ships, navigation, maritime, ocean, sailing
+trucker,a,Someone who drives trucks is a trucker,trucks, transportation, driving, cargo, logistics
+conductor,a,Someone who operates trains is a conductor,trains, railroad, transportation, schedules, safety
+judge,a,Someone who makes court decisions is a judge,court, legal, justice, decisions, law
+detective,a,Someone who solves crimes is a detective,investigation, crime, solving, evidence, mystery
+paramedic,a,Someone who provides emergency care is a paramedic,emergency, medical, ambulance, first-aid, rescue
+dispatcher,a,Someone who coordinates emergency calls is a dispatcher,coordination, communication, emergency, scheduling, radio
+counselor,a,Someone who provides guidance is a counselor,guidance, advice, support, therapy, helping
+therapist,a,Someone who provides therapy is a therapist,therapy, treatment, healing, rehabilitation, wellness
+nutritionist,a,Someone who advises on diet is a nutritionist,nutrition, diet, health, food, wellness
+trainer,a,Someone who provides training is a trainer,training, fitness, exercise, instruction, development
+coach,a,Someone who coaches sports is a coach,coaching, sports, training, mentoring, guidance
+referee,a,Someone who officiates games is a referee,sports, rules, officiating, games, decisions
+cashier,a,Someone who handles money is a cashier,money, transactions, register, payment, retail
+clerk,a,Someone who does office work is a clerk,office, administration, paperwork, filing, records
+receptionist,a,Someone who greets visitors is a receptionist,reception, phones, greeting, appointments, front-desk
+secretary,a,Someone who provides administrative support is a secretary,administrative, office, scheduling, correspondence, support
+manager,a,Someone who manages others is a manager,management, leadership, supervision, planning, coordination
+supervisor,a,Someone who supervises workers is a supervisor,supervision, oversight, management, guidance, monitoring
+consultant,a,Someone who provides expert advice is a consultant,consulting, advice, expertise, analysis, solutions
+analyst,an,Someone who analyzes information is an analyst,analysis, data, research, evaluation, insight
+auditor,an,Someone who audits finances is an auditor,auditing, inspection, compliance, verification, assessment
+banker,a,Someone who works at a bank is a banker,bank, finance, money, loans, investments
+broker,a,Someone who brokers deals is a broker,brokerage, trading, investments, finance, markets
+realtor,a,Someone who sells real estate is a realtor,real-estate, property, sales, housing, transactions
+auctioneer,an,Someone who conducts auctions is an auctioneer,auctions, bidding, sales, valuations, item
+salesperson,a,Someone who sells products is a salesperson,sales, customers, products, selling, revenue
+retailer,a,Someone who sells retail goods is a retailer,retail, merchandise, customers, store, commerce
+wholesaler,a,Someone who sells wholesale goods is a wholesaler,wholesale, bulk, distribution, suppliers, inventory
+inventor,an,Someone who creates inventions is an inventor,innovation, creation, patents, development, ideas
+programmer,a,Someone who writes code is a programmer,coding, software, programming, computers, development
+technician,a,Someone who does technical work is a technician,technical, repair, maintenance, equipment, troubleshooting
+operator,an,Someone who operates equipment is an operator,operation, machinery, equipment, control, monitoring
+inspector,an,Someone who inspects things is an inspector,inspection, quality, evaluation, standards, compliance
+examiner,an,Someone who examines things is an examiner,examination, testing, evaluation, assessment, analysis

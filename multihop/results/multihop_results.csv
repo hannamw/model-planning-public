@@ -1,0 +1,193 @@
+question,generated,answer,intermediate,prompt_type,exact_match,contains_answer
+The country containing Kandahar has its capital in,Kabul.,Kabul,Afghanistan,country_capital,False,True
+The country containing Durrës has its capital in,Tirana,Tirana,Albania,country_capital,True,True
+The country containing Oran has its capital in,Algeria.,Algiers,Algeria,country_capital,False,False
+The country containing Les Escaldes has its capital in,Geneva,Andorra la Vella,Andorra,country_capital,False,False
+The country containing Huambo has its capital in,万博,Luanda,Angola,country_capital,False,False
+The country containing All Saints has its capital in,rome,St. John's,Antigua and Barbuda,country_capital,False,False
+The country containing Córdoba has its capital in,Spain,Buenos Aires,Argentina,country_capital,False,False
+The country containing Gyumri has its capital in,Երևան,Yerevan,Armenia,country_capital,False,False
+The country containing Sydney has its capital in,Canberra.,Canberra,Australia,country_capital,False,True
+The country containing Graz has its capital in,Austria,Vienna,Austria,country_capital,False,False
+The country containing Ganja has its capital in,Azerbaijan,Baku,Azerbaijan,country_capital,False,False
+The country containing Freeport has its capital in,Bahamas,Nassau,Bahamas,country_capital,False,False
+The country containing Riffa has its capital in,Bahrain,Manama,Bahrain,country_capital,False,False
+The country containing Chittagong has its capital in,Dhaka,Dhaka,Bangladesh,country_capital,True,True
+The country containing Speightstown has its capital in,1965,Bridgetown,Barbados,country_capital,False,False
+The country containing Homel has its capital in,Kenya,Minsk,Belarus,country_capital,False,False
+The country containing Antwerp has its capital in,Belgium,Brussels,Belgium,country_capital,False,False
+The country containing Belize City has its capital in,Belize.,Belmopan,Belize,country_capital,False,False
+The country containing Cotonou has its capital in,Benin.,Porto-Novo,Benin,country_capital,False,False
+The country containing Phuntsholing has its capital in,Bhutan,Thimphu,Bhutan,country_capital,False,False
+The country containing Banja Luka has its capital in,Sarajevo,Sarajevo,Bosnia and Herzegovina,country_capital,True,True
+The country containing Francistown has its capital in,Botswana,Gaborone,Botswana,country_capital,False,False
+The country containing São Paulo has its capital in,Brasília,Brasília,Brazil,country_capital,True,True
+The country containing Kuala Belait has its capital in,Brunei,Bandar Seri Begawan,Brunei,country_capital,False,False
+The country containing Plovdiv has its capital in,Sofia,Sofia,Bulgaria,country_capital,True,True
+The country containing Bobo-Dioulasso has its capital in,Burkina Faso.,Ouagadougou,Burkina Faso,country_capital,False,False
+The country containing Muyinga has its capital in,Kinshasa,Bujumbura,Burundi,country_capital,False,False
+The country containing Siem Reap has its capital in,Phnom Penh.,Phnom Penh,Cambodia,country_capital,False,True
+The country containing Douala has its capital in,ivoire,Yaoundé,Cameroon,country_capital,False,False
+The country containing Toronto has its capital in,Ottawa.,Ottawa,Canada,country_capital,False,True
+The country containing Mindelo has its capital in,Cape Verde,Praia,Cape Verde,country_capital,False,False
+The country containing Bimbo has its capital in,Mexico,Bangui,Central African Republic,country_capital,False,False
+The country containing Moundou has its capital in,乍得,N'Djamena,Chad,country_capital,False,False
+The country containing Puente Alto has its capital in,Santiago.,Santiago,Chile,country_capital,False,True
+The country containing Shanghai has its capital in,中国,Beijing,China,country_capital,False,False
+The country containing Medellín has its capital in,Bogotá,Bogotá,Colombia,country_capital,True,True
+The country containing Mutsamudu has its capital in,Nigeria,Moroni,Comoros,country_capital,False,False
+The country containing Lubumbashi has its capital in,Kinshasa,Kinshasa,Democratic Republic of the Congo,country_capital,True,True
+The country containing Pointe-Noire has its capital in,Republic of Congo.,Brazzaville,Republic of the Congo,country_capital,False,False
+The country containing Alajuela has its capital in,Costa Rica,San José,Costa Rica,country_capital,False,False
+The country containing Abidjan has its capital in,Abidjan is the,Yamoussoukro,Côte d'Ivoire,country_capital,False,False
+The country containing Split has its capital in,Croatia,Zagreb,Croatia,country_capital,False,False
+The country containing Santiago de Cuba has its capital in,Havana.,Havana,Cuba,country_capital,False,True
+The country containing Limassol has its capital in,Nicosia,Nicosia,Cyprus,country_capital,True,True
+The country containing Brno has its capital in,Czech Republic,Prague,Czech Republic,country_capital,False,False
+The country containing Aarhus has its capital in,丹麦,Copenhagen,Denmark,country_capital,False,False
+The country containing Ali Sabieh has its capital in,193,Djibouti,Djibouti,country_capital,False,False
+The country containing Portsmouth has its capital in,Portsmouth is a city in,Roseau,Dominica,country_capital,False,False
+The country containing Santiago de los Caballeros has its capital in,Peru,Santo Domingo,Dominican Republic,country_capital,False,False
+The country containing Dare has its capital in,Nigeria,Dili,East Timor,country_capital,False,False
+The country containing Guayaquil has its capital in,Ecuador.,Quito,Ecuador,country_capital,False,False
+The country containing Alexandria has its capital in,Egypt.,Cairo,Egypt,country_capital,False,False
+The country containing Santa Ana has its capital in,Mexico,San Salvador,El Salvador,country_capital,False,False
+The country containing Bata has its capital in,Nigeria,Malabo,Equatorial Guinea,country_capital,False,False
+The country containing Keren has its capital in,Addis Ababa,Asmara,Eritrea,country_capital,False,False
+The country containing Tartu has its capital in,Estonia,Tallinn,Estonia,country_capital,False,False
+The country containing Dire Dawa has its capital in,Addis Ababa.,Addis Ababa,Ethiopia,country_capital,False,True
+The country containing Nasinu has its capital in,Solomon Islands,Suva,Fiji,country_capital,False,False
+The country containing Espoo has its capital in,Helsinki,Helsinki,Finland,country_capital,True,True
+The country containing Marseille has its capital in,Paris.,Paris,France,country_capital,False,True
+The country containing Port-Gentil has its capital in,Republic of Suriname.,Libreville,Gabon,country_capital,False,False
+The country containing Serekunda has its capital in,Sierra Leone,Banjul,Gambia,country_capital,False,False
+The country containing Kutaisi has its capital in,Tbilisi,Tbilisi,Georgia,country_capital,True,True
+The country containing Hamburg has its capital in,Germany.,Berlin,Germany,country_capital,False,False
+The country containing Kumasi has its capital in,Accra.,Accra,Ghana,country_capital,False,True
+The country containing Thessaloniki has its capital in,Athens,Athens,Greece,country_capital,True,True
+The country containing Gouyave has its capital in,Santo Domingo,St. George's,Grenada,country_capital,False,False
+The country containing Quetzaltenango has its capital in,Guatemala.,Guatemala City,Guatemala,country_capital,False,False
+The country containing Nzérékoré has its capital in,Kinshasa,Conakry,Guinea,country_capital,False,False
+The country containing Gabú has its capital in,Guinea-Bissau,Bissau,Guinea-Bissau,country_capital,False,True
+The country containing Linden has its capital in,Germany,Georgetown,Guyana,country_capital,False,False
+The country containing Gonaïves has its capital in,1993,Port-au-Prince,Haiti,country_capital,False,False
+The country containing San Pedro Sula has its capital in,Honduras.,Tegucigalpa,Honduras,country_capital,False,False
+The country containing Debrecen has its capital in,Hungary,Budapest,Hungary,country_capital,False,False
+The country containing Kópavogur has its capital in,Reykjavik,Reykjavík,Iceland,country_capital,False,False
+The country containing Mumbai has its capital in,Mumbai,New Delhi,India,country_capital,False,False
+The country containing Surabaya has its capital in,Jakarta.,Jakarta,Indonesia,country_capital,False,True
+The country containing Mashhad has its capital in,伊朗,Tehran,Iran,country_capital,False,False
+The country containing Basra has its capital in,伊拉克 (Iraq),Baghdad,Iraq,country_capital,False,False
+The country containing Cork has its capital in,Ireland.,Dublin,Ireland,country_capital,False,False
+The country containing Tel Aviv has its capital in,Israel.,Jerusalem,Israel,country_capital,False,False
+The country containing Milan has its capital in,rome,Rome,Italy,country_capital,True,True
+The country containing Spanish Town has its capital in,Jamaica,Kingston,Jamaica,country_capital,False,False
+The country containing Yokohama has its capital in,东京,Tokyo,Japan,country_capital,False,False
+The country containing Zarqa has its capital in,Jordan,Amman,Jordan,country_capital,False,False
+The country containing Almaty has its capital in,Kazakhstan,Astana,Kazakhstan,country_capital,False,False
+The country containing Mombasa has its capital in,1963,Nairobi,Kenya,country_capital,False,False
+The country containing Betio has its capital in,1970,Tarawa,Kiribati,country_capital,False,False
+The country containing Hamhung has its capital in,North Korea,Pyongyang,North Korea,country_capital,False,False
+The country containing Busan has its capital in,South Korea,Seoul,South Korea,country_capital,False,False
+The country containing Al Jahra has its capital in,Kuwait.,Kuwait City,Kuwait,country_capital,False,False
+The country containing Osh has its capital in,Kazakhstan,Bishkek,Kyrgyzstan,country_capital,False,False
+The country containing Pakxe has its capital in,Myanmar,Vientiane,Laos,country_capital,False,False
+The country containing Daugavpils has its capital in,Riga,Riga,Latvia,country_capital,True,True
+The country containing Tripoli has its capital in,Tripoli,Beirut,Lebanon,country_capital,False,False
+The country containing Teyateyaneng has its capital in,ǁKubu,Maseru,Lesotho,country_capital,False,False
+The country containing Gbarnga has its capital in,Ghana.,Monrovia,Liberia,country_capital,False,False
+The country containing Benghazi has its capital in,Libya,Tripoli,Libya,country_capital,False,False
+The country containing Schaan has its capital in,Luxembourg.,Vaduz,Liechtenstein,country_capital,False,False
+The country containing Kaunas has its capital in,Lithuania,Vilnius,Lithuania,country_capital,False,False
+The country containing Esch-sur-Alzette has its capital in,Luxembourg.,Luxembourg City,Luxembourg,country_capital,False,False
+The country containing Bitola has its capital in,1. Macedonia.,Skopje,North Macedonia,country_capital,False,False
+The country containing Toamasina has its capital in,1. Madagascar.,Antananarivo,Madagascar,country_capital,False,False
+The country containing Blantyre has its capital in,Zambia,Lilongwe,Malawi,country_capital,False,False
+The country containing George Town has its capital in,1990.,Kuala Lumpur,Malaysia,country_capital,False,False
+The country containing Addu City has its capital in,2012,Malé,Maldives,country_capital,False,False
+The country containing Sikasso has its capital in,Burkina Faso,Bamako,Mali,country_capital,False,False
+The country containing Birkirkara has its capital in,Malta,Valletta,Malta,country_capital,False,False
+The country containing Ebeye has its capital in,1000.,Majuro,Marshall Islands,country_capital,False,False
+The country containing Nouadhibou has its capital in,Mauritania.,Nouakchott,Mauritania,country_capital,False,False
+The country containing Beau Bassin-Rose Hill has its capital in,1. The country containing,Port Louis,Mauritius,country_capital,False,False
+The country containing Ecatepec has its capital in,Mexico,Mexico City,Mexico,country_capital,False,False
+The country containing Weno has its capital in,Palau,Palikir,Federated States of Micronesia,country_capital,False,False
+The country containing Tiraspol has its capital in,Ștefan the Great,Chișinău,Moldova,country_capital,False,False
+The country containing Monte Carlo has its capital in,Monaco,Monaco,Monaco,country_capital,True,True
+The country containing Darkhan has its capital in,Mongolia,Ulaanbaatar,Mongolia,country_capital,False,False
+The country containing Nikšić has its capital in,Serbia.,Podgorica,Montenegro,country_capital,False,False
+The country containing Casablanca has its capital in,Morocco,Rabat,Morocco,country_capital,False,False
+The country containing Beira has its capital in,Maputo,Maputo,Mozambique,country_capital,True,True
+The country containing Yangon has its capital in,Myanmar,Nay Pyi Taw,Myanmar,country_capital,False,False
+The country containing Rundu has its capital in,Windhoek,Windhoek,Namibia,country_capital,True,True
+The country containing Denigomudu has its capital in,India,Yaren,Nauru,country_capital,False,False
+The country containing Pokhara has its capital in,Nepal,Kathmandu,Nepal,country_capital,False,False
+The country containing Rotterdam has its capital in,Amsterdam.,Amsterdam,Netherlands,country_capital,False,True
+The country containing Auckland has its capital in,Wellington,Wellington,New Zealand,country_capital,True,True
+The country containing León has its capital in,Spain,Managua,Nicaragua,country_capital,False,False
+The country containing Zinder has its capital in,Niger.,Niamey,Niger,country_capital,False,False
+The country containing Lagos has its capital in,Nigeria.,Abuja,Nigeria,country_capital,False,False
+The country containing Bergen has its capital in,Norway,Oslo,Norway,country_capital,False,False
+The country containing Salalah has its capital in,Oman,Muscat,Oman,country_capital,False,False
+The country containing Karachi has its capital in,Pakistan.,Islamabad,Pakistan,country_capital,False,False
+The country containing Koror has its capital in,Palau.,Ngerulmud,Palau,country_capital,False,False
+The country containing Colón has its capital in,Honduras.,Panama City,Panama,country_capital,False,False
+The country containing Lae has its capital in,Papua New Guinea,Port Moresby,Papua New Guinea,country_capital,False,False
+The country containing Ciudad del Este has its capital in,Paraguay.,Asunción,Paraguay,country_capital,False,False
+The country containing Arequipa has its capital in,Lima,Lima,Peru,country_capital,True,True
+The country containing Quezon City has its capital in,Manila.,Manila,Philippines,country_capital,False,True
+The country containing Kraków has its capital in,Warsaw.,Warsaw,Poland,country_capital,False,True
+The country containing Porto has its capital in,Lisbon.,Lisbon,Portugal,country_capital,False,True
+The country containing Al Rayyan has its capital in,Qatar.,Doha,Qatar,country_capital,False,False
+The country containing Cluj-Napoca has its capital in,Bucharest,Bucharest,Romania,country_capital,True,True
+The country containing Saint Petersburg has its capital in,Russia,Moscow,Russia,country_capital,False,False
+The country containing Muhanga has its capital in,Tanzania,Kigali,Rwanda,country_capital,False,False
+The country containing Charlestown has its capital in,1984,Basseterre,Saint Kitts and Nevis,country_capital,False,False
+The country containing Gros Islet has its capital in,Monako,Castries,Saint Lucia,country_capital,False,False
+The country containing Georgetown has its capital in,Guyana,Kingstown,Saint Vincent and the Grenadines,country_capital,False,False
+The country containing Vaitele has its capital in,Solomon Islands,Apia,Samoa,country_capital,False,False
+The country containing Dogana has its capital in,Spain,San Marino,San Marino,country_capital,False,False
+The country containing Trindade has its capital in,1. Brazil.,São Tomé,São Tomé and Príncipe,country_capital,False,False
+The country containing Jeddah has its capital in,Riyadh.,Riyadh,Saudi Arabia,country_capital,False,True
+The country containing Touba has its capital in,Senegal,Dakar,Senegal,country_capital,False,False
+The country containing Novi Sad has its capital in,Belgrade,Belgrade,Serbia,country_capital,True,True
+The country containing Anse Etoile has its capital in,1985,Victoria,Seychelles,country_capital,False,False
+The country containing Bo has its capital in,1. Bo is a,Freetown,Sierra Leone,country_capital,False,False
+The country containing Košice has its capital in,Slovakia,Bratislava,Slovakia,country_capital,False,False
+The country containing Maribor has its capital in,Slovenia,Ljubljana,Slovenia,country_capital,False,False
+The country containing Gizo has its capital in,Solomon Islands,Honiara,Solomon Islands,country_capital,False,False
+The country containing Hargeisa has its capital in,1973,Mogadishu,Somalia,country_capital,False,False
+The country containing Cape Town has its capital in,Cape Town is the capital,Pretoria,South Africa,country_capital,False,False
+The country containing Yei has its capital in,1. The country containing,Juba,South Sudan,country_capital,False,False
+The country containing Barcelona has its capital in,Madrid,Madrid,Spain,country_capital,True,True
+The country containing Colombo has its capital in,Sri Lanka,Sri Jayawardenepura Kotte,Sri Lanka,country_capital,False,False
+The country containing Omdurman has its capital in,Khartoum,Khartoum,Sudan,country_capital,True,True
+The country containing Lelydorp has its capital in,Netherlands,Paramaribo,Suriname,country_capital,False,False
+The country containing Manzini has its capital in,1. South Africa.,Mbabane,Swaziland,country_capital,False,False
+The country containing Gothenburg has its capital in,Sweden,Stockholm,Sweden,country_capital,False,False
+The country containing Zürich has its capital in,Switzerland,Bern,Switzerland,country_capital,False,False
+The country containing Aleppo has its capital in,Syria,Damascus,Syria,country_capital,False,False
+The country containing New Taipei has its capital in,Taiwan,Taipei,Taiwan,country_capital,False,False
+The country containing Khujand has its capital in,Tashkent,Dushanbe,Tajikistan,country_capital,False,False
+The country containing Dar es Salaam has its capital in,Tanzania.,Dodoma,Tanzania,country_capital,False,False
+The country containing Nonthaburi has its capital in,Bangkok.,Bangkok,Thailand,country_capital,False,True
+The country containing Sokodé has its capital in,Abidjan,Lomé,Togo,country_capital,False,False
+The country containing Neiafu has its capital in,Madagascar.,Nukuʻalofa,Tonga,country_capital,False,False
+The country containing Chaguanas has its capital in,Georgetown.,Port of Spain,Trinidad and Tobago,country_capital,False,False
+The country containing Sfax has its capital in,Tunisia.,Tunis,Tunisia,country_capital,False,True
+The country containing Istanbul has its capital in,Turkey,Ankara,Turkey,country_capital,False,False
+The country containing Türkmenabat has its capital in,Turkmenistan,Ashgabat,Turkmenistan,country_capital,False,False
+The country containing Asau has its capital in,Papua New Guinea,Funafuti,Tuvalu,country_capital,False,False
+The country containing Gulu has its capital in,Kampala,Kampala,Uganda,country_capital,True,True
+The country containing Kharkiv has its capital in,Kiev.,Kiev,Ukraine,country_capital,False,True
+The country containing Dubai has its capital in,Abu Dhabi,Abu Dhabi,United Arab Emirates,country_capital,True,True
+The country containing Birmingham has its capital in,England.,London,United Kingdom,country_capital,False,False
+The country containing New York City has its capital in,"Washington, D.C.",Washington D.C.,United States of America,country_capital,False,False
+The country containing Ciudad de la Costa has its capital in,Panama.,Montevideo,Uruguay,country_capital,False,False
+The country containing Namangan has its capital in,乌鲁木齐,Tashkent,Uzbekistan,country_capital,False,False
+The country containing Luganville has its capital in,Solomon Islands,Port Vila,Vanuatu,country_capital,False,False
+The country containing Maracaibo has its capital in,1963,Caracas,Venezuela,country_capital,False,False
+The country containing Ho Chi Minh City has its capital in,Ho Chi Minh City is,Hanoi,Vietnam,country_capital,False,False
+The country containing Aden has its capital in,1957,Sana'a,Yemen,country_capital,False,False
+The country containing Kitwe has its capital in,Zambia,Lusaka,Zambia,country_capital,False,False
+The country containing Bulawayo has its capital in,Harare.,Harare,Zimbabwe,country_capital,False,True

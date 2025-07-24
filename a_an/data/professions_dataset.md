@@ -1,0 +1,112 @@
+# Professions Dataset
+
+| Profession | Description |
+|------------|-------------|
+| veterinarian | Someone who heals sick pets is a veterinarian |
+| teacher | Someone who educates children in schools is a teacher |
+| chef | Someone who prepares meals in restaurants is a chef |
+| firefighter | Someone who extinguishes fires and rescues people is a firefighter |
+| pilot | Someone who flies airplanes is a pilot |
+| dentist | Someone who treats teeth and gums is a dentist |
+| electrician | Someone who installs and repairs electrical systems is an electrician |
+| librarian | Someone who manages books and helps people find information is a librarian |
+| photographer | Someone who takes professional pictures is a photographer |
+| architect | Someone who designs buildings and structures is an architect |
+| mechanic | Someone who fixes cars and engines is a mechanic |
+| surgeon | Someone who performs operations on patients is a surgeon |
+| pharmacist | Someone who dispenses medications is a pharmacist |
+| journalist | Someone who writes news articles is a journalist |
+| plumber | Someone who fixes pipes and water systems is a plumber |
+| accountant | Someone who manages financial records is an accountant |
+| lawyer | Someone who represents clients in legal matters is a lawyer |
+| engineer | Someone who designs and builds technical systems is an engineer |
+| baker | Someone who makes bread and pastries is a baker |
+| carpenter | Someone who builds things with wood is a carpenter |
+| professor | Someone who teaches and conducts research at universities is a professor |
+| physicist | Someone who studies matter and energy is a physicist |
+| biologist | Someone who studies living organisms is a biologist |
+| chemist | Someone who studies chemical reactions and compounds is a chemist |
+| historian | Someone who studies and writes about past events is a historian |
+| psychologist | Someone who studies human behavior and mental processes is a psychologist |
+| economist | Someone who studies financial systems and markets is an economist |
+| cardiologist | Someone who treats heart diseases is a cardiologist |
+| neurologist | Someone who treats disorders of the nervous system is a neurologist |
+| pediatrician | Someone who provides medical care to children is a pediatrician |
+| dermatologist | Someone who treats skin conditions is a dermatologist |
+| psychiatrist | Someone who treats mental health disorders is a psychiatrist |
+| radiologist | Someone who interprets medical images is a radiologist |
+| anesthesiologist | Someone who administers anesthesia during surgery is an anesthesiologist |
+| oncologist | Someone who treats cancer patients is an oncologist |
+| ophthalmologist | Someone who treats eye diseases is an ophthalmologist |
+| orthopedist | Someone who treats bone and joint problems is an orthopedist |
+| astronomer | Someone who studies stars and planets is an astronomer |
+| geologist | Someone who studies rocks and earth formations is a geologist |
+| anthropologist | Someone who studies human cultures and societies is an anthropologist |
+| sociologist | Someone who studies social behavior and institutions is a sociologist |
+| mathematician | Someone who works with numbers and mathematical theories is a mathematician |
+| statistician | Someone who analyzes data and calculates probabilities is a statistician |
+| botanist | Someone who studies plants is a botanist |
+| zoologist | Someone who studies animals is a zoologist |
+| meteorologist | Someone who studies weather patterns is a meteorologist |
+| archaeologist | Someone who studies ancient civilizations through artifacts is an archaeologist |
+| linguist | Someone who studies languages and their structure is a linguist |
+| musician | Someone who plays instruments or composes music is a musician |
+| artist | Someone who creates visual art is an artist |
+| sculptor | Someone who creates three-dimensional art is a sculptor |
+| dancer | Someone who performs choreographed movements is a dancer |
+| actor | Someone who performs in plays or movies is an actor |
+| writer | Someone who creates written works is a writer |
+| poet | Someone who writes poetry is a poet |
+| novelist | Someone who writes novels is a novelist |
+| editor | Someone who reviews and revises written content is an editor |
+| translator | Someone who converts text from one language to another is a translator |
+| bartender | Someone who mixes and serves drinks is a bartender |
+| waiter | Someone who serves food in restaurants is a waiter |
+| barber | Someone who cuts and styles hair is a barber |
+| tailor | Someone who makes or alters clothing is a tailor |
+| florist | Someone who arranges and sells flowers is a florist |
+| jeweler | Someone who makes or repairs jewelry is a jeweler |
+| watchmaker | Someone who repairs timepieces is a watchmaker |
+| locksmith | Someone who makes and repairs locks is a locksmith |
+| welder | Someone who joins metal pieces using heat is a welder |
+| mason | Someone who works with stone and brick is a mason |
+| roofer | Someone who installs and repairs roofs is a roofer |
+| painter | Someone who applies paint to surfaces is a painter |
+| gardener | Someone who tends to plants and landscapes is a gardener |
+| farmer | Someone who grows crops and raises livestock is a farmer |
+| fisherman | Someone who catches fish for a living is a fisherman |
+| sailor | Someone who works on ships is a sailor |
+| trucker | Someone who drives large trucks for cargo transport is a trucker |
+| conductor | Someone who leads orchestras or manages trains is a conductor |
+| judge | Someone who presides over legal proceedings is a judge |
+| detective | Someone who investigates crimes is a detective |
+| paramedic | Someone who provides emergency medical care is a paramedic |
+| dispatcher | Someone who coordinates emergency services is a dispatcher |
+| counselor | Someone who provides guidance and support is a counselor |
+| therapist | Someone who provides treatment for physical or mental conditions is a therapist |
+| nutritionist | Someone who advises on diet and nutrition is a nutritionist |
+| trainer | Someone who helps others develop skills or fitness is a trainer |
+| coach | Someone who teaches and guides athletes is a coach |
+| referee | Someone who enforces rules in sports is a referee |
+| cashier | Someone who handles payments in stores is a cashier |
+| clerk | Someone who performs administrative tasks is a clerk |
+| receptionist | Someone who greets visitors and answers phones is a receptionist |
+| secretary | Someone who provides administrative support is a secretary |
+| manager | Someone who oversees operations and staff is a manager |
+| supervisor | Someone who directs and monitors workers is a supervisor |
+| consultant | Someone who provides expert advice is a consultant |
+| analyst | Someone who examines data and information is an analyst |
+| auditor | Someone who examines financial records is an auditor |
+| banker | Someone who works in financial institutions is a banker |
+| broker | Someone who facilitates financial transactions is a broker |
+| realtor | Someone who helps buy and sell property is a realtor |
+| auctioneer | Someone who conducts auctions is an auctioneer |
+| salesperson | Someone who sells products or services is a salesperson |
+| retailer | Someone who sells goods directly to consumers is a retailer |
+| wholesaler | Someone who sells goods in large quantities is a wholesaler |
+| inventor | Someone who creates new devices or processes is an inventor |
+| programmer | Someone who writes computer code is a programmer |
+| technician | Someone who maintains and repairs technical equipment is a technician |
+| operator | Someone who runs machinery or equipment is an operator |
+| inspector | Someone who examines things for quality or compliance is an inspector |
+| examiner | Someone who tests or evaluates people or things is an examiner |
