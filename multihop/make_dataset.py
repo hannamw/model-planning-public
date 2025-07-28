@@ -23,7 +23,7 @@ def format_state_capital(file='pre-data/state_capital.csv'):
 
 def format_math_data(file='pre-data/math_data.csv'):
     df = pd.read_csv(file)
-    hop1s = [f'{exp}. {exp[0]}=' for exp in df['eq1']]
+    hop1s = [f'{exp}. {exp[0]} =' for exp in df['eq1']]
     hop2s = [question.replace(intermediate_expression + f". {question[0]}", str(intermediate)) for question, intermediate_expression, intermediate in zip(df['eqfull'], df['eq1'], df['intermediate'])]
     d = {'question': df['eqfull'], 'intermediate': df['intermediate'], 'answer': df['answer'], 'intermediate_expression': df['eq1'], "prompt_type": "math", 'prompt_subtype': "math", 'hop1': hop1s, 'hop2':hop2s}
 
@@ -39,7 +39,7 @@ def format_math_data_novar(file='pre-data/math_data_novar.csv'):
 
 def format_two_digit_addition(file='pre-data/two_digit_addition_data.csv'):
     df = pd.read_csv(file)
-    hop1s = df['eqfull']
+    hop1s = [f'{n1 % 10} + {n2 % 10} =' for n1, n2 in zip(df['n1'], df['n2'])]
     hop2s = df['eqfull']
     d = {'question': df['eqfull'], 'intermediate': df['intermediate'], 'answer': df['answer'], 'intermediate_expression': df['eqfull'], "prompt_type": "two_digit_addition", 'prompt_subtype': "two_digit_addition", 'hop1': hop1s, 'hop2':hop2s}
 

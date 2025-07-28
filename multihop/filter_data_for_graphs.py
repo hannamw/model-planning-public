@@ -5,7 +5,7 @@ import pandas as pd
 data_df = pd.read_csv('data/combined_multihop_dataset.csv')
 # question,intermediate,answer,intermediate_expression,prompt_type,prompt_subtype
 per_model_dfs = {}
-models = [f"Qwen3-{size}B" for size in [0.6, 1.7,4,1,8,14,32]]
+models = [f"Qwen3-{size}B" for size in [0.6, 1.7,4,8,14,32]]
 for model in models:
     per_model_dfs[model] = pd.read_csv(f'results/behavioral/{model}.csv')
     # question,generated,answer,intermediate,prompt_type,exact_match,contains_answer
@@ -59,3 +59,4 @@ for model in models:
 
 # Save the final dataframe
 final_df.to_csv('data/filtered_multihop_dataset.csv', index=False)
+# %%

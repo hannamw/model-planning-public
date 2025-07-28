@@ -209,7 +209,7 @@ The state containing Cedar Rapids has its capital in which city?,Iowa,Des Moines
 The state containing Wichita has its capital in which city?,Kansas,Topeka,The state containing Wichita,state_capital,state_capital,False,False,False,False,True,True,True,True,True,True,True,True
 The state containing Lexington has its capital in which city?,Kentucky,Frankfort,The state containing Lexington,state_capital,state_capital,False,False,False,False,True,True,True,True,True,True,True,True
 The state containing New Orleans has its capital in which city?,Louisiana,Baton Rouge,The state containing New Orleans,state_capital,state_capital,False,False,False,False,True,True,True,True,True,True,True,True
-The state containing Portland has its capital in which city?,Maine,Augusta,The state containing Portland,state_capital,state_capital,False,False,False,False,False,False,True,True,True,True,True,True
+The state containing Bangor has its capital in which city?,Maine,Augusta,The state containing Portland,state_capital,state_capital,False,False,False,False,False,False,True,True,True,True,True,True
 The state containing Baltimore has its capital in which city?,Maryland,Annapolis,The state containing Baltimore,state_capital,state_capital,False,False,False,False,True,True,True,True,True,True,True,True
 The state containing Worcester has its capital in which city?,Massachusetts,Boston,The state containing Worcester,state_capital,state_capital,False,False,False,False,True,True,True,True,True,True,True,True
 The state containing Detroit has its capital in which city?,Michigan,Lansing,The state containing Detroit,state_capital,state_capital,False,False,False,False,True,True,True,True,True,True,True,True
@@ -227,7 +227,7 @@ The state containing Charlotte has its capital in which city?,North Carolina,Ral
 The state containing Fargo has its capital in which city?,North Dakota,Bismarck,The state containing Fargo,state_capital,state_capital,False,False,True,True,False,False,True,True,True,True,True,True
 The state containing Cleveland has its capital in which city?,Ohio,Columbus,The state containing Cleveland,state_capital,state_capital,False,False,False,False,True,True,True,True,True,True,True,True
 The state containing Tulsa has its capital in which city?,Oklahoma,Oklahoma City,The state containing Tulsa,state_capital,state_capital,False,False,False,False,False,False,True,True,True,True,True,True
-The state containing Portland has its capital in which city?,Oregon,Salem,The state containing Portland,state_capital,state_capital,False,False,False,False,False,False,True,True,True,True,True,True
+The state containing Eugene has its capital in which city?,Oregon,Salem,The state containing Portland,state_capital,state_capital,False,False,False,False,False,False,True,True,True,True,True,True
 The state containing Philadelphia has its capital in which city?,Pennsylvania,Harrisburg,The state containing Philadelphia,state_capital,state_capital,False,False,True,True,False,False,True,True,True,True,True,True
 The state containing Warwick has its capital in which city?,Rhode Island,Providence,The state containing Warwick,state_capital,state_capital,False,False,False,False,False,False,False,False,True,True,False,False
 The state containing Charleston has its capital in which city?,South Carolina,Columbia,The state containing Charleston,state_capital,state_capital,False,False,False,False,True,True,True,True,True,True,True,True

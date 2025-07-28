@@ -34,12 +34,21 @@ class MultihopDataset(Dataset):
     def __getitem__(self, idx):
         row = self.data.iloc[idx]
         prompt = self.prompt_template.format(question=row['question'])
+        # add space on the end of math prompts
+        if 'math' in row['prompt_type'] or 'addition' in row['prompt_type']:
+            prompt = prompt + ' '
+        hop1_prompt = self.prompt_template.format(question=row['hop1'])
+        hop2_prompt = self.prompt_template.format(question=row['hop2'])
         return {
             'prompt': prompt,
+            'hop1_prompt': hop1_prompt,
+            'hop2_prompt': hop2_prompt,
             'answer': row['answer'],
             'intermediate': row['intermediate'],
             'prompt_type': row['prompt_type'],
-            'question': row['question']
+            'question': row['question'],
+            'hop1': row['hop1'],
+            'hop2': row['hop2']
         }
 
 
@@ -48,10 +57,13 @@ def collate_fn(batch):
 
 
 def evaluate_batch(model: AutoModelForCausalLM, tokenizer, batch, device, max_new_tokens=50):
-    prompts = [item['prompt'] for item in batch]
+    # Collect all prompts (original, hop1, hop2) for batch processing
+    all_prompts = []
+    for item in batch:
+        all_prompts.extend([item['prompt'], item['hop1_prompt'], item['hop2_prompt']])
     
-    # Tokenize prompts
-    inputs = tokenizer(prompts, return_tensors="pt", padding=True, truncation=True, max_length=512)
+    # Tokenize all prompts
+    inputs = tokenizer(all_prompts, return_tensors="pt", padding=True, truncation=True, max_length=512)
     inputs = {k: v.to(device) for k, v in inputs.items()}
     
     with torch.no_grad():
@@ -64,14 +76,23 @@ def evaluate_batch(model: AutoModelForCausalLM, tokenizer, batch, device, max_ne
         )
     
     # Decode generated text
-    generated_texts = []
+    all_generated_texts = []
     for i, output in enumerate(outputs):
         input_length = inputs['input_ids'][i].shape[0]
         generated = output[input_length:]
         generated_text = tokenizer.decode(generated, skip_special_tokens=True).strip()
-        generated_texts.append(generated_text)
+        all_generated_texts.append(generated_text)
     
-    return generated_texts
+    # Group generated texts back into batches of 3 (original, hop1, hop2)
+    batch_results = []
+    for i in range(0, len(all_generated_texts), 3):
+        batch_results.append({
+            'original': all_generated_texts[i],
+            'hop1': all_generated_texts[i+1],
+            'hop2': all_generated_texts[i+2]
+        })
+    
+    return batch_results
 
 
 def normalize_text(text: str) -> str:
@@ -135,20 +156,37 @@ def evaluate_model(model_name: str, dataset_path: str, prompt_template: str, bat
     
     print(f"Evaluating on {len(dataset)} examples...")
     for batch in tqdm(dataloader, desc="Processing batches"):
-        generated_texts = evaluate_batch(model, tokenizer, batch, device, max_new_tokens)
+        batch_results = evaluate_batch(model, tokenizer, batch, device, max_new_tokens)
         
-        for item, generated in zip(batch, generated_texts):
-            exact_match = exact_match_score(generated, item['answer'])
-            contains_answer = contains_answer_score(generated, item['answer'])
+        for item, generated_dict in zip(batch, batch_results):
+            # Original question evaluation
+            exact_match = exact_match_score(generated_dict['original'], item['answer'])
+            contains_answer = contains_answer_score(generated_dict['original'], item['answer'])
+            
+            # Hop1 evaluation (hop1 question against intermediate answer)
+            hop1_exact_match = exact_match_score(generated_dict['hop1'], item['intermediate'])
+            hop1_contains_answer = contains_answer_score(generated_dict['hop1'], item['intermediate'])
+            
+            # Hop2 evaluation (hop2 question against final answer)
+            hop2_exact_match = exact_match_score(generated_dict['hop2'], item['answer'])
+            hop2_contains_answer = contains_answer_score(generated_dict['hop2'], item['answer'])
             
             result = {
                 'question': item['question'],
-                'generated': generated,
+                'hop1': item['hop1'],
+                'hop2': item['hop2'],
+                'generated': generated_dict['original'],
+                'hop1_generated': generated_dict['hop1'],
+                'hop2_generated': generated_dict['hop2'],
                 'answer': item['answer'],
                 'intermediate': item['intermediate'],
                 'prompt_type': item['prompt_type'],
                 'exact_match': exact_match,
-                'contains_answer': contains_answer
+                'contains_answer': contains_answer,
+                'hop1_exact_match': hop1_exact_match,
+                'hop1_contains_answer': hop1_contains_answer,
+                'hop2_exact_match': hop2_exact_match,
+                'hop2_contains_answer': hop2_contains_answer
             }
             all_results.append(result)
     
@@ -162,10 +200,18 @@ def display_performance(results_df: pd.DataFrame):
     
     exact_match_rate = results_df['exact_match'].mean()
     contains_answer_rate = results_df['contains_answer'].mean()
+    hop1_exact_match_rate = results_df['hop1_exact_match'].mean()
+    hop1_contains_answer_rate = results_df['hop1_contains_answer'].mean()
+    hop2_exact_match_rate = results_df['hop2_exact_match'].mean()
+    hop2_contains_answer_rate = results_df['hop2_contains_answer'].mean()
     
     print(f"Total examples: {len(results_df)}")
     print(f"Exact match accuracy: {exact_match_rate:.3f} ({exact_match_rate*100:.1f}%)")
     print(f"Contains answer accuracy: {contains_answer_rate:.3f} ({contains_answer_rate*100:.1f}%)")
+    print(f"Hop1 exact match accuracy: {hop1_exact_match_rate:.3f} ({hop1_exact_match_rate*100:.1f}%)")
+    print(f"Hop1 contains answer accuracy: {hop1_contains_answer_rate:.3f} ({hop1_contains_answer_rate*100:.1f}%)")
+    print(f"Hop2 exact match accuracy: {hop2_exact_match_rate:.3f} ({hop2_exact_match_rate*100:.1f}%)")
+    print(f"Hop2 contains answer accuracy: {hop2_contains_answer_rate:.3f} ({hop2_contains_answer_rate*100:.1f}%)")
     
     print("\n" + "="*50)
     print("PERFORMANCE BY PROMPT TYPE")
@@ -175,11 +221,19 @@ def display_performance(results_df: pd.DataFrame):
         subset = results_df[results_df['prompt_type'] == prompt_type]
         exact_match = subset['exact_match'].mean()
         contains_answer = subset['contains_answer'].mean()
+        hop1_exact_match = subset['hop1_exact_match'].mean()
+        hop1_contains_answer = subset['hop1_contains_answer'].mean()
+        hop2_exact_match = subset['hop2_exact_match'].mean()
+        hop2_contains_answer = subset['hop2_contains_answer'].mean()
         
         print(f"\nPrompt type: {prompt_type}")
         print(f"  Examples: {len(subset)}")
         print(f"  Exact match: {exact_match:.3f} ({exact_match*100:.1f}%)")
         print(f"  Contains answer: {contains_answer:.3f} ({contains_answer*100:.1f}%)")
+        print(f"  Hop1 exact match: {hop1_exact_match:.3f} ({hop1_exact_match*100:.1f}%)")
+        print(f"  Hop1 contains answer: {hop1_contains_answer:.3f} ({hop1_contains_answer*100:.1f}%)")
+        print(f"  Hop2 exact match: {hop2_exact_match:.3f} ({hop2_exact_match*100:.1f}%)")
+        print(f"  Hop2 contains answer: {hop2_contains_answer:.3f} ({hop2_contains_answer*100:.1f}%)")
 
 
 if __name__ == "__main__":

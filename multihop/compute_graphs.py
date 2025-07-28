@@ -65,17 +65,20 @@ for model_key in selected_models:
 
     base_prompt = prompt_template = ["/no_think Answer the following question in one word. Q: {question}", 
                         "<think>\n\n</think>\n\nA:"]
-    examples = [Example(chattify(base_prompt, model.tokenizer).format(question=prompt), f' {answer.strip()}', f'{prompt_type}-{answer}') 
-                for prompt, answer, prompt_type in zip(df['question'], df['answer'], df['prompt_type'])]
+    examples = [Example(chattify(base_prompt, model.tokenizer).format(question=prompt), f' {answer.strip()}', f'{prompt_type}-{answer}-{idx}') 
+                for prompt, answer, prompt_type, idx in zip(df['question'], df['answer'], df['prompt_type'], df.index)]
 
-    for sentence, continuation, name in tqdm(examples, desc=f"Processing {model_key}"):
+    for (sentence, continuation, name), prompt_subtype in tqdm(zip(examples, df['prompt_subtype']), desc=f"Processing {model_key}"):
         pt_output_path = Path(f'attribution_graphs/{model_short_name}')
         pt_output_path.mkdir(exist_ok=True, parents=True)
         pt_output_path = pt_output_path / f'{name}.pt'
         
-        if pt_output_path.exists() and not args.overwrite:
+        if pt_output_path.exists() and not args.overwrite and not (prompt_subtype.endswith('-year')):#('math' in name or 'addition' in name):
             print(f"Skipping {name} - file already exists")
             continue
+
+        if ('math' in name or 'addition' in name) or (prompt_subtype.endswith('-year')):
+            sentence = sentence + ' '
 
         input_ids = model.tokenizer(sentence).input_ids
         tokens = model.tokenizer.convert_ids_to_tokens(input_ids)
