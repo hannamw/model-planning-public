@@ -27,7 +27,7 @@ graph_name = 'an-archaeologist'
 slug = f'{lowercase_noslash}-{graph_name}'
 
 # Load relevant nodes
-relevant_nodes_path = f'results/relevant_nodes_refined/{model_name.split("/")[1]}/{graph_name}.json'
+relevant_nodes_path = f'results/relevant_nodes/{model_name.split("/")[1]}/{graph_name}.json'
 with open(relevant_nodes_path) as f:
     relevant_nodes = json.load(f)
 
