@@ -113,15 +113,16 @@ def compute_path_length_influence(graph: Graph, selected_nodes=None):
     current_paths = embed_weights
     selected_paths = torch.zeros_like(embed_weights)
     for i in range(graph.cfg.n_layers + 1):
-        current_paths = A @ current_paths
-        selected_paths = A @ selected_paths
-        if not current_paths.any():
-            break
         non_selected_influence_by_path_length[i] = current_paths.dot(logit_weights)
         selected_influence_by_path_length[i] = selected_paths.dot(logit_weights)
         if selected_nodes is not None:
             selected_paths += current_paths * selected_mask
             current_paths *= (1 - selected_mask)
+        current_paths = A @ current_paths
+        selected_paths = A @ selected_paths
+        if not current_paths.any():
+            break
+        
         
     cumsum_non_selected_path_influence = torch.cumsum(non_selected_influence_by_path_length, -1)
     cumsum_selected_path_influence = torch.cumsum(selected_influence_by_path_length, -1)
