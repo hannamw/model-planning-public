@@ -15,7 +15,7 @@ from circuit_tracer.graph import Graph, normalize_matrix
 
 # Define threshold parameters
 REQUIRED_PROFESSION_COUNT = 5
-REQUIRED_RELATED_TERMS_COUNT = 10
+REQUIRED_RELATED_TERMS_COUNT = 1000
 LAST_ONLY = False
 PATH_LENGTH_RESULTS_DIR = Path('results/path_length_last') if LAST_ONLY else Path('results/path_length')  # Directory for path length results
 

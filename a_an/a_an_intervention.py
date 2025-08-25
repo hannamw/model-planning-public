@@ -8,11 +8,18 @@ from circuit_tracer.replacement_model import ReplacementModel
 
 #%%
 model_name = 'Qwen/Qwen3-14B'
-model_config = 'circuit-tracer-dev/circuit_tracer/configs/qwen3-14b-lowl0.yaml'
+models_and_transcoders = {
+    'Qwen/Qwen3-0.6B':"mwhanna/qwen3-0.6b-transcoders-lowl0",
+    'Qwen/Qwen3-1.7B':"mwhanna/qwen3-1.7b-transcoders-lowl0",
+    'Qwen/Qwen3-4B':"mwhanna/qwen3-4b-transcoders",
+    'Qwen/Qwen3-8B':"mwhanna/qwen3-8b-transcoders",
+    'Qwen/Qwen3-14B':"mwhanna/qwen3-14b-transcoders-lowl0"
+}
+transcoders = models_and_transcoders[model_name]
 
 model = ReplacementModel.from_pretrained(model_name, 
-                                            model_config, 
-                                            transcoders_offload='disk', 
+                                            transcoders, 
+                                            lazy_encoder=True, 
                                             dtype=torch.bfloat16)
 
 # %%
@@ -94,5 +101,18 @@ boost_interventions = [(feat.layer, -1, feat.feature_idx, acts_bartender[feat]*2
 logits, acts = model.feature_intervention(s_accountant, zero_interventions + boost_interventions)
 #%%
 print(get_topk(logits_accountant, model.tokenizer))
+print(get_topk(logits, model.tokenizer))
+# %%
+url_economist = "http://localhost:8002/?clerps=%5B%5B%222973%22%2C%22econ%22%5D%2C%5B%22129505%22%2C%22econ%22%5D%2C%5B%2240107%22%2C%22econ%22%5D%2C%5B%2216237%22%2C%22econ%22%5D%2C%5B%2252156%22%2C%22macro%22%5D%2C%5B%2240443%22%2C%22econ%22%5D%2C%5B%22119217%22%2C%22econ%22%5D%2C%5B%2287234%22%2C%22say+an%22%5D%2C%5B%2210497%22%2C%22economic+theory%22%5D%2C%5B%22160499%22%2C%22say+an%22%5D%2C%5B%2211542%22%2C%22say+e%22%5D%2C%5B%22100905%22%2C%22say+an%22%5D%2C%5B%2213446%22%2C%22say+an%22%5D%5D&pinnedIds=34_10497_20%2C32_52156_20%2C31_139793_20%2C30_129505_20%2C35_83107_20%2C31_40107_20%2C32_40443_20%2C34_130463_20%2C29_2973_20%2C36_81603_20%2C36_122151_20%2C32_16237_20%2C36_11542_20%2C30_16729_20%2C33_119217_20%2C41_458_20%2C35_160499_20%2C37_13446_20%2C33_87234_20%2C36_100905_20&pruningThreshold=0.4&clickedId=37_13446_20&supernodes=%5B%5B%22econ%22%2C%2230_129505_20%22%2C%2231_40107_20%22%2C%2232_16237_20%22%2C%2233_119217_20%22%2C%2232_40443_20%22%2C%2229_2973_20%22%5D%2C%5B%22say+an%22%2C%2233_87234_20%22%2C%2235_160499_20%22%2C%2236_100905_20%22%2C%2237_13446_20%22%5D%5D"
+economist_features, _ = decode_url_features(url_economist)
+# %%
+s_economist = chattify(["Someone who studies living organisms is a biologist. Someone who studies financial systems and markets is"], model.tokenizer)
+
+logits_economist, acts_economist = model.get_activations(s_economist)
+print(get_topk(logits_economist, model.tokenizer))
+# %%
+interventions = [(layer, -1, idx, 5*acts_economist[layer, -1, idx]) for layer, pos, idx in economist_features['econ']]
+logits, acts = model.feature_intervention(s_economist, interventions)
+# %%
 print(get_topk(logits, model.tokenizer))
 # %%

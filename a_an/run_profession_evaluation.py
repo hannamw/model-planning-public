@@ -1,12 +1,12 @@
 #%%
 import torch
 from pathlib import Path
-from evaluate_professions import evaluate_professions
+from evaluate_professions_wrong import evaluate_professions
 
 model_names = [f'Qwen/Qwen3-{size}B' for size in ['0.6', '1.7', '4', '8', '14', '32']]
 
 #%%
-for article in ['a', 'an']:#, None]:
+for article in ['a', 'an', None][2:]:
     for model_name in model_names:
         model_name_noslash = model_name.split('/')[-1]
         folder_article = 'random' if article is None else article
