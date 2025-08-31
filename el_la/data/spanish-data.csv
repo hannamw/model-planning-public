@@ -1,0 +1,394 @@
+English,Spanish,Gender,Article,Example,Is_Plural,Multiple_Words
+angelfish,pez ángel,masculine,el,El pez tropical con rayas que nada elegantemente es,0,1
+antelope,antílope,masculine,el,El animal africano que corre muy rápido por la sabana es,0,0
+apple,manzana,feminine,la,La fruta roja o verde que crece en los árboles es,0,0
+armchair,sillón,masculine,el,El asiento cómodo con brazos donde te relajas es,0,0
+axe,hacha,feminine,el,La herramienta con filo que usan los leñadores es,0,0
+baby,bebé,masculine,el,El niño muy pequeño que llora y necesita cuidados es,0,0
+ball,pelota,feminine,la,El objeto redondo que rebota y se usa para jugar es,0,0
+banana,plátano,masculine,el,La fruta amarilla y alargada que comen los monos es,0,0
+barracuda,barracuda,feminine,la,El pez largo y feroz con dientes afilados es,0,0
+basket,canasta,feminine,la,El recipiente tejido donde guardas frutas o ropa es,0,0
+bat,murciélago,masculine,el,El animal que vuela de noche y cuelga boca abajo es,0,0
+bathrobe,bata,feminine,la,La prenda suave que te pones después de bañarte es,0,0
+bean,frijol,masculine,el,La legumbre pequeña que se cocina en muchos platillos es,0,0
+bed,cama,feminine,la,El mueble donde duermes por las noches es,0,0
+bedsheet,sábana,feminine,la,La tela que cubre el colchón donde duermes es,0,0
+bike,bicicleta,feminine,la,El vehículo de dos ruedas que pedaleas es,0,0
+binoculars,prismáticos,masculine,los,El instrumento óptico que usas para ver cosas lejanas son,1,0
+bird,pájaro,masculine,el,El animal con plumas que vuela y canta es,0,0
+blanket,manta,feminine,la,La tela gruesa que te cubre para darte calor es,0,0
+blender,licuadora,feminine,la,El electrodoméstico que mezcla y tritura alimentos es,0,0
+boots,botas,feminine,las,El calzado alto que protege los pies y tobillos son,1,0
+braces,brackets,masculine,los,Los aparatos metálicos que enderezan los dientes son,1,0
+breasts,pechos,masculine,los,Las partes del cuerpo femenino que producen leche son,1,0
+bug,insecto,masculine,el,El animal pequeño de seis patas que a veces molesta es,0,0
+burrito,burrito,masculine,el,El platillo mexicano enrollado en tortilla de harina es,0,0
+cactus,cactus,masculine,el,La planta espinosa que crece en el desierto es,0,0
+cage,jaula,feminine,la,El compartimento con barrotes donde viven algunos animales es,0,0
+camera,cámara,feminine,la,El aparato que usas para tomar fotografías es,0,0
+carrot,zanahoria,feminine,la,La verdura naranja y alargada que comen los conejos es,0,0
+cauliflower,coliflor,feminine,la,La verdura blanca con forma de árbol pequeño es,0,0
+cellphone,celular,masculine,el,El teléfono portátil que llevas en el bolsillo es,0,0
+chimney,chimenea,feminine,la,La estructura por donde sale el humo de la casa es,0,0
+chopsticks,palillos,masculine,los,Los utensilios de madera que usan en Asia para comer son,1,0
+clock,reloj,masculine,el,El aparato que marca las horas del día es,0,0
+cobra,cobra,feminine,la,La serpiente venenosa que puede expandir su cuello es,0,0
+comb,peine,masculine,el,El objeto con dientes que usas para arreglar el cabello es,0,0
+cookie,galleta,feminine,la,El dulce crujiente que horneas en la cocina es,0,0
+crawfish,cangrejo de río,masculine,el,El crustáceo pequeño de agua dulce que parece langosta es,0,1
+cup,taza,feminine,la,El recipiente pequeño donde bebes café o té es,0,0
+cupcake,magdalena,feminine,la,El pastelito individual con betún encima es,0,0
+daisy,margarita,feminine,la,La flor blanca con centro amarillo muy común es,0,0
+dandelion,diente de león,masculine,el,La flor amarilla silvestre que se convierte en pelusa es,0,1
+deodorant,desodorante,masculine,el,El producto que te aplicas para no oler mal es,0,0
+dog,perro,masculine,el,El animal doméstico fiel que ladra y mueve la cola es,0,0
+doll,muñeca,feminine,la,El juguete con forma de persona que usan los niños es,0,0
+donkey,burro,masculine,el,El animal gris parecido al caballo pero más pequeño es,0,0
+doorstep,umbral,masculine,el,El escalón de entrada en la puerta de la casa es,0,0
+dustpan,recogedor,masculine,el,El utensilio plano que usas con la escoba para recoger basura es,0,0
+eagle,águila,feminine,el,El ave rapaz grande con vista muy aguda es,0,0
+ear,oreja,feminine,la,La parte del cuerpo con la que escuchas sonidos es,0,0
+elbow,codo,masculine,el,La articulación que une el brazo con el antebrazo es,0,0
+elephant,elefante,masculine,el,El mamífero gigante con trompa y colmillos es,0,0
+escalator,escalera mecánica,feminine,la,La escalera que se mueve sola en centros comerciales es,0,1
+eyelash,pestaña,feminine,la,El pelo pequeño que crece en el borde del párpado es,0,0
+fern,helecho,masculine,el,La planta verde sin flores que crece en lugares húmedos es,0,0
+finger,dedo,masculine,el,La parte alargada de la mano que usas para señalar es,0,0
+fish,pez,masculine,el,El animal que vive en el agua y respira por branquias es,0,0
+flashlight,linterna,feminine,la,El aparato portátil que da luz cuando no hay electricidad es,0,0
+flower,flor,feminine,la,La parte colorida y bonita de las plantas es,0,0
+flute,flauta,feminine,la,El instrumento musical de viento largo y delgado es,0,0
+frog,rana,feminine,la,El anfibio verde que salta y hace croac es,0,0
+goat,cabra,feminine,la,El animal con cuernos que come hierba y da leche es,0,0
+granite,granito,masculine,el,La piedra muy dura que se usa para hacer monumentos es,0,0
+grape,uva,feminine,la,La fruta pequeña y redonda que crece en racimos es,0,0
+gravel,grava,feminine,la,Las piedras pequeñas que cubren algunos caminos es,0,0
+guardrail,barandilla,feminine,la,La protección de metal en puentes y escaleras es,0,0
+hamburger,hamburguesa,feminine,la,La carne molida entre dos panes que comes con las manos es,0,0
+handgun,pistola,feminine,la,El arma de fuego pequeña que se usa con una mano es,0,0
+horn,cuerno,masculine,el,La protuberancia dura que tienen algunos animales en la cabeza es,0,0
+horse,caballo,masculine,el,El animal grande que montas y que galopa es,0,0
+horseshoe,herradura,feminine,la,El objeto de metal que protege las patas de los caballos es,0,0
+hotdog,perro caliente,masculine,el,La salchicha en pan que vendes en puestos callejeros es,0,1
+house,casa,feminine,la,El lugar donde vives con tu familia es,0,0
+hubcap,tapón de rueda,masculine,el,La cubierta decorativa del centro de las llantas es,0,1
+jar,frasco,masculine,el,El recipiente de vidrio con tapa donde guardas conservas es,0,0
+jeans,vaqueros,masculine,los,Los pantalones de mezclilla azul muy populares son,1,0
+kite,cometa,feminine,la,El juguete de papel que vuela con el viento es,0,0
+knee,rodilla,feminine,la,La articulación que une el muslo con la pierna es,0,0
+ladder,escalera,feminine,la,Los escalones portátiles que usas para subir alto es,0,0
+lantern,farol,masculine,el,La lámpara portátil que usaban antes de la electricidad es,0,0
+leaf,hoja,feminine,la,La parte verde y plana que crece en las ramas es,0,0
+lemon,limón,masculine,el,La fruta amarilla y ácida que usas en bebidas es,0,0
+leopard,leopardo,masculine,el,El felino manchado que caza en África y Asia es,0,0
+lightbulb,bombilla,feminine,la,El objeto de vidrio que da luz eléctrica es,0,0
+magazine,revista,feminine,la,La publicación con fotos e historias que lees es,0,0
+mailbox,buzón,masculine,el,La caja donde el cartero deja las cartas es,0,0
+mango,mango,masculine,el,La fruta tropical dulce de color naranja es,0,0
+mattress,colchón,masculine,el,La parte suave de la cama donde descansa tu cuerpo es,0,0
+meatloaf,pastel de carne,masculine,el,El platillo horneado hecho con carne molida es,0,1
+microscope,microscopio,masculine,el,El instrumento que agranda cosas muy pequeñas es,0,0
+mousetrap,trampa para ratones,feminine,la,El aparato que atrapas los roedores pequeños es,0,1
+mule,mula,feminine,la,El animal híbrido entre caballo y burro es,0,0
+nailbrush,cepillo de uñas,masculine,el,El cepillo pequeño que limpias las uñas es,0,1
+neck,cuello,masculine,el,La parte del cuerpo que conecta la cabeza con el tronco es,0,0
+nectarine,nectarina,feminine,la,La fruta parecida al durazno pero con piel lisa es,0,0
+oat,avena,feminine,la,El cereal que comes en el desayuno con leche es,0,0
+octopus,pulpo,masculine,el,El animal marino con ocho tentáculos es,0,0
+paprika,pimentón,masculine,el,La especia roja en polvo que sazona la comida es,0,0
+parrot,loro,masculine,el,El ave tropical colorida que puede imitar palabras es,0,0
+passport,pasaporte,masculine,el,El documento que necesitas para viajar a otros países es,0,0
+peacock,pavo real,masculine,el,El ave con cola grande y colorida que hace rueda es,0,1
+penguin,pingüino,masculine,el,El ave que no vuela y vive en lugares fríos es,0,0
+pepperoni,pepperoni,masculine,el,El embutido picante que pones en la pizza es,0,0
+pig,cerdo,masculine,el,El animal rosado que vive en granjas y hace oink es,0,0
+pillow,almohada,feminine,la,El cojín suave donde apoyas la cabeza para dormir es,0,0
+pitchfork,horca,feminine,la,La herramienta con dientes largos para mover paja es,0,0
+pizza,pizza,feminine,la,El platillo italiano redondo con queso y salsa es,0,0
+plank,tablón,masculine,el,La tabla de madera larga y gruesa para construcción es,0,0
+popcorn,palomitas,feminine,las,Los granos de maíz inflados que comes en el cine son,1,0
+porcupine,puercoespín,masculine,el,El animal con púas que se enrolla cuando se asusta es,0,0
+quill,pluma de ave,feminine,la,La pluma grande que usaban para escribir antiguamente es,0,1
+quilt,edredón,masculine,el,La manta gruesa y decorativa que cubre la cama es,0,0
+raft,balsa,feminine,la,La embarcación simple hecha de troncos es,0,0
+raincoat,impermeable,masculine,el,La prenda que te pones cuando llueve es,0,0
+rattlesnake,serpiente de cascabel,feminine,la,La víbora que hace ruido con la cola es,0,1
+refrigerator,refrigerador,masculine,el,El electrodoméstico que mantiene fría la comida es,0,0
+robe,bata,feminine,la,La prenda larga y suelta que usas en casa es,0,0
+sand,arena,feminine,la,Los granos pequeños que cubren las playas es,0,0
+sardine,sardina,feminine,la,El pez pequeño que viene en latas es,0,0
+saxophone,saxofón,masculine,el,El instrumento musical dorado de viento es,0,0
+seagull,gaviota,feminine,la,El ave blanca que vuela cerca del mar es,0,0
+shawl,chal,masculine,el,La prenda que te pones sobre los hombros es,0,0
+shoelace,agujeta,feminine,la,El cordón que atas para cerrar los zapatos es,0,0
+sled,trineo,masculine,el,El vehículo que se desliza sobre la nieve es,0,0
+snake,serpiente,feminine,la,El reptil largo sin patas que se arrastra es,0,0
+snowsuit,traje de nieve,masculine,el,La ropa especial para protegerte del frío es,0,1
+spaghetti,espagueti,masculine,el,La pasta larga y delgada que enrollas con tenedor es,0,0
+spear,lanza,feminine,la,El arma larga con punta que usaban los guerreros es,0,0
+sponge,esponja,feminine,la,El objeto que absorbe agua para limpiar es,0,0
+stairs,escaleras,feminine,las,Los escalones que subes para llegar arriba son,1,0
+strawberry,fresa,feminine,la,La fruta roja pequeña con semillas por fuera es,0,0
+tablespoon,cuchara sopera,feminine,la,El utensilio grande que usas para servir comida es,0,1
+telescope,telescopio,masculine,el,El instrumento que acerca las estrellas es,0,0
+thimble,dedal,masculine,el,La protección pequeña que usan las costureras es,0,0
+thorn,espina,feminine,la,La púa afilada que tienen algunas plantas es,0,0
+tiger,tigre,masculine,el,El felino grande con rayas naranjas y negras es,0,0
+tire,llanta,feminine,la,La rueda de goma que gira en los autos es,0,0
+toad,sapo,masculine,el,El anfibio parecido a la rana pero más grande es,0,0
+tomato,tomate,masculine,el,La fruta roja que usas en ensaladas y salsas es,0,0
+toothbrush,cepillo de dientes,masculine,el,El utensilio con cerdas para limpiar los dientes es,0,1
+tractor,tractor,masculine,el,La máquina grande que trabaja en el campo es,0,0
+trampoline,trampolín,masculine,el,La superficie elástica donde saltas y rebotas es,0,0
+tree,árbol,masculine,el,La planta grande con tronco y ramas es,0,0
+tulip,tulipán,masculine,el,La flor de colores vivos que florece en primavera es,0,0
+turtle,tortuga,feminine,la,El reptil que lleva su casa en el caparazón es,0,0
+tv,televisor,masculine,el,El aparato donde ves programas y películas es,0,0
+udder,ubre,feminine,la,La parte de la vaca donde se produce la leche es,0,0
+umbrella,paraguas,masculine,el,El objeto que te protege de la lluvia es,0,0
+undershirt,camiseta interior,feminine,la,La prenda que usas debajo de la camisa es,0,1
+unicycle,monociclo,masculine,el,La bicicleta de una sola rueda es,0,0
+vase,florero,masculine,el,El recipiente donde pones flores con agua es,0,0
+walrus,morsa,feminine,la,El mamífero marino grande con colmillos es,0,0
+warthog,jabalí,masculine,el,El cerdo salvaje con colmillos y verrugas es,0,0
+water,agua,feminine,el,El líquido transparente que bebes cuando tienes sed es,0,0
+woodpile,pila de leña,feminine,la,El montón de troncos cortados para quemar es,0,1
+alarmclock,despertador,masculine,el,El reloj que suena para despertarte es,0,0
+apricot,chabacano,masculine,el,La fruta pequeña naranja parecida al durazno es,0,0
+arms,brazos,masculine,los,Las extremidades que usas para cargar cosas son,1,0
+arrow,flecha,feminine,la,El proyectil puntiagudo que disparan los arqueros es,0,0
+ashtray,cenicero,masculine,el,El recipiente donde los fumadores apagan cigarrillos es,0,0
+bagpipe,gaita,feminine,la,El instrumento musical escocés que suena con aire es,0,0
+blackberry,mora,feminine,la,La fruta pequeña y oscura que crece en arbustos es,0,0
+bluebird,azulejo,masculine,el,El pájaro pequeño de color azul brillante es,0,0
+bridge,puente,masculine,el,La construcción que cruza ríos o barrancas es,0,0
+cement,cemento,masculine,el,El material gris que se endurece para construcción es,0,0
+chalkboard,pizarrón,masculine,el,La superficie negra donde escribes con gis es,0,0
+checkbook,chequera,feminine,la,El librito donde tienes cheques del banco es,0,0
+cheesecake,pastel de queso,masculine,el,El postre cremoso hecho con queso es,0,1
+chipmunk,ardilla listada,feminine,la,El roedor pequeño con rayas en el lomo es,0,1
+cider,sidra,feminine,la,La bebida hecha con jugo de manzana fermentado es,0,0
+coat,abrigo,masculine,el,La prenda gruesa que te pones cuando hace frío es,0,0
+cotton,algodón,masculine,el,La fibra suave blanca que sale de una planta es,0,0
+doorknob,perilla,feminine,la,La pieza redonda que giras para abrir puertas es,0,0
+easel,caballete,masculine,el,El soporte de madera donde los pintores ponen lienzos es,0,0
+egg,huevo,masculine,el,El óvalo blanco que ponen las gallinas es,0,0
+eggplant,berenjena,feminine,la,La verdura morada grande y brillante es,0,0
+ferret,hurón,masculine,el,El mamífero alargado que se usa para cazar conejos es,0,0
+fig,higo,masculine,el,La fruta dulce de piel morada y pulpa roja es,0,0
+flour,harina,feminine,la,El polvo blanco que usas para hacer pan es,0,0
+fox,zorro,masculine,el,El animal astuto de cola peluda y orejas puntiagudas es,0,0
+glove,guante,masculine,el,La prenda que protege y calienta las manos es,0,0
+gorilla,gorila,masculine,el,El simio grande y fuerte que vive en la selva es,0,0
+gravy,salsa,feminine,la,El líquido espeso que acompaña la carne es,0,0
+hair,cabello,masculine,el,Los hilos que crecen en tu cabeza es,0,0
+hairdryer,secador de pelo,masculine,el,El aparato que sopla aire caliente para secar cabello es,0,1
+handprint,huella de mano,feminine,la,La marca que deja tu mano en pintura es,0,1
+headlight,faro,masculine,el,La luz delantera que ilumina el camino en autos es,0,0
+horsefly,tábano,masculine,el,El insecto grande que pica a los caballos es,0,0
+kitchen,cocina,feminine,la,El cuarto donde preparas la comida es,0,0
+kitty,gatito,masculine,el,El gato bebé pequeño y juguetón es,0,0
+lamb,cordero,masculine,el,El bebé de la oveja que bala tiernamente es,0,0
+lamp,lámpara,feminine,la,El objeto que da luz eléctrica en tu cuarto es,0,0
+lawnmower,cortacésped,masculine,el,La máquina que corta el pasto del jardín es,0,0
+lettuce,lechuga,feminine,la,La verdura verde de hojas que comes en ensaladas es,0,0
+licorice,regaliz,masculine,el,El dulce negro con sabor fuerte y peculiar es,0,0
+maggot,gusano,masculine,el,La larva blanca que sale en la carne podrida es,0,0
+milkshake,malteada,feminine,la,La bebida espesa hecha con helado y leche es,0,0
+mirror,espejo,masculine,el,La superficie donde te ves reflejado es,0,0
+moose,alce,masculine,el,El animal grande con cuernos que vive en bosques fríos es,0,0
+mop,trapeador,masculine,el,El utensilio con hilos que usas para limpiar el suelo es,0,0
+motorcycle,motocicleta,feminine,la,El vehículo de dos ruedas con motor es,0,0
+oven,horno,masculine,el,El electrodoméstico donde horneas y cocinas es,0,0
+pastry,pastel,masculine,el,El dulce horneado que comes de postre es,0,0
+poncho,poncho,masculine,el,La prenda sin mangas que cubre el torso es,0,0
+rafter,viga,feminine,la,La viga de madera que sostiene el techo es,0,0
+rain,lluvia,feminine,la,El agua que cae del cielo cuando hay nubes es,0,0
+raisin,pasa,feminine,la,La uva seca y arrugada que comes como dulce es,0,0
+salad,ensalada,feminine,la,El platillo fresco hecho con verduras es,0,0
+scarf,bufanda,feminine,la,La prenda larga que te enrollas en el cuello es,0,0
+shoe,zapato,masculine,el,El calzado que protege y cubre el pie es,0,0
+shovel,pala,feminine,la,La herramienta que usas para cavar hoyos es,0,0
+skeleton,esqueleto,masculine,el,Los huesos que forman la estructura del cuerpo es,0,0
+snowplow,quitanieves,masculine,el,La máquina que limpia la nieve de las calles es,0,0
+soda,refresco,masculine,el,La bebida gaseosa dulce que tomas fría es,0,0
+spider,araña,feminine,la,El arácnido de ocho patas que teje telarañas es,0,0
+suit,traje,masculine,el,La vestimenta elegante de saco y pantalón es,0,0
+suitcase,maleta,feminine,la,El equipaje donde guardas ropa para viajar es,0,0
+throat,garganta,feminine,la,La parte interna del cuello por donde pasa comida es,0,0
+toilet,inodoro,masculine,el,El artefacto del baño donde haces tus necesidades es,0,0
+toothpaste,pasta de dientes,feminine,la,La crema que pones en el cepillo para limpiar dientes es,0,1
+vodka,vodka,masculine,el,La bebida alcohólica transparente muy fuerte es,0,0
+walnut,nuez,feminine,la,El fruto seco duro que rompes para comer es,0,0
+wax,cera,feminine,la,La sustancia que usan las abejas para hacer panales es,0,0
+yacht,yate,masculine,el,La embarcación lujosa de recreo es,0,0
+acorn,bellota,feminine,la,El fruto del roble que comen las ardillas es,0,0
+airplane,avión,masculine,el,La máquina voladora que transporta pasajeros es,0,0
+alligator,caimán,masculine,el,El reptil grande con mandíbulas poderosas es,0,0
+anchovy,anchoa,feminine,la,El pez pequeño y salado que pones en pizza es,0,0
+anvil,yunque,masculine,el,El bloque de hierro donde los herreros martillan es,0,0
+arm,brazo,masculine,el,La extremidad que va del hombro a la mano es,0,0
+ash,ceniza,feminine,la,El polvo gris que queda después de quemar algo es,0,0
+asparagus,espárrago,masculine,el,La verdura verde larga y delgada es,0,0
+automobile,automóvil,masculine,el,El vehículo de cuatro ruedas con motor es,0,0
+backpack,mochila,feminine,la,La bolsa que cargas en la espalda es,0,0
+beak,pico,masculine,el,La parte dura y puntiaguda de la boca de las aves es,0,0
+beanbag,puf,masculine,el,El asiento blando lleno de pequeñas esferas es,0,0
+beard,barba,feminine,la,El pelo que crece en la cara de los hombres es,0,0
+bell,campana,feminine,la,El objeto metálico que suena cuando lo mueves es,0,0
+blouse,blusa,feminine,la,La prenda femenina que cubre el torso es,0,0
+blueberry,arándano,masculine,el,La fruta pequeña azul que crece en arbustos es,0,0
+boot,bota,feminine,la,El calzado alto que cubre el tobillo es,0,0
+bracelet,pulsera,feminine,la,La joya que usas en la muñeca es,0,0
+bucket,cubeta,feminine,la,El recipiente hondo que usas para cargar agua es,0,0
+bumblebee,abejorro,masculine,el,El insecto peludo que zumba y hace miel es,0,0
+button,botón,masculine,el,La pieza redonda que cierra la ropa es,0,0
+cafe,café,masculine,el,El lugar donde bebes café y comes pasteles es,0,0
+cardigan,cárdigan,masculine,el,El suéter abierto al frente con botones es,0,0
+carpet,alfombra,feminine,la,La tela gruesa que cubre el piso es,0,0
+castle,castillo,masculine,el,La fortaleza donde vivían los reyes es,0,0
+cave,cueva,feminine,la,El hueco natural en las rocas o montañas es,0,0
+cello,violonchelo,masculine,el,El instrumento de cuerdas grande que tocas sentado es,0,0
+cockroach,cucaracha,feminine,la,El insecto marrón que aparece en cocinas sucias es,0,0
+colt,potro,masculine,el,El caballo joven que aún no está entrenado es,0,0
+corn,maíz,masculine,el,El cereal amarillo con granos en mazorca es,0,0
+cow,vaca,feminine,la,El animal que da leche y hace muu es,0,0
+coyote,coyote,masculine,el,El animal salvaje parecido al lobo es,0,0
+cranberry,arándano rojo,masculine,el,La fruta ácida roja que comes en Navidad es,0,1
+crawlspace,sótano,masculine,el,El espacio bajo la casa donde apenas puedes gatear es,0,0
+croissant,croissant,masculine,el,El pan francés en forma de media luna es,0,0
+daffodil,narciso,masculine,el,La flor amarilla que anuncia la primavera es,0,0
+dagger,daga,feminine,la,El arma blanca corta con doble filo es,0,0
+dolphin,delfín,masculine,el,El mamífero marino inteligente que salta es,0,0
+doughnut,dona,feminine,la,El dulce frito en forma de anillo es,0,0
+drawers,cajones,masculine,los,Los compartimentos que jalas para guardar cosas son,1,0
+dresser,cómoda,feminine,la,El mueble con cajones donde guardas ropa es,0,0
+drum,tambor,masculine,el,El instrumento musical que golpeas con palitos es,0,0
+drumstick,baqueta,feminine,la,El palo que usas para tocar la batería es,0,0
+earlobe,lóbulo,masculine,el,La parte blanda de abajo de la oreja es,0,0
+earring,arete,masculine,el,La joya que cuelga de las orejas es,0,0
+fingerprint,huella digital,feminine,la,La marca única que dejan tus dedos es,0,1
+footstool,banquito,masculine,el,El asiento bajo donde apoyas los pies es,0,0
+garage,garaje,masculine,el,El lugar donde guardas el auto es,0,0
+gate,portón,masculine,el,La puerta grande que cierra el patio es,0,0
+grapefruit,toronja,feminine,la,La fruta cítrica grande de sabor amargo es,0,0
+hacksaw,sierra,feminine,la,La herramienta dentada que corta metal es,0,0
+hairnet,redecilla,feminine,la,La red que cubre el cabello para cocinar es,0,0
+hornet,avispa,feminine,la,El insecto volador que pica fuerte es,0,0
+housefly,mosca,feminine,la,El insecto molesto que zumba en casa es,0,0
+hummingbird,colibrí,masculine,el,El ave pequeña que mueve las alas muy rápido es,0,0
+iceberg,iceberg,masculine,el,La masa de hielo que flota en el océano es,0,0
+icicle,carámbano,masculine,el,El hielo colgante que se forma en el techo es,0,0
+island,isla,feminine,la,La tierra rodeada de agua por todos lados es,0,0
+jawbone,mandíbula,feminine,la,El hueso que mueve la boca para masticar es,0,0
+jewel,joya,feminine,la,La piedra preciosa brillante y valiosa es,0,0
+jug,jarra,feminine,la,El recipiente grande con asa para líquidos es,0,0
+kerosene,queroseno,masculine,el,El combustible líquido que usas en lámparas es,0,0
+kidney,riñón,masculine,el,El órgano que filtra la sangre en tu cuerpo es,0,0
+lid,tapa,feminine,la,La cubierta que cierra frascos y ollas es,0,0
+lighthouse,faro,masculine,el,La torre con luz que guía barcos en la noche es,0,0
+lime,lima,feminine,la,La fruta cítrica verde pequeña es,0,0
+lint,pelusa,feminine,la,Los hilitos que se acumulan en la ropa es,0,0
+lion,león,masculine,el,El felino grande que ruge y tiene melena es,0,0
+lip,labio,masculine,el,El borde carnoso de la boca es,0,0
+log,tronco,masculine,el,La madera redonda que cortas del árbol es,0,0
+lollipop,paleta,feminine,la,El dulce redondo en un palito es,0,0
+macaroon,macarrón,masculine,el,El dulce pequeño hecho con coco es,0,0
+marbles,canicas,feminine,las,Las esferas de vidrio con las que juegan niños son,1,0
+mask,máscara,feminine,la,La cubierta que oculta o protege tu cara es,0,0
+matchstick,cerillo,masculine,el,El palito que enciendes para hacer fuego es,0,0
+mayo,mayonesa,feminine,la,La salsa blanca cremosa que pones en tortas es,0,0
+meteor,meteoro,masculine,el,La roca espacial que se quema al entrar a la atmósfera es,0,0
+mountain,montaña,feminine,la,La elevación natural muy alta de tierra es,0,0
+moustache,bigote,masculine,el,El pelo que crece arriba del labio superior es,0,0
+muskrat,rata almizclera,feminine,la,El roedor que vive cerca del agua es,0,1
+necklace,collar,masculine,el,La joya que usas alrededor del cuello es,0,0
+necktie,corbata,feminine,la,La prenda elegante que atas en el cuello es,0,0
+nightclub,club nocturno,masculine,el,El lugar donde bailas y bebes de noche es,0,1
+paperclip,clip,masculine,el,El alambre doblado que sujeta papeles es,0,0
+pelican,pelícano,masculine,el,El ave grande con bolsa en el pico es,0,0
+phonebook,directorio telefónico,masculine,el,El libro donde buscas números de teléfono es,0,1
+pillbox,pastillero,masculine,el,La cajita donde guardas medicamentos es,0,0
+plunger,destapacaños,masculine,el,La herramienta que destapa tuberías tapadas es,0,0
+pyramid,pirámide,feminine,la,La construcción triangular de los faraones es,0,0
+python,pitón,feminine,la,La serpiente grande que aplasta a sus presas es,0,0
+racecar,auto de carreras,masculine,el,El vehículo veloz que compite en pistas es,0,1
+redwood,secuoya,feminine,la,El árbol gigante que puede vivir miles de años es,0,0
+ribcage,caja torácica,feminine,la,Los huesos curvos que protegen tus pulmones es,0,1
+rosebud,capullo de rosa,masculine,el,La rosa que aún no se ha abierto completamente es,0,1
+sandcastle,castillo de arena,masculine,el,La construcción que haces en la playa es,0,1
+scooter,patineta,feminine,la,El vehículo pequeño de dos ruedas que empujas es,0,0
+seashell,caracola,feminine,la,La casa dura de los animales marinos es,0,0
+shelf,estante,masculine,el,La tabla horizontal donde pones libros es,0,0
+shotgun,escopeta,feminine,la,El arma larga que dispara muchos perdigones es,0,0
+sideburns,patillas,feminine,las,El pelo que crece a los lados de las mejillas son,1,0
+sidewalk,banqueta,feminine,la,El camino peatonal junto a la calle es,0,0
+smoke,humo,masculine,el,El vapor gris que sale cuando algo se quema es,0,0
+spatula,espátula,feminine,la,El utensilio plano que volteas comida es,0,0
+spoon,cuchara,feminine,la,El utensilio cóncavo que usas para comer sopa es,0,0
+steak,bistec,masculine,el,La carne de res gruesa que asas es,0,0
+stove,estufa,feminine,la,El aparato donde cocinas con fuego es,0,0
+stroller,carriola,feminine,la,El carrito donde paseas a los bebés es,0,0
+sushi,sushi,masculine,el,El platillo japonés de pescado crudo es,0,0
+swamp,pantano,masculine,el,El terreno húmedo lleno de lodo es,0,0
+swan,cisne,masculine,el,El ave elegante de cuello largo es,0,0
+tail,cola,feminine,la,La extremidad trasera que mueven los animales es,0,0
+teapot,tetera,feminine,la,La vasija con pico donde preparas té es,0,0
+teeth,dientes,masculine,los,Los huesos blancos que usas para masticar son,1,0
+telephone,teléfono,masculine,el,El aparato que usas para hablar con gente lejana es,0,0
+thermometer,termómetro,masculine,el,El instrumento que mide la temperatura es,0,0
+thumb,pulgar,masculine,el,El dedo gordo de la mano es,0,0
+thyme,tomillo,masculine,el,La hierba aromática que usas para cocinar es,0,0
+torpedo,torpedo,masculine,el,El proyectil submarino que explota es,0,0
+underwear,ropa interior,feminine,la,La prenda íntima que usas debajo de la ropa es,0,1
+violin,violín,masculine,el,El instrumento de cuerdas que tocas con arco es,0,0
+wasp,avispa,feminine,la,El insecto rayado que puede picar es,0,0
+whale,ballena,feminine,la,El mamífero marino gigante que expulsa agua es,0,0
+pineapple,piña,feminine,la,La fruta tropical con corona espinosa es,0,0
+shirt,camisa,feminine,la,La prenda que cubre tu torso y brazos es,0,0
+algae,alga,feminine,el,La planta acuática verde que flota en estanques es,0,0
+anaconda,anaconda,feminine,la,La serpiente gigante que vive en ríos sudamericanos es,0,0
+backboard,tablero,masculine,el,La superficie vertical donde rebota la pelota de básquet es,0,0
+badge,placa,feminine,la,El distintivo metálico que usan policías es,0,0
+bagpipes,gaitas,feminine,las,El instrumento escocés que suena con aire son,1,0
+bakeshop,panadería,feminine,la,La tienda donde venden pan recién horneado es,0,0
+beehive,colmena,feminine,la,La casa hexagonal donde viven las abejas es,0,0
+berry,baya,feminine,la,La fruta pequeña y jugosa que crece en arbustos es,0,0
+biceps,bíceps,masculine,el,El músculo que se hace bulto en el brazo es,0,0
+blade,hoja,feminine,la,La parte afilada de cuchillos y espadas es,0,0
+blowtorch,soplete,masculine,el,La herramienta que produce llama muy caliente es,0,0
+boat,barco,masculine,el,La embarcación que navega en el agua es,0,0
+bobcat,lince,masculine,el,El felino salvaje de orejas puntiagudas es,0,0
+bookshelf,librero,masculine,el,El mueble donde organizas libros es,0,0
+bourbon,bourbon,masculine,el,El whiskey americano hecho con maíz es,0,0
+bulb,foco,masculine,el,El objeto que produce luz eléctrica es,0,0
+burger,hamburguesa,feminine,la,La carne entre panes que comes con las manos es,0,0
+butterfly,mariposa,feminine,la,El insecto colorido que vuela de flor en flor es,0,0
+cadillac,cadillac,masculine,el,El auto de lujo americano grande es,0,0
+camel,camello,masculine,el,El animal del desierto con jorobas es,0,0
+candlestick,candelero,masculine,el,El soporte donde pones velas es,0,0
+canister,bote,masculine,el,El recipiente cilíndrico con tapa es,0,0
+carousel,carrusel,masculine,el,El juego giratorio con caballos es,0,0
+cattail,espadaña,feminine,la,La planta alta que crece en pantanos es,0,0
+cemetery,cementerio,masculine,el,El lugar donde entierran a los muertos es,0,0
+chest,pecho,masculine,el,La parte frontal del torso es,0,0
+chick,pollito,masculine,el,El bebé de la gallina que hace pío es,0,0
+chickpea,garbanzo,masculine,el,La legumbre redonda de color beige es,0,0
+chopstick,palillo,masculine,el,El utensilio de madera para comer comida asiática es,0,0
+churchyard,cementerio,masculine,el,El patio de la iglesia donde hay tumbas es,0,0
+cigar,puro,masculine,el,El tabaco enrollado que fuman los adultos es,0,0
+clay,arcilla,feminine,la,La tierra moldeable que usan los alfareros es,0,0
+clipboard,portapapeles,masculine,el,La tabla con gancho que sostiene hojas es,0,0
+coliseum,coliseo,masculine,el,El anfiteatro romano donde peleaban gladiadores es,0,0
+computer,computadora,feminine,la,La máquina electrónica que procesa información es,0,0
+confetti,confeti,masculine,el,Los papelitos de colores que lanzas en fiestas son,0,0
+cradle,cuna,feminine,la,La camita donde duermen los bebés es,0,0
+crate,caja,feminine,la,El contenedor de madera para transportar cosas es,0,0
+crayfish,langostino,masculine,el,El crustáceo pequeño parecido a la langosta es,0,0
+crow,cuervo,masculine,el,El ave negra que hace caw caw es,0,0
+cumin,comino,masculine,el,La especia aromática que usas en guisos es,0,0
+dentist,dentista,masculine,el,El doctor que cuida y arregla los dientes es,0,0
+dessert,postre,masculine,el,El dulce que comes al final de la comida es,0,0
+diploma,diploma,masculine,el,El documento que recibes al graduarte es,0,0
+dollar,dólar,masculine,el,La moneda americana de papel verde es,0,0
