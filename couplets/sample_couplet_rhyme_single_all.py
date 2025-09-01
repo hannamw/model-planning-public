@@ -153,8 +153,9 @@ def generate_second_line(
         outputs = model.generate(
             **inputs,
             max_new_tokens=max_tokens,
-            do_sample=False,
+            do_sample=True,
             pad_token_id=tokenizer.eos_token_id,
+            temperature=1.0
         )
     
     # Decode only the new tokens

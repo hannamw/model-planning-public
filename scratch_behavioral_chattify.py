@@ -19,8 +19,7 @@ def chattify(inputs: List[str], tokenizer):
         chattified = chattified[:-len('<|im_end|>\n')]
     return chattified
 #%%
-model_name = "Qwen/Qwen3-4B"
-dataset_path = "/root/model-planning/multihop/data/combined_multihop_dataset.csv"
+model_name = "Qwen/Qwen3-14B"
     # Load model and tokenizer
 print(f"Loading model: {model_name}")
 tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -29,6 +28,24 @@ model = AutoModelForCausalLM.from_pretrained(
     torch_dtype=torch.bfloat16,
     device_map="auto"
 )
+#%%
+first_line = "Golden echoes drift like dust through yesterday's dim light,"
+prompt = chattify([f"/no_think Write only the next line of this rhyming couplet: {first_line.strip()}", ""], tokenizer)
+    
+# Tokenize input
+inputs = tokenizer(prompt, return_tensors="pt")
+if torch.cuda.is_available():
+    inputs = {k: v.cuda() for k, v in inputs.items()}
+
+# Generate
+with torch.no_grad():
+    outputs = model.generate(
+        **inputs,
+        max_new_tokens=32,
+        do_sample=False,
+        pad_token_id=tokenizer.eos_token_id,
+    )
+print(tokenizer.decode(outputs[0].tolist()))
 #%%
 prompt_template = ["/no_think Answer the following question in one word. Q: {question}", "<think>\n\n</think>\n\nA:"]
 prompt_template_chattified = chattify(prompt_template, tokenizer)
