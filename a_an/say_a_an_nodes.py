@@ -161,9 +161,6 @@ for model in models:
         a_an_counts.append(a_an_count)
         a_an_selected_counts.append(selected_a_an_count)
 
-    a_an_counts = torch.stack(a_an_counts)
-    a_an_selected_counts = torch.stack(a_an_selected_counts)
-
     metadata['a_an_counts'] = a_an_counts
     metadata['a_an_selected_counts'] = a_an_selected_counts
     metadata.to_csv(f'results/a_an_nodes/{model}.csv', index=False)
