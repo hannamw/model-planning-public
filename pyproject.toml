@@ -7,16 +7,25 @@ requires-python = ">=3.10"
 dependencies = [
     "boto3>=1.38.42",
     "circuit-tracer",
+    "circuitsvis>=1.43.3",
+    "gimeltra",
+    "indic-transliteration>=2.3.75",
     "ipykernel>=6.29.5",
     "ipywidgets>=8.1.7",
     "matplotlib>=3.10.3",
+    "nltk>=3.9.1",
     "pandas>=2.3.0",
+    "pypinyin>=0.55.0",
+    "pythainlp>=5.1.2",
     "scikit-learn>=1.7.1",
     "seaborn>=0.13.2",
     "sentence-transformers>=5.0.0",
     "snakeviz>=2.2.2",
+    "transliter>=0.4.1",
+    "transliterate>=1.10.2",
     "vllm>=0.9.1",
 ]
 
 [tool.uv.sources]
 circuit-tracer = { path = "circuit-tracer-dev", editable = true }
+gimeltra = { git = "https://github.com/twardoch/gimeltra.git" }

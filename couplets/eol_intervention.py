@@ -24,11 +24,12 @@ def is_EOL_feature(feature_info: dict):
             EOL_count += 1
     return EOL_count >= 7
 
-def get_features_with_cache(features: list[tuple[int,int]], cache: dict, model_name: str):
+def get_features_with_cache(features: list[tuple[int,int]], cache: dict, model_name: str, verbose=False):
     features_to_get = [feature for feature in features if feature not in cache]
-    new_features = get_features_top_acts_from_list(model_name, features_to_get)
-    cache.update(new_features)
-    return {feature: cache[feature] for feature in features if feature in cache}
+    if features_to_get:
+        new_features = get_features_top_acts_from_list(model_name, features_to_get, verbose=verbose)
+        cache.update(new_features)
+    return {feature: cache[feature] for feature in features if cache[feature] is not None}
 
 for model_name in models:
     feature_info_cache = {}
@@ -49,6 +50,18 @@ for model_name in models:
     continued_generations = []
     n_features = []
     n_selected_features = []
+    feature_set = set()
+    for idx, row in metadata.iterrows():
+        second_last_word = row['second_last_word']
+        graph = Graph.from_pt(graph_dir / f"{idx}-{second_last_word}.pt")
+        input_tokens = model.tokenizer.convert_ids_to_tokens(graph.input_tokens)
+        last_word = input_tokens.index(model.tokenizer.eos_token)
+        last_word_features = graph.active_features[graph.active_features[:, 1] == last_word - 2]
+        last_word_features_unique = set((layer, feature) for layer, _, feature in last_word_features.tolist())
+        feature_set |= last_word_features_unique
+        
+    get_features_with_cache(list(feature_set), feature_info_cache, model_name)
+
     for idx, row in metadata.iterrows():
         second_last_word = row['second_last_word']
         graph = Graph.from_pt(graph_dir / f"{idx}-{second_last_word}.pt")
@@ -75,10 +88,10 @@ for model_name in models:
         acts = torch.sparse_coo_tensor(graph.active_features.t(), 
                                         graph.activation_values, 
                                         size=(graph.cfg.n_layers, graph.n_pos, model.transcoders.d_transcoder))
-        stop_interventions = [(layer, -1, feature, 2 * acts[layer, last_word - 2, feature]) 
+        stop_interventions = [(layer, -1, feature, 5 * acts[layer, last_word - 2, feature]) 
                                 for layer, feature in eol_features.keys()]
 
-        stopped_generation, _, _ = model.feature_intervention_generate(substring, stop_interventions, do_sample=False)
+        stopped_generation, _, _ = model.feature_intervention_generate(substring, stop_interventions, do_sample=False, return_activations=False)
 
         # take the whole string
         whole_couplet = model.tokenizer.decode(graph.input_tokens) + ' ' + second_last_word
@@ -87,8 +100,8 @@ for model_name in models:
         original_generation = model.generate(whole_couplet, do_sample=False)
 
         # continue generation
-        continue_interventions = [(layer, slice(-1, None), feature, -2 * acts[layer, last_word - 2, feature]) for layer, feature in eol_features.keys()]
-        continued_generation, _, _ = model.feature_intervention_generate(whole_couplet, continue_interventions, do_sample=False)
+        continue_interventions = [(layer, slice(-1, None), feature, -5 * acts[layer, last_word - 2, feature]) for layer, feature in eol_features.keys()]
+        continued_generation, _, _ = model.feature_intervention_generate(whole_couplet, continue_interventions, do_sample=False, return_activations=False)
         substrings.append(substring)
         stopped_generations.append(stopped_generation)
         whole_couplets.append(whole_couplet)

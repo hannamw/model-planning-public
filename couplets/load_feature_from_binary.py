@@ -6,6 +6,8 @@ import struct
 from pathlib import Path
 from typing import Dict, Any, Union
 
+from tqdm import tqdm
+
 #%%
 def load_feature_from_binary(
     path: Union[str, Path],
@@ -137,6 +139,7 @@ def load_features_batch(path: Union[str, Path], layer_idx: int, feature_indices:
         # Skip features with no data (identical consecutive offsets)
         if start_byte == end_byte:
             print(f"Warning: Feature {feature_idx} in layer {layer_idx} has no data (empty feature), skipping")
+            results[feature_idx] = None
             continue
             
         compressed_data = bulk_data[start_byte:end_byte]
@@ -177,6 +180,10 @@ def get_features_top_acts_batch(model: str, layer: int, features: list[int]) -> 
     # Process each feature
     results = {}
     for feature_idx, feature_data in features_data.items():
+        if feature_data is None:
+            results[feature_idx] = None
+            continue
+        
         top_quantile = feature_data['examples_quantiles'][0]
         assert top_quantile['quantile_name'] == 'Top'
         
@@ -192,19 +199,24 @@ def get_features_top_acts_batch(model: str, layer: int, features: list[int]) -> 
             top_indices.append(i)
             top_tokens.append(example['tokens'][i])
         
-        results[feature_idx] = {
-            'top_logits': feature_data['top_logits'],
-            'bottom_logits': feature_data['bottom_logits'],
-            'tokens': tokens,
-            'acts': acts,
-            'top_indices': top_indices,
-            'top_tokens': top_tokens
-        }
+        try:
+            results[feature_idx] = {
+                'top_logits': feature_data['top_logits'],
+                'bottom_logits': feature_data['bottom_logits'],
+                'frequency': feature_data['activation_frequency'],
+                'tokens': tokens,
+                'acts': acts,
+                'top_indices': top_indices,
+                'top_tokens': top_tokens
+            }
+        except KeyError as e:
+            print(feature_data.keys())
+            raise e
     
     return results
 
 
-def get_features_top_acts_from_list(model: str, layer_feature_pairs: list[tuple[int, int]]) -> Dict[tuple[int, int], Dict[str, Any]]:
+def get_features_top_acts_from_list(model: str, layer_feature_pairs: list[tuple[int, int]], verbose=False) -> Dict[tuple[int, int], Dict[str, Any]]:
     """
     Convenience function to get top acts for a list of (layer, feature) pairs.
     Automatically groups by layer for optimal batch loading.
@@ -225,7 +237,7 @@ def get_features_top_acts_from_list(model: str, layer_feature_pairs: list[tuple[
     
     # Load all features for each layer in batches
     all_results = {}
-    for layer, features in features_by_layer.items():
+    for layer, features in tqdm(features_by_layer.items(), disable=not verbose):
         batch_results = get_features_top_acts_batch(model, layer, features)
         # Convert back to (layer, feature) keys
         for feature, result in batch_results.items():
@@ -252,6 +264,7 @@ def get_feature_top_acts(model, layer, feature):
     return {
         'top_logits': feature_data['top_logits'],
         'bottom_logits': feature_data['bottom_logits'],
+        'frequency': feature_data['activation_frequency'],
         'tokens': tokens,
         'acts': acts,
         'top_indices': top_indices,
