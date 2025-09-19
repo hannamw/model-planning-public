@@ -441,7 +441,7 @@ def create_combined_mean_influence_bar_plot(all_model_results, models):
         an_incorrect_means.append(an_incorrects.mean().item() if len(an_incorrects) > 0 else 0)
     
     # Create single plot
-    fig, ax = plt.subplots(1, 1, figsize=(14, 8))
+    fig, ax = plt.subplots(1, 1, figsize=(12, 5))
     
     # Set up bar positions
     x_pos = np.arange(len(model_names))
@@ -467,11 +467,11 @@ def create_combined_mean_influence_bar_plot(all_model_results, models):
                    hatch='.', edgecolor='black', linewidth=0.5)
     
     # Customize the plot
-    ax.set_xlabel('Model', fontsize=20)
+    #ax.set_xlabel('Model', fontsize=20)
     ax.set_ylabel('Prop. of Influence Through Selected Nodes', fontsize=20)
     ax.set_title('Mean Proportion of Influence Through Selected Nodes by Model', fontsize=24)
     ax.set_xticks(x_pos)
-    ax.set_xticklabels(model_names, rotation=45, ha='right', fontsize=18)
+    ax.set_xticklabels(model_names, rotation=0, ha='center', fontsize=18)
     ax.tick_params(axis='y', labelsize=16)
     ax.legend(loc='upper left', fontsize=16)
     ax.grid(True, alpha=0.3, axis='y')
