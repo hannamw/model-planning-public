@@ -1,0 +1,109 @@
+sentences,correct_articles,professions,correct?,p(a),p(an)
+<|im_end|>Someone who provides treatment for physical or mental conditions is a therapist. Someone who heals sick pets is,a,veterinarian,True,0.921875,0.0015716553
+<|im_end|>Someone who fixes pipes and water systems is a plumber. Someone who educates children in schools is,a,teacher,True,0.98828125,0.0075683594
+<|im_end|>Someone who extinguishes fires and rescues people is a firefighter. Someone who prepares meals in restaurants is,a,chef,True,0.99609375,0.0016937256
+<|im_end|>Someone who examines financial records is an auditor. Someone who extinguishes fires and rescues people is,a,firefighter,True,0.98828125,0.007537842
+<|im_end|>Someone who treats eye diseases is an ophthalmologist. Someone who flies airplanes is,a,pilot,True,0.86328125,0.103515625
+<|im_end|>Someone who treats mental health disorders is a psychiatrist. Someone who treats teeth and gums is,a,dentist,True,0.984375,0.0021514893
+<|im_end|>Someone who treats disorders of the nervous system is a neurologist. Someone who installs and repairs electrical systems is,an,electrician,True,0.16210938,0.8203125
+<|im_end|>Someone who designs and builds technical systems is an engineer. Someone who manages books and helps people find information is,a,librarian,True,0.98046875,0.012329102
+<|im_end|>Someone who examines financial records is an auditor. Someone who takes professional pictures is,a,photographer,True,0.98046875,0.012390137
+<|im_end|>Someone who writes news articles is a journalist. Someone who designs buildings and structures is,an,architect,False,0.71875,0.26367188
+<|im_end|>Someone who handles payments in stores is a cashier. Someone who fixes cars and engines is,a,mechanic,True,0.98828125,0.0031433105
+<|im_end|>Someone who examines financial records is an auditor. Someone who performs operations on patients is,a,surgeon,True,0.99609375,0.0024719238
+<|im_end|>Someone who applies paint to surfaces is a painter. Someone who dispenses medications is,a,pharmacist,True,0.98046875,0.0006980896
+<|im_end|>Someone who performs operations on patients is a surgeon. Someone who writes news articles is,a,journalist,True,0.94140625,0.013427734
+<|im_end|>Someone who leads orchestras or manages trains is a conductor. Someone who fixes pipes and water systems is,a,plumber,True,0.98828125,0.007537842
+<|im_end|>Someone who writes poetry is a poet. Someone who manages financial records is,an,accountant,False,0.8359375,0.041503906
+<|im_end|>Someone who flies airplanes is a pilot. Someone who represents clients in legal matters is,a,lawyer,True,0.97265625,0.0024108887
+<|im_end|>Someone who extinguishes fires and rescues people is a firefighter. Someone who designs and builds technical systems is,an,engineer,False,0.83203125,0.1640625
+<|im_end|>Someone who performs operations on patients is a surgeon. Someone who makes bread and pastries is,a,baker,True,0.984375,0.00079345703
+<|im_end|>Someone who treats heart diseases is a cardiologist. Someone who builds things with wood is,a,carpenter,True,0.98828125,0.0035705566
+<|im_end|>Someone who provides medical care to children is a pediatrician. Someone who teaches and conducts research at universities is,a,professor,True,0.94140625,0.025024414
+<|im_end|>Someone who repairs timepieces is a watchmaker. Someone who studies matter and energy is,a,physicist,True,0.9765625,0.017944336
+<|im_end|>Someone who investigates crimes is a detective. Someone who studies living organisms is,a,biologist,True,0.9765625,0.008483887
+<|im_end|>Someone who extinguishes fires and rescues people is a firefighter. Someone who studies chemical reactions and compounds is,a,chemist,True,0.99609375,0.0011672974
+<|im_end|>Someone who grows crops and raises livestock is a farmer. Someone who studies and writes about past events is,a,historian,True,0.9765625,0.010864258
+<|im_end|>Someone who directs and monitors workers is a supervisor. Someone who studies human behavior and mental processes is,a,psychologist,True,0.9765625,0.0045166016
+<|im_end|>Someone who helps others develop skills or fitness is a trainer. Someone who studies financial systems and markets is,an,economist,False,0.94140625,0.005584717
+<|im_end|>Someone who provides administrative support is a secretary. Someone who treats heart diseases is,a,cardiologist,True,0.84765625,0.010009766
+<|im_end|>Someone who applies paint to surfaces is a painter. Someone who treats disorders of the nervous system is,a,neurologist,True,0.984375,0.0011520386
+<|im_end|>Someone who creates written works is a writer. Someone who provides medical care to children is,a,pediatrician,True,0.99609375,0.00062179565
+<|im_end|>Someone who treats disorders of the nervous system is a neurologist. Someone who treats skin conditions is,a,dermatologist,True,0.99609375,0.00017929077
+<|im_end|>Someone who converts text from one language to another is a translator. Someone who treats mental health disorders is,a,psychiatrist,True,0.98828125,0.0005455017
+<|im_end|>Someone who leads orchestras or manages trains is a conductor. Someone who interprets medical images is,a,radiologist,True,0.9921875,0.0031585693
+<|im_end|>Someone who treats eye diseases is an ophthalmologist. Someone who administers anesthesia during surgery is,an,anesthesiologist,False,0.921875,0.05908203
+<|im_end|>Someone who writes computer code is a programmer. Someone who treats cancer patients is,an,oncologist,False,0.984375,0.0024414062
+<|im_end|>Someone who heals sick pets is a veterinarian. Someone who treats eye diseases is,an,ophthalmologist,False,0.96875,0.0107421875
+<|im_end|>Someone who helps buy and sell property is a realtor. Someone who treats bone and joint problems is,an,orthopedist,False,0.9921875,0.0027923584
+<|im_end|>Someone who writes computer code is a programmer. Someone who studies stars and planets is,an,astronomer,False,0.94921875,0.032470703
+<|im_end|>Someone who teaches and conducts research at universities is a professor. Someone who studies rocks and earth formations is,a,geologist,True,0.96484375,0.012145996
+<|im_end|>Someone who provides administrative support is a secretary. Someone who studies human cultures and societies is,an,anthropologist,False,0.9296875,0.024780273
+<|im_end|>Someone who writes poetry is a poet. Someone who studies social behavior and institutions is,a,sociologist,True,0.87890625,0.06347656
+<|im_end|>Someone who studies plants is a botanist. Someone who works with numbers and mathematical theories is,a,mathematician,True,0.83984375,0.0023651123
+<|im_end|>Someone who treats eye diseases is an ophthalmologist. Someone who analyzes data and calculates probabilities is,a,statistician,True,0.9765625,0.00579834
+<|im_end|>Someone who builds things with wood is a carpenter. Someone who studies plants is,a,botanist,True,0.95703125,0.0034484863
+<|im_end|>Someone who treats heart diseases is a cardiologist. Someone who studies animals is,a,zoologist,True,0.95703125,0.019897461
+<|im_end|>Someone who helps buy and sell property is a realtor. Someone who studies weather patterns is,a,meteorologist,True,0.984375,0.010925293
+<|im_end|>Someone who studies plants is a botanist. Someone who studies ancient civilizations through artifacts is,an,archaeologist,False,0.96484375,0.015563965
+<|im_end|>Someone who writes news articles is a journalist. Someone who studies languages and their structure is,a,linguist,True,0.94921875,0.0026550293
+<|im_end|>Someone who performs operations on patients is a surgeon. Someone who plays instruments or composes music is,a,musician,True,0.94140625,0.032226562
+<|im_end|>Someone who plays instruments or composes music is a musician. Someone who creates visual art is,an,artist,False,0.53125,0.28515625
+<|im_end|>Someone who dispenses medications is a pharmacist. Someone who creates three-dimensional art is,a,sculptor,True,0.796875,0.17773438
+<|im_end|>Someone who studies weather patterns is a meteorologist. Someone who performs choreographed movements is,a,dancer,True,0.8984375,0.0099487305
+<|im_end|>Someone who studies animals is a zoologist. Someone who performs in plays or movies is,an,actor,False,0.78125,0.13574219
+<|im_end|>Someone who investigates crimes is a detective. Someone who creates written works is,a,writer,True,0.95703125,0.032714844
+<|im_end|>Someone who administers anesthesia during surgery is an anesthesiologist. Someone who writes poetry is,a,poet,True,0.9375,0.022094727
+<|im_end|>Someone who writes computer code is a programmer. Someone who writes novels is,a,novelist,True,0.98046875,0.003112793
+<|im_end|>Someone who treats teeth and gums is a dentist. Someone who reviews and revises written content is,an,editor,False,0.96484375,0.007385254
+<|im_end|>Someone who examines data and information is an analyst. Someone who converts text from one language to another is,a,translator,True,0.984375,0.0051574707
+<|im_end|>Someone who installs and repairs roofs is a roofer. Someone who mixes and serves drinks is,a,bartender,True,0.99609375,0.00015830994
+<|im_end|>Someone who manages financial records is an accountant. Someone who serves food in restaurants is,a,waiter,True,0.98046875,0.0021514893
+<|im_end|>Someone who plays instruments or composes music is a musician. Someone who cuts and styles hair is,a,barber,True,0.9921875,0.00062179565
+<|im_end|>Someone who fixes cars and engines is a mechanic. Someone who makes or alters clothing is,a,tailor,True,0.96484375,0.001449585
+<|im_end|>Someone who tends to plants and landscapes is a gardener. Someone who arranges and sells flowers is,a,florist,True,0.9453125,0.0014266968
+<|im_end|>Someone who studies stars and planets is an astronomer. Someone who makes or repairs jewelry is,a,jeweler,True,0.9765625,0.00579834
+<|im_end|>Someone who examines things for quality or compliance is an inspector. Someone who repairs timepieces is,a,watchmaker,True,0.97265625,0.017822266
+<|im_end|>Someone who provides guidance and support is a counselor. Someone who makes and repairs locks is,a,locksmith,True,0.9765625,0.0024261475
+<|im_end|>Someone who coordinates emergency services is a dispatcher. Someone who joins metal pieces using heat is,a,welder,True,0.97265625,0.0012893677
+<|im_end|>Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who works with stone and brick is,a,mason,True,0.86328125,0.1171875
+<|im_end|>Someone who works on ships is a sailor. Someone who installs and repairs roofs is,a,roofer,True,0.99609375,0.0011672974
+<|im_end|>Someone who studies and writes about past events is a historian. Someone who applies paint to surfaces is,a,painter,True,0.79296875,0.20019531
+<|im_end|>Someone who oversees operations and staff is a manager. Someone who tends to plants and landscapes is,a,gardener,True,0.984375,0.0016708374
+<|im_end|>Someone who takes professional pictures is a photographer. Someone who grows crops and raises livestock is,a,farmer,True,0.93359375,0.021972656
+<|im_end|>Someone who treats teeth and gums is a dentist. Someone who catches fish for a living is,a,fisherman,True,0.9453125,0.0014190674
+<|im_end|>Someone who teaches and guides athletes is a coach. Someone who works on ships is,a,sailor,True,0.984375,0.0013046265
+<|im_end|>Someone who provides medical care to children is a pediatrician. Someone who drives large trucks for cargo transport is,a,trucker,True,0.96484375,0.0039367676
+<|im_end|>Someone who conducts auctions is an auctioneer. Someone who leads orchestras or manages trains is,a,conductor,True,0.92578125,0.052246094
+<|im_end|>Someone who studies stars and planets is an astronomer. Someone who presides over legal proceedings is,a,judge,True,0.98828125,0.0016860962
+<|im_end|>Someone who fixes cars and engines is a mechanic. Someone who investigates crimes is,a,detective,True,0.984375,0.004547119
+<|im_end|>Someone who provides medical care to children is a pediatrician. Someone who provides emergency medical care is,a,paramedic,True,0.80859375,0.109375
+<|im_end|>Someone who dispenses medications is a pharmacist. Someone who coordinates emergency services is,a,dispatcher,True,0.953125,0.022338867
+<|im_end|>Someone who plays instruments or composes music is a musician. Someone who provides guidance and support is,a,counselor,True,0.9296875,0.0033569336
+<|im_end|>Someone who treats eye diseases is an ophthalmologist. Someone who provides treatment for physical or mental conditions is,a,therapist,True,0.95703125,0.0018463135
+<|im_end|>Someone who mixes and serves drinks is a bartender. Someone who advises on diet and nutrition is,a,nutritionist,True,0.9921875,0.00090408325
+<|im_end|>Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps others develop skills or fitness is,a,trainer,True,0.93359375,0.028076172
+<|im_end|>Someone who examines things for quality or compliance is an inspector. Someone who teaches and guides athletes is,a,coach,True,0.9765625,0.020263672
+<|im_end|>Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who enforces rules in sports is,a,referee,True,0.99609375,0.0031585693
+<|im_end|>Someone who teaches and conducts research at universities is a professor. Someone who handles payments in stores is,a,cashier,True,0.97265625,0.010803223
+<|im_end|>Someone who studies languages and their structure is a linguist. Someone who performs administrative tasks is,a,clerk,False,0.13476562,0.77734375
+<|im_end|>Someone who studies weather patterns is a meteorologist. Someone who greets visitors and answers phones is,a,receptionist,True,0.9921875,0.001914978
+<|im_end|>Someone who studies financial systems and markets is an economist. Someone who provides administrative support is,a,secretary,False,0.34179688,0.640625
+<|im_end|>Someone who enforces rules in sports is a referee. Someone who oversees operations and staff is,a,manager,True,0.84375,0.11425781
+<|im_end|>Someone who treats cancer patients is an oncologist. Someone who directs and monitors workers is,a,supervisor,True,0.9609375,0.032958984
+<|im_end|>Someone who provides administrative support is a secretary. Someone who provides expert advice is,a,consultant,True,0.734375,0.23925781
+<|im_end|>Someone who performs administrative tasks is a clerk. Someone who examines data and information is,an,analyst,False,0.94140625,0.028442383
+<|im_end|>Someone who advises on diet and nutrition is a nutritionist. Someone who examines financial records is,an,auditor,False,0.859375,0.06225586
+<|im_end|>Someone who designs buildings and structures is an architect. Someone who works in financial institutions is,a,banker,True,0.87109375,0.02319336
+<|im_end|>Someone who investigates crimes is a detective. Someone who facilitates financial transactions is,a,broker,True,0.96875,0.0050964355
+<|im_end|>Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps buy and sell property is,a,realtor,True,0.89453125,0.03466797
+<|im_end|>Someone who studies matter and energy is a physicist. Someone who conducts auctions is,an,auctioneer,False,0.90234375,0.03955078
+<|im_end|>Someone who installs and repairs roofs is a roofer. Someone who sells products or services is,a,salesperson,True,0.953125,0.011962891
+<|im_end|>Someone who examines data and information is an analyst. Someone who sells goods directly to consumers is,a,retailer,True,0.984375,0.0018997192
+<|im_end|>Someone who treats mental health disorders is a psychiatrist. Someone who sells goods in large quantities is,a,wholesaler,True,0.94140625,0.010437012
+<|im_end|>Someone who teaches and conducts research at universities is a professor. Someone who creates new devices or processes is,an,inventor,False,0.86328125,0.09082031
+<|im_end|>Someone who serves food in restaurants is a waiter. Someone who writes computer code is,a,programmer,True,0.9765625,0.010864258
+<|im_end|>Someone who plays instruments or composes music is a musician. Someone who maintains and repairs technical equipment is,a,technician,True,0.93359375,0.021972656
+<|im_end|>Someone who treats cancer patients is an oncologist. Someone who runs machinery or equipment is,an,operator,False,0.9453125,0.036621094
+<|im_end|>Someone who provides treatment for physical or mental conditions is a therapist. Someone who examines things for quality or compliance is,an,inspector,False,0.91796875,0.040283203
+<|im_end|>Someone who greets visitors and answers phones is a receptionist. Someone who tests or evaluates people or things is,an,examiner,False,0.9609375,0.025634766

@@ -1,0 +1,109 @@
+Profession,Article,Predicted_Article,Article_Correct,Predicted_Profession,Profession_Correct,Predicted_Profession_Wrong_Article,Profession_Wrong_Article_Correct,Prob_Article,Prob_Profession,Prob_Profession_Wrong_Article,IC_Profession,IC_Article,IC_Description
+veterinarian,a,a,True,veterinarian,True,animal,False,0.9921875,0.8359375,0.9609375,inspector,an,Someone who examines things for quality or compliance is an inspector
+teacher,a,a,True,teacher,True,educator,False,0.72265625,0.9921875,0.99609375,engineer,an,Someone who designs and builds technical systems is an engineer
+chef,a,a,True,chef,True,chef,True,0.98828125,0.62109375,0.796875,electrician,an,Someone who installs and repairs electrical systems is an electrician
+firefighter,a,a,True,firefighter,True,firefighter,True,0.98046875,0.984375,0.9765625,orthopedist,an,Someone who treats bone and joint problems is an orthopedist
+pilot,a,a,True,pilot,True,av,False,0.78125,0.96875,0.5546875,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+dentist,a,a,True,dentist,True,dentist,True,0.9921875,0.98046875,0.60546875,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+electrician,an,an,True,electric,True,electric,True,0.9765625,0.765625,0.330078125,anesthesiologist,an,Someone who administers anesthesia during surgery is an anesthesiologist
+librarian,a,a,True,librarian,True,librarian,True,0.96875,0.99609375,0.70703125,engineer,an,Someone who designs and builds technical systems is an engineer
+photographer,a,a,True,photographer,True,photographer,True,0.94921875,0.99609375,0.69921875,examiner,an,Someone who tests or evaluates people or things is an examiner
+architect,an,a,False,architect,True,builder,False,0.83203125,0.9765625,0.5390625,inventor,an,Someone who creates new devices or processes is an inventor
+mechanic,a,a,True,mechanic,True,auto,False,0.97265625,0.99609375,0.41796875,accountant,an,Someone who manages financial records is an accountant
+surgeon,a,a,True,medical,False,operator,False,0.96484375,0.28515625,0.236328125,inventor,an,Someone who creates new devices or processes is an inventor
+pharmacist,a,a,True,pharmacist,True,pharmacist,True,0.9375,0.73046875,0.22265625,actor,an,Someone who performs in plays or movies is an actor
+journalist,a,a,True,journalist,True,editor,False,0.9453125,0.9921875,0.53125,architect,an,Someone who designs buildings and structures is an architect
+plumber,a,a,True,plumber,True,plumber,True,0.9765625,0.98046875,0.8828125,electrician,an,Someone who installs and repairs electrical systems is an electrician
+accountant,an,a,False,accountant,True,financial,False,0.55078125,0.98828125,0.4296875,engineer,an,Someone who designs and builds technical systems is an engineer
+lawyer,a,a,True,lawyer,True,attorney,False,0.984375,0.98828125,1.0,oncologist,an,Someone who treats cancer patients is an oncologist
+engineer,an,a,False,engineer,True,systems,False,0.9140625,0.99609375,0.9296875,orthopedist,an,Someone who treats bone and joint problems is an orthopedist
+baker,a,a,True,baker,True,artisan,False,0.984375,0.9921875,0.49609375,auditor,an,Someone who examines financial records is an auditor
+carpenter,a,a,True,wood,False,artisan,False,0.98828125,0.5234375,0.31640625,operator,an,Someone who runs machinery or equipment is an operator
+professor,a,a,True,professor,True,academic,False,0.859375,0.79296875,0.9765625,electrician,an,Someone who installs and repairs electrical systems is an electrician
+physicist,a,a,True,scientist,False,al,False,0.953125,0.828125,0.2578125,auctioneer,an,Someone who conducts auctions is an auctioneer
+biologist,a,a,True,biologist,True,biologist,True,0.89453125,0.9375,0.466796875,oncologist,an,Someone who treats cancer patients is an oncologist
+chemist,a,a,True,chem,True,chem,True,0.99609375,0.9921875,0.64453125,inspector,an,Someone who examines things for quality or compliance is an inspector
+historian,a,a,True,historian,True,historian,True,0.875,0.9609375,0.90234375,auctioneer,an,Someone who conducts auctions is an auctioneer
+psychologist,a,a,True,psychologist,True,actor,False,0.92578125,0.96484375,0.6796875,actor,an,Someone who performs in plays or movies is an actor
+economist,an,a,False,economist,True,financial,False,0.92578125,0.9609375,0.9765625,orthopedist,an,Someone who treats bone and joint problems is an orthopedist
+cardiologist,a,a,True,cardi,True,cardi,True,0.99609375,0.921875,0.494140625,editor,an,Someone who reviews and revises written content is an editor
+neurologist,a,a,True,neuro,True,...,False,0.98828125,0.640625,0.2138671875,inventor,an,Someone who creates new devices or processes is an inventor
+pediatrician,a,a,True,pediatric,True,pediatric,True,0.984375,0.984375,0.515625,orthopedist,an,Someone who treats bone and joint problems is an orthopedist
+dermatologist,a,a,True,dermat,True,dermat,True,0.98828125,1.0,0.88671875,electrician,an,Someone who installs and repairs electrical systems is an electrician
+psychiatrist,a,a,True,psychiatrist,True,psychiatrist,True,0.98046875,0.9765625,0.76171875,anesthesiologist,an,Someone who administers anesthesia during surgery is an anesthesiologist
+radiologist,a,a,True,medical,False,actor,False,0.80859375,0.77734375,0.890625,actor,an,Someone who performs in plays or movies is an actor
+anesthesiologist,an,a,False,an,True,surgeon,False,0.94921875,1.0,0.75390625,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+oncologist,an,a,False,onc,True,medical,False,0.98828125,1.0,0.294921875,astronomer,an,Someone who studies stars and planets is an astronomer
+ophthalmologist,an,a,False,o,True,medical,False,0.9609375,0.98046875,0.26953125,economist,an,Someone who studies financial systems and markets is an economist
+orthopedist,an,a,False,orth,True,rhe,False,0.97265625,0.9765625,0.546875,oncologist,an,Someone who treats cancer patients is an oncologist
+astronomer,an,an,True,astronom,True,astronom,True,0.7265625,0.98046875,0.349609375,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+geologist,a,a,True,ge,True,earth,False,0.921875,1.0,0.70703125,engineer,an,Someone who designs and builds technical systems is an engineer
+anthropologist,an,a,False,anthrop,True,soci,False,0.9375,0.96484375,0.90234375,accountant,an,Someone who manages financial records is an accountant
+sociologist,a,a,True,social,False,academic,False,0.80859375,0.470703125,0.55078125,artist,an,Someone who creates visual art is an artist
+mathematician,a,a,True,mathematic,True,engineer,False,0.7734375,0.890625,0.921875,engineer,an,Someone who designs and builds technical systems is an engineer
+statistician,a,a,True,statistic,True,act,False,0.9140625,0.9609375,0.9921875,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+botanist,a,a,True,bot,True,bot,True,0.9609375,1.0,0.921875,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+zoologist,a,a,True,biologist,False,animal,False,0.86328125,0.2890625,0.88671875,operator,an,Someone who runs machinery or equipment is an operator
+meteorologist,a,a,True,meteor,True,meteor,True,0.93359375,0.77734375,0.55078125,orthopedist,an,Someone who treats bone and joint problems is an orthopedist
+archaeologist,an,a,False,archae,True,historian,False,0.62109375,0.9453125,0.8984375,architect,an,Someone who designs buildings and structures is an architect
+linguist,a,a,True,lingu,True,lingu,True,0.9765625,0.94921875,0.73828125,editor,an,Someone who reviews and revises written content is an editor
+musician,a,a,True,musician,True,artist,False,0.90625,0.99609375,0.76953125,auctioneer,an,Someone who conducts auctions is an auctioneer
+artist,an,an,True,artist,True,painter,False,0.9453125,1.0,0.341796875,engineer,an,Someone who designs and builds technical systems is an engineer
+sculptor,a,a,True,sculpt,True,artist,False,0.75,0.70703125,0.96875,artist,an,Someone who creates visual art is an artist
+dancer,a,a,True,dancer,True,actor,False,0.90625,0.6875,0.86328125,accountant,an,Someone who manages financial records is an accountant
+actor,an,an,True,actor,True,performer,False,0.671875,0.96875,0.984375,inventor,an,Someone who creates new devices or processes is an inventor
+writer,a,a,True,writer,True,author,False,0.85546875,0.98046875,0.98828125,astronomer,an,Someone who studies stars and planets is an astronomer
+poet,a,a,True,poet,True,artist,False,0.97265625,0.99609375,0.375,inspector,an,Someone who examines things for quality or compliance is an inspector
+novelist,a,a,True,writer,False,author,False,0.9609375,0.98828125,0.99609375,operator,an,Someone who runs machinery or equipment is an operator
+editor,an,a,False,editor,True,writer,False,0.95703125,0.9765625,0.75390625,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+translator,a,a,True,translator,True,translator,True,0.9765625,0.9609375,0.53515625,inventor,an,Someone who creates new devices or processes is an inventor
+bartender,a,a,True,bartender,True,bartender,True,0.9765625,0.68359375,0.8203125,oncologist,an,Someone who treats cancer patients is an oncologist
+waiter,a,a,True,server,False,employee,False,0.953125,0.6953125,0.953125,accountant,an,Someone who manages financial records is an accountant
+barber,a,a,True,hair,False,est,False,0.9921875,0.41796875,0.57421875,architect,an,Someone who designs buildings and structures is an architect
+tailor,a,a,True,tailor,True,assembler,False,0.96484375,0.94140625,0.31640625,examiner,an,Someone who tests or evaluates people or things is an examiner
+florist,a,a,True,flor,True,flor,True,0.96875,0.9921875,0.8671875,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+jeweler,a,a,True,jew,True,artisan,False,0.9375,0.875,0.59765625,astronomer,an,Someone who studies stars and planets is an astronomer
+watchmaker,a,a,True,watch,True,engineer,False,0.86328125,0.4140625,0.98046875,accountant,an,Someone who manages financial records is an accountant
+locksmith,a,a,True,locksmith,True,locksmith,True,0.96875,0.54296875,0.7578125,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+welder,a,a,True,black,False,engineer,False,0.94140625,0.5234375,0.95703125,engineer,an,Someone who designs and builds technical systems is an engineer
+mason,a,a,True,builder,False,artist,False,0.75390625,0.6640625,0.70703125,artist,an,Someone who creates visual art is an artist
+roofer,a,a,True,contractor,False,architect,False,0.9921875,0.390625,0.8828125,orthopedist,an,Someone who treats bone and joint problems is an orthopedist
+painter,a,a,True,painter,True,artist,False,0.96484375,1.0,0.9609375,editor,an,Someone who reviews and revises written content is an editor
+gardener,a,a,True,gard,True,gard,True,0.984375,0.98046875,0.671875,inspector,an,Someone who examines things for quality or compliance is an inspector
+farmer,a,a,True,farmer,True,agricult,False,0.90234375,0.99609375,0.439453125,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+fisherman,a,a,True,fish,True,ang,False,0.91796875,0.9921875,1.0,anesthesiologist,an,Someone who administers anesthesia during surgery is an anesthesiologist
+sailor,a,a,True,sailor,True,ocean,False,0.9375,0.62890625,0.369140625,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+trucker,a,a,True,truck,True,industrial,False,0.90625,0.61328125,0.271484375,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+conductor,a,a,True,conductor,True,engineer,False,0.90234375,0.73828125,0.34375,oncologist,an,Someone who treats cancer patients is an oncologist
+judge,a,a,True,judge,True,adjud,False,0.984375,0.96484375,0.251953125,examiner,an,Someone who tests or evaluates people or things is an examiner
+detective,a,a,True,detective,True,investigator,False,0.88671875,0.75,0.83203125,orthopedist,an,Someone who treats bone and joint problems is an orthopedist
+paramedic,a,a,True,medical,False,emergency,False,0.94140625,0.2734375,0.578125,examiner,an,Someone who tests or evaluates people or things is an examiner
+dispatcher,a,an,False,responder,False,emergency,False,0.6484375,0.6484375,0.9296875,inspector,an,Someone who examines things for quality or compliance is an inspector
+counselor,a,a,True,counselor,True,assistant,False,0.890625,0.3359375,0.408203125,accountant,an,Someone who manages financial records is an accountant
+therapist,a,a,True,therapist,True,operator,False,0.98828125,0.625,0.1875,operator,an,Someone who runs machinery or equipment is an operator
+nutritionist,a,a,True,nutrition,True,...,False,0.98046875,0.83203125,0.251953125,inspector,an,Someone who examines things for quality or compliance is an inspector
+trainer,a,a,True,coach,False,instructor,False,0.89453125,0.48046875,0.81640625,anesthesiologist,an,Someone who administers anesthesia during surgery is an anesthesiologist
+coach,a,a,True,coach,True,instructor,False,0.88671875,0.9921875,0.515625,auctioneer,an,Someone who conducts auctions is an auctioneer
+referee,a,a,True,sports,False,athlete,False,0.9765625,0.462890625,0.625,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+cashier,a,a,True,cashier,True,accountant,False,0.9765625,0.87890625,0.9453125,anesthesiologist,an,Someone who administers anesthesia during surgery is an anesthesiologist
+clerk,a,an,False,clerk,True,administrator,False,0.9453125,0.59375,0.83984375,editor,an,Someone who reviews and revises written content is an editor
+receptionist,a,a,True,person,False,employee,False,0.9140625,0.185546875,0.515625,artist,an,Someone who creates visual art is an artist
+secretary,a,an,False,secretary,True,administrator,False,0.69140625,0.58203125,0.53125,orthopedist,an,Someone who treats bone and joint problems is an orthopedist
+manager,a,a,True,supervisor,False,overse,False,0.640625,0.5546875,0.85546875,inspector,an,Someone who examines things for quality or compliance is an inspector
+supervisor,a,a,True,manager,False,employer,False,0.90625,0.58203125,0.3984375,auctioneer,an,Someone who conducts auctions is an auctioneer
+consultant,a,an,False,specialist,False,expert,False,0.578125,0.703125,0.984375,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+analyst,an,a,False,information,False,statistic,False,0.71875,0.66015625,0.9296875,anthropologist,an,Someone who studies human cultures and societies is an anthropologist
+auditor,an,a,False,accountant,False,financial,False,0.78125,0.98828125,0.423828125,architect,an,Someone who designs buildings and structures is an architect
+banker,a,a,True,financial,False,accountant,False,0.83203125,0.80859375,0.2392578125,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+broker,a,a,True,financial,False,accountant,False,0.90234375,0.8828125,0.392578125,architect,an,Someone who designs buildings and structures is an architect
+realtor,a,a,True,real,True,economist,False,0.88671875,0.9609375,0.93359375,anthropologist,an,Someone who studies human cultures and societies is an anthropologist
+auctioneer,an,a,False,auction,True,merchant,False,0.52734375,0.86328125,0.3125,artist,an,Someone who creates visual art is an artist
+salesperson,a,a,True,business,False,entrepreneur,False,0.8515625,0.55859375,0.98046875,orthopedist,an,Someone who treats bone and joint problems is an orthopedist
+retailer,a,a,True,merchant,False,entrepreneur,False,0.94140625,0.609375,0.9921875,accountant,an,Someone who manages financial records is an accountant
+wholesaler,a,a,True,merchant,False,entrepreneur,False,0.9296875,0.34765625,0.8125,oncologist,an,Someone who treats cancer patients is an oncologist
+inventor,an,a,False,inventor,True,designer,False,0.7578125,0.8203125,0.5859375,operator,an,Someone who runs machinery or equipment is an operator
+programmer,a,a,True,programmer,True,engineer,False,0.8125,0.80078125,0.478515625,anthropologist,an,Someone who studies human cultures and societies is an anthropologist
+technician,a,a,True,technician,True,engineer,False,0.91796875,0.84375,0.90625,oncologist,an,Someone who treats cancer patients is an oncologist
+operator,an,a,False,operator,True,mach,False,0.80859375,0.97265625,0.67578125,examiner,an,Someone who tests or evaluates people or things is an examiner
+inspector,an,a,False,inspector,True,quality,False,0.9140625,0.79296875,0.7734375,analyst,an,Someone who examines data and information is an analyst
+examiner,an,a,False,evaluator,False,scientist,False,0.458984375,0.91015625,0.30859375,artist,an,Someone who creates visual art is an artist

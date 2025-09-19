@@ -1,0 +1,501 @@
+Unnamed: 0,first_line,first_last_word,second_last_word,rhyme_group,rhyme_success,clean_completion,raw_completion,raw_completion_without_last,substring,original_generation,ablated_generation,neol_ablated_len_diffs,neol_eventually_rhymed
+40,"Whispers coil like shadows, cold and tight,",tight,light,light,True,"The night is a mirror, reflecting the light.","The night is a mirror, reflecting the light.","The night is a mirror, reflecting the","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: Whispers coil like shadows, cold and tight,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+The night is a mirror","user
+/no_think Write only the next line of this rhyming couplet: Whispers coil like shadows, cold and tight,
+assistant
+<think>
+
+</think>
+
+The night is a mirror, reflecting the light.","user
+/no_think Write only the next line of this rhyming couplet: Whispers coil like shadows, cold and tight,
+assistant
+<think>
+
+</think>
+
+The night is a mirror, reflecting the soul.",0,False
+43,"Autumn's breath turns leaves to gold, a whispered story told,",told,old,told,True,"A song of time, a song of the old.","A song of time, a song of the old.","A song of time, a song of the","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: Autumn's breath turns leaves to gold, a whispered story told,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+A song of time,","user
+/no_think Write only the next line of this rhyming couplet: Autumn's breath turns leaves to gold, a whispered story told,
+assistant
+<think>
+
+</think>
+
+A song of time, a song of the old.","user
+/no_think Write only the next line of this rhyming couplet: Autumn's breath turns leaves to gold, a whispered story told,
+assistant
+<think>
+
+</think>
+
+A song of time, a song of the season.",0,False
+72,"A flawless sphere, yet marred by its glow,",glow,shadow,glow,True,"A mirror of light, yet veiled in shadow.","A mirror of light, yet veiled in shadow.","A mirror of light, yet veiled in","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: A flawless sphere, yet marred by its glow,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+A mirror of light,","user
+/no_think Write only the next line of this rhyming couplet: A flawless sphere, yet marred by its glow,
+assistant
+<think>
+
+</think>
+
+A mirror of light, yet veiled in shadow.","user
+/no_think Write only the next line of this rhyming couplet: A flawless sphere, yet marred by its glow,
+assistant
+<think>
+
+</think>
+
+A mirror of light, yet lost in its own glow.",2,False
+91,"In shadows deep where hope once danced with light,",light,flight,light,True,"In the twilight's embrace, where dreams once took flight.","In the twilight's embrace, where dreams once took flight.","In the twilight's embrace, where dreams once took","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In shadows deep where hope once danced with light,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In the twilight's embrace","user
+/no_think Write only the next line of this rhyming couplet: In shadows deep where hope once danced with light,
+assistant
+<think>
+
+</think>
+
+In the twilight's embrace, where dreams once took flight.","user
+/no_think Write only the next line of this rhyming couplet: In shadows deep where hope once danced with light,
+assistant
+<think>
+
+</think>
+
+In the twilight's embrace, where dreams once danced with light,",1,False
+128,"In starlit whispers, my hopes take flight,",flight,bright,light,True,"In golden light, my dreams are bright.","In golden light, my dreams are bright.","In golden light, my dreams are","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In starlit whispers, my hopes take flight,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In golden light, my","user
+/no_think Write only the next line of this rhyming couplet: In starlit whispers, my hopes take flight,
+assistant
+<think>
+
+</think>
+
+In golden light, my dreams are bright.","user
+/no_think Write only the next line of this rhyming couplet: In starlit whispers, my hopes take flight,
+assistant
+<think>
+
+</think>
+
+In golden light, my dreams are bright.",0,True
+131,"In shadows cast by city lights, a thousand souls feel night,",night,light,light,True,"In the glow of a thousand stars, a thousand souls feel light.","In the glow of a thousand stars, a thousand souls feel light.","In the glow of a thousand stars, a thousand souls feel","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In shadows cast by city lights, a thousand souls feel night,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In the glow of a","user
+/no_think Write only the next line of this rhyming couplet: In shadows cast by city lights, a thousand souls feel night,
+assistant
+<think>
+
+</think>
+
+In the glow of a thousand stars, a thousand souls feel light.","user
+/no_think Write only the next line of this rhyming couplet: In shadows cast by city lights, a thousand souls feel night,
+assistant
+<think>
+
+</think>
+
+In the glow of a thousand stars, a thousand souls feel night.",0,False
+168,"Smoke ascends where silent dreams once grew,",grew,knew,new,True,The night is a mirror of what we once knew.,The night is a mirror of what we once knew.,The night is a mirror of what we once,"<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: Smoke ascends where silent dreams once grew,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+The night is a mirror","user
+/no_think Write only the next line of this rhyming couplet: Smoke ascends where silent dreams once grew,
+assistant
+<think>
+
+</think>
+
+The night is a mirror of what we once knew.","user
+/no_think Write only the next line of this rhyming couplet: Smoke ascends where silent dreams once grew,
+assistant
+<think>
+
+</think>
+
+The night is a mirror of what we once saw.",0,False
+169,"Roots tangled in ancient soil, yet branches stretch toward tomorrow's light,",light,bright,light,True,"The sun will rise on the horizon, and the stars will shine bright.","The sun will rise on the horizon, and the stars will shine bright.","The sun will rise on the horizon, and the stars will shine","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: Roots tangled in ancient soil, yet branches stretch toward tomorrow's light,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+The sun will rise on","user
+/no_think Write only the next line of this rhyming couplet: Roots tangled in ancient soil, yet branches stretch toward tomorrow's light,
+assistant
+<think>
+
+</think>
+
+The sun will rise on the horizon, and the stars will shine bright.","user
+/no_think Write only the next line of this rhyming couplet: Roots tangled in ancient soil, yet branches stretch toward tomorrow's light,
+assistant
+<think>
+
+</think>
+
+The sun will rise on the horizon, and the stars will shine bright.",0,True
+187,"Two hearts entwined where the vows take flight,",flight,night,light,True,And where the stars are born in the night.,And where the stars are born in the night.,And where the stars are born in the,"<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: Two hearts entwined where the vows take flight,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+And where the stars are","user
+/no_think Write only the next line of this rhyming couplet: Two hearts entwined where the vows take flight,
+assistant
+<think>
+
+</think>
+
+And where the stars are born in the night.","user
+/no_think Write only the next line of this rhyming couplet: Two hearts entwined where the vows take flight,
+assistant
+<think>
+
+</think>
+
+And where the stars are born in the night.",0,True
+481,"A gavel strikes where silence cries,",cries,sighs,dies,True,A voice is heard where the wind sighs.,A voice is heard where the wind sighs.,A voice is heard where the wind,"<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: A gavel strikes where silence cries,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+A voice is heard where","user
+/no_think Write only the next line of this rhyming couplet: A gavel strikes where silence cries,
+assistant
+<think>
+
+</think>
+
+A voice is heard where the wind sighs.","user
+/no_think Write only the next line of this rhyming couplet: A gavel strikes where silence cries,
+assistant
+<think>
+
+</think>
+
+A voice is heard where the wind sighs.",0,True
+539,"Shadows cling where whispers fade,",fade,made,stayed,True,"The night is a mirror, where dreams are made.","The night is a mirror, where dreams are made.","The night is a mirror, where dreams are","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: Shadows cling where whispers fade,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+The night is a mirror","user
+/no_think Write only the next line of this rhyming couplet: Shadows cling where whispers fade,
+assistant
+<think>
+
+</think>
+
+The night is a mirror, where dreams are made.","user
+/no_think Write only the next line of this rhyming couplet: Shadows cling where whispers fade,
+assistant
+<think>
+
+</think>
+
+The night is a mirror, where dreams are made.",0,True
+636,"In the hush where heavens hum with light,",light,night,light,True,A song of stars and a tale of night.,"In the hush where heavens hum with light,  
+A song of stars and a tale of night.","In the hush where heavens hum with light,  
+A song of stars and a tale of","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In the hush where heavens hum with light,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In the hush where","user
+/no_think Write only the next line of this rhyming couplet: In the hush where heavens hum with light,
+assistant
+<think>
+
+</think>
+
+In the hush where heavens hum with light,  
+A song of stars and dreams, I find.","user
+/no_think Write only the next line of this rhyming couplet: In the hush where heavens hum with light,
+assistant
+<think>
+
+</think>
+
+In the hush where heavens hum with light,  
+A song of stars and dreams, I find.",0,False
+659,"In the mirror of the soul, shadows dance with light,",light,flight,light,True,"In the heart of the soul, where dreams take flight,","In the heart of the soul, where dreams take flight,  
+A dance of light and shadow, so true and true.","In the heart of the soul, where dreams take flight,  
+A dance of light and shadow, so true and","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In the mirror of the soul, shadows dance with light,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In the heart of the","user
+/no_think Write only the next line of this rhyming couplet: In the mirror of the soul, shadows dance with light,
+assistant
+<think>
+
+</think>
+
+In the heart of the night, the stars twinkle with grace.","user
+/no_think Write only the next line of this rhyming couplet: In the mirror of the soul, shadows dance with light,
+assistant
+<think>
+
+</think>
+
+In the heart of the night, the stars twinkle with grace.",0,True
+665,"In the shadow's grip, a fragile spark still dares to rise—",rise,dies,dies,True,"In the night's breath, a flame that never dies.","In the night's breath, a flame that never dies.","In the night's breath, a flame that never","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In the shadow's grip, a fragile spark still dares to rise—<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In the night's breath","user
+/no_think Write only the next line of this rhyming couplet: In the shadow's grip, a fragile spark still dares to rise—
+assistant
+<think>
+
+</think>
+
+In the night's breath, a flame that never dies.","user
+/no_think Write only the next line of this rhyming couplet: In the shadow's grip, a fragile spark still dares to rise—
+assistant
+<think>
+
+</think>
+
+In the night's breath, a flame that never dies.",0,True
+692,"The chains of silence clank beneath the breath of rebels' cries,",cries,rise,dies,True,The fire of defiance burns in the hearts of those who rise.,The fire of defiance burns in the hearts of those who rise.,The fire of defiance burns in the hearts of those who,"<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: The chains of silence clank beneath the breath of rebels' cries,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+The fire of defiance burns","user
+/no_think Write only the next line of this rhyming couplet: The chains of silence clank beneath the breath of rebels' cries,
+assistant
+<think>
+
+</think>
+
+The fire of defiance burns in the hearts of those who rise.","user
+/no_think Write only the next line of this rhyming couplet: The chains of silence clank beneath the breath of rebels' cries,
+assistant
+<think>
+
+</think>
+
+The fire of defiance burns in the hearts of those who rise.",0,True
+695,"In tangled hearts, two vows entwine,",entwine,align,entwine,True,"In the quiet of night, two stars align.","In the quiet of night, two stars align.","In the quiet of night, two stars","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In tangled hearts, two vows entwine,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In the quiet of night","user
+/no_think Write only the next line of this rhyming couplet: In tangled hearts, two vows entwine,
+assistant
+<think>
+
+</think>
+
+In the quiet of night, two stars align.","user
+/no_think Write only the next line of this rhyming couplet: In tangled hearts, two vows entwine,
+assistant
+<think>
+
+</think>
+
+In the quiet of night, two stars align.",0,True
+701,"In twilight’s breath, where shadows softly sway,",sway,play,grey,True,"In the moonlit dance, where stars softly play.","In the moonlit dance, where stars softly play.","In the moonlit dance, where stars softly","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In twilight’s breath, where shadows softly sway,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In the moonlit dance","user
+/no_think Write only the next line of this rhyming couplet: In twilight’s breath, where shadows softly sway,
+assistant
+<think>
+
+</think>
+
+In the moonlit dance, where stars softly play.","user
+/no_think Write only the next line of this rhyming couplet: In twilight’s breath, where shadows softly sway,
+assistant
+<think>
+
+</think>
+
+In the moonlit dance, where stars softly twine.",0,False
+726,"In shadowed halls where whispers cling,",cling,sing,sing,True,"In silent halls where echoes sing,","In silent halls where echoes sing,  
+A tale of dreams and night's keeping.","In silent halls where echoes sing,  
+A tale of dreams and night's","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In shadowed halls where whispers cling,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In silent halls where echoes","user
+/no_think Write only the next line of this rhyming couplet: In shadowed halls where whispers cling,
+assistant
+<think>
+
+</think>
+
+In silent halls where echoes sing,  
+A tale of dreams and night's keeping.","user
+/no_think Write only the next line of this rhyming couplet: In shadowed halls where whispers cling,
+assistant
+<think>
+
+</think>
+
+In silent halls where echoes cling,  
+A tale of dreams that never dies.",7,False
+727,"In the shadow of the night, hope whispers light,",light,flight,light,True,"In the quiet of the night, dreams take flight.","In the quiet of the night, dreams take flight.","In the quiet of the night, dreams take","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In the shadow of the night, hope whispers light,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In the quiet of the","user
+/no_think Write only the next line of this rhyming couplet: In the shadow of the night, hope whispers light,
+assistant
+<think>
+
+</think>
+
+In the quiet of the night, dreams take flight.","user
+/no_think Write only the next line of this rhyming couplet: In the shadow of the night, hope whispers light,
+assistant
+<think>
+
+</think>
+
+In the quiet of the night, dreams take flight.",0,True
+839,"Where pigment meets vision, ideas take flight,",flight,bright,light,True,"where the mind is free, and dreams are bright.","where the mind is free, and dreams are bright.","where the mind is free, and dreams are","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: Where pigment meets vision, ideas take flight,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+where the mind is free","user
+/no_think Write only the next line of this rhyming couplet: Where pigment meets vision, ideas take flight,
+assistant
+<think>
+
+</think>
+
+where the mind is free, and dreams are true.","user
+/no_think Write only the next line of this rhyming couplet: Where pigment meets vision, ideas take flight,
+assistant
+<think>
+
+</think>
+
+where the mind is free, and dreams are true.",0,False
+882,"In the mirror of the soul, shadows dance with light,",light,flight,light,True,"In the heart of the soul, where dreams take flight,","In the heart of the soul, where dreams take flight,  
+A dance of light and shadow, so true and true.","In the heart of the soul, where dreams take flight,  
+A dance of light and shadow, so true and","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In the mirror of the soul, shadows dance with light,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In the heart of the","user
+/no_think Write only the next line of this rhyming couplet: In the mirror of the soul, shadows dance with light,
+assistant
+<think>
+
+</think>
+
+In the heart of the night, the stars twinkle with grace.","user
+/no_think Write only the next line of this rhyming couplet: In the mirror of the soul, shadows dance with light,
+assistant
+<think>
+
+</think>
+
+In the heart of the night, the stars twinkle with grace.",0,True
+885,"In the quiet cradle of memory’s embrace,",embrace,grace,embrace,True,"A song of dreams, a song of grace.","In the quiet cradle of memory’s embrace,  
+A song of dreams, a song of grace.","In the quiet cradle of memory’s embrace,  
+A song of dreams, a song of","<|im_start|>user
+/no_think Write only the next line of this rhyming couplet: In the quiet cradle of memory’s embrace,<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
+In the quiet cradle","user
+/no_think Write only the next line of this rhyming couplet: In the quiet cradle of memory’s embrace,
+assistant
+<think>
+
+</think>
+
+In the quiet cradle of memory’s embrace,  
+A song of dreams, a song of grace.","user
+/no_think Write only the next line of this rhyming couplet: In the quiet cradle of memory’s embrace,
+assistant
+<think>
+
+</think>
+
+In the quiet cradle of memory’s embrace,  
+A song of dreams, a song of grace.",0,True

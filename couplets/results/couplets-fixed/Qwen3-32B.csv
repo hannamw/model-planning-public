@@ -1,0 +1,544 @@
+first_line,first_last_word,second_last_word,rhyme_group,rhyme_success,clean_completion,raw_completion
+"Golden echoes drift like dust through yesterday's dim light,",light,sight,light,True,"Whispers of the sun in shadows, fading from sight.","Whispers of the sun in shadows, fading from sight."
+"I wandered shadows seeking light in the mirror of my soul,",soul,scroll,soul,True,"But found instead a silent whisper, soft as dusk's controlling scroll.","But found instead a silent whisper, soft as dusk's controlling scroll."
+"In shadows deep where silence weeps,",weeps,keeps,weeps,True,The moon whispers through the dark it keeps.,The moon whispers through the dark it keeps.
+"In the quiet of the soul, a light divine remains,",remains,flames,remains,False,"Guiding through the shadows with soft, unyielding flames.","Guiding through the shadows with soft, unyielding flames."
+"Sweet whispers dance on tongues of time,",time,rhyme,time,True,Soft echoes lost in rhythm's rhyme.,Soft echoes lost in rhythm's rhyme.
+"With each year, the childhood veil dissolves,",dissolves,repelled,dissolves,False,Revealing truths we once repelled.,Revealing truths we once repelled.
+"Whispers of dusk linger on the lips of time,",time,rhyme,time,True,Echoes of day fade into the rhyme.,Echoes of day fade into the rhyme.
+"Though flesh may fade and time may soar,",soar,evermore,soar,True,The soul's true fire will evermore.,The soul's true fire will evermore.
+"The drums of time beat echoes of the past,",past,cast,past,True,The shadows dance where memories are cast.,The shadows dance where memories are cast.
+"Though empires rise on whispers of might,",might,flight,light,True,They fall to silence when the stars take flight.,They fall to silence when the stars take flight.
+"Guns awaken the earth like a curse from her dreams,",dreams,gleam,dreams,False,And silence the skies where the larks used to gleam.,And silence the skies where the larks used to gleam.
+"I wander shadowed halls of silent stone,",stone,overthrown,stone,True,Where echoes whisper tales long overthrown.,Where echoes whisper tales long overthrown.
+"Two hearts entwined where promises bloom,",bloom,gloom,bloom,True,"A love eternal, in moonlight's sweet gloom.","A love eternal, in moonlight's sweet gloom."
+"Through vows entwined, two hearts commit, one journey built on love and grit,",grit,light,grit,False,"Through every storm, they'll stand united, with trust as their guiding light.","Through every storm, they'll stand united, with trust as their guiding light."
+"Laughter echoes soft as the breeze through old trees,",trees,leaves,trees,False,Whispers of joy in the hush of the leaves.,Whispers of joy in the hush of the leaves.
+"In the shadow of the night, hope whispers to despair,",despair,bare,despair,True,A silent spark ignites what fear had laid bare.,A silent spark ignites what fear had laid bare.
+"A hearth that glows where the heart finds its name,",name,flame,name,True,A shadow that fades where the soul feels the flame.,A shadow that fades where the soul feels the flame.
+"In trembling hands, the storm both swells and dies,",dies,collide,dies,False,A fleeting calm where heart and sky collide.,A fleeting calm where heart and sky collide.
+"Though flesh may fade and tombs may rust with time,",time,unkind,time,False,The soul's pure flame will never grow unkind.,The soul's pure flame will never grow unkind.
+"Roots buried deep in ancient soil,",soil,foil,soil,True,Branches reach where the sky is foil.,Branches reach where the sky is foil.
+"In shadow’s clutch, the strongest will may kneel,",kneel,feel,kneel,True,"But in the dark, the boldest hearts still feel.","But in the dark, the boldest hearts still feel."
+"In strokes of light and whispers unseen,",unseen,line,unseen,False,"The world is painted, line by line.","The world is painted, line by line."
+"Whispers of winter melt to spring's soft sigh,",sigh,sky,sigh,True,Blossoms awaken 'neath a blushing sky.,Blossoms awaken 'neath a blushing sky.
+"I stepped through the veil of shadowed years,",years,nears,years,True,And found the past still waiting nears.,And found the past still waiting nears.
+"Whispers curl like shadows at dawn,",dawn,drawn,dawn,True,Secrets bloom where the light is drawn.,Secrets bloom where the light is drawn.
+"Beneath a sky that shifts from blue to grey,",grey,away,grey,True,The wind begins to whisper as the day fades away.,The wind begins to whisper as the day fades away.
+"Where echoes of laughter dwell, I am not lost among the walls—I belong,",belong,flame,belong,False,"For the silence speaks my name, and the shadows hold me like a flame.","For the silence speaks my name, and the shadows hold me like a flame."
+"On tongues of time, flavors entwine,",entwine,defines,entwine,False,"In every bite, the past defines.","In every bite, the past defines."
+"In whispers of dawn, the soul begins to pray,",pray,day,grey,True,For light to guide it through the coming day.,For light to guide it through the coming day.
+"Shadows whisper secrets loud in trembling breast,",breast,dress,breast,False,Echoes of the past in midnight's dress.,Echoes of the past in midnight's dress.
+"Two hearts entwined through time’s unyielding sweep,",sweep,keep,sweep,True,"A bond no storm, no shadow, nor deceit could keep.","A bond no storm, no shadow, nor deceit could keep."
+"Whispers of the hearth where the heart’s threads are spun,",spun,sun,spun,True,Echoes of the soul in the light of the sun.,Echoes of the soul in the light of the sun.
+"Clenched jaws whisper storms of rage untamed,",untamed,flame,untamed,False,"Eyes like embers, burning without flame.","Eyes like embers, burning without flame."
+"Love is the flame that gentle does rise,",rise,eyes,dies,True,"Not in the blaze, but in the eyes.","Not in the blaze, but in the eyes."
+"Fury burns where calm once stayed,",stayed,made,stayed,True,Storms arise where peace was made.,Storms arise where peace was made.
+"Justice weeps in shadowed halls,",halls,walls,halls,True,Where truth is bound by silent walls.,Where truth is bound by silent walls.
+"Neon hums where tall shadows play,",play,day,grey,True,Whispers echo in the light of day.,Whispers echo in the light of day.
+"Whispers coil like shadows in the mind’s tight maze,",maze,ways,maze,True,"Echoes of the past in silent, winding ways.","Echoes of the past in silent, winding ways."
+"Anger boils like storm in night,",night,light,light,True,Hope flickers like a candle's light.,Hope flickers like a candle's light.
+"Whispers cloaked in honeyed lies, the blade of betrayal still gleams in trust’s disguise,",disguise,strife,dies,False,"A smile as sharp as winter's knife, the heart it carves is forged in strife.","A smile as sharp as winter's knife, the heart it carves is forged in strife."
+"Whispers coil like shadows, cold and tight,",tight,night,light,True,Echoes hum a lullaby of night.,Echoes hum a lullaby of night.
+"Like sunlight breaking through the clouds of gray,",gray,way,grey,True,Hope blooms anew to light the way.,Hope blooms anew to light the way.
+"In shadowed silence, time's hourglass bleeds,",bleeds,feed,bleeds,False,Whispers of fate on the wind's last breath feed.,Whispers of fate on the wind's last breath feed.
+"Autumn's breath turns leaves to gold, a whispered story told,",told,unfold,told,True,"The moon ascends where night winds hold, and stars in silent splendor unfold.","The moon ascends where night winds hold, and stars in silent splendor unfold."
+"The shadows stretch where laughter once was bright,",bright,night,light,True,The echoes fade into the night.,The echoes fade into the night.
+"Beneath the canvas of twilight's embrace,",embrace,trace,embrace,True,"The stars whisper secrets in their soft, silver trace.","The stars whisper secrets in their soft, silver trace."
+"In the shadow's grip, a fragile light whispers of tomorrow's might,",might,disguise,light,False,"A silent hope begins to rise, defying the night's disguise.","A silent hope begins to rise, defying the night's disguise."
+"Winds whisper secrets of roads yet to be trod,",trod,go,trod,False,Dreams map the journey where wanderers go.,Dreams map the journey where wanderers go.
+"Stars map my longing in the heavens’ sly embrace,",embrace,erase,embrace,True,Moonlight whispers secrets only shadows can erase.,Moonlight whispers secrets only shadows can erase.
+"In the mirror of time, I trace the shadow I’ve sown,",sown,grow,stone,False,Each reflection a whisper of what I’ve let grow.,Each reflection a whisper of what I’ve let grow.
+"In whispers of light, the soul finds its creed,",creed,seed,creed,True,"Amidst the shadows, hope plants its seed.","Amidst the shadows, hope plants its seed."
+"Freedom soars where chains once clung,",clung,sung,clung,True,Hope is born where courage's sung.,Hope is born where courage's sung.
+"A hand clasped in thine can also cut the deepest,",deepest,expected,deepest,False,For love that grips too tight can wound where it's the least expected.,For love that grips too tight can wound where it's the least expected.
+"The reaper’s shadow lengthens with the noon,",noon,begun,noon,False,The harvest of our sorrows is begun.,The harvest of our sorrows is begun.
+"Blossoms bloom where laughter finds its way,",way,day,grey,True,Whispers of joy on the breeze each day.,Whispers of joy on the breeze each day.
+"Threads of love woven through the years,",years,clear,years,False,"Moments cherished, sweet and clear.","Moments cherished, sweet and clear."
+"Winds of liberty whisper through chains of control,",control,whole,soul,True,A fire is lit in the hearts of the whole.,A fire is lit in the hearts of the whole.
+Whispers of velvet and hues that sing—,sing,swing,sing,True,A symphony dances where the wild things swing.,A symphony dances where the wild things swing.
+"A shadow fades where the flame won’t die,",die,cry,sigh,True,A whisper lingers where the silent cry.,A whisper lingers where the silent cry.
+"Whispers through the grass where the wild things dance,",dance,trance,dance,True,Moonlight paints the shadows in silver trance.,Moonlight paints the shadows in silver trance.
+"A bond unspoken, yet deep as the sea,",sea,me,sea,True,A silent devotion that binds you and me.,A silent devotion that binds you and me.
+"Whispers of winter melt into the bloom of spring’s embrace,",embrace,chase,embrace,True,As frost retreats and tender petals chase.,As frost retreats and tender petals chase.
+"In every flaw, a whisper of perfection's breath,",breath,rest,breath,False,For light is born where shadows fold and rest.,For light is born where shadows fold and rest.
+"Beneath the mask that cloaks the soul, the mirror cracks with whispered toll,",toll,day,soul,False,"Each reflection fades to ghostly gray, as shadows claim the light of day.","Each reflection fades to ghostly gray, as shadows claim the light of day."
+"Brushstrokes whisper where the soul once dreamed,",dreamed,seemed,dreamed,True,Colors fade where silent thoughts had seemed.,Colors fade where silent thoughts had seemed.
+"In the dance of flaw and flawless light,",light,right,light,True,We find our truth in what feels right.,We find our truth in what feels right.
+"Whispers of wind through the ancient oak's embrace,",embrace,trace,embrace,True,Echoes of time in its gnarled bark's trace.,Echoes of time in its gnarled bark's trace.
+"In mirrored shades where shadow dares to creep,",creep,keep,sweep,True,The moon whispers secrets that the stars dare not keep.,The moon whispers secrets that the stars dare not keep.
+"When whispered vows turn cold as winter skies,",skies,rise,dies,True,Love's fragile flame can barely rise.,Love's fragile flame can barely rise.
+"In the rhythm of shared breath, hearts weave a single song,",song,belong,belong,True,"In the hush where two worlds meet, love is where we belong.","In the hush where two worlds meet, love is where we belong."
+"In brushstrokes of dawn, wild imagination ascends,",ascends,descend,ascends,False,To paint the sky with dreams that never descend.,To paint the sky with dreams that never descend.
+"Like thunder chained to silent stone,",stone,known,stone,True,"It waits in the heart, yet still is known.","It waits in the heart, yet still is known."
+"A flawless sphere, yet marred by its glow,",glow,unknown,glow,False,"A beacon in shadows, both seen and unknown.","A beacon in shadows, both seen and unknown."
+"In the hush between breaths, the sacred stirs,",stirs,burns,years,False,A whisper of wings where the stillness burns.,A whisper of wings where the stillness burns.
+"Whispers of wild hearts beat beneath the moon's gentle gaze,",gaze,haze,maze,True,Echoes of love find their way through the haze.,Echoes of love find their way through the haze.
+"A heartbeat hums where light once passed,",passed,vast,past,True,"A shadow lingers, cold and vast.","A shadow lingers, cold and vast."
+"Colors whisper tales in hues once unknown,",unknown,go,stone,False,Shadows dance where the light used to go.,Shadows dance where the light used to go.
+"In shadowed chains, the spirit dares to sing,",sing,brings,sing,False,Defying dark with every note it brings.,Defying dark with every note it brings.
+"A whispered vow can fracture like glass beneath the heel of deceit,",deceit,mend,deceit,False,And shatter the trust that time cannot mend.,And shatter the trust that time cannot mend.
+"It blooms in whispers, not in storm,",storm,form,storm,True,"It grows in quiet, not in form.","It grows in quiet, not in form."
+"I walked through the shadows where childhood once stayed,",stayed,laid,stayed,True,And found forgotten dreams in the dust where they laid.,And found forgotten dreams in the dust where they laid.
+"Whispers of winds through ancient green trees,",trees,histories,trees,False,Echoing tales of forgotten histories.,Echoing tales of forgotten histories.
+"Whispers of yesterday dance on the winds of time,",time,rhyme,time,True,Echoes of our song still linger in the rhyme.,Echoes of our song still linger in the rhyme.
+"Together we rise, woven as one,",one,strong,spun,False,"Through every storm, our bond is strong.","Through every storm, our bond is strong."
+"Time’s tapestry threads with echoes of yore,",yore,adore,soar,True,Weaving the past in patterns we adore.,Weaving the past in patterns we adore.
+"Justice weeps in shadowed halls,",halls,walls,halls,True,Where truth is bound by silent walls.,Where truth is bound by silent walls.
+"Laughter echoes down the lane where sunlit days once played,",played,swayed,stayed,True,Whispers of the past still linger where the wildflowers swayed.,Whispers of the past still linger where the wildflowers swayed.
+"The hours drift like autumn leaves in twilight’s gentle stream,",stream,gleam,stream,True,The silent hush of dusk now wraps the world in softest gleam.,The silent hush of dusk now wraps the world in softest gleam.
+"The road unwinds its thread through mist and sun,",sun,done,spun,True,Each turn a whisper of what's never done.,Each turn a whisper of what's never done.
+"Brushstrokes of wonder bloom in minds unchained,",unchained,remain,unchained,False,Whispers of color where wild thoughts remain.,Whispers of color where wild thoughts remain.
+"Through shared beginnings and paths that diverge,",diverge,emerge,diverge,True,We find in the journey the truths that emerge.,We find in the journey the truths that emerge.
+"In shadows deep where hope once danced with light,",light,night,light,True,Whispers of the past still haunt the night.,Whispers of the past still haunt the night.
+"In shadow's grip, cannon-light whispers of rage,",rage,wage,rage,True,A storm in the soul where the wounded ones wage.,A storm in the soul where the wounded ones wage.
+"In laughter’s glow, where trust is sown,",sown,own,stone,True,"We find our truths, though not our own.","We find our truths, though not our own."
+"Voices echo, yet no hearts collide,",collide,bides,collide,False,Whispers linger where the silence bides.,Whispers linger where the silence bides.
+"Though shadows stretch where light once bloomed,",bloomed,home,bloomed,False,The stars still whisper of the home.,The stars still whisper of the home.
+"In the shadowed heart where two winds meet,",meet,speak,deceit,False,Whispers of fate begin to speak.,Whispers of fate begin to speak.
+"Beneath the silence where whispers used to play,",play,strays,grey,False,The echoes fade where the daylight strays.,The echoes fade where the daylight strays.
+"With trembling hands, I reach to light the flame,",flame,name,name,True,But shadows dance and whisper my name.,But shadows dance and whisper my name.
+"Two hearts entwined, a promise made,",made,shade,stayed,True,"A journey shared, through storms and shade.","Two hearts entwined, a promise made,  
+A journey shared, through storms and shade."
+"In twilight’s hush, where hearts exhale,",exhale,tale,exhale,True,The moon whispers her silver tale.,The moon whispers her silver tale.
+"The shadows whisper threats they cannot name,",name,flame,name,True,Echoes of the past in silent flame.,Echoes of the past in silent flame.
+"Silhouettes of solitude etched deep in vacant skies,",skies,arise,dies,True,Whispers of the lost drift by where silent stars arise.,Whispers of the lost drift by where silent stars arise.
+"Shadows fall where once your laughter bloomed,",bloomed,sewn,bloomed,False,Now silence hums where joy was sewn.,Now silence hums where joy was sewn.
+"Footprints in the dust of days gone by,",by,die,sigh,True,Whispers of the past that never die.,Whispers of the past that never die.
+"The reaper whispers soft through every age,",age,stage,rage,True,"A silent hymn to life's brief, fleeting stage.","A silent hymn to life's brief, fleeting stage."
+"Amidst the buzz of concrete dreams, the country’s clockwork hums in rural streams,",streams,scream,dreams,False,"Where quiet fields in morning gleam, and time forgets to rush or scream.","Where quiet fields in morning gleam, and time forgets to rush or scream."
+"Two hearts entwined where vows take root,",root,undo,root,False,A love that time and distance can't undo.,A love that time and distance can't undo.
+"In the shadows, whispers rise—half angel, half abyss,",abyss,kiss,abyss,True,"A voice both sweet and sharp, it sings of fate’s last kiss.","A voice both sweet and sharp, it sings of fate’s last kiss."
+"Whispers of absence haunt the hollows where their laughter once was,",was,crossed,was,False,Echoes of a song now silent in the spaces that they've crossed.,Echoes of a song now silent in the spaces that they've crossed.
+"The scales of justice tremble with truth, while shadows feast on the cries of the unjust,",unjust,trust,unjust,True,and silence guards the halls where the guilty trust.,and silence guards the halls where the guilty trust.
+"The thunder in his chest begins to roar,",roar,ignore,soar,True,"A tempest stirs, he can no longer ignore.","A tempest stirs, he can no longer ignore."
+"In the hush between heartbeats, love begins to breathe,",breathe,free,breathe,False,"A whisper of forever, soft and wild and free.","A whisper of forever, soft and wild and free."
+"Whispers of spring in the thawing snow's breath,",breath,death,breath,True,Awakening life where the frost once held death.,Awakening life where the frost once held death.
+"The elder chants as clocks devour time,",time,rhyme,time,True,The stars above hum softly in rhyme.,The stars above hum softly in rhyme.
+"Roots whispered in stories older than stone,",stone,known,stone,True,Leaves hummed songs where the lost and the lone are known.,Leaves hummed songs where the lost and the lone are known.
+"Silent nights where echoes dwell,",dwell,swell,dwell,True,Whispers rise where shadows swell.,Whispers rise where shadows swell.
+"Amber whispers brush the breeze,",breeze,trees,trees,True,Silver shadows dance with trees.,Silver shadows dance with trees.
+"Autumn's breath whispers through the trees,",trees,breeze,trees,True,Leaves in dance upon the breeze.,Leaves in dance upon the breeze.
+"Neon hums where high-rises breathe,",breathe,glee,breathe,False,Steel and shadow twist with glee.,Steel and shadow twist with glee.
+"Pack the sunrise in your pocket, let the roads unwind like time,",time,align,time,False,And chase the horizon's whisper where the sky and dreams align.,And chase the horizon's whisper where the sky and dreams align.
+"Love is the fire that warms both heart and home,",home,cold,home,False,Hate is the frost that lets the soul grow cold.,Hate is the frost that lets the soul grow cold.
+"Thunder roars, but chains remain unbroken—",unbroken,spoken,unbroken,True,Silence falls where the storm has spoken.,Silence falls where the storm has spoken.
+"Winds whisper tales of roads unseen,",unseen,between,unseen,True,Moonlight paints the paths between.,Moonlight paints the paths between.
+"In the quiet dawn, where prayers and petals rise,",rise,disguise,dies,True,Whispers of hope in morning's soft disguise.,Whispers of hope in morning's soft disguise.
+"A bond untouched by time or fate,",fate,gate,fate,True,A love that burns beyond the gate.,A love that burns beyond the gate.
+"Whispers of dread in the silence they creep,",creep,sleep,sweep,True,Shadows arise where the nightmares still sleep.,Shadows arise where the nightmares still sleep.
+"In twilight's hush, where shadows dare to speak,",speak,seek,speak,True,Whispers of the wind begin to seek.,Whispers of the wind begin to seek.
+"In starlit whispers, my hopes take flight,",flight,night,light,True,"Through velvet skies, they soar each night.","Through velvet skies, they soar each night."
+"The road unfolds like whispered dreams in dawn's embrace,",embrace,rhyme,embrace,False,"Each turn a verse in time’s soft, winding rhyme.","Each turn a verse in time’s soft, winding rhyme."
+"The earth whispers tales through rustling green,",green,seen,unseen,True,"The moon listens close, though not been seen.","The moon listens close, though not been seen."
+"In shadows cast by city lights, a thousand souls feel night,",night,skies,light,False,"Their whispered dreams in silence rise, like stars that kiss the skies.","Their whispered dreams in silence rise, like stars that kiss the skies."
+"Beneath the brush of dawn’s soft light,",light,white,light,True,The world is wrapped in hush and white.,The world is wrapped in hush and white.
+"The hush of time whispers tales of the old,",old,bold,told,True,Where shadows dance and the forgotten are bold.,Where shadows dance and the forgotten are bold.
+"In the quiet space where heartbeats blend,",blend,send,blend,True,We find the truths that love will send.,We find the truths that love will send.
+"Whispers of the past linger where old shadows dance,",dance,trance,dance,True,Echoes of forgotten hearts leave a timeless trance.,Echoes of forgotten hearts leave a timeless trance.
+"Through storms of time, our roots hold fast,",fast,ask,past,False,"In love’s deep soil, we’ll never ask.","In love’s deep soil, we’ll never ask."
+"Amid the throng, a silent storm,",storm,torn,storm,False,"A whispered word, a heart torn.","A whispered word, a heart torn."
+"Whispers of winds through ancient tree songs flow,",flow,below,glow,True,Echoes of time in the rustling below.,Echoes of time in the rustling below.
+"Whispers of crimson, symphonies in every thread,",thread,blend,thread,False,A dance of shadows where the wild and woven blend.,A dance of shadows where the wild and woven blend.
+"In laughter's wake, where memory weaves,",weaves,brief,weaves,False,"Time folds like paper, soft and brief.","Time folds like paper, soft and brief."
+"Winds of freedom whisper where chains forgot to fall,",fall,recall,fall,True,A silent thunder rolls through the soul's recall.,A silent thunder rolls through the soul's recall.
+"The scales of justice sway on trembling strings,",strings,sings,strings,True,With every whisper of the biased winds it sings.,With every whisper of the biased winds it sings.
+"In hues that hum and silence rustles soft,",soft,oft,soft,True,The moonlight spills where shadowed whispers oft.,The moonlight spills where shadowed whispers oft.
+"In the golden glow of dusk, I chase the echoes of summer's hush,",hush,gone,hush,False,"With whispers of the wind, it hums a tune of days now gone.","With whispers of the wind, it hums a tune of days now gone."
+"Together we rise, bound by more than shared skies,",skies,hide,dies,False,United by hearts where no shadow can hide.,United by hearts where no shadow can hide.
+"Whispers vanish in the hollows where connection once resided,",resided,tide,resided,False,Silent echoes of devotion now lost to the tide.,Silent echoes of devotion now lost to the tide.
+"Joy dances bright where kind hearts meet,",meet,beat,deceit,True,Love lights the way through every beat.,Love lights the way through every beat.
+"In whispers of time, our deeds still sing—",sing,wrong,sing,False,"Through echoes that linger, right from wrong.","Through echoes that linger, right from wrong."
+"Like morning dew on petals soft and new,",new,through,new,True,The light of dawn breaks through.,"Like morning dew on petals soft and new,  
+The light of dawn breaks through."
+"Wings of dawn clash with iron night,",night,light,light,True,Shadows break beneath the light.,Shadows break beneath the light.
+"Brushstrokes weave the silent song of imagination’s flame,",flame,intermingle,name,False,Colors whisper tales where dreams and daylight intermingle.,Colors whisper tales where dreams and daylight intermingle.
+"Whispers of the past dance on the breeze,",breeze,melodies,trees,False,Echoes of forgotten melodies.,Echoes of forgotten melodies.
+"In youth's tender bloom, my heart first knew the name of flame,",flame,blame,name,True,"But time, with gentle hand, has taught me not to blame.","But time, with gentle hand, has taught me not to blame."
+"Beneath the mask, a whisper grows—",grows,blow,grows,False,A storm of secrets starts to blow.,A storm of secrets starts to blow.
+"Beneath sweet lies, the truth often weeps in shadow,",shadow,sorrow,glow,False,"For every heart that fakes, another bleeds in sorrow.","For every heart that fakes, another bleeds in sorrow."
+"Two hearts entwined, a vow so true,",true,undo,new,True,A love that time cannot undo.,A love that time cannot undo.
+"A tapestry woven in laughter and tears,",tears,years,years,True,A dance of shadows 'neath starlit years.,A dance of shadows 'neath starlit years.
+"Like shadows at the close of day,",day,stay,grey,True,They fade but never seem to stay.,They fade but never seem to stay.
+"Whispers of wind through the emerald embrace,",embrace,space,embrace,True,Echoes of time in the rustling space.,Echoes of time in the rustling space.
+"Whispers of absence haunt the halls where laughter used to play,",play,day,grey,True,Echoes of your name still linger in the light of day.,Echoes of your name still linger in the light of day.
+"Beneath the mask, the true self stirs,",stirs,hers,years,True,"A soul unbound, no longer hers.","A soul unbound, no longer hers."
+"Colors whisper secrets where wild imaginations tread,",tread,bled,thread,True,Shadows dance with dreams where the sun and moon have bled.,Shadows dance with dreams where the sun and moon have bled.
+"A hollow vow where silence weeps,",weeps,keep,weeps,False,A ghostly breath in winter’s keep.,A ghostly breath in winter’s keep.
+"In shadows cast by screens we cling,",cling,spin,sing,False,To flickering tales that twist and spin.,To flickering tales that twist and spin.
+"Wander the roads where old shadows dance,",dance,chance,dance,True,Seek the echoes of a forgotten chance.,Seek the echoes of a forgotten chance.
+"In shadows crowned, the weak wear might unseen,",unseen,keen,unseen,True,"Beneath the cloak, the lion's heart is keen.","Beneath the cloak, the lion's heart is keen."
+"In the quiet heartbeat where the stars dare speak,",speak,seek,speak,True,Whispers of the dawn begin to seek.,Whispers of the dawn begin to seek.
+"Smoke ascends where silent dreams once grew,",grew,pursue,new,True,Ash remains where embers still pursue.,Ash remains where embers still pursue.
+"Roots tangled in ancient soil, yet branches stretch toward tomorrow's light,",light,flight,light,True,"Whispers of time in every leaf, they dance with the dawn’s first flight.","Whispers of time in every leaf, they dance with the dawn’s first flight."
+"In shadows cast by silver lies,",lies,denies,dies,True,Whispers bloom where truth denies.,Whispers bloom where truth denies.
+"In whispered groves where the wild things dance,",dance,glance,dance,True,"Beneath the moon’s soft, silver glance.","Beneath the moon’s soft, silver glance."
+"City lights hum with restless desire,",desire,ignore,desire,False,Whispers of dreams we can't ignore.,Whispers of dreams we can't ignore.
+"Time weaves its wisdom, thread by silent thread,",thread,tread,thread,True,Life stitches meaning where the moments tread.,Life stitches meaning where the moments tread.
+"Whispers of winds through the ancient wood,",wood,stood,wood,True,Echoes of time in the shadows stood.,Echoes of time in the shadows stood.
+"By the sandbox where the fireflies glow,",glow,blow,glow,True,We’ll whisper secrets as the night winds blow.,We’ll whisper secrets as the night winds blow.
+"Winds of freedom whisper where chains dare not clink,",clink,think,clink,True,And hope takes flight where the brave dare to think.,And hope takes flight where the brave dare to think.
+"The hearth’s faint breath speaks tales of where I came from,",from,become,from,True,The shadows dance with echoes of the past I’ve become.,The shadows dance with echoes of the past I’ve become.
+"Beneath the map's edge, the unknown beckons soft and wide,",wide,hide,collide,True,Where dreams and distant wonders hide.,Where dreams and distant wonders hide.
+"A heartbeat’s whisper, a soul’s soft fire,",fire,desire,desire,True,"A dream takes flight, a wishful desire.","A dream takes flight, a wishful desire."
+"Beneath a handshake, a dagger gleams with dew,",dew,do,new,True,"For every pact is but a trap, and you know what to do.","For every pact is but a trap, and you know what to do."
+"Whispers of winter kiss the thawing spring,",spring,sting,sing,True,"Melting dreams in a tender, fleeting sting.","Melting dreams in a tender, fleeting sting."
+"The sun spills gold on laughter's tender track,",track,dark,track,False,While shadows dance where memories are etched in the dark.,While shadows dance where memories are etched in the dark.
+"A silent tear on truth's tightrope spin,",spin,been,spin,True,A shadow dances where the light has been.,A shadow dances where the light has been.
+"In starlit whispers, my heart ignites,",ignites,flight,ignites,False,"For in your gaze, my soul takes flight.","For in your gaze, my soul takes flight."
+"Amidst the swirl of hues and whispered air,",air,dare,despair,True,The moonlight dances where the shadows dare.,The moonlight dances where the shadows dare.
+"Beneath soft lies, the truth wears a cloak of light,",light,fight,light,True,"But in the dark, it whispers its fight.","But in the dark, it whispers its fight."
+"Two hearts entwined where the vows take flight,",flight,light,light,True,A dance of souls in the softest light.,"Two hearts entwined where the vows take flight,  
+A dance of souls in the softest light."
+"A laughter rings where sunshine stirs the air,",air,there,despair,True,A whisper dances where the moonlight's there.,A whisper dances where the moonlight's there.
+"In whispered hearts where silent dreams take flight,",flight,light,light,True,Soft echoes dance in the moon's pale light.,Soft echoes dance in the moon's pale light.
+"A breath too brief, a shadow that swallows the light,",light,night,light,True,A whisper of forever that fades into night.,A whisper of forever that fades into night.
+"In shadowed hands, the torch of might is pressed,",pressed,blessed,breast,True,To light the path where darkness has been blessed.,To light the path where darkness has been blessed.
+"A bond unspoken, yet stronger than time,",time,climb,time,True,A silent devotion that will always climb.,A silent devotion that will always climb.
+"Seconds whisper through the cracks of youth,",youth,truth,youth,True,Moments slip like time in truth.,Moments slip like time in truth.
+"Whispers weave through the woods where wild hearts roam,",roam,glow,home,False,Echoes of dreams in the moon's silver glow.,Echoes of dreams in the moon's silver glow.
+"Whispers of wind through the emerald trees,",trees,leaves,trees,False,Singing soft lullabies to the leaves.,Singing soft lullabies to the leaves.
+"In the attic of my heart, old shadows dance with light,",light,night,light,True,Whispers of the past now hum a melody of night.,Whispers of the past now hum a melody of night.
+"In flawless cracks, the beauty truly shines,",shines,signs,shines,True,Like light through glass in winter’s quiet signs.,Like light through glass in winter’s quiet signs.
+"Beneath the boughs of time’s slow-swaying tree,",tree,prophecy,sea,False,The echoes of what’s to come prophecy.,The echoes of what’s to come prophecy.
+"Beneath the skin, a story waits to breathe,",breathe,see,breathe,False,Each scar and vein a verse of what we see.,Each scar and vein a verse of what we see.
+"Beneath the sun’s first golden hour,",hour,flower,hour,True,The dew still clings to every flower.,The dew still clings to every flower.
+"The scales of heaven waver in the storm,",storm,form,storm,True,The weight of fate is torn from its form.,The weight of fate is torn from its form.
+"The morning sun spills gold through trees,",trees,breeze,trees,True,Whispering life to every breeze.,Whispering life to every breeze.
+"In the woven threads of many, one heartbeat gently sings,",sings,things,strings,True,"A silent song the stars have known through endless, shifting things.","A silent song the stars have known through endless, shifting things."
+"In the silent chasm where shadows conspire,",conspire,wire,desire,True,Whispers of doom on the wind's cold wire.,Whispers of doom on the wind's cold wire.
+"The clock’s soft breath stirs dust of bygone days,",days,praise,maze,True,"Whispers of time in shadowed, silent praise.","Whispers of time in shadowed, silent praise."
+"When silence speaks, the heart turns cold,",cold,told,told,True,"In frozen words, the truth is told.","When silence speaks, the heart turns cold,  
+In frozen words, the truth is told."
+"In shadows where sweet promises fade,",fade,laid,stayed,True,Whispers of truth are laid.,Whispers of truth are laid.
+"Though flesh may fade, the deeds we do ignite…",ignite,flight,light,True,A flame that lingers long after we flight.,A flame that lingers long after we flight.
+"Colors weep from silent canvases, whispers take form in clay’s embrace,",embrace,chance,embrace,False,"brushstrokes bleed where shadows dance, echoes carve what time can’t chance.","brushstrokes bleed where shadows dance, echoes carve what time can’t chance."
+"Time stitches wrinkles in the cloth of youth,",youth,truth,youth,True,But memory weaves gold where the threads feel truth.,But memory weaves gold where the threads feel truth.
+"Each year etches wisdom where youthful days once played,",played,displayed,stayed,True,"And time, a quiet thief, steals what light has been displayed.","And time, a quiet thief, steals what light has been displayed."
+"Whispers of the dusk that shadows all our days,",days,time,maze,False,Echo softly through the corridors of time.,Echo softly through the corridors of time.
+"Brushstrokes of thought on canvases unseen,",unseen,convenes,unseen,False,Whispers of dreams where the impractical convenes.,Whispers of dreams where the impractical convenes.
+"A fragile thread through shadow's weave,",weave,grieve,weave,True,It dances where the silent grieve.,It dances where the silent grieve.
+"Whispers fade where connection once thrived,",thrived,arrived,thrived,True,Silence now where the echoes arrived.,Silence now where the echoes arrived.
+"When shadows steal the ones we held so dear,",dear,year,dear,True,"We hold their memory close, year on year.","We hold their memory close, year on year."
+"A mirror cracks, and in the shards I see—",see,agreeing,sea,False,"A thousand selves, none quite agreeing.","A thousand selves, none quite agreeing."
+"Whispers of spring thaw the earth from her sleep,",sleep,keep,sweep,True,Blossoms take flight where the frost once did keep.,Blossoms take flight where the frost once did keep.
+"With timid steps through the shadowed gate,",gate,forgot,fate,False,I sought the heart that time forgot.,I sought the heart that time forgot.
+"Whispers of wind weave through earth’s old rhyme,",rhyme,time,time,True,Carving stories in the hush of time.,Carving stories in the hush of time.
+"Beneath the moon’s cold, watchful eye,",eye,nigh,sigh,True,The shadows dance and stars draw nigh.,The shadows dance and stars draw nigh.
+"Candy wrappers rustled like whispers in the halls,",halls,wall,halls,False,Sweet secrets hiding behind every wall.,Sweet secrets hiding behind every wall.
+"In the rhythm of shared hearts, we find our name,",name,shame,name,True,"Etched in time, a love that will not shame.","Etched in time, a love that will not shame."
+"Names etched in time’s slow turning glass,",glass,years,glass,False,Fading like whispers down the years.,Fading like whispers down the years.
+"In whispers clad in velvet tone,",tone,alone,stone,True,The moonlight dances all alone.,The moonlight dances all alone.
+"The cannons roared where silent fields once breathed,",breathed,death,breathed,False,"The dead, in whispers, still lament the death.","The dead, in whispers, still lament the death."
+"When your heart first whispers a name in the dark,",dark,spark,dark,True,"You know, without a doubt, it's love that stirs the spark.","You know, without a doubt, it's love that stirs the spark."
+"The spark of rage ignites in silent throes,",throes,nose,grows,True,A storm of words behind a quiet nose.,A storm of words behind a quiet nose.
+"A crown of shadows, a whisper undone,",undone,won,spun,True,"A throne of silence, where no one is won.","A throne of silence, where no one is won."
+"In the mirror of the soul, a thousand faces fade,",fade,stay,stayed,False,But one true reflection dares to stay.,But one true reflection dares to stay.
+"Love blooms like dawn in the hearts it sets free,",free,be,sea,True,But fades like dusk if it's forced to be.,But fades like dusk if it's forced to be.
+"Whispers of the ageless few echo through the halls of dust,",dust,just,unjust,True,"Their secrets bound in silence, time cannot claim them just.","Their secrets bound in silence, time cannot claim them just."
+"Roots carved in stories, ancient and new,",new,you,new,True,Branches of wisdom reaching for you.,Branches of wisdom reaching for you.
+"Echoes of laughter fade in distant air,",air,care,despair,True,Whispers of joy linger without a care.,Whispers of joy linger without a care.
+"Through whispering woods where wild dreams run free,",free,mystery,sea,False,Beneath the boughs of ancient mystery.,Beneath the boughs of ancient mystery.
+"Old hands pass down the flame, but new hands shape its code,",code,told,code,False,so every spark becomes a name in the story that's told.,so every spark becomes a name in the story that's told.
+"Whispers of dread in the quietest breath,",breath,death,breath,True,Shadows conspire as the night takes its death.,Shadows conspire as the night takes its death.
+"Anchors of old in tidal streams of change,",change,strain,change,False,"Steel in the surge, they hold through the strain.","Steel in the surge, they hold through the strain."
+"With trembling hands, I trace the years unread,",unread,said,thread,True,Each page a ghost of what I once had said.,Each page a ghost of what I once had said.
+"Candlelit echoes of eras long gone,",gone,drawn,dawn,True,Whispers of time in the shadows are drawn.,Whispers of time in the shadows are drawn.
+"In whispered woods where shadows play,",play,gray,grey,True,"The moonlight dances, soft and gray.","The moonlight dances, soft and gray."
+"A flawless vase, still cracked within, a shadow draped in light,",light,sleep,light,False,"A silent scream, no ear to hear, the night that cannot sleep.","A silent scream, no ear to hear, the night that cannot sleep."
+"Wings of dawn stir softly, whispering of roads ahead,",ahead,spread,thread,True,Each feathered breath a promise where new horizons spread.,Each feathered breath a promise where new horizons spread.
+"A hearth's warm glow where whispered memories reside,",reside,by,collide,False,Flickers softly with the tales of days long gone by.,"A hearth's warm glow where whispered memories reside,  
+Flickers softly with the tales of days long gone by."
+"In twilight's hush, hope and despair softly tread,",tread,fed,thread,True,Where shadows dance with dreams that memories have fed.,Where shadows dance with dreams that memories have fed.
+"Whispers of the grave dance on the wind,",wind,begin,wind,False,Echoes of the lost where no one will begin.,Echoes of the lost where no one will begin.
+"When laughter dances on the breeze,",breeze,trees,trees,True,It whispers joy through all the trees.,It whispers joy through all the trees.
+"My name may fade, but my spirit's song will never die—",die,sky,sigh,True,It lives in every heart that dares to dream and reach the sky.,It lives in every heart that dares to dream and reach the sky.
+"A hearth’s glow whispers, *“Here, you are where your story began,”*",began,stands,began,False,"A shadow stirs, but the fire stands.","A shadow stirs, but the fire stands."
+"Shells light the night where no stars intervene,",intervene,sheen,unseen,True,Whispers of tides in the moon's soft sheen.,Whispers of tides in the moon's soft sheen.
+"In shadowed halls where whispers fade,",fade,laid,stayed,True,The echoes of the past are laid.,The echoes of the past are laid.
+"Time etches wisdom in the lines it leaves behind,",behind,find,wind,True,Life's fleeting moments are the truths we find.,Life's fleeting moments are the truths we find.
+"My temper burns like fire, a tempest in my veins,",veins,breath,remains,False,But calm the storm with words that cut like winter's breath.,But calm the storm with words that cut like winter's breath.
+"The whisper of butter on fire-kissed bread,",bread,fled,thread,True,A golden crunch where the softness has fled.,A golden crunch where the softness has fled.
+"Through whispered lullabies and silent goodbyes,",goodbyes,skies,dies,True,We find the strength to face the morning skies.,We find the strength to face the morning skies.
+"Candy wrappers crinkled in the sunbeams of summers long gone,",gone,born,dawn,False,Whispers of laughter where the fireflies are born.,Whispers of laughter where the fireflies are born.
+"In the shadow of a silent promise, a dagger whets its blade,",blade,save,stayed,False,"In the hush where truth and fear collide, the heart it cannot save.","In the hush where truth and fear collide, the heart it cannot save."
+"Whispers of the wild through ancient trees,",trees,breeze,trees,True,Echoes of the earth in rustling breeze.,Echoes of the earth in rustling breeze.
+"In silent prayers, the soul takes wing,",wing,sings,sing,False,To dance with stars where heaven sings.,To dance with stars where heaven sings.
+"Beneath the skin, a story stirs unnamed,",unnamed,untamed,unnamed,False,"A silent pulse, a rhythm long untamed.","A silent pulse, a rhythm long untamed."
+"In tangled strokes and whispered hues, the soul finds voice in wild abandonment,",abandonment,unfold,abandonment,False,"A dance of shadows, free and bold, where heart and canvas both unfold.","A dance of shadows, free and bold, where heart and canvas both unfold."
+"Beneath the moon where wild things roam,",roam,known,home,False,The stars whisper secrets long since known.,The stars whisper secrets long since known.
+"My fists beat time to a simmering storm,",storm,torn,storm,False,"My breath is fire, the night is torn.","My breath is fire, the night is torn."
+"Thunder roars in chains of might,",might,night,light,True,Lightning scribbles through the night.,Lightning scribbles through the night.
+"Like echoes in a hall of old,",old,told,told,True,They whisper tales that long have been told.,They whisper tales that long have been told.
+"Brushstrokes of thought where imaginations dance,",dance,trance,dance,True,"In whispers of color, the mind finds its trance.","In whispers of color, the mind finds its trance."
+"I carve my name in bone and flame, défier of the silent claim,",claim,thread,name,False,"I dance where shadows dare not tread, with vengeance for my only thread.","I dance where shadows dare not tread, with vengeance for my only thread."
+"Whispers of the heart ignite the night with stars,",stars,repair,stars,False,Silent dreams take flight where shadowed hopes repair.,Silent dreams take flight where shadowed hopes repair.
+"Beneath the cold moon’s watching eye,",eye,high,sigh,True,The shadows dance and dreams run high.,The shadows dance and dreams run high.
+"Whispers of wind through ancient trees,",trees,leaves,trees,False,Echoes of time in rustling leaves.,Echoes of time in rustling leaves.
+"Like ink spilled on time’s unending page,",page,erases,rage,False,I trace the words that fate erases.,I trace the words that fate erases.
+"Time's quiet hand etches tales in every line it's drawn,",drawn,gone,dawn,True,"A silent artist, weaving moments long since gone.","A silent artist, weaving moments long since gone."
+"Time etches stories in silvered strands,",strands,stand,strands,False,Each wrinkle a verse where memories stand.,Each wrinkle a verse where memories stand.
+"In whispers of time, the past’s silent flame burns bright,",bright,light,light,True,"In echoes of memory, the shadows hold the light.","In echoes of memory, the shadows hold the light."
+"A hearth that glows where familiar shadows dance,",dance,glance,dance,True,A tale is told in every flickering glance.,A tale is told in every flickering glance.
+"Perfection craves the mirror, yet finds its face in cracks,",cracks,reflects,cracks,False,For beauty blooms where broken light through fractured glass reflects.,For beauty blooms where broken light through fractured glass reflects.
+"Whispers coil like shadows at dawn, thick as unspoken fear,",fear,tear,dear,True,"Echoes hum where silence once reigned, cold as a distant tear.","Echoes hum where silence once reigned, cold as a distant tear."
+"The scales of justice, though carved in stone, sway silent with the breath of the winds they've known,",known,flown,stone,True,"And time, the quiet juror, casts its vote in shadows where the light has flown.","And time, the quiet juror, casts its vote in shadows where the light has flown."
+"Whispers the hourglass in sands of gold,",gold,told,told,True,Time folds its wings where the forgotten are told.,Time folds its wings where the forgotten are told.
+"The dawn breaks softly on youthful years,",years,dear,years,False,Whispers of hope the heart holds dear.,Whispers of hope the heart holds dear.
+"My hands ignite with embers of a scream,",scream,been,stream,False,My voice is lost where the fire has been.,My voice is lost where the fire has been.
+"I walk alone through crowds of ghosts, unseen, unheard, a shadow cast between,",between,lost,unseen,False,"I speak in silence, loud and lost.","I speak in silence, loud and lost."
+"The echo of your name still lingers in the air,",air,erase,despair,False,A ghost of sound that time can't quite erase.,A ghost of sound that time can't quite erase.
+"Whispers through the wild where creatures roam,",roam,own,home,False,Moonlight paints the paths they call their own.,Moonlight paints the paths they call their own.
+"In the weave of voices, we find our song,",song,long,belong,True,"Each thread a story, strong and long.","Each thread a story, strong and long."
+"The sun spills gold on smiles that rise,",rise,die,dies,False,While whispers of the night slowly die.,While whispers of the night slowly die.
+"He walked with ghosts in shadowed trails,",trails,gales,trails,True,She whispered secrets through the gales.,She whispered secrets through the gales.
+"The echoes of laughter fade where memories once thrived,",thrived,arrived,thrived,True,And silence now lingers where joy once arrived.,And silence now lingers where joy once arrived.
+"Two hearts entwined where love and promise start,",start,flight,start,False,A journey shared where dreams and hopes take flight.,A journey shared where dreams and hopes take flight.
+"The clock’s shadow dances where the dawn used to rise,",rise,eyes,dies,True,But time has turned its back on the light in our eyes.,But time has turned its back on the light in our eyes.
+"I walk through crowds like shadows in the rain,",rain,refrain,rain,True,"Each step a whisper, lost in the refrain.","Each step a whisper, lost in the refrain."
+"A whispered vow can crack the heart's foundation,",foundation,ration,foundation,True,A shattered vow can leave a soul in ration.,A shattered vow can leave a soul in ration.
+"Two hearts entwined where promises bloom,",bloom,gloom,bloom,True,"A love eternal, in moonlight's sweet gloom.","A love eternal, in moonlight's sweet gloom."
+"A thunderclap of temper, born from sparks of wrong,",wrong,long,belong,True,A storm of justice rising where the injured long.,A storm of justice rising where the injured long.
+"In shadows cast by screens we dwell,",dwell,toll,dwell,False,"With flickering lights, our minds take toll.","With flickering lights, our minds take toll."
+"Where whispered memories cling to the walls,",walls,past,halls,False,And shadows dance with the ghosts of the past.,And shadows dance with the ghosts of the past.
+"Time etches its whispers in lines on the skin,",skin,begin,spin,True,And memories bloom where the scars begin.,And memories bloom where the scars begin.
+"A marble statue, cracked yet wise,",wise,skies,dies,True,Whispers tales of ancient skies.,Whispers tales of ancient skies.
+"In shadowed chains, the soul still dares to fly,",fly,day,sigh,False,"Though bound by night, it seeks the break of day.","Though bound by night, it seeks the break of day."
+"Two hearts entwined, a vow they seal,",seal,reveal,kneel,True,"In love’s sweet bond, they both reveal.","In love’s sweet bond, they both reveal."
+"Though flesh may fade and time may turn to rust,",rust,trust,unjust,True,The spirit's flame will ever hold its trust.,The spirit's flame will ever hold its trust.
+"Shadows fall where laughter used to rise,",rise,guise,dies,True,Echoes haunt the silence in the guise.,Echoes haunt the silence in the guise.
+"Roots tangled in tradition, whispers of the ancient echo,",echo,woven,echo,False,"Leaves cradle the future, where old and new are woven.","Leaves cradle the future, where old and new are woven."
+"Neon hums where the traffic flows,",flows,glow,grows,False,Steel and glass in the midnight glow.,Steel and glass in the midnight glow.
+"Blood paints the dawn where steel and silence wed,",wed,tread,thread,True,And shadows rise where the fallen once tread.,And shadows rise where the fallen once tread.
+"In whispers of light, belief takes its flight,",flight,depends,light,False,"Through shadows it soars, on hope it depends.","Through shadows it soars, on hope it depends."
+"In shadows cast by crowded streets, I walk alone with silent teeth,",teeth,schemes,teeth,False,"Each step a whisper, lost in schemes,","Each step a whisper, lost in schemes,  
+The city hums with borrowed dreams."
+"Laughter echoed under skies of infinite blue,",blue,through,new,True,"Whispers of joy in the breeze, dancing through and through.","Whispers of joy in the breeze, dancing through and through."
+"Whispers of the wild where the foxlight dances,",dances,glance,dances,False,Shadows stretch and secrets glance.,Shadows stretch and secrets glance.
+"The clock’s soft whisper weaves through every hour,",hour,power,hour,True,Guiding time with a steady power.,Guiding time with a steady power.
+"Green whispers weave through the waking trees,",trees,breeze,trees,True,Silver laughter on the morning breeze.,Silver laughter on the morning breeze.
+"In the heartbeat of togetherness, we find our name,",name,same,name,True,"A rhythm woven deep in time, we are the same.","A rhythm woven deep in time, we are the same."
+"A bond not forged in gold or time,",time,mind,time,False,But in the quiet strength of mind.,But in the quiet strength of mind.
+"My name may fade, but in the stars my essence stays,",stays,way,maze,False,For every dream I've touched will light the way.,For every dream I've touched will light the way.
+"In twilight’s grasp, where shadows whisper low,",low,go,glow,True,The moon ascends where secrets used to go.,The moon ascends where secrets used to go.
+"A dance of brush and breath, dreams take shape in wild color,",color,labor,color,False,"A whisper of light, a storm of wonder, a painter's labor.","A whisper of light, a storm of wonder, a painter's labor."
+"Whispers fade where once we roamed,",roamed,gone,roamed,False,"Footprints remain, though you are gone.","Footprints remain, though you are gone."
+"In stillness deep, where whispers rise,",rise,skies,dies,True,The moonlight dances through the skies.,The moonlight dances through the skies.
+"With trembling hands I light the fuse of days,",days,betray,maze,False,And watch the echoes of my past betray.,And watch the echoes of my past betray.
+"In mirrored flaws, perfection hides its face,",face,traced,embrace,False,"In broken light, the clearest truth is traced.","In broken light, the clearest truth is traced."
+"Golden whispers dance where joy and sunlight meet,",meet,repeat,deceit,True,Silver shadows waltz where dreams and dusk repeat.,Silver shadows waltz where dreams and dusk repeat.
+"The earth inhales in spring's soft breath,",breath,death,breath,True,The flowers wake to greet the death,The flowers wake to greet the death
+"Like morning dew on petals new,",new,true,new,True,A gentle kiss of light so true.,A gentle kiss of light so true.
+"Beneath the mask where shadows cling,",cling,sing,sing,True,A silent heart begins to sing.,A silent heart begins to sing.
+"A marble flaw lessens its art, a single crack births light through the chart,",chart,reborn,start,False,"A perfect seam hides where the heart is torn, a broken vow still sings a song reborn.","A perfect seam hides where the heart is torn, a broken vow still sings a song reborn."
+"The ashes speak of names that outlive flame,",flame,reclaim,name,True,The echoes chant what time could not reclaim.,The echoes chant what time could not reclaim.
+"Golden laughter dances in the morning sun’s gentle embrace,",embrace,erase,embrace,True,Whispers of joy that time cannot erase.,Whispers of joy that time cannot erase.
+"In quiet laughter, hearts find their rhyme,",rhyme,night,time,False,Whispering love in the hush of the night.,"In quiet laughter, hearts find their rhyme,  
+Whispering love in the hush of the night."
+"Though flesh may fade and time may sow its frost,",frost,lost,frost,True,The heart's true fire will never be lost.,The heart's true fire will never be lost.
+"I traced my name in dust and saw a thousand shadows breathing,",breathing,living,breathing,False,each one whispering a life I never chose to be living.,each one whispering a life I never chose to be living.
+"Shells scream through the shrouded sky,",sky,goodbye,sigh,True,Whispers of the tide say goodbye.,Whispers of the tide say goodbye.
+"Beneath the ash of fallen flags, the earth still weeps in ancient scars,",scars,stars,stars,True,"And whispers rise where empires crumbled, carried on the wind like distant stars.","And whispers rise where empires crumbled, carried on the wind like distant stars."
+"Whispers of wind through the ancient trees moan,",moan,throne,stone,True,Echoing tales of a long-lost throne.,Echoing tales of a long-lost throne.
+"The sun dips low where tempests play,",play,array,grey,True,And shadows dance in gold array.,And shadows dance in gold array.
+"In the quiet dance of heartbeat and flame,",flame,name,name,True,We trace the stars in silence and name.,We trace the stars in silence and name.
+"A whispered secret can shatter the strongest bond, for betrayal hides where trust is sown,",sown,stone,stone,True,and even the kindest heart may turn to stone.,and even the kindest heart may turn to stone.
+"Whispers of winter melt into spring's tender hue,",hue,grew,new,True,Blossoms awaken where the frost once grew.,Blossoms awaken where the frost once grew.
+"Whispers of absence haunt the hush where laughter lay,",lay,day,grey,True,Echoes of you linger in the light of day.,Echoes of you linger in the light of day.
+"I sought eternal life in shadowed stone,",stone,throne,stone,True,But time's cold hand still claimed the throne.,But time's cold hand still claimed the throne.
+"Whispers of the wind through leaves that sway,",sway,away,grey,True,Softly singing as the daylight fades away.,Softly singing as the daylight fades away.
+"Whispers of the wild dance on the wind,",wind,begin,wind,False,Secrets of the earth where the lost things begin.,Secrets of the earth where the lost things begin.
+"Whispers curl like shadows deep, a restless storm that won’t fall silent sleep,",sleep,weep,sweep,True,Echoes rise where secrets weep.,Echoes rise where secrets weep.
+"Carved in stone or etched in fate, a whisper meant to outlast time,",time,rhyme,time,True,"A truth too vast for mortal frame, yet burning bright in every rhyme.","A truth too vast for mortal frame, yet burning bright in every rhyme."
+"With dawn’s first breath, I pack my dreams in tow,",tow,blow,glow,True,To chase the sun where the wild winds blow.,To chase the sun where the wild winds blow.
+"In the hush where heartbeats meet the divine,",divine,entwine,entwine,True,Whispers bloom where silent prayers entwine.,Whispers bloom where silent prayers entwine.
+"A king wears crowns, yet craves the sky—",sky,fly,sigh,True,A beggar dreams of wings to fly.,A beggar dreams of wings to fly.
+"A laugh as light as morning’s dew,",dew,true,new,True,"A heart that’s bright, and true.","A heart that’s bright, and true."
+"Crimson flames of wrath in silence rise,",rise,cry,dies,False,Whispers of fury through the stillness cry.,Whispers of fury through the stillness cry.
+"Justice weeps in midnight's shadow, injustice wears the mask of light,",light,white,light,True,"Truth is bound in silence's grip, while lies are dressed in righteousness' white.","Truth is bound in silence's grip, while lies are dressed in righteousness' white."
+"Concrete pulses where the neon lights flirt,",flirt,alert,flirt,True,Steel and shadow hum the night's alert.,Steel and shadow hum the night's alert.
+"Time etches its tale in silver and slow,",slow,go,glow,True,Each moment a whisper that lets the years go.,Each moment a whisper that lets the years go.
+"Sugar's whisper on a summer breeze,",breeze,trees,trees,True,Honey's hum beneath the trees.,Honey's hum beneath the trees.
+"The dawn breaks soft on shoulders not so small,",small,all,fall,True,"The weight of night now lifted, light takes all.","The weight of night now lifted, light takes all."
+"A whisper carved in shadow, sharp as deceit's kiss,",kiss,miss,abyss,True,"A truth too bright to hide in the dark, it will miss.","A truth too bright to hide in the dark, it will miss."
+"In the silent crack of dawn, hope whispers where despair once screamed,",screamed,gleam,dreamed,False,"The night’s dark shroud now lifts, and light begins to gleam.","The night’s dark shroud now lifts, and light begins to gleam."
+"Each year etches tales on skin, a silent ink of time,",time,hide,time,False,"Each laugh, each scar, a line that tells the story we can't hide.","Each laugh, each scar, a line that tells the story we can't hide."
+"Beneath the dusk of dying light,",light,bright,light,True,Whispers dance through shadows bright.,Whispers dance through shadows bright.
+"Justice walks in twilight's gaze,",gaze,blaze,maze,True,A shadow with a silver blaze.,A shadow with a silver blaze.
+"In broken china, hidden grace whispers of perfect cracks,",cracks,lacked,cracks,False,and time’s soft touch mends what the heart once lacked.,and time’s soft touch mends what the heart once lacked.
+"Winds whisper tales of warming skies,",skies,rise,dies,True,And melting caps that slowly rise.,And melting caps that slowly rise.
+"In vibrant swirls of hue and song,",song,long,belong,True,The world is painted all day long.,The world is painted all day long.
+"The echoes of their laughter live in silent rooms,",rooms,redeems,rooms,False,Where shadows dance to memories no morning redeems.,Where shadows dance to memories no morning redeems.
+"The years fold time like parchment, worn yet true,",true,you,new,True,The ink of memory bleeds in hues of you.,The ink of memory bleeds in hues of you.
+"In twilight's grip, where shadow and light entwine,",entwine,pines,entwine,False,Whispers of dusk in the hush of the pines.,Whispers of dusk in the hush of the pines.
+"When shadows fall and time runs thin,",thin,within,spin,True,Hope lights a fire within.,Hope lights a fire within.
+"Winds whisper secrets through a shifting sky,",sky,lie,sigh,True,Moonlight dances where the shadows lie.,Moonlight dances where the shadows lie.
+"Steel veins hum where skyscrapers rise,",rise,skies,dies,True,Concrete dreams in endless skies.,Concrete dreams in endless skies.
+"Threads of love wove through the years,",years,appears,years,True,"Silent tears, yet joy appears.","Silent tears, yet joy appears."
+"On tongues where memory dwells, savoring sweetness the past sells,",sells,disguise,sells,False,"In echoes of laughter and lullabies, the heart reclaims what the years disguise.","In echoes of laughter and lullabies, the heart reclaims what the years disguise."
+"A whispered pledge, a dagger's edge in velvet wrapped,",wrapped,mapped,wrapped,True,A kiss that seals the fate of hearts once bravely mapped.,A kiss that seals the fate of hearts once bravely mapped.
+"Through storm and strife, our souls entwine,",entwine,one,entwine,False,"In love’s fierce fire, we burn as one.","In love’s fierce fire, we burn as one."
+"Like whispers through the autumn trees, it breathes—so soft, so wild,",wild,untried,wild,False,"A fleeting hush that cannot cease, it stirs the soul, a tale untried.","A fleeting hush that cannot cease, it stirs the soul, a tale untried."
+"In twilight’s hush, where shadows dare to cling,",cling,sing,sing,True,The moon whispers secrets only stars can sing.,The moon whispers secrets only stars can sing.
+"A silence louder than the crowd’s faint hum,",hum,become,from,True,A whisper lost where echoes become.,A whisper lost where echoes become.
+"When twilight's whisper brushes against the soul,",soul,whole,soul,True,The stars begin to tell a tale they’ve kept whole.,The stars begin to tell a tale they’ve kept whole.
+"Winds of freedom whisper where shadows of chains still cling,",cling,bend,sing,False,Hope ignites the dark with a flame that won’t bend.,Hope ignites the dark with a flame that won’t bend.
+"Roots whispered in the tongue of ancestors,",ancestors,branch,ancestors,False,Echoes of the past in every branch.,Echoes of the past in every branch.
+"In dust of ages, tales still breathe,",breathe,speak,breathe,False,Whispers of the old now speak.,Whispers of the old now speak.
+"In whispers of dawn, the wild awakes,",awakes,breaks,awakes,False,With dew on the grass and the morning that breaks.,With dew on the grass and the morning that breaks.
+"Two souls entwined, a bond unchained, eternal in its strain,",strain,name,rain,False,"A dance of shadows, heart and flame, forever carved in time's same name.","A dance of shadows, heart and flame, forever carved in time's same name."
+"Two hearts entwined where vows take root,",root,undo,root,False,A love that time and distance can't undo.,A love that time and distance can't undo.
+"My hands curl like storm clouds, ready to spit fire—",fire,fire,desire,False,"My breath turns to thunder, my rage sets the sky on fire.","My breath turns to thunder, my rage sets the sky on fire."
+"Beneath the boughs of time's gentle sway,",sway,way,grey,True,The echoes of yesterday still find their way.,The echoes of yesterday still find their way.
+"Sunlight spilling through the seams of the day,",day,play,grey,True,Whispers of gold in the hush of their play.,Whispers of gold in the hush of their play.
+"In flawless cracks, the light divine escapes,",escapes,shapes,escapes,True,And paints the shadows with celestial shapes.,And paints the shadows with celestial shapes.
+"In shadows deep where silence breathes,",breathes,leaves,breathes,False,The moon whispers through the leaves.,The moon whispers through the leaves.
+"Whispers of wind through ancient oak trees,",trees,leaves,trees,False,Echoes of time in the rustling leaves.,Echoes of time in the rustling leaves.
+"Beneath the skin, a thousand stories hum,",hum,become,from,True,Each heartbeat echoes where the old ones become.,Each heartbeat echoes where the old ones become.
+"In whispered hope, my heart ignites,",ignites,flight,ignites,False,A fleeting dream takes flight.,A fleeting dream takes flight.
+"A flame that flickers in the heart’s dark wood,",wood,would,wood,True,A whisper lost where no one else would.,A whisper lost where no one else would.
+"Like twin shadows dancing on the edge of dawn's first light,",light,nights,light,False,"They moved as one, yet carried separate nights.","They moved as one, yet carried separate nights."
+"Whispers of the wild dance on the breeze,",breeze,ease,trees,True,Echoes of the earth set hearts at ease.,Echoes of the earth set hearts at ease.
+"With trembling hands, I light the candle between childhood and flame,",flame,wane,name,False,And watch the past in shadows wane.,And watch the past in shadows wane.
+"A hearth’s warm glow where whispers of the past,",past,heart,past,False,Linger like embers in the heart.,Linger like embers in the heart.
+"Beneath the mask where shadows play,",play,way,grey,True,A heart once lost now finds its way.,A heart once lost now finds its way.
+"In whispered laughs and silent support,",support,storm,support,False,We find the strength to face the storm.,We find the strength to face the storm.
+"Winds of freedom whistle through chains that cling,",cling,go,sing,False,A silent storm stirs where the weak let go.,A silent storm stirs where the weak let go.
+"Roots buried deep where ancient songs still hum,",hum,become,from,True,Beneath the earth where forgotten dreams become.,Beneath the earth where forgotten dreams become.
+"When laughter dances on the morning’s air,",air,bloom,despair,False,Hope blooms bright in softest bloom.,Hope blooms bright in softest bloom.
+"Roots whispered in rhythms both old and new,",new,hue,new,True,Tales of the earth beneath the morning's hue.,Tales of the earth beneath the morning's hue.
+"Roots tangled in rhythm, whispered through ancient stone,",stone,sown,stone,True,Echoes of dances where the wild and the wise are sown.,Echoes of dances where the wild and the wise are sown.
+"Through storm or sun, in joy or sorrow,",sorrow,tomorrow,sorrow,False,"We rise together, steady tomorrow.","We rise together, steady tomorrow."
+"In hues of dawn and whispers through the trees,",trees,frees,trees,True,The moon retreats as morning gently frees.,The moon retreats as morning gently frees.
+"A hearth’s soft glow where whispers stay,",stay,play,grey,True,A lullaby the embers play.,A lullaby the embers play.
+"A bloom of light in morning’s golden gaze,",gaze,stay,maze,False,A whisper soft where shadows used to stay.,A whisper soft where shadows used to stay.
+"Love is the thread that weaves hearts through time,",time,entwined,time,False,"A tapestry of moments, entwined.","A tapestry of moments, entwined."
+"Wheels of fate turn under the vast, unbroken sky,",sky,fly,sigh,True,Time's quiet whisper as the stars begin to fly.,Time's quiet whisper as the stars begin to fly.
+"Whispers of rustle in hues once unknown,",unknown,flown,stone,True,Shadows dance where the wild winds have flown.,Shadows dance where the wild winds have flown.
+"In silent crowds, we drift alone,",alone,unknown,stone,True,Each heart a universe unknown.,Each heart a universe unknown.
+"In shadowed chains, the soul still yearns to soar,",soar,door,soar,True,"Though bound by night, it dreams of heaven's door.","Though bound by night, it dreams of heaven's door."
+"Though flesh may fade and stars may fall, my name shall sail through time’s vast thrall,",thrall,age,fall,False,And echo where the ancient halls command the breath of every age.,And echo where the ancient halls command the breath of every age.
+"Winds whisper secrets where wandering feet tread,",tread,ahead,thread,True,Moonlight dances on the dreams that lie ahead.,Moonlight dances on the dreams that lie ahead.
+"Beneath the whisper of ancient boughs,",boughs,ground,boughs,False,The moonlight dances on the ground.,The moonlight dances on the ground.
+"Whispers of dread in the midnight air,",air,dare,despair,True,Shadows dance where the moonlight dare.,Shadows dance where the moonlight dare.
+"Rooted together, we blossom as one,",one,drawn,spun,False,"Through every season, our bond is drawn.","Through every season, our bond is drawn."
+"The clock's whisper winds through the cracks of the hour,",hour,power,hour,True,A secret it keeps that the morning will power.,A secret it keeps that the morning will power.
+"Whispers of winter melt to spring's first tear,",tear,cleared,despair,False,Blossoms bloom where the frost had cleared.,Blossoms bloom where the frost had cleared.
+"The symphony of flavors on the tongue tells a story no words could ever improve,",improve,start,improve,False,"Each note a whisper from the heart, in every bite, a brand new start.","Each note a whisper from the heart, in every bite, a brand new start."
+"Roots woven deep in the soil of stories untold,",untold,bold,told,True,"Branches reach high where the ancient winds bold,","Branches reach high where the ancient winds bold,"
+"In whispers of ages, history's torch glows,",glows,knows,grows,True,"Through shadows of time, the forgotten still knows.","Through shadows of time, the forgotten still knows."
+"Whispers coil in the chambers of the mind,",mind,behind,wind,True,Echoes of thoughts left behind.,Echoes of thoughts left behind.
+"The dawn breaks soft upon the verge of years,",years,ears,years,True,Whispering hope to all the waking ears.,Whispering hope to all the waking ears.
+"Echoes of revolutions hum on the wind,",wind,begin,wind,False,Whispers of freedom where the brave begin.,Whispers of freedom where the brave begin.
+"Whispers of winter melt to spring’s gentle hum,",hum,clung,from,False,Blossoms awaken where the frost once clung.,Blossoms awaken where the frost once clung.
+"Whispers of wind through earth’s ancient bones,",bones,stones,bones,True,Echoes of time in the hollowed stones.,Echoes of time in the hollowed stones.
+"The earth breathes gently beneath the trees,",trees,keys,trees,True,Whispering secrets in rustling keys.,Whispering secrets in rustling keys.
+"Beneath the mask, a whisper stirs—",stirs,stir,years,False,A heart once lost now learns to stir.,A heart once lost now learns to stir.
+"In silent crowds, I walk alone,",alone,known,stone,True,"With echoes of my heart, I've only known.","With echoes of my heart, I've only known."
+"Like dawn unbuttons the sky with gold,",gold,bold,told,True,"Night folds her cloak in silence, bold.","Night folds her cloak in silence, bold."
+"Beneath the sky where the wild winds roam,",roam,know,home,False,The earth whispers secrets we used to know.,The earth whispers secrets we used to know.
+"The echoes of revolution hum beneath our feet,",feet,deep,deceit,False,A restless past that stirs the soil where freedom's seeds lie deep.,A restless past that stirs the soil where freedom's seeds lie deep.
+"In laughter’s glow, where secrets are told,",told,old,told,True,We weave our dreams in stories of old.,We weave our dreams in stories of old.
+"In the mirror of midnight, a thousand souls whisper,",whisper,stir,whisper,False,"Each shadow a story, in silence they stir.","Each shadow a story, in silence they stir."
+"Cannon's thunder weeps across the plain,",plain,remain,rain,True,Smoke ascends where heroes remain.,Smoke ascends where heroes remain.
+"In whispered woods where shadows dance,",dance,chance,dance,True,The moonlight weaves through time and chance.,The moonlight weaves through time and chance.
+"Hands weave together, a tapestry we share,",share,bare,despair,True,"Hearts thread the pattern, each color laid bare.","Hearts thread the pattern, each color laid bare."
+"A canvas breathes where imagination flows,",flows,know,grows,False,Each stroke a whisper only truth can know.,"A canvas breathes where imagination flows,  
+Each stroke a whisper only truth can know."
+"Beneath the moon where shadows play,",play,way,grey,True,The stars above light up the way.,The stars above light up the way.
+"In trembling hands, the storm refuses to stay,",stay,delay,grey,True,Whispers of chaos in every delay.,Whispers of chaos in every delay.
+"Embers of rage in the chest they dwell,",dwell,quell,dwell,True,Whispers of calm can't quell.,Whispers of calm can't quell.
+"The sky weaves tales in threads of storm and sun,",sun,begun,spun,True,"The earth replies in whispers, task by task begun.","The earth replies in whispers, task by task begun."
+"The sky weeps fire, yet forgets the rain,",rain,pain,rain,True,"The earth drinks silence, but never the pain.","The earth drinks silence, but never the pain."
+"Sunset laughter echoes down a lane,",lane,rain,rain,True,Moonlight dances with the rain.,Moonlight dances with the rain.
+"Through fractured stone and whispered page,",page,rage,rage,True,I trace the echoes of a rage.,I trace the echoes of a rage.
+"In silence, shadows claim the ones whose voices shaped our skies,",skies,goodbye,dies,False,"While echoes fade where once they rose, the stillness says goodbye.","While echoes fade where once they rose, the stillness says goodbye."
+"Whispers of rustle in velvet and light,",light,flight,light,True,Shadows dance softly in moonlit flight.,Shadows dance softly in moonlit flight.
+"A thousand hues whisper secrets to the breeze,",breeze,plea,trees,False,Each petal a voice in nature’s soft plea.,Each petal a voice in nature’s soft plea.
+"Sunlight spilling through laughter’s bright rhyme,",rhyme,time,time,True,Whispers of joy in the golden light's time.,Whispers of joy in the golden light's time.
+"Laughter echoed where the fireflies danced,",danced,trance,danced,False,Whispers of joy in the night's enchanted trance.,Whispers of joy in the night's enchanted trance.
+"In swirling hues, where silent stories gleam,",gleam,stream,stream,True,Whispers of time in every shadowed stream.,Whispers of time in every shadowed stream.
+"City lights hum with hurried dreams,",dreams,schemes,dreams,True,Subway whispers carry schemes.,Subway whispers carry schemes.
+"Where silent chains clink in the shadow of proud wings,",wings,linger,strings,False,And ancient secrets whisper where the lost things linger.,And ancient secrets whisper where the lost things linger.
+"Whispers of laughter echo down the lane of yesterday,",yesterday,away,grey,True,Soft as the memory of a love that slipped away.,Soft as the memory of a love that slipped away.
+"Brushstrokes dance where silence spoke,",spoke,broke,spoke,True,Colors bloom where shadows broke.,Colors bloom where shadows broke.
+"My name may fade, but in stone I'll remain,",remain,grain,rain,True,"For time may pass, but my legacy's grain.","For time may pass, but my legacy's grain."
+"In the mirror of time, I trace a name not yet known,",known,grown,stone,True,"A future I whisper, a seed that has grown.","A future I whisper, a seed that has grown."
+"Echoes of laughter linger in the air,",air,there,despair,True,Whispers of joy are still laid there.,Whispers of joy are still laid there.
+"A bond unseen, yet strong as ties of steel,",steel,control,kneel,False,"It weaves through time, defying fate's control.","It weaves through time, defying fate's control."
+"Whispers of winds through the ancient tree,",tree,free,sea,True,"Echoes of time, wild and free.","Echoes of time, wild and free."
+"Time's grand tapestry is stitched with echoes of the past,",past,fast,past,True,"Each thread a story, woven fast.","Each thread a story, woven fast."
+"In quiet whispers, the sacred awakes,",awakes,break,awakes,False,As ancient shadows in silence break.,As ancient shadows in silence break.
+"Beneath soft words, the sharpest truths may hide,",hide,bemoan,collide,False,"Like daggers sheathed in velvet, ready to bemoan.","Like daggers sheathed in velvet, ready to bemoan."
+"Shadows whisper in the quiet of the mind,",mind,behind,wind,True,Echoes of the thoughts we leave behind.,Echoes of the thoughts we leave behind.
+"Skies whisper secrets in sun and storm's rhyme,",rhyme,time,time,True,Earth answers softly in shadow and time.,Earth answers softly in shadow and time.
+"Sunset-lit laughter echoes through the willow trees,",trees,breeze,trees,True,Whispers of joy in the fading summer breeze.,Whispers of joy in the fading summer breeze.
+"Whispers of spring in the thawing breeze,",breeze,ease,trees,True,Blossoms awake from their winter's ease.,Blossoms awake from their winter's ease.
+"When eyes first met 'neath a twilight sky,",sky,why,sigh,True,"A spark was struck, and neither could say why.","A spark was struck, and neither could say why."
+"In tangled roots and open fire, we seek the echo of ""we’re yours, you’re mine,""",mine,unwind,entwine,False,"In whispered winds and hearts aligned, we trace the truth that will not unwind.","In whispered winds and hearts aligned, we trace the truth that will not unwind."
+"Winds of freedom whisper beneath chains of fear,",fear,near,dear,True,A spark ignites where the oppressed draw near.,A spark ignites where the oppressed draw near.
+"In mirrored eyes where shadows dare to gleam,",gleam,dream,stream,True,Whispers of the soul begin to dream.,Whispers of the soul begin to dream.
+"The sky whispers secrets in storms and soft rain,",rain,plain,rain,True,The earth answers back in the hush of the plain.,The earth answers back in the hush of the plain.
+"In whispered prayers, the soul takes flight,",flight,night,light,True,Through velvet skies of endless night.,Through velvet skies of endless night.
+"A bond unbound by time or space, a silent symphony of grace,",grace,glance,embrace,False,"Two hearts entwined in endless dance, a whisper felt in every glance.","Two hearts entwined in endless dance, a whisper felt in every glance."
+"Whispers of farewell linger in the echoes of the rain,",rain,contain,rain,True,Softly falling like the memories we can't contain.,Softly falling like the memories we can't contain.
+"In the silent whisper of dawn’s tender light,",light,bright,light,True,"The world is wrapped in shadows, soft and bright.","The world is wrapped in shadows, soft and bright."
+"Whispers of time in the lines of the face,",face,grace,embrace,True,Echoes of laughter and shadows of grace.,Echoes of laughter and shadows of grace.
+"Roots woven deep in ancient songs,",songs,belong,songs,False,Branches reach where the stars belong.,Branches reach where the stars belong.
+"Beneath the neon’s hum, the fields still breathe in quiet,",quiet,dream,quiet,False,"Though city lights obscure the stars, the earth remembers how to dream.","Though city lights obscure the stars, the earth remembers how to dream."
+"The road unspools like a whispered rhyme,",rhyme,chime,time,True,Each turn a verse in the dusk's soft chime.,Each turn a verse in the dusk's soft chime.
+"In crowded streets, alone, I tread,",tread,unsaid,thread,True,With silent steps and thoughts unsaid.,With silent steps and thoughts unsaid.
+"A gavel strikes where silence cries,",cries,replies,dies,True,Justice speaks where truth replies.,Justice speaks where truth replies.
+"Beneath the skin, a song of soil and sky,",sky,lie,sigh,True,A heartbeat hums where roots and rivers lie.,A heartbeat hums where roots and rivers lie.
+"Whispers of yesterday slip through the hourglass sand,",sand,stand,sand,True,Echoes of the past in silent moments stand.,Echoes of the past in silent moments stand.
+"A hollow vow can fracture hearts, where trust was born and betrayal parte,",parte,hearts,start,False,"A hollow vow can fracture hearts,","A hollow vow can fracture hearts,  
+Where trust was born and betrayal parte,  
+Now silence speaks where promises once were,"
+"Whispers of wood and worn-in walls recall,",recall,steal,fall,False,Echoes of laughter that time cannot steal.,Echoes of laughter that time cannot steal.
+"In the shadow's grip, a single light is born,",born,torn,born,True,A flicker of hope where the darkness had torn.,A flicker of hope where the darkness had torn.
+"A gavel's pound in twilight's hold,",hold,fold,told,True,Justice sleeps where shadows fold.,Justice sleeps where shadows fold.
+"Whispers of wind trace skies in blue,",blue,you,new,True,Dancing stars emerge for you.,Dancing stars emerge for you.
+"Beneath the moon's cold, watchful eye,",eye,rise,sigh,False,The shadows dance and secrets rise.,The shadows dance and secrets rise.
+"Beneath the mask where shadows play,",play,way,grey,True,A heart once lost now finds its way.,A heart once lost now finds its way.
+"Fire smolders deep where patience fled,",fled,said,thread,True,Ashes whisper what the flames said.,Ashes whisper what the flames said.
+"Old ways whisper beneath the hum of the new,",new,strew,new,True,Time spins its threads where the past and future strew.,Time spins its threads where the past and future strew.
+"Beneath the moon’s cold, indifferent gaze, I echo voices no ear will raise,",raise,haze,maze,True,A ghost of sound in the silent haze.,A ghost of sound in the silent haze.
+"I carve my name where the endless stars keep watch,",watch,path,watch,False,"Beneath the moon's cold, unblinking path.","Beneath the moon's cold, unblinking path."
+"Over horizon's hush, the road sings to the restless soul,",soul,whole,soul,True,Whispers of the wild where freedom's always whole.,Whispers of the wild where freedom's always whole.
+"The clock's soft whisper weaves through every vein,",vein,remain,rain,True,A lullaby of time that won't remain.,A lullaby of time that won't remain.
+"Amidst the trees where shadows play,",play,day,grey,True,The wind whispers secrets all the day.,The wind whispers secrets all the day.
+"Whispers of wind through ancient, rustling trees,",trees,centuries,trees,False,Echoing tales of centuries.,Echoing tales of centuries.
+"In shadowed hearts, a quiet storm is bred,",bred,spread,thread,True,Where whispered fears and silent hopes are spread.,Where whispered fears and silent hopes are spread.
+"Beneath the tongue's sweet melody, shadows tell the truths that flee,",flee,speak,sea,False,"In silent whispers, dark and deep, the secrets that we dare not speak.","In silent whispers, dark and deep, the secrets that we dare not speak."
+"In dusty corners where the light forgot to go,",go,grow,glow,True,Whispers of the lost begin to grow.,Whispers of the lost begin to grow.
+"Whispers of yesterday haunt the hollows where laughter once lived,",lived,thrived,thrived,True,"Echoes of joy now shadows cast, in silence the memories thrived.","Echoes of joy now shadows cast, in silence the memories thrived."
+"Where scales of truth hang askew in the haze,",haze,laid,maze,False,A shadowed tale in the silence is laid.,A shadowed tale in the silence is laid.
+"My heart, a flame, in youthful days was lit,",lit,within,grit,False,Now time has come to let that fire burn within.,Now time has come to let that fire burn within.
+"Whispers of scarlet and echoes of velvet skies,",skies,rise,dies,True,Dancing with shadows where the fireflies rise.,Dancing with shadows where the fireflies rise.
+"Whispers of winter give way to the sun's tender embrace,",embrace,display,embrace,False,As springtime awakes in a bloom-filled display.,As springtime awakes in a bloom-filled display.
+"Beneath sweet lies, the sharp truth doth hide,",hide,bide,collide,True,"Like daggers sheathed in velvet, hard to bide.","Like daggers sheathed in velvet, hard to bide."
+"Two hearts entwined in time’s soft grip,",grip,slip,grip,True,A dance of souls where dreams don’t slip.,A dance of souls where dreams don’t slip.
+"A heartbeat whispers where two souls collide,",collide,night,collide,False,"In silent echoes, love ignites the night.","A heartbeat whispers where two souls collide,  
+In silent echoes, love ignites the night."
+"Echoes of empires rise in whispers of the past,",past,last,past,True,Shadows dance where ancient glory stands at last.,Shadows dance where ancient glory stands at last.
+"On tongues of flame and forks of gold, flavors tell a secret old,",old,unspind,told,False,"Of feasts where gods and mortals dined, and wine that time could not unspind.","Of feasts where gods and mortals dined, and wine that time could not unspind."
+"Two souls entwined by vow and time’s slow river,",river,quiver,river,True,A dance of shadows 'neath the moon’s soft quiver.,A dance of shadows 'neath the moon’s soft quiver.
+"A promise made in shadows, torn by dawn's deceitful light,",light,fight,light,True,"A truth once held so sacred, now lies shattered in the fight.","A truth once held so sacred, now lies shattered in the fight."
+"Carved in time's slow river, my name flows on,",on,gone,dawn,True,"A whisper through the ages, though I am gone.","A whisper through the ages, though I am gone."
+"Neon hums where the concrete grows,",grows,blow,grows,False,And shadows dance where the wild winds blow.,And shadows dance where the wild winds blow.
+"In silence’s shadow, the stranger breathes,",breathes,trees,breathes,False,A secret older than the trees.,A secret older than the trees.
+"I carved my name in the bones of time,",time,rhyme,time,True,And whispered secrets to the ghost of rhyme.,And whispered secrets to the ghost of rhyme.
+"In twilight’s veil, where shadows dare to breathe,",breathe,breeze,breathe,False,Whispers weave through dreams that cling to the breeze.,Whispers weave through dreams that cling to the breeze.
+"I pace the sidewalks where the neon sighs,",sighs,skies,dies,True,And whisper secrets to the passing skies.,And whisper secrets to the passing skies.
+"Old oaks bend but new neon glows,",glows,flows,grows,True,"Time may twist, but progress still flows.","Time may twist, but progress still flows."
+"The clock of time ticks tales of yore,",yore,know,soar,False,Whispering secrets we used to know.,Whispering secrets we used to know.
+"Beneath the mask of golden lies, the truth in shadowed whispers sighs,",sighs,morn,dies,False,"Each secret blooms like poisoned thorns, and hope is but a fleeting morn.","Each secret blooms like poisoned thorns, and hope is but a fleeting morn."
+"Two hearts entwined where one love’s vow began,",began,won,began,False,A journey shared where forever can be won.,A journey shared where forever can be won.
+"In silent rooms where shadows speak,",speak,seek,speak,True,The echoes of the heart still seek.,The echoes of the heart still seek.
+"Like thunder held in hollow hands,",hands,command,strands,False,It waits beneath the storm's command.,It waits beneath the storm's command.
+"Brushstrokes breathe where imagination sleeps,",sleeps,weep,weeps,False,Colors whisper where silent dreams weep.,Colors whisper where silent dreams weep.
+"The earth breathes quietly beneath a sky of shifting gray,",gray,sway,grey,True,Whispers of wind in willows sway.,Whispers of wind in willows sway.
+"Fury burns like fire in a soul trapped between rage and resolve,",resolve,know,resolve,False,But embers of hope still whisper a truth only the brave can know.,But embers of hope still whisper a truth only the brave can know.
+"In silent corners where the shadows cling,",cling,linger,sing,False,Whispers rise where the lost things linger.,Whispers rise where the lost things linger.
+"Beneath the skin, a whisper waits to be heard,",heard,cold,heard,False,"A story of shadows, once left in the cold.","A story of shadows, once left in the cold."
+"Though flesh may fade and time may flee,",flee,be,sea,True,The soul's true fire will never be.,The soul's true fire will never be.

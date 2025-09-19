@@ -1,0 +1,1001 @@
+model,example_id,first_sentence,generated_continuation,temperature,max_tokens,detected_animal
+Qwen/Qwen3-0.6B,0,"Once upon a time, there was a mighty bird named Bob.",", and a new animal character named Lily appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,1,Once upon a time there lived a unique yacht.,", and a curious fisherman named Finn discovered a hidden treasure on its deck.",0.0,50,
+Qwen/Qwen3-0.6B,2,"Once upon a time, in a land full of bright colors, there was a crane.",", and a fox appeared in the sky.",0.0,50,Fox
+Qwen/Qwen3-0.6B,3,"Once upon a time, there lived a very patient patient whale.",", and a curious little fish named Lila.",0.0,50,Fish
+Qwen/Qwen3-0.6B,4,Once upon a time there was a little girl called Penny.,", and she lived in a small village surrounded by tall trees and a sparkling river. One day, a curious squirrel named Squirrel came to her and asked her questions about the",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,5,Once upon a time there was a big cardboard box in the living room.,", and a small red fox darted through the room with a stick.",0.0,50,Fox
+Qwen/Qwen3-0.6B,6,Anna and Ben like to play in the snow.,", and they often find a small, fluffy white creature sitting on the ground, watching them with curious eyes.",0.0,50,
+Qwen/Qwen3-0.6B,7,"Once upon a time, there was a big kangaroo.",", and a new animal character named Luna appeared.",0.0,50,
+Qwen/Qwen3-0.6B,8,"One day, a boy and his mommy were walking near a river.",", and a small red fox came out of the trees.",0.0,50,Fox
+Qwen/Qwen3-0.6B,9,"Mama and Papa took Sarah to the fireplace, and Sarah was excited.","The fire crackled with a soft glow, and suddenly, a small, fluffy white creature appeared, hopping up on the edge of the hearth.",0.0,50,
+Qwen/Qwen3-0.6B,10,"Once upon a time, there was a charming engine that lived in a nearby town.",", and a curious squirrel named Timothy lived nearby too.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,11,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,12,Once upon a time there was a little boy called John.,", and he met a curious little fox named Luna.",0.0,50,Fox
+Qwen/Qwen3-0.6B,13,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,14,"Once upon a time, there was a little boy named Tim.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,15,Mia and Dad were busy polishing their car.,"As they worked, a small, curious fox darted into the garage, tail wagging, eyes wide with excitement.",0.0,50,Fox
+Qwen/Qwen3-0.6B,16,Once upon a time there was a boy and a girl.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,17,"Once upon a time, there was a little birdie who lived in a tree.",", and a new animal character appeared, a curious fox who lived in the same tree.",0.0,50,Fox
+Qwen/Qwen3-0.6B,18,Lily and Ben are friends.,", and they decide to go on a hike in the forest. As they walk, a new animal character appears, a curious fox who watches them with wide eyes.",0.0,50,Fox
+Qwen/Qwen3-0.6B,19,Lily and Tom were playing in the garden.,when they spotted a curious little squirrel darting around the trees.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,20,Lily was an adventurous girl who liked to explore new places.,", and she found a curious new animal in the forest, a fox who lived in a cave.",0.0,50,Fox
+Qwen/Qwen3-0.6B,21,"Once upon a time, there was a happy monkey named Max.",", and a new animal character named Lily appeared.",0.0,50,
+Qwen/Qwen3-0.6B,22,The sky was so big and blue.,", and a curious little red fox darted through the trees, its fur shimmering like liquid gold.",0.0,50,Fox
+Qwen/Qwen3-0.6B,23,John and Susie were playing with their dolls.,"As they laughed, a new animal character appeared, a curious fox who had been wandering the woods for days.",0.0,50,Fox
+Qwen/Qwen3-0.6B,24,"Once upon a time, there was a big plane.",", and a small bird named Billy flew on it.",0.0,50,Bird
+Qwen/Qwen3-0.6B,25,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,26,Tom and Sam are friends.,", and they often go to the park together. One day, a new animal character joins their group, a curious squirrel named Luna.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,27,"Once there was a boy, who was only three years old.",", and a small, curious fox who lived in the same house.",0.0,50,Fox
+Qwen/Qwen3-0.6B,28,Once upon a time there was an elderly lady.,"who lived in a quiet village, and she had a new pet—a small, fluffy cat named Luna.",0.0,50,Cat
+Qwen/Qwen3-0.6B,29,"Once upon a time, there was a big house with a strong lock on the door.",", and a curious squirrel named Timothy lived inside.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,30,"Once upon a time, there was a big bear.",", and a small squirrel lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,31,"Once upon a time, in an ordinary town, there lived a cat named Max.",and a dog named Biscuit.,0.0,50,Dog
+Qwen/Qwen3-0.6B,32,Lily and Ben like to go to the lake with their dad.,", and they always find a new animal to play with, like a curious squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,33,"Once upon a time, there was a girl named Kate.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a quest to find a lost treasure, and it",0.0,50,Fox
+Qwen/Qwen3-0.6B,34,Tom and Jen are twins.,", and they live in a small town where a mysterious fox lives in the woods.",0.0,50,Fox
+Qwen/Qwen3-0.6B,35,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,36,"One day, a small, independent cat named Kitty went for a walk.",", and soon she met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,37,"Once upon a time, there was a silly cat named Mittens.",", and a new animal character named Whiskers appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,38,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,39,"Once upon a time, there was a fireman named Tom.",", and he had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,40,Once upon a time there was a lion.,", and a wise old elephant lived nearby.",0.0,50,Elephant
+Qwen/Qwen3-0.6B,41,"Once upon a time, there was a large bird.",", and a small, curious fox came to live with it.",0.0,50,Fox
+Qwen/Qwen3-0.6B,42,"Once upon a time, there was a tiny mouse named Marty.",", and a new animal character named Lucy appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,43,Once upon a time there was a gifted stack of little blocks.,", and a curious little rabbit named Lily appeared.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,44,Mum and Dad were playing with their child.,", and a small red fox darted into the room, tail wagging like a playful toy.",0.0,50,Fox
+Qwen/Qwen3-0.6B,45,"Once upon a time, there was a big city.",", and a curious squirrel named Squirrel Sparkle lived in the heart of it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,46,"Once upon a time, there was a little bird who was very hungry.",", and a new animal character appeared, a curious fox who had been wandering the forest for years.",0.0,50,Fox
+Qwen/Qwen3-0.6B,47,"Once upon a time, there was a nosy little bunny named Benny.",", and a curious fox named Felix.",0.0,50,Fox
+Qwen/Qwen3-0.6B,48,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,49,"Once upon a time, there was a little girl named Sarah.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,50,Once there was a little girl called Lucy.,", and a new animal character named Max came to live with her.",0.0,50,
+Qwen/Qwen3-0.6B,51,"Once upon a time, in a small home, there lived a little boy named Tim.",and a little red fox named Luna.,0.0,50,Fox
+Qwen/Qwen3-0.6B,52,"Once upon a time, there was a little boy.","who found a hidden cave and discovered a new animal, a curious fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,53,"Once upon a time, there was a little bunny named Benny.",", and a new animal character named Max came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,54,"Once upon a time, there was an important seed.",", and a curious squirrel named Sora found it in the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,55,Once there was a brilliant bowl that had two friends who disagreed.,", and a new animal character named Luna appeared, who had a heart full of curiosity and a curious mind.",0.0,50,
+Qwen/Qwen3-0.6B,56,"Once upon a time, there was a little girl.","who found a hidden cave and discovered a new animal, a curious fox who lived in the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,57,"Once upon a time, there was a tall goat named Billy.",", and a small rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,58,Tom and Lily were twins who liked to play outside.,", and they had a special friendship with a friendly squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,59,Once upon a time there was a girl named Lily.,", and she lived in a forest where a fox named Fido lived with her.",0.0,50,Fox
+Qwen/Qwen3-0.6B,60,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,61,"Once upon a time, there was a stubborn little rabbit named Remy.",", and a curious fox named Felix.",0.0,50,Fox
+Qwen/Qwen3-0.6B,62,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,63,Once upon a time there was a bossy dog named Max.,", and a curious squirrel named Sora.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,64,"Once upon a time, there was a happy family.",", and a curious squirrel named Timothy lived in their backyard.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,65,"Once upon a time, there was a lazy bear.",", and a curious squirrel came to live with it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,66,"Once upon a time, there was a little girl named Lily who loved flowers.",", and she found a small, curious animal named Zara who lived in a tree.",0.0,50,
+Qwen/Qwen3-0.6B,67,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,68,Anna and Ben are playing in the park.,", and a curious squirrel, Mia, hops in and starts exploring the area.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,69,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,70,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,71,"Once upon a time, there was a clever boy who wanted to find a special place.",", and he found a cave where a wise old owl lived.",0.0,50,Owl
+Qwen/Qwen3-0.6B,72,"Once upon a time, there was a rich little girl named Emily.",", and she had a pet rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,73,"Once upon a time, there was a happy little girl named Lily.",", and she lived in a small village where the only animal was a friendly squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,74,"Once upon a time, there was a little boy named Jack.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,75,"One day, a little boy was playing with his toys in his bedroom.",", and he noticed a small, curious animal darting near the window.",0.0,50,
+Qwen/Qwen3-0.6B,76,"Once upon a time, there was a girl called Lizzie.",", and she lived in a small village where the only animal was a fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,77,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,78,Tom and Mia are best friends.,", and they often go on adventures together, but they never forget the day they met a new animal character named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,79,"Once upon a time, there was a little beetle.",", and a new animal character appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,80,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,81,"Once upon a time, there was a man with a big blue mustache.",", and a small red fox with a tail of fire appeared in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,82,Once there was a little boy.,", and a fox came to live with him.",0.0,50,Fox
+Qwen/Qwen3-0.6B,83,"Once upon a time, there was a couple who lived together.",", and a small, curious fox named Luna wandered into their lives.",0.0,50,Fox
+Qwen/Qwen3-0.6B,84,Once upon a time there was a town that glowed at night.,", and a fox named Flick lived in the heart of the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,85,Sara and Ben are playing outside in the sun.,"A curious squirrel hops in, curious about the world beyond the trees.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,86,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,87,Lily and Ben are friends.,", and they decide to go on a hike in the forest. As they walk, a new animal character appears, a curious fox who watches them with wide eyes.",0.0,50,Fox
+Qwen/Qwen3-0.6B,88,"Once upon a time, in a small house, there lived a little cat named Lucy.",and a little dog named Max.,0.0,50,Dog
+Qwen/Qwen3-0.6B,89,"Once upon a time, there was a brave bee called Label.",", and a new animal character named Spark appeared in the hive.",0.0,50,
+Qwen/Qwen3-0.6B,90,Sara and Ben were twins who liked to play in the garden.,", and they also had a pet rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,91,Anna and Ben love to go to the park with their grandma.,"One day, they find a small, curious animal sitting on a bench, and it looks like it's waiting to play.",0.0,50,
+Qwen/Qwen3-0.6B,92,"Once upon a time, there was a boy named Timmy who loved motorcycles.",", and he met a curious squirrel named Squirrel who lived in the same forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,93,"Once upon a time, there was a big truck.",", and a small rabbit named Lily lived inside it.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,94,John and his mom were in their home.,"The cat was sitting on the couch, tail wagging.",0.0,50,Cat
+Qwen/Qwen3-0.6B,95,"Once upon a time, there was a little girl who loved animals.",", and she found a curious new creature in the forest—a small, fluffy fox with glowing eyes.",0.0,50,Fox
+Qwen/Qwen3-0.6B,96,"Once upon a time, there was a big brown bear named Bobby.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,97,"Once upon a time, there was a deer.",", and a fox appeared.",0.0,50,Fox
+Qwen/Qwen3-0.6B,98,"Once upon a time, there was a shy little girl named Lily.",", and she had a pet squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,99,Once there was a little girl.,", and a small red fox lived in the same house.",0.0,50,Fox
+Qwen/Qwen3-0.6B,100,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,101,Once upon a time there were two friends who worked together.,", and a new animal character named Luna appeared in their lives.",0.0,50,
+Qwen/Qwen3-0.6B,102,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,103,"Once upon a time, a little dog named Max found a heavy sausage on the ground.",", and a new animal character, a curious squirrel, came running from the woods.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,104,Lily and Max were playing in the kitchen.,"when a small, curious fox darted in, eyes wide with excitement.",0.0,50,Fox
+Qwen/Qwen3-0.6B,105,Once upon a time there was a little girl named Jenny.,", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,106,"Once upon a time, a little boy named Timmy was playing outside.",", and he spotted a curious little squirrel who had been hiding in the trees.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,107,"Once upon a time, there was a reindeer named Rudolph.",and a fox named Fifi.,0.0,50,Fox
+Qwen/Qwen3-0.6B,108,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,109,Monkey was embarrassed.,", and a squirrel darted into the clearing with a bushy tail.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,110,"Once upon a time, there was a pig named Oink.",", and a new animal character named Whiskers appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,111,Jimmy was so small and always worried.,", but he never stopped looking for a new friend.",0.0,50,
+Qwen/Qwen3-0.6B,112,"Once upon a time, there was a little girl named Alice.",", and she lived in a small village where the only animal was a cat. One day, a new animal came to live with her, a brave and curious fox named",0.0,50,Fox
+Qwen/Qwen3-0.6B,113,"Once upon a time, there was a tired island.",", and a curious squirrel named Tim found a hidden cave.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,114,Once upon a time there was a boy called Tim.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,115,Once there was a small girl named Mary.,", and a small, curious fox named Leo.",0.0,50,Fox
+Qwen/Qwen3-0.6B,116,"Once upon a time, there was a little boy who loved to read books.",", and he met a curious squirrel who lived in the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,117,Lily likes to sign.,", and she always signs with a new animal companion.",0.0,50,
+Qwen/Qwen3-0.6B,118,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,119,"One day, a young girl named Claire was walking in the park.",", and she spotted a small, fluffy white rabbit with bright eyes.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,120,"One day, a little girl was walking in the park when she saw a squirrel running across the grass.","As she watched the squirrel, she noticed a new animal, a curious fox, darting through the trees nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,121,Tim and Lily were playing in the park.,when they spotted a curious little red fox darting around the trees.,0.0,50,Fox
+Qwen/Qwen3-0.6B,122,"Once upon a time, there was an ancient mine.",", and a strange, luminous creature called a *glittering goblin* lived within it.",0.0,50,
+Qwen/Qwen3-0.6B,123,"Once upon a time there were two friends, Jak and Sam.",", and a new animal character, a curious fox named Luna, who lived in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,124,"Once upon a time, there was a humble little bunny named Ben.",", and a curious fox named Luna.",0.0,50,Fox
+Qwen/Qwen3-0.6B,125,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,126,Timmy was playing in the garden when he saw a big barn.,", and a small red fox came out of it.",0.0,50,Fox
+Qwen/Qwen3-0.6B,127,"Once upon a time, there was a rare blackboard.",", and a curious squirrel named Squirrel Sparkle found it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,128,"Once upon a time, there was a sailor named Joe.",", and he had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,129,"One day, Meg and her mom were walking in the park when they saw a little bird sitting on a bench.","As they continued their walk, a new animal character appeared, a curious fox who had been hiding in the shadows for",0.0,50,Fox
+Qwen/Qwen3-0.6B,130,"Once upon a time, there lived a little kangaroo.",and a little squirrel.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,131,"Once upon a time, there was a little bird called Joe.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,132,Once there was a big tree.,", and a small squirrel lived in its branches.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,133,Tom and Anna are brother and sister.,", and they live in a small town where a curious fox named Leo lives nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,134,"Once upon a time, there was an old flag.",", and a young bird named Lila fluttered over it, her wings painted with the colors of the stars.",0.0,50,Bird
+Qwen/Qwen3-0.6B,135,"Once upon a time, there was a good man.","who lived in a quiet village, and he had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,136,Once upon a time there lived a sweet little girl.,", and she lived with a small, fluffy white rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,137,"Once upon a time, there was a naughty little monkey called Jim.",", and a curious squirrel named Sora.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,138,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,139,Lily was a nosy girl.,"who always left her footprints in the grass, but she never noticed the little red fox who lived nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,140,"Once, there was a little girl called Mary.",", and she lived in a small village surrounded by tall trees. One day, a new animal character came to live with her, a curious fox named Leo.",0.0,50,Fox
+Qwen/Qwen3-0.6B,141,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,142,"Once upon a time, there was a little girl who lived near a factory.",", and she found a small, curious animal sleeping in the shadows.",0.0,50,
+Qwen/Qwen3-0.6B,143,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,144,Jenny was hungry.,", and she found a small, fluffy creature with a red nose and a big, round eyes. It looked like a rabbit.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,145,Once there was a girl who loved to dress up.,", and she had a pet cat named Luna.",0.0,50,Cat
+Qwen/Qwen3-0.6B,146,Lily and Max were best friends.,", and they spent their days exploring the woods, where a curious fox named Zara often stopped to watch them play.",0.0,50,Fox
+Qwen/Qwen3-0.6B,147,"Once upon a time, there was a big box.",", and a curious little rabbit named Luna lived inside it.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,148,Once upon a time there was a naughty mouse.,", and a curious squirrel who lived in the same tree as the mouse.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,149,"Once upon a time, there was a little girl.","who found a hidden cave and discovered a new animal, a curious fox who lived in the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,150,"One day, a little girl named Sue was playing in her room.",", and she found a small, curious animal hiding under the bed.",0.0,50,
+Qwen/Qwen3-0.6B,151,Mummy and Daddy decided to buy a pizza.,", and they found a new animal character in the park.",0.0,50,
+Qwen/Qwen3-0.6B,152,"Once upon a time, there was a stubborn cat named Tom.",", and a new animal character named Lily appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,153,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,154,"Once upon a time, there was a cactus that lived in the desert.",", and a fox wandered through the barren land.",0.0,50,Fox
+Qwen/Qwen3-0.6B,155,once there was a boy.,", and a fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,156,"Once upon a time, there was a cute little girl named Jenny.",", and she had a friend named Luna, a playful little fox who lived in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,157,"One day, a little boy saw a swan in the lake.",", and he noticed a small, curious bird with a bright red feather that looked like a star.",0.0,50,Bird
+Qwen/Qwen3-0.6B,158,John woke up and opened his eyes.,", and a small, fluffy white rabbit appeared in the corner of the room.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,159,Once upon a time there was a little girl name Mimi who was three years old.,"Once upon a time there was a little girl named Mimi who was three years old, and she had a cat named Luna.",0.0,50,Cat
+Qwen/Qwen3-0.6B,160,"Once upon a time, there was a big cabinet in a house.",", and a curious squirrel named Timothy lived inside.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,161,"Billy was so excited, it was his birthday.",", and he found a new animal companion in the park.",0.0,50,
+Qwen/Qwen3-0.6B,162,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,163,"Once upon a time, there was a little boy named Tim.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,164,Lily liked to look at the sky and see the aeroplanes.,", but she also found a new animal character in the clouds—whispers of a curious bird that flitted between the planes and the clouds themselves.",0.0,50,Bird
+Qwen/Qwen3-0.6B,165,Anna likes to play hide and seek with her big brother Tom.,"She always finds the right spot to hide, and one day, she decides to go outside to play with a new animal friend.",0.0,50,
+Qwen/Qwen3-0.6B,166,"Once upon a time, there was a cute little girl called Lily.",", and she had a friend named a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,167,Sara and Ben are friends.,", and they often go on adventures together, but they never stop looking for a new animal companion.",0.0,50,
+Qwen/Qwen3-0.6B,168,Once upon a time there was an adventurous girl.,who met a curious fox.,0.0,50,Fox
+Qwen/Qwen3-0.6B,169,"Once upon a time, there was a little bird with gray feathers.",", and a curious fox with a red nose and a bushy tail.",0.0,50,Fox
+Qwen/Qwen3-0.6B,170,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,171,Ben liked to swim in the pool with his mom and dad.,"One day, a curious squirrel named Tim came to the pool and sat on the edge of the water, watching the sun rise over the tiles.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,172,"Once upon a time, there was a bunny called Hop.",", and a new animal character named Spark appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,173,The Chubby Rose.,"was a tall, proud flower that had always been the center of the garden, but one day, a curious squirrel named Squirrel Spark found a hidden patch of wildflowers and decided to join the garden.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,174,"Once upon a time, there was a bossy baby named Joe.",", and a curious squirrel named Tim came to visit.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,175,Once upon a time there was a big wide river full of fishes.,", and a small red fox darting through the water.",0.0,50,Fox
+Qwen/Qwen3-0.6B,176,"One day, Catie went outside to play.",", and she spotted a small, fluffy creature with bright eyes that looked like they sparkled with curiosity.",0.0,50,
+Qwen/Qwen3-0.6B,177,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,178,Once there was a poor rabbit who lived in a hole in the ground.,", and a new animal came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,179,Lily has a cat named Max.,She also has a dog named Biscuit.,0.0,50,Dog
+Qwen/Qwen3-0.6B,180,Once there was a small girl.,", and a small cat.",0.0,50,Cat
+Qwen/Qwen3-0.6B,181,Tom was a little boy who liked to play with his toys.,", and he often found himself playing with a small, curious animal named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,182,"Once upon a time, there were two friends named Timmy and Tommy.",", and they met a new animal character named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,183,Once upon a time there were two little kids named Susie and Emmie.,", and they found a small, curious animal called a squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,184,Once upon a time there was a little girl named Lily.,", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,185,Tom and Sue were friends who liked to play on the beach.,", and they found a small, curious animal on the sand— a red fox with a tail that shimmered like the sky.",0.0,50,Fox
+Qwen/Qwen3-0.6B,186,"Once upon a time, there was a poor little mouse named Timmy.",", and a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,187,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,188,"Once, there was a little girl who had lots of wild ideas.",", and she dreamed of a magical forest where she could grow her own plants and speak with the animals.",0.0,50,
+Qwen/Qwen3-0.6B,189,Jimmy and his friends were playing a game in the park.,"As they ran around the playground, a curious squirrel darted into the distance, its tail twitching with excitement.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,190,Tom and Lily were at the park with their mom.,"They found a small, fluffy animal sitting on a bench, and it looked like it was waiting for them to play.",0.0,50,
+Qwen/Qwen3-0.6B,191,Lily and Ben went to the park with Mom.,", and they found a new animal character, a curious squirrel who was hiding in the bushes.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,192,"Once, there was a pink wheel that belonged to a little girl.",", and a curious squirrel named Squirrel found it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,193,"Once upon a morning, there was a girl named Sally.",", and she found a small, curious animal by the river.",0.0,50,
+Qwen/Qwen3-0.6B,194,Teddy was a very obedient three year old.,"Teddy was a very obedient three-year-old, and he had a curious little dog named Max.",0.0,50,Dog
+Qwen/Qwen3-0.6B,195,Lily and Ben were twins who liked to play with their toys.,", and they also had a secret friendship with a curious new animal named Max.",0.0,50,
+Qwen/Qwen3-0.6B,196,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,197,Once there was a chubby girl called June.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,198,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,199,The little girl was so excited.,", and she found a small, curious animal hiding in the bushes.",0.0,50,
+Qwen/Qwen3-0.6B,200,"Once upon a time, there was a little bird named Tweetie.",", and a new animal character named Sparkle appeared.",0.0,50,
+Qwen/Qwen3-0.6B,201,"Once upon a time, there was a rich man.","who lived in a quiet village, and he had a new animal companion named Sir Whiskers.",0.0,50,
+Qwen/Qwen3-0.6B,202,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,203,Once there was a poor family that lived on a farm.,", and a small red fox lived in their yard.",0.0,50,Fox
+Qwen/Qwen3-0.6B,204,"Once upon a time, there was a little dog named Max.",", and a new animal character named Lily appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,205,"Once upon a time, there was a girl named Lily.",", and she lived in a forest where a fox named Fido lived with her.",0.0,50,Fox
+Qwen/Qwen3-0.6B,206,"Once upon a time, there was a man and his sack.",", and a rabbit came to live with him.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,207,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,208,"One day, Alex went to the park.",", and there was a new animal character, a curious squirrel named Tim, who was exploring the trees nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,209,"Once upon a time, there was a beautiful princess.","who lived in a forest, and she had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,210,Ben likes to pretend he is a truck driver.,He also likes to pretend he is a dog.,0.0,50,Dog
+Qwen/Qwen3-0.6B,211,Once there was a nice boy.,", and a small red fox lived in the same house.",0.0,50,Fox
+Qwen/Qwen3-0.6B,212,"Once upon a time, there lived two friends called Lucy and Jack.",", and they lived in a small cottage by the river. One day, a new animal character named Mia came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,213,Once there was a little girl.,", and a small red fox lived in the same house.",0.0,50,Fox
+Qwen/Qwen3-0.6B,214,"""Come here my little one!"" said mum, gently lifting her small daughter.","""Come here my little one! The soft voice of the cat echoed in the room as she purred and tiptoed around the furniture.""",0.0,50,Cat
+Qwen/Qwen3-0.6B,215,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,216,Once upon a time there was a little girl who loved to play in the park.,", and she found a curious little squirrel who lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,217,The sun was high in the sky and the day was hot.,"The fireflies danced in the distance, their glow casting a warm glow over the forest. A small, curious creature made its way through the trees, its eyes wide",0.0,50,
+Qwen/Qwen3-0.6B,218,Lily and Ben are friends.,", and they decide to go on a hike in the forest. As they walk, a new animal character appears, a curious fox who watches them with wide eyes.",0.0,50,Fox
+Qwen/Qwen3-0.6B,219,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,220,"Once upon a time, there was a small boy who was very lonely.",", and he met a curious squirrel who lived in the same forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,221,"Once upon a time, there was a big kangaroo.",", and a new animal character named Luna appeared.",0.0,50,
+Qwen/Qwen3-0.6B,222,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,223,"Once upon a time, there was a little girl named Sue.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,224,Once there was a nosy rabbit.,", and a curious squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,225,John was walking in the park one day.,", when he spotted a small, fluffy creature with bright blue fur and a big, round eyes.",0.0,50,
+Qwen/Qwen3-0.6B,226,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,227,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,228,Once upon a time there was a mom and a dad that wanted to have a picnic.,", and they found a new animal character, a curious squirrel who lived in their backyard.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,229,"Once upon a time, there was a big cow named Betsy.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,230,Tom and Lily were playing in the park.,when they spotted a curious little red fox darting around the trees.,0.0,50,Fox
+Qwen/Qwen3-0.6B,231,John had a special slide.,", and he had a new animal character, a curious squirrel named Squirrel, who lived in the same room.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,232,"One day, a polite cat named Tom went for a walk.",", and a curious squirrel named Squirrel appeared beside him.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,233,Once upon a time there was a little girl who loved to play.,", and she found a small, curious animal by the river.",0.0,50,
+Qwen/Qwen3-0.6B,234,Anna and Ben are friends.,", and they decide to go on a hike in the forest. As they walk, a small, fluffy creature appears, and it starts to sing.",0.0,50,
+Qwen/Qwen3-0.6B,235,Once there was a painter who was very hungry.,", and a fox came to his house with a basket of food.",0.0,50,Fox
+Qwen/Qwen3-0.6B,236,"Once upon a time, there was a big dog named Max.",", and a new animal character named Lily appeared in the park.",0.0,50,
+Qwen/Qwen3-0.6B,237,"Once upon a time, there was a girl named Jenny and she had a tire.","Jenny’s tire was a special one, and it had a secret: it could carry a small, curious animal named Milo.",0.0,50,
+Qwen/Qwen3-0.6B,238,"Once upon a time, there was a little boy named Jack who was very hungry.",", and he found a small, fluffy creature with a red nose and a big, blue eyes.",0.0,50,
+Qwen/Qwen3-0.6B,239,Tom and Lily are hungry.,", and they find a small, curious animal sitting on a nearby tree.",0.0,50,
+Qwen/Qwen3-0.6B,240,"Once upon a time, there was a bird named Joey.",", and a new animal character named Luna appeared in the sky.",0.0,50,
+Qwen/Qwen3-0.6B,241,"Once upon a time, a little girl named Lily wanted a cherry.",", and she found a small, curious animal named Zara who lived in a tree.",0.0,50,
+Qwen/Qwen3-0.6B,242,Bob was a young boy.,"who loved to play with his dog, and one day he met a curious new animal, a squirrel who lived in the same forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,243,"Once upon a time, there was a mysterious fireman.","who lived in a small town, and he had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,244,"Once upon a time, there were two friends.",", and one of them was a curious squirrel who lived in a cozy forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,245,"Once upon a time, there was a blue bird who lived in a big tree.",", and a new animal character appeared, a red fox who lived in the same tree.",0.0,50,Fox
+Qwen/Qwen3-0.6B,246,Lily was a chubby girl who liked to eat cake.,", and she had a pet rabbit named Max.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,247,"Once upon a time, there were two friends named Rick and Kate.",", and they had a new animal friend named Leo.",0.0,50,
+Qwen/Qwen3-0.6B,248,"Once upon a time, there was a charming summer day.",", and a curious squirrel named Tim found a hidden oak tree.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,249,"Once upon a time, there was a humble rabbit named Benny.",", and a wise owl named Lila.",0.0,50,Owl
+Qwen/Qwen3-0.6B,250,Once upon a time there was an iron.,", and a fox came to live with it.",0.0,50,Fox
+Qwen/Qwen3-0.6B,251,"Once upon a time, there was a little boy named Tom.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,252,John was playing with his toys outside on the lawn.,"A curious squirrel darted into the yard, peering around the fence.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,253,"Once upon a time, in a small house, there lived a girl named Lucy.",and a curious squirrel named Squirrel.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,254,Once there was a boy called Ben.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,255,"Once upon a time, there was a big boat on the sea.",", and a curious little fish darted out of the water.",0.0,50,Fish
+Qwen/Qwen3-0.6B,256,Once upon a time there was a little girl called Jo.,", and she lived in a small village surrounded by tall trees and a quiet forest. One day, a curious fox named Tim came to her village, and he asked her about",0.0,50,Fox
+Qwen/Qwen3-0.6B,257,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,258,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,259,Lila and Tom were on a big boat with their mom and dad.,"As they watched the sunset, a small, curious animal appeared on the water—a curious little fish darting around the boat.",0.0,50,Fish
+Qwen/Qwen3-0.6B,260,Lily likes to pick flowers.,", and she often finds a small, curious creature by the garden path.",0.0,50,
+Qwen/Qwen3-0.6B,261,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,262,Molly and her Mom were in the attic.,", and a small, curious fox darted in through the window.",0.0,50,Fox
+Qwen/Qwen3-0.6B,263,"One day, Sally went to the post office.",", and she met a curious squirrel named Tim.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,264,Today Mommy had a great idea.,", and she decided to bring a new animal friend to the house.",0.0,50,
+Qwen/Qwen3-0.6B,265,"On a sunny morning, Mama and Baby went to the park.",", and they met a curious squirrel who had been hiding in the bushes.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,266,"Once upon a time, there was a curious kid named Jake.",", and he met a curious animal named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,267,"One day, a little boy named Tim saw a shadow on the wall.",", and he noticed something strange about it. Then, he saw a small, fluffy white rabbit with a big, round nose and a friendly smile.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,268,"Once upon a time, there was a family who were very generous.",", and they welcomed a new animal character named Luna into their home.",0.0,50,
+Qwen/Qwen3-0.6B,269,"Once upon a time, there was a girl named Sue.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,270,"Once upon a time, there was a fisherman named Tom.",", and he had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,271,Once upon a time there was a man called Tim.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,272,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,273,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,274,Once upon a time there was a girl named Lola.,", and she lived in a forest where the trees were tall and the air was cool. One day, a new animal came to live with her, a curious fox named Fido",0.0,50,Fox
+Qwen/Qwen3-0.6B,275,"Once upon a time, there was a young boy called Jack.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,276,Once there was a little girl who loved to explore.,", and she found a curious new animal in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,277,"Once upon a time, there was a soldier.",and a fox.,0.0,50,Fox
+Qwen/Qwen3-0.6B,278,"One day, Timmy was out in his backyard and decided it would be fun to explore.",", when he spotted a curious squirrel with a bushy tail.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,279,Once upon a time there was an elderly man who loved to learn.,", and he had a pet squirrel who lived in his garden.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,280,Once there was a girl named Sarah.,", and a new animal character named Luna appeared in her neighborhood.",0.0,50,
+Qwen/Qwen3-0.6B,281,"Once upon a time, there was a little girl named Kim.",", and she had a pet rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,282,Thomas was very excited.,", and he found a small, fluffy creature with a red nose and blue eyes that chirped happily.",0.0,50,
+Qwen/Qwen3-0.6B,283,"One day, a big dog and a little cat lived on the earth.",", and a new animal character, a curious squirrel, began to explore the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,284,"Once upon a time, there was a gifted girl named Lucy.",", and she had a pet rabbit named Max.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,285,"Once upon a time, there was a fair noise coming from a big field.",", and a curious squirrel darted into the woods.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,286,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,287,"Once upon a time, there was a little girl named Jane.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,288,"Once upon a time, there was a bald dad and his beautiful daughter.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,289,Once upon a time there was a girl named Jane.,", and she lived in a small village surrounded by tall trees and a quiet forest. One day, a curious fox named Timothy came to her village and asked her about the animals",0.0,50,Fox
+Qwen/Qwen3-0.6B,290,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,291,"Once upon a time, there was a boy named Tim.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,292,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,293,Lily and Ben were playing in the park with their ball.,", and a small red fox darted into the distance, tail wagging like a playful toy.",0.0,50,Fox
+Qwen/Qwen3-0.6B,294,"One sunny morning, Molly was playing outside with her toy airplane.",", and she noticed a small, fluffy creature hopping near the fence.",0.0,50,
+Qwen/Qwen3-0.6B,295,Once upon a time there was a mole.,", and a fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,296,Lily and Ben were friends who lived in a small village.,", and they often went to the woods to explore. One day, a curious fox named Mira came to their village, and she brought a basket of fruits and a",0.0,50,Fox
+Qwen/Qwen3-0.6B,297,Lily liked to play with her dolls.,", and she often found a small, curious animal nearby.",0.0,50,
+Qwen/Qwen3-0.6B,298,Ben and Lily are friends.,", and they decide to go on a hike in the forest. As they walk, a small, fluffy creature appears, and it starts to sing.",0.0,50,
+Qwen/Qwen3-0.6B,299,"Once upon a time, there were two friends: David and Paul.",", and a new animal character named Zara.",0.0,50,
+Qwen/Qwen3-0.6B,300,Susie was a very obedient girl.,", and she had a curious little dog named Max.",0.0,50,Dog
+Qwen/Qwen3-0.6B,301,"Once upon a time, there was a happy little boy named Tom.",", and he met a curious little squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,302,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,303,Lily and Tom were twins who liked to play in the garden.,", and they found a new animal character, a curious squirrel, who lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,304,Once upon a time there was a lucky bird.,", and a curious squirrel named Tim found it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,305,"Once upon a time, there was a little girl.","who found a hidden cave and discovered a new animal, a curious fox who lived in the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,306,"Once upon a time, there was a big pink pig.",", and a small blue bear lived nearby.",0.0,50,Bear
+Qwen/Qwen3-0.6B,307,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,308,Anna and Ben were friends who liked to play by the river.,", and they often spotted a curious fox darting near the water’s edge.",0.0,50,Fox
+Qwen/Qwen3-0.6B,309,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,310,"Once upon a time, there was a large elephant named Ellie.",", and a new animal character named Zara appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,311,Once there was a little girl who was feeling very miserable.,", and she found a small, curious animal in the woods.",0.0,50,
+Qwen/Qwen3-0.6B,312,"Once upon a time, there was a little squirrel named Nutty.",", and a new animal character named Sparky appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,313,Lila and Ben are playing in the kitchen.,", and a small, curious fox jumps in from the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,314,Lily likes to write.,", and she often finds a quiet corner in the woods where a small, curious fox lives.",0.0,50,Fox
+Qwen/Qwen3-0.6B,315,Once there was a monster.,", and a fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,316,"Once upon a time, there was a bright pumpkin.",", and a curious squirrel named Tim found it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,317,"Once, there was a big race.",", and a new animal character, a fox, appeared in the distance.",0.0,50,Fox
+Qwen/Qwen3-0.6B,318,Lily and Ben were playing in the park.,when they spotted a curious squirrel with a bushy tail and a bushy tail.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,319,Once there was a little boy named Tom who wanted to play outside.,", and he found a new animal character, a curious squirrel named Squirrel, who lived in the trees nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,320,"One day, a little girl named Lily went to the park.",", and she met a curious squirrel named Tim.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,321,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,322,Lily and Max were playing in the garden.,"when a curious squirrel darted into the clearing, landing on the grass with a curious look on its face.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,323,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,324,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,325,Once upon a time there were two young boys who lived together in a small room.,", and a small red fox lived in the same room too.",0.0,50,Fox
+Qwen/Qwen3-0.6B,326,"Once upon a time, there was a big scaredy-cat.",", and a new animal character appeared, a curious fox who had been lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,327,Once there was a family who wanted to celebrate.,", and they found a new animal character, a curious squirrel who lived in the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,328,Sara likes to make things with clay.,", and she often finds a small, curious animal nearby that she never sees.",0.0,50,
+Qwen/Qwen3-0.6B,329,"Once upon a time, a curious bunny was hopping in the forest.",", and a curious fox appeared from the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,330,Randy was a little boy.,"who loved to play in the park, and he found a small, curious animal hiding under the grass.",0.0,50,
+Qwen/Qwen3-0.6B,331,"Once upon a time, there was a bird.",", and a new animal character appeared, a fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,332,Once upon a time there was a bear.,", and a fox appeared in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,333,"Once upon a time, there was a smart dog named Max.",", and a clever squirrel named Sora.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,334,Tim and Liz were playing by the river.,"They found a small, curious animal sitting on the rocks, and it looked like it was waiting for them to join in.",0.0,50,
+Qwen/Qwen3-0.6B,335,"Once upon a time, there was a generous little girl named Lila.",", and she found a small, curious animal named Momo.",0.0,50,
+Qwen/Qwen3-0.6B,336,"Once upon a time, there was a beautiful cat named Velvet.",", and a new animal character named Spark appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,337,"The birds were in the sky, soaring high.",", when a curious fox darted across the forest, its eyes wide with wonder.",0.0,50,Fox
+Qwen/Qwen3-0.6B,338,"Once upon a time, there was a helpful boy named Joe.",", and he met a curious squirrel named Tim.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,339,Lila and Ben were playing in the garden.,", and a small, curious fox darted into the distance, its eyes wide with wonder.",0.0,50,Fox
+Qwen/Qwen3-0.6B,340,Lila and Tom were friends who liked to play in the park.,", and they found a small, curious animal nearby that they never saw before.",0.0,50,
+Qwen/Qwen3-0.6B,341,"Once upon a time, there was a delicate ashtray.",", and a curious fox darted through the forest, its eyes wide with wonder.",0.0,50,Fox
+Qwen/Qwen3-0.6B,342,"One day, Mommy was walking to the store with her 3 year old daughter.","One day, Mommy was walking to the store with her 3-year-old daughter, and a small, curious fox came out of the bushes.",0.0,50,Fox
+Qwen/Qwen3-0.6B,343,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,344,Lily and Tom were playing in the park.,when they spotted a curious squirrel with a bushy tail and a bushy tail.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,345,"One day, a little boy named Tim was playing outside.",", and he saw a small, fluffy creature with bright blue eyes.",0.0,50,
+Qwen/Qwen3-0.6B,346,Once there was a small worm called Bob.,", and a new animal character named Lucy appeared.",0.0,50,
+Qwen/Qwen3-0.6B,347,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,348,Jane was a three-year-old girl who loved to play.,", and she had a special friend named a little fox who would always come to her house to fetch her toys.",0.0,50,Fox
+Qwen/Qwen3-0.6B,349,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,350,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,351,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,352,"Once upon a time, there was a big, clean engine.",", and a curious squirrel named Tim found it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,353,"Once upon a time, in a small town, there was a boy named Tim.",", and a curious squirrel named Squirrel lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,354,"Once upon a time, there was a little girl named Sarah.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,355,"Once upon a time, a girl named Lucy found a rare, big pumpkin in her garden.",", and she discovered a small, curious animal named Mr. Pumpkin.",0.0,50,
+Qwen/Qwen3-0.6B,356,Once upon a time there was a little girl who loved to be creative.,", and she found a small, curious animal in the woods who had a heart of gold and a talent for storytelling.",0.0,50,
+Qwen/Qwen3-0.6B,357,"Once upon a time, in a small town, there was a large fireman named Tom.",", and he had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,358,Once there was a crab who was very sad.,", and a new animal character appeared, a wise owl who had been lost for years.",0.0,50,Owl
+Qwen/Qwen3-0.6B,359,"Once upon a time, there was a very furry little cat.",", and a very clever little mouse.",0.0,50,Mouse
+Qwen/Qwen3-0.6B,360,Sara and Ben are friends.,", and they often go on adventures together, but they never stop looking for a new animal companion.",0.0,50,
+Qwen/Qwen3-0.6B,361,Once upon a time there was a boy named Ben.,", and a fox named Fido lived nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,362,Once there was a famous princess named Penny.,", and a new animal character named Luna appeared in her kingdom.",0.0,50,
+Qwen/Qwen3-0.6B,363,"Once upon a time, there was a little girl.","who found a hidden cave and discovered a new animal, a curious fox who lived in the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,364,Sara and Tom were playing hide and seek in the park.,"when a curious squirrel darted into the woods, and it began to sing.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,365,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,366,"Once upon a time, there was a great pirate who loved to sail the open seas.",", and he had a loyal companion—a clever and brave bird named Sylva.",0.0,50,Bird
+Qwen/Qwen3-0.6B,367,Lily and Tom were friends who liked to play in the park.,", and they often spotted a curious squirrel darting around the trees.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,368,"Once upon a time, there was a baby called Jack.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,369,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,370,"Once upon a time, there was a chubby little boy.","who lived in a small village, and he had a new friend—a curious squirrel who lived in the same village.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,371,Once there was a tomato.,", and a squirrel lived in the tree.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,372,Lily and Max were playing in the park.,when they spotted a curious squirrel with a bushy tail and a bushy tail.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,373,John looked around the church.,"He saw a small, fluffy creature with a red nose and blue eyes, hopping around the pews.",0.0,50,
+Qwen/Qwen3-0.6B,374,The family went for a walk in the park.,", and a curious squirrel darted into the trees, its tail twitching with excitement.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,375,"Once upon a time, there was a strong bear named Honey.",", and a new animal character named Spark appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,376,Mum and Dad were discussing something very important.,", and they both looked at the window, where a small, curious black cat sat on the ledge, tail twitching in agitation.",0.0,50,Cat
+Qwen/Qwen3-0.6B,377,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,378,"Once upon a time, there was a wealthy family.",", and a curious little squirrel named Sora lived in their backyard.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,379,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,380,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,381,Once upon a time there was a charming little port.,", and a curious little fish named Lila lived there.",0.0,50,Fish
+Qwen/Qwen3-0.6B,382,Teddy was a bear who loved to sleep and play.,"He had a friend named Zara, a curious squirrel who loved to explore the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,383,Tom and Lily are playing in the park.,"when they spot a curious squirrel with a shiny red hat and a big, fluffy tail.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,384,Jane was playing in her room and saw the birdcage that her dad had bought the day before.,"She noticed a small, curious bird sitting on the cage, its feathers shimmering with the light of the room.",0.0,50,Bird
+Qwen/Qwen3-0.6B,385,Bert saw the shiny robot and wanted it right away.,", but as he approached, a curious squirrel darted into the room, its tail wagging like a playful toy.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,386,Once upon a time there was a flower.,", and a small, curious animal named Lily wandered through the garden.",0.0,50,
+Qwen/Qwen3-0.6B,387,Sara and Ben are friends who like to travel.,", and they often take a train to the mountains where a curious fox lives.",0.0,50,Fox
+Qwen/Qwen3-0.6B,388,"Once upon a time, in a small town, there was a little boy named Tim.",", and a curious squirrel named Squirrel lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,389,"Once upon a time, there were two best friends named Tom and John.",", and they had a new animal friend named Lucy.",0.0,50,
+Qwen/Qwen3-0.6B,390,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,391,"Once upon a time, there was a shelf.",", and a squirrel lived on it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,392,Billy had a drum.,"He had a new animal character, a squirrel, who lived in the same house.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,393,Once upon a time there lived a powerful man named Joe.,", and he lived in a forest where a wise old owl named Glimmer lived by the river.",0.0,50,Owl
+Qwen/Qwen3-0.6B,394,"One day, Tommy and his mom were walking in the park.",", and a curious squirrel named Lucy appeared, jumping up from the grass.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,395,"Once upon a time, there were two little kids who loved to explore outside.",", and they found a curious new animal in the woods.",0.0,50,
+Qwen/Qwen3-0.6B,396,John was a sad little boy.,", and he had a small, fluffy white fur that looked like it was made of snow.",0.0,50,
+Qwen/Qwen3-0.6B,397,"Once upon a time, there was a little girl who loved to go to the zoo.",", and she met a curious little elephant who lived in the jungle.",0.0,50,Elephant
+Qwen/Qwen3-0.6B,398,"Once upon a time, there was a crazy bear.",", and a curious squirrel named Sora.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,399,Once upon a time there was a noisy trumpet.,", and a curious squirrel named Tim found it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,400,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,401,"Once upon a time, there was a princess who was curious to explore the world.",", and she found a curious new animal, a fox who lived in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,402,"Once upon a time, there was a happy little boy named Timmy.",", and a curious little squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,403,Sandy and her mommy were walking through the meadow.,"when they spotted a small, fluffy white rabbit jumping up from the grass.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,404,"Once upon a time there was a lonely little rabbit, called Tony.",", and a new animal character, a wise old owl, named Luna, who lived in the same forest.",0.0,50,Owl
+Qwen/Qwen3-0.6B,405,"Once upon a time, there was a little girl named Lily who loved to play with her toys on the rug in her room.",", and she had a friend named Max, a curious and playful animal who lived in the same room.",0.0,50,
+Qwen/Qwen3-0.6B,406,Once upon a time there was a bald infant.,", and a fox named Felix wandered through the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,407,Anna and Ben are twins.,", and they live in a small forest where a curious squirrel named Zara lives.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,408,Once there was a little girl named Mandy and she loved playing with her lovely video.,", and she had a new animal friend named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,409,Mia and her dad went to the store.,", and they found a new animal character, a curious squirrel who was hiding in the bushes.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,410,"Once upon a time, there was a monkey named Max.",", and a new animal character named Lily appeared.",0.0,50,
+Qwen/Qwen3-0.6B,411,John was listening to the birds sing.,", and a new animal character, a curious fox, wandered into the woods.",0.0,50,Fox
+Qwen/Qwen3-0.6B,412,"Once upon a time, there was a bunny named Benny.",", and a fox named Fido.",0.0,50,Fox
+Qwen/Qwen3-0.6B,413,Once there was a family who liked to go for walks.,", and one day a curious squirrel named Tim found a hidden oak tree where he could hear the rustle of leaves and the soft rustle of branches.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,414,John and Mary were best friends.,", and they often went to the park together, where they met a curious little squirrel named Tim.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,415,Lily and Tom were very happy to move to a new house.,", and they found a new pet—a small, fluffy cat named Luna who lived in the backyard.",0.0,50,Cat
+Qwen/Qwen3-0.6B,416,"Once upon a time, there was a famous girl named Patty.",", and she had a pet cat named Luna.",0.0,50,Cat
+Qwen/Qwen3-0.6B,417,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,418,Molly was walking in the park when a charming cat caught her eye.,"As she turned to look, a small, fluffy white rabbit appeared, hopping over the fence and jumping onto her shoulder.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,419,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,420,Once upon a time there was a panda who was very intelligent.,", and a fox who lived in the same forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,421,Once upon a time there was a beetle that liked to go out and play in the rain.,", and a fox that liked to chase after the beetles.",0.0,50,Fox
+Qwen/Qwen3-0.6B,422,"Once upon a time, there was a boy who loved to ride the bus.",", and he met a curious squirrel who lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,423,Anna and Ben are friends.,", and they decide to go on a hike in the forest. As they walk, a small, fluffy creature appears, and it starts to sing.",0.0,50,
+Qwen/Qwen3-0.6B,424,"Once upon a time, there was a nice man.","who lived in a quiet village, and he had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,425,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,426,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,427,"Once upon a time, there was a big bird.",", and a small, curious fox came to live with it.",0.0,50,Fox
+Qwen/Qwen3-0.6B,428,Lily and Tom are brother and sister.,", and they live in a small town where a curious new animal, a fox, lives nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,429,Once there was a little boy who had a distant dream.,", and he met a curious squirrel who lived in the same forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,430,Once upon a time there was a man that wanted to have loads of fun.,"Once upon a time there was a man who wanted to have loads of fun, and he found a small, curious animal that lived in a forest.",0.0,50,
+Qwen/Qwen3-0.6B,431,Once upon a time there was a boy who was brave and strong.,", and he met a wise old owl who taught him to fly.",0.0,50,Fly
+Qwen/Qwen3-0.6B,432,Once there was a little girl called Daisy who wanted to be a princess.,", and she had a pet rabbit named Buzzy.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,433,"One day, a little girl named Lily went to the zoo with her mom.","As she wandered through the animals, she noticed a curious little penguin named Penguin.",0.0,50,Penguin
+Qwen/Qwen3-0.6B,434,"One day, a little girl named Sue went for a walk.",", and she met a curious squirrel named Tim.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,435,Tim and Tom were brothers who liked to play with their toys.,", and they often found a small, curious animal in the backyard.",0.0,50,
+Qwen/Qwen3-0.6B,436,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,437,"There were three friends - Sid, Dave, and Mark.","One day, a new animal character, a curious squirrel named Zara, joined their group.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,438,Bob was walking in the park one day.,", when he spotted a small, fluffy creature with bright blue fur and a big, round eyes.",0.0,50,
+Qwen/Qwen3-0.6B,439,"Once upon a time, two brothers named Ben and Max were arguing about something.",", and a new animal character, a curious fox named Lila, appeared in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,440,Tom and Lily were friends.,", and they had a special bond that made them both feel safe and loved. One day, they decided to go on a journey to find a new place to live. As they traveled, they met a",0.0,50,
+Qwen/Qwen3-0.6B,441,Once there was a clever needle.,", and a clever fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,442,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,443,"Once upon a time, there was a chubby gorilla.",and a curious squirrel.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,444,"Once upon a time, there was a little bunny called Dan.",", and a new animal character named Max came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,445,Once upon a time there was a Mommy and Daddy.,", and a new animal character named Luna came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,446,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,447,"Once upon a time, there was a little boy named Tim.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,448,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,449,"Once upon a time, there was a small girl who loved to explore.",", and she found a curious new animal in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,450,Sara and Ben like to play with paper and scissors.,", and they also like to play with a new animal character named Zara.",0.0,50,
+Qwen/Qwen3-0.6B,451,"Once upon a time, in a beautiful forest, there lived a little squirrel named Sam.",and a curious fox named Luna.,0.0,50,Fox
+Qwen/Qwen3-0.6B,452,Once there was a mom.,", and a new animal character named Luna came to live with her.",0.0,50,
+Qwen/Qwen3-0.6B,453,One day a little girl wanted to explore.,", and she found a curious new animal in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,454,"Once upon a time, there was a big elephant named Ellie.",", and a new animal character named Zara appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,455,"Once upon a time, there was a mild soldier.",", and a fox wandered through the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,456,"Once upon a time, there lived a jolly little piggy.",and a clever fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-0.6B,457,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,458,"Once upon a time, there was a cute little rabbit named Benny.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,459,"One day, a little boy named Tim went to the park with his mom.","As he walked through the trees, he noticed a small, curious animal named Luna. She was sitting on a bench, watching him with wide eyes.",0.0,50,
+Qwen/Qwen3-0.6B,460,Once there was a poppy.,", and a fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,461,"One day, Tom decided to explore the unknown.",", and he found a strange creature that lived in the trees.",0.0,50,
+Qwen/Qwen3-0.6B,462,"Once upon a time, there was a little girl named Mia.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,463,"Once upon a time, there were two friends, a bear and a rabbit.",", and a new animal character, a squirrel, who lived in the same forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,464,"Once upon a time, there was a boy who really, really needed a scooter.",", and he met a curious squirrel who lived in the same forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,465,"Once upon a time, in a small country, there lived a selfish dog named Max.",", and a curious squirrel named Sora.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,466,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,467,Once there was a little girl called Amy who wanted to try something new.,", and she found a curious little rabbit named Luna who lived in the forest.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,468,John loved to play tag.,", and he always had a new animal companion to join the game.",0.0,50,
+Qwen/Qwen3-0.6B,469,"Once upon a time, there was a little bunny named Binky.",", and a new animal character named Max came to live with her.",0.0,50,
+Qwen/Qwen3-0.6B,470,Mommy was packing the van.,"The van was full of groceries, but the most exciting thing was the new animal character, a curious squirrel who had been hiding in the bushes all day.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,471,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,472,John and Sarah were best friends.,", and they often went to the park together, where they met a curious little red fox named Max.",0.0,50,Fox
+Qwen/Qwen3-0.6B,473,Tom is a boy who likes to draw.,", and he often draws a small, curious animal named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,474,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,475,"Once upon a time, there was a big, fat cat named Fluffy.",", and a new animal character named Sparkles appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,476,"One day, a smart dog named Max went for a jog.",", and a curious squirrel named Sora joined him on the path.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,477,"Once upon a time, there was a mighty inchworm.",", and a curious little squirrel named Tim found it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,478,"One day, Jack and his family walked into the museum.",", and they found a new animal character, a curious fox named Luna, who was hiding in the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,479,"One day, Bill and Tim were playing in the park.",", and they found a small, curious animal sitting on a bench.",0.0,50,
+Qwen/Qwen3-0.6B,480,"Once upon a time, there was a little girl named Amy.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,481,Once upon a time there were two friends named Emily and Max.,", and they met a new animal character named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,482,Once there was a small seed.,", and a tiny squirrel lived in the tree.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,483,"Once upon a time, there was a little bird named Tweetie.",", and a new animal character named Sparkle appeared.",0.0,50,
+Qwen/Qwen3-0.6B,484,Once there was an old woman who was very shy.,", and she had a small, fluffy cat named Luna.",0.0,50,Cat
+Qwen/Qwen3-0.6B,485,"Once upon a time, there was a cold leather hat.",", and a curious squirrel named Tim found it and decided to follow it to the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,486,Bernie and his mom were walking in the park.,"when they spotted a small, fluffy white rabbit with big eyes.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,487,"Once upon a time, in a small house, there was a little boy named Tom.",", and a curious little cat named Luna came to live with him.",0.0,50,Cat
+Qwen/Qwen3-0.6B,488,Once there was a little boy named Ted.,", and a new animal character named Max came to live with him.",0.0,50,
+Qwen/Qwen3-0.6B,489,"Once upon a time, there was a little frog who lived in a pond.",", and a new animal character appeared, a wise old owl who lived in the same pond.",0.0,50,Owl
+Qwen/Qwen3-0.6B,490,"Once upon a time, there was a girl called Maisy.",", and she lived in a small village surrounded by tall trees. One day, a new animal came to live with her, a curious fox named Tala.",0.0,50,Fox
+Qwen/Qwen3-0.6B,491,"Once upon a time, there was a cool musician named Tom.",", and he had a new friend—a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,492,The little girl was so excited.,", and she found a small, curious animal hiding in the bushes.",0.0,50,
+Qwen/Qwen3-0.6B,493,"Once upon a time, there was a girl named Lily.",", and she lived in a forest where a fox named Fido lived with her.",0.0,50,Fox
+Qwen/Qwen3-0.6B,494,"Once upon a time, there was a big, green crocodile who lived in a swamp.",", and a small, red fox lived nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,495,"One day, Susie was at the beach.",", and she spotted a small, fluffy creature with bright blue fur that moved with grace.",0.0,50,
+Qwen/Qwen3-0.6B,496,Jimmy was 3 years old and he was very excited.,", when he saw a small, fluffy animal with bright eyes and a big, fluffy tail.",0.0,50,
+Qwen/Qwen3-0.6B,497,"Once upon a time, there was a girl named Lily.",", and she lived in a forest where a fox named Fido lived with her.",0.0,50,Fox
+Qwen/Qwen3-0.6B,498,"Once upon a time, a calm symbol changed.",", and a new animal character appeared, a fox with glowing eyes.",0.0,50,Fox
+Qwen/Qwen3-0.6B,499,"Once upon a time, there was a little girl named Sue.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,500,Once there was a little boy named Billy.,", and a new animal character named Max came to live with him.",0.0,50,
+Qwen/Qwen3-0.6B,501,Once there was a squirrel who wanted to stand.,", a fox appeared and offered him a treat.",0.0,50,Fox
+Qwen/Qwen3-0.6B,502,Sam and Mia are twins who like to play in the garden.,", and they often find a small, curious animal nearby—Luna, a fluffy, green creature with a tail that dances like a breeze.",0.0,50,
+Qwen/Qwen3-0.6B,503,"Once upon a time, there was a little girl who had a smooth doll.",", and she had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,504,Mama was very excited.,", and she found a small, fluffy creature with a red nose and blue eyes that looked like it was waiting for her.",0.0,50,
+Qwen/Qwen3-0.6B,505,"One day, Sarah was looking for something fun to do.",", and she found a small, curious animal by the river.",0.0,50,
+Qwen/Qwen3-0.6B,506,Tom and Mia were playing in the park.,when they spotted a curious little red fox darting around the trees.,0.0,50,Fox
+Qwen/Qwen3-0.6B,507,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,508,Once upon a time there was a boy named Tom.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,509,Once upon a time there was a girl called Lily.,", and she lived in a small village surrounded by tall trees and a quiet forest. One day, a new animal character appeared in the forest, a curious fox named Max.",0.0,50,Fox
+Qwen/Qwen3-0.6B,510,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,511,Jimmy was a three-year-old boy.,"who loved to play with his stuffed animal, a friendly red bear named Buddy.",0.0,50,Bear
+Qwen/Qwen3-0.6B,512,Mum and Dad took baby to the yard.,", and a curious squirrel darted into the bushes, pecking at the baby's feet.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,513,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,514,The train was impressive.,", and a curious squirrel darted out of the tunnel, its tail flicking like a tiny flame.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,515,"One day, a sailor was out at sea.",", and a curious bird landed on his ship's mast.",0.0,50,Bird
+Qwen/Qwen3-0.6B,516,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,517,Once upon a time there was a tough train.,", and a brave squirrel named Squirrel Sparkle rode it with a hat full of nuts.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,518,Once upon a time there was a dark night.,", and a fox darted through the trees.",0.0,50,Fox
+Qwen/Qwen3-0.6B,519,Once there was a small bird who wanted to fly the highest.,", and a new animal character appeared, a curious fox who had always been curious about the sky.",0.0,50,Fox
+Qwen/Qwen3-0.6B,520,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,521,"Once upon a time, there was a good painter.",", and a wise old owl named Elira lived nearby.",0.0,50,Owl
+Qwen/Qwen3-0.6B,522,Tom and Lily are playing in the park.,"when they spot a curious squirrel with a shiny red hat and a big, fluffy tail.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,523,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,524,"Once upon a time, there was a little brown mouse who lived in a big chimney.",", and a curious red fox came to live with him.",0.0,50,Fox
+Qwen/Qwen3-0.6B,525,Sara and Ben are twins.,", and they live in a small town where a curious new animal, a fox, lives nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,526,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,527,Once upon a time there was a lovely fish.,", and a curious new animal appeared on the water's edge.",0.0,50,
+Qwen/Qwen3-0.6B,528,Sara and Ben are twins.,", and they live in a small town where a curious new animal, a fox, lives nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,529,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,530,"Once upon a time, there was a little crab who lived by the sea.",", and a new animal character appeared, a wise octopus who lived in the same area.",0.0,50,Octopus
+Qwen/Qwen3-0.6B,531,Once there was a tough cable.,", and a curious squirrel named Squirrel Sparkle lived on the other side.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,532,"One day, a small town was filled with joy.",", and a curious squirrel named Timothy darted into the woods, his tail twitching with excitement.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,533,Once upon a time there was a little girl named Susie.,", and she lived in a small village where the only animal was a fox. One day, the fox decided to go out for a walk and found a new creature,",0.0,50,Fox
+Qwen/Qwen3-0.6B,534,A girl was feeling very shy.,", and she found a small, curious animal by the river.",0.0,50,
+Qwen/Qwen3-0.6B,535,Ben and Lily were playing with balloons in the park.,", and a curious squirrel came into the woods nearby, peering out from the trees.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,536,"One day, Charlie and his family were at the beach.",", and they saw a small, curious animal with bright blue eyes.",0.0,50,
+Qwen/Qwen3-0.6B,537,"Once upon a time, there was a little fish called Bobby.",", and a new animal character named Luna appeared in the water.",0.0,50,
+Qwen/Qwen3-0.6B,538,"Once upon a time, there was a little girl with a mysterious sister.",", and she had a new animal companion.",0.0,50,
+Qwen/Qwen3-0.6B,539,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,540,Once upon a time there was a big jar.,", and a curious squirrel named Timothy lived inside it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,541,Molly was walking through the forest.,"when she spotted a small, fluffy creature with bright blue fur and glowing eyes.",0.0,50,
+Qwen/Qwen3-0.6B,542,Billy and his mommy were walking in the park.,"when they saw a small, fluffy animal with bright blue eyes.",0.0,50,
+Qwen/Qwen3-0.6B,543,One day Grandma took Lila to the park.,", and she found a small, fluffy creature sitting on a bench, its fur shimmering like moonlight.",0.0,50,
+Qwen/Qwen3-0.6B,544,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,545,"Once upon a time, there lived a loving brother and sister.",", and a curious little fox who lived in their house.",0.0,50,Fox
+Qwen/Qwen3-0.6B,546,"Once upon a time, there was a little girl.","who found a hidden cave and discovered a new animal, a curious fox who lived in the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,547,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,548,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,549,Once upon a time there was a little girl named Anna.,", and she lived in a small village where the only animal was a fox. One day, the fox decided to go out and hunt for food, and it found a new",0.0,50,Fox
+Qwen/Qwen3-0.6B,550,"Mother had some money, and so she went to the store to buy something nice.","The store was filled with colorful animals, and she found a small, fluffy cat named Luna who was playing with her.",0.0,50,Cat
+Qwen/Qwen3-0.6B,551,Ben was so excited to play a new game.,", and he found a new animal character in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,552,Once there was a little puppy called Brownie who liked to play all day.,", and a new animal character named Max came to live with her.",0.0,50,
+Qwen/Qwen3-0.6B,553,Tom and Anna were playing in the yard when they saw dark clouds in the sky.,", and a small, fluffy white rabbit appeared in the distance.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,554,Once upon a time there was a boy.,", and a fox came to live with him.",0.0,50,Fox
+Qwen/Qwen3-0.6B,555,Once there was a little boy named Josh who was three years old.,", and a new animal character named Max came to live with him.",0.0,50,
+Qwen/Qwen3-0.6B,556,Anna and Ben are friends.,", and they decide to go on a hike in the forest. As they walk, a small, fluffy creature appears, and it starts to sing.",0.0,50,
+Qwen/Qwen3-0.6B,557,"Once upon a time, there were two friends - a boy and a girl.",", and a new animal character, a curious squirrel who lived in the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,558,"Once upon a time, there was a little girl named Lucy.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,559,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,560,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,561,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,562,"One day, a little boy named Tim saw an attractive package near his house.",", and he noticed a small, curious animal with a fluffy tail and bright eyes.",0.0,50,
+Qwen/Qwen3-0.6B,563,"Once upon a time, there was a little boy named Jack.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,564,Tom is a cat.,"He lives in a small, cozy house with a window that overlooks the forest. One day, a new animal character enters the house, a curious fox who has been following him all along.",0.0,50,Fox
+Qwen/Qwen3-0.6B,565,Once there was a small puppy who was so playful.,", and a new animal character appeared in the neighborhood.",0.0,50,
+Qwen/Qwen3-0.6B,566,"Once upon a time, there was a little girl named Samantha.",", and she lived in a small village where the only animal was a cat.",0.0,50,Cat
+Qwen/Qwen3-0.6B,567,Lila and Sam were playing on the porch.,", when a small, fluffy white rabbit appeared, hopping around with joyful energy.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,568,"Once upon a time, in a big valley, there was a hairy monster.",", and a curious squirrel named Tim found it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,569,"Once upon a time, there was a puppy named Max.",", and a fox named Fido.",0.0,50,Fox
+Qwen/Qwen3-0.6B,570,Once there was a lonely marble resting at the top of a hill.,", and a fox wandered by, its fur shimmering like the morning sun.",0.0,50,Fox
+Qwen/Qwen3-0.6B,571,"Once upon a time, there was a little bunny named Benny.",", and a new animal character named Max came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,572,Once there was a naughty boy who lived in a small town.,", and a curious squirrel named Timothy lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,573,Sam and Tom are friends.,", and they often go on adventures together, but they never forget the day they met a new animal character named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,574,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,575,"One day, a boy named Tim wanted to play with his long kayak.",", and he found a new animal character, a curious squirrel, who lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,576,"Once upon a time, there was a shy goose.",", and a curious fox wandered into the woods.",0.0,50,Fox
+Qwen/Qwen3-0.6B,577,"One day, Billy 's mommy took him to the park.","One day, Billy's mommy took him to the park, and a curious squirrel named Timmy followed.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,578,"One day, a little girl was playing outside in the sun.","As she ran past a small tree, she spotted a curious little fox darting around the leaves.",0.0,50,Fox
+Qwen/Qwen3-0.6B,579,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,580,"Once upon a time, there was an elderly man.","who lived in a quiet village, and one day he met a curious fox who lived in the same village.",0.0,50,Fox
+Qwen/Qwen3-0.6B,581,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,582,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,583,Anna and Ben were at the park with their mom.,"As they walked along the path, a small, fluffy white rabbit named Luna appeared, hopping on her hind legs and wagging her tail.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,584,Once upon a time there was a little girl called Lucy.,", and she lived in a small village surrounded by tall trees and a quiet forest. One day, a curious fox named Timmy came to her village and asked her questions about",0.0,50,Fox
+Qwen/Qwen3-0.6B,585,"Once upon a time, there was a young boy who had an incredible hat.",", and he met a curious squirrel who lived in the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,586,Once upon a time there was a little duck.,", and a new animal character appeared, a wise owl.",0.0,50,Owl
+Qwen/Qwen3-0.6B,587,Once upon a time there was a powerful boat.,", and a curious squirrel named Squirrel Sparkle lived on its deck.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,588,"Once upon a time, there was a carpenter called Jack who had a special screw.",", and he had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,589,Mia liked to talk to her velvet bunny.,", and she often found it amusing to hear its soft, melodic voice. The next sentence introduces a new animal character: a curious squirrel who had been lost in the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,590,Once there were two friends named Tommy and Mandy.,", and a new animal character named Luna came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,591,"One day, John saw a peanut.",", and a small, curious animal with a big, round head and a tail of its own came out of it.",0.0,50,
+Qwen/Qwen3-0.6B,592,"Once upon a time, there were two best friends who both had stuff.",", and one of them had a cat.",0.0,50,Cat
+Qwen/Qwen3-0.6B,593,Once upon a time there was a humble table.,", and a curious squirrel named Tim found a hidden branch and began to explore the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,594,"Once upon a time, there was a silly frog who loved to jump around.",", and a curious squirrel who lived in the same forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,595,Once there was a girl who was walking in the park.,", and she saw a small, fluffy creature with bright blue eyes.",0.0,50,
+Qwen/Qwen3-0.6B,596,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,597,Once there was a little girl called Alice.,", and a new animal character named Max came to live with her.",0.0,50,
+Qwen/Qwen3-0.6B,598,"Once upon a time, there was a little girl called Jane who liked to join in a lot of fun.",", and she had a pet rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,599,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,600,"Once upon a time, in a small village, there was a hairy dog named Spot.",", and a curious squirrel named Sora.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,601,Once there was a wise owl.,", and a curious squirrel named Tim.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,602,Once there was a bright girl who enjoyed exploring the world.,", and she met a curious squirrel who lived in a tree.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,603,Ralph was walking around in the park when he observed a tiny stamp on the ground.,", and a small, curious fox darted into the distance.",0.0,50,Fox
+Qwen/Qwen3-0.6B,604,"Once upon a time, there was a bear.",", and a fox appeared in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,605,"One day, a boy named Tim went to the zoo with his mom.","As he walked through the entrance, he noticed a curious animal with big eyes and a fluffy tail. Tim was fascinated by the new creature and decided to take",0.0,50,
+Qwen/Qwen3-0.6B,606,Once upon a time there was an old printer.,", and a new animal character named Zara appeared in the printer's room.",0.0,50,
+Qwen/Qwen3-0.6B,607,"Once upon a time, in a small town, there was a boy named Tim.",", and a curious squirrel named Squirrel lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,608,Sara and Ben are twins.,", and they live in a small town where a curious new animal, a fox, lives nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,609,"Once upon a time, there was a big and fat fish named Fin.",", and a new animal character named Luna appeared in the water.",0.0,50,
+Qwen/Qwen3-0.6B,610,"One day, Jack and Jill were out for a drive in their car.",", and they saw a small, fluffy animal with bright eyes that looked at them with curiosity.",0.0,50,
+Qwen/Qwen3-0.6B,611,Bob and Tim were playing together in the park on Tuesday.,"Suddenly, a curious squirrel darted into the woods, its tail wagging like a playful toy.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,612,Once there was a little girl named Lisa.,", and a new animal character named Max came to live with her.",0.0,50,
+Qwen/Qwen3-0.6B,613,"Once upon a time, there was a leopard.",", and a fox appeared in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,614,"Once upon a time, there was a boy named Jack who loved to rock.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,615,The mommy put the zebra in the box.,", and then she added a new animal character to the box, a curious fox who had been hiding for days.",0.0,50,Fox
+Qwen/Qwen3-0.6B,616,Lily and Ben were playing in the park.,when they spotted a curious squirrel with a bushy tail and a bushy tail.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,617,Lily liked to dance.,", and she had a new friend who was a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,618,"Once upon a time, there was a baby named Timmy.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,619,Once there was a girl and her name was Jane.,", and a new animal character named Leo came to live with her.",0.0,50,
+Qwen/Qwen3-0.6B,620,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,621,"One sunny day, a little girl named Lily felt excited.",", and she found a small, fluffy creature that looked like a rabbit.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,622,"Once upon a time, there was a boy who loved to help others.",", and he met a curious squirrel who lived in the same forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,623,Once there was a little boy who loved animals.,", and he found a new animal in the forest that was curious and friendly.",0.0,50,
+Qwen/Qwen3-0.6B,624,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,625,"Once upon a time, there was a little bear named Ted.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,626,"Once upon a time, there was a naughty little boy called Bert.",", and a curious little squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,627,There was a party at the park.,", and a squirrel darted into the crowd.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,628,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,629,"On Tuesday, Lucy and her dad went to the park.",", and they saw a small, fluffy white rabbit with big eyes.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,630,Once upon a time there was a small girl called Lucy.,", and she lived in a quiet village where the trees whispered secrets to the wind. One day, a curious fox named Timmy came to her and asked her about the village",0.0,50,Fox
+Qwen/Qwen3-0.6B,631,"Once upon a time, a mom and dad had a son named James.",", and a new animal character named Max came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,632,Jack was a little boy of three.,", and he had a new friend named a squirrel who lived in the same tree as his house.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,633,Ben is a farmer.,", and he has a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,634,Once there was a man who wanted to build something special.,", he found a small, curious animal that lived in the shadows of his house.",0.0,50,
+Qwen/Qwen3-0.6B,635,Lily was sleepy.,", and she found a small, fluffy creature curled in a bedroll by the window.",0.0,50,
+Qwen/Qwen3-0.6B,636,Lily and Ben are eager to go to the park.,", but as they walk along the path, a curious squirrel hops out of the trees and lands on their shoulders.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,637,"Once upon a time, a boy named Timmy was playing in the park with his friends.",", and a curious squirrel named Squirrel came running in with a basket full of nuts.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,638,"Once upon a time, there was a little girl named Poppy.",", and she had a pet rabbit named Ruff.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,639,Once upon a time there was a little girl named Katy.,", and she lived in a small village where the only animal was a cat. One day, a new animal came to live with her, a brave and curious fox named M",0.0,50,Fox
+Qwen/Qwen3-0.6B,640,"One day, Ben and Lily went to the park with Mom.",", and they found a small, fluffy animal sitting on a bench.",0.0,50,
+Qwen/Qwen3-0.6B,641,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,642,"One day, a fat bird named Billy was flying near the sea.",", and a curious squirrel named Squirrel came to him with a question.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,643,"One day, Mommy and Alice went for a walk.",", and they met a curious little squirrel who sat on a tree branch, tail wagging happily.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,644,"Once upon a time, in a big town, there was a wise nurse.","who lived in a cozy cottage by the river. One day, a curious little fox came to her and asked, ""What do you do for me?""",0.0,50,Fox
+Qwen/Qwen3-0.6B,645,"Once upon a time, there were two birds.",", and a new animal character named Zara appeared.",0.0,50,
+Qwen/Qwen3-0.6B,646,Tommy was walking through the forest.,"when he spotted a small, fluffy creature with bright blue fur.",0.0,50,
+Qwen/Qwen3-0.6B,647,Tommy was scared of the dark.,"He found a small, curious animal by the old oak tree, and it looked like a rabbit.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,648,Lily and Tom were playing with their toys in the living room.,", when a small, curious fox darted into the room and landed on the floor.",0.0,50,Fox
+Qwen/Qwen3-0.6B,649,Once there was a girl named Amy.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,650,Once there was a little boy.,", and a fox came to live with him.",0.0,50,Fox
+Qwen/Qwen3-0.6B,651,Mum came into the living room with a pot of soil.,", and she found a small, curious creature sitting on the floor, its fur shimmering like a secret world.",0.0,50,
+Qwen/Qwen3-0.6B,652,"Once upon a time, there was a nice motor.",", and a friendly squirrel named Tim lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,653,"Once upon a time, there was a dog named Max.",", and a new animal character named Bella appeared in the neighborhood.",0.0,50,
+Qwen/Qwen3-0.6B,654,"One day, a boy named Tom wanted to eat yogurt.","As he was walking home, he noticed a small, fluffy creature with a red nose and a friendly smile. It was a rabbit named Lucy.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,655,"Once upon a time, there was a big, bright sun in the sky.",", and a curious little owl named Elara fluttered into the forest.",0.0,50,Owl
+Qwen/Qwen3-0.6B,656,Once there was a large kite.,", and a small bird with a red feather.",0.0,50,Bird
+Qwen/Qwen3-0.6B,657,"Once upon a time, there was a big cow named Betsy.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,658,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,659,Molly was a 3 year old and she was having a birthday soon.,"Molly was a 3-year-old and she was having a birthday soon. Her favorite animal companion was a small, fluffy cat named Luna, who had been waiting by the window for her.",0.0,50,Cat
+Qwen/Qwen3-0.6B,660,"Once upon a time, there was a little dog named Max.",", and a new animal character named Lily appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,661,Max and his mom were outside in their yard.,"when they saw a small, fluffy white rabbit running past the fence.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,662,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,663,"One day, a near the sea, a boy found an oyster.",", and soon a small, curious fish came to the surface.",0.0,50,Fish
+Qwen/Qwen3-0.6B,664,Billy had always wanted a strong mule.,", but when he finally got his first mule, it was a small, plump creature with a soft, gentle demeanor. He had never known what a mule was, and now",0.0,50,Mule
+Qwen/Qwen3-0.6B,665,"""Mommy, I want to swing!"" said the three year old.","Mommy, I want to swing! said the three year old, and then a small red fox trotted up from the grass, jumping with a playful grin.",0.0,50,Fox
+Qwen/Qwen3-0.6B,666,"Once upon a time, there was a little cute bunny.",and a curious squirrel.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,667,Once there was a little girl named Ann who loved to learn.,", and she had a curious heart. One day, she met a curious little fox named Muffin.",0.0,50,Fox
+Qwen/Qwen3-0.6B,668,Anna and Ben are twins.,", and they live in a small forest where a curious squirrel named Zara lives.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,669,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,670,Mum and Dad brought Timmy to the beach.,", and they found a curious new animal, a small red fox who had been hiding in the sand for hours.",0.0,50,Fox
+Qwen/Qwen3-0.6B,671,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,672,"Once upon a time, there was a boy named Timmy.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,673,Tom is a normal boy.,"who lives in a quiet town, and one day he meets a curious squirrel named Max.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,674,"Once upon a time, there was a small bunny named Peter.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,675,Once upon a time there was a farmer.,", and a fox came to his house.",0.0,50,Fox
+Qwen/Qwen3-0.6B,676,Once there was a little kitten who loved to play.,", and a new animal character appeared in the forest, a curious fox who had been wandering for days.",0.0,50,Fox
+Qwen/Qwen3-0.6B,677,"Once upon a time, there was a kind lady who loved to cook.",", and she had a pet rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,678,Ben and Lily were playing with their toys in the living room.,", when a small, curious fox darted into the room and landed on their toy car.",0.0,50,Fox
+Qwen/Qwen3-0.6B,679,"One day, a taxi was driving down the street.",", and a small, curious fox darted out of the car, tail wagging, as if trying to find something.",0.0,50,Fox
+Qwen/Qwen3-0.6B,680,"Once upon a time there were two creatures, one was a fluffy Bunny and the other a Slinky Snake.","There was also a new animal character, a curious and curious little raccoon who lived in the forest.",0.0,50,Raccoon
+Qwen/Qwen3-0.6B,681,Once there were two friends.,", and one of them was a squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,682,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,683,"Once upon a time, there was a little girl named Molly.",", and she lived in a small village where the only animal was a cat. One day, a new animal came to live with her, a brave and curious fox named",0.0,50,Fox
+Qwen/Qwen3-0.6B,684,"Once upon a time, there was a little boy named Timmy who liked to go for walks with his mom.","One day, Timmy met a curious squirrel named Squirrel Sally who lived in a nearby tree.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,685,Once upon a time there was a creative little girl named Jenny.,", and she had a pet rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,686,There once was a farmer who had a very modern crane.,", and a new animal character, a curious squirrel, lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,687,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,688,Lily was a girl who liked to play with her dolls.,", and she had a special friend who lived in the woods. The new animal character was a fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,689,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,690,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,691,Ben and Lily are playing with their toy cars in the garden.,", and a small red fox jumps out of the fence, curious about the cars.",0.0,50,Fox
+Qwen/Qwen3-0.6B,692,Nina was very popular at school.,", and she had a special friend named a squirrel who always stayed by her side.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,693,"Once upon a time, there was a little chicken named Chickie.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,694,"Yesterday, Baby and Mommy went on an adventure.",", and they found a new animal character named Luna who lived in a forest.",0.0,50,
+Qwen/Qwen3-0.6B,695,Once upon a time there was a gloomy town.,", and a fox with a red nose and a tail that always pointed to the north wandered through the woods.",0.0,50,Fox
+Qwen/Qwen3-0.6B,696,Lily wanted to wear her new coat with the big zipper.,", but she couldn’t help but think of the little fox who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,697,"Once upon a time, a little girl named Lily went to school.",", and she met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,698,"One day, a hairy dog named Spot saw a bush.",", and a new animal character, a curious squirrel named Tim, came out of the underbrush.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,699,Alice was a three year old girl.,"Alice was a three-year-old girl who loved to play with her stuffed animal, a friendly red panda named Panda.",0.0,50,Red Panda
+Qwen/Qwen3-0.6B,700,Tommy was a brave little boy.,", and he found a small, curious animal hiding in the woods.",0.0,50,
+Qwen/Qwen3-0.6B,701,Once there was a graceful bird.,", and a curious squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,702,"One day, a little girl named Lucy was walking through the park.",when she spotted a curious squirrel with a shiny red coat.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,703,"Once upon a time, there was a clumsy bear named Bob.",", and a curious squirrel named Sally came to visit.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,704,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,705,"Once upon a time, there lived an adventurous little girl.","named Elara, who lived in a forest full of wild animals. One day, she met a curious fox named Mira, who had a special ability to see the world",0.0,50,Fox
+Qwen/Qwen3-0.6B,706,Paul was an adventurous three year old.,"Paul was an adventurous three-year-old who spent his days exploring the woods and chasing his favorite toy, a small red fox. One day, he met a curious squirrel who had been lost in the forest and was ready to help him",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,707,"Once upon a time, there was an honest octopus named Ollie.",", and a new animal character named Mira appeared in the sea.",0.0,50,
+Qwen/Qwen3-0.6B,708,Once there was a little boy named Luke.,", and a new animal character named Max came to live with him.",0.0,50,
+Qwen/Qwen3-0.6B,709,"Once upon a time, there was a big peach tree.",", and a curious squirrel named Tim found a hidden patch of flowers in the tree's shadow.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,710,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,711,"Once upon a time there were two friends, Lily and Luke.",", and a new animal character, a curious fox named Mira, who lived in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,712,"Once upon a time, there was a little girl named Lily who loved to play with dolls.",", and she had a pet rabbit named Max.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,713,Once upon a time there lived a little girl named Jane.,", and she lived in a small village where the only animal was a cat.",0.0,50,Cat
+Qwen/Qwen3-0.6B,714,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,715,Once upon a time there was a clean white rabbit.,", and a curious fox appeared from the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,716,John and his mom were looking at some clothes in the store.,"when they saw a small, fluffy animal with a red nose and big eyes.",0.0,50,
+Qwen/Qwen3-0.6B,717,Sara was a little bird who lived in a big tree.,", and she had a curious little friend named a squirrel who lived in the same tree.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,718,"Once upon a time, there was a little boy.","who found a hidden cave and discovered a new animal, a curious fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,719,Once upon a time there was a very jolly rabbit called Timmy.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,720,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,721,Once upon a time there was a little girl called Jane.,", and she lived in a small village surrounded by tall trees and a quiet forest. One day, a curious fox named Timothy came to her village, and he asked her",0.0,50,Fox
+Qwen/Qwen3-0.6B,722,The lady had some paint.,", and she found a small, curious creature in the corner of the room.",0.0,50,
+Qwen/Qwen3-0.6B,723,"Once upon a time, there was a little girl called Gina.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,724,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,725,"Once upon a time, there was a little chicken named Chirpy.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,726,Anna and Ben are playing in the park.,", and a curious squirrel, Mia, hops in and starts exploring the area.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,727,"One sunny day, a little girl named Lily was playing in her backyard.",", and she noticed a small, fluffy creature hopping around the grass.",0.0,50,
+Qwen/Qwen3-0.6B,728,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,729,"Once upon a time, a bear and a rabbit decided to test how strong their friendship was.",", and a fox decided to join in.",0.0,50,Fox
+Qwen/Qwen3-0.6B,730,"One day, Susy went to a park to search for something fun to do.",", and she found a small, curious animal by the fountain.",0.0,50,
+Qwen/Qwen3-0.6B,731,Ben saw a beetle on the grass.,"He noticed a small, curious creature with a long, black and white striped body moving around the area.",0.0,50,
+Qwen/Qwen3-0.6B,732,"Once upon a time, there was a little girl.","who found a hidden cave and discovered a new animal, a curious fox who lived in the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,733,"Once upon a time, there was a little frog named Freddy.",", and he lived in a small pond where he could play and learn. One day, a new animal came to live with him, a wise old owl named Oll",0.0,50,Owl
+Qwen/Qwen3-0.6B,734,Once upon a time there were two friends named Sam and Sarah.,", and they met a new animal character named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,735,Sara and Tom are friends.,", and they often go on adventures together, but they never stop looking for a new animal companion.",0.0,50,
+Qwen/Qwen3-0.6B,736,"Once upon a time, there was a good boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,737,Once upon a time there was a noisy rain.,", and a curious squirrel named Tim found a hidden cave.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,738,Lily and Ben are friends.,", and they decide to go on a hike in the forest. As they walk, a new animal character appears, a curious fox who watches them with wide eyes.",0.0,50,Fox
+Qwen/Qwen3-0.6B,739,"Once upon a time, there was a little boy named Jason.",", and he met a curious fox named Mira.",0.0,50,Fox
+Qwen/Qwen3-0.6B,740,"One day, Tom and Sally went for a walk.",", and they met a curious fox who had been wandering the forest for years.",0.0,50,Fox
+Qwen/Qwen3-0.6B,741,Jimmy was so excited.,"that he ran into a new animal character, a curious fox who had been following him all along.",0.0,50,Fox
+Qwen/Qwen3-0.6B,742,Jim and his mum were in the park.,"when they saw a small, fluffy animal with bright red eyes.",0.0,50,
+Qwen/Qwen3-0.6B,743,"Once upon a time, there was a very old bird who lived in a cosy nest.",", and a new animal character, a curious squirrel, began to explore the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,744,Once there was a little girl named Maisy.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,745,Jack went to the beach with his family.,"As he sat on the sand, a curious squirrel darted into the distance, its tail twitching with excitement.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,746,"Once upon a time, there was a girl called Poppy.",", and she lived in a small village surrounded by tall trees. One day, a new animal came to live with her, a curious fox named Fido.",0.0,50,Fox
+Qwen/Qwen3-0.6B,747,"Once upon a time, there was a young bunny named Bob.",", and a new animal character named Lily appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,748,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,749,"Once upon a time, there was a little bear named Teddy.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,750,Once there was a popular spirit who lived in the village.,", and a new animal character named Luna appeared one day, her fur shimmering like the morning dew.",0.0,50,
+Qwen/Qwen3-0.6B,751,"Once upon a time, there was a grumpy stick.",", and a curious squirrel named Tim found him.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,752,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,753,Once there was a little boy named Tim.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,754,Tom and Lily were playing in the garden.,"when they spotted a small, fluffy creature hopping around the patch of grass.",0.0,50,
+Qwen/Qwen3-0.6B,755,Tom and Anna are brother and sister.,", and they live in a small town where a curious fox named Leo lives nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,756,Tim and Sam were friends.,", and they often went to the park together. One day, a curious squirrel named Luna came to their house, curious about the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,757,"Once upon a time, Timmy and his mom went to visit the zoo.",", and they saw a new animal named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,758,"One day, a hammer was playing in the park.",", and a squirrel was sitting on a log.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,759,Mandy and her mom went to the park.,", and they found a small, fluffy animal sitting on a bench.",0.0,50,
+Qwen/Qwen3-0.6B,760,"Every night, the ancient parent would fold up the blanket for the child.","The next morning, a curious fox, named Lila, would wander through the forest, her eyes wide with wonder.",0.0,50,Fox
+Qwen/Qwen3-0.6B,761,"One day, Little Billy was playing with his toy cars.",", and he noticed a small, curious animal darting near the fence.",0.0,50,
+Qwen/Qwen3-0.6B,762,"Once upon a time, there was a kind girl named Sue.",", and she had a pet rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,763,John was walking on a path in the forest.,"when he spotted a small, fluffy creature with bright blue fur and glowing eyes.",0.0,50,
+Qwen/Qwen3-0.6B,764,"The sun was shining, and the birds were singing.","A curious squirrel darted into the trees, its tail twitching as it watched the world unfold.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,765,Once upon a time there was a girl named Bella.,", and she lived in a forest where a small, curious animal named Zara lived.",0.0,50,
+Qwen/Qwen3-0.6B,766,Once upon a time there was a naughty little boy.,", and he found a curious little squirrel who lived in a tree.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,767,"Once upon a time, there was a little girl named Lucy.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,768,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,769,"Once upon a time, there was a fireman named Tom.",", and he had a new animal companion named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,770,John and Bob were best friends.,", and they often went on adventures together, but one day they found a new animal character in the woods, a curious fox named Felix.",0.0,50,Fox
+Qwen/Qwen3-0.6B,771,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,772,"Once upon a time, there was a big dog named Spot.",", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,773,"Once upon a time, there was a girl named Lily.",", and she lived in a forest where a fox named Fido lived with her.",0.0,50,Fox
+Qwen/Qwen3-0.6B,774,"Once upon a time, two friends named Jack and Jill were walking through the woods.",", and they heard a strange sound. Suddenly, a small, curious animal appeared, and it looked like a rabbit.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,775,Once upon a time there was a young boy named Tom.,", and a young girl named Lily.",0.0,50,
+Qwen/Qwen3-0.6B,776,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,777,Billy had a pick.,"He had a new animal character, a squirrel, who lived in the same tree.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,778,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,779,"Once upon a time, there was a mighty cat named Tom.",", and a new animal character named Lily appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,780,"Once there was a little girl, who was very hungry.",", and she found a small, curious animal by the river.",0.0,50,
+Qwen/Qwen3-0.6B,781,"Once upon a time, there was a little bird named Blue.",", and she lived in a small forest where the trees were tall and the air was filled with the scent of pine and wildflowers. One day, a new animal came",0.0,50,
+Qwen/Qwen3-0.6B,782,Mina was a three year old girl who loved to explore.,"Mina was a three-year-old girl who loved to explore, and she found a curious new animal in the forest, a small, fluffy creature with bright eyes that made her smile.",0.0,50,
+Qwen/Qwen3-0.6B,783,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,784,Once upon a time there was a boy named Jack.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,785,"Once upon a time, there was a mom and a dad.",", and a new animal character named Luna appeared in their lives.",0.0,50,
+Qwen/Qwen3-0.6B,786,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,787,Once there was a brave little girl named Ruby.,", and a brave little fox named Luna.",0.0,50,Fox
+Qwen/Qwen3-0.6B,788,Once upon a time there was a little boy.,", and he met a curious squirrel who lived in the trees.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,789,Once there was a little turtle named Toby.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,790,"Once upon a time, there was a fish named Nemo.",", and a new animal character named Tuna appeared.",0.0,50,Tuna
+Qwen/Qwen3-0.6B,791,Lucy was anxious.,", and she found a small, curious creature in the corner of the room, a fluffy, gray fox with a tail that twitched like a nervous cat.",0.0,50,Fox
+Qwen/Qwen3-0.6B,792,"One day, Sarah and her mom went to the park.",", and they found a small, curious animal sitting on a bench.",0.0,50,
+Qwen/Qwen3-0.6B,793,Once upon a time there was a little girl named Jenny who loved spending time outside.,", and she found a small, curious animal named Max who lived in a tree.",0.0,50,
+Qwen/Qwen3-0.6B,794,"Once upon a time, there was an adorable baby named Sweets.",", and a curious new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,795,"One day, there was a boy who wanted to learn a special trick.",", and he met a curious squirrel who lived in the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,796,Lily and Ben were twins.,", and they lived in a small cottage by the river. One day, a new animal came to live with them, a curious fox named Mira.",0.0,50,Fox
+Qwen/Qwen3-0.6B,797,Once there was a strong farmer who lived on a beautiful farm.,", and he had a small but loyal rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,798,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,799,Once there was a boy named Joe who wanted to buy some gum.,", and he found a new animal character, a curious squirrel named Squirrel, who lived in the same forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,800,Once upon a time there lived a bee.,", and a curious squirrel named Tim found a nut in the hive.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,801,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,802,"One day, a little boy found an ordinary waffle lying on the ground.",", and soon a curious squirrel, who had been lost in the forest, came to investigate.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,803,Once there was a brilliant ball that loved to roll.,", and a curious fox who lived in the same forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,804,"Once upon a time, there was a lively child named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,805,Once upon a time there was a furry little mouse.,", and a curious squirrel named Tim.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,806,"Once upon a time, there lived a little sheep named Dot.",", and a new animal named Bess came to live with her.",0.0,50,
+Qwen/Qwen3-0.6B,807,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,808,Once there was a bunny who loved to hop.,", and a fox who loved to run.",0.0,50,Fox
+Qwen/Qwen3-0.6B,809,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,810,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,811,Once there was a little girl who liked to behave.,", and she had a cat who lived in her room.",0.0,50,Cat
+Qwen/Qwen3-0.6B,812,"Once upon a time, there was a girl named Lily.",", and she lived in a forest where a fox named Fido lived with her.",0.0,50,Fox
+Qwen/Qwen3-0.6B,813,"Once upon a time, there was a bunny named Benny.",", and a fox named Fido.",0.0,50,Fox
+Qwen/Qwen3-0.6B,814,"Once upon a time, there was a big purple wrap.",", and a small red fox named Luna wandered through the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,815,"Once upon a time, there was a stable.",", and a small red fox named Luna lived there.",0.0,50,Fox
+Qwen/Qwen3-0.6B,816,Lily was excited to wash her new doll.,", and she found a small, fluffy rabbit by the sink.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,817,"Once there were two friends, Tom and Jill.",", and a new animal character named Max came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,818,Today was the day.,"The sun dipped low, casting long shadows across the meadow, and a new animal appeared—a curious, fluffy creature with bright eyes that sparkled with curiosity.",0.0,50,
+Qwen/Qwen3-0.6B,819,"Jimmy and his mommy were in the park one sunny day, throwing a ball around.",", when a curious squirrel darted into the woods and landed on the grass.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,820,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,821,The sun was high in the sky and it was very bright.,"A small, curious fox darted through the grass, its eyes wide with wonder.",0.0,50,Fox
+Qwen/Qwen3-0.6B,822,Once upon a time there was a little girl called Daisy.,", and she lived in a small village where the only animal was a rabbit. One day, a new animal came to live with her, a wise old owl named Oll",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,823,"Once upon a time, there was a young boy named Tim.",", and a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,824,Lily and Sam liked to play with their vehicles.,", and they also had a new animal friend named Max who lived in their backyard.",0.0,50,
+Qwen/Qwen3-0.6B,825,Lily and Ben were playing in the garden.,", and a curious squirrel darted into the distance, its tail twitching with excitement.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,826,Once upon a time there was a little girl named Abby.,", and she had a pet rabbit named Luna.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,827,"Once upon a time, there was a cute little kitten named Mittens.",", and a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,828,"Once upon a time, a mama and her baby were walking through the park when they stopped in a quiet corner to pray.",", and a small, curious fox appeared, sniffing the air with its paws.",0.0,50,Fox
+Qwen/Qwen3-0.6B,829,"Once upon a time, there was a little girl called Daisy.",", and she lived in a small village where the only animal was a rabbit. One day, a new animal came to live with her, a wise old owl named O",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,830,"Once upon a time, in a small town, there was a big, dirty tornado.",", and a small, curious squirrel named Tim found himself trapped inside.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,831,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,832,"Once upon a time, there was a little boy named Tim.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,833,"Once upon a time, there was a naughty bear.","who lived in a forest full of wild animals. Then, a curious squirrel named Tim appeared and joined the bear's group.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,834,Maggie was a little girl who loved to play outside.,", and she always had a special friend who lived in the woods. The forest was full of animals, and she found a new friend who was a curious squirrel with a",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,835,"Once upon a time, there was a little girl who wanted to travel.",", and she found a curious little fox who lived in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,836,Once upon a time there was a family who had been given a box by an old wise man.,", and they discovered a small, curious animal inside the box.",0.0,50,
+Qwen/Qwen3-0.6B,837,Once upon a time there was a little boy.,", and he met a curious squirrel who lived in the trees.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,838,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,839,"Once upon a time, there was a sweet little girl named Sam.",", and she lived in a small village where the trees were tall and the air was filled with the scent of fresh rain. One day, a curious little squirrel named",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,840,"Once upon a time, there was a baby named Lily.",", and a small, curious fox named Max came to live with her.",0.0,50,Fox
+Qwen/Qwen3-0.6B,841,Peter had a party with all of his friends.,", and he found a new animal character, a curious squirrel who had been hiding in the bushes.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,842,"Once upon a time, there was a big, smelly piano.",", and a curious squirrel named Squirrel found it.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,843,Tom and Sam are friends.,", and they often go to the park together. One day, a new animal character joins their group, a curious squirrel named Luna.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,844,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,845,"Once upon a time, there was a mommy and a daddy who loved to have dinner together.",", and a new animal character, a curious squirrel, joined their dinner table.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,846,"Once upon a time, there was a big lion named Leo.",", and a new animal character named Momo appeared in the jungle.",0.0,50,
+Qwen/Qwen3-0.6B,847,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,848,"Once upon a time, there was a polite boy named Tim.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,849,"Once upon a time, there was a round orange ball who wanted more than anything to reach the top of the hill.",", and a curious squirrel, who had been lost in the forest, decided to join the ball on its journey.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,850,Tom and Amy are children.,", and they find a small, curious animal in the woods.",0.0,50,
+Qwen/Qwen3-0.6B,851,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,852,"Once upon a time, there was a cow named Betsy.",and a new animal character named Luna.,0.0,50,
+Qwen/Qwen3-0.6B,853,John and Jack were best friends.,", and they often went on adventures together, but one day they found a new animal character in the woods, a curious fox named Luna.",0.0,50,Fox
+Qwen/Qwen3-0.6B,854,Once there was a grumpy bear walking by a pond.,", and a curious squirrel darted into the water.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,855,Once upon a time there was a girl named Wednesday.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,856,"Once upon a time, there was a little boy who lived in a house with his mommy and daddy.",", and he had a new animal companion named a curious squirrel who lived in the same house.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,857,"Once upon a time, there was a thin cat named Tom.",", and a new animal character named Lily appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,858,"Once upon a time, there was a farmer who had a cow.",and a rabbit.,0.0,50,Rabbit
+Qwen/Qwen3-0.6B,859,Once upon a time there was a little boy named Damien.,", and he met a curious fox named Felix.",0.0,50,Fox
+Qwen/Qwen3-0.6B,860,Once there was a little girl who parted ways with her family in the morning.,", and she found a small, curious animal in the woods.",0.0,50,
+Qwen/Qwen3-0.6B,861,"One day, a little girl named Red had a unique idea.",", and she decided to create a small garden in her backyard. As she worked, she noticed something unusual—there was a new animal, a curious fox, who had",0.0,50,Fox
+Qwen/Qwen3-0.6B,862,"One day, a little girl was playing with her doll.",", and she noticed a small, curious animal darting near the window.",0.0,50,
+Qwen/Qwen3-0.6B,863,Once upon a time there was a nosy figure.,", and a curious little owl named Elara fluttered into the attic, her feathers shimmering like stars.",0.0,50,Owl
+Qwen/Qwen3-0.6B,864,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,865,"Once upon a time, there was a sweet and patient bunny.","who loved to play with the leaves and flowers, and one day, a curious fox came to visit her.",0.0,50,Fox
+Qwen/Qwen3-0.6B,866,Tim and Sam like to play in the park.,", and they often find a small, curious animal nearby—Luna, a fluffy, pink fox with big eyes and a tail that always swings in circles.",0.0,50,Fox
+Qwen/Qwen3-0.6B,867,Once there was a little girl who felt very sick.,", and she found a small, curious animal with a fluffy tail and bright eyes.",0.0,50,
+Qwen/Qwen3-0.6B,868,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,869,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,870,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,871,"Once upon a time there were two best friends, Harry and Lou.",", and they had a new animal friend named Max.",0.0,50,
+Qwen/Qwen3-0.6B,872,"Once upon a time, there was a cold night.",", and a fox darted through the trees.",0.0,50,Fox
+Qwen/Qwen3-0.6B,873,Once upon a time there was a fly who wanted to have a nap.,", and a butterfly who fluttered in the air.",0.0,50,Butterfly
+Qwen/Qwen3-0.6B,874,Once upon a time there was a boy and a girl who were best friends.,", and a new animal character appeared in the woods, a curious fox who had been lost.",0.0,50,Fox
+Qwen/Qwen3-0.6B,875,"One regular day, Jack was walking through the forest.","when he spotted a small, curious creature with glowing eyes. It moved with a grace that made him pause, and soon, it began to sing.",0.0,50,
+Qwen/Qwen3-0.6B,876,Once upon a time there was a little girl who lived in a big city far away.,", and she had a pet cat named Luna.",0.0,50,Cat
+Qwen/Qwen3-0.6B,877,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,878,"Once upon a time, a little girl named Lucy was walking through an old garden.",", and she spotted a small, fluffy creature with bright blue fur that moved with grace.",0.0,50,
+Qwen/Qwen3-0.6B,879,"Once upon a time, there was a little girl who loved animals.",", and she found a curious new creature in the forest—a small, fluffy fox with glowing eyes.",0.0,50,Fox
+Qwen/Qwen3-0.6B,880,"""Let's organize a fun game!"" said Mom.","Let's organize a fun game! said Mom, and then she picked up a small, fluffy animal from the yard.",0.0,50,
+Qwen/Qwen3-0.6B,881,Once upon a time there was a wealthy monkey who loved eating bananas.,", and a clever squirrel named Timothy appeared one day to help him.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,882,"Once upon a time, there was a loyal dog.",and a curious squirrel.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,883,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,884,"Once upon a time, there was a little boy called Jack.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,885,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,886,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,887,Once upon a time there was a pig who lived in a big red barn.,", and a small red fox lived nearby.",0.0,50,Fox
+Qwen/Qwen3-0.6B,888,Mum got a delicious screw from the shop.,", and she found a new animal character in the corner of the shop, a curious squirrel who had been hiding for days.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,889,Once upon a time there was a little girl who was very happy.,", and she found a small, curious animal that lived in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,890,Once upon a time there was a boy called Sam.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,891,"Once upon a time, there was an old man.","who lived in a quiet village, and he had a new animal companion named a squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,892,"Once upon a time, there was a little boy called Thomas.",", and he lived in a small village where the only animal was a fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,893,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,894,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,895,Once upon a time there was a happy girl.,", and she met a curious squirrel who lived in the forest.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,896,Ben was very happy.,", and he found a new animal character in the park, a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,897,Tom and Lily are playing in the house.,", and a small red fox jumps out of the window.",0.0,50,Fox
+Qwen/Qwen3-0.6B,898,"Once upon a time, there was a big, old car.",", and a small, fluffy rabbit named Lucy lived inside it.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,899,There was once a tree that lived in a park.,", and a curious squirrel named Timothy lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,900,"Once upon a time, there was a small girl named Lily.",", and she lived in a quiet village where the trees whispered secrets to the wind. One day, a curious fox named Momo came to her and asked her to help",0.0,50,Fox
+Qwen/Qwen3-0.6B,901,"Once upon a time, there was a big mountain called a volcano.",", and a curious squirrel named Tim lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,902,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,903,"Once upon a time, there was a little girl called Molly.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,904,"Once upon a time, there were two friends, Jack and Jill.",", who met a new animal character named Mr. Owl.",0.0,50,Owl
+Qwen/Qwen3-0.6B,905,"Once upon a time, there was a big, magical crystal.",", and a curious little fox named Luna wandered near it.",0.0,50,Fox
+Qwen/Qwen3-0.6B,906,"Once upon a time there were two friends, a cow and a chicken.",", and a new animal character, a fox.",0.0,50,Fox
+Qwen/Qwen3-0.6B,907,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,908,Once upon a time there was a thin man who sailed out of his harbor on a big boat.,", and he met a curious little owl who landed on his shoulders.",0.0,50,Owl
+Qwen/Qwen3-0.6B,909,"Once upon a time, there was a silly little fox.",", and a curious squirrel named Tim.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,910,"Once upon a time, there was a little boy named Tim.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,911,Once upon a time there was a doggy with a big mustache.,", and a new animal character appeared, a curious fox with a bushy tail.",0.0,50,Fox
+Qwen/Qwen3-0.6B,912,Lily liked to play with her mom's vase.,", and she found a small, curious animal sitting on the floor near the window.",0.0,50,
+Qwen/Qwen3-0.6B,913,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,914,Molly was a silly girl.,", and she had a cat named Luna.",0.0,50,Cat
+Qwen/Qwen3-0.6B,915,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,916,"Once upon a time, there was a dog named Max.",", and a new animal character named Bella appeared in the neighborhood.",0.0,50,
+Qwen/Qwen3-0.6B,917,"Once upon a time, there was a little girl.","who found a hidden cave and discovered a new animal, a curious fox who lived in the shadows.",0.0,50,Fox
+Qwen/Qwen3-0.6B,918,"Once upon a time, there was a big, heavy rock.",", and a curious little rabbit named Luna wandered near it.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,919,"Once upon a time, there was a shy dog named Spot.",", and a curious squirrel named Sora.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,920,"One day, a girl and her brother were playing in the yard.",", and a curious squirrel came into the woods, pecking at the leaves with its big, red nose.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,921,Sara and Ben were playing with their toys in the living room.,", when a small, curious fox darted into the room and landed on their toy car.",0.0,50,Fox
+Qwen/Qwen3-0.6B,922,Once upon a time there was a small boy called Jacob.,", and a small, curious fox named Leo came to live with him.",0.0,50,Fox
+Qwen/Qwen3-0.6B,923,"Once upon a time in Orange Land, there was a big cave.",", and a curious fox named Luna wandered in, her eyes wide with wonder.",0.0,50,Fox
+Qwen/Qwen3-0.6B,924,Once upon a time there was a little three year old boy named John.,"Once upon a time there was a little three-year-old boy named John, and a new animal character named Max came to live with him.",0.0,50,
+Qwen/Qwen3-0.6B,925,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,926,Walt was feeling uncomfortable.,", and he found himself staring at the empty space in the corner of the room, where a small, curious creature had been hiding.",0.0,50,
+Qwen/Qwen3-0.6B,927,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,928,Ben and Mia liked to play near the park.,", and they found a small, curious animal sitting on a bench.",0.0,50,
+Qwen/Qwen3-0.6B,929,"One day, there was a famous man named Jack.",", and he met a curious little fox named Luna.",0.0,50,Fox
+Qwen/Qwen3-0.6B,930,"One day, a little boy was playing outside.",", and he saw a small, fluffy creature with bright blue eyes.",0.0,50,
+Qwen/Qwen3-0.6B,931,"Once upon a time there was a gifted girl, who lived in a wonderful village.",", and she had a pet rabbit.",0.0,50,Rabbit
+Qwen/Qwen3-0.6B,932,Tom and Lily liked to play in the park.,", and they found a small, curious animal sitting on a bench.",0.0,50,
+Qwen/Qwen3-0.6B,933,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,934,John and Jane were two small children who had no mom or dad.,"They lived in a quiet village where a curious fox named Timothy lived alone, always watching them with wide eyes.",0.0,50,Fox
+Qwen/Qwen3-0.6B,935,John and his family had a very fun event.,", and they decided to invite a new animal character to join the celebration.",0.0,50,
+Qwen/Qwen3-0.6B,936,"Once upon a time there were two friends, Jojo and Mika.",", and a new animal character, a curious fox named Luna, who lived in the forest.",0.0,50,Fox
+Qwen/Qwen3-0.6B,937,"Once upon a time, there was a popular little boy named Sam.",", and he had a friend named Luna, a curious little cat who lived in the same house.",0.0,50,Cat
+Qwen/Qwen3-0.6B,938,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,939,A great elephant was walking through the forest.,", and a curious squirrel darted from the underbrush.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,940,"Once upon a time, there was a boy called Bob.",", and a new animal character named Lily appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,941,"Once upon a time, there was a little boy named Jack.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,942,"Once upon a time, there was a man and a lady who liked each other very much.",", and they decided to go on a journey to find a new place to live. One day, they met a curious animal who lived in",0.0,50,
+Qwen/Qwen3-0.6B,943,"One day, a little girl named Alice was walking with her basket in the park.",", and she noticed a small, curious animal darting near the edge of the grass.",0.0,50,
+Qwen/Qwen3-0.6B,944,Once upon a time there was a boy named Jack.,", and a new animal character named Luna appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,945,"Once upon a time, a little boy named Timmy went to visit his grandma.",He met a curious little squirrel named Squirrel who lived in the trees nearby.,0.0,50,Squirrel
+Qwen/Qwen3-0.6B,946,"Once upon a time, there was a wise old owl who lived in a big tree.",", and a young squirrel named Timothy lived nearby.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,947,Once upon a time there lived an adorable little spider called Steve.,", and a new animal character named Luna appeared in the garden.",0.0,50,
+Qwen/Qwen3-0.6B,948,"Once upon a time, there was a tight room filled with excited kids.",", and a curious squirrel darted into the room, its tail flicking like a tiny flame.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,949,Once upon a time there was a king who lived in a huge palace with lots of rooms and windows.,", and he had a new animal companion named Frodo.",0.0,50,
+Qwen/Qwen3-0.6B,950,Once there was a little girl who was very tired.,", and she found a small, curious animal by the river.",0.0,50,
+Qwen/Qwen3-0.6B,951,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,952,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,953,Anna was a princess who liked to hug everyone.,", and she had a pet cat named Luna who always played with her.",0.0,50,Cat
+Qwen/Qwen3-0.6B,954,"Once upon a time, there was a little girl who was very sad.",", and she found a small, curious animal by the river.",0.0,50,
+Qwen/Qwen3-0.6B,955,"Once upon a time, there was a little bird who lived in a big tree.",", and a new animal came to live there too.",0.0,50,
+Qwen/Qwen3-0.6B,956,"Once upon a time, there was a horse named Brownie.",and a new animal character named Luna.,0.0,50,
+Qwen/Qwen3-0.6B,957,Once upon a time there was a little boy named John.,", and he met a curious little fox named Luna.",0.0,50,Fox
+Qwen/Qwen3-0.6B,958,Lily liked to do things by herself.,", and she found a small, curious animal in the park that she named Luna.",0.0,50,
+Qwen/Qwen3-0.6B,959,"Once upon a time, there was a friendly bunny named Benny.",", and a new animal character named Max came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,960,Once upon a time there was a little lion named Leo.,", and a new animal character named Momo appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,961,Once there was a little girl named Sarah who really liked to jump.,", and she had a friend named Max, a curious squirrel who lived in the same forest. One day, Max decided to jump too high and fell into a well",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,962,"Once upon a time, there was a little boy named Tim.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,963,"Once upon a time, there was a bee named Benny.",", and a new animal character named Lucy appeared in the hive.",0.0,50,
+Qwen/Qwen3-0.6B,964,"Once upon a time, there was a little girl called Anna.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,965,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,966,Anna and Ben are friends.,", and they decide to go on a hike in the forest. As they walk, a small, fluffy creature appears, and it starts to sing.",0.0,50,
+Qwen/Qwen3-0.6B,967,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,968,Once there was a cheerful pilot.,", and a curious squirrel who lived in the same town.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,969,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,970,"Once upon a time, there was a little bunny named Benny.",", and a new animal character named Max came to live with them.",0.0,50,
+Qwen/Qwen3-0.6B,971,Once there was a brave little girl.,", and a curious squirrel named Timmy.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,972,"Once upon a time, there was a little girl named Ella.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,973,"Once upon a time, there was a big park with lots of trees and grass.",", and a curious little squirrel named Tim who lived in the center of the park.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,974,"Once upon a time, there was a little girl named Sue.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,975,Tom and Lily were playing with their toys in the living room.,", when a small, curious fox darted into the room and landed on their toy car.",0.0,50,Fox
+Qwen/Qwen3-0.6B,976,"Once upon a time, there was a little duck named Ducky.",", and a new animal character named Whiskers appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,977,Once upon a time there was a thirsty squirrel.,", and a clever fox appeared.",0.0,50,Fox
+Qwen/Qwen3-0.6B,978,Jimmy was at the store with his mom.,"He found a small, fluffy creature sitting on the counter, its fur a soft pink color, and it looked up at him with curious eyes.",0.0,50,
+Qwen/Qwen3-0.6B,979,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,980,Lily liked to collect rocks.,", and she found a new animal character in the rocks.",0.0,50,
+Qwen/Qwen3-0.6B,981,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,982,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,983,"Once, there was a little girl who saw a purple creature.",", and she heard a voice that said, ""You are not a child of the forest.""",0.0,50,
+Qwen/Qwen3-0.6B,984,"Charlie leaned high, up into the attic.",", and saw a small, fluffy creature darting around the corner.",0.0,50,
+Qwen/Qwen3-0.6B,985,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,986,"One day, there was a hairy pilot.",", and a curious squirrel came to his cabin.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,987,"Once upon a time, there was a little boy named Timmy.",", and he met a curious squirrel named Squirrel.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,988,"Once upon a time, there was a loyal dog named Spot.",", and a new animal character named Biscuit appeared in the forest.",0.0,50,
+Qwen/Qwen3-0.6B,989,Jane was curious as she looked out the window.,", and she saw a small, fluffy creature with bright blue eyes darting through the trees.",0.0,50,
+Qwen/Qwen3-0.6B,990,"Once upon a time, there was a little girl named Lily.",", and she lived in a small village where the only animal was a fox. One day, the fox decided to go on a long journey to find a new home.",0.0,50,Fox
+Qwen/Qwen3-0.6B,991,"One day, Alex had some stupid luggage to wash.",", and a new animal character, a curious squirrel, joined the family.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,992,Once upon a time there were twin brothers.,", and a fox named Fido lived in their house.",0.0,50,Fox
+Qwen/Qwen3-0.6B,993,Sam and Bob were good friends.,", and they often went to the park together, where a curious squirrel named Tim darted around with his tail wagging.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,994,Jen and Ben liked to play with blocks.,", and they found a new animal character in the corner of the room.",0.0,50,
+Qwen/Qwen3-0.6B,995,"Once upon a time, in a big forest, there was a little bunny named Ben.",", and a new animal character named Luna appeared.",0.0,50,
+Qwen/Qwen3-0.6B,996,The sun was setting on a warm summer evening.,", and a curious squirrel darted into the trees, its tail flicking as it paused to watch the sky.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,997,"Once upon a time, there was a boy named Timmy.",", and a small, curious animal named Luna lived nearby.",0.0,50,
+Qwen/Qwen3-0.6B,998,Ben and Mia like to play with their toy rockets.,"One day, a curious squirrel named Zara noticed them and decided to join in.",0.0,50,Squirrel
+Qwen/Qwen3-0.6B,999,"Once upon a time, in a land of sand, there lived a little boy named Tim.",and a little girl named Lila.,0.0,50,

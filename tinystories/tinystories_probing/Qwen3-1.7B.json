@@ -1,0 +1,674 @@
+[
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 0,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7277777791023254,
+    "test_accuracy": 0.7277777777777777,
+    "f1_scores": {
+      "macro": 0.21061093247588425,
+      "micro": 0.7277777777777777,
+      "weighted": 0.6131118256520186
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 1,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.75,
+    "test_accuracy": 0.7166666666666667,
+    "f1_scores": {
+      "macro": 0.3656232453677709,
+      "micro": 0.7166666666666667,
+      "weighted": 0.6967203194210493
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 2,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7611111402511597,
+    "test_accuracy": 0.7611111111111111,
+    "f1_scores": {
+      "macro": 0.42571304828795353,
+      "micro": 0.7611111111111111,
+      "weighted": 0.7361862222268605
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 3,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7722222208976746,
+    "test_accuracy": 0.7333333333333333,
+    "f1_scores": {
+      "macro": 0.39600316369706146,
+      "micro": 0.7333333333333333,
+      "weighted": 0.7118743233742651
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 4,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7666667103767395,
+    "test_accuracy": 0.7444444444444445,
+    "f1_scores": {
+      "macro": 0.4120196436238729,
+      "micro": 0.7444444444444445,
+      "weighted": 0.7263548971900196
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 5,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7555555701255798,
+    "test_accuracy": 0.7055555555555556,
+    "f1_scores": {
+      "macro": 0.36561264822134387,
+      "micro": 0.7055555555555556,
+      "weighted": 0.6833626116234812
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 6,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7611111402511597,
+    "test_accuracy": 0.7166666666666667,
+    "f1_scores": {
+      "macro": 0.34790051782619325,
+      "micro": 0.7166666666666667,
+      "weighted": 0.6838581891087553
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 7,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7611111402511597,
+    "test_accuracy": 0.7055555555555556,
+    "f1_scores": {
+      "macro": 0.3558488612836439,
+      "micro": 0.7055555555555556,
+      "weighted": 0.6823959052219922
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 8,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7444444894790649,
+    "test_accuracy": 0.7444444444444445,
+    "f1_scores": {
+      "macro": 0.4145246690734055,
+      "micro": 0.7444444444444445,
+      "weighted": 0.7228014440433214
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 9,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7333333492279053,
+    "test_accuracy": 0.75,
+    "f1_scores": {
+      "macro": 0.38318012632528764,
+      "micro": 0.75,
+      "weighted": 0.7126931849512494
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 10,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7277777791023254,
+    "test_accuracy": 0.7111111111111111,
+    "f1_scores": {
+      "macro": 0.3656258634982039,
+      "micro": 0.7111111111111111,
+      "weighted": 0.690213380000614
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 11,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7333333492279053,
+    "test_accuracy": 0.7166666666666667,
+    "f1_scores": {
+      "macro": 0.3934348739495799,
+      "micro": 0.7166666666666667,
+      "weighted": 0.7012056489262373
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 12,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7388889193534851,
+    "test_accuracy": 0.7388888888888889,
+    "f1_scores": {
+      "macro": 0.41079008882655443,
+      "micro": 0.7388888888888889,
+      "weighted": 0.7186799646771596
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 13,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7333333492279053,
+    "test_accuracy": 0.7388888888888889,
+    "f1_scores": {
+      "macro": 0.3896630565583634,
+      "micro": 0.7388888888888889,
+      "weighted": 0.7151672683513839
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 14,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7277777791023254,
+    "test_accuracy": 0.7611111111111111,
+    "f1_scores": {
+      "macro": 0.4455706748125521,
+      "micro": 0.7611111111111111,
+      "weighted": 0.7411228362491901
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 15,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7277777791023254,
+    "test_accuracy": 0.7555555555555555,
+    "f1_scores": {
+      "macro": 0.41418916149131974,
+      "micro": 0.7555555555555555,
+      "weighted": 0.7311463649593146
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 16,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7222222685813904,
+    "test_accuracy": 0.7166666666666667,
+    "f1_scores": {
+      "macro": 0.34760228034875923,
+      "micro": 0.7166666666666667,
+      "weighted": 0.6799511886131604
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 17,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7277777791023254,
+    "test_accuracy": 0.7444444444444445,
+    "f1_scores": {
+      "macro": 0.38770242538305316,
+      "micro": 0.7444444444444445,
+      "weighted": 0.7131359261267712
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 18,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7277777791023254,
+    "test_accuracy": 0.7166666666666667,
+    "f1_scores": {
+      "macro": 0.38129305776364597,
+      "micro": 0.7166666666666667,
+      "weighted": 0.7018908614496849
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 19,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7277777791023254,
+    "test_accuracy": 0.7277777777777777,
+    "f1_scores": {
+      "macro": 0.36156770570418983,
+      "micro": 0.7277777777777777,
+      "weighted": 0.6928911464468002
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 20,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7333333492279053,
+    "test_accuracy": 0.7055555555555556,
+    "f1_scores": {
+      "macro": 0.3739466327317909,
+      "micro": 0.7055555555555556,
+      "weighted": 0.6933022040969015
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 21,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7277777791023254,
+    "test_accuracy": 0.7222222222222222,
+    "f1_scores": {
+      "macro": 0.37412924659736363,
+      "micro": 0.7222222222222222,
+      "weighted": 0.6968468307553078
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 22,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7333333492279053,
+    "test_accuracy": 0.7111111111111111,
+    "f1_scores": {
+      "macro": 0.3664811379097093,
+      "micro": 0.7111111111111111,
+      "weighted": 0.6897835497835497
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 23,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7611111402511597,
+    "test_accuracy": 0.75,
+    "f1_scores": {
+      "macro": 0.3833570412517781,
+      "micro": 0.75,
+      "weighted": 0.7102291765449661
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 24,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7277777791023254,
+    "test_accuracy": 0.7444444444444445,
+    "f1_scores": {
+      "macro": 0.4005157199625994,
+      "micro": 0.7444444444444445,
+      "weighted": 0.7171383954080307
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 25,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.75,
+    "test_accuracy": 0.7388888888888889,
+    "f1_scores": {
+      "macro": 0.4114695340501792,
+      "micro": 0.7388888888888889,
+      "weighted": 0.7141298287534845
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 26,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7611111402511597,
+    "test_accuracy": 0.7388888888888889,
+    "f1_scores": {
+      "macro": 0.38867112489438516,
+      "micro": 0.7388888888888889,
+      "weighted": 0.7161353385223306
+    }
+  },
+  {
+    "model": "Qwen/Qwen3-1.7B",
+    "layer": 27,
+    "split_sizes": {
+      "train": 538,
+      "validation": 180,
+      "test": 180
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Cat",
+      "Fox",
+      "Rabbit",
+      "Squirrel"
+    ],
+    "representation_dim": 2048,
+    "validation_accuracy": 0.7611111402511597,
+    "test_accuracy": 0.7111111111111111,
+    "f1_scores": {
+      "macro": 0.37391905984277235,
+      "micro": 0.7111111111111111,
+      "weighted": 0.6946431181703121
+    }
+  }
+]

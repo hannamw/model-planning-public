@@ -1,0 +1,109 @@
+Profession,Article,Predicted_Article,Article_Correct,Predicted_Profession,Profession_Correct,Predicted_Profession_Wrong_Article,Profession_Wrong_Article_Correct,Prob_Article,Prob_Profession,Prob_Profession_Wrong_Article,IC_Profession,IC_Article,IC_Description
+veterinarian,a,a,True,vet,True,animal,False,0.89453125,0.451171875,0.76171875,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist
+teacher,a,a,True,teacher,True,educator,False,0.9921875,0.9453125,0.8984375,plumber,a,Someone who fixes pipes and water systems is a plumber
+chef,a,a,True,chef,True,example,False,0.99609375,0.58984375,0.5234375,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter
+firefighter,a,a,True,firefighter,True,emergency,False,0.9921875,0.82421875,0.478515625,auditor,an,Someone who examines financial records is an auditor
+pilot,a,a,True,pilot,True,av,False,0.91796875,0.91796875,0.81640625,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+dentist,a,a,True,dentist,True,orth,False,0.9921875,0.984375,0.765625,psychiatrist,a,Someone who treats mental health disorders is a psychiatrist
+electrician,an,an,True,electric,True,(n,False,0.96484375,0.99609375,0.97265625,neurologist,a,Someone who treats disorders of the nervous system is a neurologist
+librarian,a,a,True,librarian,True,information,False,0.98828125,0.96484375,0.5703125,engineer,an,Someone who designs and builds technical systems is an engineer
+photographer,a,a,True,photographer,True,photographer,True,0.98828125,0.953125,0.251953125,auditor,an,Someone who examines financial records is an auditor
+architect,an,an,True,architect,True,(n,False,0.984375,0.9453125,0.83984375,journalist,a,Someone who writes news articles is a journalist
+mechanic,a,a,True,mechanic,True,auto,False,0.9609375,0.9453125,0.8125,cashier,a,Someone who handles payments in stores is a cashier
+surgeon,a,a,True,surgeon,True,surgeon,True,0.9921875,0.9921875,0.38671875,auditor,an,Someone who examines financial records is an auditor
+pharmacist,a,a,True,pharmacist,True,pharmacist,True,0.99609375,0.9453125,0.275390625,painter,a,Someone who applies paint to surfaces is a painter
+journalist,a,a,True,journalist,True,author,False,0.9921875,0.75390625,0.9609375,surgeon,a,Someone who performs operations on patients is a surgeon
+plumber,a,a,True,plumber,True,plumber,True,0.953125,0.984375,0.58203125,conductor,a,Someone who leads orchestras or manages trains is a conductor
+accountant,an,an,True,accountant,True,book,False,0.8046875,0.99609375,0.59375,poet,a,Someone who writes poetry is a poet
+lawyer,a,a,True,lawyer,True,attorney,False,0.84765625,0.98046875,0.99609375,pilot,a,Someone who flies airplanes is a pilot
+engineer,an,an,True,engineer,True,(n,False,0.91015625,0.96484375,0.671875,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter
+baker,a,a,True,baker,True,baker,True,0.99609375,0.8828125,0.255859375,surgeon,a,Someone who performs operations on patients is a surgeon
+carpenter,a,a,True,carp,True,electric,False,1.0,0.95703125,0.2578125,cardiologist,a,Someone who treats heart diseases is a cardiologist
+professor,a,a,True,professor,True,academic,False,0.56640625,0.90625,0.9921875,pediatrician,a,Someone who provides medical care to children is a pediatrician
+physicist,a,a,True,physicist,True,astronom,False,0.9921875,0.6796875,0.35546875,watchmaker,a,Someone who repairs timepieces is a watchmaker
+biologist,a,a,True,biologist,True,biologist,True,0.98828125,1.0,0.50390625,detective,a,Someone who investigates crimes is a detective
+chemist,a,a,True,chem,True,organic,False,0.98828125,0.97265625,0.3125,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter
+historian,a,a,True,historian,True,historian,True,0.97265625,0.85546875,0.8671875,farmer,a,Someone who grows crops and raises livestock is a farmer
+psychologist,a,a,True,psychologist,True,industrial,False,0.98046875,0.84765625,0.34765625,supervisor,a,Someone who directs and monitors workers is a supervisor
+economist,an,a,False,analyst,False,financial,False,0.8203125,0.83203125,0.78515625,trainer,a,Someone who helps others develop skills or fitness is a trainer
+cardiologist,a,a,True,cardi,True,orth,False,0.984375,0.86328125,0.11865234375,secretary,a,Someone who provides administrative support is a secretary
+neurologist,a,a,True,neuro,True,?,False,0.98828125,0.95703125,0.169921875,painter,a,Someone who applies paint to surfaces is a painter
+pediatrician,a,a,True,pediatric,True,pediatric,True,0.99609375,0.984375,0.267578125,writer,a,Someone who creates written works is a writer
+dermatologist,a,a,True,dermat,True,dermat,True,1.0,0.9921875,0.26953125,neurologist,a,Someone who treats disorders of the nervous system is a neurologist
+psychiatrist,a,a,True,therapist,False,analyst,False,0.984375,0.81640625,0.2265625,translator,a,Someone who converts text from one language to another is a translator
+radiologist,a,a,True,radi,True,interpreter,False,0.94921875,0.609375,0.61328125,conductor,a,Someone who leads orchestras or manages trains is a conductor
+anesthesiologist,an,an,True,an,True,(n,False,0.98046875,0.98828125,0.45703125,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+oncologist,an,a,False,onc,True,doctor,False,0.8359375,0.98828125,0.470703125,programmer,a,Someone who writes computer code is a programmer
+ophthalmologist,an,an,True,o,True,doctor,False,0.96875,0.97265625,0.494140625,veterinarian,a,Someone who heals sick pets is a veterinarian
+orthopedist,an,an,True,orth,True,(n,False,0.9609375,0.9921875,0.283203125,realtor,a,Someone who helps buy and sell property is a realtor
+astronomer,an,an,True,astronom,True,(n,False,0.96484375,0.9765625,0.671875,programmer,a,Someone who writes computer code is a programmer
+geologist,a,a,True,ge,True,earth,False,0.984375,0.9765625,0.73828125,professor,a,Someone who teaches and conducts research at universities is a professor
+anthropologist,an,an,True,anthrop,True,social,False,0.90625,0.96484375,0.392578125,secretary,a,Someone who provides administrative support is a secretary
+sociologist,a,a,True,soci,True,anthrop,False,0.9609375,0.86328125,0.53515625,poet,a,Someone who writes poetry is a poet
+mathematician,a,a,True,mathematic,True,act,False,0.984375,0.9609375,0.3671875,botanist,a,Someone who studies plants is a botanist
+statistician,a,a,True,statistic,True,act,False,0.9609375,0.7890625,0.94140625,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+botanist,a,a,True,bot,True,what,False,0.95703125,0.90234375,0.166015625,carpenter,a,Someone who builds things with wood is a carpenter
+zoologist,a,a,True,zo,True,animal,False,1.0,0.9921875,0.8828125,cardiologist,a,Someone who treats heart diseases is a cardiologist
+meteorologist,a,a,True,meteor,True,meteor,True,0.9921875,0.98828125,0.322265625,realtor,a,Someone who helps buy and sell property is a realtor
+archaeologist,an,an,True,archae,True,(n,False,0.9921875,0.95703125,0.87109375,botanist,a,Someone who studies plants is a botanist
+linguist,a,a,True,lingu,True,et,False,0.98046875,0.90625,0.294921875,journalist,a,Someone who writes news articles is a journalist
+musician,a,a,True,musician,True,artist,False,0.98828125,0.859375,0.9140625,surgeon,a,Someone who performs operations on patients is a surgeon
+artist,an,an,True,artist,True,visual,False,0.953125,0.98828125,0.79296875,musician,a,Someone who plays instruments or composes music is a musician
+sculptor,a,a,True,sculpt,True,artist,False,0.98828125,0.96484375,0.91796875,pharmacist,a,Someone who dispenses medications is a pharmacist
+dancer,a,a,True,dancer,True,entert,False,0.984375,0.68359375,0.2001953125,meteorologist,a,Someone who studies weather patterns is a meteorologist
+actor,an,an,True,actor,True,(n,False,0.96875,0.97265625,0.57421875,zoologist,a,Someone who studies animals is a zoologist
+writer,a,an,False,writer,True,author,False,0.61328125,0.6953125,0.9921875,detective,a,Someone who investigates crimes is a detective
+poet,a,a,True,poet,True,author,False,0.984375,0.98046875,0.5078125,anesthesiologist,an,Someone who administers anesthesia during surgery is an anesthesiologist
+novelist,a,an,False,novelist,True,author,False,0.72265625,0.6015625,0.9921875,programmer,a,Someone who writes computer code is a programmer
+editor,an,an,True,editor,True,proof,False,0.8359375,0.96484375,0.458984375,dentist,a,Someone who treats teeth and gums is a dentist
+translator,a,a,True,translator,True,interpreter,False,0.9921875,0.9609375,0.3203125,analyst,an,Someone who examines data and information is an analyst
+bartender,a,a,True,bartender,True,example,False,0.984375,0.6484375,0.28515625,roofer,a,Someone who installs and repairs roofs is a roofer
+waiter,a,a,True,server,False,example,False,0.9765625,0.76171875,0.203125,accountant,an,Someone who manages financial records is an accountant
+barber,a,a,True,hair,False,est,False,0.99609375,0.71484375,0.26953125,musician,a,Someone who plays instruments or composes music is a musician
+tailor,a,a,True,tailor,True,alteration,False,0.9921875,0.80859375,0.10986328125,mechanic,a,Someone who fixes cars and engines is a mechanic
+florist,a,a,True,flor,True,flor,True,0.96875,0.9609375,0.67578125,gardener,a,Someone who tends to plants and landscapes is a gardener
+jeweler,a,a,True,jew,True,,True,0.96875,0.93359375,0.2392578125,astronomer,an,Someone who studies stars and planets is an astronomer
+watchmaker,a,a,True,watch,True,hor,False,0.9921875,0.97265625,0.318359375,inspector,an,Someone who examines things for quality or compliance is an inspector
+locksmith,a,a,True,locksmith,True,?,False,0.99609375,0.62890625,0.1455078125,counselor,a,Someone who provides guidance and support is a counselor
+welder,a,a,True,weld,True,weld,True,0.98046875,0.9609375,0.2890625,dispatcher,a,Someone who coordinates emergency services is a dispatcher
+mason,a,a,True,m,True,architect,False,0.96484375,0.640625,0.64453125,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+roofer,a,a,True,ro,True,electric,False,0.98828125,0.92578125,0.236328125,sailor,a,Someone who works on ships is a sailor
+painter,a,a,True,painter,True,artist,False,0.96875,0.984375,0.9921875,historian,a,Someone who studies and writes about past events is a historian
+gardener,a,a,True,gard,True,ar,False,0.98828125,0.88671875,0.17578125,manager,a,Someone who oversees operations and staff is a manager
+farmer,a,a,True,farmer,True,agricultural,False,0.9921875,0.88671875,0.3359375,photographer,a,Someone who takes professional pictures is a photographer
+fisherman,a,a,True,fish,True,ang,False,0.99609375,0.98046875,0.76953125,dentist,a,Someone who treats teeth and gums is a dentist
+sailor,a,a,True,sailor,True,engineer,False,0.9375,0.322265625,0.322265625,coach,a,Someone who teaches and guides athletes is a coach
+trucker,a,a,True,truck,True,over,False,0.9921875,0.97265625,0.1748046875,pediatrician,a,Someone who provides medical care to children is a pediatrician
+conductor,a,a,True,conductor,True,conductor,True,0.8046875,0.98046875,0.291015625,auctioneer,an,Someone who conducts auctions is an auctioneer
+judge,a,a,True,judge,True,arb,False,0.98046875,0.7421875,0.29296875,astronomer,an,Someone who studies stars and planets is an astronomer
+detective,a,a,True,detective,True,investigator,False,0.98046875,0.96484375,0.9609375,mechanic,a,Someone who fixes cars and engines is a mechanic
+paramedic,a,an,False,param,True,e,False,0.91796875,0.63671875,0.5234375,pediatrician,a,Someone who provides medical care to children is a pediatrician
+dispatcher,a,a,True,dispatcher,True,emergency,False,0.59765625,0.212890625,0.83984375,pharmacist,a,Someone who dispenses medications is a pharmacist
+counselor,a,a,True,mentor,False,advisor,False,0.98046875,0.875,0.78125,musician,a,Someone who plays instruments or composes music is a musician
+therapist,a,a,True,therapist,True,o,False,0.96875,0.80859375,0.1943359375,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist
+nutritionist,a,a,True,diet,False,advisor,False,0.9921875,0.53125,0.5546875,bartender,a,Someone who mixes and serves drinks is a bartender
+trainer,a,a,True,trainer,True,instructor,False,0.8828125,0.79296875,0.9921875,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist
+coach,a,a,True,coach,True,instructor,False,0.9765625,0.94921875,0.72265625,inspector,an,Someone who examines things for quality or compliance is an inspector
+referee,a,a,True,referee,True,official,False,0.8984375,0.99609375,0.515625,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist
+cashier,a,a,True,cashier,True,accountant,False,0.9765625,0.8515625,0.73828125,professor,a,Someone who teaches and conducts research at universities is a professor
+clerk,a,an,False,clerk,True,administrator,False,0.94140625,0.77734375,0.9609375,linguist,a,Someone who studies languages and their structure is a linguist
+receptionist,a,a,True,reception,True,office,False,0.98828125,0.97265625,0.50390625,meteorologist,a,Someone who studies weather patterns is a meteorologist
+secretary,a,an,False,clerk,False,administrative,False,0.81640625,0.236328125,0.365234375,economist,an,Someone who studies financial systems and markets is an economist
+manager,a,a,True,manager,True,overse,False,0.9296875,0.7578125,0.67578125,referee,a,Someone who enforces rules in sports is a referee
+supervisor,a,a,True,fore,False,overse,False,0.96875,0.37109375,0.71484375,oncologist,an,Someone who treats cancer patients is an oncologist
+consultant,a,a,True,consultant,True,advisor,False,0.84375,0.8046875,0.62890625,secretary,a,Someone who provides administrative support is a secretary
+analyst,an,an,True,analyst,True,researcher,False,0.75,0.875,0.373046875,clerk,a,Someone who performs administrative tasks is a clerk
+auditor,an,an,True,auditor,True,(n,False,0.9609375,0.59375,0.53125,nutritionist,a,Someone who advises on diet and nutrition is a nutritionist
+banker,a,a,True,banker,True,economist,False,0.73828125,0.5546875,0.4296875,architect,an,Someone who designs buildings and structures is an architect
+broker,a,a,True,banker,False,accountant,False,0.97265625,0.88671875,0.88671875,detective,a,Someone who investigates crimes is a detective
+realtor,a,a,True,real,True,agent,False,0.9296875,0.89453125,0.94921875,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist
+auctioneer,an,an,True,auction,True,auction,True,0.98046875,1.0,0.875,physicist,a,Someone who studies matter and energy is a physicist
+salesperson,a,a,True,sales,True,entrepreneur,False,0.96484375,0.77734375,0.171875,roofer,a,Someone who installs and repairs roofs is a roofer
+retailer,a,a,True,retailer,True,analyst,False,0.984375,0.5078125,0.5078125,analyst,an,Someone who examines data and information is an analyst
+wholesaler,a,a,True,wholes,True,auction,False,0.98046875,0.9453125,0.392578125,psychiatrist,a,Someone who treats mental health disorders is a psychiatrist
+inventor,an,an,True,inventor,True,(n,False,0.9375,0.97265625,0.6171875,professor,a,Someone who teaches and conducts research at universities is a professor
+programmer,a,a,True,programmer,True,engineer,False,0.9921875,0.87109375,0.6640625,waiter,a,Someone who serves food in restaurants is a waiter
+technician,a,a,True,technician,True,engineer,False,0.9609375,0.8828125,0.90234375,musician,a,Someone who plays instruments or composes music is a musician
+operator,an,an,True,operator,True,machine,False,0.921875,0.984375,0.796875,oncologist,an,Someone who treats cancer patients is an oncologist
+inspector,an,an,True,auditor,False,tester,False,0.88671875,0.478515625,0.57421875,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist
+examiner,an,a,False,ass,False,tester,False,0.6953125,0.98828125,0.625,receptionist,a,Someone who greets visitors and answers phones is a receptionist

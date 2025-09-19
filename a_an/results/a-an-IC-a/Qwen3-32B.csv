@@ -1,0 +1,109 @@
+Profession,Article,Predicted_Article,Article_Correct,Predicted_Profession,Profession_Correct,Predicted_Profession_Wrong_Article,Profession_Wrong_Article_Correct,Prob_Article,Prob_Profession,Prob_Profession_Wrong_Article,IC_Profession,IC_Article,IC_Description
+veterinarian,a,a,True,veterinarian,True,animal,False,0.98828125,0.71484375,0.55078125,retailer,a,Someone who sells goods directly to consumers is a retailer
+teacher,a,a,True,teacher,True,educator,False,0.9765625,0.859375,0.91796875,carpenter,a,Someone who builds things with wood is a carpenter
+chef,a,a,True,chef,True,?,False,1.0,0.921875,0.1298828125,pilot,a,Someone who flies airplanes is a pilot
+firefighter,a,a,True,firefighter,True,emergency,False,0.99609375,0.81640625,0.39453125,musician,a,Someone who plays instruments or composes music is a musician
+pilot,a,a,True,pilot,True,av,False,0.9921875,0.98046875,0.93359375,botanist,a,Someone who studies plants is a botanist
+dentist,a,a,True,dentist,True,orth,False,0.9921875,0.9765625,0.91015625,sociologist,a,Someone who studies social behavior and institutions is a sociologist
+electrician,an,an,True,electric,True,(n,False,0.9296875,0.9921875,0.91015625,physicist,a,Someone who studies matter and energy is a physicist
+librarian,a,a,True,librarian,True,information,False,0.98828125,0.9453125,0.224609375,baker,a,Someone who makes bread and pastries is a baker
+photographer,a,a,True,photographer,True,photographer,True,0.98828125,0.97265625,0.1630859375,referee,a,Someone who enforces rules in sports is a referee
+architect,an,an,True,architect,True,(n,False,0.984375,0.9453125,0.83984375,journalist,a,Someone who writes news articles is a journalist
+mechanic,a,a,True,mechanic,True,auto,False,0.89453125,0.91015625,0.7734375,supervisor,a,Someone who directs and monitors workers is a supervisor
+surgeon,a,a,True,surgeon,True,?,False,0.98828125,0.92578125,0.189453125,gardener,a,Someone who tends to plants and landscapes is a gardener
+pharmacist,a,a,True,pharmacist,True,pharmacist,True,1.0,0.93359375,0.18359375,pilot,a,Someone who flies airplanes is a pilot
+journalist,a,a,True,journalist,True,author,False,0.9921875,0.578125,0.72265625,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter
+plumber,a,a,True,plumber,True,plumber,True,0.9921875,0.9765625,0.92578125,journalist,a,Someone who writes news articles is a journalist
+accountant,an,an,True,accountant,True,book,False,0.84765625,0.99609375,0.2734375,radiologist,a,Someone who interprets medical images is a radiologist
+lawyer,a,a,True,lawyer,True,attorney,False,0.8125,0.9765625,0.98828125,mathematician,a,Someone who works with numbers and mathematical theories is a mathematician
+engineer,an,an,True,engineer,True,(n,False,0.8359375,0.96484375,0.326171875,dispatcher,a,Someone who coordinates emergency services is a dispatcher
+baker,a,a,True,baker,True,?,False,0.98046875,0.443359375,0.1552734375,banker,a,Someone who works in financial institutions is a banker
+carpenter,a,a,True,carp,True,example,False,0.9921875,0.94140625,0.427734375,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter
+professor,a,a,True,professor,True,academic,False,0.85546875,0.76953125,0.9765625,clerk,a,Someone who performs administrative tasks is a clerk
+physicist,a,a,True,physicist,True,astronom,False,0.9921875,0.85546875,0.345703125,psychiatrist,a,Someone who treats mental health disorders is a psychiatrist
+biologist,a,a,True,biologist,True,biologist,True,0.98046875,0.984375,0.39453125,programmer,a,Someone who writes computer code is a programmer
+chemist,a,a,True,chem,True,organic,False,0.9921875,0.96484375,0.5,referee,a,Someone who enforces rules in sports is a referee
+historian,a,a,True,historian,True,historian,True,0.96875,0.74609375,0.8359375,painter,a,Someone who applies paint to surfaces is a painter
+psychologist,a,a,True,psychologist,True,educational,False,0.98828125,0.9453125,0.1396484375,sociologist,a,Someone who studies social behavior and institutions is a sociologist
+economist,an,a,False,economist,True,financial,False,0.75390625,0.99609375,0.7890625,fisherman,a,Someone who catches fish for a living is a fisherman
+cardiologist,a,a,True,cardi,True,example,False,0.98828125,0.87109375,0.1171875,supervisor,a,Someone who directs and monitors workers is a supervisor
+neurologist,a,a,True,neuro,True,?,False,0.9921875,0.97265625,0.111328125,musician,a,Someone who plays instruments or composes music is a musician
+pediatrician,a,a,True,pediatric,True,infant,False,1.0,0.9921875,0.166015625,veterinarian,a,Someone who heals sick pets is a veterinarian
+dermatologist,a,a,True,dermat,True,dermat,True,0.9921875,0.98046875,0.44921875,historian,a,Someone who studies and writes about past events is a historian
+psychiatrist,a,a,True,therapist,False,analyst,False,0.984375,0.74609375,0.33984375,gardener,a,Someone who tends to plants and landscapes is a gardener
+radiologist,a,a,True,radi,True,x,False,0.9921875,0.90234375,0.41796875,waiter,a,Someone who serves food in restaurants is a waiter
+anesthesiologist,an,an,True,an,True,(n,False,0.96875,0.9921875,0.55078125,linguist,a,Someone who studies languages and their structure is a linguist
+oncologist,an,an,True,onc,True,onc,True,0.8984375,1.0,0.4140625,chemist,a,Someone who studies chemical reactions and compounds is a chemist
+ophthalmologist,an,an,True,o,True,o,True,0.984375,0.93359375,0.41796875,radiologist,a,Someone who interprets medical images is a radiologist
+orthopedist,an,an,True,orth,True,(n,False,0.90625,0.96484375,0.1748046875,bartender,a,Someone who mixes and serves drinks is a bartender
+astronomer,an,an,True,astronom,True,(n,False,0.98046875,0.9765625,0.765625,lawyer,a,Someone who represents clients in legal matters is a lawyer
+geologist,a,a,True,ge,True,earth,False,0.98828125,0.97265625,0.828125,journalist,a,Someone who writes news articles is a journalist
+anthropologist,an,an,True,anthrop,True,soci,False,0.90625,0.98046875,0.40625,jeweler,a,Someone who makes or repairs jewelry is a jeweler
+sociologist,a,a,True,soci,True,anthrop,False,0.98046875,0.64453125,0.77734375,plumber,a,Someone who fixes pipes and water systems is a plumber
+mathematician,a,a,True,mathematic,True,accountant,False,0.98828125,0.91796875,0.734375,tailor,a,Someone who makes or alters clothing is a tailor
+statistician,a,a,True,what,False,act,False,0.7265625,0.2451171875,0.9140625,barber,a,Someone who cuts and styles hair is a barber
+botanist,a,a,True,bot,True,what,False,0.97265625,0.8359375,0.158203125,banker,a,Someone who works in financial institutions is a banker
+zoologist,a,a,True,zo,True,eth,False,0.9921875,0.8515625,0.458984375,meteorologist,a,Someone who studies weather patterns is a meteorologist
+meteorologist,a,a,True,meteor,True,ocean,False,0.984375,0.921875,0.341796875,dentist,a,Someone who treats teeth and gums is a dentist
+archaeologist,an,an,True,archae,True,(n,False,0.95703125,0.921875,0.609375,sailor,a,Someone who works on ships is a sailor
+linguist,a,a,True,lingu,True,academic,False,0.98046875,0.79296875,0.5625,coach,a,Someone who teaches and guides athletes is a coach
+musician,a,a,True,musician,True,artist,False,0.98828125,0.79296875,0.94921875,carpenter,a,Someone who builds things with wood is a carpenter
+artist,an,a,False,artist,True,visual,False,0.7578125,1.0,0.8828125,jeweler,a,Someone who makes or repairs jewelry is a jeweler
+sculptor,a,a,True,sculpt,True,artist,False,0.98828125,0.96484375,0.91796875,pharmacist,a,Someone who dispenses medications is a pharmacist
+dancer,a,a,True,dancer,True,what,False,0.9765625,0.6953125,0.302734375,cashier,a,Someone who handles payments in stores is a cashier
+actor,an,an,True,actor,True,(n,False,0.9609375,0.9921875,0.703125,sculptor,a,Someone who creates three-dimensional art is a sculptor
+writer,a,an,False,writer,True,author,False,0.55078125,0.92578125,0.98828125,salesperson,a,Someone who sells products or services is a salesperson
+poet,a,a,True,poet,True,author,False,0.98828125,0.96875,0.94140625,realtor,a,Someone who helps buy and sell property is a realtor
+novelist,a,an,False,novelist,True,author,False,0.58203125,0.84765625,0.98046875,florist,a,Someone who arranges and sells flowers is a florist
+editor,an,an,True,editor,True,proof,False,0.8984375,0.95703125,0.61328125,receptionist,a,Someone who greets visitors and answers phones is a receptionist
+translator,a,a,True,translator,True,interpreter,False,0.99609375,0.9140625,0.8515625,pediatrician,a,Someone who provides medical care to children is a pediatrician
+bartender,a,a,True,bartender,True,?,False,0.98828125,0.578125,0.1572265625,mechanic,a,Someone who fixes cars and engines is a mechanic
+waiter,a,a,True,server,False,employee,False,0.98828125,0.51953125,0.275390625,dentist,a,Someone who treats teeth and gums is a dentist
+barber,a,a,True,hair,False,est,False,0.99609375,0.6953125,0.28125,technician,a,Someone who maintains and repairs technical equipment is a technician
+tailor,a,a,True,tailor,True,alteration,False,0.97265625,0.84765625,0.53515625,sociologist,a,Someone who studies social behavior and institutions is a sociologist
+florist,a,a,True,flor,True,flor,True,0.9921875,0.98828125,0.765625,sculptor,a,Someone who creates three-dimensional art is a sculptor
+jeweler,a,a,True,jew,True,jew,True,0.984375,0.9375,0.185546875,pharmacist,a,Someone who dispenses medications is a pharmacist
+watchmaker,a,a,True,watch,True,?,False,0.9921875,0.77734375,0.25,sociologist,a,Someone who studies social behavior and institutions is a sociologist
+locksmith,a,a,True,?,False,?,False,0.9765625,0.2001953125,0.2412109375,plumber,a,Someone who fixes pipes and water systems is a plumber
+welder,a,a,True,weld,True,?,False,0.9453125,0.75,0.251953125,jeweler,a,Someone who makes or repairs jewelry is a jeweler
+mason,a,a,True,st,False,architect,False,0.953125,0.59375,0.7109375,linguist,a,Someone who studies languages and their structure is a linguist
+roofer,a,a,True,ro,True,?,False,0.98046875,0.94140625,0.1298828125,trucker,a,Someone who drives large trucks for cargo transport is a trucker
+painter,a,a,True,painter,True,artist,False,0.984375,0.93359375,0.62890625,retailer,a,Someone who sells goods directly to consumers is a retailer
+gardener,a,a,True,gard,True,agricultural,False,0.9921875,0.9609375,0.17578125,tailor,a,Someone who makes or alters clothing is a tailor
+farmer,a,a,True,farmer,True,agricult,False,0.9921875,0.9453125,0.55859375,historian,a,Someone who studies and writes about past events is a historian
+fisherman,a,a,True,fish,True,ang,False,0.984375,0.9765625,0.86328125,florist,a,Someone who arranges and sells flowers is a florist
+sailor,a,a,True,ship,False,able,False,0.98828125,0.462890625,0.1982421875,barber,a,Someone who cuts and styles hair is a barber
+trucker,a,a,True,truck,True,,True,0.9921875,0.9765625,0.265625,psychiatrist,a,Someone who treats mental health disorders is a psychiatrist
+conductor,a,a,True,conductor,True,conductor,True,0.89453125,1.0,0.2490234375,meteorologist,a,Someone who studies weather patterns is a meteorologist
+judge,a,a,True,pres,False,arb,False,0.984375,0.515625,0.353515625,wholesaler,a,Someone who sells goods in large quantities is a wholesaler
+detective,a,a,True,detective,True,investigator,False,0.97265625,0.98828125,0.984375,surgeon,a,Someone who performs operations on patients is a surgeon
+paramedic,a,a,True,param,True,e,False,0.640625,0.64453125,0.66015625,banker,a,Someone who works in financial institutions is a banker
+dispatcher,a,a,True,first,False,emergency,False,0.60546875,0.1923828125,0.92578125,retailer,a,Someone who sells goods directly to consumers is a retailer
+counselor,a,a,True,counselor,True,advisor,False,0.98046875,0.87109375,0.90625,psychologist,a,Someone who studies human behavior and mental processes is a psychologist
+therapist,a,a,True,therapist,True,athletic,False,0.96875,0.94921875,0.234375,coach,a,Someone who teaches and guides athletes is a coach
+nutritionist,a,a,True,diet,False,nutrition,True,0.9921875,0.455078125,0.2158203125,statistician,a,Someone who analyzes data and calculates probabilities is a statistician
+trainer,a,a,True,coach,False,instructor,False,0.984375,0.4453125,0.98828125,historian,a,Someone who studies and writes about past events is a historian
+coach,a,a,True,coach,True,athletic,False,0.9609375,0.8828125,0.6640625,trucker,a,Someone who drives large trucks for cargo transport is a trucker
+referee,a,a,True,referee,True,official,False,0.859375,0.9453125,0.62890625,jeweler,a,Someone who makes or repairs jewelry is a jeweler
+cashier,a,a,True,cashier,True,accountant,False,0.96484375,0.9296875,0.84375,meteorologist,a,Someone who studies weather patterns is a meteorologist
+clerk,a,an,False,clerk,True,administrator,False,0.84375,0.61328125,0.61328125,retailer,a,Someone who sells goods directly to consumers is a retailer
+receptionist,a,a,True,reception,True,office,False,0.9921875,0.78125,0.400390625,cashier,a,Someone who handles payments in stores is a cashier
+secretary,a,an,False,secretary,True,office,False,0.85546875,0.205078125,0.265625,geologist,a,Someone who studies rocks and earth formations is a geologist
+manager,a,a,True,manager,True,operations,False,0.8828125,0.7109375,0.462890625,novelist,a,Someone who writes novels is a novelist
+supervisor,a,a,True,what,False,overse,False,0.953125,0.1826171875,0.462890625,photographer,a,Someone who takes professional pictures is a photographer
+consultant,a,a,True,consultant,True,advisor,False,0.91015625,0.96875,0.80859375,sociologist,a,Someone who studies social behavior and institutions is a sociologist
+analyst,an,an,True,analyst,True,researcher,False,0.72265625,0.984375,0.53125,pilot,a,Someone who flies airplanes is a pilot
+auditor,an,an,True,accountant,False,financial,False,0.97265625,0.79296875,0.416015625,poet,a,Someone who writes poetry is a poet
+banker,a,a,True,banker,True,accountant,False,0.93359375,0.86328125,0.4140625,welder,a,Someone who joins metal pieces using heat is a welder
+broker,a,a,True,banker,False,accountant,False,0.94921875,0.83984375,0.462890625,meteorologist,a,Someone who studies weather patterns is a meteorologist
+realtor,a,a,True,real,True,agent,False,0.9453125,0.83984375,0.80859375,mechanic,a,Someone who fixes cars and engines is a mechanic
+auctioneer,an,an,True,auction,True,auction,True,0.98828125,1.0,0.69140625,radiologist,a,Someone who interprets medical images is a radiologist
+salesperson,a,a,True,sales,True,office,False,0.984375,0.921875,0.404296875,clerk,a,Someone who performs administrative tasks is a clerk
+retailer,a,a,True,retailer,True,entrepreneur,False,0.95703125,0.6484375,0.7890625,poet,a,Someone who writes poetry is a poet
+wholesaler,a,a,True,wholes,True,industrial,False,0.9921875,0.9609375,0.478515625,radiologist,a,Someone who interprets medical images is a radiologist
+inventor,an,an,True,inventor,True,(n,False,0.796875,0.91015625,0.291015625,wholesaler,a,Someone who sells goods in large quantities is a wholesaler
+programmer,a,a,True,programmer,True,engineer,False,0.9921875,0.78125,0.439453125,paramedic,a,Someone who provides emergency medical care is a paramedic
+technician,a,a,True,what,False,?,False,0.8984375,0.2890625,0.287109375,locksmith,a,Someone who makes and repairs locks is a locksmith
+operator,an,an,True,operator,True,machine,False,0.87890625,0.9921875,0.4453125,retailer,a,Someone who sells goods directly to consumers is a retailer
+inspector,an,an,True,inspector,True,(n,False,0.8203125,0.8046875,0.91796875,sailor,a,Someone who works on ships is a sailor
+examiner,an,a,False,ass,False,tester,False,0.74609375,0.9765625,0.462890625,biologist,a,Someone who studies living organisms is a biologist
