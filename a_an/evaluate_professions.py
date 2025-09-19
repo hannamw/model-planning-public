@@ -162,6 +162,7 @@ def evaluate_professions(
         )
 
     out_df = pd.DataFrame(records)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     out_df.to_csv(output_path, index=False)
 
     # Compute metrics
