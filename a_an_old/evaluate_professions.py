@@ -1,3 +1,4 @@
+import argparse
 import random
 from pathlib import Path
 from typing import List, Tuple, Dict, Any
@@ -6,9 +7,44 @@ import pandas as pd  # type: ignore
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM  # type: ignore
 
-# Configuration
-SEED = 42
-IC_ARTICLE_FILTER = None  # 'a', 'an', or None for no filtering
+
+def parse_args() -> argparse.Namespace:
+    """Parse CLI arguments and return a namespace."""
+    parser = argparse.ArgumentParser(
+        description="Evaluate a causal language model on the professions dataset with article + profession predictions."
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        required=True,
+        help="HF Transformers model name or local path (causal LM)",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        required=True,
+        help="Where to write the per-example predictions CSV.",
+    )
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=42,
+        help="Random seed for selecting in-context examples.",
+    )
+    parser.add_argument(
+        "--device",
+        type=str,
+        default="cuda" if torch.cuda.is_available() else "cpu",
+        help="Computation device (cpu or cuda).",
+    )
+    parser.add_argument(
+        "--ic-article-filter",
+        type=str,
+        choices=["a", "an"],
+        default=None,
+        help="Filter in-context examples by article type ('a' or 'an'). If not specified, uses all examples.",
+    )
+    return parser.parse_args()
 
 
 def pick_in_context_index(cur_idx: int, num_rows: int, rng: random.Random) -> int:
@@ -51,8 +87,8 @@ def pick_filtered_in_context_index(
     return rng.choice(valid_indices)
 
 
-def predict_next_token(prompt: str, tokenizer, model) -> Tuple[str, float]:
-    inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
+def predict_next_token(prompt: str, tokenizer, model, device: str) -> Tuple[str, float]:
+    inputs = tokenizer(prompt, return_tensors="pt").to(device)
     with torch.no_grad():
         outputs = model(**inputs)
     logits = outputs.logits[0, -1]
@@ -68,6 +104,9 @@ def evaluate_professions(
     model_name: str,
     output_path: Path | str,
     dtype: torch.dtype = torch.float32,
+    seed: int = 42,
+    device: str | None = None,
+    ic_article_filter: str | None = None,
 ) -> pd.DataFrame:
     """Run evaluation and return a DataFrame with predictions.
 
@@ -75,17 +114,22 @@ def evaluate_professions(
         model_name: HuggingFace model identifier or local path.
         output_path: Where to save the per-example CSV.
         dtype: PyTorch dtype for model weights.
+        seed: RNG seed for selecting in-context examples.
+        device: 'cpu' or 'cuda'. If None, infer automatically.
+        ic_article_filter: Filter in-context examples by article ('a', 'an', or None for no filtering).
     Returns:
         pandas DataFrame of per-example predictions.
     """
 
+    device = device or ("cuda" if torch.cuda.is_available() else "cpu")
+
     df = pd.read_csv(DATASET_PATH)
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name,).to(device="cuda", dtype=dtype)
+    model = AutoModelForCausalLM.from_pretrained(model_name,).to(device=device, dtype=dtype)
     model.eval()
 
-    rng = random.Random(SEED)
+    rng = random.Random(seed)
 
     records: List[Dict[str, Any]] = []
     for idx, row in df.iterrows():
@@ -105,7 +149,7 @@ def evaluate_professions(
         context_with_article = f"{context_before_article} {article}"
 
         # choose in-context example
-        ic_idx = pick_filtered_in_context_index(idx, df, rng, IC_ARTICLE_FILTER)
+        ic_idx = pick_filtered_in_context_index(idx, df, rng, ic_article_filter)
         ic_row = df.iloc[ic_idx]
         ic_description = ic_row["Description"].strip()
 
@@ -115,7 +159,7 @@ def evaluate_professions(
 
         # predict article
         pred_article_tok, prob_article = predict_next_token(
-            prompt_before_article, tokenizer, model
+            prompt_before_article, tokenizer, model, device
         )
         pred_article = pred_article_tok.strip().lower()
         # if tokenizer includes following space, take until next whitespace for multi-token predictions
@@ -124,23 +168,11 @@ def evaluate_professions(
 
         # now predict profession given gold article
         pred_prof_tok, prob_prof = predict_next_token(
-            prompt_with_article, tokenizer, model
+            prompt_with_article, tokenizer, model, device
         )
         pred_profession = pred_prof_tok.strip().lower()
         if " " in pred_profession:
             pred_profession = pred_profession.split(" ")[0]
-
-        # predict profession given wrong article
-        wrong_article = "an" if article.lower() == "a" else "a"
-        context_with_wrong_article = f"{context_before_article} {wrong_article}"
-        prompt_with_wrong_article = f"{ic_description}. {context_with_wrong_article}".strip()
-        
-        pred_prof_wrong_tok, prob_prof_wrong = predict_next_token(
-            prompt_with_wrong_article, tokenizer, model
-        )
-        pred_profession_wrong = pred_prof_wrong_tok.strip().lower()
-        if " " in pred_profession_wrong:
-            pred_profession_wrong = pred_profession_wrong.split(" ")[0]
 
         records.append(
             {
@@ -150,11 +182,8 @@ def evaluate_professions(
                 "Article_Correct": pred_article == article.lower(),
                 "Predicted_Profession": pred_profession,
                 "Profession_Correct": profession.lower().startswith(pred_profession),
-                "Predicted_Profession_Wrong_Article": pred_profession_wrong,
-                "Profession_Wrong_Article_Correct": profession.lower().startswith(pred_profession_wrong),
                 "Prob_Article": prob_article,
                 "Prob_Profession": prob_prof,
-                "Prob_Profession_Wrong_Article": prob_prof_wrong,
                 "IC_Profession": ic_row["Profession"].strip(),
                 "IC_Article": ic_row["Article"].strip(),
                 "IC_Description": ic_description,
@@ -167,7 +196,6 @@ def evaluate_professions(
     # Compute metrics
     article_acc = out_df["Article_Correct"].mean()
     profession_acc = out_df["Profession_Correct"].mean()
-    profession_wrong_acc = out_df["Profession_Wrong_Article_Correct"].mean()
 
     per_article = (
         out_df.groupby("Article")["Article_Correct"].mean().to_dict()
@@ -177,25 +205,17 @@ def evaluate_professions(
     print(f"Article accuracy: {article_acc:.3%}")
     for art, acc in per_article.items():
         print(f"  {art}: {acc:.3%}")
-    print(f"Profession accuracy (correct article): {profession_acc:.3%}")
-    print(f"Profession accuracy (wrong article): {profession_wrong_acc:.3%}")
+    print(f"Profession accuracy: {profession_acc:.3%}")
 
     return out_df
 
 
 if __name__ == "__main__":
-    model_names = [f'Qwen/Qwen3-{size}B' for size in ['0.6', '1.7', '4', '8', '14', '32']]
-    
-    for model_name in model_names:
-        safe_model_name = model_name.split('/')[-1]
-        output_path = Path(f"results/behavioral/{safe_model_name}.csv")
-        
-        print(f"\n{'='*60}")
-        print(f"Evaluating model: {model_name}")
-        print(f"Output path: {output_path}")
-        print(f"{'='*60}")
-        
-        evaluate_professions(
-            model_name=model_name,
-            output_path=output_path,
-        ) 
+    cli_args = parse_args()
+    evaluate_professions(
+        model_name=cli_args.model,
+        output_path=cli_args.output,
+        seed=cli_args.seed,
+        device=cli_args.device,
+        ic_article_filter=cli_args.ic_article_filter,
+    ) 

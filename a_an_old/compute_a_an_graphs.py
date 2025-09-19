@@ -22,8 +22,8 @@ def print_topk(model, logits:torch.Tensor, k=5):
         print(model.tokenizer.decode([topk.indices[i]]), ':', topk.values[i].item())
 
 model_names_and_configs = [
-    ('Qwen/Qwen3-0.6B', '../circuit-tracer-dev/circuit_tracer/configs/qwen3-0.6b-relu-lowl0.yaml'),
-    ('Qwen/Qwen3-1.7B', '../circuit-tracer-dev/circuit_tracer/configs/qwen3-1.7b-relu-lowl0.yaml'),
+    #('Qwen/Qwen3-0.6B', '../circuit-tracer-dev/circuit_tracer/configs/qwen3-0.6b-relu-lowl0.yaml'),
+    #('Qwen/Qwen3-1.7B', '../circuit-tracer-dev/circuit_tracer/configs/qwen3-1.7b-relu-lowl0.yaml'),
     ('Qwen/Qwen3-4B', '../circuit-tracer-dev/circuit_tracer/configs/qwen3-4b-relu.yaml'),
     ('Qwen/Qwen3-8B', '../circuit-tracer-dev/circuit_tracer/configs/qwen3-8b-relu.yaml'),
     ('Qwen/Qwen3-14B', '../circuit-tracer-dev/circuit_tracer/configs/qwen3-14b-relu-lowl0.yaml'),
@@ -77,6 +77,9 @@ for model_name, model_config in model_names_and_configs:
         json_output_path.mkdir(exist_ok=True, parents=True)
         json_output_path = json_output_path / f'{name}.pt'
         create_graph_files(graph, slug, json_output_path, node_threshold=0.8, edge_threshold=0.95)
+
+        #upload_graph_to_s3(output_path, slug, node_threshold=0.8, edge_threshold=0.95)
+        #print(f"Graph now available at http://afp-circuit-tracing.s3-website-us-west-2.amazonaws.com/?slug={slug}")
 
     del model
     torch.cuda.empty_cache()
