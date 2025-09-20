@@ -1,4 +1,3 @@
-import argparse
 from pathlib import Path
 from typing import List, Dict, Any
 
@@ -24,34 +23,6 @@ WORD2NUM = {
     "ten": 10,
 }
 
-def parse_args() -> argparse.Namespace:
-    """Parse CLI arguments."""
-    parser = argparse.ArgumentParser(
-        description=(
-            "Evaluate a causal LM on the math-animals dataset by first predicting the verb "
-            "('is' / 'are') and then predicting the following number twice: once using the "
-            "correct verb and once using the wrong verb as context."
-        )
-    )
-    parser.add_argument(
-        "--model",
-        type=str,
-        required=True,
-        help="HF Transformers model name or local path (causal LM)",
-    )
-    parser.add_argument(
-        "--output",
-        type=Path,
-        required=True,
-        help="Where to write the per-example predictions CSV",
-    )
-    parser.add_argument(
-        "--device",
-        type=str,
-        default="cuda" if torch.cuda.is_available() else "cpu",
-        help="Computation device (cpu or cuda)",
-    )
-    return parser.parse_args()
 
 
 def predict_next_token(prompt: str, tokenizer, model, device: str):
@@ -194,6 +165,7 @@ def evaluate_math_animals(
         )
 
     out_df = pd.DataFrame(records)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     out_df.to_csv(output_path, index=False)
 
     # Aggregate metrics
@@ -228,10 +200,18 @@ def evaluate_math_animals(
 
 
 if __name__ == "__main__":
-    args = parse_args()
-    evaluate_math_animals(
-        model_name=args.model,
-        output_path=args.output,
-        dtype=torch.float32,
-        device=args.device,
-    ) 
+    model_names = [f'Qwen/Qwen3-{size}B' for size in ['0.6', '1.7', '4', '8', '14', '32']]
+    
+    for model_name in model_names:
+        safe_model_name = model_name.split('/')[-1]
+        output_path = Path(f"results/behavioral/{safe_model_name}.csv")
+        
+        print(f"\n{'='*60}")
+        print(f"Evaluating model: {model_name}")
+        print(f"Output path: {output_path}")
+        print(f"{'='*60}")
+        
+        evaluate_math_animals(
+            model_name=model_name,
+            output_path=output_path,
+        ) 
