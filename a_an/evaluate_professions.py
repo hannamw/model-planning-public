@@ -1,4 +1,5 @@
 import random
+from functools import partial
 from pathlib import Path
 from typing import List, Tuple, Dict, Any
 
@@ -18,7 +19,7 @@ def pick_in_context_index(cur_idx: int, num_rows: int, rng: random.Random) -> in
         idx = rng.randint(0, num_rows - 1)
     return idx
 
-def chattify(inputs: List[str], tokenizer):
+def _chattify(inputs: List[str], tokenizer):
     all_inputs = []
     for i, prompt in enumerate(inputs):
         all_inputs.append({'role': ('assistant' if i % 2 else 'user'), 'content': prompt})
@@ -91,6 +92,7 @@ def evaluate_professions(
     df = pd.read_csv(DATASET_PATH)
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
+    chattify = partial(_chattify, tokenizer=tokenizer)
     model = AutoModelForCausalLM.from_pretrained(model_name,).to(device="cuda", dtype=dtype)
     model.eval()
 

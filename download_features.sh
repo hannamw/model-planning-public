@@ -11,7 +11,7 @@ models=(
     "mwhanna/qwen3-1.7b-transcoders-lowl0,Qwen3-1.7B" 
     "mwhanna/qwen3-4b-transcoders,Qwen3-4B"
     "mwhanna/qwen3-8b-transcoders,Qwen3-8B"
-    "mwhanna/qwen3-14b-transcoder-lowl0,Qwen3-14B"
+    "mwhanna/qwen3-14b-transcoders-lowl0,Qwen3-14B"
 )
 
 # Iterate over each model pair

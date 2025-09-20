@@ -26,7 +26,7 @@ models_to_transcoders = {
 }
 
 for model_name, transcoders in models_to_transcoders.items():
-    model = ReplacementModel.from_pretrained('Qwen3/' + model_name, 
+    model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
                                             transcoders, 
                                             cpu_encoder=False,
                                             dtype=torch.bfloat16)
