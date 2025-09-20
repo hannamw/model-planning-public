@@ -175,7 +175,7 @@ for model_name in models:
             
             downweight_interventions = [(layer, last_word - 2, feature, -3 * act) 
                                     for layer, feature, act in id_to_features_acts[id]]
-            new_word_interventions = [(layer, last_word - 2, feature, 5 * act) 
+            new_word_interventions = [(layer, last_word - 2, feature, 7 * act) 
                                     for layer, feature, act in id_to_features_acts[chosen_id]]
 
             new_generation, new_logits, _ = model.feature_intervention_generate(

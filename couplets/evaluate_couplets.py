@@ -22,7 +22,7 @@ import argparse
 import re
 import sys
 from pathlib import Path
-from typing import Dict, List, Sequence, Set
+from typing import Dict, List, Set
 
 import pandas as pd
 import requests
@@ -195,14 +195,14 @@ def generate_single_completion(
 # CLI entry-point
 # ---------------------------------------------------------------------------
 
-def main(argv: Sequence[str] | None = None) -> None:  # noqa: D401
+if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate greedy rhyming couplets via HuggingFace Transformers.")
     parser.add_argument("--input", type=Path, required=True, help="Text file with first lines (one per line).")
     parser.add_argument("--output-dir", type=Path, default="results/couplets-fixed", help="Output directory to save CSV results.")
     parser.add_argument("--max-new-tokens", type=int, default=32, help="Maximum tokens per completion.")
     parser.add_argument("--dtype", default="bfloat16", choices=["float16", "bfloat16", "float32"], help="Model data type.")
 
-    args = parser.parse_args(argv)
+    args = parser.parse_args()
 
     # ------------------------------------------------------------------
     # Load model and tokenizer
@@ -279,7 +279,3 @@ def main(argv: Sequence[str] | None = None) -> None:  # noqa: D401
             _echo(f"Partial results ({len(results)} prompts) written to {output_path}.")
         else:
             _echo(f"Done ✓  Wrote {len(results)} entries to {output_path}.")
-
-
-if __name__ == "__main__":  # pragma: no cover
-    main() 
