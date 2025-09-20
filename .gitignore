@@ -24,3 +24,7 @@ graph_files/*
 */__pycache__/*
 *.python-version
 __pycache__/*
+*/relevant_nodes/*
+*/relevant_nodes_refined/*
+a_an_old/results/relevant_nodes_ext/*
+a_an_old/results/relevant_nodes_refined/*
