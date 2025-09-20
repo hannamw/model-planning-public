@@ -23,8 +23,6 @@ WORD2NUM = {
     "ten": 10,
 }
 
-
-
 def predict_next_token(prompt: str, tokenizer, model, device: str):
     """Return the softmax probabilities over the vocabulary for the next token."""
     inputs = tokenizer(prompt, return_tensors="pt").to(device)

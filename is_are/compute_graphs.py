@@ -7,10 +7,8 @@ import torch
 import pandas as pd
 import numpy as np
 
-from circuit_tracer.attribution.attribute import attribute
-from circuit_tracer.replacement_model import ReplacementModel
+from circuit_tracer import attribute, ReplacementModel
 from circuit_tracer.utils.create_graph_files import create_graph_files
-from circuit_tracer.frontend.upload_graph_to_s3 import upload_graph_to_s3
 
 
 ATTRIB_DIFF = True
@@ -63,7 +61,7 @@ for model_name, transcoders in models_and_transcoders.items():
     print(model_short_name)
     model = ReplacementModel.from_pretrained(model_name, 
                                             transcoders, 
-                                            lazy_encoder=True, 
+                                            lazy_encoder=False, 
                                             dtype=torch.bfloat16)
 
     is_token_id = model.tokenizer(" is").input_ids[0]
@@ -102,13 +100,6 @@ for model_name, transcoders in models_and_transcoders.items():
         # The model will continue generating after the prefilled content
         prompt_base = formatted_input + prefill
 
-        # input_ids = model.tokenizer(prompt_base).input_ids
-        # tokens = model.tokenizer.convert_ids_to_tokens(input_ids)
-        # print(tokens)
-        # with torch.inference_mode():
-        #     logits = model(prompt_base)
-        #     print_topk(model,logits)
-
         if ATTRIB_DIFF:
             vector_to_attribute = is_vector - are_vector if row["answer"] == "is" else are_vector - is_vector
             str_to_attribute = 'is - are' if row['answer'] == 'is' else 'are - is'
@@ -129,7 +120,6 @@ for model_name, transcoders in models_and_transcoders.items():
 
         json_output_path = Path(f'graph_files_diff/{model_short_name}') if ATTRIB_DIFF else Path(f'graph_files/{model_short_name}')
         json_output_path.mkdir(exist_ok=True, parents=True)
-        json_output_path = json_output_path / f'{name}.pt'
         create_graph_files(graph, slug, json_output_path, node_threshold=0.8, edge_threshold=0.95)
 
     del model

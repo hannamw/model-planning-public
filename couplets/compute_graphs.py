@@ -76,7 +76,7 @@ for model_name, model_config in model_names_and_configs:
         json_output_path = './graph_files'
         create_graph_files(graph, slug, json_output_path, node_threshold=0.8, edge_threshold=0.95)
 
-    metadata_output_path = Path(f'results/attribution_graphs/')
+    metadata_output_path = Path(f'results/attribution_metadata/')
     metadata_output_path.mkdir(exist_ok=True, parents=True)
     df_ex.to_csv(f'results/attribution_metadata/{model_short_name}.csv')
 
