@@ -14,9 +14,6 @@ from circuit_tracer import ReplacementModel
 from load_feature_from_binary import get_features_top_acts_from_list
 
 # Define threshold parameters
-REQUIRED_PROFESSION_COUNT = 5
-REQUIRED_RELATED_TERMS_COUNT = 1000
-
 models_to_transcoders = {
     'Qwen3-0.6B':"mwhanna/qwen3-0.6b-transcoders-lowl0",
     'Qwen3-1.7B':"mwhanna/qwen3-1.7b-transcoders-lowl0",
@@ -120,10 +117,9 @@ for model_name, transcoders in models_to_transcoders.items():
     for idx, row in tqdm(metadata.iterrows()):
         article = row['article']
         planned = row['planned']
-        slug = row['slug']
+        filename = row['filename']
         
         # Generate filename based on metadata
-        filename = f"{slug}.pt"
         graph_file = graph_dir / filename
         graph = Graph.from_pt(str(graph_file))
 
@@ -174,8 +170,8 @@ for model_name, transcoders in models_to_transcoders.items():
             all_multiplied_an_prob = multiplied_probs_all[an_token_id].item()
 
             # DIRECT intervention (constrained layers)
-            logits_zeros_direct, acts_zeros_direct = model.feature_intervention(s, interventions=zero_interventions, constrained_layers=range(model.cfg.n_layers))
-            logits_multiply_direct, acts_multiply_direct = model.feature_intervention(s, interventions=multiply_interventions, constrained_layers=range(model.cfg.n_layers))
+            logits_zeros_direct, acts_zeros_direct = model.feature_intervention(s, interventions=zero_interventions, constrained_layers=range(1, model.cfg.n_layers))
+            logits_multiply_direct, acts_multiply_direct = model.feature_intervention(s, interventions=multiply_interventions, constrained_layers=range(1, model.cfg.n_layers + 1))
             
             zerod_probs_direct = torch.softmax(logits_zeros_direct[0, -1, :], dim=-1)
             multiplied_probs_direct = torch.softmax(logits_multiply_direct[0, -1, :], dim=-1)

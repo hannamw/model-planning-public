@@ -5,8 +5,7 @@ from collections import namedtuple
 import torch
 import pandas as pd
 
-from circuit_tracer.attribution import attribute
-from circuit_tracer.replacement_model import ReplacementModel
+from circuit_tracer import attribute, ReplacementModel
 from circuit_tracer.utils.create_graph_files import create_graph_files
 
 Example = namedtuple("Example", ["sentence", "coninuation", "name"])
@@ -35,13 +34,14 @@ for model_name, transcoders in models_to_transcoders.items():
     # Create graph metadata file with slug column
     df_metadata = df.copy()
     df_metadata['slug'] = df_metadata.apply(lambda row: f"{model_name}-{row['article']}-{row['planned']}", axis=1)
+    df_metadata['filename'] = df_metadata.apply(lambda row: f"{row['article']}-{row['planned']}.pt", axis=1)
     
     metadata_output_path = Path(f'results/graph_metadata')
     metadata_output_path.mkdir(exist_ok=True, parents=True)
     df_metadata.to_csv(metadata_output_path / f'{model_name}.csv', index=False)
 
     examples = [Example(prompt, f' {article}', f'{article}-{profession}') 
-                for prompt, article, profession in zip(df['Prompt'], df['article'], df['planned'])]
+                for prompt, article, profession in zip(df['prompt_before_article'], df['article'], df['planned'])]
 
     for sentence, continuation, name in examples:
         input_ids = model.tokenizer(sentence).input_ids
@@ -63,7 +63,6 @@ for model_name, transcoders in models_to_transcoders.items():
 
         json_output_path = Path(f'graph_files/{model_name}')
         json_output_path.mkdir(exist_ok=True, parents=True)
-        json_output_path = json_output_path / f'{name}.pt'
         create_graph_files(graph, slug, json_output_path, node_threshold=0.8, edge_threshold=0.95)
 
     del model
