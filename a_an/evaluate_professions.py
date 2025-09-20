@@ -18,6 +18,15 @@ def pick_in_context_index(cur_idx: int, num_rows: int, rng: random.Random) -> in
         idx = rng.randint(0, num_rows - 1)
     return idx
 
+def chattify(inputs: List[str], tokenizer):
+    all_inputs = []
+    for i, prompt in enumerate(inputs):
+        all_inputs.append({'role': ('assistant' if i % 2 else 'user'), 'content': prompt})
+    chattified = tokenizer.apply_chat_template(all_inputs, tokenize=False, add_generation_prompt=False)[:-11]
+    if chattified.endswith('<|im_end|>\n'):
+        chattified = chattified[:-len('<|im_end|>\n')]
+    return chattified
+
 
 def pick_filtered_in_context_index(
     cur_idx: int, 
@@ -114,8 +123,9 @@ def evaluate_professions(
         prompt_with_article = f"{ic_description}. {context_with_article}".strip()
 
         # predict article
+        chattified_prompt_before_article = chattify([prompt_before_article])
         pred_article_tok, prob_article = predict_next_token(
-            prompt_before_article, tokenizer, model
+            chattified_prompt_before_article, tokenizer, model
         )
         pred_article = pred_article_tok.strip().lower()
         # if tokenizer includes following space, take until next whitespace for multi-token predictions
@@ -123,8 +133,9 @@ def evaluate_professions(
             pred_article = pred_article.split(" ")[0]
 
         # now predict profession given gold article
+        chattified_prompt_with_article = chattify([prompt_with_article])
         pred_prof_tok, prob_prof = predict_next_token(
-            prompt_with_article, tokenizer, model
+            chattified_prompt_with_article, tokenizer, model
         )
         pred_profession = pred_prof_tok.strip().lower()
         if " " in pred_profession:
@@ -135,8 +146,9 @@ def evaluate_professions(
         context_with_wrong_article = f"{context_before_article} {wrong_article}"
         prompt_with_wrong_article = f"{ic_description}. {context_with_wrong_article}".strip()
         
+        chattified_prompt_with_wrong_article = chattify([prompt_with_wrong_article])
         pred_prof_wrong_tok, prob_prof_wrong = predict_next_token(
-            prompt_with_wrong_article, tokenizer, model
+            chattified_prompt_with_wrong_article, tokenizer, model
         )
         pred_profession_wrong = pred_prof_wrong_tok.strip().lower()
         if " " in pred_profession_wrong:
@@ -144,20 +156,23 @@ def evaluate_professions(
 
         records.append(
             {
-                "Profession": profession,
-                "Article": article,
-                "Predicted_Article": pred_article,
-                "Article_Correct": pred_article == article.lower(),
-                "Predicted_Profession": pred_profession,
-                "Profession_Correct": profession.lower().startswith(pred_profession),
-                "Predicted_Profession_Wrong_Article": pred_profession_wrong,
-                "Profession_Wrong_Article_Correct": profession.lower().startswith(pred_profession_wrong),
-                "Prob_Article": prob_article,
-                "Prob_Profession": prob_prof,
-                "Prob_Profession_Wrong_Article": prob_prof_wrong,
-                "IC_Profession": ic_row["Profession"].strip(),
-                "IC_Article": ic_row["Article"].strip(),
-                "IC_Description": ic_description,
+                "planned": profession,
+                "article": article,
+                "predicted_article": pred_article,
+                "article_correct": pred_article == article.lower(),
+                "predicted_planned": pred_profession,
+                "planned_correct": profession.lower().startswith(pred_profession),
+                "predicted_planned_wrong_article": pred_profession_wrong,
+                "planned_wrong_article_correct": profession.lower().startswith(pred_profession_wrong),
+                "prob_article": prob_article,
+                "prob_planned": prob_prof,
+                "prob_planned_wrong_article": prob_prof_wrong,
+                "ic_planned": ic_row["Profession"].strip(),
+                "ic_article": ic_row["Article"].strip(),
+                "ic_description": ic_description,
+                "prompt_before_article": chattified_prompt_before_article,
+                "prompt_with_article": chattified_prompt_with_article,
+                "prompt_with_wrong_article": chattified_prompt_with_wrong_article,
             }
         )
 
@@ -166,20 +181,20 @@ def evaluate_professions(
     out_df.to_csv(output_path, index=False)
 
     # Compute metrics
-    article_acc = out_df["Article_Correct"].mean()
-    profession_acc = out_df["Profession_Correct"].mean()
-    profession_wrong_acc = out_df["Profession_Wrong_Article_Correct"].mean()
+    article_acc = out_df["article_correct"].mean()
+    profession_acc = out_df["planned_correct"].mean()
+    profession_wrong_acc = out_df["planned_wrong_article_correct"].mean()
 
     per_article = (
-        out_df.groupby("Article")["Article_Correct"].mean().to_dict()
+        out_df.groupby("article")["article_correct"].mean().to_dict()
     )
 
     print(f"==== {model_name} Accuracy ====")
     print(f"Article accuracy: {article_acc:.3%}")
     for art, acc in per_article.items():
         print(f"  {art}: {acc:.3%}")
-    print(f"Profession accuracy (correct article): {profession_acc:.3%}")
-    print(f"Profession accuracy (wrong article): {profession_wrong_acc:.3%}")
+    print(f"Planned accuracy (correct article): {profession_acc:.3%}")
+    print(f"Planned accuracy (wrong article): {profession_wrong_acc:.3%}")
 
     return out_df
 

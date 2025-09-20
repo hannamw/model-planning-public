@@ -6,11 +6,10 @@ from pathlib import Path
 from typing import List
 
 import pandas as pd
-from tqdm import tqdm
 import torch
-import numpy as np
 
-from circuit_tracer.graph import Graph, normalize_matrix
+
+from circuit_tracer.graph import Graph
 from circuit_tracer import ReplacementModel
 
 # Define threshold parameters
