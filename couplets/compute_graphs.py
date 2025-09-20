@@ -25,8 +25,6 @@ model_names_and_configs = [
     ('Qwen/Qwen3-8B', 'mwhanna/qwen3-8b-transcoders'),
     ('Qwen/Qwen3-14B', 'mwhanna/qwen3-14b-transcoders-lowl0'),
     ]
-batch_size = []
-
 
 def chattify(inputs: List[str], tokenizer):
     all_inputs = []
