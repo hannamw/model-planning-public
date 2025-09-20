@@ -46,7 +46,7 @@ for model_name, model_config in model_names_and_configs:
                                             lazy_encoder=('14B' in model_short_name),
                                             dtype=torch.bfloat16)
 
-    df = pd.read_csv(f'results/couplets-fixed/{model_short_name}.csv')
+    df = pd.read_csv(f'results/couplets/{model_short_name}.csv')
     raw_completion_without_last_word = [' '.join(comp.split(' ')[:-1]) for comp in df['raw_completion']]
     df['raw_completion_without_last'] = raw_completion_without_last_word
     df_filtered = df[df['rhyme_success']]

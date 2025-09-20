@@ -197,8 +197,8 @@ def generate_single_completion(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate greedy rhyming couplets via HuggingFace Transformers.")
-    parser.add_argument("--input", type=Path, required=True, help="Text file with first lines (one per line).")
-    parser.add_argument("--output-dir", type=Path, default="results/couplets-fixed", help="Output directory to save CSV results.")
+    parser.add_argument("--input", type=Path, default='data/couplet_first_lines.txt', help="Text file with first lines (one per line).")
+    parser.add_argument("--output-dir", type=Path, default="results/couplets", help="Output directory to save CSV results.")
     parser.add_argument("--max-new-tokens", type=int, default=32, help="Maximum tokens per completion.")
     parser.add_argument("--dtype", default="bfloat16", choices=["float16", "bfloat16", "float32"], help="Model data type.")
 
