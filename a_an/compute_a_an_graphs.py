@@ -9,7 +9,6 @@ import pandas as pd
 from circuit_tracer.attribution import attribute
 from circuit_tracer.replacement_model import ReplacementModel
 from circuit_tracer.utils.create_graph_files import create_graph_files
-from circuit_tracer.frontend.upload_graph_to_s3 import upload_graph_to_s3
 
 from utils import create_dataset_examples
 
