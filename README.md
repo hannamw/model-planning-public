@@ -10,8 +10,10 @@ Create a directory `features/` and download each of the features for each of the
 -->
 4. Run the experiment scripts in each of the following subdirectories, which correspond to one set of our experiments.
     - `a_an`:
-        1. `evaluate_professions.py`
-        2. `
+        1. `evaluate_professions.py`: gets behavioral results
+        2. `compute_a_an_graphs.py`: computes graphs
+        3. `planning_node_intervention.py`: computes all-effects, direct-effects, and random-node intervention effects for a_an examples.
+        4. 
     - `is_are`:
     - `el_la`:
     - `couplets`:

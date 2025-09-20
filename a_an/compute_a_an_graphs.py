@@ -1,6 +1,5 @@
 #%%
 from pathlib import Path
-from typing import List
 from collections import namedtuple
 
 import torch
@@ -9,8 +8,6 @@ import pandas as pd
 from circuit_tracer.attribution import attribute
 from circuit_tracer.replacement_model import ReplacementModel
 from circuit_tracer.utils.create_graph_files import create_graph_files
-
-from utils import create_dataset_examples
 
 Example = namedtuple("Example", ["sentence", "coninuation", "name"])
 
@@ -28,19 +25,23 @@ models_to_transcoders = {
     'Qwen3-14B':"mwhanna/qwen3-14b-transcoders-lowl0"
 }
 
-df = pd.read_csv('data/professions_dataset_with_articles.csv')
-df_ex = create_dataset_examples(df)
-
-
-for model_name, model_config in models_to_transcoders.items():
+for model_name, transcoders in models_to_transcoders.items():
     model = ReplacementModel.from_pretrained('Qwen3/' + model_name, 
-                                            model_config, 
-                                            cpu_encoders=False,
+                                            transcoders, 
+                                            cpu_encoder=False,
                                             dtype=torch.bfloat16)
-    df = pd.read_csv('data/professions_dataset_with_articles.csv')
+    df = pd.read_csv(f'results/behavioral/{model_name}.csv')
+    
+    # Create graph metadata file with slug column
+    df_metadata = df.copy()
+    df_metadata['slug'] = df_metadata.apply(lambda row: f"{model_name}-{row['article']}-{row['planned']}", axis=1)
+    
+    metadata_output_path = Path(f'results/graph_metadata')
+    metadata_output_path.mkdir(exist_ok=True, parents=True)
+    df_metadata.to_csv(metadata_output_path / f'{model_name}.csv', index=False)
 
-    examples = [Example(f"{model.tokenizer.eos_token}{prompt}", f' {article}', f'{article}-{profession}') 
-                for prompt, article, profession in zip(df_ex['Prompt'], df_ex['Article'], df_ex['Profession'])]
+    examples = [Example(prompt, f' {article}', f'{article}-{profession}') 
+                for prompt, article, profession in zip(df['Prompt'], df['article'], df['planned'])]
 
     for sentence, continuation, name in examples:
         input_ids = model.tokenizer(sentence).input_ids
