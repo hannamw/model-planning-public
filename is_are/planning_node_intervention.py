@@ -1,37 +1,20 @@
 #%%
 # Import additional required modules
-import re
 import json
 from pathlib import Path
-from typing import List
 
 import pandas as pd
 from tqdm import tqdm
 import torch
-import numpy as np
 
-from circuit_tracer.graph import Graph, normalize_matrix
+from circuit_tracer.graph import Graph
 from circuit_tracer import ReplacementModel
 
 # Define threshold parameters
-REQUIRED_PROFESSION_COUNT = 5
-REQUIRED_RELATED_TERMS_COUNT = 1000
-LAST_ONLY = True
-INTERVENTION_RESULTS_DIR = Path('results/interventions_last') if LAST_ONLY else Path('results/interventions')  # Directory for path length results
-
-models = ['qwen3-0.6b-relu-lowl0', 'qwen3-1.7b-relu-lowl0', 'qwen3-4b-relu', 'qwen3-8b-relu', 'qwen3-14b-relu-lowl0']
-model_sizes = [28,28, 36, 36, 40]
+INTERVENTION_RESULTS_DIR = Path('results/interventions')  # Directory for path length results
 #%%
-# Mapping from model config names to logit lens names
-model_to_logit_lens = {
-    'qwen3-0.6b-relu-lowl0': 'Qwen3-0.6B',
-    'qwen3-1.7b-relu-lowl0': 'Qwen3-1.7B',
-    'qwen3-4b-relu': 'Qwen3-4B',
-    'qwen3-8b-relu': 'Qwen3-8B',
-    'qwen3-14b-relu-lowl0': 'Qwen3-14B'
-}
 
-logit_lens_to_transcoders = {
+models_to_transcoders = {
     'Qwen3-0.6B':"mwhanna/qwen3-0.6b-transcoders-lowl0",
     'Qwen3-1.7B':"mwhanna/qwen3-1.7b-transcoders-lowl0",
     'Qwen3-4B':"mwhanna/qwen3-4b-transcoders",
@@ -51,12 +34,6 @@ relevant_term_mapping = {
     '9': ['⁹', '₉', '⑨', '九', '٩', 'nine', '9', '９'],
     '0': ['⁰', '₀', '⓪', '零', '٠', 'zero', '0', '０'],
 }
-
-
-def load_top_logits(model_name, layer):
-    target = logit_lens_to_transcoders[model_name].split("/")[-1]
-    with open(f'../cache/top_logits/{target}-{layer}.json', 'r') as f:
-        return json.load(f)
 
 def term_in_logits(term:str, top: list[str], bottom: list[str], use_bottom=False, substring_ok=False, k=10):
     logits = top[-k:] + bottom[:k] if use_bottom else top[-k:]
@@ -83,25 +60,14 @@ def term_in_logits(term:str, top: list[str], bottom: list[str], use_bottom=False
 # Load important nodes for all models
 # The load_important_nodes function now handles loading and filtering
 # We need to pass the model_name and example_key to it
-for model in models:
-    top_bottom_by_layer = {}
-    print(f"Processing model: {model}")
-    
-    # Load model metadata
-    # Convert model name format from qwen3-0.6b-relu-lowl0 to Qwen3-0.6B
-    model_name_parts = model.split('-')
-    size_part = model_name_parts[1].upper()  # 0.6b -> 0.6B
-    if size_part.endswith('B'):
-        size_part = size_part[:-1] + 'B'
-    logit_lens_model_name = f"Qwen3-{size_part}"
-
-    replacement_model = ReplacementModel.from_pretrained('Qwen/' + logit_lens_model_name, 
-                                                        logit_lens_to_transcoders[logit_lens_model_name], dtype=torch.bfloat16,
-                                                        lazy_encoder=True)
+for model_name, transcoders in models_to_transcoders.items():
+    model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
+                                                        transcoders, dtype=torch.bfloat16,
+                                                        lazy_encoder=False)
     
     metadata = pd.read_csv('data/animals_dataset_downsampled.csv')
     
-    graph_dir = Path('graphs_diff') / logit_lens_model_name
+    graph_dir = Path('graphs_diff') / model_name
     
     # Add new columns to metadata for storing results
     metadata['original_are_prob'] = None
@@ -121,11 +87,6 @@ for model in models:
         graph_file = graph_dir / filename
         
         graph = Graph.from_pt(str(graph_file))
-        if not top_bottom_by_layer:
-            print("Loading for the first time")
-            for layer in range(graph.cfg.n_layers):
-                top_bottom_by_layer[layer] = load_top_logits(logit_lens_model_name, layer)
-            print("done")
 
         node_tensor = graph.active_features[graph.selected_features]
         node_list = node_tensor.tolist()
@@ -136,14 +97,13 @@ for model in models:
                                             top_bottom_by_layer[layer][0][idx], k=5) for term in relevant_terms)]
         
         n_pos = graph.n_pos 
-        if LAST_ONLY and selected_nodes:
+        if selected_nodes:
             selected_nodes = [(layer, pos, idx) for layer, pos, idx in selected_nodes if pos == n_pos - 1]
         s = graph.input_string
         
-        original_logits, original_acts = replacement_model.get_activations(s)
+        original_logits, original_acts = model.get_activations(s)
 
-        # Get token IDs for 'a' and 'an'
-        tokenizer = replacement_model.tokenizer
+        tokenizer = model.tokenizer
         are_token_id = tokenizer.encode(' are', add_special_tokens=False)[0]
         is_token_id = tokenizer.encode(' is', add_special_tokens=False)[0]
         
@@ -157,13 +117,10 @@ for model in models:
         
         # If we have selected nodes, perform interventions
         if selected_nodes is not None and len(selected_nodes) > 0:
-            #print(original_acts.size())
-            #sn = torch.tensor(selected_nodes)
-            #print(sn.max(0).values)
             zero_interventions = [(*feat, 0) for feat in selected_nodes]
             multiply_interventions = [(*feat, 5 * original_acts[tuple(feat)]) for feat in selected_nodes]
-            logits_zeros, acts_zeros = replacement_model.feature_intervention(s, interventions=zero_interventions)
-            logits_multiply, acts_multiply = replacement_model.feature_intervention(s, interventions=multiply_interventions)
+            logits_zeros, acts_zeros = model.feature_intervention(s, interventions=zero_interventions)
+            logits_multiply, acts_multiply = model.feature_intervention(s, interventions=multiply_interventions)
             
             zerod_probs = torch.softmax(logits_zeros[0, -1, :], dim=-1)
             multiplied_probs = torch.softmax(logits_multiply[0, -1, :], dim=-1)
@@ -192,8 +149,8 @@ for model in models:
         
     # Save the metadata with intervention results as CSV
     INTERVENTION_RESULTS_DIR.mkdir(exist_ok=True)
-    metadata.to_csv(INTERVENTION_RESULTS_DIR / f'{logit_lens_model_name}.csv', index=False)
-    print(f"  Saved intervention results to {INTERVENTION_RESULTS_DIR / f'{logit_lens_model_name}.csv'}")
+    metadata.to_csv(INTERVENTION_RESULTS_DIR / f'{model_name}.csv', index=False)
+    print(f"  Saved intervention results to {INTERVENTION_RESULTS_DIR / f'{model_name}.csv'}")
     
     # Count examples with and without important nodes
     examples_with_nodes = (metadata['selected_nodes_count'] > 0).sum()
