@@ -54,6 +54,8 @@ def get_features_with_cache(features: list[tuple[int,int]], cache: dict, model_n
 
 def _is_word_feature(layer, feature_idx, word, feature_cache):
     feature_info = feature_cache[(layer, feature_idx)]
+    if feature_info is None:
+        return False
     word_counts = 0
     for tokens, top_index in zip(feature_info['tokens'], feature_info['top_indices']):
         top_segment = ''.join(tokens[top_index - 10: top_index + 10])
@@ -67,13 +69,13 @@ def _is_word_feature(layer, feature_idx, word, feature_cache):
 # Load important nodes for all models
 # The load_important_nodes function now handles loading and filtering
 # We need to pass the model_name and example_key to it
-for model_name, transcoders in models_to_transcoders.items():    
+for model_name, transcoders in list(models_to_transcoders.items()):
     feature_info_cache = {}
     is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
     
     model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
-                                                        transcoders, dtype=torch.bfloat16,
-                                                        lazy_encoder=True)
+                                            transcoders, dtype=torch.bfloat16,
+                                            lazy_encoder=False)
     
     metadata = pd.read_csv(f'results/graph_metadata/{model_name}.csv')
     graph_dir = Path('attribution_graphs') / model_name
@@ -105,19 +107,25 @@ for model_name, transcoders in models_to_transcoders.items():
 
     feature_set = set()
     for idx, row in metadata.iterrows():
-        slug = row['slug']
-        graph_file = graph_dir / f'{slug}.pt'
+        article = row['article']
+        planned = row['planned']
+        filename = f'{article}-{planned}.pt'
+        #filename = row['filename']
+        graph_file = graph_dir / filename
         graph = Graph.from_pt(graph_file)
 
         selected_features = graph.active_features[graph.selected_features]
         last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
         feature_set.update((layer, feature) for layer, _, feature in last_word_features.tolist())
     
+    get_features_with_cache(list(feature_set), feature_info_cache, model_name)
+
     # Process each example based on metadata
     for idx, row in tqdm(metadata.iterrows()):
         article = row['article']
         planned = row['planned']
-        filename = row['filename']
+        filename = f'{article}-{planned}.pt'
+        #filename = row['filename']
         
         # Generate filename based on metadata
         graph_file = graph_dir / filename
@@ -125,7 +133,6 @@ for model_name, transcoders in models_to_transcoders.items():
 
         # Filter nodes by profession and related terms
         input_tokens = model.tokenizer.convert_ids_to_tokens(graph.input_tokens)
-        last_word = input_tokens.index(model.tokenizer.eos_token)
 
         selected_features = graph.active_features[graph.selected_features]
         last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
@@ -158,8 +165,8 @@ for model_name, transcoders in models_to_transcoders.items():
             multiply_interventions = [(*feat, 5 * original_acts[tuple(feat)]) for feat in selected_nodes]
             
             # ALL intervention (unconstrained)
-            logits_zeros_all, acts_zeros_all = model.feature_intervention(s, interventions=zero_interventions)
-            logits_multiply_all, acts_multiply_all = model.feature_intervention(s, interventions=multiply_interventions)
+            logits_zeros_all, _ = model.feature_intervention(s, interventions=zero_interventions, return_activations=False)
+            logits_multiply_all, _ = model.feature_intervention(s, interventions=multiply_interventions, return_activations=False)
             
             zerod_probs_all = torch.softmax(logits_zeros_all[0, -1, :], dim=-1)
             multiplied_probs_all = torch.softmax(logits_multiply_all[0, -1, :], dim=-1)
@@ -170,8 +177,12 @@ for model_name, transcoders in models_to_transcoders.items():
             all_multiplied_an_prob = multiplied_probs_all[an_token_id].item()
 
             # DIRECT intervention (constrained layers)
-            logits_zeros_direct, acts_zeros_direct = model.feature_intervention(s, interventions=zero_interventions, constrained_layers=range(1, model.cfg.n_layers))
-            logits_multiply_direct, acts_multiply_direct = model.feature_intervention(s, interventions=multiply_interventions, constrained_layers=range(1, model.cfg.n_layers + 1))
+            logits_zeros_direct, _ = model.feature_intervention(s, interventions=zero_interventions, 
+                                                                    constrained_layers=range(1, model.cfg.n_layers), 
+                                                                    return_activations=False)
+            logits_multiply_direct, _ = model.feature_intervention(s, interventions=multiply_interventions, 
+                                                                        constrained_layers=range(1, model.cfg.n_layers), 
+                                                                        return_activations=False)
             
             zerod_probs_direct = torch.softmax(logits_zeros_direct[0, -1, :], dim=-1)
             multiplied_probs_direct = torch.softmax(logits_multiply_direct[0, -1, :], dim=-1)
@@ -249,3 +260,5 @@ for model_name, transcoders in models_to_transcoders.items():
     print(f"  Processed {len(metadata)} total examples:")
     print(f"    - {examples_with_nodes} examples with important nodes (interventions performed)")
     print(f"    - {examples_without_nodes} examples without important nodes (original probabilities recorded)")
+    del model
+    torch.cuda.empty_cache()
