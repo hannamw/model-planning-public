@@ -43,7 +43,7 @@ def chattify(inputs: List[str], tokenizer):
 np.random.seed(42)
 
 
-for model_name, transcoders in models_and_transcoders.items():
+for model_name, transcoders in list(models_and_transcoders.items())[-1:]:
     print(model_name)
     model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
                                             transcoders, 

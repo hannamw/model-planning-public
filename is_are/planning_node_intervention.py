@@ -113,8 +113,8 @@ for model_name, transcoders in list(models_to_transcoders.items()):
 
     feature_set = set()
     for idx, row in metadata.iterrows():
-        relevant_terms = relevant_term_mapping[str(row['number'])]
-        graph_name = row['name']
+        relevant_terms = relevant_term_mapping[str(row['gold_number'])]
+        graph_name = row['filename']
         filename = graph_name + ".pt"
         graph_file = graph_dir / filename
         graph = Graph.from_pt(graph_file)
@@ -128,8 +128,8 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     # Process each example based on metadata
     for idx, row in tqdm(metadata.iterrows()):
         # Generate filename based on metadata
-        relevant_terms = relevant_term_mapping[str(row['number'])]
-        graph_name = row['name']
+        relevant_terms = relevant_term_mapping[str(row['gold_number'])]
+        graph_name = row['filename']
         filename = graph_name + ".pt"
         graph_file = graph_dir / filename
         
