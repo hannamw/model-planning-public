@@ -145,6 +145,8 @@ def evaluate_math_animals(
             {
                 "prompt": sentence,
                 "animal": row["animal"],
+                "original_number": row["original"],
+                "subtracted_number": row["subtracted"],
                 "gold_verb": gold_verb,
                 "wrong_verb": wrong_verb,
                 "predicted_verb": pred_verb,

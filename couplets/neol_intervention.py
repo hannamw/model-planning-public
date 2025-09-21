@@ -6,7 +6,7 @@ from circuit_tracer import Graph, ReplacementModel
 
 from load_feature_from_binary import get_features_top_acts_from_list
 #%%
-models = [f'Qwen3-{size}B' for size in [0.6,1.7,4,8,14]][-2:]
+models = [f'Qwen3-{size}B' for size in [0.6,1.7,4,8,14]][-1:]
 
 models_and_transcoders = {
     'Qwen/Qwen3-0.6B':"mwhanna/qwen3-0.6b-transcoders-lowl0",
