@@ -11,7 +11,7 @@ from circuit_tracer import attribute, ReplacementModel
 from circuit_tracer.utils.create_graph_files import create_graph_files
 
 
-ATTRIB_DIFF = True
+ATTRIB_DIFF = False
 Example = namedtuple("Example", ["sentence", "continuation", "name"])
 
 def print_topk(model, logits:torch.Tensor, k=5):
@@ -46,15 +46,17 @@ np.random.seed(42)
 df = pd.read_csv('data/animals_dataset.csv')
 
 # Sample 80 examples for each answer type (without replacement - default behavior)
-is_samples = df[df['answer'] == 'is'].sample(n=80, random_state=42, replace=False)
-are_samples = df[df['answer'] == 'are'].sample(n=80, random_state=42, replace=False)
+is_samples = df[df['answer'] == 'is'].sample(n=100, random_state=42, replace=False)
+are_samples = df[df['answer'] == 'are'].sample(n=100, random_state=42, replace=False)
 
-df = pd.concat([is_samples, are_samples], ignore_index=True)
-df['name'] = [f"{animal}-{original}-{subtracted}"
-                for animal, original, subtracted in zip(df['animal'], df['original'], df['subtracted'])]
+downsampled_df = pd.concat([is_samples, are_samples], ignore_index=True)
+downsampled_df['name'] = [f"{animal}-{original}-{subtracted}"
+                for animal, original, subtracted in zip(downsampled_df['animal'], 
+                                                        downsampled_df['original'], 
+                                                        downsampled_df['subtracted'])]
 
 output_path = 'data/animals_dataset_downsampled.csv'
-df.to_csv(output_path, index=False)
+downsampled_df.to_csv(output_path, index=False)
 
 for model_name, transcoders in models_and_transcoders.items():
     model_short_name = model_name.split('/')[-1]
@@ -67,38 +69,11 @@ for model_name, transcoders in models_and_transcoders.items():
     is_token_id = model.tokenizer(" is").input_ids[0]
     are_token_id = model.tokenizer(" are").input_ids[0]
 
-    print(model.W_E.size())
     is_vector = model.W_E[is_token_id]
     are_vector = model.W_E[are_token_id]
 
-    # examples = [Example(f"{model.tokenizer.eos_token}{prompt}", f' {article}', f'{article}-{profession}') 
-    #             for prompt, article, profession in zip(df_ex['Prompt'], df_ex['Article'], df_ex['Profession'])]
-
-    for _, row in df.iterrows():
-        sentence: str = row["prompt"].strip()
-
-        instruction: str = f"Repeat this sentence and complete it. {sentence}"
-
-        messages = [
-            {
-                "role": "user",
-                "content": instruction
-            }
-        ]
-
-        # Convert messages to Qwen3 chat format using tokenizer
-        formatted_input = model.tokenizer.apply_chat_template(
-            messages, 
-            tokenize=False, 
-            add_generation_prompt=True
-        )
-
-        # Prefilled response (what the model should start generating after)
-        prefill: str = f"<think>\n\n</think> {sentence}"
-
-        # Combine the formatted input with prefilled response
-        # The model will continue generating after the prefilled content
-        prompt_base = formatted_input + prefill
+    for _, row in downsampled_df.iterrows():
+        prompt_base = row['prompt_base']
 
         if ATTRIB_DIFF:
             vector_to_attribute = is_vector - are_vector if row["answer"] == "is" else are_vector - is_vector
