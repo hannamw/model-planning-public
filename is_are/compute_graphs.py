@@ -42,21 +42,6 @@ def chattify(inputs: List[str], tokenizer):
 # Set seed for reproducibility
 np.random.seed(42)
 
-# Load the dataset
-df = pd.read_csv('data/animals_dataset.csv')
-
-# Sample 80 examples for each answer type (without replacement - default behavior)
-is_samples = df[df['answer'] == 'is'].sample(n=100, random_state=42, replace=False)
-are_samples = df[df['answer'] == 'are'].sample(n=100, random_state=42, replace=False)
-
-downsampled_df = pd.concat([is_samples, are_samples], ignore_index=True)
-downsampled_df['name'] = [f"{animal}-{original}-{subtracted}"
-                for animal, original, subtracted in zip(downsampled_df['animal'], 
-                                                        downsampled_df['original'], 
-                                                        downsampled_df['subtracted'])]
-
-output_path = 'data/animals_dataset_downsampled.csv'
-downsampled_df.to_csv(output_path, index=False)
 
 for model_name, transcoders in models_and_transcoders.items():
     model_short_name = model_name.split('/')[-1]
@@ -65,6 +50,19 @@ for model_name, transcoders in models_and_transcoders.items():
                                             transcoders, 
                                             lazy_encoder=False, 
                                             dtype=torch.bfloat16)
+
+    # Load the dataset
+    df = pd.read_csv(f'results/behavioral/{model_name}.csv')
+
+    # Sample 80 examples for each answer type (without replacement - default behavior)
+    is_samples = df[df['answer'] == 'is'].sample(n=80, random_state=42, replace=False)
+    are_samples = df[df['answer'] == 'are'].sample(n=80, random_state=42, replace=False)
+
+    downsampled_df = pd.concat([is_samples, are_samples], ignore_index=True)
+    downsampled_df['filename'] = [f"{animal}-{original}-{subtracted}"
+                    for animal, original, subtracted in zip(downsampled_df['animal'], 
+                                                            downsampled_df['original'], 
+                                                            downsampled_df['subtracted'])]
 
     is_token_id = model.tokenizer(" is").input_ids[0]
     are_token_id = model.tokenizer(" are").input_ids[0]

@@ -6,7 +6,7 @@ from circuit_tracer import Graph, ReplacementModel
 
 from load_feature_from_binary import get_features_top_acts_from_list
 #%%
-models = [f'Qwen3-{size}B' for size in [0.6,1.7,4,8,14]]
+models = [f'Qwen3-{size}B' for size in [0.6,1.7,4,8,14]][-1:]
 
 models_and_transcoders = {
     'Qwen/Qwen3-0.6B':"mwhanna/qwen3-0.6b-transcoders-lowl0",
@@ -38,7 +38,7 @@ for model_name in models:
     model = ReplacementModel.from_pretrained(whole_model_name, 
                                              transcoders_name,
                                              dtype=torch.bfloat16, 
-                                             lazy_encoder=('8B' in model_name or '14B' in model_name))
+                                             lazy_encoder=False)
 
     graph_dir = Path(f'attribution_graphs/{model_name}')
     metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv', index_col=0)
@@ -108,6 +108,9 @@ for model_name in models:
         original_generations.append(original_generation)
         continued_generations.append(continued_generation)
 
+    del model
+    torch.cuda.empty_cache()
+
 
     metadata['n_features'] = n_features
     metadata['n_selected_features'] = n_selected_features
@@ -116,4 +119,5 @@ for model_name in models:
     metadata['whole_couplet'] = whole_couplets
     metadata['original_generation'] = original_generations
     metadata['continued_generation'] = continued_generations
+    Path('results/eol_intervention').mkdir(exist_ok=True)
     metadata.to_csv(f'results/eol_intervention/{model_name}.csv')
