@@ -216,7 +216,7 @@ def create_result_dict(model_name, layer, train_size, val_size, test_size,
     }
 
 
-def save_results_to_json(results, model_noslash, output_dir="tinystories_probing"):
+def save_results_to_json(results, model_noslash, output_dir="probing"):
     """Save results to JSON file."""
     output_path = Path(output_dir)
     output_path.mkdir(exist_ok=True)
@@ -308,7 +308,7 @@ def main():
         
         # Load data
         model_noslash = model_name.split('/')[-1]
-        csv_path = Path(f"results/tinystories/{model_noslash}.csv")
+        csv_path = Path(f"results/behavioral/{model_noslash}.csv")
         if not csv_path.exists():
             print(f"Error: CSV file not found at {csv_path}")
             continue

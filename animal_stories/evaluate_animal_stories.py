@@ -31,7 +31,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 
 DEFAULT_TEMPERATURE = 0.0
 DEFAULT_MAX_TOKENS = 50    # Enough for one sentence
-RESULTS_DIR = Path("results/tinystories")
+RESULTS_DIR = Path("results/behavioral")
 ANIMALS_FILE = Path("../data/animals.txt")
 
 
