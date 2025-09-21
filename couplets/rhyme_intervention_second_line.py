@@ -230,4 +230,7 @@ for model_name in models:
     # Ensure output directory exists
     Path('results/rhyme_intervention_second_line').mkdir(parents=True, exist_ok=True)
     metadata.to_csv(f'results/rhyme_intervention_second_line/{model_name}.csv')
+    del model
+    torch.cuda.empty_cache()
+
 # %%

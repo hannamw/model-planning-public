@@ -257,4 +257,7 @@ for model_name in models:
     output_file = results_dir / f"{model_name}.csv"
     df.to_csv(output_file, index=False)
     print(f"Saved results for {model_name} to {output_file}")
+    del model
+    torch.cuda.empty_cache()
+
 

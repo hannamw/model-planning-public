@@ -21,11 +21,11 @@ def print_topk(model, logits:torch.Tensor, k=5):
         print(model.tokenizer.decode([topk.indices[i]]), ':', topk.values[i].item())
 
 models_and_transcoders = {
-    'Qwen/Qwen3-0.6B':"mwhanna/qwen3-0.6b-transcoders-lowl0",
-    'Qwen/Qwen3-1.7B':"mwhanna/qwen3-1.7b-transcoders-lowl0",
-    'Qwen/Qwen3-4B':"mwhanna/qwen3-4b-transcoders",
-    'Qwen/Qwen3-8B':"mwhanna/qwen3-8b-transcoders",
-    'Qwen/Qwen3-14B':"mwhanna/qwen3-14b-transcoders-lowl0"
+    'Qwen3-0.6B':"mwhanna/qwen3-0.6b-transcoders-lowl0",
+    'Qwen3-1.7B':"mwhanna/qwen3-1.7b-transcoders-lowl0",
+    'Qwen3-4B':"mwhanna/qwen3-4b-transcoders",
+    'Qwen3-8B':"mwhanna/qwen3-8b-transcoders",
+    'Qwen3-14B':"mwhanna/qwen3-14b-transcoders-lowl0"
 }
 batch_size = []
 
@@ -42,29 +42,26 @@ def chattify(inputs: List[str], tokenizer):
 # Set seed for reproducibility
 np.random.seed(42)
 
-# Load the dataset
-df = pd.read_csv('data/animals_dataset.csv')
-
-# Sample 80 examples for each answer type (without replacement - default behavior)
-is_samples = df[df['answer'] == 'is'].sample(n=100, random_state=42, replace=False)
-are_samples = df[df['answer'] == 'are'].sample(n=100, random_state=42, replace=False)
-
-downsampled_df = pd.concat([is_samples, are_samples], ignore_index=True)
-downsampled_df['name'] = [f"{animal}-{original}-{subtracted}"
-                for animal, original, subtracted in zip(downsampled_df['animal'], 
-                                                        downsampled_df['original'], 
-                                                        downsampled_df['subtracted'])]
-
-output_path = 'data/animals_dataset_downsampled.csv'
-downsampled_df.to_csv(output_path, index=False)
 
 for model_name, transcoders in models_and_transcoders.items():
-    model_short_name = model_name.split('/')[-1]
-    print(model_short_name)
-    model = ReplacementModel.from_pretrained(model_name, 
+    print(model_name)
+    model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
                                             transcoders, 
                                             lazy_encoder=False, 
                                             dtype=torch.bfloat16)
+
+    # Load the dataset
+    df = pd.read_csv(f'results/behavioral/{model_name}.csv')
+
+    # Sample 80 examples for each answer type (without replacement - default behavior)
+    is_samples = df[df['gold_verb'] == 'is'].sample(n=80, random_state=42, replace=False)
+    are_samples = df[df['gold_verb'] == 'are'].sample(n=80, random_state=42, replace=False)
+
+    downsampled_df = pd.concat([is_samples, are_samples], ignore_index=True)
+    downsampled_df['filename'] = [f"{animal}-{original}-{subtracted}"
+                    for animal, original, subtracted in zip(downsampled_df['animal'], 
+                                                            downsampled_df['original_number'], 
+                                                            downsampled_df['subtracted_number'])]
 
     is_token_id = model.tokenizer(" is").input_ids[0]
     are_token_id = model.tokenizer(" are").input_ids[0]
@@ -76,24 +73,24 @@ for model_name, transcoders in models_and_transcoders.items():
         prompt_base = row['prompt_base']
 
         if ATTRIB_DIFF:
-            vector_to_attribute = is_vector - are_vector if row["answer"] == "is" else are_vector - is_vector
-            str_to_attribute = 'is - are' if row['answer'] == 'is' else 'are - is'
+            vector_to_attribute = is_vector - are_vector if row["gold_verb"] == "is" else are_vector - is_vector
+            str_to_attribute = 'is - are' if row['gold_verb'] == 'is' else 'are - is'
             quantity_to_attribute = [(str_to_attribute, 1.0, vector_to_attribute)]
         else:
             quantity_to_attribute = None
 
         graph = attribute(prompt_base, model, quantity_to_attribute=quantity_to_attribute,batch_size=128, max_feature_nodes=7500, 
                         offload=None, verbose=True)
-        name = f"{row['animal']}-{row['original']}-{row['subtracted']}"
+        name = f"{row['animal']}-{row['original_number']}-{row['subtracted_number']}"
 
-        pt_output_path = Path(f'graphs_diff/{model_short_name}') if ATTRIB_DIFF else Path(f'graphs/{model_short_name}')
+        pt_output_path = Path(f'attribution_graphs_diff/{model_name}') if ATTRIB_DIFF else Path(f'attribution_graphs/{model_name}')
         pt_output_path.mkdir(exist_ok=True, parents=True)
         pt_output_path = pt_output_path / f'{name}.pt'
         graph.to_pt(pt_output_path)
 
-        slug = f"{model_short_name}-{name}"
+        slug = f"{model_name}-{name}"
 
-        json_output_path = Path(f'graph_files_diff/{model_short_name}') if ATTRIB_DIFF else Path(f'graph_files/{model_short_name}')
+        json_output_path = Path(f'graph_files_diff/{model_name}') if ATTRIB_DIFF else Path(f'graph_files/{model_name}')
         json_output_path.mkdir(exist_ok=True, parents=True)
         create_graph_files(graph, slug, json_output_path, node_threshold=0.8, edge_threshold=0.95)
 

@@ -38,7 +38,7 @@ for model_name in models:
     model = ReplacementModel.from_pretrained(whole_model_name, 
                                              transcoders_name,
                                              dtype=torch.bfloat16, 
-                                             lazy_encoder=('8B' in model_name or '14B' in model_name))
+                                             lazy_encoder=False)
 
     graph_dir = Path(f'attribution_graphs/{model_name}')
     metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv', index_col=0)
@@ -120,4 +120,5 @@ for model_name in models:
     results_dir.mkdir(parents=True, exist_ok=True)
     
     metadata.to_csv(results_dir / f'{model_name}.csv')
-#%%
+    del model
+    torch.cuda.empty_cache()
