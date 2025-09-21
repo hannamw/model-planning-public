@@ -104,7 +104,7 @@ for model_name in models:
     model = ReplacementModel.from_pretrained(whole_model_name, 
                                              transcoders_name,
                                              dtype=torch.bfloat16, 
-                                             cpu_encoder=('8B' in model_name or '14B' in model_name))
+                                             cpu_encoder=False)
 
     graph_dir = Path(f'attribution_graphs/{model_name}')
     metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv', index_col=0)
