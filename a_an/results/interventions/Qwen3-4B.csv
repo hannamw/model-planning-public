@@ -1,0 +1,433 @@
+planned,article,predicted_article,article_correct,predicted_planned,planned_correct,predicted_planned_wrong_article,planned_wrong_article_correct,prob_article,prob_planned,prob_planned_wrong_article,ic_planned,ic_article,ic_description,prompt_before_article,prompt_with_article,prompt_with_wrong_article,slug,filename,original_a_prob,original_an_prob,all_zeroed_a_prob,all_zeroed_an_prob,all_multiplied_a_prob,all_multiplied_an_prob,direct_zeroed_a_prob,direct_zeroed_an_prob,direct_multiplied_a_prob,direct_multiplied_an_prob,random_zeroed_a_prob,random_zeroed_an_prob,random_multiplied_a_prob,random_multiplied_an_prob,selected_nodes_count
+veterinarian,a,a,True,veterinarian,True,animal,False,0.9094108939170836,0.317034512758255,0.9626879692077636,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist,"<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who heals sick pets is","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who heals sick pets is a","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who heals sick pets is an",Qwen3-4B-a-veterinarian,a-veterinarian.pt,0.90625,0.006103515625,0.91015625,0.0047607421875,0.921875,0.005462646484375,0.90625,0.006103515625,0.91796875,0.00482177734375,0.90625,0.006103515625,0.91015625,0.006134033203125,4
+teacher,a,a,True,teacher,True,educator,False,0.9899941086769104,0.9265173077583312,0.6473772525787354,plumber,a,Someone who fixes pipes and water systems is a plumber,"<|im_start|>user
+Someone who fixes pipes and water systems is a plumber. Someone who educates children in schools is","<|im_start|>user
+Someone who fixes pipes and water systems is a plumber. Someone who educates children in schools is a","<|im_start|>user
+Someone who fixes pipes and water systems is a plumber. Someone who educates children in schools is an",Qwen3-4B-a-teacher,a-teacher.pt,0.98828125,0.003570556640625,0.9921875,0.00168609619140625,0.9921875,0.005889892578125,0.984375,0.0040283203125,0.0244140625,6.866455078125e-05,0.9921875,0.0027923583984375,0.9765625,0.003997802734375,28
+chef,a,a,True,chef,True,______,False,0.9954290390014648,0.6348971724510193,0.1641891300678253,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter,"<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who prepares meals in restaurants is","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who prepares meals in restaurants is a","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who prepares meals in restaurants is an",Qwen3-4B-a-chef,a-chef.pt,0.99609375,7.43865966796875e-05,0.99609375,0.00017833709716796875,0.99609375,5.751848220825195e-06,0.99609375,9.584426879882812e-05,0.99609375,5.125999450683594e-05,0.99609375,6.580352783203125e-05,0.99609375,0.0001392364501953125,7
+firefighter,a,a,True,firefighter,True,firefighter,True,0.9938979744911194,0.995238184928894,0.9060143828392028,auditor,an,Someone who examines financial records is an auditor,"<|im_start|>user
+Someone who examines financial records is an auditor. Someone who extinguishes fires and rescues people is","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who extinguishes fires and rescues people is a","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who extinguishes fires and rescues people is an",Qwen3-4B-a-firefighter,a-firefighter.pt,0.9921875,0.004058837890625,0.98828125,0.00970458984375,0.82421875,0.0001392364501953125,0.9921875,0.005889892578125,1.7508864402770996e-06,4.918547347187996e-09,0.9921875,0.004058837890625,0.9921875,0.004058837890625,13
+pilot,a,a,True,pilot,True,pilot,True,0.96741384267807,0.9979105591773988,0.2824091613292694,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist,"<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who flies airplanes is","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who flies airplanes is a","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who flies airplanes is an",Qwen3-4B-a-pilot,a-pilot.pt,0.96875,0.0291748046875,0.1181640625,0.87109375,1.0,2.1047890186309814e-07,0.875,0.11865234375,0.0283203125,1.3828277587890625e-05,0.9765625,0.020263671875,0.921875,0.07568359375,18
+dentist,a,a,True,dentist,True,orth,False,0.9983990788459778,0.9921831488609314,0.4594075381755829,psychiatrist,a,Someone who treats mental health disorders is a psychiatrist,"<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who treats teeth and gums is","<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who treats teeth and gums is a","<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who treats teeth and gums is an",Qwen3-4B-a-dentist,a-dentist.pt,1.0,0.0002613067626953125,0.9921875,0.004608154296875,1.0,2.753734588623047e-05,1.0,0.0002613067626953125,0.07275390625,5.507469177246094e-05,1.0,9.584426879882812e-05,1.0,0.0006256103515625,22
+electrician,an,an,True,electric,True,electric,True,0.9911094903945924,0.9941599369049072,0.2201011776924133,neurologist,a,Someone who treats disorders of the nervous system is a neurologist,"<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who installs and repairs electrical systems is","<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who installs and repairs electrical systems is an","<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who installs and repairs electrical systems is a",Qwen3-4B-an-electrician,an-electrician.pt,0.00518798828125,0.9921875,0.494140625,0.494140625,0.00021839141845703125,0.9453125,0.041259765625,0.9375,5.692243576049805e-06,0.63671875,0.005889892578125,0.9921875,0.00457763671875,0.98828125,15
+librarian,a,a,True,librarian,True,librarian,True,0.94179368019104,0.993740737438202,0.6153449416160583,engineer,an,Someone who designs and builds technical systems is an engineer,"<|im_start|>user
+Someone who designs and builds technical systems is an engineer. Someone who manages books and helps people find information is","<|im_start|>user
+Someone who designs and builds technical systems is an engineer. Someone who manages books and helps people find information is a","<|im_start|>user
+Someone who designs and builds technical systems is an engineer. Someone who manages books and helps people find information is an",Qwen3-4B-a-librarian,a-librarian.pt,0.94921875,0.036865234375,0.92578125,0.059326171875,0.9921875,0.00168609619140625,0.953125,0.036865234375,0.8828125,0.0302734375,0.93359375,0.052734375,0.96875,0.015625,5
+photographer,a,a,True,photographer,True,photographer,True,0.9886748790740968,0.9181618094444276,0.3624056577682495,auditor,an,Someone who examines financial records is an auditor,"<|im_start|>user
+Someone who examines financial records is an auditor. Someone who takes professional pictures is","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who takes professional pictures is a","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who takes professional pictures is an",Qwen3-4B-a-photographer,a-photographer.pt,0.98828125,0.0040283203125,0.96875,0.0201416015625,0.99609375,0.00010204315185546875,0.98828125,0.0040283203125,0.79296875,0.004730224609375,0.98828125,0.003570556640625,0.9921875,0.004058837890625,9
+architect,an,an,True,architect,True,__,False,0.9958763122558594,0.9731650948524476,0.2192683666944503,journalist,a,Someone who writes news articles is a journalist,"<|im_start|>user
+Someone who writes news articles is a journalist. Someone who designs buildings and structures is","<|im_start|>user
+Someone who writes news articles is a journalist. Someone who designs buildings and structures is an","<|im_start|>user
+Someone who writes news articles is a journalist. Someone who designs buildings and structures is a",Qwen3-4B-an-architect,an-architect.pt,0.003173828125,0.99609375,0.375,0.6171875,4.7497451305389404e-07,0.94140625,0.020263671875,0.97265625,1.5616416931152344e-05,0.9375,0.00150299072265625,0.99609375,0.0849609375,0.9140625,20
+mechanic,a,a,True,mechanic,True,auto,False,0.9861295819282532,0.9934353828430176,0.6951581239700317,cashier,a,Someone who handles payments in stores is a cashier,"<|im_start|>user
+Someone who handles payments in stores is a cashier. Someone who fixes cars and engines is","<|im_start|>user
+Someone who handles payments in stores is a cashier. Someone who fixes cars and engines is a","<|im_start|>user
+Someone who handles payments in stores is a cashier. Someone who fixes cars and engines is an",Qwen3-4B-a-mechanic,a-mechanic.pt,0.98828125,0.00518798828125,0.98046875,0.0108642578125,0.98828125,0.0004253387451171875,0.984375,0.005157470703125,0.0002899169921875,2.2202730178833008e-06,0.98828125,0.005859375,0.98828125,0.0040283203125,7
+surgeon,a,a,True,nurse,False,operator,False,0.9966340661048888,0.6433599591255188,0.3664413690567016,auditor,an,Someone who examines financial records is an auditor,"<|im_start|>user
+Someone who examines financial records is an auditor. Someone who performs operations on patients is","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who performs operations on patients is a","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who performs operations on patients is an",Qwen3-4B-a-surgeon,a-surgeon.pt,0.99609375,0.0006256103515625,0.99609375,0.0006256103515625,0.99609375,0.0006256103515625,0.99609375,0.0006256103515625,0.99609375,0.0006256103515625,0.99609375,0.0006256103515625,0.99609375,0.0006256103515625,0
+pharmacist,a,a,True,pharmacist,True,pharmacist,True,0.997732400894165,0.9167213439941406,0.2988455891609192,painter,a,Someone who applies paint to surfaces is a painter,"<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who dispenses medications is","<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who dispenses medications is a","<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who dispenses medications is an",Qwen3-4B-a-pharmacist,a-pharmacist.pt,0.99609375,0.0001087188720703125,0.99609375,0.0001583099365234375,0.99609375,6.580352783203125e-05,0.99609375,0.0001583099365234375,0.99609375,3.528594970703125e-05,0.99609375,0.0001087188720703125,1.0,0.0001087188720703125,6
+journalist,a,a,True,journalist,True,____,False,0.9987131357192992,0.8746005892753601,0.2224819213151931,surgeon,a,Someone who performs operations on patients is a surgeon,"<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who writes news articles is","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who writes news articles is a","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who writes news articles is an",Qwen3-4B-a-journalist,a-journalist.pt,1.0,0.0002613067626953125,1.0,0.0004291534423828125,1.0,4.5299530029296875e-05,1.0,0.0002956390380859375,0.99609375,0.0001583099365234375,0.99609375,0.0006256103515625,1.0,3.123283386230469e-05,7
+plumber,a,a,True,plumber,True,plumber,True,0.9625508785247804,0.9819712042808532,0.8626047968864441,conductor,a,Someone who leads orchestras or manages trains is a conductor,"<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who fixes pipes and water systems is","<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who fixes pipes and water systems is a","<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who fixes pipes and water systems is an",Qwen3-4B-a-plumber,a-plumber.pt,0.96484375,0.00128173828125,0.96484375,0.00128173828125,0.96484375,0.00128173828125,0.96484375,0.00128173828125,0.96484375,0.00128173828125,0.9609375,0.00127410888671875,0.96875,0.00128173828125,2
+accountant,an,an,True,accountant,True,book,False,0.5497943162918091,0.9956898093223572,0.4845001697540283,poet,a,Someone who writes poetry is a poet,"<|im_start|>user
+Someone who writes poetry is a poet. Someone who manages financial records is","<|im_start|>user
+Someone who writes poetry is a poet. Someone who manages financial records is an","<|im_start|>user
+Someone who writes poetry is a poet. Someone who manages financial records is a",Qwen3-4B-an-accountant,an-accountant.pt,0.43359375,0.5546875,0.9296875,0.059326171875,0.004608154296875,0.9921875,0.462890625,0.5234375,0.0050048828125,0.00933837890625,0.43359375,0.5546875,0.5234375,0.4609375,9
+lawyer,a,a,True,lawyer,True,attorney,False,0.9666366577148438,0.9058843851089478,0.9858283996582032,pilot,a,Someone who flies airplanes is a pilot,"<|im_start|>user
+Someone who flies airplanes is a pilot. Someone who represents clients in legal matters is","<|im_start|>user
+Someone who flies airplanes is a pilot. Someone who represents clients in legal matters is a","<|im_start|>user
+Someone who flies airplanes is a pilot. Someone who represents clients in legal matters is an",Qwen3-4B-a-lawyer,a-lawyer.pt,0.96875,0.029296875,0.99609375,0.00131988525390625,0.984375,0.01239013671875,0.97265625,0.02587890625,1.080334186553955e-06,1.1362135410308838e-07,0.921875,0.07568359375,0.99609375,0.001495361328125,20
+engineer,an,an,True,engineer,True,______,False,0.9691460132598876,0.9839650392532348,0.1873366832733154,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter,"<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who designs and builds technical systems is","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who designs and builds technical systems is an","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who designs and builds technical systems is a",Qwen3-4B-an-engineer,an-engineer.pt,0.029296875,0.96875,0.90234375,0.0947265625,0.01068115234375,0.95703125,0.07568359375,0.921875,0.000728607177734375,0.484375,0.0419921875,0.95703125,0.0140380859375,0.984375,21
+baker,a,a,True,baker,True,______,False,0.9956870675086976,0.8673079013824463,0.2902341783046722,surgeon,a,Someone who performs operations on patients is a surgeon,"<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who makes bread and pastries is","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who makes bread and pastries is a","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who makes bread and pastries is an",Qwen3-4B-a-baker,a-baker.pt,0.99609375,8.440017700195312e-05,0.99609375,0.00054931640625,0.9296875,7.808208465576172e-06,0.99609375,7.43865966796875e-05,0.2578125,7.62939453125e-05,0.99609375,9.5367431640625e-05,1.0,5.817413330078125e-05,5
+carpenter,a,a,True,carp,True,carp,True,0.999263346195221,0.9901301264762878,0.929861843585968,cardiologist,a,Someone who treats heart diseases is a cardiologist,"<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who builds things with wood is","<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who builds things with wood is a","<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who builds things with wood is an",Qwen3-4B-a-carpenter,a-carpenter.pt,1.0,5.817413330078125e-05,1.0,0.000179290771484375,1.0,2.1457672119140625e-05,1.0,5.14984130859375e-05,0.9453125,0.0001697540283203125,1.0,6.580352783203125e-05,1.0,8.487701416015625e-05,5
+professor,a,a,True,professor,True,academic,False,0.7980529069900513,0.8819846510887146,0.9879998564720154,pediatrician,a,Someone who provides medical care to children is a pediatrician,"<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who teaches and conducts research at universities is","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who teaches and conducts research at universities is a","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who teaches and conducts research at universities is an",Qwen3-4B-a-professor,a-professor.pt,0.8125,0.181640625,0.435546875,0.55859375,0.96875,0.029296875,0.7734375,0.2216796875,0.75390625,0.1484375,0.6484375,0.34765625,0.96484375,0.0291748046875,10
+physicist,a,a,True,scientist,False,______,False,0.990029275417328,0.5006421208381653,0.266667902469635,watchmaker,a,Someone who repairs timepieces is a watchmaker,"<|im_start|>user
+Someone who repairs timepieces is a watchmaker. Someone who studies matter and energy is","<|im_start|>user
+Someone who repairs timepieces is a watchmaker. Someone who studies matter and energy is a","<|im_start|>user
+Someone who repairs timepieces is a watchmaker. Someone who studies matter and energy is an",Qwen3-4B-a-physicist,a-physicist.pt,0.98828125,0.002777099609375,0.98828125,0.00457763671875,0.99609375,0.0004863739013671875,0.9921875,0.002777099609375,0.9765625,0.0035247802734375,0.9921875,0.002777099609375,0.98828125,0.002777099609375,7
+biologist,a,a,True,biologist,True,____,False,0.9941478967666626,0.5901457667350769,0.2030460238456726,detective,a,Someone who investigates crimes is a detective,"<|im_start|>user
+Someone who investigates crimes is a detective. Someone who studies living organisms is","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who studies living organisms is a","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who studies living organisms is an",Qwen3-4B-a-biologist,a-biologist.pt,0.99609375,0.00080108642578125,0.98828125,0.00518798828125,1.0,3.528594970703125e-05,0.9921875,0.00116729736328125,5.3085386753082275e-08,1.7848833522293717e-11,0.99609375,0.00090789794921875,0.9921875,0.00102996826171875,13
+chemist,a,a,True,chem,True,chem,True,0.9976576566696168,0.8334484696388245,0.4261285364627838,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter,"<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who studies chemical reactions and compounds is","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who studies chemical reactions and compounds is a","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who studies chemical reactions and compounds is an",Qwen3-4B-a-chemist,a-chemist.pt,0.99609375,0.0004291534423828125,0.99609375,0.0031585693359375,1.0,0.00022983551025390625,0.99609375,0.00080108642578125,0.0228271484375,3.1888484954833984e-06,1.0,0.000335693359375,0.97265625,0.00113677978515625,12
+historian,a,a,True,historian,True,historian,True,0.9341583847999572,0.9411128163337708,0.8260757923126221,farmer,a,Someone who grows crops and raises livestock is a farmer,"<|im_start|>user
+Someone who grows crops and raises livestock is a farmer. Someone who studies and writes about past events is","<|im_start|>user
+Someone who grows crops and raises livestock is a farmer. Someone who studies and writes about past events is a","<|im_start|>user
+Someone who grows crops and raises livestock is a farmer. Someone who studies and writes about past events is an",Qwen3-4B-a-historian,a-historian.pt,0.93359375,0.052734375,0.81640625,0.16015625,0.9921875,0.0027923583984375,0.90625,0.07421875,0.91015625,0.01300048828125,0.92578125,0.059326171875,0.9375,0.052978515625,10
+psychologist,a,a,True,psychologist,True,__,False,0.9950971007347108,0.6463873982429504,0.3428151309490204,supervisor,a,Someone who directs and monitors workers is a supervisor,"<|im_start|>user
+Someone who directs and monitors workers is a supervisor. Someone who studies human behavior and mental processes is","<|im_start|>user
+Someone who directs and monitors workers is a supervisor. Someone who studies human behavior and mental processes is a","<|im_start|>user
+Someone who directs and monitors workers is a supervisor. Someone who studies human behavior and mental processes is an",Qwen3-4B-a-psychologist,a-psychologist.pt,0.99609375,0.00116729736328125,0.99609375,0.00131988525390625,0.99609375,0.00080108642578125,0.99609375,0.00102996826171875,0.99609375,0.00090789794921875,0.99609375,0.00102996826171875,0.99609375,0.00116729736328125,8
+economist,an,a,False,economist,True,financial,False,0.7130513191223145,0.6730137467384338,0.2440495491027832,trainer,a,Someone who helps others develop skills or fitness is a trainer,"<|im_start|>user
+Someone who helps others develop skills or fitness is a trainer. Someone who studies financial systems and markets is","<|im_start|>user
+Someone who helps others develop skills or fitness is a trainer. Someone who studies financial systems and markets is an","<|im_start|>user
+Someone who helps others develop skills or fitness is a trainer. Someone who studies financial systems and markets is a",Qwen3-4B-an-economist,an-economist.pt,0.72265625,0.234375,0.80078125,0.158203125,0.10205078125,0.85546875,0.765625,0.193359375,0.4765625,0.4765625,0.74609375,0.212890625,0.62109375,0.33203125,4
+cardiologist,a,a,True,cardi,True,intern,False,0.9939149022102356,0.718543291091919,0.6489325165748596,secretary,a,Someone who provides administrative support is a secretary,"<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who treats heart diseases is","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who treats heart diseases is a","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who treats heart diseases is an",Qwen3-4B-a-cardiologist,a-cardiologist.pt,0.9921875,0.000484466552734375,0.9921875,0.000484466552734375,0.9921875,0.00054931640625,0.9921875,0.000484466552734375,0.9921875,0.00054931640625,0.99609375,0.0004291534423828125,0.9921875,0.000621795654296875,3
+neurologist,a,a,True,neuro,True,__,False,0.993600368499756,0.6152818202972412,0.2285969853401184,painter,a,Someone who applies paint to surfaces is a painter,"<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who treats disorders of the nervous system is","<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who treats disorders of the nervous system is a","<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who treats disorders of the nervous system is an",Qwen3-4B-a-neurologist,a-neurologist.pt,0.9921875,0.000705718994140625,0.9921875,0.0010223388671875,0.99609375,0.000179290771484375,0.9921875,0.00080108642578125,0.93359375,0.0004558563232421875,0.9921875,0.00102996826171875,0.99609375,0.00012302398681640625,5
+pediatrician,a,a,True,pediatric,True,pediatric,True,0.9971541166305542,0.9727272391319276,0.3747365772724151,writer,a,Someone who creates written works is a writer,"<|im_start|>user
+Someone who creates written works is a writer. Someone who provides medical care to children is","<|im_start|>user
+Someone who creates written works is a writer. Someone who provides medical care to children is a","<|im_start|>user
+Someone who creates written works is a writer. Someone who provides medical care to children is an",Qwen3-4B-a-pediatrician,a-pediatrician.pt,0.99609375,6.580352783203125e-05,0.99609375,9.584426879882812e-05,0.99609375,1.1444091796875e-05,0.99609375,7.486343383789062e-05,0.890625,4.029273986816406e-05,0.99609375,6.580352783203125e-05,0.99609375,7.43865966796875e-05,8
+dermatologist,a,a,True,dermat,True,dermat,True,0.9949158430099488,0.994799017906189,0.5577138662338257,neurologist,a,Someone who treats disorders of the nervous system is a neurologist,"<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who treats skin conditions is","<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who treats skin conditions is a","<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who treats skin conditions is an",Qwen3-4B-a-dermatologist,a-dermatologist.pt,0.99609375,0.000202178955078125,0.99609375,0.000293731689453125,1.0,4.5299530029296875e-05,0.9921875,0.0002288818359375,0.984375,0.00017642974853515625,0.99609375,0.00012302398681640625,0.98046875,0.00848388671875,6
+psychiatrist,a,a,True,therapist,False,psychiatrist,True,0.9954729676246644,0.3388861715793609,0.2344741225242614,translator,a,Someone who converts text from one language to another is a translator,"<|im_start|>user
+Someone who converts text from one language to another is a translator. Someone who treats mental health disorders is","<|im_start|>user
+Someone who converts text from one language to another is a translator. Someone who treats mental health disorders is a","<|im_start|>user
+Someone who converts text from one language to another is a translator. Someone who treats mental health disorders is an",Qwen3-4B-a-psychiatrist,a-psychiatrist.pt,0.99609375,2.9206275939941406e-05,0.99609375,4.5299530029296875e-05,0.99609375,5.066394805908203e-06,0.99609375,3.528594970703125e-05,0.99609375,1.7762184143066406e-05,0.99609375,2.574920654296875e-05,0.99609375,4.5299530029296875e-05,10
+radiologist,a,a,True,radi,True,radi,True,0.9243099093437196,0.9857193827629088,0.1640951037406921,conductor,a,Someone who leads orchestras or manages trains is a conductor,"<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who interprets medical images is","<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who interprets medical images is a","<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who interprets medical images is an",Qwen3-4B-a-radiologist,a-radiologist.pt,0.92578125,0.0054931640625,0.92578125,0.007049560546875,0.9296875,0.00179290771484375,0.92578125,0.0054931640625,0.91015625,0.0047607421875,0.92578125,0.0054931640625,0.921875,0.0062255859375,5
+anesthesiologist,an,a,False,an,True,/an,False,0.6144264936447144,0.9985333681106568,0.8371955156326294,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist,"<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who administers anesthesia during surgery is","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who administers anesthesia during surgery is an","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who administers anesthesia during surgery is a",Qwen3-4B-an-anesthesiologist,an-anesthesiologist.pt,0.61328125,0.373046875,0.61328125,0.373046875,0.5859375,0.40234375,0.61328125,0.373046875,0.671875,0.31640625,0.61328125,0.373046875,0.61328125,0.37109375,2
+oncologist,an,a,False,onc,True,doctor,False,0.997636079788208,0.999624252319336,0.7267442345619202,programmer,a,Someone who writes computer code is a programmer,"<|im_start|>user
+Someone who writes computer code is a programmer. Someone who treats cancer patients is","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who treats cancer patients is an","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who treats cancer patients is a",Qwen3-4B-an-oncologist,an-oncologist.pt,0.99609375,0.0002956390380859375,0.99609375,0.0002956390380859375,0.99609375,0.000553131103515625,0.99609375,0.0002956390380859375,0.99609375,0.0002613067626953125,0.99609375,0.0002956390380859375,0.99609375,0.0003337860107421875,4
+ophthalmologist,an,an,True,o,True,specialist,False,0.5926875472068787,0.9547877907752992,0.6657301783561707,veterinarian,a,Someone who heals sick pets is a veterinarian,"<|im_start|>user
+Someone who heals sick pets is a veterinarian. Someone who treats eye diseases is","<|im_start|>user
+Someone who heals sick pets is a veterinarian. Someone who treats eye diseases is an","<|im_start|>user
+Someone who heals sick pets is a veterinarian. Someone who treats eye diseases is a",Qwen3-4B-an-ophthalmologist,an-ophthalmologist.pt,0.345703125,0.64453125,0.76953125,0.220703125,0.003143310546875,0.98828125,0.5234375,0.462890625,0.03369140625,0.8671875,0.345703125,0.64453125,0.40234375,0.5859375,6
+orthopedist,an,a,False,orth,True,______,False,0.9391402006149292,0.9033995866775512,0.1722028404474258,realtor,a,Someone who helps buy and sell property is a realtor,"<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who treats bone and joint problems is","<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who treats bone and joint problems is an","<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who treats bone and joint problems is a",Qwen3-4B-an-orthopedist,an-orthopedist.pt,0.9296875,0.059326171875,0.98828125,0.002777099609375,0.0179443359375,0.98046875,0.9609375,0.029052734375,0.6171875,0.373046875,0.9375,0.052978515625,0.91796875,0.06640625,7
+astronomer,an,an,True,astronom,True,astronom,True,0.9953859448432922,0.9975171089172364,0.5885517597198486,programmer,a,Someone who writes computer code is a programmer,"<|im_start|>user
+Someone who writes computer code is a programmer. Someone who studies stars and planets is","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who studies stars and planets is an","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who studies stars and planets is a",Qwen3-4B-an-astronomer,an-astronomer.pt,0.002471923828125,0.99609375,0.047119140625,0.94921875,4.5299530029296875e-05,1.0,0.002471923828125,0.99609375,0.0036468505859375,0.890625,0.0027923583984375,0.99609375,0.0027923583984375,0.99609375,15
+geologist,a,a,True,ge,True,ge,True,0.9926940202713012,0.9988229870796204,0.6680272817611694,professor,a,Someone who teaches and conducts research at universities is a professor,"<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who studies rocks and earth formations is","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who studies rocks and earth formations is a","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who studies rocks and earth formations is an",Qwen3-4B-a-geologist,a-geologist.pt,0.9921875,0.00115966796875,0.984375,0.00665283203125,1.0,1.6689300537109375e-05,0.99609375,0.0016937255859375,0.005401611328125,3.382563591003418e-06,0.9921875,0.00090789794921875,0.97265625,0.009521484375,21
+anthropologist,an,a,False,anthrop,True,soci,False,0.5868516564369202,0.9980008006095886,0.8454236388206482,secretary,a,Someone who provides administrative support is a secretary,"<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who studies human cultures and societies is","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who studies human cultures and societies is an","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who studies human cultures and societies is a",Qwen3-4B-an-anthropologist,an-anthropologist.pt,0.58984375,0.40625,0.9140625,0.0849609375,0.00170135498046875,0.99609375,0.6484375,0.34765625,0.25390625,0.609375,0.58984375,0.40625,0.55859375,0.435546875,3
+sociologist,a,a,True,soci,True,anthrop,False,0.9889391660690308,0.947099506855011,0.4540458619594574,poet,a,Someone who writes poetry is a poet,"<|im_start|>user
+Someone who writes poetry is a poet. Someone who studies social behavior and institutions is","<|im_start|>user
+Someone who writes poetry is a poet. Someone who studies social behavior and institutions is a","<|im_start|>user
+Someone who writes poetry is a poet. Someone who studies social behavior and institutions is an",Qwen3-4B-a-sociologist,a-sociologist.pt,0.98828125,0.003143310546875,0.95703125,0.0255126953125,0.9921875,0.0004024505615234375,0.98828125,0.00457763671875,0.00078582763671875,1.043081283569336e-06,0.98828125,0.003143310546875,0.9921875,0.0031585693359375,8
+mathematician,a,a,True,mathematic,True,...,False,0.9888277053833008,0.5141740441322327,0.3598661124706268,botanist,a,Someone who studies plants is a botanist,"<|im_start|>user
+Someone who studies plants is a botanist. Someone who works with numbers and mathematical theories is","<|im_start|>user
+Someone who studies plants is a botanist. Someone who works with numbers and mathematical theories is a","<|im_start|>user
+Someone who studies plants is a botanist. Someone who works with numbers and mathematical theories is an",Qwen3-4B-a-mathematician,a-mathematician.pt,0.98828125,0.003570556640625,0.98046875,0.00848388671875,0.99609375,0.000377655029296875,0.98828125,0.004058837890625,0.001922607421875,5.3942203521728516e-06,0.98828125,0.003143310546875,0.984375,0.00750732421875,11
+statistician,a,a,True,statistic,True,analyst,False,0.9947404265403748,0.9206121563911438,0.2889351844787597,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist,"<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who analyzes data and calculates probabilities is","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who analyzes data and calculates probabilities is a","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who analyzes data and calculates probabilities is an",Qwen3-4B-a-statistician,a-statistician.pt,0.99609375,0.0027923583984375,0.98828125,0.006683349609375,0.87109375,0.001678466796875,0.99609375,0.0027923583984375,5.125999450683594e-06,3.050081431865692e-08,0.98828125,0.008544921875,0.83203125,0.0016021728515625,15
+botanist,a,a,True,bot,True,bot,True,0.9789313673973083,0.9716923236846924,0.3005186915397644,carpenter,a,Someone who builds things with wood is a carpenter,"<|im_start|>user
+Someone who builds things with wood is a carpenter. Someone who studies plants is","<|im_start|>user
+Someone who builds things with wood is a carpenter. Someone who studies plants is a","<|im_start|>user
+Someone who builds things with wood is a carpenter. Someone who studies plants is an",Qwen3-4B-a-botanist,a-botanist.pt,0.9765625,0.0157470703125,0.984375,0.00665283203125,0.9921875,0.006683349609375,0.98046875,0.0123291015625,5.699694156646729e-07,1.525040715932846e-08,0.9765625,0.0157470703125,0.9921875,0.006683349609375,3
+zoologist,a,a,True,zo,True,animal,False,0.8557101488113403,0.9524425268173218,0.5990937948226929,cardiologist,a,Someone who treats heart diseases is a cardiologist,"<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who studies animals is","<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who studies animals is a","<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who studies animals is an",Qwen3-4B-a-zoologist,a-zoologist.pt,0.86328125,0.1328125,0.7265625,0.267578125,0.9921875,0.007568359375,0.83203125,0.1640625,0.91796875,0.0751953125,0.84765625,0.1474609375,0.8515625,0.1474609375,5
+meteorologist,a,a,True,meteor,True,______,False,0.9675105810165404,0.6514150500297546,0.2602117955684662,realtor,a,Someone who helps buy and sell property is a realtor,"<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who studies weather patterns is","<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who studies weather patterns is a","<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who studies weather patterns is an",Qwen3-4B-a-meteorologist,a-meteorologist.pt,0.96875,0.00946044921875,0.95703125,0.013671875,0.984375,0.00189971923828125,0.95703125,0.0106201171875,0.984375,0.005828857421875,0.96875,0.00836181640625,0.96484375,0.00836181640625,5
+archaeologist,an,an,True,archae,True,______,False,0.8995944857597351,0.9227083325386048,0.1663165241479873,botanist,a,Someone who studies plants is a botanist,"<|im_start|>user
+Someone who studies plants is a botanist. Someone who studies ancient civilizations through artifacts is","<|im_start|>user
+Someone who studies plants is a botanist. Someone who studies ancient civilizations through artifacts is an","<|im_start|>user
+Someone who studies plants is a botanist. Someone who studies ancient civilizations through artifacts is a",Qwen3-4B-an-archaeologist,an-archaeologist.pt,0.083984375,0.90234375,0.80078125,0.158203125,5.125999450683594e-05,1.0,0.232421875,0.71484375,0.000957489013671875,0.439453125,0.06689453125,0.921875,0.2333984375,0.71875,15
+linguist,a,a,True,lingu,True,lingu,True,0.9888814091682434,0.98288893699646,0.6937904357910156,journalist,a,Someone who writes news articles is a journalist,"<|im_start|>user
+Someone who writes news articles is a journalist. Someone who studies languages and their structure is","<|im_start|>user
+Someone who writes news articles is a journalist. Someone who studies languages and their structure is a","<|im_start|>user
+Someone who writes news articles is a journalist. Someone who studies languages and their structure is an",Qwen3-4B-a-linguist,a-linguist.pt,0.98828125,0.00457763671875,0.9609375,0.025634765625,0.99609375,0.00090789794921875,0.98828125,0.00518798828125,1.800060272216797e-05,6.472691893577576e-08,0.96875,0.0177001953125,1.0,0.0006256103515625,14
+musician,a,a,True,musician,True,______,False,0.99323707818985,0.966476023197174,0.3108687698841095,surgeon,a,Someone who performs operations on patients is a surgeon,"<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who plays instruments or composes music is","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who plays instruments or composes music is a","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who plays instruments or composes music is an",Qwen3-4B-a-musician,a-musician.pt,0.99609375,0.0031585693359375,0.96484375,0.0291748046875,0.99609375,0.0008544921875,0.9921875,0.004608154296875,3.1650415621697903e-10,7.815970093361102e-13,0.9921875,0.004058837890625,0.99609375,0.001922607421875,10
+artist,an,an,True,artist,True,______,False,0.9930148124694824,0.9963427186012268,0.2139850109815597,musician,a,Someone who plays instruments or composes music is a musician,"<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who creates visual art is","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who creates visual art is an","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who creates visual art is a",Qwen3-4B-an-artist,an-artist.pt,0.00131988525390625,0.9921875,0.52734375,0.41015625,5.066394805908203e-06,0.96484375,0.024658203125,0.921875,2.086162567138672e-06,0.984375,0.002166748046875,0.9921875,0.000705718994140625,0.99609375,26
+sculptor,a,an,False,sculpt,True,artist,False,0.7030867338180542,0.8889105319976807,0.8878040313720703,pharmacist,a,Someone who dispenses medications is a pharmacist,"<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who creates three-dimensional art is","<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who creates three-dimensional art is a","<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who creates three-dimensional art is an",Qwen3-4B-a-sculptor,a-sculptor.pt,0.291015625,0.69921875,0.291015625,0.69921875,0.318359375,0.671875,0.291015625,0.69921875,0.291015625,0.69921875,0.267578125,0.7265625,0.318359375,0.671875,1
+dancer,a,a,True,dancer,True,athlete,False,0.9878093004226683,0.6962653994560242,0.3710744976997375,meteorologist,a,Someone who studies weather patterns is a meteorologist,"<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who performs choreographed movements is","<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who performs choreographed movements is a","<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who performs choreographed movements is an",Qwen3-4B-a-dancer,a-dancer.pt,0.98828125,0.00244140625,0.9765625,0.0108642578125,0.99609375,2.002716064453125e-05,0.984375,0.0027618408203125,0.98046875,0.00274658203125,0.9921875,0.002166748046875,0.96875,0.00836181640625,10
+actor,an,an,True,actor,True,______,False,0.9861276149749756,0.9023012518882751,0.390271782875061,zoologist,a,Someone who studies animals is a zoologist,"<|im_start|>user
+Someone who studies animals is a zoologist. Someone who performs in plays or movies is","<|im_start|>user
+Someone who studies animals is a zoologist. Someone who performs in plays or movies is an","<|im_start|>user
+Someone who studies animals is a zoologist. Someone who performs in plays or movies is a",Qwen3-4B-an-actor,an-actor.pt,0.007537841796875,0.98828125,0.91015625,0.06591796875,0.0002956390380859375,0.99609375,0.041259765625,0.9375,1.952052116394043e-06,0.020263671875,0.009521484375,0.97265625,0.005889892578125,0.9921875,12
+writer,a,a,True,writer,True,author,False,0.8499521613121033,0.9001821875572205,0.9830701351165771,detective,a,Someone who investigates crimes is a detective,"<|im_start|>user
+Someone who investigates crimes is a detective. Someone who creates written works is","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who creates written works is a","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who creates written works is an",Qwen3-4B-a-writer,a-writer.pt,0.84765625,0.1474609375,0.435546875,0.55859375,0.9921875,0.004608154296875,0.79296875,0.201171875,3.14321368932724e-08,2.5756889954209328e-09,0.83203125,0.1630859375,0.94921875,0.04736328125,14
+poet,a,a,True,poet,True,poet,True,0.9723721742630004,0.985374927520752,0.6021140813827515,anesthesiologist,an,Someone who administers anesthesia during surgery is an anesthesiologist,"<|im_start|>user
+Someone who administers anesthesia during surgery is an anesthesiologist. Someone who writes poetry is","<|im_start|>user
+Someone who administers anesthesia during surgery is an anesthesiologist. Someone who writes poetry is a","<|im_start|>user
+Someone who administers anesthesia during surgery is an anesthesiologist. Someone who writes poetry is an",Qwen3-4B-a-poet,a-poet.pt,0.97265625,0.01385498046875,0.94921875,0.032470703125,0.9921875,0.000484466552734375,0.96484375,0.0177001953125,0.97265625,0.007415771484375,0.97265625,0.013916015625,0.98046875,0.0035400390625,12
+novelist,a,a,True,writer,False,author,False,0.9872073531150818,0.9343017935752868,0.9917484521865844,programmer,a,Someone who writes computer code is a programmer,"<|im_start|>user
+Someone who writes computer code is a programmer. Someone who writes novels is","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who writes novels is a","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who writes novels is an",Qwen3-4B-a-novelist,a-novelist.pt,0.98828125,0.0096435546875,0.9765625,0.020263671875,0.98046875,0.01397705078125,0.98828125,0.006683349609375,0.546875,0.01287841796875,0.984375,0.0096435546875,0.98828125,0.00970458984375,9
+editor,an,a,False,editor,True,editor,True,0.9158647060394288,0.9951689839363098,0.3272086679935455,dentist,a,Someone who treats teeth and gums is a dentist,"<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who reviews and revises written content is","<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who reviews and revises written content is an","<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who reviews and revises written content is a",Qwen3-4B-an-editor,an-editor.pt,0.9140625,0.058349609375,0.98046875,0.00274658203125,0.369140625,0.609375,0.9375,0.041015625,0.00183868408203125,0.0005950927734375,0.9140625,0.058349609375,0.93359375,0.041015625,7
+translator,a,a,True,translator,True,translator,True,0.9861773252487184,0.7633347511291504,0.3732781410217285,analyst,an,Someone who examines data and information is an analyst,"<|im_start|>user
+Someone who examines data and information is an analyst. Someone who converts text from one language to another is","<|im_start|>user
+Someone who examines data and information is an analyst. Someone who converts text from one language to another is a","<|im_start|>user
+Someone who examines data and information is an analyst. Someone who converts text from one language to another is an",Qwen3-4B-a-translator,a-translator.pt,0.984375,0.000156402587890625,0.98046875,0.000789642333984375,0.99609375,1.7583370208740234e-06,0.98046875,0.00019931793212890625,0.984375,8.344650268554688e-05,0.98046875,0.0003719329833984375,0.99609375,9.47713851928711e-06,15
+bartender,a,a,True,bartender,True,bartender,True,0.9970941543579102,0.9113170504570008,0.938075840473175,roofer,a,Someone who installs and repairs roofs is a roofer,"<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who mixes and serves drinks is","<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who mixes and serves drinks is a","<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who mixes and serves drinks is an",Qwen3-4B-a-bartender,a-bartender.pt,0.99609375,7.486343383789062e-05,0.99609375,0.0001392364501953125,1.0,6.139278411865234e-06,0.99609375,8.440017700195312e-05,0.020263671875,1.5124678611755371e-06,0.99609375,8.440017700195312e-05,1.0,4.00543212890625e-05,8
+waiter,a,a,True,waiter,True,waiter,True,0.9968008995056152,0.6287975311279297,0.3264603614807129,accountant,an,Someone who manages financial records is an accountant,"<|im_start|>user
+Someone who manages financial records is an accountant. Someone who serves food in restaurants is","<|im_start|>user
+Someone who manages financial records is an accountant. Someone who serves food in restaurants is a","<|im_start|>user
+Someone who manages financial records is an accountant. Someone who serves food in restaurants is an",Qwen3-4B-a-waiter,a-waiter.pt,0.99609375,5.817413330078125e-05,0.99609375,5.125999450683594e-05,0.99609375,8.440017700195312e-05,0.99609375,5.817413330078125e-05,0.98828125,9.489059448242188e-05,1.0,2.753734588623047e-05,0.99609375,5.817413330078125e-05,2
+barber,a,a,True,hair,False,hair,False,0.997752010822296,0.95450758934021,0.4005597829818725,musician,a,Someone who plays instruments or composes music is a musician,"<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who cuts and styles hair is","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who cuts and styles hair is a","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who cuts and styles hair is an",Qwen3-4B-a-barber,a-barber.pt,0.99609375,4.00543212890625e-05,0.99609375,3.528594970703125e-05,1.0,2.4199485778808594e-05,0.99609375,3.528594970703125e-05,0.99609375,5.125999450683594e-05,0.99609375,3.528594970703125e-05,0.99609375,4.00543212890625e-05,5
+tailor,a,a,True,tailor,True,tailor,True,0.9949678778648376,0.9623525738716124,0.4046523869037628,mechanic,a,Someone who fixes cars and engines is a mechanic,"<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who makes or alters clothing is","<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who makes or alters clothing is a","<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who makes or alters clothing is an",Qwen3-4B-a-tailor,a-tailor.pt,0.99609375,0.00017833709716796875,0.9921875,0.000377655029296875,0.99609375,9.584426879882812e-05,0.99609375,0.0001392364501953125,0.9296875,0.000514984130859375,0.99609375,0.00017833709716796875,0.99609375,0.000202178955078125,5
+florist,a,a,True,flor,True,flor,True,0.9794538617134094,0.97975093126297,0.8213076591491699,gardener,a,Someone who tends to plants and landscapes is a gardener,"<|im_start|>user
+Someone who tends to plants and landscapes is a gardener. Someone who arranges and sells flowers is","<|im_start|>user
+Someone who tends to plants and landscapes is a gardener. Someone who arranges and sells flowers is a","<|im_start|>user
+Someone who tends to plants and landscapes is a gardener. Someone who arranges and sells flowers is an",Qwen3-4B-a-florist,a-florist.pt,0.98046875,0.005828857421875,0.97265625,0.0084228515625,0.984375,0.0014801025390625,0.98046875,0.005828857421875,0.98046875,0.005126953125,0.98046875,0.005828857421875,0.9765625,0.00579833984375,1
+jeweler,a,a,True,jew,True,artisan,False,0.9951786994934082,0.4331584572792053,0.6437408924102783,astronomer,an,Someone who studies stars and planets is an astronomer,"<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who makes or repairs jewelry is","<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who makes or repairs jewelry is a","<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who makes or repairs jewelry is an",Qwen3-4B-a-jeweler,a-jeweler.pt,0.99609375,3.528594970703125e-05,0.9921875,9.5367431640625e-05,1.0,8.307397365570068e-07,0.99609375,5.125999450683594e-05,0.9921875,1.7642974853515625e-05,0.99609375,3.528594970703125e-05,0.9921875,3.981590270996094e-05,3
+watchmaker,a,a,True,watch,True,hor,False,0.991261065006256,0.7366553544998169,0.475320428609848,inspector,an,Someone who examines things for quality or compliance is an inspector,"<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who repairs timepieces is","<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who repairs timepieces is a","<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who repairs timepieces is an",Qwen3-4B-a-watchmaker,a-watchmaker.pt,0.9921875,0.000484466552734375,0.9921875,0.000621795654296875,0.984375,0.001678466796875,0.9921875,0.00054931640625,0.408203125,0.0001544952392578125,0.9921875,0.000484466552734375,0.9921875,0.00042724609375,7
+locksmith,a,a,True,lock,True,locksmith,True,0.9841225147247314,0.7397409081459045,0.4623618423938751,counselor,a,Someone who provides guidance and support is a counselor,"<|im_start|>user
+Someone who provides guidance and support is a counselor. Someone who makes and repairs locks is","<|im_start|>user
+Someone who provides guidance and support is a counselor. Someone who makes and repairs locks is a","<|im_start|>user
+Someone who provides guidance and support is a counselor. Someone who makes and repairs locks is an",Qwen3-4B-a-locksmith,a-locksmith.pt,0.984375,0.000423431396484375,0.984375,0.000896453857421875,0.98828125,9.489059448242188e-05,0.984375,0.00048065185546875,0.98828125,0.00022792816162109375,0.984375,0.000423431396484375,0.984375,0.0004253387451171875,7
+welder,a,a,True,weld,True,weld,True,0.9987525939941406,0.9120703935623168,0.483151912689209,dispatcher,a,Someone who coordinates emergency services is a dispatcher,"<|im_start|>user
+Someone who coordinates emergency services is a dispatcher. Someone who joins metal pieces using heat is","<|im_start|>user
+Someone who coordinates emergency services is a dispatcher. Someone who joins metal pieces using heat is a","<|im_start|>user
+Someone who coordinates emergency services is a dispatcher. Someone who joins metal pieces using heat is an",Qwen3-4B-a-welder,a-welder.pt,1.0,7.486343383789062e-05,1.0,9.584426879882812e-05,1.0,0.0002956390380859375,1.0,9.584426879882812e-05,1.0,4.5299530029296875e-05,1.0,8.487701416015625e-05,1.0,8.487701416015625e-05,5
+mason,a,a,True,m,True,artisan,False,0.9673207998275756,0.7557882070541382,0.416357010602951,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist,"<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who works with stone and brick is","<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who works with stone and brick is a","<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who works with stone and brick is an",Qwen3-4B-a-mason,a-mason.pt,0.96484375,0.0177001953125,0.96484375,0.0177001953125,0.96875,0.015625,0.96484375,0.0177001953125,0.96875,0.015625,0.97265625,0.01385498046875,0.9453125,0.025146484375,1
+roofer,a,a,True,ro,True,ro,True,0.9860501885414124,0.9074989557266236,0.3320830464363098,sailor,a,Someone who works on ships is a sailor,"<|im_start|>user
+Someone who works on ships is a sailor. Someone who installs and repairs roofs is","<|im_start|>user
+Someone who works on ships is a sailor. Someone who installs and repairs roofs is a","<|im_start|>user
+Someone who works on ships is a sailor. Someone who installs and repairs roofs is an",Qwen3-4B-a-roofer,a-roofer.pt,0.98828125,0.002777099609375,0.984375,0.0040283203125,0.98828125,0.001312255859375,0.984375,0.002777099609375,0.98828125,0.0035552978515625,0.984375,0.0040283203125,0.98828125,0.0019073486328125,3
+painter,a,a,True,painter,True,artist,False,0.8097823858261108,0.9851508736610411,0.7446781396865845,historian,a,Someone who studies and writes about past events is a historian,"<|im_start|>user
+Someone who studies and writes about past events is a historian. Someone who applies paint to surfaces is","<|im_start|>user
+Someone who studies and writes about past events is a historian. Someone who applies paint to surfaces is a","<|im_start|>user
+Someone who studies and writes about past events is a historian. Someone who applies paint to surfaces is an",Qwen3-4B-a-painter,a-painter.pt,0.8203125,0.1611328125,0.796875,0.177734375,0.94921875,0.047119140625,0.81640625,0.1611328125,0.8515625,0.130859375,0.765625,0.2197265625,0.875,0.09228515625,12
+gardener,a,a,True,gard,True,gard,True,0.9536704421043396,0.992643415927887,0.7678685784339905,manager,a,Someone who oversees operations and staff is a manager,"<|im_start|>user
+Someone who oversees operations and staff is a manager. Someone who tends to plants and landscapes is","<|im_start|>user
+Someone who oversees operations and staff is a manager. Someone who tends to plants and landscapes is a","<|im_start|>user
+Someone who oversees operations and staff is a manager. Someone who tends to plants and landscapes is an",Qwen3-4B-a-gardener,a-gardener.pt,0.953125,0.025390625,0.90234375,0.07373046875,0.9921875,0.000797271728515625,0.953125,0.02880859375,0.00616455078125,8.821487426757812e-05,0.953125,0.0224609375,0.9609375,0.0155029296875,13
+farmer,a,a,True,farmer,True,______,False,0.8550706505775452,0.9239046573638916,0.2480150163173675,photographer,a,Someone who takes professional pictures is a photographer,"<|im_start|>user
+Someone who takes professional pictures is a photographer. Someone who grows crops and raises livestock is","<|im_start|>user
+Someone who takes professional pictures is a photographer. Someone who grows crops and raises livestock is a","<|im_start|>user
+Someone who takes professional pictures is a photographer. Someone who grows crops and raises livestock is an",Qwen3-4B-a-farmer,a-farmer.pt,0.86328125,0.10302734375,0.9609375,0.00506591796875,0.035888671875,0.921875,0.87109375,0.091796875,0.002349853515625,0.00052642822265625,0.828125,0.1630859375,0.59375,0.0108642578125,28
+fisherman,a,a,True,fish,True,ang,False,0.9831901788711548,0.9819584488868712,0.9809210300445556,dentist,a,Someone who treats teeth and gums is a dentist,"<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who catches fish for a living is","<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who catches fish for a living is a","<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who catches fish for a living is an",Qwen3-4B-a-fisherman,a-fisherman.pt,0.984375,0.001678466796875,0.97265625,0.00653076171875,0.99609375,2.574920654296875e-05,0.98046875,0.00189208984375,0.9765625,0.0016632080078125,0.98046875,0.00167083740234375,0.9921875,0.00148773193359375,15
+sailor,a,a,True,sailor,True,officer,False,0.9855060577392578,0.6226368546485901,0.5526702404022217,coach,a,Someone who teaches and guides athletes is a coach,"<|im_start|>user
+Someone who teaches and guides athletes is a coach. Someone who works on ships is","<|im_start|>user
+Someone who teaches and guides athletes is a coach. Someone who works on ships is a","<|im_start|>user
+Someone who teaches and guides athletes is a coach. Someone who works on ships is an",Qwen3-4B-a-sailor,a-sailor.pt,0.984375,0.0002574920654296875,0.984375,0.0003299713134765625,0.98828125,0.00010776519775390625,0.984375,0.0002574920654296875,0.98828125,0.00022792816162109375,0.98828125,0.0001773834228515625,0.94921875,0.000865936279296875,4
+trucker,a,a,True,truck,True,,True,0.9915024042129515,0.9844312071800232,0.1870159208774566,pediatrician,a,Someone who provides medical care to children is a pediatrician,"<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who drives large trucks for cargo transport is","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who drives large trucks for cargo transport is a","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who drives large trucks for cargo transport is an",Qwen3-4B-a-trucker,a-trucker.pt,0.9921875,0.00022792816162109375,0.984375,0.00061798095703125,1.0,2.753734588623047e-05,0.98828125,0.0002574920654296875,0.67578125,0.0002002716064453125,0.9921875,0.0002288818359375,0.9921875,0.00017833709716796875,3
+conductor,a,a,True,conductor,True,______,False,0.9301005005836488,0.9836332201957704,0.2141338586807251,auctioneer,an,Someone who conducts auctions is an auctioneer,"<|im_start|>user
+Someone who conducts auctions is an auctioneer. Someone who leads orchestras or manages trains is","<|im_start|>user
+Someone who conducts auctions is an auctioneer. Someone who leads orchestras or manages trains is a","<|im_start|>user
+Someone who conducts auctions is an auctioneer. Someone who leads orchestras or manages trains is an",Qwen3-4B-a-conductor,a-conductor.pt,0.9296875,0.01171875,0.9375,0.006317138671875,0.625,0.294921875,0.92578125,0.01031494140625,0.93359375,0.01336669921875,0.92578125,0.007080078125,0.95703125,0.0174560546875,4
+judge,a,a,True,judge,True,attorney,False,0.9931228756904602,0.927061140537262,0.8687180280685425,astronomer,an,Someone who studies stars and planets is an astronomer,"<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who presides over legal proceedings is","<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who presides over legal proceedings is a","<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who presides over legal proceedings is an",Qwen3-4B-a-judge,a-judge.pt,0.9921875,0.0031585693359375,0.9921875,0.0016937255859375,1.0,0.0006256103515625,0.9921875,0.004058837890625,0.9921875,0.0024566650390625,0.9921875,0.0031585693359375,0.9921875,0.0024566650390625,8
+detective,a,a,True,detective,True,investigator,False,0.9924545288085938,0.8779632449150085,0.8131744265556335,mechanic,a,Someone who fixes cars and engines is a mechanic,"<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who investigates crimes is","<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who investigates crimes is a","<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who investigates crimes is an",Qwen3-4B-a-detective,a-detective.pt,0.9921875,0.003570556640625,0.9921875,0.0031585693359375,0.9921875,0.0027923583984375,0.9921875,0.0035858154296875,0.98828125,0.0035552978515625,0.99609375,0.000621795654296875,0.07568359375,0.921875,9
+paramedic,a,an,False,param,True,emergency,False,0.8240455985069275,0.8682779669761658,0.528039276599884,pediatrician,a,Someone who provides medical care to children is a pediatrician,"<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who provides emergency medical care is","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who provides emergency medical care is a","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who provides emergency medical care is an",Qwen3-4B-a-paramedic,a-paramedic.pt,0.1640625,0.83203125,0.859375,0.1318359375,0.197265625,0.77734375,0.1640625,0.83203125,0.000377655029296875,0.001922607421875,0.181640625,0.8125,0.1630859375,0.828125,4
+dispatcher,a,a,True,param,False,emergency,False,0.9535781741142272,0.3816238045692444,0.6959542632102966,pharmacist,a,Someone who dispenses medications is a pharmacist,"<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who coordinates emergency services is","<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who coordinates emergency services is a","<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who coordinates emergency services is an",Qwen3-4B-a-dispatcher,a-dispatcher.pt,0.953125,0.041748046875,0.95703125,0.037109375,0.92578125,0.06689453125,0.95703125,0.037109375,0.95703125,0.037109375,0.95703125,0.037109375,0.953125,0.041748046875,3
+counselor,a,a,True,mentor,False,advisor,False,0.9845565557479858,0.992185652256012,0.7543448209762573,musician,a,Someone who plays instruments or composes music is a musician,"<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who provides guidance and support is","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who provides guidance and support is a","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who provides guidance and support is an",Qwen3-4B-a-counselor,a-counselor.pt,0.984375,0.00244140625,0.984375,0.0031280517578125,0.98046875,0.0108642578125,0.984375,0.0027618408203125,0.984375,0.00244140625,0.98828125,0.002777099609375,0.94140625,0.00141143798828125,4
+therapist,a,a,True,physician,False,__,False,0.9942217469215392,0.4481961727142334,0.2804624140262604,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist,"<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who provides treatment for physical or mental conditions is","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who provides treatment for physical or mental conditions is a","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who provides treatment for physical or mental conditions is an",Qwen3-4B-a-therapist,a-therapist.pt,0.99609375,0.0002593994140625,0.9921875,0.0003337860107421875,0.9921875,9.5367431640625e-05,0.9921875,0.00042724609375,0.99609375,4.00543212890625e-05,0.99609375,0.0003337860107421875,0.9921875,8.392333984375e-05,18
+nutritionist,a,a,True,nutrition,True,expert,False,0.997010350227356,0.3732055425643921,0.1619710773229599,bartender,a,Someone who mixes and serves drinks is a bartender,"<|im_start|>user
+Someone who mixes and serves drinks is a bartender. Someone who advises on diet and nutrition is","<|im_start|>user
+Someone who mixes and serves drinks is a bartender. Someone who advises on diet and nutrition is a","<|im_start|>user
+Someone who mixes and serves drinks is a bartender. Someone who advises on diet and nutrition is an",Qwen3-4B-a-nutritionist,a-nutritionist.pt,0.99609375,0.0001087188720703125,0.99609375,0.0002593994140625,1.0,3.123283386230469e-05,0.99609375,0.0001087188720703125,0.9921875,0.000202178955078125,1.0,0.0001087188720703125,0.99609375,0.0001583099365234375,14
+trainer,a,a,True,trainer,True,instructor,False,0.9747246503829956,0.5071756839752197,0.6202600002288818,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist,"<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps others develop skills or fitness is","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps others develop skills or fitness is a","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps others develop skills or fitness is an",Qwen3-4B-a-trainer,a-trainer.pt,0.9765625,0.0074462890625,0.9765625,0.0074462890625,0.9765625,0.00579833984375,0.97265625,0.006561279296875,0.96875,0.01220703125,0.9765625,0.006591796875,0.9765625,0.0074462890625,3
+coach,a,a,True,coach,True,instructor,False,0.984012246131897,0.9724908471107484,0.2750595808029175,inspector,an,Someone who examines things for quality or compliance is an inspector,"<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who teaches and guides athletes is","<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who teaches and guides athletes is a","<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who teaches and guides athletes is an",Qwen3-4B-a-coach,a-coach.pt,0.984375,0.003143310546875,0.9765625,0.0074462890625,0.9296875,0.0673828125,0.98046875,0.0031280517578125,0.00021266937255859375,1.1175870895385742e-06,0.984375,0.0035400390625,0.98828125,0.002777099609375,12
+referee,a,a,True,referee,True,official,False,0.9848278760910034,0.7278978228569031,0.4955497086048126,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist,"<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who enforces rules in sports is","<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who enforces rules in sports is a","<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who enforces rules in sports is an",Qwen3-4B-a-referee,a-referee.pt,0.984375,0.006622314453125,0.984375,0.00665283203125,0.984375,0.005859375,0.984375,0.006622314453125,0.984375,0.006622314453125,0.98828125,0.007537841796875,0.83203125,0.0038604736328125,2
+cashier,a,a,True,cashier,True,employee,False,0.9850790500640868,0.7410261034965515,0.6195149421691895,professor,a,Someone who teaches and conducts research at universities is a professor,"<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who handles payments in stores is","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who handles payments in stores is a","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who handles payments in stores is an",Qwen3-4B-a-cashier,a-cashier.pt,0.984375,0.0035552978515625,0.984375,0.0035552978515625,0.984375,0.0040283203125,0.984375,0.0035552978515625,0.98828125,0.0035552978515625,0.98828125,0.0035552978515625,0.9609375,0.00445556640625,2
+clerk,a,an,False,clerk,True,administrator,False,0.8375937938690186,0.3669740259647369,0.9224395155906676,linguist,a,Someone who studies languages and their structure is a linguist,"<|im_start|>user
+Someone who studies languages and their structure is a linguist. Someone who performs administrative tasks is","<|im_start|>user
+Someone who studies languages and their structure is a linguist. Someone who performs administrative tasks is a","<|im_start|>user
+Someone who studies languages and their structure is a linguist. Someone who performs administrative tasks is an",Qwen3-4B-a-clerk,a-clerk.pt,0.1279296875,0.8359375,0.1416015625,0.8125,0.158203125,0.8046875,0.1279296875,0.8359375,0.11376953125,0.83984375,0.1416015625,0.81640625,0.0654296875,0.90234375,4
+receptionist,a,a,True,reception,True,usher,False,0.9864171743392944,0.997478187084198,0.3799827992916107,meteorologist,a,Someone who studies weather patterns is a meteorologist,"<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who greets visitors and answers phones is","<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who greets visitors and answers phones is a","<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who greets visitors and answers phones is an",Qwen3-4B-a-receptionist,a-receptionist.pt,0.98828125,0.00518798828125,0.98828125,0.003143310546875,0.859375,0.1318359375,0.984375,0.00665283203125,0.000904083251953125,4.738569259643555e-06,0.984375,0.005859375,0.98828125,0.0035552978515625,5
+secretary,a,a,True,clerk,False,administrator,False,0.5980015397071838,0.4212843179702759,0.4509362876415252,economist,an,Someone who studies financial systems and markets is an economist,"<|im_start|>user
+Someone who studies financial systems and markets is an economist. Someone who provides administrative support is","<|im_start|>user
+Someone who studies financial systems and markets is an economist. Someone who provides administrative support is a","<|im_start|>user
+Someone who studies financial systems and markets is an economist. Someone who provides administrative support is an",Qwen3-4B-a-secretary,a-secretary.pt,0.6015625,0.365234375,0.80859375,0.1591796875,0.130859375,0.85546875,0.5703125,0.392578125,0.2119140625,0.12890625,0.6015625,0.365234375,0.62890625,0.3359375,5
+manager,a,a,True,manager,True,administrator,False,0.9093157649040222,0.7967199087142944,0.6125932931900024,referee,a,Someone who enforces rules in sports is a referee,"<|im_start|>user
+Someone who enforces rules in sports is a referee. Someone who oversees operations and staff is","<|im_start|>user
+Someone who enforces rules in sports is a referee. Someone who oversees operations and staff is a","<|im_start|>user
+Someone who enforces rules in sports is a referee. Someone who oversees operations and staff is an",Qwen3-4B-a-manager,a-manager.pt,0.91015625,0.04541015625,0.90625,0.051025390625,0.921875,0.04052734375,0.90625,0.045166015625,0.88671875,0.07275390625,0.9296875,0.03173828125,0.625,0.2021484375,8
+supervisor,a,a,True,manager,False,administrator,False,0.9618366956710817,0.7794882655143738,0.1612161993980407,oncologist,an,Someone who treats cancer patients is an oncologist,"<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who directs and monitors workers is","<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who directs and monitors workers is a","<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who directs and monitors workers is an",Qwen3-4B-a-supervisor,a-supervisor.pt,0.96484375,0.029052734375,0.96484375,0.029052734375,0.94921875,0.041748046875,0.96484375,0.0257568359375,0.94140625,0.052978515625,0.96484375,0.0291748046875,0.9609375,0.029052734375,6
+consultant,a,a,True,consultant,True,expert,False,0.9624704718589784,0.8174834251403809,0.5998666286468506,secretary,a,Someone who provides administrative support is a secretary,"<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who provides expert advice is","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who provides expert advice is a","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who provides expert advice is an",Qwen3-4B-a-consultant,a-consultant.pt,0.9609375,0.032958984375,0.9609375,0.032958984375,0.97265625,0.0228271484375,0.96484375,0.029052734375,0.96875,0.02587890625,0.96875,0.0257568359375,0.94140625,0.0322265625,5
+analyst,an,a,False,analyst,True,data,False,0.820584237575531,0.9843292236328124,0.6825085878372192,clerk,a,Someone who performs administrative tasks is a clerk,"<|im_start|>user
+Someone who performs administrative tasks is a clerk. Someone who examines data and information is","<|im_start|>user
+Someone who performs administrative tasks is a clerk. Someone who examines data and information is an","<|im_start|>user
+Someone who performs administrative tasks is a clerk. Someone who examines data and information is a",Qwen3-4B-an-analyst,an-analyst.pt,0.82421875,0.162109375,0.94140625,0.04150390625,0.10546875,0.88671875,0.8671875,0.1171875,0.484375,0.427734375,0.6171875,0.373046875,0.90234375,0.083984375,7
+auditor,an,an,True,accountant,False,book,False,0.8901841640472412,0.9947766065597534,0.7686412930488586,nutritionist,a,Someone who advises on diet and nutrition is a nutritionist,"<|im_start|>user
+Someone who advises on diet and nutrition is a nutritionist. Someone who examines financial records is","<|im_start|>user
+Someone who advises on diet and nutrition is a nutritionist. Someone who examines financial records is an","<|im_start|>user
+Someone who advises on diet and nutrition is a nutritionist. Someone who examines financial records is a",Qwen3-4B-an-auditor,an-auditor.pt,0.10546875,0.8828125,0.2890625,0.69140625,0.0096435546875,0.98828125,0.11767578125,0.8671875,0.0595703125,0.93359375,0.484375,0.484375,0.01239013671875,0.984375,6
+banker,a,a,True,financial,False,accountant,False,0.9195011258125304,0.2662138044834137,0.3805131018161773,architect,an,Someone who designs buildings and structures is an architect,"<|im_start|>user
+Someone who designs buildings and structures is an architect. Someone who works in financial institutions is","<|im_start|>user
+Someone who designs buildings and structures is an architect. Someone who works in financial institutions is a","<|im_start|>user
+Someone who designs buildings and structures is an architect. Someone who works in financial institutions is an",Qwen3-4B-a-banker,a-banker.pt,0.91796875,0.06640625,0.76171875,0.2177734375,0.9921875,0.0001392364501953125,0.8984375,0.08349609375,0.94921875,0.028564453125,0.91796875,0.06640625,0.95703125,0.037109375,7
+broker,a,a,True,______,False,accountant,False,0.9680497646331788,0.1592854857444763,0.643850564956665,detective,a,Someone who investigates crimes is a detective,"<|im_start|>user
+Someone who investigates crimes is a detective. Someone who facilitates financial transactions is","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who facilitates financial transactions is a","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who facilitates financial transactions is an",Qwen3-4B-a-broker,a-broker.pt,0.96875,0.0257568359375,0.96875,0.0257568359375,0.96875,0.0228271484375,0.96875,0.0257568359375,0.97265625,0.0228271484375,0.96875,0.0257568359375,0.96875,0.0257568359375,1
+realtor,a,a,True,real,True,agent,False,0.9534669518470764,0.9111006259918212,0.9682263135910034,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist,"<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps buy and sell property is","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps buy and sell property is a","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps buy and sell property is an",Qwen3-4B-a-realtor,a-realtor.pt,0.94921875,0.0223388671875,0.953125,0.0223388671875,0.96484375,0.00738525390625,0.94921875,0.0252685546875,5.699694156646729e-07,5.587935447692871e-09,0.953125,0.0224609375,0.9375,0.0322265625,3
+auctioneer,an,a,False,auction,True,______,False,0.8637558817863464,0.9958051443099976,0.2666156888008117,physicist,a,Someone who studies matter and energy is a physicist,"<|im_start|>user
+Someone who studies matter and energy is a physicist. Someone who conducts auctions is","<|im_start|>user
+Someone who studies matter and energy is a physicist. Someone who conducts auctions is an","<|im_start|>user
+Someone who studies matter and energy is a physicist. Someone who conducts auctions is a",Qwen3-4B-an-auctioneer,an-auctioneer.pt,0.875,0.09228515625,0.859375,0.1025390625,0.8359375,0.1279296875,0.875,0.09228515625,0.84765625,0.11474609375,0.87109375,0.091796875,0.875,0.1044921875,4
+salesperson,a,a,True,merchant,False,entrepreneur,False,0.9842680096626282,0.4379454553127289,0.2581625580787658,roofer,a,Someone who installs and repairs roofs is a roofer,"<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who sells products or services is","<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who sells products or services is a","<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who sells products or services is an",Qwen3-4B-a-salesperson,a-salesperson.pt,0.984375,0.0014801025390625,0.97265625,0.006561279296875,0.98828125,0.000156402587890625,0.984375,0.00189971923828125,0.921875,0.0008392333984375,0.9375,0.004913330078125,1.0,2.4318695068359375e-05,8
+retailer,a,a,True,sales,False,...,False,0.9828703999519348,0.3075842559337616,0.3318674862384796,analyst,an,Someone who examines data and information is an analyst,"<|im_start|>user
+Someone who examines data and information is an analyst. Someone who sells goods directly to consumers is","<|im_start|>user
+Someone who examines data and information is an analyst. Someone who sells goods directly to consumers is a","<|im_start|>user
+Someone who examines data and information is an analyst. Someone who sells goods directly to consumers is an",Qwen3-4B-a-retailer,a-retailer.pt,0.984375,0.0002918243408203125,0.984375,0.00037384033203125,0.98046875,0.00019931793212890625,0.98046875,0.00037384033203125,0.984375,0.0002002716064453125,0.98828125,0.000331878662109375,0.94921875,0.0003185272216796875,5
+wholesaler,a,a,True,merchant,False,entrepreneur,False,0.9644911885261536,0.7530674934387207,0.9558499455451964,psychiatrist,a,Someone who treats mental health disorders is a psychiatrist,"<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who sells goods in large quantities is","<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who sells goods in large quantities is a","<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who sells goods in large quantities is an",Qwen3-4B-a-wholesaler,a-wholesaler.pt,0.9609375,0.02001953125,0.9609375,0.02001953125,0.96484375,0.02001953125,0.9609375,0.02001953125,0.96484375,0.02001953125,0.98046875,0.0123291015625,0.96875,0.0177001953125,2
+inventor,an,an,True,inventor,True,______,False,0.9807580709457396,0.7180324196815491,0.2453053295612335,professor,a,Someone who teaches and conducts research at universities is a professor,"<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who creates new devices or processes is","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who creates new devices or processes is an","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who creates new devices or processes is a",Qwen3-4B-an-inventor,an-inventor.pt,0.015869140625,0.98046875,0.037109375,0.95703125,0.00116729736328125,0.99609375,0.015869140625,0.98046875,0.020263671875,0.9765625,0.020263671875,0.9765625,0.0096435546875,0.984375,7
+programmer,a,a,True,programmer,True,programmer,True,0.997490644454956,0.9104978442192078,0.2177999764680862,waiter,a,Someone who serves food in restaurants is a waiter,"<|im_start|>user
+Someone who serves food in restaurants is a waiter. Someone who writes computer code is","<|im_start|>user
+Someone who serves food in restaurants is a waiter. Someone who writes computer code is a","<|im_start|>user
+Someone who serves food in restaurants is a waiter. Someone who writes computer code is an",Qwen3-4B-a-programmer,a-programmer.pt,0.99609375,0.00020313262939453125,0.9921875,0.001922607421875,0.99609375,1.2218952178955078e-05,0.99609375,0.0004863739013671875,0.9609375,1.609325408935547e-05,0.99609375,0.00020313262939453125,0.99609375,0.0002613067626953125,16
+technician,a,a,True,technician,True,engineer,False,0.8834585547447205,0.9861841797828674,0.8959822654724121,musician,a,Someone who plays instruments or composes music is a musician,"<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who maintains and repairs technical equipment is","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who maintains and repairs technical equipment is a","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who maintains and repairs technical equipment is an",Qwen3-4B-a-technician,a-technician.pt,0.88671875,0.08251953125,0.87890625,0.0927734375,0.90625,0.05126953125,0.8671875,0.09130859375,0.8828125,0.10546875,0.8828125,0.08203125,0.84375,0.1298828125,5
+operator,an,a,False,operator,True,mechanic,False,0.9290217161178588,0.8139351010322571,0.5430997610092163,oncologist,an,Someone who treats cancer patients is an oncologist,"<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who runs machinery or equipment is","<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who runs machinery or equipment is an","<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who runs machinery or equipment is a",Qwen3-4B-an-operator,an-operator.pt,0.9296875,0.0361328125,0.92578125,0.040771484375,0.93359375,0.031982421875,0.9296875,0.0361328125,0.93359375,0.0361328125,0.9296875,0.0361328125,0.921875,0.0458984375,4
+inspector,an,a,False,inspector,True,______,False,0.91194748878479,0.9897432923316956,0.3520421683788299,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist,"<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who examines things for quality or compliance is","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who examines things for quality or compliance is an","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who examines things for quality or compliance is a",Qwen3-4B-an-inspector,an-inspector.pt,0.9140625,0.058349609375,0.96484375,0.01214599609375,0.06640625,0.91796875,0.9296875,0.04638671875,0.00010538101196289062,1.424551010131836e-05,0.921875,0.052001953125,0.9140625,0.05859375,3
+examiner,an,a,False,ass,False,______,False,0.6668444275856018,0.7155618071556091,0.2729946970939636,receptionist,a,Someone who greets visitors and answers phones is a receptionist,"<|im_start|>user
+Someone who greets visitors and answers phones is a receptionist. Someone who tests or evaluates people or things is","<|im_start|>user
+Someone who greets visitors and answers phones is a receptionist. Someone who tests or evaluates people or things is an","<|im_start|>user
+Someone who greets visitors and answers phones is a receptionist. Someone who tests or evaluates people or things is a",Qwen3-4B-an-examiner,an-examiner.pt,0.67578125,0.318359375,0.69921875,0.291015625,0.345703125,0.6484375,0.67578125,0.318359375,0.6171875,0.375,0.6171875,0.375,0.79296875,0.201171875,3
