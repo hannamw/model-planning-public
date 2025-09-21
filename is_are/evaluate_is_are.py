@@ -143,22 +143,25 @@ def evaluate_math_animals(
 
         records.append(
             {
-                "Prompt": sentence,
-                "Animal": row["animal"],
-                "Gold_Verb": gold_verb,
-                "Wrong_Verb": wrong_verb,
-                "Predicted_Verb": pred_verb,
-                "Verb_Correct": verb_correct,
-                "Gold_Number": gold_number,
-                "Predicted_Number_Token": pred_number_tok_correct,
-                "Predicted_Number_Int": pred_number_int_correct,
-                "Number_Correct": number_correct_with_correct_verb,
-                "Predicted_Number_Token_Wrong_Verb": pred_number_tok_wrong,
-                "Predicted_Number_Int_Wrong_Verb": pred_number_int_wrong,
-                "Number_Correct_With_Wrong_Verb": number_correct_with_wrong_verb,
-                "Prob_Verb": prob_verb,
-                "Prob_Number": prob_number_correct,
-                "Prob_Number_Wrong_Verb": prob_number_wrong,
+                "prompt": sentence,
+                "animal": row["animal"],
+                "gold_verb": gold_verb,
+                "wrong_verb": wrong_verb,
+                "predicted_verb": pred_verb,
+                "verb_correct": verb_correct,
+                "gold_number": gold_number,
+                "predicted_number_token": pred_number_tok_correct,
+                "predicted_number_int": pred_number_int_correct,
+                "number_correct": number_correct_with_correct_verb,
+                "predicted_number_token_wrong_verb": pred_number_tok_wrong,
+                "predicted_number_int_wrong_verb": pred_number_int_wrong,
+                "number_correct_with_wrong_verb": number_correct_with_wrong_verb,
+                "prob_verb": prob_verb,
+                "prob_number": prob_number_correct,
+                "prob_number_wrong_verb": prob_number_wrong,
+                "prompt_base": prompt_base,
+                "prompt_with_correct_verb": prompt_with_correct_verb,
+                "prompt_with_wrong_verb": prompt_with_wrong_verb,
             }
         )
 
@@ -167,14 +170,14 @@ def evaluate_math_animals(
     out_df.to_csv(output_path, index=False)
 
     # Aggregate metrics
-    verb_acc = out_df["Verb_Correct"].mean()
+    verb_acc = out_df["verb_correct"].mean()
     
     # Number accuracy metrics
-    num_acc_correct = out_df["Number_Correct"].mean()
-    num_acc_wrong = out_df["Number_Correct_With_Wrong_Verb"].mean()
+    num_acc_correct = out_df["number_correct"].mean()
+    num_acc_wrong = out_df["number_correct_with_wrong_verb"].mean()
 
     per_verb = (
-        out_df.groupby("Gold_Verb")["Verb_Correct"].mean().to_dict()
+        out_df.groupby("gold_verb")["verb_correct"].mean().to_dict()
     )
 
     print(f"==== {model_name} on Math-Animals ====")
@@ -187,10 +190,10 @@ def evaluate_math_animals(
     # Per-verb breakdown for number accuracy
     print("\nNumber accuracy by gold verb:")
     for verb in ["is", "are"]:
-        verb_subset = out_df[out_df["Gold_Verb"] == verb]
+        verb_subset = out_df[out_df["gold_verb"] == verb]
         if len(verb_subset) > 0:
-            correct_acc = verb_subset["Number_Correct"].mean()
-            wrong_acc = verb_subset["Number_Correct_With_Wrong_Verb"].mean()
+            correct_acc = verb_subset["number_correct"].mean()
+            wrong_acc = verb_subset["number_correct_with_wrong_verb"].mean()
             print(f"  {verb} - correct verb: {correct_acc:.3%}")
             print(f"  {verb} - wrong verb: {wrong_acc:.3%}")
 
