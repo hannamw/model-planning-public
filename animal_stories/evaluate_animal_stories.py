@@ -17,7 +17,6 @@ import gc
 import re
 import torch
 from pathlib import Path
-from typing import Dict, List, Optional, Set
 
 from tqdm import tqdm
 import pandas as pd
@@ -32,10 +31,10 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 DEFAULT_TEMPERATURE = 0.0
 DEFAULT_MAX_TOKENS = 50    # Enough for one sentence
 RESULTS_DIR = Path("results/behavioral")
-ANIMALS_FILE = Path("../data/animals.txt")
+ANIMALS_FILE = Path("data/animals.txt")
 
 
-def load_animals_list(animals_file: Path = ANIMALS_FILE) -> Set[str]:
+def load_animals_list(animals_file: Path = ANIMALS_FILE) -> set[str]:
     """Load the animals list from file and return as a set of lowercase names."""
     animals = set()
     
@@ -49,7 +48,7 @@ def load_animals_list(animals_file: Path = ANIMALS_FILE) -> Set[str]:
     return animals
 
 
-def detect_animal_in_text(text: str, animals_set: Set[str]) -> str:
+def detect_animal_in_text(text: str, animals_set: set[str]) -> str:
     """
     Detect which animal is mentioned in the text.
     Returns the animal name (original case) or empty string if none found.
@@ -83,7 +82,7 @@ def detect_animal_in_text(text: str, animals_set: Set[str]) -> str:
     return ""
 
 
-def load_model(model_name: str, gpus: Optional[int] = None):
+def load_model(model_name: str, gpus: int | None = None):
     """Load a Hugging Face model and tokenizer for inference."""
     print(f"Loading model: {model_name}")
     
@@ -141,12 +140,12 @@ def clean_response(response: str, first_sentence: str = "") -> str:
 
 
 def generate_answers(
-    message_lists: List[List[Dict[str, str]]],
+    message_lists: list[list[dict[str, str]]],
     model,
     tokenizer,
     temperature: float = DEFAULT_TEMPERATURE,
     max_tokens: int = DEFAULT_MAX_TOKENS
-) -> List[str]:
+) -> list[str]:
     """Generate answers using Hugging Face transformers."""
     
     # Convert message lists to prompts
@@ -233,7 +232,7 @@ def extract_first_sentence(text: str) -> str:
     return text.strip()
 
 
-def create_continuation_prompt(first_sentence: str) -> List[Dict[str, str]]:
+def create_continuation_prompt(first_sentence: str) -> list[dict[str, str]]:
     """Create a prompt for the model to continue the story."""
     
     messages = [
@@ -251,10 +250,10 @@ def evaluate_model_on_dataset(
     dataset: pd.DataFrame,
     temperature: float = DEFAULT_TEMPERATURE,
     max_tokens: int = DEFAULT_MAX_TOKENS,
-    gpus: Optional[int] = None,
+    gpus: int | None = None,
     batch_size: int = 32,
-    animals_set: Optional[Set[str]] = None
-) -> List[Dict]:
+    animals_set: set[str] | None = None
+) -> list[dict]:
     """Evaluate a single model on the entire dataset."""
     
     print(f"Evaluating {model_name} on {len(dataset)} examples...")

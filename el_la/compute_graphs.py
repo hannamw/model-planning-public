@@ -40,10 +40,10 @@ def chattify(inputs: List[str], tokenizer):
 for model_name, model_config in model_names_and_configs:
     model_short_name = model_name.split('/')[-1]
     print(model_short_name)
-    df = pd.read_csv(f'results/behavioral/{model_short_name}.csv')
+    df = pd.read_csv(f'results/behavioral/{model_short_name}.csv').head(150)
     model = ReplacementModel.from_pretrained(model_name, 
                                             model_config, 
-                                            lazy_encoder=('14B' in model_short_name),
+                                            lazy_encoder=False,
                                             dtype=torch.bfloat16)
 
     el_token = model.tokenizer(' el').input_ids[0]

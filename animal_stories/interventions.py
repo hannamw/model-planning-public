@@ -10,18 +10,16 @@ This script:
 """
 
 import pandas as pd
-import numpy as np
 import re
 import torch
 from pathlib import Path
-from typing import Set, List, Tuple, Dict
 from transformer_lens import HookedTransformer
 from tqdm import tqdm
 import warnings
 warnings.filterwarnings('ignore')
 
 
-def load_animals_list(animals_file: Path = Path("../data/animals.txt")) -> Set[str]:
+def load_animals_list(animals_file: Path = Path("data/animals.txt")) -> set[str]:
     """Load the animals list from file and return as a set of lowercase names."""
     animals = set()
     
@@ -35,7 +33,7 @@ def load_animals_list(animals_file: Path = Path("../data/animals.txt")) -> Set[s
     return animals
 
 
-def detect_animal_in_text(text: str, animals_set: Set[str]) -> str:
+def detect_animal_in_text(text: str, animals_set: set[str]) -> str:
     """
     Detect which animal is mentioned in the text.
     Returns the animal name (original case) or empty string if none found.
@@ -116,14 +114,12 @@ def load_and_filter_data(model_name: str) -> pd.DataFrame:
     return df_filtered
 
 
-def create_sentence_pairs(df: pd.DataFrame) -> List[Tuple[str, str, str, str]]:
+def create_sentence_pairs(df: pd.DataFrame) -> list[tuple[str, str, str, str]]:
     """
     Create pairs of first sentences that produce different animals.
     For each sentence, sample one sentence from all sentences leading to other animals.
     Returns list of tuples: (sentence1, animal1, sentence2, animal2)
-    """
-    import numpy as np
-    
+    """    
     print(f"Creating sentence pairs from {len(df['detected_animal'].unique())} different animals")
     
     pairs = []
@@ -237,11 +233,11 @@ def main():
 
 
 def run_intervention_experiment(
-    sentence_pairs: List[Tuple[str, str, str, str]], 
+    sentence_pairs: list[tuple[str, str, str, str]], 
     model: HookedTransformer, 
     prompt: str,
-    animals_set: Set[str]
-) -> List[Dict]:
+    animals_set: set[str]
+) -> list[dict]:
     """
     Run intervention experiment on sentence pairs.
     For each pair, patch activations from second sentence to first sentence.

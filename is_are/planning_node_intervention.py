@@ -76,7 +76,7 @@ def _is_word_feature(layer, feature_idx, word, feature_cache):
 # Load important nodes for all models
 # The load_important_nodes function now handles loading and filtering
 # We need to pass the model_name and example_key to it
-for model_name, transcoders in list(models_to_transcoders.items()):
+for model_name, transcoders in list(models_to_transcoders.items())[-1:]:
     feature_info_cache = {}
     is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
     
@@ -85,7 +85,7 @@ for model_name, transcoders in list(models_to_transcoders.items()):
                                             lazy_encoder=False)
     
     metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv')
-    graph_dir = Path('graphs') / model_name
+    graph_dir = Path('attribution_graphs') / model_name
     
     # Add new columns to metadata for storing results
     metadata['original_are_prob'] = None

@@ -1,22 +1,16 @@
 #%%
 # Import additional required modules
 import re
-import json
 from pathlib import Path
-from typing import List
 from functools import partial, lru_cache
 
 import pandas as pd
 from tqdm import tqdm
 import torch
-import matplotlib.pyplot as plt
-from matplotlib.legend_handler import HandlerTuple
 import numpy as np
 
 from circuit_tracer.graph import Graph, normalize_matrix
 from load_feature_from_binary import get_features_top_acts_from_list
-
-# Define threshold parameters
 
 # Define models using same format as intervention file
 models_to_transcoders = {
@@ -68,16 +62,6 @@ def term_in_logits(term:str, top: list[str], bottom: list[str], use_bottom=True,
         return False
     else:
         return any(term in logit for logit in logits)
-
-
-
-#%%
-def load_model_results(model_name: str, results_dir: str = 'results/graph_metadata'):
-    """Load results and metadata for a specific model"""
-    results_dir = Path(results_dir)
-    metadata_path = results_dir / f'{model_name}.csv'
-    metadata = pd.read_csv(metadata_path)
-    return metadata
 
 
 def compute_path_length_influence(graph: Graph, selected_nodes=None):
@@ -154,7 +138,7 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     feature_info_cache = {}
     is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
     
-    metadata = load_model_results(model_name)
+    metadata = pd.read_csv(f'results/graph_metadata/{model_name}.csv')
     
     graph_dir = Path('attribution_graphs') / model_name
     
@@ -220,7 +204,7 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     is_a = metadata['article'] == 'a'
     is_an = metadata['article'] == 'an'
     # The 'correct?' column is assumed to exist and be boolean
-    is_correct = metadata['correct?'] == True
+    is_correct = metadata['article_correct'] == True
     is_incorrect = ~is_correct
 
     def get_mean_influence(mask):
@@ -265,5 +249,5 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     # Save results for this model
     path_length_results_dir = Path('results/path_length')
     path_length_results_dir.mkdir(exist_ok=True)
-    torch.save(all_model_results[model_name], path_length_results_dir / f'{model_name}_path_length_results.pt')
-    print(f"  Saved results to {path_length_results_dir / f'{model_name}_path_length_results.pt'}")
+    torch.save(all_model_results[model_name], path_length_results_dir / f'{model_name}.pt')
+    print(f"  Saved results to {path_length_results_dir / f'{model_name}.pt'}")
