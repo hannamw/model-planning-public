@@ -9,9 +9,6 @@ import pandas as pd
 from circuit_tracer.attribution.attribute import attribute
 from circuit_tracer.replacement_model import ReplacementModel
 from circuit_tracer.utils.create_graph_files import create_graph_files
-from circuit_tracer.frontend.upload_graph_to_s3 import upload_graph_to_s3
-
-from utils import create_dataset_examples
 
 Example = namedtuple("Example", ["sentence", "coninuation", "name"])
 
@@ -43,7 +40,7 @@ def chattify(inputs: List[str], tokenizer):
 for model_name, model_config in model_names_and_configs:
     model_short_name = model_name.split('/')[-1]
     print(model_short_name)
-    df_ex = pd.read_csv(f'results/behavioral-filtered/{model_short_name}.csv')
+    df = pd.read_csv(f'results/behavioral/{model_short_name}.csv')
     model = ReplacementModel.from_pretrained(model_name, 
                                             model_config, 
                                             lazy_encoder=('14B' in model_short_name),
@@ -60,8 +57,9 @@ for model_name, model_config in model_names_and_configs:
     las_minus_los = model.W_U[:, las_token] - model.W_U[:, los_token]
 
     examples = [Example(f"{model.tokenizer.eos_token}{prompt}", f' {article}', f'{article}-{profession}') 
-                for prompt, article, profession in zip(df_ex['Description'], df_ex['Article'], df_ex['Spanish_Noun'])]
+                for prompt, article, profession in zip(df['prompt_before_article'], df['article'], df['spanish_noun'])]
 
+    names = []
     for sentence, continuation, name in examples:
         input_ids = model.tokenizer(sentence).input_ids
         tokens = model.tokenizer.convert_ids_to_tokens(input_ids)
@@ -85,6 +83,8 @@ for model_name, model_config in model_names_and_configs:
         graph = attribute(sentence, model, batch_size=128, max_feature_nodes=7500, 
                         offload=None, verbose=True)
 
+        names.append(name)
+
         pt_output_path = Path(f'attribution_graphs/{model_short_name}')
         pt_output_path.mkdir(exist_ok=True, parents=True)
         pt_output_path = pt_output_path / f'{name}.pt'
@@ -97,19 +97,22 @@ for model_name, model_config in model_names_and_configs:
 
         del graph
 
-        graph = attribute(sentence, model, batch_size=128, max_feature_nodes=7500, 
-                        offload=None, verbose=True, quantity_to_attribute=quantity_to_attribute)
+        # graph = attribute(sentence, model, batch_size=128, max_feature_nodes=7500, 
+        #                 offload=None, verbose=True, quantity_to_attribute=quantity_to_attribute)
 
-        pt_output_path = Path(f'attribution_graphs_diff/{model_short_name}')
-        pt_output_path.mkdir(exist_ok=True, parents=True)
-        pt_output_path = pt_output_path / f'{name}.pt'
-        graph.to_pt(pt_output_path)
+        # pt_output_path = Path(f'attribution_graphs_diff/{model_short_name}')
+        # pt_output_path.mkdir(exist_ok=True, parents=True)
+        # pt_output_path = pt_output_path / f'{name}.pt'
+        # graph.to_pt(pt_output_path)
 
-        slug = f"{model_short_name}-{name}"
+        # slug = f"{model_short_name}-{name}"
 
-        json_output_path = './graph_files_diff'
-        create_graph_files(graph, slug, json_output_path, node_threshold=0.8, edge_threshold=0.95)
+        # json_output_path = './graph_files_diff'
+        # create_graph_files(graph, slug, json_output_path, node_threshold=0.8, edge_threshold=0.95)
 
+    df['filename'] = names
+    Path('results/attribution_metadata').mkdir(exist_ok=True)
+    df.to_csv(f'results/attribution_metadata/{model_name}.csv')
     del model
     torch.cuda.empty_cache()
 # %%

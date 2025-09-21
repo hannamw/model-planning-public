@@ -182,23 +182,25 @@ def evaluate_nouns(
 
         records.append(
             {
-                "Spanish_Noun": spanish_noun,
-                "English_Noun": english_noun,
-                "Article": article,
-                "Predicted_Article": pred_article,
-                "Article_Correct": pred_article == article.lower(),
-                "Predicted_Noun": pred_noun,
-                "Noun_Correct": spanish_noun.lower().startswith(pred_noun),
-                "Predicted_Noun_Wrong_Article": pred_noun_wrong,
-                "Noun_Wrong_Article_Correct": spanish_noun.lower().startswith(pred_noun_wrong),
-                "Prob_Article": prob_article,
-                "Prob_Noun": prob_noun,
-                "Prob_Noun_Wrong_Article": prob_noun_wrong,
-                "IC_Spanish_Noun": ic_row["Spanish"].strip(),
-                "IC_English_Noun": ic_row["English"].strip(),
-                "IC_Article": ic_row["Article"].strip(),
-                "IC_Description": ic_description,
-                "Description": prompt_before_article
+                "spanish_noun": spanish_noun,
+                "english_noun": english_noun,
+                "article": article,
+                "predicted_article": pred_article,
+                "article_correct": pred_article == article.lower(),
+                "predicted_noun": pred_noun,
+                "noun_correct": spanish_noun.lower().startswith(pred_noun),
+                "predicted_noun_wrong_article": pred_noun_wrong,
+                "noun_wrong_article_correct": spanish_noun.lower().startswith(pred_noun_wrong),
+                "prob_article": prob_article,
+                "prob_noun": prob_noun,
+                "prob_noun_wrong_article": prob_noun_wrong,
+                "ic_spanish_noun": ic_row["Spanish"].strip(),
+                "ic_english_noun": ic_row["English"].strip(),
+                "ic_article": ic_row["Article"].strip(),
+                "ic_description": ic_description,
+                "prompt_before_article": prompt_before_article,
+                "prompt_with_article": prompt_with_article,
+                "prompt_with_wrong_article": prompt_with_wrong_article
             }
         )
 
@@ -206,12 +208,12 @@ def evaluate_nouns(
     out_df.to_csv(output_path, index=False)
 
     # Compute metrics
-    article_acc = out_df["Article_Correct"].mean()
-    noun_acc = out_df["Noun_Correct"].mean()
-    noun_wrong_acc = out_df["Noun_Wrong_Article_Correct"].mean()
+    article_acc = out_df["article_correct"].mean()
+    noun_acc = out_df["noun_correct"].mean()
+    noun_wrong_acc = out_df["noun_wrong_article_correct"].mean()
 
     per_article = (
-        out_df.groupby("Article")["Article_Correct"].mean().to_dict()
+        out_df.groupby("article")["article_correct"].mean().to_dict()
     )
 
     print(f"==== {model_name} Accuracy ====")
