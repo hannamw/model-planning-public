@@ -1,7 +1,8 @@
 #%%
 # Import additional required modules
-import json
+
 from pathlib import Path
+from functools import partial, lru_cache
 
 import pandas as pd
 from tqdm import tqdm
@@ -10,8 +11,9 @@ import torch
 from circuit_tracer.graph import Graph
 from circuit_tracer import ReplacementModel
 
+from load_feature_from_binary import get_features_top_acts_from_list
+
 # Define threshold parameters
-INTERVENTION_RESULTS_DIR = Path('results/interventions')  # Directory for path length results
 #%%
 
 models_to_transcoders = {
@@ -56,27 +58,72 @@ def term_in_logits(term:str, top: list[str], bottom: list[str], use_bottom=False
     else:
         return any(term == logit for logit in logits)
 
+
+def get_features_with_cache(features: list[tuple[int,int]], cache: dict, model_name: str, verbose=False):
+    features_to_get = [feature for feature in features if feature not in cache]
+    if features_to_get:
+        new_features = get_features_top_acts_from_list(model_name, features_to_get, verbose=verbose)
+        cache.update(new_features)
+    return {feature: cache[feature] for feature in features if cache[feature] is not None}
+
+def _is_word_feature(layer, feature_idx, word, feature_cache):
+    feature_info = feature_cache[(layer, feature_idx)]
+    if feature_info is None:
+        return False
+    return term_in_logits(word, feature_info['top_logits'], feature_info['bottom_logits'])
+
 #%%
 # Load important nodes for all models
 # The load_important_nodes function now handles loading and filtering
 # We need to pass the model_name and example_key to it
-for model_name, transcoders in models_to_transcoders.items():
+for model_name, transcoders in list(models_to_transcoders.items()):
+    feature_info_cache = {}
+    is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
+    
     model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
-                                                        transcoders, dtype=torch.bfloat16,
-                                                        lazy_encoder=False)
+                                            transcoders, dtype=torch.bfloat16,
+                                            lazy_encoder=False)
     
     metadata = pd.read_csv('data/animals_dataset_downsampled.csv')
-    
     graph_dir = Path('graphs_diff') / model_name
     
     # Add new columns to metadata for storing results
     metadata['original_are_prob'] = None
     metadata['original_is_prob'] = None
-    metadata['zeroed_are_prob'] = None
-    metadata['zeroed_is_prob'] = None
-    metadata['multiplied_are_prob'] = None
-    metadata['multiplied_is_prob'] = None
+    
+    # All intervention results (unconstrained)
+    metadata['all_zeroed_are_prob'] = None
+    metadata['all_zeroed_is_prob'] = None
+    metadata['all_multiplied_are_prob'] = None
+    metadata['all_multiplied_is_prob'] = None
+    
+    # Direct intervention results (constrained layers)
+    metadata['direct_zeroed_are_prob'] = None
+    metadata['direct_zeroed_is_prob'] = None
+    metadata['direct_multiplied_are_prob'] = None
+    metadata['direct_multiplied_is_prob'] = None
+    
+    # Random intervention results
+    metadata['random_zeroed_are_prob'] = None
+    metadata['random_zeroed_is_prob'] = None
+    metadata['random_multiplied_are_prob'] = None
+    metadata['random_multiplied_is_prob'] = None
+    
     metadata['selected_nodes_count'] = None
+
+    feature_set = set()
+    for idx, row in metadata.iterrows():
+        relevant_terms = relevant_term_mapping[str(row['number'])]
+        graph_name = row['name']
+        filename = graph_name + ".pt"
+        graph_file = graph_dir / filename
+        graph = Graph.from_pt(graph_file)
+
+        selected_features = graph.active_features[graph.selected_features]
+        last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
+        feature_set.update((layer, feature) for layer, _, feature in last_word_features.tolist())
+    
+    get_features_with_cache(list(feature_set), feature_info_cache, model_name)
     
     # Process each example based on metadata
     for idx, row in tqdm(metadata.iterrows()):
@@ -88,69 +135,126 @@ for model_name, transcoders in models_to_transcoders.items():
         
         graph = Graph.from_pt(str(graph_file))
 
-        node_tensor = graph.active_features[graph.selected_features]
-        node_list = node_tensor.tolist()
-        
         # Filter nodes by profession and related terms
-        selected_nodes = [(layer, pos, idx) for layer, pos, idx in node_list 
-                        if any(term_in_logits(term, top_bottom_by_layer[layer][1][idx], 
-                                            top_bottom_by_layer[layer][0][idx], k=5) for term in relevant_terms)]
-        
-        n_pos = graph.n_pos 
-        if selected_nodes:
-            selected_nodes = [(layer, pos, idx) for layer, pos, idx in selected_nodes if pos == n_pos - 1]
+        input_tokens = model.tokenizer.convert_ids_to_tokens(graph.input_tokens)
+
+        selected_features = graph.active_features[graph.selected_features]
+        last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
+        selected_nodes = [(layer, pos, feature) for layer, pos, feature in last_word_features.tolist() 
+                            if any(is_word_feature(layer, feature, term) for term in relevant_terms)]
         s = graph.input_string
         
         original_logits, original_acts = model.get_activations(s)
 
+        # Get token IDs for 'are' and 'is'
         tokenizer = model.tokenizer
         are_token_id = tokenizer.encode(' are', add_special_tokens=False)[0]
         is_token_id = tokenizer.encode(' is', add_special_tokens=False)[0]
         
-        # Extract probabilities for 'a' and 'an' tokens
+        # Extract probabilities for 'are' and 'is' tokens
         # Apply softmax to get probabilities
         original_probs = torch.softmax(original_logits[0, -1, :], dim=-1)
         
-        # Get specific probabilities for 'a' and 'an'
+        # Get specific probabilities for 'are' and 'is'
         original_are_prob = original_probs[are_token_id].item()
         original_is_prob = original_probs[is_token_id].item()
         
         # If we have selected nodes, perform interventions
         if selected_nodes is not None and len(selected_nodes) > 0:
+            selected_nodes_count = len(selected_nodes)
+            
+            # Prepare interventions for selected nodes
             zero_interventions = [(*feat, 0) for feat in selected_nodes]
             multiply_interventions = [(*feat, 5 * original_acts[tuple(feat)]) for feat in selected_nodes]
-            logits_zeros, acts_zeros = model.feature_intervention(s, interventions=zero_interventions)
-            logits_multiply, acts_multiply = model.feature_intervention(s, interventions=multiply_interventions)
             
-            zerod_probs = torch.softmax(logits_zeros[0, -1, :], dim=-1)
-            multiplied_probs = torch.softmax(logits_multiply[0, -1, :], dim=-1)
+            # ALL intervention (unconstrained)
+            logits_zeros_all, _ = model.feature_intervention(s, interventions=zero_interventions, return_activations=False)
+            logits_multiply_all, _ = model.feature_intervention(s, interventions=multiply_interventions, return_activations=False)
             
-            zeroed_are_prob = zerod_probs[are_token_id].item()
-            zeroed_is_prob = zerod_probs[is_token_id].item()
-            multiplied_are_prob = multiplied_probs[are_token_id].item()
-            multiplied_is_prob = multiplied_probs[is_token_id].item()
-            selected_nodes_count = len(selected_nodes)
+            zerod_probs_all = torch.softmax(logits_zeros_all[0, -1, :], dim=-1)
+            multiplied_probs_all = torch.softmax(logits_multiply_all[0, -1, :], dim=-1)
+            
+            all_zeroed_are_prob = zerod_probs_all[are_token_id].item()
+            all_zeroed_is_prob = zerod_probs_all[is_token_id].item()
+            all_multiplied_are_prob = multiplied_probs_all[are_token_id].item()
+            all_multiplied_is_prob = multiplied_probs_all[is_token_id].item()
+
+            # DIRECT intervention (constrained layers)
+            logits_zeros_direct, _ = model.feature_intervention(s, interventions=zero_interventions, 
+                                                                    constrained_layers=range(1, model.cfg.n_layers), 
+                                                                    return_activations=False)
+            logits_multiply_direct, _ = model.feature_intervention(s, interventions=multiply_interventions, 
+                                                                        constrained_layers=range(1, model.cfg.n_layers), 
+                                                                        return_activations=False)
+            
+            zerod_probs_direct = torch.softmax(logits_zeros_direct[0, -1, :], dim=-1)
+            multiplied_probs_direct = torch.softmax(logits_multiply_direct[0, -1, :], dim=-1)
+            
+            direct_zeroed_are_prob = zerod_probs_direct[are_token_id].item()
+            direct_zeroed_is_prob = zerod_probs_direct[is_token_id].item()
+            direct_multiplied_are_prob = multiplied_probs_direct[are_token_id].item()
+            direct_multiplied_is_prob = multiplied_probs_direct[is_token_id].item()
+
+            # RANDOM intervention
+            random_idxs = torch.randperm(len(last_word_features))[:len(selected_nodes)]
+            random_nodes = last_word_features[random_idxs].tolist()
+            zero_interventions_random = [(*feat, 0) for feat in random_nodes]
+            multiply_interventions_random = [(*feat, 5 * original_acts[tuple(feat)]) for feat in random_nodes]
+            logits_zeros_random, acts_zeros_random = model.feature_intervention(s, interventions=zero_interventions_random)
+            logits_multiply_random, acts_multiply_random = model.feature_intervention(s, interventions=multiply_interventions_random)
+            
+            zerod_probs_random = torch.softmax(logits_zeros_random[0, -1, :], dim=-1)
+            multiplied_probs_random = torch.softmax(logits_multiply_random[0, -1, :], dim=-1)
+            
+            random_zeroed_are_prob = zerod_probs_random[are_token_id].item()
+            random_zeroed_is_prob = zerod_probs_random[is_token_id].item()
+            random_multiplied_are_prob = multiplied_probs_random[are_token_id].item()
+            random_multiplied_is_prob = multiplied_probs_random[is_token_id].item()
         else:
-            # No selected nodes - use original probabilities for interventions
-            zeroed_are_prob = original_are_prob
-            zeroed_is_prob = original_is_prob
-            multiplied_are_prob = original_are_prob
-            multiplied_is_prob = original_is_prob
+            # No selected nodes - use original probabilities for all interventions
             selected_nodes_count = 0
+            all_zeroed_are_prob = original_are_prob
+            all_zeroed_is_prob = original_is_prob
+            all_multiplied_are_prob = original_are_prob
+            all_multiplied_is_prob = original_is_prob
+            direct_zeroed_are_prob = original_are_prob
+            direct_zeroed_is_prob = original_is_prob
+            direct_multiplied_are_prob = original_are_prob
+            direct_multiplied_is_prob = original_is_prob
+            random_zeroed_are_prob = original_are_prob
+            random_zeroed_is_prob = original_is_prob
+            random_multiplied_are_prob = original_are_prob
+            random_multiplied_is_prob = original_is_prob
         
         # Store probabilities directly in metadata DataFrame
         metadata.at[idx, 'original_are_prob'] = original_are_prob
         metadata.at[idx, 'original_is_prob'] = original_is_prob
-        metadata.at[idx, 'zeroed_are_prob'] = zeroed_are_prob
-        metadata.at[idx, 'zeroed_is_prob'] = zeroed_is_prob
-        metadata.at[idx, 'multiplied_are_prob'] = multiplied_are_prob
-        metadata.at[idx, 'multiplied_is_prob'] = multiplied_is_prob
+        
+        # All intervention results
+        metadata.at[idx, 'all_zeroed_are_prob'] = all_zeroed_are_prob
+        metadata.at[idx, 'all_zeroed_is_prob'] = all_zeroed_is_prob
+        metadata.at[idx, 'all_multiplied_are_prob'] = all_multiplied_are_prob
+        metadata.at[idx, 'all_multiplied_is_prob'] = all_multiplied_is_prob
+        
+        # Direct intervention results
+        metadata.at[idx, 'direct_zeroed_are_prob'] = direct_zeroed_are_prob
+        metadata.at[idx, 'direct_zeroed_is_prob'] = direct_zeroed_is_prob
+        metadata.at[idx, 'direct_multiplied_are_prob'] = direct_multiplied_are_prob
+        metadata.at[idx, 'direct_multiplied_is_prob'] = direct_multiplied_is_prob
+        
+        # Random intervention results
+        metadata.at[idx, 'random_zeroed_are_prob'] = random_zeroed_are_prob
+        metadata.at[idx, 'random_zeroed_is_prob'] = random_zeroed_is_prob
+        metadata.at[idx, 'random_multiplied_are_prob'] = random_multiplied_are_prob
+        metadata.at[idx, 'random_multiplied_is_prob'] = random_multiplied_is_prob
+        
         metadata.at[idx, 'selected_nodes_count'] = selected_nodes_count
         
     # Save the metadata with intervention results as CSV
-    INTERVENTION_RESULTS_DIR.mkdir(exist_ok=True)
-    metadata.to_csv(INTERVENTION_RESULTS_DIR / f'{model_name}.csv', index=False)
-    print(f"  Saved intervention results to {INTERVENTION_RESULTS_DIR / f'{model_name}.csv'}")
+    intervention_results_dir = Path('results/interventions')
+    intervention_results_dir.mkdir(exist_ok=True)
+    metadata.to_csv(intervention_results_dir / f'{model_name}.csv', index=False)
+    print(f"  Saved intervention results to {intervention_results_dir / f'{model_name}.csv'}")
     
     # Count examples with and without important nodes
     examples_with_nodes = (metadata['selected_nodes_count'] > 0).sum()
@@ -159,5 +263,7 @@ for model_name, transcoders in models_to_transcoders.items():
     print(f"  Processed {len(metadata)} total examples:")
     print(f"    - {examples_with_nodes} examples with important nodes (interventions performed)")
     print(f"    - {examples_without_nodes} examples without important nodes (original probabilities recorded)")
+    del model
+    torch.cuda.empty_cache()
 
 # %%
