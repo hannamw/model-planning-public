@@ -6,6 +6,8 @@ import re
 import pandas as pd
 import matplotlib.pyplot as plt
 from nltk.corpus import cmudict
+import nltk
+nltk.download('cmudict')
 #%%
 @lru_cache(maxsize=10000)
 def fetch_rhymes(word: str) -> frozenset[str]:

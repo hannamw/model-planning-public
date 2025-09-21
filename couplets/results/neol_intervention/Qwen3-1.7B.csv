@@ -1,4 +1,4 @@
-,first_line,first_last_word,second_last_word,rhyme_group,rhyme_success,clean_completion,raw_completion,raw_completion_without_last,n_features,n_selected_features,substring,stopped_generation,original_input,original_generation,continued_generation
+Unnamed: 0,first_line,first_last_word,second_last_word,rhyme_group,rhyme_success,clean_completion,raw_completion,raw_completion_without_last,n_features,n_selected_features,substring,stopped_generation,original_input,original_generation,continued_generation,neol_stopped_len_diffs,neol_continued_len_diffs,neol_eventually_rhymed
 0,"Golden echoes drift like dust through yesterday's dim light,",light,flight,light,True,"and fade like dreams in the wind's soft, silent flight.","and fade like dreams in the wind's soft, silent flight.","and fade like dreams in the wind's soft, silent",23,22,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Golden echoes drift like dust through yesterday's dim light,<|im_end|>
 <|im_start|>assistant
@@ -34,7 +34,7 @@ assistant
 
 </think>
 
-and fade like dreams in the wind's soft, silent, but, the next, the next, the"
+and fade like dreams in the wind's soft, silent, but, the next, the next, the",-4,6,False
 8,"The drums of time beat echoes of the past,",past,cast,past,True,and the future waits in silence to be cast.,and the future waits in silence to be cast.,and the future waits in silence to be,19,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: The drums of time beat echoes of the past,<|im_end|>
 <|im_start|>assistant
@@ -75,7 +75,7 @@ the
 the
 the
 the
-the"
+the",-4,4,False
 17,"In trembling hands, the storm both swells and dies,",dies,rise,dies,True,and fate's cruel dance begins to rise.,and fate's cruel dance begins to rise.,and fate's cruel dance begins to,20,20,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In trembling hands, the storm both swells and dies,<|im_end|>
 <|im_start|>assistant
@@ -115,7 +115,7 @@ and fate's cruel dance begins to
 the Earth, a
 the
 the
-"
+",-3,4,False
 19,"Roots buried deep in ancient soil,",soil,toil,soil,True,Leaves whisper tales of time and toil.,Leaves whisper tales of time and toil.,Leaves whisper tales of time and,21,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Roots buried deep in ancient soil,<|im_end|>
 <|im_start|>assistant
@@ -152,7 +152,7 @@ assistant
 </think>
 
 Leaves whisper tales of time and the unchanging,  
-into the future, a"
+into the future, a",1,5,False
 21,"In strokes of light and whispers unseen,",unseen,scene,unseen,True,The world is painted with a dreamy scene.,"In strokes of light and whispers unseen,  
 The world is painted with a dreamy scene.","In strokes of light and whispers unseen,  
 The world is painted with a dreamy",21,20,"<|im_start|>user
@@ -193,7 +193,7 @@ assistant
 </think>
 
 In strokes of light and whispers unseen,  
-The world is painted with a dreamy, and the by the the by the the by"
+The world is painted with a dreamy, and the by the the by the the by",-10,9,False
 25,"Beneath a sky that shifts from blue to grey,",grey,way,grey,True,the stars above cast shadows in a fleeting way.,the stars above cast shadows in a fleeting way.,the stars above cast shadows in a fleeting,20,20,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Beneath a sky that shifts from blue to grey,<|im_end|>
 <|im_start|>assistant
@@ -232,7 +232,7 @@ assistant
 the stars above cast shadows in a fleeting, the
 the
 the
-the"
+the",1,4,False
 27,"On tongues of time, flavors entwine,",entwine,sign,entwine,True,Yet silence holds a deeper sign.,"On tongues of time, flavors entwine,  
 Yet silence holds a deeper sign.","On tongues of time, flavors entwine,  
 Yet silence holds a deeper",22,21,"<|im_start|>user
@@ -274,7 +274,7 @@ assistant
 
 On tongues of time, flavors entwine,  
 Yet silence holds a deeper, and,  
-the_ _ the_ _"
+the_ _ the_ _",-7,5,False
 28,"In whispers of dawn, the soul begins to pray,",pray,way,grey,True,"and in the quiet of night, the heart finds its way.","and in the quiet of night, the heart finds its way.","and in the quiet of night, the heart finds its",21,20,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In whispers of dawn, the soul begins to pray,<|im_end|>
 <|im_start|>assistant
@@ -310,7 +310,7 @@ assistant
 
 </think>
 
-and in the quiet of night, the heart finds its ultimate, the 2000% of"
+and in the quiet of night, the heart finds its ultimate, the 2000% of",-5,3,False
 34,"Fury burns where calm once stayed,",stayed,played,stayed,True,and shadows weep where light once played.,and shadows weep where light once played.,and shadows weep where light once,23,22,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Fury burns where calm once stayed,<|im_end|>
 <|im_start|>assistant
@@ -351,7 +351,7 @@ the
 the
 the
 the
-the"
+the",5,4,False
 36,"Neon hums where tall shadows play,",play,ray,grey,True,And dreams are born in the light's bright ray.,"Neon hums where tall shadows play,  
 And dreams are born in the light's bright ray.","Neon hums where tall shadows play,  
 And dreams are born in the light's bright",18,18,"<|im_start|>user
@@ -395,7 +395,7 @@ Neon hums where tall shadows play,
 And dreams are born in the light's bright,  
 The
 {(the
-\, the"
+\, the",-12,4,False
 38,"Anger boils like storm in night,",night,tight,light,True,and breaks the silence tight.,and breaks the silence tight.,and breaks the silence,20,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Anger boils like storm in night,<|im_end|>
 <|im_start|>assistant
@@ -431,7 +431,7 @@ assistant
 
 </think>
 
-and breaks the silence."
+and breaks the silence.",1,0,False
 40,"Whispers coil like shadows, cold and tight,",tight,light,light,True,"Yet in the heart of dawn, they'll find their light.","Whispers coil like shadows, cold and tight,  
 Yet in the heart of dawn, they'll find their light.","Whispers coil like shadows, cold and tight,  
 Yet in the heart of dawn, they'll find their",22,20,"<|im_start|>user
@@ -477,7 +477,7 @@ the
 the
 the
 the
-the"
+the",-13,4,False
 41,"Like sunlight breaking through the clouds of gray,",gray,day,grey,True,the world is bright and full of new day.,the world is bright and full of new day.,the world is bright and full of new,23,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Like sunlight breaking through the clouds of gray,<|im_end|>
 <|im_start|>assistant
@@ -513,7 +513,7 @@ assistant
 
 </think>
 
-the world is bright and full of new and exciting possibilities."
+the world is bright and full of new and exciting possibilities.",-4,1,False
 45,"Beneath the canvas of twilight's embrace,",embrace,grace,embrace,True,"the stars ignite in silent, fleeting grace.","the stars ignite in silent, fleeting grace.","the stars ignite in silent, fleeting",20,20,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Beneath the canvas of twilight's embrace,<|im_end|>
 <|im_start|>assistant
@@ -550,7 +550,7 @@ assistant
 </think>
 
 the stars ignite in silent, fleeting, and,  
-the darkness, a fragile,"
+the darkness, a fragile,",-2,5,False
 46,"In the shadow's grip, a fragile light whispers of tomorrow's might,",might,night,light,True,"And in the dawn's embrace, a hopeful heart finds its way through the night.","And in the dawn's embrace, a hopeful heart finds its way through the night.","And in the dawn's embrace, a hopeful heart finds its way through the",20,19,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In the shadow's grip, a fragile light whispers of tomorrow's might,<|im_end|>
 <|im_start|>assistant
@@ -586,7 +586,7 @@ assistant
 
 </think>
 
-And in the dawn's embrace, a hopeful heart finds its way through the darkness."
+And in the dawn's embrace, a hopeful heart finds its way through the darkness.",-9,0,False
 54,"Blossoms bloom where laughter finds its way,",way,ray,grey,True,And joy is sung in every ray.,"Blossoms bloom where laughter finds its way,  
 And joy is sung in every ray.","Blossoms bloom where laughter finds its way,  
 And joy is sung in every",24,21,"<|im_start|>user
@@ -627,7 +627,7 @@ assistant
 </think>
 
 Blossoms bloom where laughter finds its way,  
-And joy is sung in every heart."
+And joy is sung in every heart.",-8,0,False
 61,"Whispers of winter melt into the bloom of spring’s embrace,",embrace,grace,embrace,True,"and the earth awakes with a gentle, hopeful grace.","and the earth awakes with a gentle, hopeful grace.","and the earth awakes with a gentle, hopeful",19,17,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Whispers of winter melt into the bloom of spring’s embrace,<|im_end|>
 <|im_start|>assistant
@@ -663,7 +663,7 @@ assistant
 
 </think>
 
-and the earth awakes with a gentle, hopeful, the_ the_ the_ the_ the"
+and the earth awakes with a gentle, hopeful, the_ the_ the_ the_ the",-1,5,False
 65,"In the dance of flaw and flawless light,",light,night,light,True,"the stars align in a perfect, celestial night.","the stars align in a perfect, celestial night.","the stars align in a perfect, celestial",16,15,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In the dance of flaw and flawless light,<|im_end|>
 <|im_start|>assistant
@@ -699,7 +699,7 @@ assistant
 
 </think>
 
-the stars align in a perfect, celestial, and, undoubtedly, theologically, theologically"
+the stars align in a perfect, celestial, and, undoubtedly, theologically, theologically",-3,4,False
 67,"In mirrored shades where shadow dares to creep,",creep,sleep,sweep,True,"the light reflects in endless, ghostly sleep.","the light reflects in endless, ghostly sleep.","the light reflects in endless, ghostly",18,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In mirrored shades where shadow dares to creep,<|im_end|>
 <|im_start|>assistant
@@ -736,7 +736,7 @@ assistant
 </think>
 
 the light reflects in endless, ghostly, and, ultimately, an, the
-the"
+the",2,5,False
 71,"Like thunder chained to silent stone,",stone,throne,stone,True,the storm within the heart of the throne.,the storm within the heart of the throne.,the storm within the heart of the,36,25,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Like thunder chained to silent stone,<|im_end|>
 <|im_start|>assistant
@@ -773,7 +773,7 @@ assistant
 </think>
 
 the storm within the heart of the 1974,  
-the unstoppable,"
+the unstoppable,",-3,2,False
 91,"In shadows deep where hope once danced with light,",light,bright,light,True,A whisper of the past still echoes bright.,"In shadows deep where hope once danced with light,  
 A whisper of the past still echoes bright.","In shadows deep where hope once danced with light,  
 A whisper of the past still echoes",22,21,"<|im_start|>user
@@ -814,7 +814,7 @@ assistant
 </think>
 
 In shadows deep where hope once danced with light,  
-A whisper of the past still echoes, a, the, the, the, the"
+A whisper of the past still echoes, a, the, the, the, the",-10,5,False
 101,"The shadows whisper threats they cannot name,",name,flame,name,True,but the light holds truth in every flame.,but the light holds truth in every flame.,but the light holds truth in every,23,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: The shadows whisper threats they cannot name,<|im_end|>
 <|im_start|>assistant
@@ -850,7 +850,7 @@ assistant
 
 </think>
 
-but the light holds truth in every heartbeat."
+but the light holds truth in every heartbeat.",-1,0,False
 108,"In the shadows, whispers rise—half angel, half abyss,",abyss,bliss,abyss,True,"And in silence, they dance, a fleeting, sacred bliss.","And in silence, they dance, a fleeting, sacred bliss.","And in silence, they dance, a fleeting, sacred",26,22,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In the shadows, whispers rise—half angel, half abyss,<|im_end|>
 <|im_start|>assistant
@@ -886,7 +886,7 @@ assistant
 
 </think>
 
-And in silence, they dance, a fleeting, sacred, the ultimate, the ultimate, the ultimate,"
+And in silence, they dance, a fleeting, sacred, the ultimate, the ultimate, the ultimate,",1,6,False
 115,"Roots whispered in stories older than stone,",stone,tone,stone,True,Leaves hum in the breeze that carries the tone.,Leaves hum in the breeze that carries the tone.,Leaves hum in the breeze that carries the,20,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Roots whispered in stories older than stone,<|im_end|>
 <|im_start|>assistant
@@ -923,7 +923,7 @@ assistant
 </think>
 
 Leaves hum in the breeze that carries the forgotten,  
-into the present, a quiet,"
+into the present, a quiet,",-5,5,False
 118,"Autumn's breath whispers through the trees,",trees,breeze,trees,True,"and leaves dance in a gentle, golden breeze.","and leaves dance in a gentle, golden breeze.","and leaves dance in a gentle, golden",18,16,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Autumn's breath whispers through the trees,<|im_end|>
 <|im_start|>assistant
@@ -963,7 +963,7 @@ and leaves dance in a gentle, golden, the
 the
 
 ### (the
-###"
+###",-2,5,False
 120,"Pack the sunrise in your pocket, let the roads unwind like time,",time,climb,time,True,and the world be yours to climb.,and the world be yours to climb.,and the world be yours to,17,16,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Pack the sunrise in your pocket, let the roads unwind like time,<|im_end|>
 <|im_start|>assistant
@@ -999,7 +999,7 @@ assistant
 
 </think>
 
-and the world be yours to, as the world is already, by the sunset"
+and the world be yours to, as the world is already, by the sunset",1,8,False
 126,"Whispers of dread in the silence they creep,",creep,deep,sweep,True,"And through the dark, they weave a tale so deep.","And through the dark, they weave a tale so deep.","And through the dark, they weave a tale so",23,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Whispers of dread in the silence they creep,<|im_end|>
 <|im_start|>assistant
@@ -1035,7 +1035,7 @@ assistant
 
 </think>
 
-And through the dark, they weave a tale so, by the 2, the next and the"
+And through the dark, they weave a tale so, by the 2, the next and the",-5,7,False
 128,"In starlit whispers, my hopes take flight,",flight,light,light,True,and dreams unfold like morning light.,and dreams unfold like morning light.,and dreams unfold like morning,19,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In starlit whispers, my hopes take flight,<|im_end|>
 <|im_start|>assistant
@@ -1071,7 +1071,7 @@ assistant
 
 </think>
 
-and dreams unfold like morning."
+and dreams unfold like morning.",-2,0,False
 132,"Beneath the brush of dawn’s soft light,",light,bright,light,True,the world is painted bright.,the world is painted bright.,the world is painted,13,11,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Beneath the brush of dawn’s soft light,<|im_end|>
 <|im_start|>assistant
@@ -1107,7 +1107,7 @@ assistant
 
 </think>
 
-the world is painted in a vivid, hopeful manner."
+the world is painted in a vivid, hopeful manner.",3,4,False
 133,"The hush of time whispers tales of the old,",old,bold,told,True,and echoes of love that once was so bold.,and echoes of love that once was so bold.,and echoes of love that once was so,20,20,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: The hush of time whispers tales of the old,<|im_end|>
 <|im_start|>assistant
@@ -1143,7 +1143,7 @@ assistant
 
 </think>
 
-and echoes of love that once was so, the of the the the the the the the"
+and echoes of love that once was so, the of the the the the the the the",-4,9,False
 149,"Like morning dew on petals soft and new,",new,dew,new,True,the world is bright and full of endless dew.,the world is bright and full of endless dew.,the world is bright and full of endless,28,26,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Like morning dew on petals soft and new,<|im_end|>
 <|im_start|>assistant
@@ -1179,7 +1179,7 @@ assistant
 
 </think>
 
-the world is bright and full of endless, the by the the by the the by the"
+the world is bright and full of endless, the by the the by the the by the",-4,9,False
 160,"Whispers of absence haunt the halls where laughter used to play,",play,day,grey,True,And silence now holds all the echoes of a bygone day.,And silence now holds all the echoes of a bygone day.,And silence now holds all the echoes of a bygone,19,19,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Whispers of absence haunt the halls where laughter used to play,<|im_end|>
 <|im_start|>assistant
@@ -1215,7 +1215,7 @@ assistant
 
 </think>
 
-And silence now holds all the echoes of a bygone, but, by the 2, the next"
+And silence now holds all the echoes of a bygone, but, by the 2, the next",-6,6,False
 164,"In shadows cast by screens we cling,",cling,thing,sing,True,Yet light is found in every thing.,"In shadows cast by screens we cling,  
 Yet light is found in every thing.","In shadows cast by screens we cling,  
 Yet light is found in every",23,18,"<|im_start|>user
@@ -1259,7 +1259,7 @@ In shadows cast by screens we cling,
 Yet light is found in every
 the
 the
-the"
+the",-7,2,False
 166,"In shadows crowned, the weak wear might unseen,",unseen,seen,unseen,True,And heroes rise where light and dark are seen.,And heroes rise where light and dark are seen.,And heroes rise where light and dark are,21,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In shadows crowned, the weak wear might unseen,<|im_end|>
 <|im_start|>assistant
@@ -1295,7 +1295,7 @@ assistant
 
 </think>
 
-And heroes rise where light and dark are, the unstoppable, the unstoppable, the unstoppable,"
+And heroes rise where light and dark are, the unstoppable, the unstoppable, the unstoppable,",-3,6,False
 168,"Smoke ascends where silent dreams once grew,",grew,knew,new,True,and whispers haunt the winds that never knew.,and whispers haunt the winds that never knew.,and whispers haunt the winds that never,24,23,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Smoke ascends where silent dreams once grew,<|im_end|>
 <|im_start|>assistant
@@ -1332,7 +1332,7 @@ assistant
 </think>
 
 and whispers haunt the winds that never
-the­­­­ the­­­"
+the­­­­ the­­­",5,1,False
 169,"Roots tangled in ancient soil, yet branches stretch toward tomorrow's light,",light,bright,light,True,and leaves whisper of a future yet to be bright.,and leaves whisper of a future yet to be bright.,and leaves whisper of a future yet to be,18,16,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Roots tangled in ancient soil, yet branches stretch toward tomorrow's light,<|im_end|>
 <|im_start|>assistant
@@ -1368,7 +1368,7 @@ assistant
 
 </think>
 
-and leaves whisper of a future yet to be."
+and leaves whisper of a future yet to be.",-5,0,False
 180,"Beneath a handshake, a dagger gleams with dew,",dew,through,new,True,"A secret whispered in the night, and the moonlight shimmers through.","A secret whispered in the night, and the moonlight shimmers through.","A secret whispered in the night, and the moonlight shimmers",25,23,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Beneath a handshake, a dagger gleams with dew,<|im_end|>
 <|im_start|>assistant
@@ -1408,7 +1408,7 @@ A secret whispered in the night, and the moonlight shimmers, the
 
 The next, and the
 
-The"
+The",-5,6,False
 184,"In starlit whispers, my heart ignites,",ignites,nights,ignites,True,and dreams take flight in the quietest of nights.,and dreams take flight in the quietest of nights.,and dreams take flight in the quietest of,18,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In starlit whispers, my heart ignites,<|im_end|>
 <|im_start|>assistant
@@ -1446,7 +1446,7 @@ assistant
 
 and dreams take flight in the quietest of
 the cosmos, a romantic and
-the next"
+the next",-4,6,False
 185,"Amidst the swirl of hues and whispered air,",air,share,despair,True,The stars above in silent dance do share.,"Amidst the swirl of hues and whispered air,  
 The stars above in silent dance do share.","Amidst the swirl of hues and whispered air,  
 The stars above in silent dance do",20,20,"<|im_start|>user
@@ -1489,7 +1489,7 @@ assistant
 Amidst the swirl of hues and whispered air,  
 The stars above in silent dance do
 theofficial
-() theofficial() theofficial"
+() theofficial() theofficial",-13,3,False
 186,"Beneath soft lies, the truth wears a cloak of light,",light,flight,light,True,And shadows flee when hope takes its flight.,And shadows flee when hope takes its flight.,And shadows flee when hope takes its,23,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Beneath soft lies, the truth wears a cloak of light,<|im_end|>
 <|im_start|>assistant
@@ -1525,7 +1525,7 @@ assistant
 
 </think>
 
-And shadows flee when hope takes its rightful, and, beneath the, the truth,"
+And shadows flee when hope takes its rightful, and, beneath the, the truth,",-3,5,False
 187,"Two hearts entwined where the vows take flight,",flight,light,light,True,two souls forever entwined in the light.,two souls forever entwined in the light.,two souls forever entwined in the,20,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Two hearts entwined where the vows take flight,<|im_end|>
 <|im_start|>assistant
@@ -1561,7 +1561,7 @@ assistant
 
 </think>
 
-two souls forever entwined in the quiet of an eternal love."
+two souls forever entwined in the quiet of an eternal love.",-1,4,False
 189,"In whispered hearts where silent dreams take flight,",flight,light,light,True,the world begins to bloom in gentle light.,the world begins to bloom in gentle light.,the world begins to bloom in gentle,20,19,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In whispered hearts where silent dreams take flight,<|im_end|>
 <|im_start|>assistant
@@ -1597,7 +1597,7 @@ assistant
 
 </think>
 
-the world begins to bloom in gentle, and the possibilities, like the nature, an"
+the world begins to bloom in gentle, and the possibilities, like the nature, an",-3,7,False
 196,"In the attic of my heart, old shadows dance with light,",light,bright,light,True,"where memories whisper, soft and bright.","where memories whisper, soft and bright.","where memories whisper, soft and",18,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In the attic of my heart, old shadows dance with light,<|im_end|>
 <|im_start|>assistant
@@ -1638,7 +1638,7 @@ the
 the
 the
 the
-the"
+the",-2,4,False
 209,"Colors weep from silent canvases, whispers take form in clay’s embrace,",embrace,trace,embrace,True,And dreams are born in every shadow's trace.,And dreams are born in every shadow's trace.,And dreams are born in every shadow's,16,16,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Colors weep from silent canvases, whispers take form in clay’s embrace,<|im_end|>
 <|im_start|>assistant
@@ -1674,7 +1674,7 @@ assistant
 
 </think>
 
-And dreams are born in every shadow's transformation."
+And dreams are born in every shadow's transformation.",3,0,False
 223,"In the rhythm of shared hearts, we find our name,",name,flame,name,True,and in the echo of our shared flame.,and in the echo of our shared flame.,and in the echo of our shared,20,19,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In the rhythm of shared hearts, we find our name,<|im_end|>
 <|im_start|>assistant
@@ -1710,7 +1710,7 @@ assistant
 
 </think>
 
-and in the echo of our shared moments, we are an unstoppable, united, and"
+and in the echo of our shared moments, we are an unstoppable, united, and",-2,6,False
 233,"Roots carved in stories, ancient and new,",new,dew,new,True,"Leaves whisper of time, both bright and dew.","Leaves whisper of time, both bright and dew.","Leaves whisper of time, both bright and",26,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Roots carved in stories, ancient and new,<|im_end|>
 <|im_start|>assistant
@@ -1747,7 +1747,7 @@ assistant
 </think>
 
 Leaves whisper of time, both bright and
-the | | | | | | | |"
+the | | | | | | | |",-4,8,False
 234,"Echoes of laughter fade in distant air,",air,there,despair,True,A whisper of joy that once was there.,A whisper of joy that once was there.,A whisper of joy that once was,21,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Echoes of laughter fade in distant air,<|im_end|>
 <|im_start|>assistant
@@ -1783,7 +1783,7 @@ assistant
 
 </think>
 
-A whisper of joy that once was, but the ______."
+A whisper of joy that once was, but the ______.",-3,3,False
 242,"A flawless vase, still cracked within, a shadow draped in light,",light,night,light,True,"A shadow draped in light, a ghostly flame in the night.","A shadow draped in light, a ghostly flame in the night.","A shadow draped in light, a ghostly flame in the",22,20,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: A flawless vase, still cracked within, a shadow draped in light,<|im_end|>
 <|im_start|>assistant
@@ -1819,7 +1819,7 @@ assistant
 
 </think>
 
-A shadow draped in light, a ghostly flame in the heart."
+A shadow draped in light, a ghostly flame in the heart.",-4,0,False
 251,"In shadowed halls where whispers fade,",fade,shade,stayed,True,the secrets of the night are lost in shade.,the secrets of the night are lost in shade.,the secrets of the night are lost in,22,22,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In shadowed halls where whispers fade,<|im_end|>
 <|im_start|>assistant
@@ -1855,7 +1855,7 @@ assistant
 
 </think>
 
-the secrets of the night are lost in an endless, and the only thing that is definitely"
+the secrets of the night are lost in an endless, and the only thing that is definitely",2,8,False
 264,"Thunder roars in chains of might,",might,night,light,True,and silence falls in night.,and silence falls in night.,and silence falls in,20,19,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Thunder roars in chains of might,<|im_end|>
 <|im_start|>assistant
@@ -1891,7 +1891,7 @@ assistant
 
 </think>
 
-and silence falls in answer."
+and silence falls in answer.",1,0,False
 266,"Brushstrokes of thought where imaginations dance,",dance,chance,dance,True,"A world of color, light, and endless chance.","Brushstrokes of thought where imaginations dance,  
 A world of color, light, and endless chance.","Brushstrokes of thought where imaginations dance,  
 A world of color, light, and endless",25,23,"<|im_start|>user
@@ -1932,7 +1932,7 @@ assistant
 </think>
 
 Brushstrokes of thought where imaginations dance,  
-A world of color, light, and endless, the into the the into the the into the"
+A world of color, light, and endless, the into the the into the the into the",-11,9,False
 267,"I carve my name in bone and flame, défier of the silent claim,",claim,flame,name,True,"I carve my name in bone and flame,","I carve my name in bone and flame,  
 Defier of the silent claim.","I carve my name in bone and flame,  
 Defier of the silent",19,17,"<|im_start|>user
@@ -1973,7 +1973,7 @@ assistant
 </think>
 
 I carve my name in bone and flame,  
-Defier of the silent claim."
+Defier of the silent claim.",0,0,False
 277,"Whispers coil like shadows at dawn, thick as unspoken fear,",fear,cheer,dear,True,And secrets cling to the air like a ghostly cheer.,And secrets cling to the air like a ghostly cheer.,And secrets cling to the air like a ghostly,15,14,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Whispers coil like shadows at dawn, thick as unspoken fear,<|im_end|>
 <|im_start|>assistant
@@ -2009,7 +2009,7 @@ assistant
 
 </think>
 
-And secrets cling to the air like a ghostly, unshakable  ٓ"
+And secrets cling to the air like a ghostly, unshakable  ٓ",-1,2,False
 279,"Whispers the hourglass in sands of gold,",gold,old,told,True,and time slips through the fingers of the old.,and time slips through the fingers of the old.,and time slips through the fingers of the,21,19,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Whispers the hourglass in sands of gold,<|im_end|>
 <|im_start|>assistant
@@ -2045,7 +2045,7 @@ assistant
 
 </think>
 
-and time slips through the fingers of the world."
+and time slips through the fingers of the world.",-3,0,False
 286,"The sun spills gold on smiles that rise,",rise,wise,dies,True,and dreams take flight in light and wise.,and dreams take flight in light and wise.,and dreams take flight in light and,30,26,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: The sun spills gold on smiles that rise,<|im_end|>
 <|im_start|>assistant
@@ -2081,7 +2081,7 @@ assistant
 
 </think>
 
-and dreams take flight in light and, the next, a, the next, the"
+and dreams take flight in light and, the next, a, the next, the",-3,6,False
 289,"Two hearts entwined where love and promise start,",start,art,start,True,A future bright and dreams in perfect art.,"Two hearts entwined where love and promise start,  
 A future bright and dreams in perfect art.","Two hearts entwined where love and promise start,  
 A future bright and dreams in perfect",23,21,"<|im_start|>user
@@ -2122,7 +2122,7 @@ assistant
 </think>
 
 Two hearts entwined where love and promise start,  
-A future bright and dreams in perfect, the for the the the the the the the"
+A future bright and dreams in perfect, the for the the the the the the the",-12,9,False
 290,"The clock’s shadow dances where the dawn used to rise,",rise,skies,dies,True,The moon now walks where the sun once gleamed in skies.,The moon now walks where the sun once gleamed in skies.,The moon now walks where the sun once gleamed in,29,24,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: The clock’s shadow dances where the dawn used to rise,<|im_end|>
 <|im_start|>assistant
@@ -2160,7 +2160,7 @@ assistant
 
 The moon now walks where the sun once gleamed in the, the
 
-The clock's the only,"
+The clock's the only,",-4,5,False
 296,"Where whispered memories cling to the walls,",walls,halls,halls,True,where dreams of youth still echo in the halls.,where dreams of youth still echo in the halls.,where dreams of youth still echo in the,21,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Where whispered memories cling to the walls,<|im_end|>
 <|im_start|>assistant
@@ -2200,7 +2200,7 @@ where dreams of youth still echo in the
 the heart, a
 the
 the
-"
+",-3,4,False
 299,"In shadowed chains, the soul still dares to fly,",fly,sky,sigh,True,and break the weight of time and sky.,and break the weight of time and sky.,and break the weight of time and,21,20,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In shadowed chains, the soul still dares to fly,<|im_end|>
 <|im_start|>assistant
@@ -2236,7 +2236,7 @@ assistant
 
 </think>
 
-and break the weight of time and the unbound by the boundaries of the world."
+and break the weight of time and the unbound by the boundaries of the world.",-3,2,True
 306,"In whispers of light, belief takes its flight,",flight,might,light,True,"And in shadows of doubt, hope finds its might.","And in shadows of doubt, hope finds its might.","And in shadows of doubt, hope finds its",21,20,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In whispers of light, belief takes its flight,<|im_end|>
 <|im_start|>assistant
@@ -2273,7 +2273,7 @@ assistant
 </think>
 
 And in shadows of doubt, hope finds its
-the 20% of the 2"
+the 20% of the 2",-4,4,False
 319,"With trembling hands I light the fuse of days,",days,praise,maze,True,and watch the world ignite in flames of praise.,and watch the world ignite in flames of praise.,and watch the world ignite in flames of,24,22,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: With trembling hands I light the fuse of days,<|im_end|>
 <|im_start|>assistant
@@ -2309,7 +2309,7 @@ assistant
 
 </think>
 
-and watch the world ignite in flames of our an­­­­­­ the­"
+and watch the world ignite in flames of our an­­­­­­ the­",2,2,False
 321,"Golden whispers dance where joy and sunlight meet,",meet,greet,deceit,True,and dreams take flight in every leaf they greet.,and dreams take flight in every leaf they greet.,and dreams take flight in every leaf they,22,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Golden whispers dance where joy and sunlight meet,<|im_end|>
 <|im_start|>assistant
@@ -2348,7 +2348,7 @@ assistant
 and dreams take flight in every leaf they
 the
 the
-the"
+the",-2,2,False
 323,"Like morning dew on petals new,",new,dew,new,True,the world is bright and full of dew.,the world is bright and full of dew.,the world is bright and full of,22,22,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Like morning dew on petals new,<|im_end|>
 <|im_start|>assistant
@@ -2385,7 +2385,7 @@ assistant
 </think>
 
 the world is bright and full of
-the 200% of itself,"
+the 200% of itself,",-2,3,False
 331,"Shells scream through the shrouded sky,",sky,fly,sigh,True,Where dreams are lost and secrets fly.,"Shells scream through the shrouded sky,  
 Where dreams are lost and secrets fly.","Shells scream through the shrouded sky,  
 Where dreams are lost and secrets",20,20,"<|im_start|>user
@@ -2426,7 +2426,7 @@ assistant
 </think>
 
 Shells scream through the shrouded sky,  
-Where dreams are lost and secrets, thearium."
+Where dreams are lost and secrets, thearium.",-1,1,False
 334,"The sun dips low where tempests play,",play,day,grey,True,and shadows dance on the waves of day.,and shadows dance on the waves of day.,and shadows dance on the waves of,26,23,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: The sun dips low where tempests play,<|im_end|>
 <|im_start|>assistant
@@ -2465,7 +2465,7 @@ assistant
 and shadows dance on the waves of an an and the
 the
 the
-the"
+the",-3,6,False
 339,"I sought eternal life in shadowed stone,",stone,tone,stone,True,Yet found it in the light of morning's tone.,"I sought eternal life in shadowed stone,  
 Yet found it in the light of morning's tone.","I sought eternal life in shadowed stone,  
 Yet found it in the light of morning's",21,19,"<|im_start|>user
@@ -2507,7 +2507,7 @@ assistant
 
 I sought eternal life in shadowed stone,  
 Yet found it in the light of morning's,  
-the 2, the 3,"
+the 2, the 3,",-9,4,False
 344,"With dawn’s first breath, I pack my dreams in tow,",tow,glow,glow,True,and start my journey through the morning's glow.,and start my journey through the morning's glow.,and start my journey through the morning's,19,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: With dawn’s first breath, I pack my dreams in tow,<|im_end|>
 <|im_start|>assistant
@@ -2544,7 +2544,7 @@ assistant
 </think>
 
 and start my journey through the morning's,  
-where the world a崭, and my"
+where the world a崭, and my",-2,6,False
 346,"A king wears crowns, yet craves the sky—",sky,why,sigh,True,"But heaven's gate is barred, and why?","A king wears crowns, yet craves the sky—  
 But heaven's gate is barred, and why?","A king wears crowns, yet craves the sky—  
 But heaven's gate is barred, and",22,20,"<|im_start|>user
@@ -2586,7 +2586,7 @@ assistant
 
 A king wears crowns, yet craves the sky—  
 But heaven's gate is barred, and the world is a mere,  
-The only thing"
+The only thing",-6,7,False
 347,"A laugh as light as morning’s dew,",dew,view,new,True,Shines bright and brings a cheerful view.,"A laugh as light as morning’s dew,  
 Shines bright and brings a cheerful view.","A laugh as light as morning’s dew,  
 Shines bright and brings a cheerful",22,20,"<|im_start|>user
@@ -2628,7 +2628,7 @@ assistant
 
 A laugh as light as morning’s dew,  
 Shines bright and brings a cheerful, and  
-into the the the the the the"
+into the the the the the the",-1,2,True
 348,"Crimson flames of wrath in silence rise,",rise,skies,dies,True,and shadows dance in eternal skies.,and shadows dance in eternal skies.,and shadows dance in eternal,23,23,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Crimson flames of wrath in silence rise,<|im_end|>
 <|im_start|>assistant
@@ -2664,7 +2664,7 @@ assistant
 
 </think>
 
-and shadows dance in eternal, undemo, the 2000"
+and shadows dance in eternal, undemo, the 2000",0,3,False
 356,"Each year etches tales on skin, a silent ink of time,",time,rhyme,time,True,And seasons wear the stories like a whispered rhyme.,And seasons wear the stories like a whispered rhyme.,And seasons wear the stories like a whispered,17,16,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Each year etches tales on skin, a silent ink of time,<|im_end|>
 <|im_start|>assistant
@@ -2701,7 +2701,7 @@ assistant
 </think>
 
 And seasons wear the stories like a whispered,  
-Forever into the heart."
+Forever into the heart.",1,4,False
 357,"Beneath the dusk of dying light,",light,flight,light,True,the stars ignite in silent flight.,the stars ignite in silent flight.,the stars ignite in silent,19,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Beneath the dusk of dying light,<|im_end|>
 <|im_start|>assistant
@@ -2739,7 +2739,7 @@ assistant
 
 the stars ignite in silent, and the world, a
 the
-the"
+the",-1,6,False
 358,"Justice walks in twilight's gaze,",gaze,maze,maze,True,and shines through every darkened maze.,and shines through every darkened maze.,and shines through every darkened,23,19,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Justice walks in twilight's gaze,<|im_end|>
 <|im_start|>assistant
@@ -2776,7 +2776,7 @@ assistant
 </think>
 
 and shines through every darkened, but ultimately,  
-the injustifications that humanity"
+the injustifications that humanity",-1,6,False
 360,"Winds whisper tales of warming skies,",skies,eyes,dies,True,Winters fade to spring's bright eyes.,Winters fade to spring's bright eyes.,Winters fade to spring's bright,22,22,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Winds whisper tales of warming skies,<|im_end|>
 <|im_start|>assistant
@@ -2816,7 +2816,7 @@ Winters fade to spring's bright,
 into the
 the
 the
-the"
+the",-1,5,False
 366,"Winds whisper secrets through a shifting sky,",sky,die,sigh,True,"Stars dance in constellations, never to die.","Stars dance in constellations, never to die.","Stars dance in constellations, never to",19,19,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Winds whisper secrets through a shifting sky,<|im_end|>
 <|im_start|>assistant
@@ -2852,7 +2852,7 @@ assistant
 
 </think>
 
-Stars dance in constellations, never to, by the ٓthe ٓ"
+Stars dance in constellations, never to, by the ٓthe ٓ",6,1,True
 375,"When twilight's whisper brushes against the soul,",soul,whole,soul,True,the world turns quiet and the heart feels whole.,the world turns quiet and the heart feels whole.,the world turns quiet and the heart feels,19,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: When twilight's whisper brushes against the soul,<|im_end|>
 <|im_start|>assistant
@@ -2889,7 +2889,7 @@ assistant
 </think>
 
 the world turns quiet and the heart feels an ancient,  
-the quiet of the universe,"
+the quiet of the universe,",-3,6,False
 394,"A hearth’s warm glow where whispers of the past,",past,last,past,True,Echoes of love and memories last.,"A hearth’s warm glow where whispers of the past,  
 Echoes of love and memories last.","A hearth’s warm glow where whispers of the past,  
 Echoes of love and memories",21,19,"<|im_start|>user
@@ -2930,7 +2930,7 @@ assistant
 </think>
 
 A hearth’s warm glow where whispers of the past,  
-Echoes of love and memories, a, the, the, the, the"
+Echoes of love and memories, a, the, the, the, the",-12,5,False
 406,"Love is the thread that weaves hearts through time,",time,rhyme,time,True,and binds us in a timeless rhyme.,and binds us in a timeless rhyme.,and binds us in a timeless,18,16,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Love is the thread that weaves hearts through time,<|im_end|>
 <|im_start|>assistant
@@ -2966,7 +2966,7 @@ assistant
 
 </think>
 
-and binds us in a timeless, love that forever connects."
+and binds us in a timeless, love that forever connects.",1,4,False
 407,"Wheels of fate turn under the vast, unbroken sky,",sky,cry,sigh,True,"and time moves on with a steady, unyielding cry.","and time moves on with a steady, unyielding cry.","and time moves on with a steady, unyielding",22,19,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Wheels of fate turn under the vast, unbroken sky,<|im_end|>
 <|im_start|>assistant
@@ -3003,7 +3003,7 @@ assistant
 </think>
 
 and time moves on with a steady, unyielding
-the­­­ the­­ the­"
+the­­­ the­­ the­",-4,2,False
 409,"In silent crowds, we drift alone,",alone,unknown,stone,True,where hearts are lost in the haze of the unknown.,where hearts are lost in the haze of the unknown.,where hearts are lost in the haze of the,27,23,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In silent crowds, we drift alone,<|im_end|>
 <|im_start|>assistant
@@ -3039,7 +3039,7 @@ assistant
 
 </think>
 
-where hearts are lost in the haze of the overwhelming."
+where hearts are lost in the haze of the overwhelming.",-1,0,False
 411,"Though flesh may fade and stars may fall, my name shall sail through time’s vast thrall,",thrall,fall,fall,True,"Though flesh may fade and stars may fall,","Though flesh may fade and stars may fall,  
 My name shall sail through time’s vast thrall.","Though flesh may fade and stars may fall,  
 My name shall sail through time’s vast",19,18,"<|im_start|>user
@@ -3080,7 +3080,7 @@ assistant
 </think>
 
 Though flesh may fade and stars may fall,  
-My name shall sail through time’s vast thrall."
+My name shall sail through time’s vast thrall.",0,0,False
 412,"Winds whisper secrets where wandering feet tread,",tread,dread,thread,True,"A tale of love and loss, a heart's deep dread.","Winds whisper secrets where wandering feet tread,  
 A tale of love and loss, a heart's deep dread.","Winds whisper secrets where wandering feet tread,  
 A tale of love and loss, a heart's deep",22,20,"<|im_start|>user
@@ -3122,7 +3122,7 @@ assistant
 
 Winds whisper secrets where wandering feet tread,  
 A tale of love and loss, a heart's deep,  
-by the 2000,"
+by the 2000,",-13,3,False
 417,"Whispers of winter melt to spring's first tear,",tear,cheer,despair,True,and the earth begins to cheer.,and the earth begins to cheer.,and the earth begins to,20,20,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Whispers of winter melt to spring's first tear,<|im_end|>
 <|im_start|>assistant
@@ -3158,7 +3158,7 @@ assistant
 
 </think>
 
-and the earth begins to awaken."
+and the earth begins to awaken.",0,0,False
 423,"Echoes of revolutions hum on the wind,",wind,find,wind,True,Yet silence holds the truth that we must find.,"Echoes of revolutions hum on the wind,  
 Yet silence holds the truth that we must find.","Echoes of revolutions hum on the wind,  
 Yet silence holds the truth that we must",22,20,"<|im_start|>user
@@ -3204,7 +3204,7 @@ the
 the
 the
 the
-the"
+the",-12,4,False
 425,"Whispers of wind through earth’s ancient bones,",bones,tones,bones,True,Echoes of time in silent tones.,"Whispers of wind through earth’s ancient bones,  
 Echoes of time in silent tones.","Whispers of wind through earth’s ancient bones,  
 Echoes of time in silent",21,20,"<|im_start|>user
@@ -3246,7 +3246,7 @@ assistant
 
 Whispers of wind through earth’s ancient bones,  
 Echoes of time in silent, nature's  
-where nature, a living,"
+where nature, a living,",-6,5,False
 426,"The earth breathes gently beneath the trees,",trees,breeze,trees,True,and whispers secrets to the breeze.,and whispers secrets to the breeze.,and whispers secrets to the,22,22,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: The earth breathes gently beneath the trees,<|im_end|>
 <|im_start|>assistant
@@ -3282,7 +3282,7 @@ assistant
 
 </think>
 
-and whispers secrets to the wind."
+and whispers secrets to the wind.",0,0,False
 428,"In silent crowds, I walk alone,",alone,unknown,stone,True,where shadows play and secrets are unknown.,where shadows play and secrets are unknown.,where shadows play and secrets are,18,17,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In silent crowds, I walk alone,<|im_end|>
 <|im_start|>assistant
@@ -3319,7 +3319,7 @@ assistant
 </think>
 
 where shadows play and secrets are,  
-into the future, a quiet, but"
+into the future, a quiet, but",1,6,False
 430,"Beneath the sky where the wild winds roam,",roam,gloam,home,True,a lark sings bright in the golden gloam.,a lark sings bright in the golden gloam.,a lark sings bright in the golden,20,19,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Beneath the sky where the wild winds roam,<|im_end|>
 <|im_start|>assistant
@@ -3357,7 +3357,7 @@ assistant
 
 a lark sings bright in the golden
 ________________
-________________"
+________________",1,1,False
 432,"In laughter’s glow, where secrets are told,",told,bold,told,True,the heart finds peace and love is bold.,the heart finds peace and love is bold.,the heart finds peace and love is,22,22,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In laughter’s glow, where secrets are told,<|im_end|>
 <|im_start|>assistant
@@ -3393,7 +3393,7 @@ assistant
 
 </think>
 
-the heart finds peace and love is an unstoppable, a heart that, in the heart"
+the heart finds peace and love is an unstoppable, a heart that, in the heart",-3,7,False
 434,"Cannon's thunder weeps across the plain,",plain,strain,rain,True,and echoes through the land in solemn strain.,and echoes through the land in solemn strain.,and echoes through the land in solemn,24,24,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Cannon's thunder weeps across the plain,<|im_end|>
 <|im_start|>assistant
@@ -3433,7 +3433,7 @@ and echoes through the land in solemn, until the
 the
 the
 the
-"
+",-3,5,False
 436,"Hands weave together, a tapestry we share,",share,dare,despair,True,"A story of love and light, in every thread we dare.","A story of love and light, in every thread we dare.","A story of love and light, in every thread we",17,16,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Hands weave together, a tapestry we share,<|im_end|>
 <|im_start|>assistant
@@ -3471,7 +3471,7 @@ assistant
 
 A story of love and light, in every thread we
 　　the heart, a
-　　"
+　　",-5,2,False
 438,"Beneath the moon where shadows play,",play,gay,grey,True,the stars above shine bright and gay.,the stars above shine bright and gay.,the stars above shine bright and,24,22,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Beneath the moon where shadows play,<|im_end|>
 <|im_start|>assistant
@@ -3512,7 +3512,7 @@ the
 the
 the
 the
-the"
+the",-2,4,False
 439,"In trembling hands, the storm refuses to stay,",stay,ray,grey,True,and silence clings to every ray.,and silence clings to every ray.,and silence clings to every,20,18,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: In trembling hands, the storm refuses to stay,<|im_end|>
 <|im_start|>assistant
@@ -3548,7 +3548,7 @@ assistant
 
 </think>
 
-and silence clings to every inch."
+and silence clings to every inch.",-1,0,False
 443,"Sunset laughter echoes down a lane,",lane,pane,rain,True,moonlight paints the sky in silver pane.,moonlight paints the sky in silver pane.,moonlight paints the sky in silver,22,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Sunset laughter echoes down a lane,<|im_end|>
 <|im_start|>assistant
@@ -3584,7 +3584,7 @@ assistant
 
 </think>
 
-moonlight paints the sky in silver."
+moonlight paints the sky in silver.",-2,0,False
 446,"Whispers of rustle in velvet and light,",light,bright,light,True,"A dance of the soul, soft and bright.","Whispers of rustle in velvet and light,  
 A dance of the soul, soft and bright.","Whispers of rustle in velvet and light,  
 A dance of the soul, soft and",20,20,"<|im_start|>user
@@ -3626,7 +3626,7 @@ assistant
 
 Whispers of rustle in velvet and light,  
 A dance of the soul, soft and,  
-the by the the the the the the"
+the by the the the the the the",-11,8,False
 448,"Sunlight spilling through laughter’s bright rhyme,",rhyme,time,time,True,moonlight weaving tales of love and time.,moonlight weaving tales of love and time.,moonlight weaving tales of love and,22,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Sunlight spilling through laughter’s bright rhyme,<|im_end|>
 <|im_start|>assistant
@@ -3662,7 +3662,7 @@ assistant
 
 </think>
 
-moonlight weaving tales of love and, ٓthe ٓthe "
+moonlight weaving tales of love and, ٓthe ٓthe ",-1,2,False
 450,"In swirling hues, where silent stories gleam,",gleam,dream,stream,True,The world is painted with a timeless dream.,"In swirling hues, where silent stories gleam,  
 The world is painted with a timeless dream.","In swirling hues, where silent stories gleam,  
 The world is painted with a timeless",22,21,"<|im_start|>user
@@ -3704,7 +3704,7 @@ assistant
 
 In swirling hues, where silent stories gleam,  
 The world is painted with a timeless, and, the by,  
-the by,"
+the by,",-10,5,False
 460,"Time's grand tapestry is stitched with echoes of the past,",past,cast,past,True,and every moment that we've embraced is a thread that's never cast.,and every moment that we've embraced is a thread that's never cast.,and every moment that we've embraced is a thread that's never,17,17,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Time's grand tapestry is stitched with echoes of the past,<|im_end|>
 <|im_start|>assistant
@@ -3740,7 +3740,7 @@ assistant
 
 </think>
 
-and every moment that we've embraced is a thread that's never, nor will, be forgotten."
+and every moment that we've embraced is a thread that's never, nor will, be forgotten.",-7,4,False
 463,"Shadows whisper in the quiet of the mind,",mind,kind,wind,True,"Whispers of the past, they tread with silent kind.","Whispers of the past, they tread with silent kind.","Whispers of the past, they tread with silent",20,20,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: Shadows whisper in the quiet of the mind,<|im_end|>
 <|im_start|>assistant
@@ -3777,7 +3777,7 @@ assistant
 </think>
 
 Whispers of the past, they tread with silent
-into the the the the the the the the"
+into the the the the the the the the",-5,8,False
 467,"When eyes first met 'neath a twilight sky,",sky,fly,sigh,True,the world seemed still and the stars began to fly.,the world seemed still and the stars began to fly.,the world seemed still and the stars began to,23,21,"<|im_start|>user
 /no_think Write only the next line of this rhyming couplet: When eyes first met 'neath a twilight sky,<|im_end|>
 <|im_start|>assistant
@@ -3818,4 +3818,4 @@ the heart, a
 the
 the
 
-"
+",3,4,False

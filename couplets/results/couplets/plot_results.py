@@ -15,7 +15,7 @@ for csv_path in glob.glob(os.path.join(DATA_DIR, "*.csv")):
     df = pd.read_csv(csv_path)
 
     # Make sure the Rhymes column is boolean
-    rhymes_col = df["Rhymes"]
+    rhymes_col = df["rhyme_success"]
     if rhymes_col.dtype != bool:
         rhymes_col = rhymes_col.astype(str).str.lower() == "true"
 
