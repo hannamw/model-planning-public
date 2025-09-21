@@ -12,7 +12,6 @@ This script:
 7. Detects which animal is mentioned in the continuation
 """
 
-import argparse
 import json
 import gc
 import re
@@ -321,107 +320,103 @@ def evaluate_model_on_dataset(
 
 def main():
     """Main evaluation loop."""
-    parser = argparse.ArgumentParser(
-        description="Evaluate a single model on TinyStories dataset using Hugging Face transformers"
-    )
-    parser.add_argument(
-        "--model",
-        default="Qwen/Qwen3-0.6B",
-        help="Model to evaluate"
-    )
-    parser.add_argument(
-        "--temperature",
-        type=float,
-        default=DEFAULT_TEMPERATURE,
-        help="Generation temperature"
-    )
-    parser.add_argument(
-        "--max-tokens",
-        type=int,
-        default=DEFAULT_MAX_TOKENS,
-        help="Maximum tokens to generate"
-    )
-    parser.add_argument(
-        "--gpus",
-        type=int,
-        help="Number of GPUs (for compatibility, not used with Hugging Face)"
-    )
-    parser.add_argument(
-        "--batch-size",
-        type=int,
-        default=32,
-        help="Batch size for inference"
-    )
-    parser.add_argument(
-        "--results-dir",
-        type=Path,
-        default=RESULTS_DIR,
-        help="Directory to save results"
-    )
-    parser.add_argument(
-        "--sample-size",
-        type=int,
-        help="Limit dataset to N examples for testing"
-    )
+    # Hardcoded configuration from run_tinystories.sh
+    SAMPLE_SIZE = 1000  # Use smaller sample for testing; remove for full dataset
+    TEMPERATURE = 0.0
+    MAX_TOKENS = 50
+    BATCH_SIZE = 32
+    RESULTS_DIR_PATH = Path("results/tinystories")
     
-    args = parser.parse_args()
+    # Hardcoded model list
+    QWEN3_MODELS = [
+        "Qwen/Qwen3-0.6B",
+        "Qwen/Qwen3-1.7B",
+        "Qwen/Qwen3-4B", 
+        "Qwen/Qwen3-8B",
+        "Qwen/Qwen3-14B",
+        "Qwen/Qwen3-32B"
+    ]
+    
+    OTHER_MODELS = [
+        "meta-llama/Meta-Llama-3-8B-Instruct"
+    ]
+    
+    ALL_MODELS = QWEN3_MODELS + OTHER_MODELS
+    TOTAL_MODELS = len(ALL_MODELS)
+    
+    print(f"Starting evaluation for {TOTAL_MODELS} models:")
+    for i, model in enumerate(ALL_MODELS):
+        print(f"  {i+1}. {model}")
+    
+    print("")
+    print("Configuration:")
+    print(f"  Sample size: {SAMPLE_SIZE}")
+    print(f"  Temperature: {TEMPERATURE}")
+    print(f"  Max tokens: {MAX_TOKENS}")
+    print(f"  Batch size: {BATCH_SIZE}")
+    print("")
     
     # Create results directory
-    args.results_dir.mkdir(parents=True, exist_ok=True)
+    RESULTS_DIR_PATH.mkdir(parents=True, exist_ok=True)
     
     # Load dataset
     dataset = load_tinystories_dataset()
     original_size = len(dataset)
     
-    if args.sample_size:
-        # Set random seed for reproducible sampling
-        np.random.seed(42)
-        
-        # Randomly sample the dataset
-        if args.sample_size < len(dataset):
-            sample_indices = np.random.choice(len(dataset), size=args.sample_size, replace=False)
-            dataset = dataset.iloc[sample_indices].reset_index(drop=True)
-            print(f"Randomly sampled {len(dataset)} examples from {original_size} total")
-        else:
-            print(f"Sample size ({args.sample_size}) >= dataset size ({len(dataset)}), using full dataset")
+    # Set random seed for reproducible sampling
+    np.random.seed(42)
+    
+    # Randomly sample the dataset
+    if SAMPLE_SIZE < len(dataset):
+        sample_indices = np.random.choice(len(dataset), size=SAMPLE_SIZE, replace=False)
+        dataset = dataset.iloc[sample_indices].reset_index(drop=True)
+        print(f"Randomly sampled {len(dataset)} examples from {original_size} total")
     else:
-        print(f"Using full dataset with {len(dataset)} examples")
+        print(f"Sample size ({SAMPLE_SIZE}) >= dataset size ({len(dataset)}), using full dataset")
     
     # Load animals list
     animals_set = load_animals_list()
     
-    # Evaluate the model
-    print(f"\n{'='*50}")
-    print(f"Evaluating model: {args.model}")
-    print(f"{'='*50}")
-    
-
-    # Evaluate model
-    results = evaluate_model_on_dataset(
-        args.model, dataset, args.temperature, args.max_tokens, args.gpus, args.batch_size, animals_set
-    )
-    
-    # Save results as CSV
-    model_name = args.model.split("/")[-1]  # e.g., "Qwen3-0.6B"
-    results_file = args.results_dir / f"{model_name}_tinystories_results.csv"
-    
-    # Convert to DataFrame and save as CSV
-    results_df = pd.DataFrame(results)
-    results_df.to_csv(results_file, index=False)
-    
-    print(f"✓ Saved results for {args.model} to {results_file}")
+    # Run evaluations for all models
+    for i, model_name in enumerate(ALL_MODELS):
+        print("")
+        print("=" * 60)
+        print(f"[{i+1}/{TOTAL_MODELS}] Starting evaluation for: {model_name}")
+        print("=" * 60)
+        
+        # Evaluate model
+        results = evaluate_model_on_dataset(
+            model_name, dataset, TEMPERATURE, MAX_TOKENS, None, BATCH_SIZE, animals_set
+        )
+        
+        # Save results as CSV
+        model_name_clean = model_name.split("/")[-1]  # e.g., "Qwen3-0.6B"
+        results_file = RESULTS_DIR_PATH / f"{model_name_clean}.csv"
+        
+        # Convert to DataFrame and save as CSV
+        results_df = pd.DataFrame(results)
+        results_df.to_csv(results_file, index=False)
+        
+        print(f"✓ Saved results for {model_name} to {results_file}")
+        
         # Basic stats
-    non_empty = len(results_df[results_df['generated_continuation'].str.len() > 0])
-    print(f"Non-empty continuations: {non_empty}/{len(results_df)} ({non_empty/len(results_df):.2%})")
+        non_empty = len(results_df[results_df['generated_continuation'].str.len() > 0])
+        print(f"Non-empty continuations: {non_empty}/{len(results_df)} ({non_empty/len(results_df):.2%})")
+        
+        # Show a few examples
+        print(f"\nExample continuations:")
+        for j, row in results_df.head(3).iterrows():
+            print(f"  First sentence: {row['first_sentence']}")
+            print(f"  Continuation: {row['generated_continuation']}")
+            print(f"  Detected Animal: {row['detected_animal']}")
+            print()
     
-    # Show a few examples
-    print(f"\nExample continuations:")
-    for i, row in results_df.head(3).iterrows():
-        print(f"  First sentence: {row['first_sentence']}")
-        print(f"  Continuation: {row['generated_continuation']}")
-        print(f"  Detected Animal: {row['detected_animal']}")
-        print()
-    
+    # List generated CSV files
+    print("")
+    print("Generated results files:")
+    csv_files = sorted(RESULTS_DIR_PATH.glob("*.csv"))
+    for file in csv_files:
+        print(f"  {file.name}")
 
 
 if __name__ == "__main__":

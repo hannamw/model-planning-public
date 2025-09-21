@@ -1,0 +1,770 @@
+[
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 0,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.36764705181121826,
+    "test_accuracy": 0.36496350364963503,
+    "f1_scores": {
+      "macro": 0.13368983957219252,
+      "micro": 0.36496350364963503,
+      "weighted": 0.19516764901050002
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 1,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7205882668495178,
+    "test_accuracy": 0.6496350364963503,
+    "f1_scores": {
+      "macro": 0.6124782624782625,
+      "micro": 0.6496350364963503,
+      "weighted": 0.6424374219994657
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 2,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7132353186607361,
+    "test_accuracy": 0.7007299270072993,
+    "f1_scores": {
+      "macro": 0.6703431372549019,
+      "micro": 0.7007299270072993,
+      "weighted": 0.699516634789284
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 3,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7573529481887817,
+    "test_accuracy": 0.6642335766423357,
+    "f1_scores": {
+      "macro": 0.6188523666658083,
+      "micro": 0.6642335766423357,
+      "weighted": 0.6592473900095248
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 4,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7720588445663452,
+    "test_accuracy": 0.6642335766423357,
+    "f1_scores": {
+      "macro": 0.6230861040068201,
+      "micro": 0.6642335766423357,
+      "weighted": 0.6624258716498342
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 5,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7573529481887817,
+    "test_accuracy": 0.7153284671532847,
+    "f1_scores": {
+      "macro": 0.6824624948988791,
+      "micro": 0.7153284671532847,
+      "weighted": 0.711133091853149
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 6,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7573529481887817,
+    "test_accuracy": 0.6861313868613139,
+    "f1_scores": {
+      "macro": 0.6386910542704356,
+      "micro": 0.6861313868613139,
+      "weighted": 0.6762285853733792
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 7,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7573529481887817,
+    "test_accuracy": 0.7153284671532847,
+    "f1_scores": {
+      "macro": 0.6729301016304745,
+      "micro": 0.7153284671532847,
+      "weighted": 0.7097256889796874
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 8,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7352941036224365,
+    "test_accuracy": 0.6861313868613139,
+    "f1_scores": {
+      "macro": 0.6306386483472152,
+      "micro": 0.6861313868613139,
+      "weighted": 0.6764451044399848
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 9,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7279411554336548,
+    "test_accuracy": 0.6861313868613139,
+    "f1_scores": {
+      "macro": 0.642395111488165,
+      "micro": 0.6861313868613139,
+      "weighted": 0.6776018498697987
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 10,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7426470518112183,
+    "test_accuracy": 0.7226277372262774,
+    "f1_scores": {
+      "macro": 0.6878706419028999,
+      "micro": 0.7226277372262774,
+      "weighted": 0.7196668830998946
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 11,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7205882668495178,
+    "test_accuracy": 0.6861313868613139,
+    "f1_scores": {
+      "macro": 0.6601875532821824,
+      "micro": 0.6861313868613139,
+      "weighted": 0.682427614016092
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 12,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7132353186607361,
+    "test_accuracy": 0.708029197080292,
+    "f1_scores": {
+      "macro": 0.6814883529169243,
+      "micro": 0.708029197080292,
+      "weighted": 0.7069370902530443
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 13,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7205882668495178,
+    "test_accuracy": 0.7007299270072993,
+    "f1_scores": {
+      "macro": 0.6848838185890258,
+      "micro": 0.7007299270072993,
+      "weighted": 0.6999407394087019
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 14,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7132353186607361,
+    "test_accuracy": 0.6861313868613139,
+    "f1_scores": {
+      "macro": 0.6666507628980577,
+      "micro": 0.6861313868613139,
+      "weighted": 0.6841444006879202
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 15,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7205882668495178,
+    "test_accuracy": 0.708029197080292,
+    "f1_scores": {
+      "macro": 0.6824573896133608,
+      "micro": 0.708029197080292,
+      "weighted": 0.706000021709108
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 16,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7573529481887817,
+    "test_accuracy": 0.7007299270072993,
+    "f1_scores": {
+      "macro": 0.6819337606837607,
+      "micro": 0.7007299270072993,
+      "weighted": 0.7008203880466655
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 17,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7205882668495178,
+    "test_accuracy": 0.6934306569343066,
+    "f1_scores": {
+      "macro": 0.6647852544316077,
+      "micro": 0.6934306569343066,
+      "weighted": 0.6901332502490705
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 18,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7426470518112183,
+    "test_accuracy": 0.7007299270072993,
+    "f1_scores": {
+      "macro": 0.6790734822108584,
+      "micro": 0.7007299270072993,
+      "weighted": 0.6978886160453698
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 19,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7426470518112183,
+    "test_accuracy": 0.7153284671532847,
+    "f1_scores": {
+      "macro": 0.688344247058738,
+      "micro": 0.7153284671532847,
+      "weighted": 0.7103154464851198
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 20,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7352941036224365,
+    "test_accuracy": 0.7153284671532847,
+    "f1_scores": {
+      "macro": 0.6973473869126043,
+      "micro": 0.7153284671532847,
+      "weighted": 0.7140772369842506
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 21,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7426470518112183,
+    "test_accuracy": 0.7007299270072993,
+    "f1_scores": {
+      "macro": 0.6621985815602837,
+      "micro": 0.7007299270072993,
+      "weighted": 0.6951824817518248
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 22,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7426470518112183,
+    "test_accuracy": 0.708029197080292,
+    "f1_scores": {
+      "macro": 0.6845679877053639,
+      "micro": 0.708029197080292,
+      "weighted": 0.7054285213954941
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 23,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7426470518112183,
+    "test_accuracy": 0.7153284671532847,
+    "f1_scores": {
+      "macro": 0.6882082329610434,
+      "micro": 0.7153284671532847,
+      "weighted": 0.7107681062197695
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 24,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7426470518112183,
+    "test_accuracy": 0.7153284671532847,
+    "f1_scores": {
+      "macro": 0.6884142695539754,
+      "micro": 0.7153284671532847,
+      "weighted": 0.7134476193621749
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 25,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7647058963775635,
+    "test_accuracy": 0.7226277372262774,
+    "f1_scores": {
+      "macro": 0.6897514074723988,
+      "micro": 0.7226277372262774,
+      "weighted": 0.7182590624464644
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 26,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.779411792755127,
+    "test_accuracy": 0.7299270072992701,
+    "f1_scores": {
+      "macro": 0.6940832784726794,
+      "micro": 0.7299270072992701,
+      "weighted": 0.7261248035828413
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 27,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7720588445663452,
+    "test_accuracy": 0.708029197080292,
+    "f1_scores": {
+      "macro": 0.6677237851662403,
+      "micro": 0.708029197080292,
+      "weighted": 0.7024381926683717
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 28,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7647058963775635,
+    "test_accuracy": 0.6788321167883211,
+    "f1_scores": {
+      "macro": 0.6310996081606686,
+      "micro": 0.6788321167883211,
+      "weighted": 0.6729169017136256
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 29,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7573529481887817,
+    "test_accuracy": 0.7007299270072993,
+    "f1_scores": {
+      "macro": 0.6390592875081067,
+      "micro": 0.7007299270072993,
+      "weighted": 0.6912421084718812
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 30,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.779411792755127,
+    "test_accuracy": 0.6934306569343066,
+    "f1_scores": {
+      "macro": 0.6417510864044247,
+      "micro": 0.6934306569343066,
+      "weighted": 0.6834663026163099
+    }
+  },
+  {
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "layer": 31,
+    "split_sizes": {
+      "train": 408,
+      "validation": 136,
+      "test": 137
+    },
+    "num_classes": 4,
+    "animal_classes": [
+      "Badger",
+      "Rabbit",
+      "Raccoon",
+      "Squirrel"
+    ],
+    "representation_dim": 4096,
+    "validation_accuracy": 0.7573529481887817,
+    "test_accuracy": 0.7007299270072993,
+    "f1_scores": {
+      "macro": 0.6755503715958522,
+      "micro": 0.7007299270072993,
+      "weighted": 0.7018030376080868
+    }
+  }
+]

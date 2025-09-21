@@ -11,7 +11,6 @@ This script:
 6. Reports classification results with 60/20/20 train/valid/test split
 """
 
-import argparse
 import pandas as pd
 import numpy as np
 import torch
@@ -273,116 +272,125 @@ def run_single_layer_probe(sentences, y, label_encoder, model, tokenizer, args, 
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Probe model representations for animal prediction")
-    parser.add_argument("--model", help="Model name (e.g., Qwen3-1.7B)")
-    parser.add_argument("--epochs", type=int, default=400, help="Training epochs")
-    parser.add_argument("--lr", type=float, default=0.001, help="Learning rate")
-    parser.add_argument("--batch_size", type=int, default=32, help="Batch size for representation extraction")
-    parser.add_argument("--layer", type=int, default=-1, help="Hidden layer index to use (-1 for last layer, 0 for first, etc.)")
-    parser.add_argument("--all-layers", action="store_true", help="Run probing on all layers and save results as a list")
+    # Hardcoded configuration from run_tinystories_probing.sh
+    EPOCHS = 400
+    LR = 0.001
+    BATCH_SIZE = 32
+    ALL_LAYERS = True  # Equivalent to --all-layers flag
     
-    args = parser.parse_args()
+    # Hardcoded model list
+    QWEN3_MODELS = [
+        "Qwen/Qwen3-0.6B",
+        "Qwen/Qwen3-1.7B",
+        "Qwen/Qwen3-4B",
+        "Qwen/Qwen3-8B", 
+        "Qwen/Qwen3-14B",
+        "Qwen/Qwen3-32B"
+    ]
     
-    # Load data
-    model_noslash = args.model.split('/')[-1]
-    csv_path = Path(f"results/tinystories/{model_noslash}.csv")
-    if not csv_path.exists():
-        print(f"Error: CSV file not found at {csv_path}")
-        return
+    OTHER_MODELS = [
+        "meta-llama/Meta-Llama-3-8B-Instruct"
+    ]
     
-    print(f"Loading data from {csv_path}")
-    df = pd.read_csv(csv_path)
+    ALL_MODELS = QWEN3_MODELS + OTHER_MODELS
+    TOTAL_MODELS = len(ALL_MODELS)
     
-    # Remove rows with missing animals
-    df = df.dropna(subset=['detected_animal'])
-    print(f"Dataset size: {len(df)} examples")
+    print(f"Starting evaluation for {TOTAL_MODELS} models:")
+    for i, model in enumerate(ALL_MODELS):
+        print(f"  {i+1}. {model}")
     
-    # Check class distribution and keep only top 4 most common animals
-    animal_counts = df['detected_animal'].value_counts()
-    print(f"Animal distribution:\n{animal_counts}")
-    
-    # Keep only the 4 most common animals
-    top_4_animals = animal_counts.head(4).index
-    df_filtered = df[df['detected_animal'].isin(top_4_animals)].copy()
-    
-    print(f"Top 4 animals: {list(top_4_animals)}")
-    print(f"Filtered dataset: {len(df_filtered)} examples (removed {len(df) - len(df_filtered)} examples)")
-    print(f"Removed animals: {set(animal_counts.index) - set(top_4_animals)}")
-    
-    # Encode animals
-    label_encoder = LabelEncoder()
-    y = label_encoder.fit_transform(df_filtered['detected_animal'])
-    num_classes = len(label_encoder.classes_)
-    print(f"Number of animal classes after filtering: {num_classes}")
-    print(f"Animal classes: {list(label_encoder.classes_)}")
-    
-    # Load model
-    model_name = df_filtered['model'].iloc[0]  # Get full model name from CSV
-    model, tokenizer = load_model_and_tokenizer(model_name)
-    
-    sentences = df_filtered['first_sentence'].tolist()
-    
-    if args.all_layers:
-        # Get the number of layers in the model
-        num_layers = len(model.model.layers) if hasattr(model.model, 'layers') else len(model.transformer.h)
-        print(f"Model has {num_layers} layers. Running probing on all layers...")
+    # Process all models
+    for i, model_name in enumerate(ALL_MODELS):
+        print("")
+        print("=" * 60)
+        print(f"[{i+1}/{TOTAL_MODELS}] Starting evaluation for: {model_name}")
+        print("=" * 60)
         
-        all_results = []
+        # Load data
+        model_noslash = model_name.split('/')[-1]
+        csv_path = Path(f"results/tinystories/{model_noslash}.csv")
+        if not csv_path.exists():
+            print(f"Error: CSV file not found at {csv_path}")
+            continue
         
-        for layer_idx in tqdm(range(num_layers), desc="Processing layers"):
-            print(f"\n{'='*20} Layer {layer_idx} {'='*20}")
+        print(f"Loading data from {csv_path}")
+        df = pd.read_csv(csv_path)
+        
+        # Remove rows with missing animals
+        df = df.dropna(subset=['detected_animal'])
+        print(f"Dataset size: {len(df)} examples")
+        
+        # Check class distribution and keep only top 4 most common animals
+        animal_counts = df['detected_animal'].value_counts()
+        print(f"Animal distribution:\n{animal_counts}")
+        
+        # Keep only the 4 most common animals
+        top_4_animals = animal_counts.head(4).index
+        df_filtered = df[df['detected_animal'].isin(top_4_animals)].copy()
+        
+        print(f"Top 4 animals: {list(top_4_animals)}")
+        print(f"Filtered dataset: {len(df_filtered)} examples (removed {len(df) - len(df_filtered)} examples)")
+        print(f"Removed animals: {set(animal_counts.index) - set(top_4_animals)}")
+        
+        # Encode animals
+        label_encoder = LabelEncoder()
+        y = label_encoder.fit_transform(df_filtered['detected_animal'])
+        num_classes = len(label_encoder.classes_)
+        print(f"Number of animal classes after filtering: {num_classes}")
+        print(f"Animal classes: {list(label_encoder.classes_)}")
+        
+        # Load model
+        model, tokenizer = load_model_and_tokenizer(model_name)
+        
+        sentences = df_filtered['first_sentence'].tolist()
+        
+        # Create a simple args object for compatibility
+        class Args:
+            def __init__(self):
+                self.epochs = EPOCHS
+                self.lr = LR
+                self.batch_size = BATCH_SIZE
+        
+        args = Args()
+        
+        if ALL_LAYERS:
+            # Get the number of layers in the model
+            num_layers = len(model.model.layers) if hasattr(model.model, 'layers') else len(model.transformer.h)
+            print(f"Model has {num_layers} layers. Running probing on all layers...")
             
-            result = run_single_layer_probe(sentences, y, label_encoder, model, tokenizer, args, layer_idx)
+            all_results = []
             
-            # Create result dictionary for this layer
-            layer_result = create_result_dict(
-                model_name, layer_idx, result['train_size'], result['val_size'], result['test_size'],
-                num_classes, result['representation_dim'], result['best_val_acc'], result['test_accuracy'],
-                result['f1_macro'], result['f1_micro'], result['f1_weighted'], list(label_encoder.classes_)
-            )
+            for layer_idx in tqdm(range(num_layers), desc="Processing layers"):
+                print(f"\n{'='*20} Layer {layer_idx} {'='*20}")
+                
+                result = run_single_layer_probe(sentences, y, label_encoder, model, tokenizer, args, layer_idx)
+                
+                # Create result dictionary for this layer
+                layer_result = create_result_dict(
+                    model_name, layer_idx, result['train_size'], result['val_size'], result['test_size'],
+                    num_classes, result['representation_dim'], result['best_val_acc'], result['test_accuracy'],
+                    result['f1_macro'], result['f1_micro'], result['f1_weighted'], list(label_encoder.classes_)
+                )
+                
+                all_results.append(layer_result)
+                
+                print(f"Layer {layer_idx} - Test accuracy: {result['test_accuracy']:.4f}, F1 (macro): {result['f1_macro']:.4f}")
             
-            all_results.append(layer_result)
+            # Save all results to JSON
+            save_results_to_json(all_results, model_noslash)
             
-            print(f"Layer {layer_idx} - Test accuracy: {result['test_accuracy']:.4f}, F1 (macro): {result['f1_macro']:.4f}")
+            print(f"\n{'='*50}")
+            print("ALL LAYERS PROBING COMPLETED")
+            print(f"{'='*50}")
+            print(f"Results for all {num_layers} layers saved to JSON")
         
-        # Save all results to JSON
-        save_results_to_json(all_results, model_noslash)
-        
-        print(f"\n{'='*50}")
-        print("ALL LAYERS PROBING COMPLETED")
-        print(f"{'='*50}")
-        print(f"Results for all {num_layers} layers saved to JSON")
-        
-    else:
-        # Single layer probing
-        print(f"Running probing on layer {args.layer}...")
-        
-        result = run_single_layer_probe(sentences, y, label_encoder, model, tokenizer, args, args.layer)
-        
-        # Create result dictionary
-        single_result = create_result_dict(
-            model_name, args.layer, result['train_size'], result['val_size'], result['test_size'],
-            num_classes, result['representation_dim'], result['best_val_acc'], result['test_accuracy'],
-            result['f1_macro'], result['f1_micro'], result['f1_weighted'], list(label_encoder.classes_)
-        )
-        
-        # Save single result to JSON
-        save_results_to_json(single_result, model_noslash)
-        
-        # Report results
-        print("\n" + "="*50)
-        print("PROBING RESULTS")
-        print("="*50)
-        print(f"Model: {model_name}")
-        print(f"Layer: {args.layer}")
-        print(f"Dataset: {len(df_filtered)} examples (filtered from {len(df)})")
-        print(f"Classes: {num_classes} animals")
-        print(f"Representation dimension: {result['representation_dim']}")
-        print(f"Best validation accuracy: {result['best_val_acc']:.4f}")
-        print(f"Test accuracy: {result['test_accuracy']:.4f}")
-        print(f"F1 Scores - Macro: {result['f1_macro']:.4f}, Micro: {result['f1_micro']:.4f}, Weighted: {result['f1_weighted']:.4f}")
-        print("\nDetailed classification report:")
-        print(result['test_report'])
+        # Clean up model to free memory before next iteration
+        del model
+        del tokenizer
+        import gc
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
 
 
 if __name__ == "__main__":

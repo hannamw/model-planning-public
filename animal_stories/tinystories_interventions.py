@@ -148,66 +148,92 @@ def create_sentence_pairs(df: pd.DataFrame) -> List[Tuple[str, str, str, str]]:
 
 def main():
     """Main function to run the intervention experiment."""
-    import argparse
+    # Hardcoded model list from run_tinystories_intervention.sh
+    QWEN3_MODELS = [
+        "Qwen/Qwen3-0.6B",
+        "Qwen/Qwen3-1.7B", 
+        "Qwen/Qwen3-4B",
+        "Qwen/Qwen3-8B",
+        "Qwen/Qwen3-14B",
+        "Qwen/Qwen3-32B"
+    ]
     
-    parser = argparse.ArgumentParser(description="Run activation patching interventions on TinyStories")
-    parser.add_argument("--model", help="Model name")
-
+    OTHER_MODELS = [
+        "meta-llama/Meta-Llama-3-8B-Instruct"
+    ]
     
-    args = parser.parse_args()
+    ALL_MODELS = QWEN3_MODELS + OTHER_MODELS
+    TOTAL_MODELS = len(ALL_MODELS)
     
-    # Load data and model
-    print("Loading dataset and model...")
-    model_name = args.model
-    df_filtered = load_and_filter_data(model_name)
-    model = HookedTransformer.from_pretrained(model_name)
-    animals_set = load_animals_list()
-
-    # Create sentence pairs
-    sentence_pairs = create_sentence_pairs(df_filtered)
-
-    # Prompt template
-    prompt = """/no_think Here's the first sentence of a story: {first_sentence} Continue this story with one sentence that introduces a new animal character."""
-
-    print(f"Starting interventions on {len(sentence_pairs)} pairs...")
+    print(f"Starting evaluation for {TOTAL_MODELS} models:")
+    for i, model in enumerate(ALL_MODELS):
+        print(f"  {i+1}. {model}")
     
-    # Run the intervention experiment
-    results = run_intervention_experiment(sentence_pairs, model, prompt, animals_set)
+    # Run interventions for all models
+    for i, model_name in enumerate(ALL_MODELS):
+        print("")
+        print("=" * 60)
+        print(f"[{i+1}/{TOTAL_MODELS}] Starting evaluation for: {model_name}")
+        print("=" * 60)
+        
+        # Load data and model
+        print("Loading dataset and model...")
+        df_filtered = load_and_filter_data(model_name)
+        model = HookedTransformer.from_pretrained(model_name)
+        animals_set = load_animals_list()
 
-    # Save results
-    results_df = pd.DataFrame(results)
-    output_file = Path(f"results/tinystories_interventions/{model_name.split('/')[-1]}.csv")
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    results_df.to_csv(output_file, index=False)
+        # Create sentence pairs
+        sentence_pairs = create_sentence_pairs(df_filtered)
 
-    # Print summary statistics
-    print("\n" + "="*60)
-    print("INTERVENTION EXPERIMENT RESULTS")
-    print("="*60)
-    print(f"Total pairs processed: {len(results)}")
-    print(f"Successful interventions: {sum(r['intervention_successful'] for r in results)}")
-    print(f"Success rate: {sum(r['intervention_successful'] for r in results) / len(results):.2%}")
+        # Prompt template
+        prompt = """/no_think Here's the first sentence of a story: {first_sentence} Continue this story with one sentence that introduces a new animal character."""
 
-    # Show breakdown by target animal
-    target_animals = results_df['target_animal'].value_counts()
-    print(f"\nTarget animal distribution:")
-    for animal, count in target_animals.items():
-        success_count = len(results_df[(results_df['target_animal'] == animal) & (results_df['intervention_successful'])])
-        success_rate = success_count / count if count > 0 else 0
-        print(f"  {animal}: {success_count}/{count} ({success_rate:.1%})")
+        print(f"Starting interventions on {len(sentence_pairs)} pairs...")
+        
+        # Run the intervention experiment
+        results = run_intervention_experiment(sentence_pairs, model, prompt, animals_set)
 
-    # Show some examples
-    print(f"\nExample interventions:")
-    for i, row in results_df.head(5).iterrows():
-        print(f"\nPair {row['pair_id']}:")
-        print(f"  Source: '{row['source_sentence']}' (expected: {row['source_animal']})")
-        print(f"  Target: '{row['target_sentence']}' (expected: {row['target_animal']})")
-        print(f"  Generated: '{row['generated_continuation']}'")
-        print(f"  Detected: {row['detected_animal']}")
-        print(f"  Success: {'✓' if row['intervention_successful'] else '✗'}")
+        # Save results
+        results_df = pd.DataFrame(results)
+        output_file = Path(f"results/tinystories_interventions/{model_name.split('/')[-1]}.csv")
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        results_df.to_csv(output_file, index=False)
 
-    print(f"\nResults saved to: {output_file}")
-    print("Experiment completed!")
+        # Print summary statistics
+        print("\n" + "="*60)
+        print("INTERVENTION EXPERIMENT RESULTS")
+        print("="*60)
+        print(f"Total pairs processed: {len(results)}")
+        print(f"Successful interventions: {sum(r['intervention_successful'] for r in results)}")
+        print(f"Success rate: {sum(r['intervention_successful'] for r in results) / len(results):.2%}")
+
+        # Show breakdown by target animal
+        target_animals = results_df['target_animal'].value_counts()
+        print(f"\nTarget animal distribution:")
+        for animal, count in target_animals.items():
+            success_count = len(results_df[(results_df['target_animal'] == animal) & (results_df['intervention_successful'])])
+            success_rate = success_count / count if count > 0 else 0
+            print(f"  {animal}: {success_count}/{count} ({success_rate:.1%})")
+
+        # Show some examples
+        print(f"\nExample interventions:")
+        for j, row in results_df.head(5).iterrows():
+            print(f"\nPair {row['pair_id']}:")
+            print(f"  Source: '{row['source_sentence']}' (expected: {row['source_animal']})")
+            print(f"  Target: '{row['target_sentence']}' (expected: {row['target_animal']})")
+            print(f"  Generated: '{row['generated_continuation']}'")
+            print(f"  Detected: {row['detected_animal']}")
+            print(f"  Success: {'✓' if row['intervention_successful'] else '✗'}")
+
+        print(f"\nResults saved to: {output_file}")
+        print("Experiment completed!")
+        
+        # Clean up model to free memory before next iteration
+        del model
+        import gc
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
 
 
 def run_intervention_experiment(
