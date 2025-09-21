@@ -60,8 +60,8 @@ for model_name, transcoders in models_and_transcoders.items():
     downsampled_df = pd.concat([is_samples, are_samples], ignore_index=True)
     downsampled_df['filename'] = [f"{animal}-{original}-{subtracted}"
                     for animal, original, subtracted in zip(downsampled_df['animal'], 
-                                                            downsampled_df['original'], 
-                                                            downsampled_df['subtracted'])]
+                                                            downsampled_df['original_number'], 
+                                                            downsampled_df['subtracted_number'])]
 
     is_token_id = model.tokenizer(" is").input_ids[0]
     are_token_id = model.tokenizer(" are").input_ids[0]
@@ -83,7 +83,7 @@ for model_name, transcoders in models_and_transcoders.items():
                         offload=None, verbose=True)
         name = f"{row['animal']}-{row['original_number']}-{row['subtracted_number']}"
 
-        pt_output_path = Path(f'graphs_diff/{model_name}') if ATTRIB_DIFF else Path(f'graphs/{model_name}')
+        pt_output_path = Path(f'attribution_graphs_diff/{model_name}') if ATTRIB_DIFF else Path(f'attribution_graphs/{model_name}')
         pt_output_path.mkdir(exist_ok=True, parents=True)
         pt_output_path = pt_output_path / f'{name}.pt'
         graph.to_pt(pt_output_path)

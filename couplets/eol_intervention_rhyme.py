@@ -89,9 +89,6 @@ for model_name in models:
         stopped_generations.append(stopped_generation)
         #new_final_logits.append(top_logit)
 
-    del model
-    torch.cuda.empty_cache()
-
     metadata['n_features'] = n_features
     metadata['substring'] = substrings
     metadata['stopped_generation'] = stopped_generations
@@ -101,3 +98,5 @@ for model_name in models:
     results_dir.mkdir(parents=True, exist_ok=True)
     
     metadata.to_csv(results_dir / f'{model_name}.csv')
+    del model
+    torch.cuda.empty_cache()
