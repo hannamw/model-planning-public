@@ -1,0 +1,1001 @@
+model,example_id,first_sentence,generated_continuation,temperature,max_tokens,detected_animal
+Qwen/Qwen3-4B,0,"Once upon a time, there was a mighty bird named Bob.","One day, a clever fox named Fiona joined Bob on his adventures, bringing both friendship and unexpected challenges.",0.0,50,Fox
+Qwen/Qwen3-4B,1,Once upon a time there lived a unique yacht.,that sailed alongside a mischievous penguin named Pip who had a knack for stealing seashells from the waves.,0.0,50,Penguin
+Qwen/Qwen3-4B,2,"Once upon a time, in a land full of bright colors, there was a crane.","In the same vibrant land, a mischievous fox with shimmering fur and a knack for pranks made a curious friend with the crane.",0.0,50,Crane
+Qwen/Qwen3-4B,3,"Once upon a time, there lived a very patient patient whale.","One day, a curious and mischievous fox named Felix wandered into the whale's vast underwater kingdom, eager to learn the secret of the whale's patience.",0.0,50,Whale
+Qwen/Qwen3-4B,4,Once upon a time there was a little girl called Penny.,Penny discovered a lost kitten with shimmering eyes that seemed to hold secrets of the forest.,0.0,50,
+Qwen/Qwen3-4B,5,Once upon a time there was a big cardboard box in the living room.,"Inside the box, a tiny, shimmering creature with wings like stained glass fluttered out, revealing a talking parrot named Pippin who had been trapped there for years.",0.0,50,Parrot
+Qwen/Qwen3-4B,6,Anna and Ben like to play in the snow.,", but when a curious snowshoe hare bounded past them, it brought a sudden thrill of adventure into their snowy day.",0.0,50,Hare
+Qwen/Qwen3-4B,7,"Once upon a time, there was a big kangaroo.",and a clever fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,8,"One day, a boy and his mommy were walking near a river.","As they walked, a curious fox with shimmering green eyes approached, tilting its head as if trying to understand the strange sounds around them.",0.0,50,Fox
+Qwen/Qwen3-4B,9,"Mama and Papa took Sarah to the fireplace, and Sarah was excited.",", but she didn't know the fluffy white rabbit with big, glowing eyes that hopped out from behind the curtain.",0.0,50,Rabbit
+Qwen/Qwen3-4B,10,"Once upon a time, there was a charming engine that lived in a nearby town.","In the same town, a mischievous squirrel named Thistle darted through the trees, always on the lookout for the best acorns and the most curious adventures.",0.0,50,Squirrel
+Qwen/Qwen3-4B,11,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,12,Once upon a time there was a little boy called John.,", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,13,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,14,"Once upon a time, there was a little boy named Tim.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,15,Mia and Dad were busy polishing their car.,"As they worked, a curious squirrel peeked out from the bushes, eyes wide with wonder at the shiny car and the tall man in the blue shirt.",0.0,50,Squirrel
+Qwen/Qwen3-4B,16,Once upon a time there was a boy and a girl.,", and a clever fox who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,17,"Once upon a time, there was a little birdie who lived in a tree.","One day, a curious squirrel named Sammy zoomed past the tree, eager to find the best acorn stash in the forest.",0.0,50,Squirrel
+Qwen/Qwen3-4B,18,Lily and Ben are friends.,", but when a curious fox named Finn stumbles into their secret treehouse, it changes everything.",0.0,50,Fox
+Qwen/Qwen3-4B,19,Lily and Tom were playing in the garden.,"As they were digging for worms, a curious rabbit named Benny bounded over, eyes wide with wonder at the two children playing in the garden.",0.0,50,Rabbit
+Qwen/Qwen3-4B,20,Lily was an adventurous girl who liked to explore new places.,Lily met a clever fox named Finn who led her on a thrilling journey through the forest.,0.0,50,Fox
+Qwen/Qwen3-4B,21,"Once upon a time, there was a happy monkey named Max.","One day, a curious squirrel named Sammy joined Max on his adventures, bringing both laughter and unexpected challenges.",0.0,50,Squirrel
+Qwen/Qwen3-4B,22,The sky was so big and blue.,"Under the vast blue sky, a young deer with shimmering silver fur bounded through the meadow, its gentle footsteps echoing the rhythm of the wind.",0.0,50,Deer
+Qwen/Qwen3-4B,23,John and Susie were playing with their dolls.,"As they played, a curious little kitten wandered into the room, its bright eyes fixing on the dolls with wide fascination.",0.0,50,
+Qwen/Qwen3-4B,24,"Once upon a time, there was a big plane.",and a mischievous squirrel who loved to steal airplane snacks.,0.0,50,Squirrel
+Qwen/Qwen3-4B,25,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,26,Tom and Sam are friends.,", but when a curious fox named Finn stumbles into their forest hideout, the trio must work together to outsmart a mysterious predator lurking in the shadows.",0.0,50,Fox
+Qwen/Qwen3-4B,27,"Once there was a boy, who was only three years old.",", and a mischievous fox who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,28,Once upon a time there was an elderly lady.,and a mischievous raccoon who stole her garden vegetables every morning.,0.0,50,Raccoon
+Qwen/Qwen3-4B,29,"Once upon a time, there was a big house with a strong lock on the door.","Inside the house, a curious raccoon named Riley sneaked in through the window, determined to find the key to the locked door.",0.0,50,Raccoon
+Qwen/Qwen3-4B,30,"Once upon a time, there was a big bear.",and a clever fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,31,"Once upon a time, in an ordinary town, there lived a cat named Max.","In the quiet corner of the town, a mischievous squirrel named Benny darted through the trees, always one step ahead of the humans who tried to catch him.",0.0,50,Squirrel
+Qwen/Qwen3-4B,32,Lily and Ben like to go to the lake with their dad.,", where they often encounter a mischievous raccoon named Roy who steals their sandwiches and leaves mysterious gifts by the shore.",0.0,50,Raccoon
+Qwen/Qwen3-4B,33,"Once upon a time, there was a girl named Kate.",", and she had a loyal companion, a clever fox named Finn who lived in the forest beyond her village.",0.0,50,Fox
+Qwen/Qwen3-4B,34,Tom and Jen are twins.,", but when they discover a wounded fox hiding in the bushes behind their house, they realize their lives are about to change forever.",0.0,50,Fox
+Qwen/Qwen3-4B,35,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,36,"One day, a small, independent cat named Kitty went for a walk.","As Kitty wandered through the quiet woods, she encountered a curious, mischievous fox named Felix who was chasing a butterfly with remarkable speed.",0.0,50,Butterfly
+Qwen/Qwen3-4B,37,"Once upon a time, there was a silly cat named Mittens.","One day, Mittens met a mischievous fox named Felix who was always trying to steal his food.",0.0,50,Fox
+Qwen/Qwen3-4B,38,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,39,"Once upon a time, there was a fireman named Tom.","and a clever, mischievous fox named Felix who lived in the same town but never quite understood why they were both part of the same story.",0.0,50,Fox
+Qwen/Qwen3-4B,40,Once upon a time there was a lion.,and a clever fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,41,"Once upon a time, there was a large bird.",and a clever fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,42,"Once upon a time, there was a tiny mouse named Marty.","One day, a curious hedgehog named Hugo stumbled into the forest and met Marty, sparking an unexpected friendship.",0.0,50,Hedgehog
+Qwen/Qwen3-4B,43,Once upon a time there was a gifted stack of little blocks.,and a curious little fox with a knack for stacking things just right.,0.0,50,Fox
+Qwen/Qwen3-4B,44,Mum and Dad were playing with their child.,"when a curious fox wandered into the yard, eyes wide with wonder as it approached the family.",0.0,50,Fox
+Qwen/Qwen3-4B,45,"Once upon a time, there was a big city.","In the heart of the city, a clever raccoon named Riley learned to navigate the bustling streets and hidden alleys with ease.",0.0,50,Raccoon
+Qwen/Qwen3-4B,46,"Once upon a time, there was a little bird who was very hungry.","In the forest clearing, a sly fox with shimmering green eyes crept silently toward the bird, hoping to steal its meal.",0.0,50,Bird
+Qwen/Qwen3-4B,47,"Once upon a time, there was a nosy little bunny named Benny.",", and beside the cozy burrow lived a sly, clever fox named Felix who was always watching.",0.0,50,Fox
+Qwen/Qwen3-4B,48,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,49,"Once upon a time, there was a little girl named Sarah.",", and she had a loyal companion, a curious little fox named Finn, who lived in the forest behind her house.",0.0,50,Fox
+Qwen/Qwen3-4B,50,Once there was a little girl called Lucy.,"Lucy found a wounded fox near the edge of the forest, its fur matted and its eyes filled with fear.",0.0,50,Fox
+Qwen/Qwen3-4B,51,"Once upon a time, in a small home, there lived a little boy named Tim.","In the same small home, a mischievous cat named Whiskers prowled the halls, always watching, always waiting.",0.0,50,Cat
+Qwen/Qwen3-4B,52,"Once upon a time, there was a little boy.",and a mischievous squirrel who loved to steal his crumpled homework papers and hide them in the tallest tree in the forest.,0.0,50,Squirrel
+Qwen/Qwen3-4B,53,"Once upon a time, there was a little bunny named Benny.","One day, while Benny was hopping through the meadow, he met a curious fox named Felix who was searching for a special berry that could grant wishes.",0.0,50,Fox
+Qwen/Qwen3-4B,54,"Once upon a time, there was an important seed.",", and beside it lived a curious squirrel named Bramble who had a knack for finding the most unusual treasures.",0.0,50,Squirrel
+Qwen/Qwen3-4B,55,Once there was a brilliant bowl that had two friends who disagreed.,", until a curious fox named Finn arrived, bringing with him a secret that could change everything.",0.0,50,Fox
+Qwen/Qwen3-4B,56,"Once upon a time, there was a little girl.",and a mischievous fox who lived in the forest behind her house.,0.0,50,Fox
+Qwen/Qwen3-4B,57,"Once upon a time, there was a tall goat named Billy.",", and beside the hill lived a clever fox named Felix who was always watching for opportunities to steal berries.",0.0,50,Fox
+Qwen/Qwen3-4B,58,Tom and Lily were twins who liked to play outside.,", but their favorite game had a new player joining them — a mischievous raccoon who seemed to know everything about their secret hideouts.",0.0,50,Raccoon
+Qwen/Qwen3-4B,59,Once upon a time there was a girl named Lily.,", who befriended a clever fox named Finn who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,60,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,61,"Once upon a time, there was a stubborn little rabbit named Remy.","One day, a curious little fox named Felix wandered into the forest and met Remy by the sparkling stream.",0.0,50,Fox
+Qwen/Qwen3-4B,62,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,63,Once upon a time there was a bossy dog named Max.,", and beside him lived a sly, clever raccoon named Riley who was always scheming to outsmart the other animals.",0.0,50,Raccoon
+Qwen/Qwen3-4B,64,"Once upon a time, there was a happy family.",and a mischievous squirrel named Sammy who loved to steal berries from the garden.,0.0,50,Squirrel
+Qwen/Qwen3-4B,65,"Once upon a time, there was a lazy bear.",and a mischievous squirrel who lived in the same forest but never met.,0.0,50,Squirrel
+Qwen/Qwen3-4B,66,"Once upon a time, there was a little girl named Lily who loved flowers.","One day, while wandering through the garden, she met a curious little fox named Finn who was also fascinated by the colors of the flowers.",0.0,50,Fox
+Qwen/Qwen3-4B,67,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,68,Anna and Ben are playing in the park.,"As they ran past the pond, a curious raccoon peeked out from behind a bush, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,69,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,70,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,71,"Once upon a time, there was a clever boy who wanted to find a special place.","In his search, he encountered a mischievous fox with shimmering fur who claimed to know the location of the magical glade.",0.0,50,Fox
+Qwen/Qwen3-4B,72,"Once upon a time, there was a rich little girl named Emily.",", who had a loyal companion—a clever and mischievous fox named Finn who lived in the forest behind her house.",0.0,50,Fox
+Qwen/Qwen3-4B,73,"Once upon a time, there was a happy little girl named Lily.","One day, while exploring the forest, Lily met a clever fox named Finn who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,74,"Once upon a time, there was a little boy named Jack.",", who befriended a clever fox named Finn who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,75,"One day, a little boy was playing with his toys in his bedroom.","As he was playing, a tiny, fluffy squirrel peeked in through the window and scampered up the curtain rod, curious and cautious.",0.0,50,Squirrel
+Qwen/Qwen3-4B,76,"Once upon a time, there was a girl called Lizzie.",", and she had a loyal companion, a clever fox named Finn who could talk and knew every secret in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,77,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,78,Tom and Mia are best friends.,", but when a curious squirrel named Benny stumbles into their secret treasure hunt, the adventure takes an unexpected turn.",0.0,50,Squirrel
+Qwen/Qwen3-4B,79,"Once upon a time, there was a little beetle.",and a clever fox who lived in the same forest but never met.,0.0,50,Fox
+Qwen/Qwen3-4B,80,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,81,"Once upon a time, there was a man with a big blue mustache.",and a mischievous squirrel who loved to steal his socks.,0.0,50,Squirrel
+Qwen/Qwen3-4B,82,Once there was a little boy.,who found a lost puppy wandering through the woods.,0.0,50,
+Qwen/Qwen3-4B,83,"Once upon a time, there was a couple who lived together.",", and a mischievous squirrel named Thistle stole their breakfast every morning.",0.0,50,Squirrel
+Qwen/Qwen3-4B,84,Once upon a time there was a town that glowed at night.,"In the heart of the town, a silver fox with eyes like burning embers wandered through the glowing streets, searching for a lost child.",0.0,50,Fox
+Qwen/Qwen3-4B,85,Sara and Ben are playing outside in the sun.,"As they played, a curious fox with shimmering amber eyes padded quietly through the grass, watching them with wide, inquisitive eyes.",0.0,50,Fox
+Qwen/Qwen3-4B,86,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,87,Lily and Ben are friends.,", but when a curious fox named Finn stumbles into their secret treehouse, it changes everything.",0.0,50,Fox
+Qwen/Qwen3-4B,88,"Once upon a time, in a small house, there lived a little cat named Lucy.","In the same small house, a shy mouse named Milo sneaked in during the night, hoping to find a safe place to hide from the cold.",0.0,50,Mouse
+Qwen/Qwen3-4B,89,"Once upon a time, there was a brave bee called Label.",", and beside the buzzing hive lived a clever fox named Felix who was always searching for the sweetest berries in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,90,Sara and Ben were twins who liked to play in the garden.,", where they often encountered a mischievous raccoon named Roy who seemed to know their every move.",0.0,50,Raccoon
+Qwen/Qwen3-4B,91,Anna and Ben love to go to the park with their grandma.,", where they often encounter a curious squirrel named Sammy who always seems to be watching them with bright, inquisitive eyes.",0.0,50,Squirrel
+Qwen/Qwen3-4B,92,"Once upon a time, there was a boy named Timmy who loved motorcycles.","One day, Timmy met a clever fox named Felix who could ride a motorcycle too.",0.0,50,Fox
+Qwen/Qwen3-4B,93,"Once upon a time, there was a big truck.",and a mischievous squirrel who loved to steal snacks from passing vehicles.,0.0,50,Squirrel
+Qwen/Qwen3-4B,94,John and his mom were in their home.,"when a curious stray cat wandered in through the back door, its eyes gleaming with mischief and curiosity.",0.0,50,Cat
+Qwen/Qwen3-4B,95,"Once upon a time, there was a little girl who loved animals.","One day, she found a wounded fox lying in the woods, its fur matted and its eyes filled with fear.",0.0,50,Fox
+Qwen/Qwen3-4B,96,"Once upon a time, there was a big brown bear named Bobby.","One day, while Bobby was foraging for berries, he met a clever fox named Felix who was trying to sneak into the bear's food cache.",0.0,50,Bear
+Qwen/Qwen3-4B,97,"Once upon a time, there was a deer.",and a clever fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,98,"Once upon a time, there was a shy little girl named Lily.","One day, while exploring the forest behind her house, Lily met a clever fox named Finn who was lost and searching for his way home.",0.0,50,Fox
+Qwen/Qwen3-4B,99,Once there was a little girl.,who found a lost puppy wandering through the woods.,0.0,50,
+Qwen/Qwen3-4B,100,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,101,Once upon a time there were two friends who worked together.,", and a clever fox named Finn joined their group, bringing mischief and mystery to their adventures.",0.0,50,Fox
+Qwen/Qwen3-4B,102,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,103,"Once upon a time, a little dog named Max found a heavy sausage on the ground.","As he sniffed curiously, Max met a mischievous raccoon named Ruby who was busy stealing sausages from passing pedestrians.",0.0,50,Raccoon
+Qwen/Qwen3-4B,104,Lily and Max were playing in the kitchen.,"when a curious tabby cat named Bella wove through the doorway, her green eyes gleaming with mischief.",0.0,50,Cat
+Qwen/Qwen3-4B,105,Once upon a time there was a little girl named Jenny.,", who befriended a clever fox named Felix who lived in the forest behind her house.",0.0,50,Fox
+Qwen/Qwen3-4B,106,"Once upon a time, a little boy named Timmy was playing outside.","As he ran through the grass, he stumbled upon a wounded fox with a broken leg, its fur matted and eyes filled with fear.",0.0,50,Fox
+Qwen/Qwen3-4B,107,"Once upon a time, there was a reindeer named Rudolph.",and a clever fox named Felix who lived in the same snowy forest.,0.0,50,Fox
+Qwen/Qwen3-4B,108,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,109,Monkey was embarrassed.,because the parrot had just announced his bad news to the entire forest.,0.0,50,Parrot
+Qwen/Qwen3-4B,110,"Once upon a time, there was a pig named Oink.",and a clever fox named Felix who lived in a forest full of secrets and surprises.,0.0,50,Fox
+Qwen/Qwen3-4B,111,Jimmy was so small and always worried.,", but he soon met a curious little fox named Finn who helped him feel braver and more confident.",0.0,50,Fox
+Qwen/Qwen3-4B,112,"Once upon a time, there was a little girl named Alice.","One day, she met a curious fox named Felix who could talk and had a knack for finding the most delicious berries in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,113,"Once upon a time, there was a tired island.","where a sleepy sloth named Silas wandered through the dense, misty jungle, searching for a way to rest his weary soul.",0.0,50,Sloth
+Qwen/Qwen3-4B,114,Once upon a time there was a boy called Tim.,", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,115,Once there was a small girl named Mary.,", and beside her cottage lived a clever fox named Finn who loved to collect shiny objects.",0.0,50,Fox
+Qwen/Qwen3-4B,116,"Once upon a time, there was a little boy who loved to read books.","One day, he found a tiny, glowing fox named Ember who could talk to the wind and knew the secrets of the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,117,Lily likes to sign.,", but when she meets a mischievous squirrel named Sammy who’s always stealing her pencils, she has to figure out how to keep her signing habit alive without losing her favorite tools.",0.0,50,Squirrel
+Qwen/Qwen3-4B,118,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,119,"One day, a young girl named Claire was walking in the park.","As she walked, she noticed a curious fox with shimmering green eyes watching her from a distance.",0.0,50,Fox
+Qwen/Qwen3-4B,120,"One day, a little girl was walking in the park when she saw a squirrel running across the grass.","As she watched, a friendly deer with a patchwork of brown and white fur bounded past, nuzzling a flower stem with curious determination.",0.0,50,Deer
+Qwen/Qwen3-4B,121,Tim and Lily were playing in the park.,"As they ran past the pond, a curious raccoon peeked out from behind a bush, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,122,"Once upon a time, there was an ancient mine.","Deep in the heart of the mine, a shy, silver-furred fox named Ember wandered, searching for a way out of the endless darkness.",0.0,50,Fox
+Qwen/Qwen3-4B,123,"Once upon a time there were two friends, Jak and Sam.","One day, they met a clever fox named Finn who could talk and had a secret garden hidden in the woods.",0.0,50,Fox
+Qwen/Qwen3-4B,124,"Once upon a time, there was a humble little bunny named Ben.","One day, a curious little fox named Fiona wandered into the forest and met Ben, sparking an unexpected friendship.",0.0,50,Fox
+Qwen/Qwen3-4B,125,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,126,Timmy was playing in the garden when he saw a big barn.,", and suddenly a curious brown fox bounded out from the shadows, eyes wide with mischief and wonder.",0.0,50,Fox
+Qwen/Qwen3-4B,127,"Once upon a time, there was a rare blackboard.",that could talk.,0.0,50,
+Qwen/Qwen3-4B,128,"Once upon a time, there was a sailor named Joe.",", and alongside him lived a clever parrot named Percy who could speak every language in the world.",0.0,50,Parrot
+Qwen/Qwen3-4B,129,"One day, Meg and her mom were walking in the park when they saw a little bird sitting on a bench.","As they approached, a curious squirrel peeked out from behind a bush, eyes wide with wonder at the strange sight of a bird on a bench.",0.0,50,Squirrel
+Qwen/Qwen3-4B,130,"Once upon a time, there lived a little kangaroo.","One day, a curious wallaby named Wally wandered into the kangaroo's forest and became an unlikely friend.",0.0,50,Kangaroo
+Qwen/Qwen3-4B,131,"Once upon a time, there was a little bird called Joe.","One day, Joe met a clever fox named Felix who was trying to find the perfect spot to build his new treehouse.",0.0,50,Fox
+Qwen/Qwen3-4B,132,Once there was a big tree.,"Under the shade of the big tree, a curious squirrel named Bramble scurried up the trunk, eager to explore the secrets of the ancient forest.",0.0,50,Squirrel
+Qwen/Qwen3-4B,133,Tom and Anna are brother and sister.,", but their lives take an unexpected turn when a curious fox named Finn stumbles into their forest home, bringing both wonder and a new challenge.",0.0,50,Fox
+Qwen/Qwen3-4B,134,"Once upon a time, there was an old flag.",that fluttered beside a curious little fox who had never seen the sunrise.,0.0,50,Fox
+Qwen/Qwen3-4B,135,"Once upon a time, there was a good man.",and a clever fox who lived in a forest full of secrets.,0.0,50,Fox
+Qwen/Qwen3-4B,136,Once upon a time there lived a sweet little girl.,and a mischievous little fox who loved to steal berries from her garden.,0.0,50,Fox
+Qwen/Qwen3-4B,137,"Once upon a time, there was a naughty little monkey called Jim.","One day, a mischievous little fox named Finn joined the forest, eager to play pranks and learn the secrets of the jungle.",0.0,50,Fox
+Qwen/Qwen3-4B,138,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,139,Lily was a nosy girl.,who once stumbled upon a lost kitten wandering alone through the woods.,0.0,50,
+Qwen/Qwen3-4B,140,"Once, there was a little girl called Mary.",", who loved to play with a mischievous little fox named Finn who lived in the woods behind her house.",0.0,50,Fox
+Qwen/Qwen3-4B,141,"Once upon a time, there was a little boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,142,"Once upon a time, there was a little girl who lived near a factory.","One day, a mischievous raccoon named Ruby began to visit the girl's home, bringing her shiny trinkets and secrets from the factory's hidden corners.",0.0,50,Raccoon
+Qwen/Qwen3-4B,143,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,144,Jenny was hungry.,", and as she wandered through the forest, she encountered a curious fox with shimmering green eyes who seemed to know more about the woods than she did.",0.0,50,Fox
+Qwen/Qwen3-4B,145,Once there was a girl who loved to dress up.,", and a mischievous fox with shimmering green eyes joined her in her adventures.",0.0,50,Fox
+Qwen/Qwen3-4B,146,Lily and Max were best friends.,"until they met a clever, mischievous raccoon named Rex who stole their favorite treasure and led them on an adventure through the forest.",0.0,50,Raccoon
+Qwen/Qwen3-4B,147,"Once upon a time, there was a big box.","Inside the box, a timid rabbit named Thistle hopped out, unsure whether to trust the strange world beyond the wooden walls.",0.0,50,Rabbit
+Qwen/Qwen3-4B,148,Once upon a time there was a naughty mouse.,and a clever fox who was always watching from the bushes.,0.0,50,Fox
+Qwen/Qwen3-4B,149,"Once upon a time, there was a little girl.",and a mischievous fox who lived in the forest behind her house.,0.0,50,Fox
+Qwen/Qwen3-4B,150,"One day, a little girl named Sue was playing in her room.","As she reached for a crayon, a tiny, fluffy white rabbit with big, curious eyes hopped into the room, startling her with its sudden appearance.",0.0,50,Rabbit
+Qwen/Qwen3-4B,151,Mummy and Daddy decided to buy a pizza.,"As they walked through the neighborhood, a curious little raccoon peeked out from behind a bush, eyes wide with wonder at the sight of a pizza box.",0.0,50,Raccoon
+Qwen/Qwen3-4B,152,"Once upon a time, there was a stubborn cat named Tom.","One day, a curious rabbit named Bella wandered into the forest and met Tom, sparking an unexpected friendship.",0.0,50,Rabbit
+Qwen/Qwen3-4B,153,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,154,"Once upon a time, there was a cactus that lived in the desert.","In the vast expanse of the desert, a lone jackal wandered, searching for water and a place to call home.",0.0,50,Jackal
+Qwen/Qwen3-4B,155,once there was a boy.,who found a wounded fox in the forest and decided to take it home to heal.,0.0,50,Fox
+Qwen/Qwen3-4B,156,"Once upon a time, there was a cute little girl named Jenny.",", who befriended a mischievous little fox named Finn who lived in the forest behind her house.",0.0,50,Fox
+Qwen/Qwen3-4B,157,"One day, a little boy saw a swan in the lake.","That same day, a curious fox approached the lake, its golden fur shimmering in the sunlight as it watched the swan with wide, inquisitive eyes.",0.0,50,Swan
+Qwen/Qwen3-4B,158,John woke up and opened his eyes.,"to find a curious fox peeking out from behind the bushes, its bright amber eyes watching him with quiet intelligence.",0.0,50,Fox
+Qwen/Qwen3-4B,159,Once upon a time there was a little girl name Mimi who was three years old.,"One day, while playing in the garden, Mimi met a curious little fox named Finn who was trying to find his way back home.",0.0,50,Fox
+Qwen/Qwen3-4B,160,"Once upon a time, there was a big cabinet in a house.","Inside the cabinet, a timid squirrel named Thistle scurried out, startled by the sudden noise.",0.0,50,Squirrel
+Qwen/Qwen3-4B,161,"Billy was so excited, it was his birthday.",", and just then, a mischievous raccoon bounded into the yard, carrying a present wrapped in newspaper.",0.0,50,Raccoon
+Qwen/Qwen3-4B,162,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,163,"Once upon a time, there was a little boy named Tim.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,164,Lily liked to look at the sky and see the aeroplanes.,"Lily noticed a lone wolf pacing at the edge of the meadow, its amber eyes watching the sky with quiet curiosity.",0.0,50,Wolf
+Qwen/Qwen3-4B,165,Anna likes to play hide and seek with her big brother Tom.,", but when they hear a loud roar, a majestic lion named Leo appears from the bushes, startling them both.",0.0,50,Lion
+Qwen/Qwen3-4B,166,"Once upon a time, there was a cute little girl called Lily.","One day, while exploring the forest near her home, Lily met a mischievous fox named Finn who was always playing pranks on the other animals.",0.0,50,Fox
+Qwen/Qwen3-4B,167,Sara and Ben are friends.,", but when a curious fox named Finn stumbles into their secret treehouse, it changes everything.",0.0,50,Fox
+Qwen/Qwen3-4B,168,Once upon a time there was an adventurous girl.,and a mischievous fox who lived in the forest nearby.,0.0,50,Fox
+Qwen/Qwen3-4B,169,"Once upon a time, there was a little bird with gray feathers.",", and beside the tree lived a clever fox with a knack for finding the most delicious berries.",0.0,50,Fox
+Qwen/Qwen3-4B,170,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,171,Ben liked to swim in the pool with his mom and dad.,", but one day he met a friendly turtle named Terry who joined them for their weekly swim.",0.0,50,Turtle
+Qwen/Qwen3-4B,172,"Once upon a time, there was a bunny called Hop.",", and beside the cozy burrow lived a clever fox named Finn who was always searching for adventure.",0.0,50,Fox
+Qwen/Qwen3-4B,173,The Chubby Rose.,met a mischievous squirrel named Sammy who was always stealing acorns from the garden.,0.0,50,Squirrel
+Qwen/Qwen3-4B,174,"Once upon a time, there was a bossy baby named Joe.",", and a sassy parrot named Polly who hated being ignored.",0.0,50,Parrot
+Qwen/Qwen3-4B,175,Once upon a time there was a big wide river full of fishes.,Along the riverbank lived a clever fox who had a secret friendship with the fish.,0.0,50,Fish
+Qwen/Qwen3-4B,176,"One day, Catie went outside to play.","As she stepped onto the sunny grass, a curious squirrel named Benny bounded over, eyes wide with excitement and a nut balanced precariously in his tiny paws.",0.0,50,Squirrel
+Qwen/Qwen3-4B,177,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,178,Once there was a poor rabbit who lived in a hole in the ground.,"One day, a curious fox named Finn wandered into the rabbit's hole, hoping to find a meal but instead discovered a surprising friendship.",0.0,50,Rabbit
+Qwen/Qwen3-4B,179,Lily has a cat named Max.,"Lily's cat Max suddenly took notice of a small, shivering mouse darting across the garden.",0.0,50,Mouse
+Qwen/Qwen3-4B,180,Once there was a small girl.,who found a lost puppy wandering through the woods.,0.0,50,
+Qwen/Qwen3-4B,181,Tom was a little boy who liked to play with his toys.,", but he also loved to watch the friendly squirrel named Sammy who would often visit his backyard to collect acorns.",0.0,50,Squirrel
+Qwen/Qwen3-4B,182,"Once upon a time, there were two friends named Timmy and Tommy.","One day, they met a clever fox named Felix who could talk and solve any puzzle they threw at him.",0.0,50,Fox
+Qwen/Qwen3-4B,183,Once upon a time there were two little kids named Susie and Emmie.,", and a mischievous squirrel named Benny who loved to steal their snacks.",0.0,50,Squirrel
+Qwen/Qwen3-4B,184,Once upon a time there was a little girl named Lily.,", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,185,Tom and Sue were friends who liked to play on the beach.,", where they often encountered a curious sea turtle named Terry who would follow them with wide, trusting eyes.",0.0,50,Turtle
+Qwen/Qwen3-4B,186,"Once upon a time, there was a poor little mouse named Timmy.","One day, while exploring the edge of the forest, Timmy met a clever fox named Felix who was searching for a special berry to cure his sister’s illness.",0.0,50,Fox
+Qwen/Qwen3-4B,187,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,188,"Once, there was a little girl who had lots of wild ideas.","One day, she found a lost fox with shimmering fur and a curious glint in its eye that made her feel like she was about to discover something magical.",0.0,50,Fox
+Qwen/Qwen3-4B,189,Jimmy and his friends were playing a game in the park.,"As they played, a curious squirrel named Sammy bounded over, peeking at them with bright, inquisitive eyes.",0.0,50,Squirrel
+Qwen/Qwen3-4B,190,Tom and Lily were at the park with their mom.,"As they walked along the path, a curious squirrel peeked out from behind a bush, eyes wide with mischief.",0.0,50,Squirrel
+Qwen/Qwen3-4B,191,Lily and Ben went to the park with Mom.,"As they walked through the grass, a curious squirrel peeked out from behind a bush, eyes wide with mischief.",0.0,50,Squirrel
+Qwen/Qwen3-4B,192,"Once, there was a pink wheel that belonged to a little girl.",", and alongside her, a curious little fox with shimmering silver fur began to explore the forest every morning.",0.0,50,Fox
+Qwen/Qwen3-4B,193,"Once upon a morning, there was a girl named Sally.",", and a mischievous squirrel named Benny darted through the trees, carrying a stolen acorn in his paw.",0.0,50,Squirrel
+Qwen/Qwen3-4B,194,Teddy was a very obedient three year old.,Teddy was a very obedient three-year-old until he encountered a mischievous squirrel named Sammy who loved to steal his favorite toy.,0.0,50,Squirrel
+Qwen/Qwen3-4B,195,Lily and Ben were twins who liked to play with their toys.,", but they never expected to meet a clever fox named Finn who would join them on their adventures.",0.0,50,Fox
+Qwen/Qwen3-4B,196,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,197,Once there was a chubby girl called June.,", who befriended a mischievous squirrel named Sammy who lived in the treehouse above her bedroom.",0.0,50,Squirrel
+Qwen/Qwen3-4B,198,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,199,The little girl was so excited.,"that she spotted a curious fox peeking out from behind the bushes, its bright eyes reflecting the golden light of the setting sun.",0.0,50,Fox
+Qwen/Qwen3-4B,200,"Once upon a time, there was a little bird named Tweetie.","One day, while Tweetie was searching for food, he met a clever fox named Felix who was also looking for a snack.",0.0,50,Fox
+Qwen/Qwen3-4B,201,"Once upon a time, there was a rich man.",and a clever fox who lived in the same village.,0.0,50,Fox
+Qwen/Qwen3-4B,202,"Once upon a time, there was a little boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,203,Once there was a poor family that lived on a farm.,"One day, a stray wolf wandered into the farm, hungry and lost, and the family, though poor, decided to help him.",0.0,50,Wolf
+Qwen/Qwen3-4B,204,"Once upon a time, there was a little dog named Max.","One day, a curious cat named Luna wandered into the village and decided to make friends with Max.",0.0,50,Cat
+Qwen/Qwen3-4B,205,"Once upon a time, there was a girl named Lily.",", and beside her cottage lived a clever fox named Finn who loved to collect shiny objects.",0.0,50,Fox
+Qwen/Qwen3-4B,206,"Once upon a time, there was a man and his sack.",", and a mischievous fox with a knack for stealing everything in sight.",0.0,50,Fox
+Qwen/Qwen3-4B,207,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,208,"One day, Alex went to the park.","As he walked through the tall grass, Alex spotted a curious fox with shimmering green eyes watching him from a distance.",0.0,50,Fox
+Qwen/Qwen3-4B,209,"Once upon a time, there was a beautiful princess.","and a clever, mischievous fox who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,210,Ben likes to pretend he is a truck driver.,", but today he’s surprised to find a curious squirrel perched on his favorite highway overpass, watching him with wide, intelligent eyes.",0.0,50,Squirrel
+Qwen/Qwen3-4B,211,Once there was a nice boy.,who found a lost puppy wandering alone in the forest.,0.0,50,
+Qwen/Qwen3-4B,212,"Once upon a time, there lived two friends called Lucy and Jack.","One day, they met a clever fox named Finn who could talk and had a secret garden hidden in the woods.",0.0,50,Fox
+Qwen/Qwen3-4B,213,Once there was a little girl.,who found a lost puppy wandering through the woods.,0.0,50,
+Qwen/Qwen3-4B,214,"""Come here my little one!"" said mum, gently lifting her small daughter.","""Follow me, little one,"" said mum, gently lifting her small daughter, as a fluffy white rabbit with shimmering eyes bounded past them, its ears twitching with curiosity.",0.0,50,Rabbit
+Qwen/Qwen3-4B,215,"Once upon a time, there was a little boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,216,Once upon a time there was a little girl who loved to play in the park.,"One day, she met a clever fox named Finn who was always searching for the perfect acorn.",0.0,50,Fox
+Qwen/Qwen3-4B,217,The sun was high in the sky and the day was hot.,"A sleek, silver fox with emerald eyes padded through the grass, its fur glistening with the heat of the afternoon sun.",0.0,50,Fox
+Qwen/Qwen3-4B,218,Lily and Ben are friends.,", but when a curious fox named Finn stumbles into their secret treehouse, it changes everything.",0.0,50,Fox
+Qwen/Qwen3-4B,219,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,220,"Once upon a time, there was a small boy who was very lonely.","One day, a timid rabbit named Thistle wandered into the boy's life, bringing with it a quiet companionship that slowly eased the boy's loneliness.",0.0,50,Rabbit
+Qwen/Qwen3-4B,221,"Once upon a time, there was a big kangaroo.",and a clever fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,222,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,223,"Once upon a time, there was a little girl named Sue.",", who befriended a clever fox named Felix who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,224,Once there was a nosy rabbit.,", and beside the burrow of a cautious fox, a curious squirrel began to tail the rabbit, eager to uncover the secrets of its endless questions.",0.0,50,Squirrel
+Qwen/Qwen3-4B,225,John was walking in the park one day.,"As he rounded the corner, a curious squirrel darted across his path, its bushy tail flicking excitedly as it scurried toward a pile of fallen acorns.",0.0,50,Squirrel
+Qwen/Qwen3-4B,226,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,227,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,228,Once upon a time there was a mom and a dad that wanted to have a picnic.,"As they set up their blanket under the shade of a old oak tree, a curious squirrel named Sammy bounded over, carrying a tiny acorn in his mouth.",0.0,50,Squirrel
+Qwen/Qwen3-4B,229,"Once upon a time, there was a big cow named Betsy.",", and beside the barn lived a clever fox named Felix who was always looking for a way to outsmart the cows.",0.0,50,Fox
+Qwen/Qwen3-4B,230,Tom and Lily were playing in the park.,"As they ran past the pond, a curious raccoon peeked out from behind a bush, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,231,John had a special slide.,"that led to a hidden cave where a curious fox named Finn lived, waiting to see if anyone would dare to explore the mysteries beyond.",0.0,50,Fox
+Qwen/Qwen3-4B,232,"One day, a polite cat named Tom went for a walk.","On his way home, Tom met a curious rabbit named Rosie who was chasing a butterfly through the garden.",0.0,50,Butterfly
+Qwen/Qwen3-4B,233,Once upon a time there was a little girl who loved to play.,", and beside her cottage lived a clever fox named Finn who was always eager to share his adventures.",0.0,50,Fox
+Qwen/Qwen3-4B,234,Anna and Ben are friends.,", but when a curious squirrel named Milo stumbles into their secret treehouse, it changes everything.",0.0,50,Squirrel
+Qwen/Qwen3-4B,235,Once there was a painter who was very hungry.,", and a mischievous fox with shimmering green eyes crept into the forest to find food as well.",0.0,50,Fox
+Qwen/Qwen3-4B,236,"Once upon a time, there was a big dog named Max.","One day, a shy little cat named Luna wandered into the yard and stayed to play with Max.",0.0,50,Cat
+Qwen/Qwen3-4B,237,"Once upon a time, there was a girl named Jenny and she had a tire.",", and a mischievous raccoon named Roy stole it from her backyard.",0.0,50,Raccoon
+Qwen/Qwen3-4B,238,"Once upon a time, there was a little boy named Jack who was very hungry.",Jack met a curious little fox named Finn who offered him a delicious berry pie.,0.0,50,Fox
+Qwen/Qwen3-4B,239,Tom and Lily are hungry.,", so they decide to follow the scent of a delicious meal to the edge of the forest, where they encounter a curious fox with shimmering green eyes.",0.0,50,Fox
+Qwen/Qwen3-4B,240,"Once upon a time, there was a bird named Joey.",", and beside the river lived a clever fox named Felix who was always searching for adventure.",0.0,50,Fox
+Qwen/Qwen3-4B,241,"Once upon a time, a little girl named Lily wanted a cherry.",", and along the path she walked, she met a curious fox with shimmering green eyes who offered to help her find one.",0.0,50,Fox
+Qwen/Qwen3-4B,242,Bob was a young boy.,"who discovered a lost kitten beneath the old oak tree, its fur matted with mud and its eyes wide with fear.",0.0,50,
+Qwen/Qwen3-4B,243,"Once upon a time, there was a mysterious fireman.","and a clever, mischievous fox who lived in the shadow of the burning forest.",0.0,50,Fox
+Qwen/Qwen3-4B,244,"Once upon a time, there were two friends.",and a mischievous squirrel named Bramble who loved to steal acorns from unsuspecting creatures.,0.0,50,Squirrel
+Qwen/Qwen3-4B,245,"Once upon a time, there was a blue bird who lived in a big tree.","One day, a curious squirrel named Sammy climbed down from the tree and asked the blue bird for help finding a lost acorn.",0.0,50,Blue Bird
+Qwen/Qwen3-4B,246,Lily was a chubby girl who liked to eat cake.,", but she never expected to meet a mischievous squirrel named Sammy who would steal her favorite slice every time she visited the bakery.",0.0,50,Squirrel
+Qwen/Qwen3-4B,247,"Once upon a time, there were two friends named Rick and Kate.","One day, they met a clever fox named Finn who could talk and had a secret garden hidden in the woods.",0.0,50,Fox
+Qwen/Qwen3-4B,248,"Once upon a time, there was a charming summer day.","On a sunny morning, a curious little fox named Finn wandered into the meadow, his bright red fur shimmering in the golden light.",0.0,50,Fox
+Qwen/Qwen3-4B,249,"Once upon a time, there was a humble rabbit named Benny.","One day, a curious squirrel named Sammy stumbled upon Benny's quiet forest home and decided to join him on his adventures.",0.0,50,Squirrel
+Qwen/Qwen3-4B,250,Once upon a time there was an iron.,", and beside it lived a curious fox who could speak the language of the stars.",0.0,50,Fox
+Qwen/Qwen3-4B,251,"Once upon a time, there was a little boy named Tom.",", who befriended a clever fox named Felix who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,252,John was playing with his toys outside on the lawn.,"As he ran past the garden, John tripped over a hidden rock and fell into a patch of soft grass, where a curious brown fox with shimmering eyes watched him from the shadows.",0.0,50,Fox
+Qwen/Qwen3-4B,253,"Once upon a time, in a small house, there lived a girl named Lucy.","In the quiet corner of the garden, a curious little fox named Finn wandered in, eyes wide with wonder at the girl who had never seen him before.",0.0,50,Fox
+Qwen/Qwen3-4B,254,Once there was a boy called Ben.,", and beside him lived a clever fox named Finn who loved to steal berries from the garden.",0.0,50,Fox
+Qwen/Qwen3-4B,255,"Once upon a time, there was a big boat on the sea.","On the deck of the boat, a curious sea lion named Milo waddled up, eyes wide with wonder at the vast blue expanse before him.",0.0,50,Sea Lion
+Qwen/Qwen3-4B,256,Once upon a time there was a little girl called Jo.,", who befriended a clever fox named Felix who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,257,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,258,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,259,Lila and Tom were on a big boat with their mom and dad.,"As they sailed along the calm coastline, a curious sea lion waddled onto the deck, tilting its head in wonder at the family.",0.0,50,Sea Lion
+Qwen/Qwen3-4B,260,Lily likes to pick flowers.,", but one day she stumbles upon a wounded fox hiding in the bushes by the river.",0.0,50,Fox
+Qwen/Qwen3-4B,261,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,262,Molly and her Mom were in the attic.,when they heard a soft whimper coming from the shadows.,0.0,50,
+Qwen/Qwen3-4B,263,"One day, Sally went to the post office.","As she waited in line, a curious brown fox with shimmering eyes peeked out from behind the mailboxes, tilting its head as if trying to understand why a human was there.",0.0,50,Fox
+Qwen/Qwen3-4B,264,Today Mommy had a great idea.,—she’d invite a friendly squirrel named Sammy to help them plant a garden.,0.0,50,Squirrel
+Qwen/Qwen3-4B,265,"On a sunny morning, Mama and Baby went to the park.","As they walked through the grass, a curious squirrel peeked out from behind a bush, eyes wide with wonder.",0.0,50,Squirrel
+Qwen/Qwen3-4B,266,"Once upon a time, there was a curious kid named Jake.",Jake discovered a lost puppy with shimmering blue eyes wandering alone through the forest.,0.0,50,
+Qwen/Qwen3-4B,267,"One day, a little boy named Tim saw a shadow on the wall.","As he reached out, Tim discovered the shadow was actually a tiny, glowing fox with fur like starlight, who had been watching him from the corner of the room.",0.0,50,Fox
+Qwen/Qwen3-4B,268,"Once upon a time, there was a family who were very generous.",", and they soon found a lost young fox who had wandered into their forest home.",0.0,50,Fox
+Qwen/Qwen3-4B,269,"Once upon a time, there was a girl named Sue.",", and beside her cottage lived a clever fox named Finn who loved to steal berries but never stole from her.",0.0,50,Fox
+Qwen/Qwen3-4B,270,"Once upon a time, there was a fisherman named Tom.",", who was joined by a clever fox named Finn who had a secret love for the sea.",0.0,50,Fox
+Qwen/Qwen3-4B,271,Once upon a time there was a man called Tim.,", who befriended a clever fox named Felix who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,272,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,273,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,274,Once upon a time there was a girl named Lola.,", who befriended a clever fox named Felix who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,275,"Once upon a time, there was a young boy called Jack.",", who befriended a clever fox named Finn who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,276,Once there was a little girl who loved to explore.,"One day, she met a curious fox with shimmering green eyes who claimed to be a guardian of the forest’s hidden secrets.",0.0,50,Fox
+Qwen/Qwen3-4B,277,"Once upon a time, there was a soldier.","and a mischievous fox who lived in the same forest, always watching from the trees.",0.0,50,Fox
+Qwen/Qwen3-4B,278,"One day, Timmy was out in his backyard and decided it would be fun to explore.","As Timmy wandered deeper into the bushes, he stumbled upon a curious squirrel named Sammy who was busy gathering acorns for the winter.",0.0,50,Squirrel
+Qwen/Qwen3-4B,279,Once upon a time there was an elderly man who loved to learn.,"One day, he met a clever fox named Finn who could speak the language of the stars.",0.0,50,Fox
+Qwen/Qwen3-4B,280,Once there was a girl named Sarah.,", and beside her cottage lived a clever fox named Finn who loved to steal berries from the garden.",0.0,50,Fox
+Qwen/Qwen3-4B,281,"Once upon a time, there was a little girl named Kim.",", who befriended a clever fox named Finn who lived in the forest behind her house.",0.0,50,Fox
+Qwen/Qwen3-4B,282,Thomas was very excited.,because he had just received a letter inviting him to a special animal gathering at the forest clearing where the moonlight shimmered like gold.,0.0,50,
+Qwen/Qwen3-4B,283,"One day, a big dog and a little cat lived on the earth.","One day, a clever fox joined them, bringing with it a secret that could change everything.",0.0,50,Fox
+Qwen/Qwen3-4B,284,"Once upon a time, there was a gifted girl named Lucy.",", who befriended a clever fox named Felix who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,285,"Once upon a time, there was a fair noise coming from a big field.","A mischievous raccoon darted across the field, carrying a shiny acorn that glimmered with an otherworldly light.",0.0,50,Raccoon
+Qwen/Qwen3-4B,286,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,287,"Once upon a time, there was a little girl named Jane.",", who befriended a clever fox named Felix who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,288,"Once upon a time, there was a bald dad and his beautiful daughter.",", and a clever, mischievous raccoon who had a secret love for stealing socks.",0.0,50,Raccoon
+Qwen/Qwen3-4B,289,Once upon a time there was a girl named Jane.,", who befriended a clever fox named Felix who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,290,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,291,"Once upon a time, there was a boy named Tim.",", and a clever fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,292,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,293,Lily and Ben were playing in the park with their ball.,"As they ran past the old oak tree, a curious fox with shimmering green eyes padded quietly through the grass, watching them with wide, inquisitive eyes.",0.0,50,Fox
+Qwen/Qwen3-4B,294,"One sunny morning, Molly was playing outside with her toy airplane.","As she ran past the garden, she heard a soft whimper and saw a little lost puppy with muddy paws and big, worried eyes.",0.0,50,
+Qwen/Qwen3-4B,295,Once upon a time there was a mole.,and a curious squirrel who lived in the same forest but never met.,0.0,50,Squirrel
+Qwen/Qwen3-4B,296,Lily and Ben were friends who lived in a small village.,", where a mischievous fox named Finn often stole their snacks and led them on wild adventures through the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,297,Lily liked to play with her dolls.,", but one day she found a tiny, shivering kitten outside her window that she couldn’t resist taking in.",0.0,50,
+Qwen/Qwen3-4B,298,Ben and Lily are friends.,", but when a curious fox named Finn stumbles into their secret treehouse, it changes everything.",0.0,50,Fox
+Qwen/Qwen3-4B,299,"Once upon a time, there were two friends: David and Paul.",", and a clever, mischievous fox named Finn who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,300,Susie was a very obedient girl.,", but when she stumbled upon a lost puppy wandering alone in the forest, she couldn't help but feel a strange sense of responsibility to help the little creature find its way home.",0.0,50,
+Qwen/Qwen3-4B,301,"Once upon a time, there was a happy little boy named Tom.","One day, Tom met a clever little fox named Felix who lived in the forest and was always curious about the world around him.",0.0,50,Fox
+Qwen/Qwen3-4B,302,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,303,Lily and Tom were twins who liked to play in the garden.,", where they often encountered a mischievous raccoon named Rusty who seemed to know their every move.",0.0,50,Raccoon
+Qwen/Qwen3-4B,304,Once upon a time there was a lucky bird.,and a clever fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,305,"Once upon a time, there was a little girl.",and a mischievous fox who lived in the forest behind her house.,0.0,50,Fox
+Qwen/Qwen3-4B,306,"Once upon a time, there was a big pink pig.",and a clever green fox who lived in a forest full of secrets.,0.0,50,Fox
+Qwen/Qwen3-4B,307,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,308,Anna and Ben were friends who liked to play by the river.,", where they often encountered a mischievous raccoon named Riley who seemed to know everything about their secret hideouts.",0.0,50,Raccoon
+Qwen/Qwen3-4B,309,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,310,"Once upon a time, there was a large elephant named Ellie.","One day, a mischievous fox named Felix wandered into the jungle and decided to make friends with Ellie.",0.0,50,Fox
+Qwen/Qwen3-4B,311,Once there was a little girl who was feeling very miserable.,", and she met a shy, silver-furred fox who offered to help her find joy in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,312,"Once upon a time, there was a little squirrel named Nutty.","One day, while Nutty was gathering acorns in the forest, he met a curious hedgehog named Hoot.",0.0,50,Hedgehog
+Qwen/Qwen3-4B,313,Lila and Ben are playing in the kitchen.,"As they laughed, a curious tabby cat named Miso leaped onto the counter, eyes wide with mischief and a tail swishing with excitement.",0.0,50,Cat
+Qwen/Qwen3-4B,314,Lily likes to write.,", but she’s always been fascinated by the quiet wisdom of the old tortoise who lives in the hollow of the ancient oak tree.",0.0,50,Tortoise
+Qwen/Qwen3-4B,315,Once there was a monster.,", and beside the forest trail lived a curious fox named Finn, who had a knack for finding the most mysterious treasures.",0.0,50,Fox
+Qwen/Qwen3-4B,316,"Once upon a time, there was a bright pumpkin.",and a curious squirrel who loved to collect shiny objects.,0.0,50,Squirrel
+Qwen/Qwen3-4B,317,"Once, there was a big race.",", and a clever fox named Felix joined the competition with a plan to win the prize.",0.0,50,Fox
+Qwen/Qwen3-4B,318,Lily and Ben were playing in the park.,"As they ran past the pond, a curious raccoon peeked out from behind a bush, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,319,Once there was a little boy named Tom who wanted to play outside.,"As he stepped outside, he encountered a curious little fox named Finn who was exploring the woods nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,320,"One day, a little girl named Lily went to the park.","As she ran through the grass, she heard a soft whimper and found a lost puppy with muddy paws and big, worried eyes.",0.0,50,
+Qwen/Qwen3-4B,321,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,322,Lily and Max were playing in the garden.,"As they were digging for worms, a curious rabbit named Rosie bounded over, tilting her head in wonder at the children's laughter.",0.0,50,Rabbit
+Qwen/Qwen3-4B,323,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,324,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,325,Once upon a time there were two young boys who lived together in a small room.,"In the quiet corner of the room, a mischievous tabby cat named Whiskers sneaked in during the night, bringing with it a secret that would change everything.",0.0,50,Cat
+Qwen/Qwen3-4B,326,"Once upon a time, there was a big scaredy-cat.","and a clever, mischievous fox who lived in the same forest but never dared to cross paths.",0.0,50,Fox
+Qwen/Qwen3-4B,327,Once there was a family who wanted to celebrate.,", and a mischievous squirrel named Bramble joined them, bringing a stash of acorns and a knack for getting into trouble.",0.0,50,Squirrel
+Qwen/Qwen3-4B,328,Sara likes to make things with clay.,Sara soon discovers a curious little rabbit named Benny who has a knack for shaping clay into intricate sculptures.,0.0,50,Rabbit
+Qwen/Qwen3-4B,329,"Once upon a time, a curious bunny was hopping in the forest.","As he hopped along, he met a clever fox who was searching for a hidden berry patch deep in the woods.",0.0,50,Fox
+Qwen/Qwen3-4B,330,Randy was a little boy.,"who found a lost puppy with a collar marked ""Buddy"" by the side of the road.",0.0,50,
+Qwen/Qwen3-4B,331,"Once upon a time, there was a bird.",and a clever fox who lived in a forest full of secrets and surprises.,0.0,50,Fox
+Qwen/Qwen3-4B,332,Once upon a time there was a bear.,and a mischievous fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,333,"Once upon a time, there was a smart dog named Max.","One day, a curious cat named Luna wandered into the forest and met Max, sparking an unexpected friendship that would change both of their lives.",0.0,50,Cat
+Qwen/Qwen3-4B,334,Tim and Liz were playing by the river.,"As they walked along the bank, a curious fox with shimmering amber eyes padded quietly through the tall grass, watching them with wide, intelligent eyes.",0.0,50,Fox
+Qwen/Qwen3-4B,335,"Once upon a time, there was a generous little girl named Lila.","One day, she found a wounded fox named Finn who had gotten lost in the woods.",0.0,50,Fox
+Qwen/Qwen3-4B,336,"Once upon a time, there was a beautiful cat named Velvet.","One day, a mischievous fox named Finn wandered into the forest and fell in love with Velvet’s gentle nature.",0.0,50,Fox
+Qwen/Qwen3-4B,337,"The birds were in the sky, soaring high.","A sleek black cat leaped silently from the rooftop, its emerald eyes fixed on the flock of birds as it prepared to pounce.",0.0,50,Cat
+Qwen/Qwen3-4B,338,"Once upon a time, there was a helpful boy named Joe.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,339,Lila and Ben were playing in the garden.,"As they were digging for worms, a curious fox named Finn waddled over, eyes wide with wonder at the two children playing in the garden.",0.0,50,Fox
+Qwen/Qwen3-4B,340,Lila and Tom were friends who liked to play in the park.,", until they met a mischievous raccoon named Riley who stole their snacks and led them on an adventure through the woods.",0.0,50,Raccoon
+Qwen/Qwen3-4B,341,"Once upon a time, there was a delicate ashtray.",and a mischievous squirrel who loved to steal the ashes and build tiny forts in the corners of the room.,0.0,50,Squirrel
+Qwen/Qwen3-4B,342,"One day, Mommy was walking to the store with her 3 year old daughter.","As they rounded the corner, a curious little fox with shimmering green eyes bounded up to them, tilting its head in quiet wonder.",0.0,50,Fox
+Qwen/Qwen3-4B,343,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,344,Lily and Tom were playing in the park.,"As they ran past the pond, a curious raccoon peeked out from behind a bush, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,345,"One day, a little boy named Tim was playing outside.","As he ran through the grass, he stumbled upon a wounded fox lying in the sun, its fur matted and its eyes filled with fear.",0.0,50,Fox
+Qwen/Qwen3-4B,346,Once there was a small worm called Bob.,", and beside the old oak tree lived a clever fox named Fiona who was always searching for the perfect acorn.",0.0,50,Fox
+Qwen/Qwen3-4B,347,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,348,Jane was a three-year-old girl who loved to play.,", and she had a best friend, a curious little fox named Finn, who always followed her around with wide, sparkling eyes.",0.0,50,Fox
+Qwen/Qwen3-4B,349,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,350,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,351,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,352,"Once upon a time, there was a big, clean engine.",", and beside it stood a curious, fluffy sloth who had forgotten how to climb.",0.0,50,Sloth
+Qwen/Qwen3-4B,353,"Once upon a time, in a small town, there was a boy named Tim.","In the quiet woods bordering the town, a clever fox named Finn began to notice strange changes in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,354,"Once upon a time, there was a little girl named Sarah.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,355,"Once upon a time, a girl named Lucy found a rare, big pumpkin in her garden.","As she carefully lifted the pumpkin, a shy, fluffy rabbit with glowing amber eyes peeked out from behind a bush, tilting its head in curious wonder.",0.0,50,Rabbit
+Qwen/Qwen3-4B,356,Once upon a time there was a little girl who loved to be creative.,"One day, she found a wounded fox with a broken wing who had wandered into her garden.",0.0,50,Fox
+Qwen/Qwen3-4B,357,"Once upon a time, in a small town, there was a large fireman named Tom.","In the midst of the chaos, a clever and mischievous raccoon named Riley darted through the smoke, determined to find a way to save the town.",0.0,50,Raccoon
+Qwen/Qwen3-4B,358,Once there was a crab who was very sad.,", and beside the shore lived a lonely seahorse who longed for a friend.",0.0,50,Seahorse
+Qwen/Qwen3-4B,359,"Once upon a time, there was a very furry little cat.",", and beside the cozy cottage, a mischievous little fox with shimmering golden fur darted through the tall grass.",0.0,50,Fox
+Qwen/Qwen3-4B,360,Sara and Ben are friends.,", but when a curious fox named Finn stumbles into their secret treehouse, it changes everything.",0.0,50,Fox
+Qwen/Qwen3-4B,361,Once upon a time there was a boy named Ben.,", who befriended a clever fox named Felix who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,362,Once there was a famous princess named Penny.,", and a clever fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,363,"Once upon a time, there was a little girl.",and a mischievous fox who lived in the forest behind her house.,0.0,50,Fox
+Qwen/Qwen3-4B,364,Sara and Tom were playing hide and seek in the park.,"As they played, a curious squirrel named Benny peeked out from the bushes, watching them with wide, intelligent eyes.",0.0,50,Squirrel
+Qwen/Qwen3-4B,365,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,366,"Once upon a time, there was a great pirate who loved to sail the open seas.",", and alongside him was a clever sea lion named Captain Flip who could talk and navigate the waves with ease.",0.0,50,Sea Lion
+Qwen/Qwen3-4B,367,Lily and Tom were friends who liked to play in the park.,", until they met a curious squirrel named Sammy who joined their games and brought a new sense of adventure to their daily adventures.",0.0,50,Squirrel
+Qwen/Qwen3-4B,368,"Once upon a time, there was a baby called Jack.",", and beside him lived a curious little fox named Finn who loved to follow the footsteps of the moon.",0.0,50,Fox
+Qwen/Qwen3-4B,369,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,370,"Once upon a time, there was a chubby little boy.",and a mischievous squirrel who loved to steal his crumpled snack wrappers.,0.0,50,Squirrel
+Qwen/Qwen3-4B,371,Once there was a tomato.,", and beside it sat a curious squirrel named Sammy, who was determined to find the secret ingredient in every fruit he encountered.",0.0,50,Squirrel
+Qwen/Qwen3-4B,372,Lily and Max were playing in the park.,"As they ran past the pond, a curious raccoon peeked out from behind a bush, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,373,John looked around the church.,", where a quiet, golden retriever named Max was sitting by the altar, his ears perked up as if listening for a prayer.",0.0,50,
+Qwen/Qwen3-4B,374,The family went for a walk in the park.,"As they walked along the winding path, a curious squirrel darted across their path, its bushy tail flicking excitedly as it scurried toward a pile of fallen acorns.",0.0,50,Squirrel
+Qwen/Qwen3-4B,375,"Once upon a time, there was a strong bear named Honey.",", and beside the forest clearing lived a clever fox named Finn who was always searching for the perfect acorn.",0.0,50,Fox
+Qwen/Qwen3-4B,376,Mum and Dad were discussing something very important.,"when a curious squirrel peeked through the window, tilting its head as if trying to understand the serious conversation.",0.0,50,Squirrel
+Qwen/Qwen3-4B,377,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,378,"Once upon a time, there was a wealthy family.","and a clever, mischievous fox who lived in the nearby forest and often stole their fruit.",0.0,50,Fox
+Qwen/Qwen3-4B,379,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,380,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,381,Once upon a time there was a charming little port.,"In the bustling harbor, a mischievous seagull named Percival stole the fish from every sailor's plate.",0.0,50,Fish
+Qwen/Qwen3-4B,382,Teddy was a bear who loved to sleep and play.,", but he never met the mischievous squirrel named Sammy who lived in the treehouse above the forest.",0.0,50,Squirrel
+Qwen/Qwen3-4B,383,Tom and Lily are playing in the park.,"As they ran past the pond, a curious raccoon peeked out from behind a bush, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,384,Jane was playing in her room and saw the birdcage that her dad had bought the day before.,", but when she opened the door, she found a tiny, shivering kitten curled up in the corner, its eyes wide with",0.0,50,
+Qwen/Qwen3-4B,385,Bert saw the shiny robot and wanted it right away.,"A curious squirrel named Sammy bounded over, eyes wide with wonder as he examined the robot with a mix of fear and fascination.",0.0,50,Squirrel
+Qwen/Qwen3-4B,386,Once upon a time there was a flower.,", and beside it lived a curious little rabbit named Thistle who loved to dance in the morning dew.",0.0,50,Rabbit
+Qwen/Qwen3-4B,387,Sara and Ben are friends who like to travel.,", but when they stumble upon a lost baby elephant wandering alone in the jungle, they realize their adventure is about to take a heartwarming and unexpected turn.",0.0,50,Elephant
+Qwen/Qwen3-4B,388,"Once upon a time, in a small town, there was a little boy named Tim.","One day, a mischievous raccoon named Riley wandered into the town and decided to make Tim its new best friend.",0.0,50,Raccoon
+Qwen/Qwen3-4B,389,"Once upon a time, there were two best friends named Tom and John.","One day, they met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,390,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,391,"Once upon a time, there was a shelf.",On the shelf sat a curious little fox with fur the color of twilight and eyes that shimmered like starlight.,0.0,50,Fox
+Qwen/Qwen3-4B,392,Billy had a drum.,", and a mischievous squirrel named Sammy bounded over, carrying a acorn that glowed with strange, flickering light.",0.0,50,Squirrel
+Qwen/Qwen3-4B,393,Once upon a time there lived a powerful man named Joe.,"and a clever, mischievous fox named Felix who was always watching him from the trees.",0.0,50,Fox
+Qwen/Qwen3-4B,394,"One day, Tommy and his mom were walking in the park.","As they walked, a curious squirrel peeked out from behind a bush, eyes wide with wonder at the strange humans.",0.0,50,Squirrel
+Qwen/Qwen3-4B,395,"Once upon a time, there were two little kids who loved to explore outside.","One day, they met a curious little fox named Finn who was lost and wandering through the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,396,John was a sad little boy.,"who found a lost puppy outside the church, its fur matted and eyes wide with fear.",0.0,50,
+Qwen/Qwen3-4B,397,"Once upon a time, there was a little girl who loved to go to the zoo.","One day, she met a curious fox named Finn who was more interested in solving puzzles than eating berries.",0.0,50,Fox
+Qwen/Qwen3-4B,398,"Once upon a time, there was a crazy bear.",and a mischievous fox who lived in a forest full of secrets and strange happenings.,0.0,50,Fox
+Qwen/Qwen3-4B,399,Once upon a time there was a noisy trumpet.,and a mischievous squirrel who loved to steal its music.,0.0,50,Squirrel
+Qwen/Qwen3-4B,400,"Once upon a time, there was a little boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,401,"Once upon a time, there was a princess who was curious to explore the world.","As she wandered through the enchanted forest, she encountered a clever fox with shimmering fur who claimed to know the secret to finding the lost kingdom of Eldoria.",0.0,50,Fox
+Qwen/Qwen3-4B,402,"Once upon a time, there was a happy little boy named Timmy.","One day, Timmy met a clever little fox named Felix who could talk and solve any problem.",0.0,50,Fox
+Qwen/Qwen3-4B,403,Sandy and her mommy were walking through the meadow.,"As they walked, a curious fox with shimmering silver fur bounded past them, its eyes gleaming with mischief and a mischievous grin.",0.0,50,Fox
+Qwen/Qwen3-4B,404,"Once upon a time there was a lonely little rabbit, called Tony.","One day, a curious little fox named Fiona wandered into the forest and met Tony, who was just beginning to feel less alone.",0.0,50,Fox
+Qwen/Qwen3-4B,405,"Once upon a time, there was a little girl named Lily who loved to play with her toys on the rug in her room.","One day, a curious little rabbit named Rosie wandered into the room and joined Lily in her toy adventures.",0.0,50,Rabbit
+Qwen/Qwen3-4B,406,Once upon a time there was a bald infant.,and a mischievous squirrel with a knack for stealing socks from every household in the neighborhood.,0.0,50,Squirrel
+Qwen/Qwen3-4B,407,Anna and Ben are twins.,", but when they stumble upon a lost puppy with a collar marked ""Milo,"" they realize they've just inherited a new family member—Milo, a curious golden retriever with a knack for finding",0.0,50,
+Qwen/Qwen3-4B,408,Once there was a little girl named Mandy and she loved playing with her lovely video.,", until she met a curious little fox named Felix who joined her in her adventures.",0.0,50,Fox
+Qwen/Qwen3-4B,409,Mia and her dad went to the store.,"As they walked through the parking lot, a curious squirrel peeked out from behind a trash can, eyes wide with wonder.",0.0,50,Squirrel
+Qwen/Qwen3-4B,410,"Once upon a time, there was a monkey named Max.",and a clever fox named Felix who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,411,John was listening to the birds sing.,"when a rustle in the bushes caught his attention, and out popped a curious squirrel with a mischievous grin.",0.0,50,Squirrel
+Qwen/Qwen3-4B,412,"Once upon a time, there was a bunny named Benny.","One day, a mischievous fox named Felix wandered into the forest and decided to join Benny on his adventures.",0.0,50,Fox
+Qwen/Qwen3-4B,413,Once there was a family who liked to go for walks.,"As they walked through the forest, they encountered a curious fox with shimmering green eyes who seemed to know more about their journey than they did.",0.0,50,Fox
+Qwen/Qwen3-4B,414,John and Mary were best friends.,until they met a clever fox named Felix who became their unexpected companion on their adventures through the forest.,0.0,50,Fox
+Qwen/Qwen3-4B,415,Lily and Tom were very happy to move to a new house.,"As they were settling into their new home, a curious little tabby cat named Miso wandered into the yard, eyes wide with wonder at the unfamiliar surroundings.",0.0,50,Cat
+Qwen/Qwen3-4B,416,"Once upon a time, there was a famous girl named Patty.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,417,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,418,Molly was walking in the park when a charming cat caught her eye.,"As she knelt to pet the cat, a mischievous squirrel darted past, carrying a tiny acorn in its paw.",0.0,50,Squirrel
+Qwen/Qwen3-4B,419,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,420,Once upon a time there was a panda who was very intelligent.,", and beside the bamboo forest lived a clever fox who was always one step ahead.",0.0,50,Fox
+Qwen/Qwen3-4B,421,Once upon a time there was a beetle that liked to go out and play in the rain.,"As he wandered through the puddles, he met a curious fox who was determined to learn the secrets of the rain.",0.0,50,Fox
+Qwen/Qwen3-4B,422,"Once upon a time, there was a boy who loved to ride the bus.",", and on every ride, he would spot a clever fox who seemed to know something about the bus routes.",0.0,50,Fox
+Qwen/Qwen3-4B,423,Anna and Ben are friends.,", but when a curious squirrel named Milo stumbles into their secret treehouse, it changes everything.",0.0,50,Squirrel
+Qwen/Qwen3-4B,424,"Once upon a time, there was a nice man.",and a clever fox who lived just beyond the edge of the forest.,0.0,50,Fox
+Qwen/Qwen3-4B,425,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,426,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,427,"Once upon a time, there was a big bird.",and a clever fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,428,Lily and Tom are brother and sister.,", but they soon discover a lost puppy wandering near their favorite tree, its fur matted and eyes wide with fear.",0.0,50,
+Qwen/Qwen3-4B,429,Once there was a little boy who had a distant dream.,", and beside him lived a clever fox who could speak the language of the stars.",0.0,50,Fox
+Qwen/Qwen3-4B,430,Once upon a time there was a man that wanted to have loads of fun.,", and he met a mischievous squirrel named Sammy who loved to steal acorns from his pockets.",0.0,50,Squirrel
+Qwen/Qwen3-4B,431,Once upon a time there was a boy who was brave and strong.,", and by the riverbank lived a wise old tortoise named Thistle who could speak the language of the stars.",0.0,50,Tortoise
+Qwen/Qwen3-4B,432,Once there was a little girl called Daisy who wanted to be a princess.,"One day, while exploring the forest near her cottage, Daisy met a clever fox named Felix who claimed to know the secret to becoming a true princess.",0.0,50,Fox
+Qwen/Qwen3-4B,433,"One day, a little girl named Lily went to the zoo with her mom.","As they walked through the primate enclosure, Lily spotted a curious monkey named Milo peering out from among the trees, his bright eyes full of mischief and wonder.",0.0,50,Primate
+Qwen/Qwen3-4B,434,"One day, a little girl named Sue went for a walk.","As she walked through the quiet forest, Sue encountered a curious fox with shimmering green eyes who seemed to know exactly where she was going.",0.0,50,Fox
+Qwen/Qwen3-4B,435,Tim and Tom were brothers who liked to play with their toys.,", but they never expected to meet a clever fox named Felix who would join them on their adventures.",0.0,50,Fox
+Qwen/Qwen3-4B,436,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,437,"There were three friends - Sid, Dave, and Mark.",- and a mischievous raccoon named Riley who had a knack for stealing their snacks and leaving mysterious notes in their backpacks.,0.0,50,Raccoon
+Qwen/Qwen3-4B,438,Bob was walking in the park one day.,"As he rounded the corner, a curious squirrel darted across his path, its bushy tail flicking excitedly as it scurried toward a pile of fallen acorns.",0.0,50,Squirrel
+Qwen/Qwen3-4B,439,"Once upon a time, two brothers named Ben and Max were arguing about something.","As they argued, a curious squirrel named Theo bounded into the clearing, pecking at a fallen acorn and listening intently to their conversation.",0.0,50,Squirrel
+Qwen/Qwen3-4B,440,Tom and Lily were friends.,", but when a curious fox named Finn wandered into their neighborhood, it brought both joy and an unexpected adventure.",0.0,50,Fox
+Qwen/Qwen3-4B,441,Once there was a clever needle.,and a mischievous squirrel who loved to steal thread from the tailor’s shop.,0.0,50,Squirrel
+Qwen/Qwen3-4B,442,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,443,"Once upon a time, there was a chubby gorilla.","and a sly, mischievous fox who lived in the same forest but never trusted each other.",0.0,50,Fox
+Qwen/Qwen3-4B,444,"Once upon a time, there was a little bunny called Dan.","One day, a curious squirrel named Sammy stumbled upon Dan and the two became unlikely friends.",0.0,50,Squirrel
+Qwen/Qwen3-4B,445,Once upon a time there was a Mommy and Daddy.,", and a mischievous little raccoon named Roo who stole their cookies every night.",0.0,50,Raccoon
+Qwen/Qwen3-4B,446,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,447,"Once upon a time, there was a little boy named Tim.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,448,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,449,"Once upon a time, there was a small girl who loved to explore.","One day, she met a clever fox named Finn who could talk and had a knack for finding the most hidden treasures.",0.0,50,Fox
+Qwen/Qwen3-4B,450,Sara and Ben like to play with paper and scissors.,", but when a curious squirrel named Milo stumbles into their playroom, they find themselves embroiled in a thrilling game of paper-cutting challenges.",0.0,50,Squirrel
+Qwen/Qwen3-4B,451,"Once upon a time, in a beautiful forest, there lived a little squirrel named Sam.","In the heart of the forest, a shy deer named Luna often wandered near the stream, watching the creatures with curious eyes.",0.0,50,Deer
+Qwen/Qwen3-4B,452,Once there was a mom.,and a mischievous squirrel named Sammy who stole her favorite scarf every morning.,0.0,50,Squirrel
+Qwen/Qwen3-4B,453,One day a little girl wanted to explore.,", and she met a curious fox with shimmering green eyes who led her deep into the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,454,"Once upon a time, there was a big elephant named Ellie.",", and beside the river lived a clever fox named Felix who was always searching for adventure.",0.0,50,Fox
+Qwen/Qwen3-4B,455,"Once upon a time, there was a mild soldier.","who befriended a clever fox named Finn, whose fur shimmered like the morning mist and whose laughter could calm even the most restless hearts.",0.0,50,Fox
+Qwen/Qwen3-4B,456,"Once upon a time, there lived a jolly little piggy.","and a sly, clever fox who was always looking for a way to trick the piggy into sharing his acorn stash.",0.0,50,Fox
+Qwen/Qwen3-4B,457,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,458,"Once upon a time, there was a cute little rabbit named Benny.","One day, while Benny was hopping through the meadow, he met a clever little fox named Felix who was trying to find the perfect spot to build his new treehouse.",0.0,50,Fox
+Qwen/Qwen3-4B,459,"One day, a little boy named Tim went to the park with his mom.","As they walked through the grass, a curious squirrel with a red tail bounded past them, chirping excitedly as if trying to say hello.",0.0,50,Squirrel
+Qwen/Qwen3-4B,460,Once there was a poppy.,", and beside it lived a curious fox with fur the color of twilight.",0.0,50,Fox
+Qwen/Qwen3-4B,461,"One day, Tom decided to explore the unknown.","As he ventured deeper into the forest, Tom encountered a curious fox with shimmering green eyes that seemed to hold secrets of the wild.",0.0,50,Fox
+Qwen/Qwen3-4B,462,"Once upon a time, there was a little girl named Mia.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,463,"Once upon a time, there were two friends, a bear and a rabbit.",", and a clever fox who watched them from the bushes, always ready to help or trick.",0.0,50,Fox
+Qwen/Qwen3-4B,464,"Once upon a time, there was a boy who really, really needed a scooter.",", and a mischievous squirrel with a knack for stealing hats appeared right in front of him.",0.0,50,Squirrel
+Qwen/Qwen3-4B,465,"Once upon a time, in a small country, there lived a selfish dog named Max.","In the same village, a clever fox named Finn began to notice Max's strange behavior and decided to investigate.",0.0,50,Fox
+Qwen/Qwen3-4B,466,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,467,Once there was a little girl called Amy who wanted to try something new.,"Amy decided to visit the local zoo, where she met a curious and friendly sloth named Luna who was just learning to climb trees.",0.0,50,Sloth
+Qwen/Qwen3-4B,468,John loved to play tag.,", but when he heard the loud, haunting call of the jaguar in the jungle, he knew he had to find it before it found him.",0.0,50,Jaguar
+Qwen/Qwen3-4B,469,"Once upon a time, there was a little bunny named Binky.","One day, Binky met a curious fox named Felix who was exploring the forest looking for a special berry that could grant wishes.",0.0,50,Fox
+Qwen/Qwen3-4B,470,Mommy was packing the van.,"when she heard a soft meow from the back, and there, nestled in a blanket, was a tiny orange kitten with big, curious eyes.",0.0,50,
+Qwen/Qwen3-4B,471,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,472,John and Sarah were best friends.,until they met a curious little fox named Finn who wandered into their neighborhood and became an unexpected member of their adventures.,0.0,50,Fox
+Qwen/Qwen3-4B,473,Tom is a boy who likes to draw.,", and he soon discovers a curious little fox named Finn who follows him everywhere, always eager to learn the secrets of the art he loves.",0.0,50,Fox
+Qwen/Qwen3-4B,474,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,475,"Once upon a time, there was a big, fat cat named Fluffy.",", and beside the cozy cottage lived a clever, sly fox named Felix.",0.0,50,Fox
+Qwen/Qwen3-4B,476,"One day, a smart dog named Max went for a jog.","As he rounded the corner, a mischievous raccoon named Riley darted across the path, knocking over a trash can and scattering a pile of snacks in his wake.",0.0,50,Raccoon
+Qwen/Qwen3-4B,477,"Once upon a time, there was a mighty inchworm.",and a clever squirrel who lived in the same ancient oak tree.,0.0,50,Squirrel
+Qwen/Qwen3-4B,478,"One day, Jack and his family walked into the museum.","As they entered the main hall, a curious brown fox with shimmering eyes peeked out from behind a large sculpture, tilting its head in quiet fascination.",0.0,50,Fox
+Qwen/Qwen3-4B,479,"One day, Bill and Tim were playing in the park.","As they ran past the pond, a curious raccoon peeked out from the bushes, eyes wide with mischief and a tiny red hat balanced on its head.",0.0,50,Raccoon
+Qwen/Qwen3-4B,480,"Once upon a time, there was a little girl named Amy.",", who befriended a clever fox named Felix who lived in the forest behind her house.",0.0,50,Fox
+Qwen/Qwen3-4B,481,Once upon a time there were two friends named Emily and Max.,"One day, they met a clever fox named Finn who could talk and had a secret garden hidden in the woods.",0.0,50,Fox
+Qwen/Qwen3-4B,482,Once there was a small seed.,"that fell into the hands of a curious squirrel named Thistle, who decided to plant it in the hollow of an old oak tree.",0.0,50,Squirrel
+Qwen/Qwen3-4B,483,"Once upon a time, there was a little bird named Tweetie.","One day, while Tweetie was fluffing his feathers in the sun, a curious squirrel named Sammy bounded over, carrying a basket full of acorns.",0.0,50,Squirrel
+Qwen/Qwen3-4B,484,Once there was an old woman who was very shy.,", and beside her cottage lived a quiet, gentle fox who whispered secrets to the wind.",0.0,50,Fox
+Qwen/Qwen3-4B,485,"Once upon a time, there was a cold leather hat.",and a mischievous squirrel who loved to steal hats from unsuspecting travelers.,0.0,50,Squirrel
+Qwen/Qwen3-4B,486,Bernie and his mom were walking in the park.,"As they passed a quiet corner of the park, a curious squirrel peeked out from behind a bush, its bright eyes following Bernie with wide interest.",0.0,50,Squirrel
+Qwen/Qwen3-4B,487,"Once upon a time, in a small house, there was a little boy named Tom.","In the garden behind the house, a curious little rabbit named Benny jumped over the fence, eager to meet the boy who had a toy that could talk.",0.0,50,Rabbit
+Qwen/Qwen3-4B,488,Once there was a little boy named Ted.,"who found a lost puppy with a collar marked ""Buddy"" by the side of the road.",0.0,50,
+Qwen/Qwen3-4B,489,"Once upon a time, there was a little frog who lived in a pond.","One day, a curious turtle named Terry wandered into the pond and became best friends with the little frog.",0.0,50,Turtle
+Qwen/Qwen3-4B,490,"Once upon a time, there was a girl called Maisy.",", and she had a loyal companion, a clever fox named Felix who lived in the forest beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,491,"Once upon a time, there was a cool musician named Tom.",", and a mischievous squirrel named Sammy who loved to steal his guitar picks.",0.0,50,Squirrel
+Qwen/Qwen3-4B,492,The little girl was so excited.,"that she spotted a curious fox peeking out from behind the bushes, its bright eyes reflecting the golden light of the setting sun.",0.0,50,Fox
+Qwen/Qwen3-4B,493,"Once upon a time, there was a girl named Lily.",", and beside her cottage lived a clever fox named Finn who loved to collect shiny objects.",0.0,50,Fox
+Qwen/Qwen3-4B,494,"Once upon a time, there was a big, green crocodile who lived in a swamp.","In the same swamp, a clever, sly raccoon named Riff discovered the crocodile's secret treasure hidden in the mud.",0.0,50,Crocodile
+Qwen/Qwen3-4B,495,"One day, Susie was at the beach.","As she walked along the shore, Susie spotted a curious sea turtle slowly crawling toward the water, its ancient eyes watching her with quiet wisdom.",0.0,50,Turtle
+Qwen/Qwen3-4B,496,Jimmy was 3 years old and he was very excited.,", because he had just met a friendly squirrel named Sammy who had a tiny red hat.",0.0,50,Squirrel
+Qwen/Qwen3-4B,497,"Once upon a time, there was a girl named Lily.",", and beside her cottage lived a clever fox named Finn who loved to collect shiny objects.",0.0,50,Fox
+Qwen/Qwen3-4B,498,"Once upon a time, a calm symbol changed.",", and a mischievous fox with emerald eyes appeared, whispering secrets of the ancient forest.",0.0,50,Fox
+Qwen/Qwen3-4B,499,"Once upon a time, there was a little girl named Sue.",", who befriended a clever fox named Felix who lived in the forest behind her house.",0.0,50,Fox
+Qwen/Qwen3-4B,500,Once there was a little boy named Billy.,"who found a lost puppy with a collar marked ""Milo"" by the side of the road.",0.0,50,
+Qwen/Qwen3-4B,501,Once there was a squirrel who wanted to stand.,", and beside the tree where he lived, a curious rabbit named Thistle began to wonder why the squirrel was so determined to stand.",0.0,50,Squirrel
+Qwen/Qwen3-4B,502,Sam and Mia are twins who like to play in the garden.,"While they were playing, a curious squirrel named Benny scampered over to join them, eyes wide with excitement.",0.0,50,Squirrel
+Qwen/Qwen3-4B,503,"Once upon a time, there was a little girl who had a smooth doll.",and a mischievous squirrel who loved to steal her toys.,0.0,50,Squirrel
+Qwen/Qwen3-4B,504,Mama was very excited.,because she had finally found a lost puppy who had been wandering alone in the forest all day.,0.0,50,
+Qwen/Qwen3-4B,505,"One day, Sarah was looking for something fun to do.","As she wandered through the park, Sarah met a curious squirrel named Benny who was busy collecting acorns for the winter.",0.0,50,Squirrel
+Qwen/Qwen3-4B,506,Tom and Mia were playing in the park.,"As they ran past the pond, a curious raccoon peeked out from the bushes, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,507,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,508,Once upon a time there was a boy named Tom.,", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,509,Once upon a time there was a girl called Lily.,", who befriended a clever fox named Finn who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,510,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,511,Jimmy was a three-year-old boy.,who loved chasing squirrels through the woods behind his house.,0.0,50,
+Qwen/Qwen3-4B,512,Mum and Dad took baby to the yard.,", where a curious rabbit with shimmering fur bounded over to investigate the tiny human.",0.0,50,Rabbit
+Qwen/Qwen3-4B,513,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,514,The train was impressive.,", but as it pulled into the station, a curious fox with shimmering green eyes peeked out from the shadows, watching with wide, inquisitive eyes.",0.0,50,Fox
+Qwen/Qwen3-4B,515,"One day, a sailor was out at sea.","As he sailed alone, a majestic white whale breached beside the ship, its massive body sending a spray of water into the air like a celestial blessing.",0.0,50,Whale
+Qwen/Qwen3-4B,516,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,517,Once upon a time there was a tough train.,", and alongside it roamed a clever fox who could outsmart even the fastest bullet.",0.0,50,Fox
+Qwen/Qwen3-4B,518,Once upon a time there was a dark night.,"Under the shadow of the moon, a timid fox with silver fur crept through the forest, searching for a way to light the darkness.",0.0,50,Fox
+Qwen/Qwen3-4B,519,Once there was a small bird who wanted to fly the highest.,", and beside the mountain, a clever fox named Finn decided to join the journey to help the bird reach new heights.",0.0,50,Bird
+Qwen/Qwen3-4B,520,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,521,"Once upon a time, there was a good painter.",who befriended a clever fox named Finn who could paint with his tail.,0.0,50,Fox
+Qwen/Qwen3-4B,522,Tom and Lily are playing in the park.,"As they ran past the pond, a curious raccoon peeked out from behind a bush, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,523,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,524,"Once upon a time, there was a little brown mouse who lived in a big chimney.","One day, a curious gray squirrel named Thistle stumbled upon the mouse while exploring the attic.",0.0,50,Squirrel
+Qwen/Qwen3-4B,525,Sara and Ben are twins.,", but when they stumble upon a lost puppy with a collar marked ""Milo,"" they realize their lives are about to change forever.",0.0,50,
+Qwen/Qwen3-4B,526,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,527,Once upon a time there was a lovely fish.,", and beside the shimmering lake lived a clever fox who loved to trick the fish into sharing his favorite berries.",0.0,50,Fish
+Qwen/Qwen3-4B,528,Sara and Ben are twins.,", but when they stumble upon a lost puppy with a collar marked ""Milo,"" they realize their lives are about to change forever.",0.0,50,
+Qwen/Qwen3-4B,529,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,530,"Once upon a time, there was a little crab who lived by the sea.","One day, a curious seahorse swam by and asked the crab for help finding a lost shell.",0.0,50,Seahorse
+Qwen/Qwen3-4B,531,Once there was a tough cable.,", and beside it lurked a curious fox with fur the color of twilight.",0.0,50,Fox
+Qwen/Qwen3-4B,532,"One day, a small town was filled with joy.","That same day, a curious fox named Finn wandered into the town, his bright eyes sparkling with mischief and a heart full of adventure.",0.0,50,Fox
+Qwen/Qwen3-4B,533,Once upon a time there was a little girl named Susie.,", who befriended a clever fox named Felix who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,534,A girl was feeling very shy.,"A timid rabbit with oversized ears peeked curiously from the bushes, unsure whether to approach the girl or vanish into the underbrush.",0.0,50,Rabbit
+Qwen/Qwen3-4B,535,Ben and Lily were playing with balloons in the park.,"As they floated past the slide, a curious squirrel peeked out from behind a bush, eyes wide with wonder at the floating balloons.",0.0,50,Squirrel
+Qwen/Qwen3-4B,536,"One day, Charlie and his family were at the beach.","As they walked along the shore, a curious sea otter waddled up to them, tilting its head in quiet curiosity.",0.0,50,Otter
+Qwen/Qwen3-4B,537,"Once upon a time, there was a little fish called Bobby.","One day, Bobby met a clever raccoon named Rosie who was searching for a special acorn to help her sick brother.",0.0,50,Raccoon
+Qwen/Qwen3-4B,538,"Once upon a time, there was a little girl with a mysterious sister.",and a clever fox who could talk but never spoke a word.,0.0,50,Fox
+Qwen/Qwen3-4B,539,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,540,Once upon a time there was a big jar.,"Inside the jar, a tiny, shimmering frog with iridescent skin leaped out, leaving a trail of glittering dew that sparkled like stars.",0.0,50,Frog
+Qwen/Qwen3-4B,541,Molly was walking through the forest.,"when she heard a soft whimper coming from the underbrush, and there, nestled in the grass, was a tiny, shivering fox with a broken leg.",0.0,50,Fox
+Qwen/Qwen3-4B,542,Billy and his mommy were walking in the park.,"As they passed a sunny patch of grass, a curious brown fox with shimmering eyes bounded over, tilting its head as if trying to understand why two humans were walking so quietly.",0.0,50,Fox
+Qwen/Qwen3-4B,543,One day Grandma took Lila to the park.,"As they walked through the sunny grass, a curious squirrel with a patchwork tail bounded past, chirping excitedly as if it had just discovered a new game.",0.0,50,Squirrel
+Qwen/Qwen3-4B,544,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,545,"Once upon a time, there lived a loving brother and sister.","One day, a mischievous fox named Finn wandered into their village, bringing both trouble and an unexpected friendship.",0.0,50,Fox
+Qwen/Qwen3-4B,546,"Once upon a time, there was a little girl.",and a mischievous fox who lived in the forest behind her house.,0.0,50,Fox
+Qwen/Qwen3-4B,547,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,548,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,549,Once upon a time there was a little girl named Anna.,", who befriended a clever fox named Felix who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,550,"Mother had some money, and so she went to the store to buy something nice.",", but she didn’t realize a shy, fluffy bunny was watching her from the corner of the shop.",0.0,50,
+Qwen/Qwen3-4B,551,Ben was so excited to play a new game.,that he didn’t notice the fluffy white rabbit hopping quietly into the forest.,0.0,50,Rabbit
+Qwen/Qwen3-4B,552,Once there was a little puppy called Brownie who liked to play all day.,"One day, Brownie met a clever fox named Felix who was always searching for adventure.",0.0,50,Fox
+Qwen/Qwen3-4B,553,Tom and Anna were playing in the yard when they saw dark clouds in the sky.,"As they looked up, a large, majestic eagle swooped down from the clouds, its wingspan stretching across the sky like a shadow of the storm.",0.0,50,Eagle
+Qwen/Qwen3-4B,554,Once upon a time there was a boy.,and a mischievous fox who lived in the forest nearby.,0.0,50,Fox
+Qwen/Qwen3-4B,555,Once there was a little boy named Josh who was three years old.,", and he had a mischievous little tiger named Tilly who followed him everywhere.",0.0,50,Tiger
+Qwen/Qwen3-4B,556,Anna and Ben are friends.,", but when a curious squirrel named Milo stumbles into their secret treehouse, it changes everything.",0.0,50,Squirrel
+Qwen/Qwen3-4B,557,"Once upon a time, there were two friends - a boy and a girl.",", and a clever fox who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,558,"Once upon a time, there was a little girl named Lucy.",", who befriended a clever fox named Felix who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,559,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,560,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,561,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,562,"One day, a little boy named Tim saw an attractive package near his house.","As he approached, Tim noticed a curious fox with shimmering green eyes watching him from the bushes.",0.0,50,Fox
+Qwen/Qwen3-4B,563,"Once upon a time, there was a little boy named Jack.",", and beside the old oak tree, a mischievous fox named Finn began to follow him every day.",0.0,50,Fox
+Qwen/Qwen3-4B,564,Tom is a cat.,"who discovers a tiny, shimmering mouse named Jerry hiding in a hollow log.",0.0,50,Mouse
+Qwen/Qwen3-4B,565,Once there was a small puppy who was so playful.,", and beside him lived a curious little cat named Whiskers who loved to chase shadows.",0.0,50,Cat
+Qwen/Qwen3-4B,566,"Once upon a time, there was a little girl named Samantha.","Samantha’s favorite toy was a tiny, shimmering unicorn that came to life every time she whispered a secret to it.",0.0,50,
+Qwen/Qwen3-4B,567,Lila and Sam were playing on the porch.,"As they played, a curious raccoon peeked out from behind the garden shed, eyes wide with mischief and a tiny red ball in its paws.",0.0,50,Raccoon
+Qwen/Qwen3-4B,568,"Once upon a time, in a big valley, there was a hairy monster.","In the shadow of the monster's mountain, a clever fox with shimmering green eyes began to whisper secrets to the wind.",0.0,50,Fox
+Qwen/Qwen3-4B,569,"Once upon a time, there was a puppy named Max.","One day, a mischievous cat named Luna wandered into the village and immediately took a liking to Max.",0.0,50,Cat
+Qwen/Qwen3-4B,570,Once there was a lonely marble resting at the top of a hill.,"A curious squirrel scurried down the hill, eager to find out what mysterious treasure lay at the foot of the marble.",0.0,50,Squirrel
+Qwen/Qwen3-4B,571,"Once upon a time, there was a little bunny named Benny.","One day, while Benny was hopping through the meadow, he met a curious fox named Felix who was searching for a special berry that could grant wishes.",0.0,50,Fox
+Qwen/Qwen3-4B,572,Once there was a naughty boy who lived in a small town.,", and a mischievous fox named Finn who loved to steal bread from the bakery.",0.0,50,Fox
+Qwen/Qwen3-4B,573,Sam and Tom are friends.,", but when a curious fox named Finn stumbles into their forest hideout, the trio must work together to solve the mystery of the missing berries.",0.0,50,Fox
+Qwen/Qwen3-4B,574,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,575,"One day, a boy named Tim wanted to play with his long kayak.","As he paddled down the calm river, a curious otter swam up to join him, eyes wide with wonder and a mischievous grin.",0.0,50,Otter
+Qwen/Qwen3-4B,576,"Once upon a time, there was a shy goose.",and a curious rabbit who lived in the same forest but never met.,0.0,50,Rabbit
+Qwen/Qwen3-4B,577,"One day, Billy 's mommy took him to the park.","As they walked through the grass, a curious squirrel with a red tail bounded past them, chirping excitedly as if trying to say hello.",0.0,50,Squirrel
+Qwen/Qwen3-4B,578,"One day, a little girl was playing outside in the sun.","As she ran through the grass, she stumbled upon a wounded fox with a broken leg, its fur matted with mud and blood.",0.0,50,Fox
+Qwen/Qwen3-4B,579,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,580,"Once upon a time, there was an elderly man.","and a mischievous fox who lived in the same forest, always watching him with curious eyes.",0.0,50,Fox
+Qwen/Qwen3-4B,581,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,582,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,583,Anna and Ben were at the park with their mom.,"when a curious squirrel scurried past, carrying a shiny acorn in its paws.",0.0,50,Squirrel
+Qwen/Qwen3-4B,584,Once upon a time there was a little girl called Lucy.,"Lucy found a lost puppy with shimmering fur and big, curious eyes by the edge of the forest.",0.0,50,
+Qwen/Qwen3-4B,585,"Once upon a time, there was a young boy who had an incredible hat.",", and beside him lived a clever fox with fur as golden as the sun.",0.0,50,Fox
+Qwen/Qwen3-4B,586,Once upon a time there was a little duck.,and a curious little fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,587,Once upon a time there was a powerful boat.,", and alongside it swam a clever octopus who could speak the language of the stars.",0.0,50,Octopus
+Qwen/Qwen3-4B,588,"Once upon a time, there was a carpenter called Jack who had a special screw.",", and a mischievous squirrel named Benny who loved to steal screws from every workshop he passed.",0.0,50,Squirrel
+Qwen/Qwen3-4B,589,Mia liked to talk to her velvet bunny.,", but one day she found a wounded fox nearby, its fur matted and eyes wide with fear.",0.0,50,Fox
+Qwen/Qwen3-4B,590,Once there were two friends named Tommy and Mandy.,", who soon met a clever fox named Felix who had a secret garden hidden in the woods.",0.0,50,Fox
+Qwen/Qwen3-4B,591,"One day, John saw a peanut.",", and soon after, a curious squirrel named Milo bounded over, eyes wide with wonder at the tiny, round treasure.",0.0,50,Squirrel
+Qwen/Qwen3-4B,592,"Once upon a time, there were two best friends who both had stuff.",", and a mischievous squirrel named Pip who was always stealing their snacks.",0.0,50,Squirrel
+Qwen/Qwen3-4B,593,Once upon a time there was a humble table.,", and beside it sat a curious squirrel named Thistle, who had a knack for finding the most unexpected treasures.",0.0,50,Squirrel
+Qwen/Qwen3-4B,594,"Once upon a time, there was a silly frog who loved to jump around.",", until he met a mischievous squirrel who was always causing trouble with his acorn hoarding.",0.0,50,Squirrel
+Qwen/Qwen3-4B,595,Once there was a girl who was walking in the park.,"As she walked, she noticed a curious fox peeking out from behind a bush, its bright eyes watching her with quiet fascination.",0.0,50,Fox
+Qwen/Qwen3-4B,596,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,597,Once there was a little girl called Alice.,", who befriended a clever, mischievous fox named Felix who lived in a treehouse at the edge of the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,598,"Once upon a time, there was a little girl called Jane who liked to join in a lot of fun.","One day, Jane met a clever fox named Felix who could talk and had a knack for finding the most delicious berries in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,599,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,600,"Once upon a time, in a small village, there was a hairy dog named Spot.","In the forest beyond the village, a clever fox named Finn lived, always watching the villagers with curious eyes.",0.0,50,Fox
+Qwen/Qwen3-4B,601,Once there was a wise owl.,and a mischievous fox who lived in the same ancient forest.,0.0,50,Fox
+Qwen/Qwen3-4B,602,Once there was a bright girl who enjoyed exploring the world.,", and along the way, she met a clever fox with eyes as bright as the stars.",0.0,50,Fox
+Qwen/Qwen3-4B,603,Ralph was walking around in the park when he observed a tiny stamp on the ground.,"Ralph noticed a small, fluffy creature with bright eyes peering at him from behind a bush—a timid squirrel named Sammy who had lost his favorite acorn.",0.0,50,Squirrel
+Qwen/Qwen3-4B,604,"Once upon a time, there was a bear.",and a clever fox who lived in a forest full of secrets and surprising adventures.,0.0,50,Fox
+Qwen/Qwen3-4B,605,"One day, a boy named Tim went to the zoo with his mom.","As they walked through the primate enclosure, a curious monkey named Milo peered out from behind a palm tree, eyes wide with mischief and a mischievous grin.",0.0,50,Primate
+Qwen/Qwen3-4B,606,Once upon a time there was an old printer.,and a mischievous squirrel who loved to steal ink cartridges and scatter them across the town square.,0.0,50,Squirrel
+Qwen/Qwen3-4B,607,"Once upon a time, in a small town, there was a boy named Tim.","In the quiet woods bordering the town, a clever fox named Finn began to notice strange changes in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,608,Sara and Ben are twins.,", but when they stumble upon a lost puppy with a collar marked ""Milo,"" they realize their lives are about to change in ways they never imagined.",0.0,50,
+Qwen/Qwen3-4B,609,"Once upon a time, there was a big and fat fish named Fin.","One day, a sly and clever fox named Fox arrived at the lake, eager to find a tasty meal.",0.0,50,Fox
+Qwen/Qwen3-4B,610,"One day, Jack and Jill were out for a drive in their car.","As they rounded a bend, a curious fox with shimmering amber eyes bounded across the road, darting between the trees with surprising speed.",0.0,50,Fox
+Qwen/Qwen3-4B,611,Bob and Tim were playing together in the park on Tuesday.,"As they played, a curious squirrel named Sammy bounded over, eyes wide with mischief and a nut in its mouth.",0.0,50,Squirrel
+Qwen/Qwen3-4B,612,Once there was a little girl named Lisa.,"who found a lost puppy with a collar marked ""Buddy"" by the side of the road.",0.0,50,
+Qwen/Qwen3-4B,613,"Once upon a time, there was a leopard.",and a clever fox who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,614,"Once upon a time, there was a boy named Jack who loved to rock.",", and by the old oak tree, he met a mischievous fox with fur as golden as the sunset.",0.0,50,Fox
+Qwen/Qwen3-4B,615,The mommy put the zebra in the box.,"The hippo waddled into the room, carrying a suitcase full of sunglasses and a suspiciously large amount of sunscreen.",0.0,50,
+Qwen/Qwen3-4B,616,Lily and Ben were playing in the park.,"As they ran past the pond, a curious raccoon peeked out from behind a bush, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,617,Lily liked to dance.,", but when she heard the distant squeal of a squirrel scrambling up the tree, she knew it was time to follow the rhythm of the forest.",0.0,50,Squirrel
+Qwen/Qwen3-4B,618,"Once upon a time, there was a baby named Timmy.",", and a mischievous squirrel named Sammy who loved to steal his snacks.",0.0,50,Squirrel
+Qwen/Qwen3-4B,619,Once there was a girl and her name was Jane.,", who lived next door to a mischievous raccoon named Roy who loved to steal her cookies.",0.0,50,Raccoon
+Qwen/Qwen3-4B,620,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,621,"One sunny day, a little girl named Lily felt excited.","As she ran through the meadow, she came across a curious brown fox with shimmering eyes who seemed to know exactly where she was going.",0.0,50,Fox
+Qwen/Qwen3-4B,622,"Once upon a time, there was a boy who loved to help others.","One day, he met a clever fox named Finn who was lost and in need of help.",0.0,50,Fox
+Qwen/Qwen3-4B,623,Once there was a little boy who loved animals.,", and he found a lost puppy with a collar that read ""Buddy.""",0.0,50,
+Qwen/Qwen3-4B,624,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,625,"Once upon a time, there was a little bear named Ted.","One day, Ted met a curious fox named Fiona who was searching for the legendary Berry Bush of Eternal Spring.",0.0,50,Fox
+Qwen/Qwen3-4B,626,"Once upon a time, there was a naughty little boy called Bert.",", who had a mischievous streak that could rival the energy of a squirrel in a tree.",0.0,50,Squirrel
+Qwen/Qwen3-4B,627,There was a party at the park.,"At the park party, a mischievous raccoon named Riley stole a slice of cake and scampered off into the bushes.",0.0,50,Raccoon
+Qwen/Qwen3-4B,628,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,629,"On Tuesday, Lucy and her dad went to the park.","As they walked through the grass, a curious squirrel with a red tail bounded past them, chirping excitedly as if trying to say hello.",0.0,50,Squirrel
+Qwen/Qwen3-4B,630,Once upon a time there was a small girl called Lucy.,Lucy found a lost kitten with shimmering blue eyes by the edge of the forest.,0.0,50,
+Qwen/Qwen3-4B,631,"Once upon a time, a mom and dad had a son named James.",", who was best friends with a clever and mischievous fox named Finn.",0.0,50,Fox
+Qwen/Qwen3-4B,632,Jack was a little boy of three.,", but he had a secret friend—a mischievous raccoon named Rufus who lived in the treehouse behind the old barn.",0.0,50,Raccoon
+Qwen/Qwen3-4B,633,Ben is a farmer.,"who recently adopted a curious little goat named Bessie, who seemed to have a special bond with the old oak tree in the field.",0.0,50,Goat
+Qwen/Qwen3-4B,634,Once there was a man who wanted to build something special.,", and alongside him came a clever fox with a knack for finding hidden treasures.",0.0,50,Fox
+Qwen/Qwen3-4B,635,Lily was sleepy.,", but a curious squirrel peeked through the window, twitching its tail as if trying to decide whether to knock.",0.0,50,Squirrel
+Qwen/Qwen3-4B,636,Lily and Ben are eager to go to the park.,"As they arrived at the park, a curious squirrel named Sammy bounded past them, eyes wide with excitement and a nut tucked between his teeth.",0.0,50,Squirrel
+Qwen/Qwen3-4B,637,"Once upon a time, a boy named Timmy was playing in the park with his friends.","As they were running through the grass, a curious squirrel named Sammy bounded over, eyes wide with mischief and a nut tucked between his teeth.",0.0,50,Squirrel
+Qwen/Qwen3-4B,638,"Once upon a time, there was a little girl named Poppy.","One day, while exploring the forest, she met a clever fox named Finn who could talk and play the flute.",0.0,50,Fox
+Qwen/Qwen3-4B,639,Once upon a time there was a little girl named Katy.,", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,640,"One day, Ben and Lily went to the park with Mom.","As they walked through the grass, a curious squirrel peeked out from behind a bush, eyes wide with mischief.",0.0,50,Squirrel
+Qwen/Qwen3-4B,641,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,642,"One day, a fat bird named Billy was flying near the sea.","As he flew over the waves, Billy spotted a curious seal sunbathing on a rocky outcrop, its black fur glistening in the sunlight.",0.0,50,
+Qwen/Qwen3-4B,643,"One day, Mommy and Alice went for a walk.","As they walked through the quiet forest, a curious squirrel with a patchwork tail bounded past them, chirping excitedly as if trying to say hello.",0.0,50,Squirrel
+Qwen/Qwen3-4B,644,"Once upon a time, in a big town, there was a wise nurse.","In the heart of the town, a clever raccoon named Remy began to notice strange changes in the nurse’s routine.",0.0,50,Raccoon
+Qwen/Qwen3-4B,645,"Once upon a time, there were two birds.","and a clever fox who watched them from the bushes, always waiting for the right moment to strike.",0.0,50,Fox
+Qwen/Qwen3-4B,646,Tommy was walking through the forest.,"when he heard a soft rustling in the underbrush, and out popped a curious fox with shimmering green eyes, tilting its head as if trying to figure out why a human was wandering",0.0,50,Fox
+Qwen/Qwen3-4B,647,Tommy was scared of the dark.,", but when he crept outside, he heard a low, rumbling growl coming from the forest behind his house.",0.0,50,
+Qwen/Qwen3-4B,648,Lily and Tom were playing with their toys in the living room.,"As they played, a curious kitten wandered in, its bright eyes fixing on the toys with wide fascination.",0.0,50,
+Qwen/Qwen3-4B,649,Once there was a girl named Amy.,", and a mischievous fox named Felix lived in the forest nearby, always watching her from the shadows.",0.0,50,Fox
+Qwen/Qwen3-4B,650,Once there was a little boy.,who found a lost puppy wandering through the woods.,0.0,50,
+Qwen/Qwen3-4B,651,Mum came into the living room with a pot of soil.,", and in her hands was a tiny, shivering rabbit with a patchwork of fur that looked like it had been stitched together by a mischievous child.",0.0,50,Rabbit
+Qwen/Qwen3-4B,652,"Once upon a time, there was a nice motor.",and a curious squirrel who loved to ride it around the forest.,0.0,50,Squirrel
+Qwen/Qwen3-4B,653,"Once upon a time, there was a dog named Max.","One day, a mischievous cat named Luna wandered into the village and immediately took a liking to Max.",0.0,50,Cat
+Qwen/Qwen3-4B,654,"One day, a boy named Tom wanted to eat yogurt.","As he walked to the store, a curious squirrel named Benny bounded past him, chirping excitedly about the delicious yogurt he had found in the tree.",0.0,50,Squirrel
+Qwen/Qwen3-4B,655,"Once upon a time, there was a big, bright sun in the sky.","Under the blazing sun, a curious little fox with shimmering golden fur bounded across the meadow, chasing the shadow of a butterfly that danced just out of reach.",0.0,50,Butterfly
+Qwen/Qwen3-4B,656,Once there was a large kite.,"that flew above a forest where a curious fox named Finn lived, always watching for the perfect moment to chase it.",0.0,50,Fox
+Qwen/Qwen3-4B,657,"Once upon a time, there was a big cow named Betsy.",", and beside the barn lived a clever fox named Felix who was always searching for the perfect acorn.",0.0,50,Fox
+Qwen/Qwen3-4B,658,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,659,Molly was a 3 year old and she was having a birthday soon.,"Molly was a 3-year-old and she was having a birthday soon, but she was also excited about the new puppy her parents had brought home, a mischievous golden retriever named Max who had a knack for stealing",0.0,50,
+Qwen/Qwen3-4B,660,"Once upon a time, there was a little dog named Max.","One day, a curious cat named Luna wandered into the village and decided to make friends with Max.",0.0,50,Cat
+Qwen/Qwen3-4B,661,Max and his mom were outside in their yard.,"when a curious red fox crept silently through the bushes, its amber eyes watching them with cautious interest.",0.0,50,Fox
+Qwen/Qwen3-4B,662,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,663,"One day, a near the sea, a boy found an oyster.",", and a curious sea turtle swam up to investigate the strange shell in the sand.",0.0,50,Turtle
+Qwen/Qwen3-4B,664,Billy had always wanted a strong mule.,", but when he finally found one, it was already too late—the mule had been sold to a farmer who needed a team for plowing fields.",0.0,50,Mule
+Qwen/Qwen3-4B,665,"""Mommy, I want to swing!"" said the three year old.","""Zooming past her on a cloud, a mischievous squirrel with a bow tie chirped, 'Follow me, little one—there's a better swing than this!'""",0.0,50,Squirrel
+Qwen/Qwen3-4B,666,"Once upon a time, there was a little cute bunny.",and a mischievous squirrel who loved to steal acorns from the treehouse.,0.0,50,Squirrel
+Qwen/Qwen3-4B,667,Once there was a little girl named Ann who loved to learn.,"One day, while exploring the forest near her home, Ann met a curious little fox named Finn who was also eager to learn and share his knowledge with her.",0.0,50,Fox
+Qwen/Qwen3-4B,668,Anna and Ben are twins.,", but when they stumble upon a lost puppy with a collar marked ""Milo,"" they realize they've just become the guardians of a furry friend in need.",0.0,50,
+Qwen/Qwen3-4B,669,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,670,Mum and Dad brought Timmy to the beach.,"As they walked along the shore, a curious sea lion waddled up to Timmy, its bright eyes full of mischief and wonder.",0.0,50,Sea Lion
+Qwen/Qwen3-4B,671,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,672,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,673,Tom is a normal boy.,", but he discovers a clever, mischievous raccoon named Riley who has been sneaking into his neighborhood and leaving mysterious gifts in his treehouse.",0.0,50,Raccoon
+Qwen/Qwen3-4B,674,"Once upon a time, there was a small bunny named Peter.","One day, a curious squirrel named Sam wandered into the forest and met Peter, sparking an adventure that would change both their lives.",0.0,50,Squirrel
+Qwen/Qwen3-4B,675,Once upon a time there was a farmer.,and a mischievous fox who lived in the woods nearby.,0.0,50,Fox
+Qwen/Qwen3-4B,676,Once there was a little kitten who loved to play.,", and beside the cozy cottage lived a curious fox named Finn who was always searching for adventure.",0.0,50,Fox
+Qwen/Qwen3-4B,677,"Once upon a time, there was a kind lady who loved to cook.","One day, a mischievous squirrel named Bramble knocked over her spice rack and scattered a mysterious glowing powder across the kitchen floor.",0.0,50,Squirrel
+Qwen/Qwen3-4B,678,Ben and Lily were playing with their toys in the living room.,"As they played, a curious kitten wandered into the room, its bright eyes fixing on the toys with wide fascination.",0.0,50,
+Qwen/Qwen3-4B,679,"One day, a taxi was driving down the street.","As the taxi rounded the corner, a curious squirrel darted across the street, its bushy tail swaying as it scurried toward the sidewalk.",0.0,50,Squirrel
+Qwen/Qwen3-4B,680,"Once upon a time there were two creatures, one was a fluffy Bunny and the other a Slinky Snake.",", and then there came a clever Fox with a knack for trickery and a heart full of mischief.",0.0,50,Fox
+Qwen/Qwen3-4B,681,Once there were two friends.,who discovered a lost puppy wandering alone in the forest.,0.0,50,
+Qwen/Qwen3-4B,682,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,683,"Once upon a time, there was a little girl named Molly.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,684,"Once upon a time, there was a little boy named Timmy who liked to go for walks with his mom.","As they walked through the quiet forest, they came across a shy, fluffy rabbit with bright green eyes who seemed to be waiting for them.",0.0,50,Rabbit
+Qwen/Qwen3-4B,685,Once upon a time there was a creative little girl named Jenny.,"Jenny’s favorite toy was a tiny, shimmering unicorn named Sparkle, who seemed to come alive whenever she imagined adventures.",0.0,50,
+Qwen/Qwen3-4B,686,There once was a farmer who had a very modern crane.,", and beside his barn lived a clever fox who could talk to the wind.",0.0,50,Fox
+Qwen/Qwen3-4B,687,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,688,Lily was a girl who liked to play with her dolls.,", but she also loved to watch the friendly squirrel named Sammy who visited her window every morning.",0.0,50,Squirrel
+Qwen/Qwen3-4B,689,"Once upon a time, there was a little boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,690,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,691,Ben and Lily are playing with their toy cars in the garden.,"As they raced along the path, a curious squirrel peeked out from the bushes, watching them with wide, intelligent eyes.",0.0,50,Squirrel
+Qwen/Qwen3-4B,692,Nina was very popular at school.,", but when she found a lost puppy outside the cafeteria, she couldn't help but feel a strange sense of responsibility toward the tiny, shivering creature.",0.0,50,
+Qwen/Qwen3-4B,693,"Once upon a time, there was a little chicken named Chickie.","One day, while Chickie was scratching in the sun, a curious rabbit named Rosie bounded over and asked for a friend.",0.0,50,Rabbit
+Qwen/Qwen3-4B,694,"Yesterday, Baby and Mommy went on an adventure.",", and along the way, they met a curious little fox named Finn who was searching for his lost toy.",0.0,50,Fox
+Qwen/Qwen3-4B,695,Once upon a time there was a gloomy town.,"In the heart of the town, a mischievous fox with emerald eyes prowled the shadows, always watching, always waiting.",0.0,50,Fox
+Qwen/Qwen3-4B,696,Lily wanted to wear her new coat with the big zipper.,", but when she pulled it on, a fluffy white rabbit with oversized ears hopped out from behind the curtain, startling her and leaving a trail of glittery paw prints",0.0,50,Rabbit
+Qwen/Qwen3-4B,697,"Once upon a time, a little girl named Lily went to school.","At the edge of the playground, a curious fox with shimmering amber eyes approached her, tilting its head as if trying to understand the quiet girl who had just arrived.",0.0,50,Fox
+Qwen/Qwen3-4B,698,"One day, a hairy dog named Spot saw a bush.","That same day, a shy, green-eyed rabbit named Thistle hopped into the bush, curious about the strange dog with fur as thick as a tree trunk.",0.0,50,Rabbit
+Qwen/Qwen3-4B,699,Alice was a three year old girl.,"Alice was a three-year-old girl who loved to chase butterflies through the meadow, until she met a clever fox named Finn who taught her the secrets of the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,700,Tommy was a brave little boy.,who discovered a lost puppy wandering alone in the forest.,0.0,50,
+Qwen/Qwen3-4B,701,Once there was a graceful bird.,", and beside the stream lived a clever fox who watched the bird with quiet curiosity.",0.0,50,Bird
+Qwen/Qwen3-4B,702,"One day, a little girl named Lucy was walking through the park.","As she walked, she heard a soft whimper coming from the bushes, and out popped a tiny, shivering puppy with muddy paws and a wagging tail.",0.0,50,
+Qwen/Qwen3-4B,703,"Once upon a time, there was a clumsy bear named Bob.",", and beside the forest stream lived a clever fox named Fiona who was always eager to help.",0.0,50,Fox
+Qwen/Qwen3-4B,704,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,705,"Once upon a time, there lived an adventurous little girl.","One day, she met a clever fox named Finn who could talk and had a knack for finding hidden treasures.",0.0,50,Fox
+Qwen/Qwen3-4B,706,Paul was an adventurous three year old.,"Paul was an adventurous three-year-old who loved chasing fireflies through the forest, until he met a mischievous squirrel named Sammy who taught him the secret language of the trees.",0.0,50,Squirrel
+Qwen/Qwen3-4B,707,"Once upon a time, there was an honest octopus named Ollie.","One day, a curious squirrel named Sammy stumbled upon Ollie’s secret garden.",0.0,50,Squirrel
+Qwen/Qwen3-4B,708,Once there was a little boy named Luke.,", and beside him lived a clever fox named Finn who loved to help others.",0.0,50,Fox
+Qwen/Qwen3-4B,709,"Once upon a time, there was a big peach tree.","Under the shade of the tree, a curious squirrel named Bramble scurried up the trunk, eager to claim the first ripe peach of the season.",0.0,50,Squirrel
+Qwen/Qwen3-4B,710,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,711,"Once upon a time there were two friends, Lily and Luke.","One day, they met a clever fox named Finn who could talk and had a secret garden hidden in the woods.",0.0,50,Fox
+Qwen/Qwen3-4B,712,"Once upon a time, there was a little girl named Lily who loved to play with dolls.","One day, she found a tiny, talking squirrel named Sammy who claimed he was a royal courier for the forest kingdom.",0.0,50,Squirrel
+Qwen/Qwen3-4B,713,Once upon a time there lived a little girl named Jane.,"One day, while exploring the forest near her cottage, Jane encountered a clever fox named Felix who was hiding from a pack of wolves.",0.0,50,Fox
+Qwen/Qwen3-4B,714,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,715,Once upon a time there was a clean white rabbit.,and a sly black cat who watched the rabbit from the shadows.,0.0,50,Rabbit
+Qwen/Qwen3-4B,716,John and his mom were looking at some clothes in the store.,"As they walked past the童装 section, a curious little panda named Pooh wandered up, eyes wide with wonder at the colorful shirts on display.",0.0,50,Panda
+Qwen/Qwen3-4B,717,Sara was a little bird who lived in a big tree.,A curious squirrel named Timmy often visited the tree to collect acorns and chat with Sara about the adventures of the forest.,0.0,50,Squirrel
+Qwen/Qwen3-4B,718,"Once upon a time, there was a little boy.",and a mischievous squirrel who loved to steal his crumpled homework papers and hide them in the tallest tree in the forest.,0.0,50,Squirrel
+Qwen/Qwen3-4B,719,Once upon a time there was a very jolly rabbit called Timmy.,"One day, Timmy met a mischievous squirrel named Sammy who was always stealing acorns from the garden.",0.0,50,Squirrel
+Qwen/Qwen3-4B,720,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,721,Once upon a time there was a little girl called Jane.,Jane discovered a lost kitten with shimmering blue eyes nestled among the roses in the garden.,0.0,50,
+Qwen/Qwen3-4B,722,The lady had some paint.,"and a small, curious squirrel perched on her shoulder, watching her with wide, inquisitive eyes.",0.0,50,Squirrel
+Qwen/Qwen3-4B,723,"Once upon a time, there was a little girl called Gina.",", who befriended a clever fox named Felix who lived in the forest behind her house.",0.0,50,Fox
+Qwen/Qwen3-4B,724,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,725,"Once upon a time, there was a little chicken named Chirpy.","One day, while Chirpy was scratching in the sun, a curious rabbit named Rosie bounded over and asked for a friend.",0.0,50,Rabbit
+Qwen/Qwen3-4B,726,Anna and Ben are playing in the park.,"As they ran past the pond, a curious raccoon peeked out from behind a bush, eyes wide with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,727,"One sunny day, a little girl named Lily was playing in her backyard.","As she ran through the grass, she heard a soft whimper and found a tiny, shivering puppy tangled in the bushes.",0.0,50,
+Qwen/Qwen3-4B,728,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,729,"Once upon a time, a bear and a rabbit decided to test how strong their friendship was.","As they hiked through the forest, a mischievous squirrel named Thistle darted past, carrying a basket of acorns and a secret mission of her own.",0.0,50,Squirrel
+Qwen/Qwen3-4B,730,"One day, Susy went to a park to search for something fun to do.","As she wandered through the grass, Susy spotted a curious squirrel peeking out from behind a bush, its bright eyes watching her with a mix of innocence and mischief.",0.0,50,Squirrel
+Qwen/Qwen3-4B,731,Ben saw a beetle on the grass.,", and then spotted a fox darting through the tall grass, its golden eyes watching with quiet curiosity.",0.0,50,Fox
+Qwen/Qwen3-4B,732,"Once upon a time, there was a little girl.",and a mischievous fox who lived in the forest behind her house.,0.0,50,Fox
+Qwen/Qwen3-4B,733,"Once upon a time, there was a little frog named Freddy.","One day, Freddy met a clever raccoon named Rosie who was searching for a special acorn to help restore the magic of the forest.",0.0,50,Raccoon
+Qwen/Qwen3-4B,734,Once upon a time there were two friends named Sam and Sarah.,"One day, they met a clever fox named Felix who was determined to find the legendary Moonstone.",0.0,50,Fox
+Qwen/Qwen3-4B,735,Sara and Tom are friends.,", but when a curious fox named Luna stumbles into their backyard, they realize their friendship will never be the same.",0.0,50,Fox
+Qwen/Qwen3-4B,736,"Once upon a time, there was a good boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,737,Once upon a time there was a noisy rain.,", and a mischievous raccoon named Riff wandered into the storm, determined to find the source of the sound.",0.0,50,Raccoon
+Qwen/Qwen3-4B,738,Lily and Ben are friends.,", but when a curious fox named Finn stumbles into their secret treehouse, it changes everything.",0.0,50,Fox
+Qwen/Qwen3-4B,739,"Once upon a time, there was a little boy named Jason.",", who befriended a clever fox named Finn who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,740,"One day, Tom and Sally went for a walk.","As they walked through the forest, a curious fox with shimmering green eyes approached, tilting its head as if trying to understand their purpose.",0.0,50,Fox
+Qwen/Qwen3-4B,741,Jimmy was so excited.,that he couldn't wait to meet the friendly sloth who had just arrived at the zoo.,0.0,50,Sloth
+Qwen/Qwen3-4B,742,Jim and his mum were in the park.,"when a curious squirrel scurried past, eyes wide with mischief as it peeked at the children playing nearby.",0.0,50,Squirrel
+Qwen/Qwen3-4B,743,"Once upon a time, there was a very old bird who lived in a cosy nest.","One day, a curious squirrel named Thistle stumbled upon the nest and decided to visit the old bird.",0.0,50,Squirrel
+Qwen/Qwen3-4B,744,Once there was a little girl named Maisy.,Maisy discovered a lost puppy with muddy paws and a wagging tail by the side of the creek.,0.0,50,
+Qwen/Qwen3-4B,745,Jack went to the beach with his family.,"As they walked along the shore, a curious sea otter waddled up to Jack, its black and white fur glistening in the sun.",0.0,50,Otter
+Qwen/Qwen3-4B,746,"Once upon a time, there was a girl called Poppy.","One day, a mischievous fox named Finn wandered into the forest and fell in love with Poppy's laughter.",0.0,50,Fox
+Qwen/Qwen3-4B,747,"Once upon a time, there was a young bunny named Bob.","One day, while hopping through the meadow, Bob met a clever fox named Felix who was trying to find the perfect spot to build his new treehouse.",0.0,50,Fox
+Qwen/Qwen3-4B,748,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,749,"Once upon a time, there was a little bear named Teddy.","One day, Teddy met a curious fox named Fiona who was searching for the legendary Berry Bush of Eternal Spring.",0.0,50,Fox
+Qwen/Qwen3-4B,750,Once there was a popular spirit who lived in the village.,"In the forest beyond the village, a mischievous fox named Thistle often stole bread from the baker’s window.",0.0,50,Fox
+Qwen/Qwen3-4B,751,"Once upon a time, there was a grumpy stick.",who lived in a forest where a mischievous squirrel named Bramble often stole his favorite acorns.,0.0,50,Squirrel
+Qwen/Qwen3-4B,752,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,753,Once there was a little boy named Tim.,"who found a lost puppy with a collar that read ""Barkley.""",0.0,50,
+Qwen/Qwen3-4B,754,Tom and Lily were playing in the garden.,"As they were digging for worms, a curious rabbit named Benny bounded over, eyes wide with wonder at the children's laughter.",0.0,50,Rabbit
+Qwen/Qwen3-4B,755,Tom and Anna are brother and sister.,", but their lives take an unexpected turn when a curious fox named Finn stumbles into their forest home, bringing with him a secret that could change everything.",0.0,50,Fox
+Qwen/Qwen3-4B,756,Tim and Sam were friends.,", but when a curious fox named Finn wandered into their forest, the trio found themselves embroiled in a mystery that would test their friendship and courage.",0.0,50,Fox
+Qwen/Qwen3-4B,757,"Once upon a time, Timmy and his mom went to visit the zoo.","As they walked through the primate enclosure, a curious capybara named Bruno waddled up to them, tilting his head in what seemed like a friendly greeting.",0.0,50,Capybara
+Qwen/Qwen3-4B,758,"One day, a hammer was playing in the park.","As the hammer skipped across the pond, a mischievous squirrel leaped onto its head, giggling and tugging at its handle.",0.0,50,Squirrel
+Qwen/Qwen3-4B,759,Mandy and her mom went to the park.,"As they walked through the grass, a curious squirrel peeked out from behind a bush, eyes wide with wonder.",0.0,50,Squirrel
+Qwen/Qwen3-4B,760,"Every night, the ancient parent would fold up the blanket for the child.",", but beneath the bed, a timid squirrel named Thistle began to whisper secrets of the forest to the stars.",0.0,50,Squirrel
+Qwen/Qwen3-4B,761,"One day, Little Billy was playing with his toy cars.","As he raced along the sidewalk, a curious little squirrel named Sammy bounded over, carrying a tiny acorn in his mouth.",0.0,50,Squirrel
+Qwen/Qwen3-4B,762,"Once upon a time, there was a kind girl named Sue.",", who befriended a clever fox named Felix who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,763,John was walking on a path in the forest.,"As he walked, John heard a soft rustling in the underbrush and saw a sleek, silver fox with emerald eyes darting away into the shadows.",0.0,50,Fox
+Qwen/Qwen3-4B,764,"The sun was shining, and the birds were singing.","A curious squirrel peeked out from the branches, eyes wide with wonder as it watched the peaceful scene unfold.",0.0,50,Squirrel
+Qwen/Qwen3-4B,765,Once upon a time there was a girl named Bella.,", who befriended a clever and mischievous fox named Finn who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,766,Once upon a time there was a naughty little boy.,and a mischievous little fox who loved to steal berries from the garden.,0.0,50,Fox
+Qwen/Qwen3-4B,767,"Once upon a time, there was a little girl named Lucy.",", who befriended a clever fox named Felix who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,768,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,769,"Once upon a time, there was a fireman named Tom.","and a clever, mischievous fox named Finn who lived in the same town but never quite understood why they were both part of the same story.",0.0,50,Fox
+Qwen/Qwen3-4B,770,John and Bob were best friends.,until they met a clever fox named Felix who became their unexpected companion on their adventures through the forest.,0.0,50,Fox
+Qwen/Qwen3-4B,771,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,772,"Once upon a time, there was a big dog named Spot.","One day, a shy little cat named Whiskers wandered into the yard and decided to make a new friend.",0.0,50,Cat
+Qwen/Qwen3-4B,773,"Once upon a time, there was a girl named Lily.",", and beside her cottage lived a clever fox named Finn who loved to collect shiny objects.",0.0,50,Fox
+Qwen/Qwen3-4B,774,"Once upon a time, two friends named Jack and Jill were walking through the woods.","As they walked, a curious fox with shimmering green eyes approached, tilting its head in quiet curiosity.",0.0,50,Fox
+Qwen/Qwen3-4B,775,Once upon a time there was a young boy named Tom.,", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,776,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,777,Billy had a pick.,", but it was a pickaxe, not a pick of fruit, and when he swung it at the rock, a startled squirrel scurried out from the roots, knocking over a bucket of paint that had",0.0,50,Squirrel
+Qwen/Qwen3-4B,778,"Once upon a time, there was a little boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,779,"Once upon a time, there was a mighty cat named Tom.","One day, a sly fox named Jerry joined Tom's adventures, bringing both friendship and a dangerous game of cat and mouse.",0.0,50,Mouse
+Qwen/Qwen3-4B,780,"Once there was a little girl, who was very hungry.",", and a mischievous fox with shimmering green eyes who had a knack for stealing bread from unsuspecting villagers.",0.0,50,Fox
+Qwen/Qwen3-4B,781,"Once upon a time, there was a little bird named Blue.","One day, a curious squirrel named Sammy stumbled upon Blue while foraging for acorns in the forest.",0.0,50,Squirrel
+Qwen/Qwen3-4B,782,Mina was a three year old girl who loved to explore.,"Mina was a three-year-old girl who loved to explore, and her favorite companion was a curious little fox named Finn, whose bright red fur shimmered like fire in the twilight.",0.0,50,Fox
+Qwen/Qwen3-4B,783,"Once upon a time, there was a little boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,784,Once upon a time there was a boy named Jack.,", who befriended a clever fox named Finn who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,785,"Once upon a time, there was a mom and a dad.",", and a mischievous squirrel named Sammy who loved to steal cookies from the kitchen shelf.",0.0,50,Squirrel
+Qwen/Qwen3-4B,786,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,787,Once there was a brave little girl named Ruby.,who discovered a lost puppy with shimmering fur and a heart full of curiosity.,0.0,50,
+Qwen/Qwen3-4B,788,Once upon a time there was a little boy.,and a mischievous squirrel who loved to steal his crumpled homework.,0.0,50,Squirrel
+Qwen/Qwen3-4B,789,Once there was a little turtle named Toby.,", and beside the pond lived a curious fox named Felix who loved to collect shiny rocks.",0.0,50,Fox
+Qwen/Qwen3-4B,790,"Once upon a time, there was a fish named Nemo.","One day, Nemo met a clever fox named Felix who could talk to the stars.",0.0,50,Fox
+Qwen/Qwen3-4B,791,Lucy was anxious.,"as a timid squirrel peeked out from the bushes, its tiny paws trembling as it stared at her with wide, curious eyes.",0.0,50,Squirrel
+Qwen/Qwen3-4B,792,"One day, Sarah and her mom went to the park.","As they walked through the grass, a curious squirrel with a red tail bounded past them, chirping excitedly as if trying to say hello.",0.0,50,Squirrel
+Qwen/Qwen3-4B,793,Once upon a time there was a little girl named Jenny who loved spending time outside.,"One day, while exploring the woods near her home, Jenny met a curious little fox named Finn who was lost and searching for his way back to the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,794,"Once upon a time, there was an adorable baby named Sweets.",Sweets met a clever fox named Finn who could talk to the stars.,0.0,50,Fox
+Qwen/Qwen3-4B,795,"One day, there was a boy who wanted to learn a special trick.",", and along the forest path, he met a clever fox with eyes that shimmered like the stars.",0.0,50,Fox
+Qwen/Qwen3-4B,796,Lily and Ben were twins.,", but they couldn’t help but notice the curious gray fox prowling through the overgrown part of the forest behind their house.",0.0,50,Fox
+Qwen/Qwen3-4B,797,Once there was a strong farmer who lived on a beautiful farm.,"One day, a mischievous fox named Finn wandered onto the farm, curious about the farmer and his lush green fields.",0.0,50,Fox
+Qwen/Qwen3-4B,798,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,799,Once there was a boy named Joe who wanted to buy some gum.,", and a mischievous squirrel named Benny darted past him, stealing a piece of gum from his pocket.",0.0,50,Squirrel
+Qwen/Qwen3-4B,800,Once upon a time there lived a bee.,and a clever fox who watched the bee with curious eyes from the shadows of the forest.,0.0,50,Bee
+Qwen/Qwen3-4B,801,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,802,"One day, a little boy found an ordinary waffle lying on the ground.","As he picked it up, a curious squirrel peeked out from the bushes, its bright eyes full of mischief and wonder.",0.0,50,Squirrel
+Qwen/Qwen3-4B,803,Once there was a brilliant ball that loved to roll.,", and beside it wandered a curious fox with a knack for finding the most hidden treasures.",0.0,50,Fox
+Qwen/Qwen3-4B,804,"Once upon a time, there was a lively child named Timmy.","One day, Timmy met a clever fox named Felix who could talk and solve any problem.",0.0,50,Fox
+Qwen/Qwen3-4B,805,Once upon a time there was a furry little mouse.,"and a clever, mischievous fox who lived just beyond the edge of the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,806,"Once upon a time, there lived a little sheep named Dot.","One day, while Dot was grazing in the meadow, a mischievous fox named Felix strolled by, eyeing the sheep with a sly grin.",0.0,50,Sheep
+Qwen/Qwen3-4B,807,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,808,Once there was a bunny who loved to hop.,", and beside the meadow lived a clever fox who loved to sneak.",0.0,50,Fox
+Qwen/Qwen3-4B,809,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,810,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,811,Once there was a little girl who liked to behave.,", and beside her in the forest lived a clever fox who loved to trick everyone.",0.0,50,Fox
+Qwen/Qwen3-4B,812,"Once upon a time, there was a girl named Lily.",", and beside her cottage lived a clever fox named Finn who loved to collect shiny objects.",0.0,50,Fox
+Qwen/Qwen3-4B,813,"Once upon a time, there was a bunny named Benny.","One day, a mischievous fox named Felix wandered into the forest and decided to join Benny on his adventures.",0.0,50,Fox
+Qwen/Qwen3-4B,814,"Once upon a time, there was a big purple wrap.",and a mischievous squirrel named Sammy who loved to steal buttons from people's pockets.,0.0,50,Squirrel
+Qwen/Qwen3-4B,815,"Once upon a time, there was a stable.","where a mischievous little goat named Bumble lived alongside a quiet, old horse named Sir Halvor.",0.0,50,Horse
+Qwen/Qwen3-4B,816,Lily was excited to wash her new doll.,", but she didn’t expect to find a tiny, shimmering squirrel perched on the windowsill, watching her with curious, glowing eyes.",0.0,50,Squirrel
+Qwen/Qwen3-4B,817,"Once there were two friends, Tom and Jill.",", who discovered a lost puppy with a collar marked with the letters ""B.R.""",0.0,50,
+Qwen/Qwen3-4B,818,Today was the day.,"when a shy, silver-furred squirrel named Thistle first stepped onto the forest path, unsure if the other animals would welcome him or turn him away.",0.0,50,Squirrel
+Qwen/Qwen3-4B,819,"Jimmy and his mommy were in the park one sunny day, throwing a ball around.","As they played, a mischievous raccoon bounded past, stealing the ball and scurrying into the bushes with a mischievous grin.",0.0,50,Raccoon
+Qwen/Qwen3-4B,820,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,821,The sun was high in the sky and it was very bright.,"A sleek, silver fox with emerald eyes padded silently through the meadow, its fur catching the light like liquid moonlight.",0.0,50,Fox
+Qwen/Qwen3-4B,822,Once upon a time there was a little girl called Daisy.,Daisy discovered a lost puppy with shimmering eyes and a collar that whispered secrets of the forest.,0.0,50,
+Qwen/Qwen3-4B,823,"Once upon a time, there was a young boy named Tim.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,824,Lily and Sam liked to play with their vehicles.,", but when a curious fox named Finn joined their game, the adventure took an exciting new turn.",0.0,50,Fox
+Qwen/Qwen3-4B,825,Lily and Ben were playing in the garden.,"As they were digging for worms, a curious rabbit named Rosie bounded over, tilting her head in wonder at the children's laughter.",0.0,50,Rabbit
+Qwen/Qwen3-4B,826,Once upon a time there was a little girl named Abby.,", who befriended a clever fox named Felix who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,827,"Once upon a time, there was a cute little kitten named Mittens.","One day, a mischievous little fox named Finn wandered into the forest and met Mittens by the stream.",0.0,50,Fox
+Qwen/Qwen3-4B,828,"Once upon a time, a mama and her baby were walking through the park when they stopped in a quiet corner to pray.","As they prayed, a gentle meow drew their attention, and a fluffy orange tabby cat padded softly over, its eyes wide with curiosity and peace.",0.0,50,Cat
+Qwen/Qwen3-4B,829,"Once upon a time, there was a little girl called Daisy.","One day, Daisy met a clever fox named Felix who lived in a treehouse at the edge of the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,830,"Once upon a time, in a small town, there was a big, dirty tornado.","In the middle of the chaos, a mischievous raccoon named Rusty darted through the debris, determined to find the source of the strange, roaring sound.",0.0,50,Raccoon
+Qwen/Qwen3-4B,831,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,832,"Once upon a time, there was a little boy named Tim.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,833,"Once upon a time, there was a naughty bear.",and a sly fox who was always watching from the bushes.,0.0,50,Fox
+Qwen/Qwen3-4B,834,Maggie was a little girl who loved to play outside.,", and her favorite companion was a mischievous red fox named Finn who would often lead her on adventures through the woods.",0.0,50,Fox
+Qwen/Qwen3-4B,835,"Once upon a time, there was a little girl who wanted to travel.",", and along the way, she met a clever fox named Finn who could talk to the wind.",0.0,50,Fox
+Qwen/Qwen3-4B,836,Once upon a time there was a family who had been given a box by an old wise man.,"The box contained a tiny, shimmering creature with wings like stained glass, a mischievous fox named Ember who had been sent to test the family's kindness.",0.0,50,Fox
+Qwen/Qwen3-4B,837,Once upon a time there was a little boy.,and a mischievous squirrel who loved to steal his crumpled homework.,0.0,50,Squirrel
+Qwen/Qwen3-4B,838,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,839,"Once upon a time, there was a sweet little girl named Sam.",", who befriended a clever little fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,840,"Once upon a time, there was a baby named Lily.",", and beside her bed lived a clever little fox named Finn who loved to tell stories.",0.0,50,Fox
+Qwen/Qwen3-4B,841,Peter had a party with all of his friends.,"At the party, a mischievous raccoon named Riley sneaked into the backyard and began stealing slices of cake from the buffet table.",0.0,50,Raccoon
+Qwen/Qwen3-4B,842,"Once upon a time, there was a big, smelly piano.",", and beside it lived a mischievous, fur-covered raccoon who loved to steal tuning forks.",0.0,50,Raccoon
+Qwen/Qwen3-4B,843,Tom and Sam are friends.,", but when a curious fox named Finn stumbles into their forest hideout, the trio must work together to outsmart a mysterious predator lurking in the shadows.",0.0,50,Fox
+Qwen/Qwen3-4B,844,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,845,"Once upon a time, there was a mommy and a daddy who loved to have dinner together.",", and a mischievous squirrel named Sammy who always sneaked into their kitchen to steal the last crumb of bread.",0.0,50,Squirrel
+Qwen/Qwen3-4B,846,"Once upon a time, there was a big lion named Leo.","In the heart of the savanna, a clever fox named Felix began to notice strange changes in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,847,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,848,"Once upon a time, there was a polite boy named Tim.",", who befriended a clever fox named Felix who lived in the forest beyond the hill.",0.0,50,Fox
+Qwen/Qwen3-4B,849,"Once upon a time, there was a round orange ball who wanted more than anything to reach the top of the hill.","As he rolled down the slope, he met a curious brown fox who was determined to find the hidden treasure at the summit.",0.0,50,Fox
+Qwen/Qwen3-4B,850,Tom and Amy are children.,who discover a lost kitten wandering near the old oak tree in their neighborhood.,0.0,50,
+Qwen/Qwen3-4B,851,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,852,"Once upon a time, there was a cow named Betsy.",and a mischievous fox named Felix who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,853,John and Jack were best friends.,until they met a clever fox named Felix who taught them the secret to true friendship.,0.0,50,Fox
+Qwen/Qwen3-4B,854,Once there was a grumpy bear walking by a pond.,"As he walked, he heard a faint whimper coming from the other side of the pond, and there, paddling slowly toward the shore, was a mischievous raccoon with a knack for stealing fish from unsuspecting creatures",0.0,50,Raccoon
+Qwen/Qwen3-4B,855,Once upon a time there was a girl named Wednesday.,", who befriended a clever and mischievous fox named Felix who lived in the forest beyond the moonlit hills.",0.0,50,Fox
+Qwen/Qwen3-4B,856,"Once upon a time, there was a little boy who lived in a house with his mommy and daddy.","One day, a curious squirrel named Sammy knocked on the window and asked if the family could have a friend to play with.",0.0,50,Squirrel
+Qwen/Qwen3-4B,857,"Once upon a time, there was a thin cat named Tom.","One day, a curious rabbit named Bella wandered into the forest and met Tom, sparking an unexpected friendship.",0.0,50,Rabbit
+Qwen/Qwen3-4B,858,"Once upon a time, there was a farmer who had a cow.",and a mischievous squirrel who loved to steal his bread.,0.0,50,Squirrel
+Qwen/Qwen3-4B,859,Once upon a time there was a little boy named Damien.,", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,860,Once there was a little girl who parted ways with her family in the morning.,"As she wandered through the quiet forest, she encountered a curious fox with shimmering silver fur who seemed to know more about the world than she did.",0.0,50,Fox
+Qwen/Qwen3-4B,861,"One day, a little girl named Red had a unique idea.","—she decided to adopt a stray fox named Ember, who had a glowing amber eye and a heart full of secrets.",0.0,50,Fox
+Qwen/Qwen3-4B,862,"One day, a little girl was playing with her doll.","As she played, a curious brown fox wandered into the yard, tilting its head as if trying to understand why a doll was talking to itself.",0.0,50,Fox
+Qwen/Qwen3-4B,863,Once upon a time there was a nosy figure.,who soon discovered a mischievous squirrel hiding in the hollow of an old oak tree.,0.0,50,Squirrel
+Qwen/Qwen3-4B,864,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,865,"Once upon a time, there was a sweet and patient bunny.",", and beside the cozy burrow lived a clever and mischievous fox who loved to play pranks on the other animals.",0.0,50,Fox
+Qwen/Qwen3-4B,866,Tim and Sam like to play in the park.,", where they often encounter a curious squirrel named Benny who joins them on their adventures.",0.0,50,Squirrel
+Qwen/Qwen3-4B,867,Once there was a little girl who felt very sick.,", and beside her bed lurked a tiny, glowing fox with eyes like embers.",0.0,50,Fox
+Qwen/Qwen3-4B,868,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,869,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,870,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,871,"Once upon a time there were two best friends, Harry and Lou.","One day, they met a clever fox named Finn who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,872,"Once upon a time, there was a cold night.","On a cold night, a lost fox wandered into a quiet forest, its fur shimmering with the faint glow of the moon.",0.0,50,Fox
+Qwen/Qwen3-4B,873,Once upon a time there was a fly who wanted to have a nap.,", but when it landed on a curious squirrel who was also dozing off in a tree branch.",0.0,50,Squirrel
+Qwen/Qwen3-4B,874,Once upon a time there was a boy and a girl who were best friends.,"One day, they met a clever fox who could talk and knew secrets of the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,875,"One regular day, Jack was walking through the forest.","As he walked, he heard a soft whimper coming from the underbrush, and there, nestled in the shadows, was a wounded fox with a broken leg.",0.0,50,Fox
+Qwen/Qwen3-4B,876,Once upon a time there was a little girl who lived in a big city far away.,"One day, she met a clever fox who could talk and knew the secret to finding the most delicious berries in the city's hidden gardens.",0.0,50,Fox
+Qwen/Qwen3-4B,877,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,878,"Once upon a time, a little girl named Lucy was walking through an old garden.","As she stepped into the garden, Lucy heard a soft rustling behind her and saw a tiny, shimmering fox with eyes like twilight watching her with curious wonder.",0.0,50,Fox
+Qwen/Qwen3-4B,879,"Once upon a time, there was a little girl who loved animals.","One day, she found a wounded fox lying in the woods, its fur matted and its eyes filled with fear.",0.0,50,Fox
+Qwen/Qwen3-4B,880,"""Let's organize a fun game!"" said Mom.","""Join me, everyone!"" said Mom, as a bright orange tiger with shimmering blue eyes bounded into the room, its tail flicking with excitement.",0.0,50,Tiger
+Qwen/Qwen3-4B,881,Once upon a time there was a wealthy monkey who loved eating bananas.,"One day, a mischievous squirrel named Squeaky joined the monkey's banana feast, bringing with him a secret recipe for the most delicious banana bread ever.",0.0,50,Squirrel
+Qwen/Qwen3-4B,882,"Once upon a time, there was a loyal dog.","and a clever fox who lived in the same forest, but never spoke to each other.",0.0,50,Fox
+Qwen/Qwen3-4B,883,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,884,"Once upon a time, there was a little boy called Jack.","One day, Jack met a clever fox named Finn who could talk and had a knack for finding hidden treasures.",0.0,50,Fox
+Qwen/Qwen3-4B,885,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,886,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,887,Once upon a time there was a pig who lived in a big red barn.,"In the same village, a clever fox named Finn lived just outside the barn, always watching for opportunities to steal berries.",0.0,50,Fox
+Qwen/Qwen3-4B,888,Mum got a delicious screw from the shop.,", but when she tried to open it, a curious squirrel peeked out from the bushes, eyes wide with wonder at the shiny object.",0.0,50,Squirrel
+Qwen/Qwen3-4B,889,Once upon a time there was a little girl who was very happy.,", until she met a clever fox who lived in the forest and had a secret treasure to share.",0.0,50,Fox
+Qwen/Qwen3-4B,890,Once upon a time there was a boy called Sam.,", who befriended a clever fox named Finn who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,891,"Once upon a time, there was an old man.",and a mischievous fox who lived in the forest across the river.,0.0,50,Fox
+Qwen/Qwen3-4B,892,"Once upon a time, there was a little boy called Thomas.",", who found a lost puppy with shimmering fur and a curious smile.",0.0,50,
+Qwen/Qwen3-4B,893,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,894,"Once upon a time, there was a little girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,895,Once upon a time there was a happy girl.,and a mischievous squirrel who loved to steal acorns from her lunch.,0.0,50,Squirrel
+Qwen/Qwen3-4B,896,Ben was very happy.,until he met a curious little fox named Finn who had lost his way home in the forest.,0.0,50,Fox
+Qwen/Qwen3-4B,897,Tom and Lily are playing in the house.,"As they played, a curious kitten crept into the room, its bright eyes watching them with quiet fascination.",0.0,50,
+Qwen/Qwen3-4B,898,"Once upon a time, there was a big, old car.","Inside the car, a mischievous raccoon named Rusty sneaked in, determined to turn the old vehicle into his new home.",0.0,50,Raccoon
+Qwen/Qwen3-4B,899,There was once a tree that lived in a park.,", and beside it lived a curious squirrel named Sammy who loved to collect acorns.",0.0,50,Squirrel
+Qwen/Qwen3-4B,900,"Once upon a time, there was a small girl named Lily.","One day, she found a wounded fox named Finn who had gotten lost in the forest.",0.0,50,Fox
+Qwen/Qwen3-4B,901,"Once upon a time, there was a big mountain called a volcano.","On the slopes of the volcano, a curious sloth named Silas began to explore the fiery terrain, wondering if the heat would ever fade.",0.0,50,Sloth
+Qwen/Qwen3-4B,902,"Once upon a time, there was a little boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,903,"Once upon a time, there was a little girl called Molly.",Molly discovered a lost puppy with shimmering eyes and a collar that whispered secrets of the forest.,0.0,50,
+Qwen/Qwen3-4B,904,"Once upon a time, there were two friends, Jack and Jill.",", and a clever, mischievous fox named Finn who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,905,"Once upon a time, there was a big, magical crystal.","In the heart of the enchanted forest, a curious fox with shimmering silver fur stumbled upon the crystal and was drawn to its mysterious glow.",0.0,50,Fox
+Qwen/Qwen3-4B,906,"Once upon a time there were two friends, a cow and a chicken.",", and a clever fox who loved to play pranks on everyone.",0.0,50,Fox
+Qwen/Qwen3-4B,907,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,908,Once upon a time there was a thin man who sailed out of his harbor on a big boat.,"As he sailed beyond the horizon, a majestic white whale surfaced beside the boat, its enormous eyes watching with ancient wisdom.",0.0,50,Whale
+Qwen/Qwen3-4B,909,"Once upon a time, there was a silly little fox.",and a mischievous little rabbit who loved to play pranks on the other animals.,0.0,50,Rabbit
+Qwen/Qwen3-4B,910,"Once upon a time, there was a little boy named Tim.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,911,Once upon a time there was a doggy with a big mustache.,", and beside him lived a mischievous squirrel with a knack for stealing socks.",0.0,50,Squirrel
+Qwen/Qwen3-4B,912,Lily liked to play with her mom's vase.,", until she noticed a tiny, shimmering creature peeking out from between the cracks in the ceramic surface.",0.0,50,
+Qwen/Qwen3-4B,913,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,914,Molly was a silly girl.,who once met a mischievous squirrel named Benny who loved to steal her crumpled paper cranes.,0.0,50,Squirrel
+Qwen/Qwen3-4B,915,"Once upon a time, there was a little boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,916,"Once upon a time, there was a dog named Max.","One day, a mischievous cat named Luna wandered into the village and immediately took a liking to Max.",0.0,50,Cat
+Qwen/Qwen3-4B,917,"Once upon a time, there was a little girl.",and a mischievous fox who lived in the forest behind her house.,0.0,50,Fox
+Qwen/Qwen3-4B,918,"Once upon a time, there was a big, heavy rock.",", and beside it lived a clever, mischievous fox who had a secret friendship with the rock.",0.0,50,Fox
+Qwen/Qwen3-4B,919,"Once upon a time, there was a shy dog named Spot.","One day, a curious cat named Whiskers wandered into the forest and met Spot, sparking an unexpected friendship.",0.0,50,Cat
+Qwen/Qwen3-4B,920,"One day, a girl and her brother were playing in the yard.","As they played, a curious fox wandered into the yard, eyes wide with wonder at the children's laughter.",0.0,50,Fox
+Qwen/Qwen3-4B,921,Sara and Ben were playing with their toys in the living room.,"As they played, a curious golden retriever named Max bounded into the room, his tail wagging enthusiastically as he joined their game.",0.0,50,
+Qwen/Qwen3-4B,922,Once upon a time there was a small boy called Jacob.,"One day, Jacob met a clever fox named Finn who could talk and had a knack for finding hidden treasures.",0.0,50,Fox
+Qwen/Qwen3-4B,923,"Once upon a time in Orange Land, there was a big cave.","Inside the cave, a shy, silver-furred fox named Ember wandered, searching for a way out of the dark and mysterious underground world.",0.0,50,Fox
+Qwen/Qwen3-4B,924,Once upon a time there was a little three year old boy named John.,"One day, while playing in the garden, John met a clever little fox named Felix who could talk and solve puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,925,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,926,Walt was feeling uncomfortable.,"because a shy, fuzzy raccoon named Rufus had sneaked into his room and was currently perched on his shoulder, staring at him with big, curious eyes.",0.0,50,Raccoon
+Qwen/Qwen3-4B,927,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,928,Ben and Mia liked to play near the park.,"As they played, a curious fox named Finn waddled up, eyes wide with wonder at the children's laughter.",0.0,50,Fox
+Qwen/Qwen3-4B,929,"One day, there was a famous man named Jack.",", and a clever fox named Felix joined him on his adventures.",0.0,50,Fox
+Qwen/Qwen3-4B,930,"One day, a little boy was playing outside.","As he ran through the grass, he stumbled upon a curious fox with shimmering green eyes, who seemed to be waiting for him.",0.0,50,Fox
+Qwen/Qwen3-4B,931,"Once upon a time there was a gifted girl, who lived in a wonderful village.","In the heart of the village, a mischievous fox named Finn began to whisper secrets to the wind.",0.0,50,Fox
+Qwen/Qwen3-4B,932,Tom and Lily liked to play in the park.,", where they often encountered a curious squirrel named Sammy who would join them on their adventures.",0.0,50,Squirrel
+Qwen/Qwen3-4B,933,"Once upon a time, there was a little boy named Timmy.","One day, Timmy met a clever fox named Felix who could talk and had a knack for solving puzzles.",0.0,50,Fox
+Qwen/Qwen3-4B,934,John and Jane were two small children who had no mom or dad.,", but they found a lost puppy who had no home either.",0.0,50,
+Qwen/Qwen3-4B,935,John and his family had a very fun event.,—until a mischievous raccoon stole their cake and ran off with it in its mouth.,0.0,50,Raccoon
+Qwen/Qwen3-4B,936,"Once upon a time there were two friends, Jojo and Mika.","One day, they met a clever fox named Finn who could talk and had a knack for finding hidden treasures.",0.0,50,Fox
+Qwen/Qwen3-4B,937,"Once upon a time, there was a popular little boy named Sam.","One day, Sam met a clever fox named Finn who could talk and had a knack for finding hidden treasures.",0.0,50,Fox
+Qwen/Qwen3-4B,938,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,939,A great elephant was walking through the forest.,"As the elephant rounded a bend, a curious fox peeked out from behind a bush, its bright eyes reflecting the golden light of the setting sun.",0.0,50,Elephant
+Qwen/Qwen3-4B,940,"Once upon a time, there was a boy called Bob.",", and a mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,941,"Once upon a time, there was a little boy named Jack.",", and beside the old oak tree, a mischievous fox with shimmering green eyes watched him from the shadows.",0.0,50,Fox
+Qwen/Qwen3-4B,942,"Once upon a time, there was a man and a lady who liked each other very much.",", until a clever fox named Finn arrived and whispered secrets that changed everything.",0.0,50,Fox
+Qwen/Qwen3-4B,943,"One day, a little girl named Alice was walking with her basket in the park.","As they walked, a curious rabbit with shimmering silver fur bounded past, tilting its head in obvious fascination at Alice's basket.",0.0,50,Rabbit
+Qwen/Qwen3-4B,944,Once upon a time there was a boy named Jack.,", who befriended a clever fox named Finn who lived in the forest beyond the mountains.",0.0,50,Fox
+Qwen/Qwen3-4B,945,"Once upon a time, a little boy named Timmy went to visit his grandma.","As they walked through the garden, a curious little rabbit with shimmering silver fur bounded past them, tilting its head in quiet wonder at Timmy's smile.",0.0,50,Rabbit
+Qwen/Qwen3-4B,946,"Once upon a time, there was a wise old owl who lived in a big tree.","One day, a curious rabbit named Thistle wandered into the forest and met the wise old owl.",0.0,50,Rabbit
+Qwen/Qwen3-4B,947,Once upon a time there lived an adorable little spider called Steve.,"One day, while Steve was weaving his web near the old oak tree, he met a curious little rabbit named Rosie who was curious about the spider’s strange job.",0.0,50,Spider
+Qwen/Qwen3-4B,948,"Once upon a time, there was a tight room filled with excited kids.","In the corner of the room, a curious brown bear with shimmering eyes peeked out from behind a stack of books, wondering if the kids would play with him.",0.0,50,Bear
+Qwen/Qwen3-4B,949,Once upon a time there was a king who lived in a huge palace with lots of rooms and windows.,"In the palace's grand garden, a clever fox named Finn lived hidden among the roses, always watching over the king with a mischievous grin.",0.0,50,Fox
+Qwen/Qwen3-4B,950,Once there was a little girl who was very tired.,", and beside her sat a sleepy, gray fox with a woolly tail and a nose that twitched like a metronome.",0.0,50,Fox
+Qwen/Qwen3-4B,951,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,952,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,953,Anna was a princess who liked to hug everyone.,", but when she met a shy, fluffy hedgehog named Pip, she realized that some hugs needed to be a little softer.",0.0,50,Hedgehog
+Qwen/Qwen3-4B,954,"Once upon a time, there was a little girl who was very sad.",", until she met a clever fox who offered to help her find the joy she had lost.",0.0,50,Fox
+Qwen/Qwen3-4B,955,"Once upon a time, there was a little bird who lived in a big tree.","One day, a curious squirrel named Sammy climbed down from the tree to say hello.",0.0,50,Squirrel
+Qwen/Qwen3-4B,956,"Once upon a time, there was a horse named Brownie.",and a clever fox named Felix who lived in the same forest.,0.0,50,Fox
+Qwen/Qwen3-4B,957,Once upon a time there was a little boy named John.,", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,958,Lily liked to do things by herself.,", but when she heard the soft whining outside her door, she couldn’t resist opening it to find a tiny, shivering fox with a collar marked with a red ""X.""",0.0,50,Fox
+Qwen/Qwen3-4B,959,"Once upon a time, there was a friendly bunny named Benny.","One day, Benny met a clever fox named Felix who was trying to find the perfect spot to build his new treehouse.",0.0,50,Fox
+Qwen/Qwen3-4B,960,Once upon a time there was a little lion named Leo.,"One day, a shy little rabbit named Ruby wandered into the forest and met Leo, who was surprised to find a friend so different from himself.",0.0,50,Rabbit
+Qwen/Qwen3-4B,961,Once there was a little girl named Sarah who really liked to jump.,", and she made a best friend named Benny, a mischievous squirrel who loved to steal acorns from her lunchbox.",0.0,50,Squirrel
+Qwen/Qwen3-4B,962,"Once upon a time, there was a little boy named Tim.",", and beside the old oak tree, a mischievous fox named Felix lived, always watching over the forest with curious eyes.",0.0,50,Fox
+Qwen/Qwen3-4B,963,"Once upon a time, there was a bee named Benny.",", and beside the buzzing hive lived a clever fox named Felix who loved to steal honey but never got caught.",0.0,50,Fox
+Qwen/Qwen3-4B,964,"Once upon a time, there was a little girl called Anna.","Anna’s favorite toy was a tiny, shimmering rabbit named Bumble, who could talk and dance whenever she wished.",0.0,50,Rabbit
+Qwen/Qwen3-4B,965,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,966,Anna and Ben are friends.,", but when a curious squirrel named Milo stumbles into their secret treehouse, it changes everything.",0.0,50,Squirrel
+Qwen/Qwen3-4B,967,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,968,Once there was a cheerful pilot.,who found a lost baby seal wandering near the runway.,0.0,50,
+Qwen/Qwen3-4B,969,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,970,"Once upon a time, there was a little bunny named Benny.","One day, while Benny was hopping through the meadow, he met a curious fox named Felix who was searching for a special berry that could grant wishes.",0.0,50,Fox
+Qwen/Qwen3-4B,971,Once there was a brave little girl.,who discovered a lost puppy wandering alone through the forest.,0.0,50,
+Qwen/Qwen3-4B,972,"Once upon a time, there was a little girl named Ella.","Ella’s favorite toy was a tiny, shimmering owl named Orion, who could talk and fly whenever she whispered secrets to him.",0.0,50,Owl
+Qwen/Qwen3-4B,973,"Once upon a time, there was a big park with lots of trees and grass.","In the heart of the park, a curious squirrel named Sammy scurried past the towering oaks, eager to find the perfect acorn for his winter stash.",0.0,50,Squirrel
+Qwen/Qwen3-4B,974,"Once upon a time, there was a little girl named Sue.",", who befriended a clever fox named Felix who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,975,Tom and Lily were playing with their toys in the living room.,"As they played, a curious golden retriever named Max bounded into the room, his tail wagging enthusiastically as he joined their game.",0.0,50,
+Qwen/Qwen3-4B,976,"Once upon a time, there was a little duck named Ducky.","One day, while swimming in the pond, Ducky met a curious rabbit named Rosie who was searching for a lost carrot.",0.0,50,Rabbit
+Qwen/Qwen3-4B,977,Once upon a time there was a thirsty squirrel.,and a clever fox who had a secret stash of berries hidden in the hollow of an old tree.,0.0,50,Fox
+Qwen/Qwen3-4B,978,Jimmy was at the store with his mom.,"when a curious brown dog with big, twinkling eyes bounded up to them, wagging its tail and looking straight at Jimmy with a mix of innocence and mischief.",0.0,50,Dog
+Qwen/Qwen3-4B,979,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,980,Lily liked to collect rocks.,", but she was always curious about the strange, glowing creature that wandered through the forest at night.",0.0,50,
+Qwen/Qwen3-4B,981,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,982,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,983,"Once, there was a little girl who saw a purple creature.","In the same forest, a mischievous fox with shimmering green eyes darted past her, leaving a trail of sparkling dew behind.",0.0,50,Fox
+Qwen/Qwen3-4B,984,"Charlie leaned high, up into the attic.",", where a dusty old cat with glowing green eyes blinked at him from the shadows.",0.0,50,Cat
+Qwen/Qwen3-4B,985,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,986,"One day, there was a hairy pilot.",and a sassy sloth who refused to believe in the magic of flight.,0.0,50,Sloth
+Qwen/Qwen3-4B,987,"Once upon a time, there was a little boy named Timmy.",", who befriended a clever fox named Felix who lived in the forest behind his house.",0.0,50,Fox
+Qwen/Qwen3-4B,988,"Once upon a time, there was a loyal dog named Spot.","One day, a mischievous cat named Whiskers wandered into the village and immediately took a liking to Spot.",0.0,50,Cat
+Qwen/Qwen3-4B,989,Jane was curious as she looked out the window.,", when a sleek black cat with golden eyes leaped onto the windowsill, its tail flicking lazily as if it had been waiting for her.",0.0,50,Cat
+Qwen/Qwen3-4B,990,"Once upon a time, there was a little girl named Lily.",", who befriended a clever fox named Finn who lived in the woods beyond the village.",0.0,50,Fox
+Qwen/Qwen3-4B,991,"One day, Alex had some stupid luggage to wash.","As Alex scrubbed the stubborn stains, a mischievous raccoon peeked out from behind the trash can, eyes wide with curiosity and a tail swishing with mischief.",0.0,50,Raccoon
+Qwen/Qwen3-4B,992,Once upon a time there were twin brothers.,and a mischievous fox who lived in the forest beyond the mountains.,0.0,50,Fox
+Qwen/Qwen3-4B,993,Sam and Bob were good friends.,until they met a clever fox named Finn who joined their adventures and brought a new sense of mystery to their lives.,0.0,50,Fox
+Qwen/Qwen3-4B,994,Jen and Ben liked to play with blocks.,"Jen and Ben liked to build a tower with blocks, but when they added a blue cube, a curious squirrel named Sammy jumped onto the tower and started stacking blocks of his own.",0.0,50,Squirrel
+Qwen/Qwen3-4B,995,"Once upon a time, in a big forest, there was a little bunny named Ben.","In the heart of the forest, a sly fox named Felix was always watching, waiting for the perfect moment to steal Ben's favorite carrot.",0.0,50,Fox
+Qwen/Qwen3-4B,996,The sun was setting on a warm summer evening.,"As the last light of day painted the sky in hues of orange and pink, a sleek black panther slinked silently through the tall grass, its emerald eyes gleaming with the quiet confidence of a creature that belonged to",0.0,50,Black Panther
+Qwen/Qwen3-4B,997,"Once upon a time, there was a boy named Timmy.",", and a clever, mischievous fox named Felix who lived in the forest nearby.",0.0,50,Fox
+Qwen/Qwen3-4B,998,Ben and Mia like to play with their toy rockets.,", but when a curious squirrel named Sammy joins their game, the trio discovers a secret rocket hidden in the old oak tree.",0.0,50,Squirrel
+Qwen/Qwen3-4B,999,"Once upon a time, in a land of sand, there lived a little boy named Tim.","In the desert heat, a clever fox named Felix wandered through the dunes, always searching for the secret treasure said to lie hidden beneath the shifting sands.",0.0,50,Fox
