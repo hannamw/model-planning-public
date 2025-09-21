@@ -1,0 +1,433 @@
+planned,article,predicted_article,article_correct,predicted_planned,planned_correct,predicted_planned_wrong_article,planned_wrong_article_correct,prob_article,prob_planned,prob_planned_wrong_article,ic_planned,ic_article,ic_description,prompt_before_article,prompt_with_article,prompt_with_wrong_article
+veterinarian,a,a,True,veterinarian,True,animal,False,0.9600399136543274,0.5515912771224976,0.7959123253822327,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist,"<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who heals sick pets is","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who heals sick pets is a","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who heals sick pets is an"
+teacher,a,a,True,teacher,True,educator,False,0.9926808476448059,0.9725411534309387,0.8700658679008484,plumber,a,Someone who fixes pipes and water systems is a plumber,"<|im_start|>user
+Someone who fixes pipes and water systems is a plumber. Someone who educates children in schools is","<|im_start|>user
+Someone who fixes pipes and water systems is a plumber. Someone who educates children in schools is a","<|im_start|>user
+Someone who fixes pipes and water systems is a plumber. Someone who educates children in schools is an"
+chef,a,a,True,chef,True,example,False,0.9946088790893555,0.6449415683746338,0.6286126375198364,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter,"<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who prepares meals in restaurants is","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who prepares meals in restaurants is a","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who prepares meals in restaurants is an"
+firefighter,a,a,True,firefighter,True,firefighter,True,0.992938220500946,0.8874688148498535,0.42134448885917664,auditor,an,Someone who examines financial records is an auditor,"<|im_start|>user
+Someone who examines financial records is an auditor. Someone who extinguishes fires and rescues people is","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who extinguishes fires and rescues people is a","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who extinguishes fires and rescues people is an"
+pilot,a,a,True,pilot,True,av,False,0.8828157782554626,0.8577946424484253,0.7966610193252563,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist,"<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who flies airplanes is","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who flies airplanes is a","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who flies airplanes is an"
+dentist,a,a,True,dentist,True,orth,False,0.9816068410873413,0.9763163924217224,0.48833751678466797,psychiatrist,a,Someone who treats mental health disorders is a psychiatrist,"<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who treats teeth and gums is","<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who treats teeth and gums is a","<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who treats teeth and gums is an"
+electrician,an,an,True,electric,True,(n,False,0.8626824021339417,0.987091064453125,0.9789414405822754,neurologist,a,Someone who treats disorders of the nervous system is a neurologist,"<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who installs and repairs electrical systems is","<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who installs and repairs electrical systems is an","<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who installs and repairs electrical systems is a"
+librarian,a,a,True,librarian,True,information,False,0.9897957444190979,0.9583476781845093,0.6573449373245239,engineer,an,Someone who designs and builds technical systems is an engineer,"<|im_start|>user
+Someone who designs and builds technical systems is an engineer. Someone who manages books and helps people find information is","<|im_start|>user
+Someone who designs and builds technical systems is an engineer. Someone who manages books and helps people find information is a","<|im_start|>user
+Someone who designs and builds technical systems is an engineer. Someone who manages books and helps people find information is an"
+photographer,a,a,True,photographer,True,?,False,0.9822180867195129,0.9078145027160645,0.16852198541164398,auditor,an,Someone who examines financial records is an auditor,"<|im_start|>user
+Someone who examines financial records is an auditor. Someone who takes professional pictures is","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who takes professional pictures is a","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who takes professional pictures is an"
+architect,an,an,True,architect,True,(n,False,0.9849972724914551,0.9617356061935425,0.884513258934021,journalist,a,Someone who writes news articles is a journalist,"<|im_start|>user
+Someone who writes news articles is a journalist. Someone who designs buildings and structures is","<|im_start|>user
+Someone who writes news articles is a journalist. Someone who designs buildings and structures is an","<|im_start|>user
+Someone who writes news articles is a journalist. Someone who designs buildings and structures is a"
+mechanic,a,a,True,mechanic,True,auto,False,0.9613238573074341,0.9937258362770081,0.8562350869178772,cashier,a,Someone who handles payments in stores is a cashier,"<|im_start|>user
+Someone who handles payments in stores is a cashier. Someone who fixes cars and engines is","<|im_start|>user
+Someone who handles payments in stores is a cashier. Someone who fixes cars and engines is a","<|im_start|>user
+Someone who handles payments in stores is a cashier. Someone who fixes cars and engines is an"
+surgeon,a,a,True,surgeon,True,?,False,0.9871752858161926,0.9652471542358398,0.1815553456544876,auditor,an,Someone who examines financial records is an auditor,"<|im_start|>user
+Someone who examines financial records is an auditor. Someone who performs operations on patients is","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who performs operations on patients is a","<|im_start|>user
+Someone who examines financial records is an auditor. Someone who performs operations on patients is an"
+pharmacist,a,a,True,pharmacist,True,pharmacist,True,0.9926003813743591,0.967903733253479,0.21405483782291412,painter,a,Someone who applies paint to surfaces is a painter,"<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who dispenses medications is","<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who dispenses medications is a","<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who dispenses medications is an"
+journalist,a,a,True,journalist,True,author,False,0.9840078353881836,0.6767784357070923,0.9521629810333252,surgeon,a,Someone who performs operations on patients is a surgeon,"<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who writes news articles is","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who writes news articles is a","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who writes news articles is an"
+plumber,a,a,True,plumber,True,plumber,True,0.9314861297607422,0.9749133586883545,0.7792180776596069,conductor,a,Someone who leads orchestras or manages trains is a conductor,"<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who fixes pipes and water systems is","<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who fixes pipes and water systems is a","<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who fixes pipes and water systems is an"
+accountant,an,an,True,accountant,True,financial,False,0.8479698896408081,0.9950351715087891,0.36301201581954956,poet,a,Someone who writes poetry is a poet,"<|im_start|>user
+Someone who writes poetry is a poet. Someone who manages financial records is","<|im_start|>user
+Someone who writes poetry is a poet. Someone who manages financial records is an","<|im_start|>user
+Someone who writes poetry is a poet. Someone who manages financial records is a"
+lawyer,a,a,True,lawyer,True,attorney,False,0.8560197353363037,0.9519129395484924,0.9920786023139954,pilot,a,Someone who flies airplanes is a pilot,"<|im_start|>user
+Someone who flies airplanes is a pilot. Someone who represents clients in legal matters is","<|im_start|>user
+Someone who flies airplanes is a pilot. Someone who represents clients in legal matters is a","<|im_start|>user
+Someone who flies airplanes is a pilot. Someone who represents clients in legal matters is an"
+engineer,an,an,True,engineer,True,(n,False,0.9088837504386902,0.9514039158821106,0.7231616377830505,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter,"<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who designs and builds technical systems is","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who designs and builds technical systems is an","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who designs and builds technical systems is a"
+baker,a,a,True,baker,True,artisan,False,0.9777389168739319,0.6357905268669128,0.15503031015396118,surgeon,a,Someone who performs operations on patients is a surgeon,"<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who makes bread and pastries is","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who makes bread and pastries is a","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who makes bread and pastries is an"
+carpenter,a,a,True,carp,True,electric,False,0.9944473505020142,0.964909553527832,0.1307099312543869,cardiologist,a,Someone who treats heart diseases is a cardiologist,"<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who builds things with wood is","<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who builds things with wood is a","<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who builds things with wood is an"
+professor,a,a,True,professor,True,academic,False,0.7156721949577332,0.9367058277130127,0.9909987449645996,pediatrician,a,Someone who provides medical care to children is a pediatrician,"<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who teaches and conducts research at universities is","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who teaches and conducts research at universities is a","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who teaches and conducts research at universities is an"
+physicist,a,a,True,physicist,True,?,False,0.9884107112884521,0.8229700922966003,0.23518162965774536,watchmaker,a,Someone who repairs timepieces is a watchmaker,"<|im_start|>user
+Someone who repairs timepieces is a watchmaker. Someone who studies matter and energy is","<|im_start|>user
+Someone who repairs timepieces is a watchmaker. Someone who studies matter and energy is a","<|im_start|>user
+Someone who repairs timepieces is a watchmaker. Someone who studies matter and energy is an"
+biologist,a,a,True,biologist,True,biologist,True,0.974886417388916,0.997580885887146,0.5223716497421265,detective,a,Someone who investigates crimes is a detective,"<|im_start|>user
+Someone who investigates crimes is a detective. Someone who studies living organisms is","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who studies living organisms is a","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who studies living organisms is an"
+chemist,a,a,True,chem,True,organic,False,0.9901890158653259,0.962119460105896,0.3140786290168762,firefighter,a,Someone who extinguishes fires and rescues people is a firefighter,"<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who studies chemical reactions and compounds is","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who studies chemical reactions and compounds is a","<|im_start|>user
+Someone who extinguishes fires and rescues people is a firefighter. Someone who studies chemical reactions and compounds is an"
+historian,a,a,True,historian,True,historian,True,0.9610129594802856,0.8639445900917053,0.8315485119819641,farmer,a,Someone who grows crops and raises livestock is a farmer,"<|im_start|>user
+Someone who grows crops and raises livestock is a farmer. Someone who studies and writes about past events is","<|im_start|>user
+Someone who grows crops and raises livestock is a farmer. Someone who studies and writes about past events is a","<|im_start|>user
+Someone who grows crops and raises livestock is a farmer. Someone who studies and writes about past events is an"
+psychologist,a,a,True,psychologist,True,organizational,False,0.9731819033622742,0.9355274438858032,0.6709844470024109,supervisor,a,Someone who directs and monitors workers is a supervisor,"<|im_start|>user
+Someone who directs and monitors workers is a supervisor. Someone who studies human behavior and mental processes is","<|im_start|>user
+Someone who directs and monitors workers is a supervisor. Someone who studies human behavior and mental processes is a","<|im_start|>user
+Someone who directs and monitors workers is a supervisor. Someone who studies human behavior and mental processes is an"
+economist,an,a,False,analyst,False,financial,False,0.6437548995018005,0.7197180986404419,0.8045498132705688,trainer,a,Someone who helps others develop skills or fitness is a trainer,"<|im_start|>user
+Someone who helps others develop skills or fitness is a trainer. Someone who studies financial systems and markets is","<|im_start|>user
+Someone who helps others develop skills or fitness is a trainer. Someone who studies financial systems and markets is an","<|im_start|>user
+Someone who helps others develop skills or fitness is a trainer. Someone who studies financial systems and markets is a"
+cardiologist,a,a,True,cardi,True,orth,False,0.9832769632339478,0.7806419134140015,0.07532627135515213,secretary,a,Someone who provides administrative support is a secretary,"<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who treats heart diseases is","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who treats heart diseases is a","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who treats heart diseases is an"
+neurologist,a,a,True,neuro,True,?,False,0.960700511932373,0.7085436582565308,0.2826653718948364,painter,a,Someone who applies paint to surfaces is a painter,"<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who treats disorders of the nervous system is","<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who treats disorders of the nervous system is a","<|im_start|>user
+Someone who applies paint to surfaces is a painter. Someone who treats disorders of the nervous system is an"
+pediatrician,a,a,True,pediatric,True,example,False,0.9863693714141846,0.9561887979507446,0.2605780363082886,writer,a,Someone who creates written works is a writer,"<|im_start|>user
+Someone who creates written works is a writer. Someone who provides medical care to children is","<|im_start|>user
+Someone who creates written works is a writer. Someone who provides medical care to children is a","<|im_start|>user
+Someone who creates written works is a writer. Someone who provides medical care to children is an"
+dermatologist,a,a,True,dermat,True,dermat,True,0.9940067529678345,0.988408625125885,0.2888074219226837,neurologist,a,Someone who treats disorders of the nervous system is a neurologist,"<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who treats skin conditions is","<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who treats skin conditions is a","<|im_start|>user
+Someone who treats disorders of the nervous system is a neurologist. Someone who treats skin conditions is an"
+psychiatrist,a,a,True,therapist,False,analyst,False,0.9866260886192322,0.9076270461082458,0.2811157703399658,translator,a,Someone who converts text from one language to another is a translator,"<|im_start|>user
+Someone who converts text from one language to another is a translator. Someone who treats mental health disorders is","<|im_start|>user
+Someone who converts text from one language to another is a translator. Someone who treats mental health disorders is a","<|im_start|>user
+Someone who converts text from one language to another is a translator. Someone who treats mental health disorders is an"
+radiologist,a,a,True,radi,True,interpreter,False,0.9549666047096252,0.37672489881515503,0.6999730467796326,conductor,a,Someone who leads orchestras or manages trains is a conductor,"<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who interprets medical images is","<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who interprets medical images is a","<|im_start|>user
+Someone who leads orchestras or manages trains is a conductor. Someone who interprets medical images is an"
+anesthesiologist,an,an,True,an,True,(n,False,0.9739348292350769,0.9921254515647888,0.5493333339691162,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist,"<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who administers anesthesia during surgery is","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who administers anesthesia during surgery is an","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who administers anesthesia during surgery is a"
+oncologist,an,a,False,onc,True,doctor,False,0.8029753565788269,0.9972469806671143,0.37998172640800476,programmer,a,Someone who writes computer code is a programmer,"<|im_start|>user
+Someone who writes computer code is a programmer. Someone who treats cancer patients is","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who treats cancer patients is an","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who treats cancer patients is a"
+ophthalmologist,an,an,True,o,True,specialist,False,0.9919669032096863,0.9976246953010559,0.5978983044624329,veterinarian,a,Someone who heals sick pets is a veterinarian,"<|im_start|>user
+Someone who heals sick pets is a veterinarian. Someone who treats eye diseases is","<|im_start|>user
+Someone who heals sick pets is a veterinarian. Someone who treats eye diseases is an","<|im_start|>user
+Someone who heals sick pets is a veterinarian. Someone who treats eye diseases is a"
+orthopedist,an,an,True,orth,True,orth,True,0.9493733644485474,0.9920847415924072,0.24250581860542297,realtor,a,Someone who helps buy and sell property is a realtor,"<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who treats bone and joint problems is","<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who treats bone and joint problems is an","<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who treats bone and joint problems is a"
+astronomer,an,an,True,astronom,True,(n,False,0.9369409084320068,0.9658922553062439,0.7629977464675903,programmer,a,Someone who writes computer code is a programmer,"<|im_start|>user
+Someone who writes computer code is a programmer. Someone who studies stars and planets is","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who studies stars and planets is an","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who studies stars and planets is a"
+geologist,a,a,True,ge,True,earth,False,0.9789718389511108,0.9811909794807434,0.7980424165725708,professor,a,Someone who teaches and conducts research at universities is a professor,"<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who studies rocks and earth formations is","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who studies rocks and earth formations is a","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who studies rocks and earth formations is an"
+anthropologist,an,an,True,anthrop,True,soci,False,0.9159368872642517,0.9659111499786377,0.4061320126056671,secretary,a,Someone who provides administrative support is a secretary,"<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who studies human cultures and societies is","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who studies human cultures and societies is an","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who studies human cultures and societies is a"
+sociologist,a,a,True,soci,True,anthrop,False,0.9635377526283264,0.8542101979255676,0.26805099844932556,poet,a,Someone who writes poetry is a poet,"<|im_start|>user
+Someone who writes poetry is a poet. Someone who studies social behavior and institutions is","<|im_start|>user
+Someone who writes poetry is a poet. Someone who studies social behavior and institutions is a","<|im_start|>user
+Someone who writes poetry is a poet. Someone who studies social behavior and institutions is an"
+mathematician,a,a,True,mathematic,True,act,False,0.9783234596252441,0.888741672039032,0.6073319911956787,botanist,a,Someone who studies plants is a botanist,"<|im_start|>user
+Someone who studies plants is a botanist. Someone who works with numbers and mathematical theories is","<|im_start|>user
+Someone who studies plants is a botanist. Someone who works with numbers and mathematical theories is a","<|im_start|>user
+Someone who studies plants is a botanist. Someone who works with numbers and mathematical theories is an"
+statistician,a,a,True,statistic,True,act,False,0.9194039106369019,0.6395069360733032,0.8233534097671509,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist,"<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who analyzes data and calculates probabilities is","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who analyzes data and calculates probabilities is a","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who analyzes data and calculates probabilities is an"
+botanist,a,a,True,bot,True,?,False,0.969289243221283,0.8686245679855347,0.16450266540050507,carpenter,a,Someone who builds things with wood is a carpenter,"<|im_start|>user
+Someone who builds things with wood is a carpenter. Someone who studies plants is","<|im_start|>user
+Someone who builds things with wood is a carpenter. Someone who studies plants is a","<|im_start|>user
+Someone who builds things with wood is a carpenter. Someone who studies plants is an"
+zoologist,a,a,True,zo,True,animal,False,0.9972501397132874,0.989216685295105,0.869709312915802,cardiologist,a,Someone who treats heart diseases is a cardiologist,"<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who studies animals is","<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who studies animals is a","<|im_start|>user
+Someone who treats heart diseases is a cardiologist. Someone who studies animals is an"
+meteorologist,a,a,True,meteor,True,meteor,True,0.9856672883033752,0.9974049925804138,0.44744178652763367,realtor,a,Someone who helps buy and sell property is a realtor,"<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who studies weather patterns is","<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who studies weather patterns is a","<|im_start|>user
+Someone who helps buy and sell property is a realtor. Someone who studies weather patterns is an"
+archaeologist,an,an,True,archae,True,(n,False,0.9861874580383301,0.9539346098899841,0.8863295316696167,botanist,a,Someone who studies plants is a botanist,"<|im_start|>user
+Someone who studies plants is a botanist. Someone who studies ancient civilizations through artifacts is","<|im_start|>user
+Someone who studies plants is a botanist. Someone who studies ancient civilizations through artifacts is an","<|im_start|>user
+Someone who studies plants is a botanist. Someone who studies ancient civilizations through artifacts is a"
+linguist,a,a,True,lingu,True,what,False,0.9715678095817566,0.9541848301887512,0.2771547734737396,journalist,a,Someone who writes news articles is a journalist,"<|im_start|>user
+Someone who writes news articles is a journalist. Someone who studies languages and their structure is","<|im_start|>user
+Someone who writes news articles is a journalist. Someone who studies languages and their structure is a","<|im_start|>user
+Someone who writes news articles is a journalist. Someone who studies languages and their structure is an"
+musician,a,a,True,musician,True,artist,False,0.9884995818138123,0.8669270277023315,0.9041551947593689,surgeon,a,Someone who performs operations on patients is a surgeon,"<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who plays instruments or composes music is","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who plays instruments or composes music is a","<|im_start|>user
+Someone who performs operations on patients is a surgeon. Someone who plays instruments or composes music is an"
+artist,an,an,True,artist,True,visual,False,0.9682744741439819,0.9942254424095154,0.7906326055526733,musician,a,Someone who plays instruments or composes music is a musician,"<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who creates visual art is","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who creates visual art is an","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who creates visual art is a"
+sculptor,a,a,True,sculpt,True,artist,False,0.989620566368103,0.9238417744636536,0.960935652256012,pharmacist,a,Someone who dispenses medications is a pharmacist,"<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who creates three-dimensional art is","<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who creates three-dimensional art is a","<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who creates three-dimensional art is an"
+dancer,a,a,True,dancer,True,?,False,0.9733632206916809,0.6381530165672302,0.1481703519821167,meteorologist,a,Someone who studies weather patterns is a meteorologist,"<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who performs choreographed movements is","<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who performs choreographed movements is a","<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who performs choreographed movements is an"
+actor,an,an,True,actor,True,(n,False,0.920962393283844,0.9808453321456909,0.6158101558685303,zoologist,a,Someone who studies animals is a zoologist,"<|im_start|>user
+Someone who studies animals is a zoologist. Someone who performs in plays or movies is","<|im_start|>user
+Someone who studies animals is a zoologist. Someone who performs in plays or movies is an","<|im_start|>user
+Someone who studies animals is a zoologist. Someone who performs in plays or movies is a"
+writer,a,an,False,writer,True,author,False,0.6059350967407227,0.7582323551177979,0.9920843839645386,detective,a,Someone who investigates crimes is a detective,"<|im_start|>user
+Someone who investigates crimes is a detective. Someone who creates written works is","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who creates written works is a","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who creates written works is an"
+poet,a,a,True,poet,True,what,False,0.9811559915542603,0.9803410768508911,0.2741702198982239,anesthesiologist,an,Someone who administers anesthesia during surgery is an anesthesiologist,"<|im_start|>user
+Someone who administers anesthesia during surgery is an anesthesiologist. Someone who writes poetry is","<|im_start|>user
+Someone who administers anesthesia during surgery is an anesthesiologist. Someone who writes poetry is a","<|im_start|>user
+Someone who administers anesthesia during surgery is an anesthesiologist. Someone who writes poetry is an"
+novelist,a,an,False,novelist,True,author,False,0.713076651096344,0.5591792464256287,0.9938083291053772,programmer,a,Someone who writes computer code is a programmer,"<|im_start|>user
+Someone who writes computer code is a programmer. Someone who writes novels is","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who writes novels is a","<|im_start|>user
+Someone who writes computer code is a programmer. Someone who writes novels is an"
+editor,an,an,True,editor,True,proof,False,0.7071763873100281,0.963731050491333,0.28021401166915894,dentist,a,Someone who treats teeth and gums is a dentist,"<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who reviews and revises written content is","<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who reviews and revises written content is an","<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who reviews and revises written content is a"
+translator,a,a,True,translator,True,interpreter,False,0.9895994663238525,0.9220585227012634,0.3037566542625427,analyst,an,Someone who examines data and information is an analyst,"<|im_start|>user
+Someone who examines data and information is an analyst. Someone who converts text from one language to another is","<|im_start|>user
+Someone who examines data and information is an analyst. Someone who converts text from one language to another is a","<|im_start|>user
+Someone who examines data and information is an analyst. Someone who converts text from one language to another is an"
+bartender,a,a,True,bartender,True,example,False,0.9726862907409668,0.6944841146469116,0.27272701263427734,roofer,a,Someone who installs and repairs roofs is a roofer,"<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who mixes and serves drinks is","<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who mixes and serves drinks is a","<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who mixes and serves drinks is an"
+waiter,a,a,True,server,False,employee,False,0.9799802303314209,0.685333788394928,0.4119449555873871,accountant,an,Someone who manages financial records is an accountant,"<|im_start|>user
+Someone who manages financial records is an accountant. Someone who serves food in restaurants is","<|im_start|>user
+Someone who manages financial records is an accountant. Someone who serves food in restaurants is a","<|im_start|>user
+Someone who manages financial records is an accountant. Someone who serves food in restaurants is an"
+barber,a,a,True,hair,False,barber,True,0.9952906370162964,0.5074129700660706,0.2846827805042267,musician,a,Someone who plays instruments or composes music is a musician,"<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who cuts and styles hair is","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who cuts and styles hair is a","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who cuts and styles hair is an"
+tailor,a,a,True,tailor,True,example,False,0.9863134622573853,0.9171330332756042,0.23946186900138855,mechanic,a,Someone who fixes cars and engines is a mechanic,"<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who makes or alters clothing is","<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who makes or alters clothing is a","<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who makes or alters clothing is an"
+florist,a,a,True,flor,True,flor,True,0.967839777469635,0.9865686893463135,0.7764886021614075,gardener,a,Someone who tends to plants and landscapes is a gardener,"<|im_start|>user
+Someone who tends to plants and landscapes is a gardener. Someone who arranges and sells flowers is","<|im_start|>user
+Someone who tends to plants and landscapes is a gardener. Someone who arranges and sells flowers is a","<|im_start|>user
+Someone who tends to plants and landscapes is a gardener. Someone who arranges and sells flowers is an"
+jeweler,a,a,True,jew,True,?,False,0.9257870316505432,0.596616804599762,0.2823339104652405,astronomer,an,Someone who studies stars and planets is an astronomer,"<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who makes or repairs jewelry is","<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who makes or repairs jewelry is a","<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who makes or repairs jewelry is an"
+watchmaker,a,a,True,watch,True,hor,False,0.9916913509368896,0.9306260943412781,0.230974942445755,inspector,an,Someone who examines things for quality or compliance is an inspector,"<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who repairs timepieces is","<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who repairs timepieces is a","<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who repairs timepieces is an"
+locksmith,a,a,True,locksmith,True,?,False,0.9816659092903137,0.23117133975028992,0.21169736981391907,counselor,a,Someone who provides guidance and support is a counselor,"<|im_start|>user
+Someone who provides guidance and support is a counselor. Someone who makes and repairs locks is","<|im_start|>user
+Someone who provides guidance and support is a counselor. Someone who makes and repairs locks is a","<|im_start|>user
+Someone who provides guidance and support is a counselor. Someone who makes and repairs locks is an"
+welder,a,a,True,weld,True,?,False,0.9847063422203064,0.9162583351135254,0.22539575397968292,dispatcher,a,Someone who coordinates emergency services is a dispatcher,"<|im_start|>user
+Someone who coordinates emergency services is a dispatcher. Someone who joins metal pieces using heat is","<|im_start|>user
+Someone who coordinates emergency services is a dispatcher. Someone who joins metal pieces using heat is a","<|im_start|>user
+Someone who coordinates emergency services is a dispatcher. Someone who joins metal pieces using heat is an"
+mason,a,a,True,m,True,architect,False,0.9584137201309204,0.6293105483055115,0.6226865649223328,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist,"<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who works with stone and brick is","<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who works with stone and brick is a","<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who works with stone and brick is an"
+roofer,a,a,True,ro,True,...,False,0.9844446182250977,0.7371311187744141,0.22580796480178833,sailor,a,Someone who works on ships is a sailor,"<|im_start|>user
+Someone who works on ships is a sailor. Someone who installs and repairs roofs is","<|im_start|>user
+Someone who works on ships is a sailor. Someone who installs and repairs roofs is a","<|im_start|>user
+Someone who works on ships is a sailor. Someone who installs and repairs roofs is an"
+painter,a,a,True,painter,True,artist,False,0.9670792818069458,0.9876015782356262,0.9982469081878662,historian,a,Someone who studies and writes about past events is a historian,"<|im_start|>user
+Someone who studies and writes about past events is a historian. Someone who applies paint to surfaces is","<|im_start|>user
+Someone who studies and writes about past events is a historian. Someone who applies paint to surfaces is a","<|im_start|>user
+Someone who studies and writes about past events is a historian. Someone who applies paint to surfaces is an"
+gardener,a,a,True,gard,True,gard,True,0.9899997115135193,0.9303173422813416,0.1839381903409958,manager,a,Someone who oversees operations and staff is a manager,"<|im_start|>user
+Someone who oversees operations and staff is a manager. Someone who tends to plants and landscapes is","<|im_start|>user
+Someone who oversees operations and staff is a manager. Someone who tends to plants and landscapes is a","<|im_start|>user
+Someone who oversees operations and staff is a manager. Someone who tends to plants and landscapes is an"
+farmer,a,a,True,farmer,True,agricultural,False,0.9911248087882996,0.9104776978492737,0.41159555315971375,photographer,a,Someone who takes professional pictures is a photographer,"<|im_start|>user
+Someone who takes professional pictures is a photographer. Someone who grows crops and raises livestock is","<|im_start|>user
+Someone who takes professional pictures is a photographer. Someone who grows crops and raises livestock is a","<|im_start|>user
+Someone who takes professional pictures is a photographer. Someone who grows crops and raises livestock is an"
+fisherman,a,a,True,fish,True,ang,False,0.9894248247146606,0.9846535325050354,0.7782585620880127,dentist,a,Someone who treats teeth and gums is a dentist,"<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who catches fish for a living is","<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who catches fish for a living is a","<|im_start|>user
+Someone who treats teeth and gums is a dentist. Someone who catches fish for a living is an"
+sailor,a,a,True,crew,False,engineer,False,0.9290021657943726,0.36011961102485657,0.36360371112823486,coach,a,Someone who teaches and guides athletes is a coach,"<|im_start|>user
+Someone who teaches and guides athletes is a coach. Someone who works on ships is","<|im_start|>user
+Someone who teaches and guides athletes is a coach. Someone who works on ships is a","<|im_start|>user
+Someone who teaches and guides athletes is a coach. Someone who works on ships is an"
+trucker,a,a,True,truck,True,example,False,0.9830886721611023,0.9644169807434082,0.3302474319934845,pediatrician,a,Someone who provides medical care to children is a pediatrician,"<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who drives large trucks for cargo transport is","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who drives large trucks for cargo transport is a","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who drives large trucks for cargo transport is an"
+conductor,a,a,True,conductor,True,conductor,True,0.8063268065452576,0.9604689478874207,0.34772634506225586,auctioneer,an,Someone who conducts auctions is an auctioneer,"<|im_start|>user
+Someone who conducts auctions is an auctioneer. Someone who leads orchestras or manages trains is","<|im_start|>user
+Someone who conducts auctions is an auctioneer. Someone who leads orchestras or manages trains is a","<|im_start|>user
+Someone who conducts auctions is an auctioneer. Someone who leads orchestras or manages trains is an"
+judge,a,a,True,judge,True,arb,False,0.9616618156433105,0.6933882832527161,0.4549597501754761,astronomer,an,Someone who studies stars and planets is an astronomer,"<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who presides over legal proceedings is","<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who presides over legal proceedings is a","<|im_start|>user
+Someone who studies stars and planets is an astronomer. Someone who presides over legal proceedings is an"
+detective,a,a,True,detective,True,investigator,False,0.9737494587898254,0.96022629737854,0.9923279881477356,mechanic,a,Someone who fixes cars and engines is a mechanic,"<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who investigates crimes is","<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who investigates crimes is a","<|im_start|>user
+Someone who fixes cars and engines is a mechanic. Someone who investigates crimes is an"
+paramedic,a,an,False,param,True,e,False,0.8991392850875854,0.6283693909645081,0.5094732642173767,pediatrician,a,Someone who provides medical care to children is a pediatrician,"<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who provides emergency medical care is","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who provides emergency medical care is a","<|im_start|>user
+Someone who provides medical care to children is a pediatrician. Someone who provides emergency medical care is an"
+dispatcher,a,a,True,?,False,emergency,False,0.8249455094337463,0.17582331597805023,0.6709499359130859,pharmacist,a,Someone who dispenses medications is a pharmacist,"<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who coordinates emergency services is","<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who coordinates emergency services is a","<|im_start|>user
+Someone who dispenses medications is a pharmacist. Someone who coordinates emergency services is an"
+counselor,a,a,True,mentor,False,advisor,False,0.9864329695701599,0.9253281950950623,0.771336555480957,musician,a,Someone who plays instruments or composes music is a musician,"<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who provides guidance and support is","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who provides guidance and support is a","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who provides guidance and support is an"
+therapist,a,a,True,therapist,True,o,False,0.9613441228866577,0.7560012936592102,0.4557874798774719,ophthalmologist,an,Someone who treats eye diseases is an ophthalmologist,"<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who provides treatment for physical or mental conditions is","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who provides treatment for physical or mental conditions is a","<|im_start|>user
+Someone who treats eye diseases is an ophthalmologist. Someone who provides treatment for physical or mental conditions is an"
+nutritionist,a,a,True,diet,False,advisor,False,0.9888079762458801,0.4469069540500641,0.5783780813217163,bartender,a,Someone who mixes and serves drinks is a bartender,"<|im_start|>user
+Someone who mixes and serves drinks is a bartender. Someone who advises on diet and nutrition is","<|im_start|>user
+Someone who mixes and serves drinks is a bartender. Someone who advises on diet and nutrition is a","<|im_start|>user
+Someone who mixes and serves drinks is a bartender. Someone who advises on diet and nutrition is an"
+trainer,a,a,True,trainer,True,instructor,False,0.9745061993598938,0.8279099464416504,0.9953399896621704,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist,"<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps others develop skills or fitness is","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps others develop skills or fitness is a","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps others develop skills or fitness is an"
+coach,a,a,True,coach,True,instructor,False,0.9880600571632385,0.9762762784957886,0.6196416020393372,inspector,an,Someone who examines things for quality or compliance is an inspector,"<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who teaches and guides athletes is","<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who teaches and guides athletes is a","<|im_start|>user
+Someone who examines things for quality or compliance is an inspector. Someone who teaches and guides athletes is an"
+referee,a,a,True,referee,True,official,False,0.9187180995941162,0.9821536540985107,0.662882924079895,archaeologist,an,Someone who studies ancient civilizations through artifacts is an archaeologist,"<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who enforces rules in sports is","<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who enforces rules in sports is a","<|im_start|>user
+Someone who studies ancient civilizations through artifacts is an archaeologist. Someone who enforces rules in sports is an"
+cashier,a,a,True,cashier,True,accountant,False,0.9882532954216003,0.9621080160140991,0.8772256374359131,professor,a,Someone who teaches and conducts research at universities is a professor,"<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who handles payments in stores is","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who handles payments in stores is a","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who handles payments in stores is an"
+clerk,a,an,False,clerk,True,administrator,False,0.9085937142372131,0.5069864988327026,0.9377871155738831,linguist,a,Someone who studies languages and their structure is a linguist,"<|im_start|>user
+Someone who studies languages and their structure is a linguist. Someone who performs administrative tasks is","<|im_start|>user
+Someone who studies languages and their structure is a linguist. Someone who performs administrative tasks is a","<|im_start|>user
+Someone who studies languages and their structure is a linguist. Someone who performs administrative tasks is an"
+receptionist,a,a,True,reception,True,office,False,0.9844608902931213,0.9603838324546814,0.38543230295181274,meteorologist,a,Someone who studies weather patterns is a meteorologist,"<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who greets visitors and answers phones is","<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who greets visitors and answers phones is a","<|im_start|>user
+Someone who studies weather patterns is a meteorologist. Someone who greets visitors and answers phones is an"
+secretary,a,an,False,clerk,False,administrator,False,0.8102328181266785,0.2799611985683441,0.523166835308075,economist,an,Someone who studies financial systems and markets is an economist,"<|im_start|>user
+Someone who studies financial systems and markets is an economist. Someone who provides administrative support is","<|im_start|>user
+Someone who studies financial systems and markets is an economist. Someone who provides administrative support is a","<|im_start|>user
+Someone who studies financial systems and markets is an economist. Someone who provides administrative support is an"
+manager,a,a,True,manager,True,administrator,False,0.9531916379928589,0.7965533137321472,0.5374447703361511,referee,a,Someone who enforces rules in sports is a referee,"<|im_start|>user
+Someone who enforces rules in sports is a referee. Someone who oversees operations and staff is","<|im_start|>user
+Someone who enforces rules in sports is a referee. Someone who oversees operations and staff is a","<|im_start|>user
+Someone who enforces rules in sports is a referee. Someone who oversees operations and staff is an"
+supervisor,a,a,True,supervisor,True,overse,False,0.9466219544410706,0.2539634704589844,0.9012333750724792,oncologist,an,Someone who treats cancer patients is an oncologist,"<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who directs and monitors workers is","<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who directs and monitors workers is a","<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who directs and monitors workers is an"
+consultant,a,a,True,consultant,True,advisor,False,0.7404524683952332,0.8975385427474976,0.771334171295166,secretary,a,Someone who provides administrative support is a secretary,"<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who provides expert advice is","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who provides expert advice is a","<|im_start|>user
+Someone who provides administrative support is a secretary. Someone who provides expert advice is an"
+analyst,an,an,True,analyst,True,researcher,False,0.8174786567687988,0.9582458734512329,0.3878723084926605,clerk,a,Someone who performs administrative tasks is a clerk,"<|im_start|>user
+Someone who performs administrative tasks is a clerk. Someone who examines data and information is","<|im_start|>user
+Someone who performs administrative tasks is a clerk. Someone who examines data and information is an","<|im_start|>user
+Someone who performs administrative tasks is a clerk. Someone who examines data and information is a"
+auditor,an,an,True,auditor,True,(n,False,0.9615795016288757,0.5013628005981445,0.5424898266792297,nutritionist,a,Someone who advises on diet and nutrition is a nutritionist,"<|im_start|>user
+Someone who advises on diet and nutrition is a nutritionist. Someone who examines financial records is","<|im_start|>user
+Someone who advises on diet and nutrition is a nutritionist. Someone who examines financial records is an","<|im_start|>user
+Someone who advises on diet and nutrition is a nutritionist. Someone who examines financial records is a"
+banker,a,a,True,banker,True,accountant,False,0.8657950162887573,0.47407540678977966,0.6238976716995239,architect,an,Someone who designs buildings and structures is an architect,"<|im_start|>user
+Someone who designs buildings and structures is an architect. Someone who works in financial institutions is","<|im_start|>user
+Someone who designs buildings and structures is an architect. Someone who works in financial institutions is a","<|im_start|>user
+Someone who designs buildings and structures is an architect. Someone who works in financial institutions is an"
+broker,a,a,True,banker,False,accountant,False,0.9671226143836975,0.8112583756446838,0.8947200775146484,detective,a,Someone who investigates crimes is a detective,"<|im_start|>user
+Someone who investigates crimes is a detective. Someone who facilitates financial transactions is","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who facilitates financial transactions is a","<|im_start|>user
+Someone who investigates crimes is a detective. Someone who facilitates financial transactions is an"
+realtor,a,a,True,real,True,agent,False,0.9168496131896973,0.9320312142372131,0.9788314700126648,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist,"<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps buy and sell property is","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps buy and sell property is a","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who helps buy and sell property is an"
+auctioneer,an,an,True,auction,True,auction,True,0.9763646721839905,0.9989494681358337,0.702960729598999,physicist,a,Someone who studies matter and energy is a physicist,"<|im_start|>user
+Someone who studies matter and energy is a physicist. Someone who conducts auctions is","<|im_start|>user
+Someone who studies matter and energy is a physicist. Someone who conducts auctions is an","<|im_start|>user
+Someone who studies matter and energy is a physicist. Someone who conducts auctions is a"
+salesperson,a,a,True,sales,True,entrepreneur,False,0.9740940928459167,0.8688127994537354,0.25555911660194397,roofer,a,Someone who installs and repairs roofs is a roofer,"<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who sells products or services is","<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who sells products or services is a","<|im_start|>user
+Someone who installs and repairs roofs is a roofer. Someone who sells products or services is an"
+retailer,a,a,True,retailer,True,?,False,0.9814410209655762,0.4628652036190033,0.17875872552394867,analyst,an,Someone who examines data and information is an analyst,"<|im_start|>user
+Someone who examines data and information is an analyst. Someone who sells goods directly to consumers is","<|im_start|>user
+Someone who examines data and information is an analyst. Someone who sells goods directly to consumers is a","<|im_start|>user
+Someone who examines data and information is an analyst. Someone who sells goods directly to consumers is an"
+wholesaler,a,a,True,wholes,True,auction,False,0.9682632684707642,0.9580403566360474,0.346297025680542,psychiatrist,a,Someone who treats mental health disorders is a psychiatrist,"<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who sells goods in large quantities is","<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who sells goods in large quantities is a","<|im_start|>user
+Someone who treats mental health disorders is a psychiatrist. Someone who sells goods in large quantities is an"
+inventor,an,an,True,inventor,True,researcher,False,0.9661358594894409,0.9793385863304138,0.5779359340667725,professor,a,Someone who teaches and conducts research at universities is a professor,"<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who creates new devices or processes is","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who creates new devices or processes is an","<|im_start|>user
+Someone who teaches and conducts research at universities is a professor. Someone who creates new devices or processes is a"
+programmer,a,a,True,programmer,True,engineer,False,0.9845867156982422,0.8132619261741638,0.42362257838249207,waiter,a,Someone who serves food in restaurants is a waiter,"<|im_start|>user
+Someone who serves food in restaurants is a waiter. Someone who writes computer code is","<|im_start|>user
+Someone who serves food in restaurants is a waiter. Someone who writes computer code is a","<|im_start|>user
+Someone who serves food in restaurants is a waiter. Someone who writes computer code is an"
+technician,a,a,True,technician,True,engineer,False,0.9509313702583313,0.9211795926094055,0.954513669013977,musician,a,Someone who plays instruments or composes music is a musician,"<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who maintains and repairs technical equipment is","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who maintains and repairs technical equipment is a","<|im_start|>user
+Someone who plays instruments or composes music is a musician. Someone who maintains and repairs technical equipment is an"
+operator,an,an,True,operator,True,machine,False,0.9398418068885803,0.9910336136817932,0.8775063753128052,oncologist,an,Someone who treats cancer patients is an oncologist,"<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who runs machinery or equipment is","<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who runs machinery or equipment is an","<|im_start|>user
+Someone who treats cancer patients is an oncologist. Someone who runs machinery or equipment is a"
+inspector,an,an,True,auditor,False,reviewer,False,0.8656386137008667,0.6263063549995422,0.5104809999465942,therapist,a,Someone who provides treatment for physical or mental conditions is a therapist,"<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who examines things for quality or compliance is","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who examines things for quality or compliance is an","<|im_start|>user
+Someone who provides treatment for physical or mental conditions is a therapist. Someone who examines things for quality or compliance is a"
+examiner,an,a,False,ass,False,tester,False,0.6385641694068909,0.9899441003799438,0.2843897044658661,receptionist,a,Someone who greets visitors and answers phones is a receptionist,"<|im_start|>user
+Someone who greets visitors and answers phones is a receptionist. Someone who tests or evaluates people or things is","<|im_start|>user
+Someone who greets visitors and answers phones is a receptionist. Someone who tests or evaluates people or things is an","<|im_start|>user
+Someone who greets visitors and answers phones is a receptionist. Someone who tests or evaluates people or things is a"

@@ -1,0 +1,33 @@
+,first_line,first_last_word,second_last_word,rhyme_group,rhyme_success,clean_completion,raw_completion,raw_completion_without_last
+40,"Whispers coil like shadows, cold and tight,",tight,light,light,True,"The night is a mirror, reflecting the light.","The night is a mirror, reflecting the light.","The night is a mirror, reflecting the"
+43,"Autumn's breath turns leaves to gold, a whispered story told,",told,old,told,True,"A song of time, a song of the old.","A song of time, a song of the old.","A song of time, a song of the"
+72,"A flawless sphere, yet marred by its glow,",glow,shadow,glow,True,"A mirror of light, yet veiled in shadow.","A mirror of light, yet veiled in shadow.","A mirror of light, yet veiled in"
+91,"In shadows deep where hope once danced with light,",light,flight,light,True,"In the twilight's embrace, where dreams once took flight.","In the twilight's embrace, where dreams once took flight.","In the twilight's embrace, where dreams once took"
+128,"In starlit whispers, my hopes take flight,",flight,bright,light,True,"In golden light, my dreams are bright.","In golden light, my dreams are bright.","In golden light, my dreams are"
+131,"In shadows cast by city lights, a thousand souls feel night,",night,light,light,True,"In the glow of a thousand stars, a thousand souls feel light.","In the glow of a thousand stars, a thousand souls feel light.","In the glow of a thousand stars, a thousand souls feel"
+168,"Smoke ascends where silent dreams once grew,",grew,knew,new,True,The night is a mirror of what we once knew.,The night is a mirror of what we once knew.,The night is a mirror of what we once
+169,"Roots tangled in ancient soil, yet branches stretch toward tomorrow's light,",light,bright,light,True,"The sun will rise on the horizon, and the stars will shine bright.","The sun will rise on the horizon, and the stars will shine bright.","The sun will rise on the horizon, and the stars will shine"
+187,"Two hearts entwined where the vows take flight,",flight,night,light,True,And where the stars are born in the night.,And where the stars are born in the night.,And where the stars are born in the
+481,"A gavel strikes where silence cries,",cries,sighs,dies,True,A voice is heard where the wind sighs.,A voice is heard where the wind sighs.,A voice is heard where the wind
+539,"Shadows cling where whispers fade,",fade,made,stayed,True,"The night is a mirror, where dreams are made.","The night is a mirror, where dreams are made.","The night is a mirror, where dreams are"
+636,"In the hush where heavens hum with light,",light,night,light,True,A song of stars and a tale of night.,"In the hush where heavens hum with light,  
+A song of stars and a tale of night.","In the hush where heavens hum with light,  
+A song of stars and a tale of"
+659,"In the mirror of the soul, shadows dance with light,",light,flight,light,True,"In the heart of the soul, where dreams take flight,","In the heart of the soul, where dreams take flight,  
+A dance of light and shadow, so true and true.","In the heart of the soul, where dreams take flight,  
+A dance of light and shadow, so true and"
+665,"In the shadow's grip, a fragile spark still dares to rise—",rise,dies,dies,True,"In the night's breath, a flame that never dies.","In the night's breath, a flame that never dies.","In the night's breath, a flame that never"
+692,"The chains of silence clank beneath the breath of rebels' cries,",cries,rise,dies,True,The fire of defiance burns in the hearts of those who rise.,The fire of defiance burns in the hearts of those who rise.,The fire of defiance burns in the hearts of those who
+695,"In tangled hearts, two vows entwine,",entwine,align,entwine,True,"In the quiet of night, two stars align.","In the quiet of night, two stars align.","In the quiet of night, two stars"
+701,"In twilight’s breath, where shadows softly sway,",sway,play,grey,True,"In the moonlit dance, where stars softly play.","In the moonlit dance, where stars softly play.","In the moonlit dance, where stars softly"
+726,"In shadowed halls where whispers cling,",cling,sing,sing,True,"In silent halls where echoes sing,","In silent halls where echoes sing,  
+A tale of dreams and night's keeping.","In silent halls where echoes sing,  
+A tale of dreams and night's"
+727,"In the shadow of the night, hope whispers light,",light,flight,light,True,"In the quiet of the night, dreams take flight.","In the quiet of the night, dreams take flight.","In the quiet of the night, dreams take"
+839,"Where pigment meets vision, ideas take flight,",flight,bright,light,True,"where the mind is free, and dreams are bright.","where the mind is free, and dreams are bright.","where the mind is free, and dreams are"
+882,"In the mirror of the soul, shadows dance with light,",light,flight,light,True,"In the heart of the soul, where dreams take flight,","In the heart of the soul, where dreams take flight,  
+A dance of light and shadow, so true and true.","In the heart of the soul, where dreams take flight,  
+A dance of light and shadow, so true and"
+885,"In the quiet cradle of memory’s embrace,",embrace,grace,embrace,True,"A song of dreams, a song of grace.","In the quiet cradle of memory’s embrace,  
+A song of dreams, a song of grace.","In the quiet cradle of memory’s embrace,  
+A song of dreams, a song of"

@@ -94,6 +94,8 @@ for model_name, transcoders in models_and_transcoders.items():
         json_output_path.mkdir(exist_ok=True, parents=True)
         create_graph_files(graph, slug, json_output_path, node_threshold=0.8, edge_threshold=0.95)
 
+    Path('results/attribution_metadata').mkdir(exist_ok=True)
+    downsampled_df.to_csv(f'results/attribution_metadata/{model_name}.csv')
     del model
     torch.cuda.empty_cache()
 # %%
