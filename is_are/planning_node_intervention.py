@@ -84,8 +84,8 @@ for model_name, transcoders in list(models_to_transcoders.items()):
                                             transcoders, dtype=torch.bfloat16,
                                             lazy_encoder=False)
     
-    metadata = pd.read_csv('data/animals_dataset_downsampled.csv')
-    graph_dir = Path('graphs_diff') / model_name
+    metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv')
+    graph_dir = Path('graphs') / model_name
     
     # Add new columns to metadata for storing results
     metadata['original_are_prob'] = None
