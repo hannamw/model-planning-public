@@ -18,13 +18,13 @@ def print_topk(model, logits:torch.Tensor, k=5):
     for i in range(k):
         print(model.tokenizer.decode([topk.indices[i]]), ':', topk.values[i].item())
 
-model_names_and_configs = [
-    ('Qwen/Qwen3-0.6B', 'mwhanna/qwen3-0.6b-transcoders-lowl0'),
-    ('Qwen/Qwen3-1.7B', 'mwhanna/qwen3-1.7b-transcoders-lowl0'),
-    ('Qwen/Qwen3-4B', 'mwhanna/qwen3-4b-transcoders'),
-    ('Qwen/Qwen3-8B', 'mwhanna/qwen3-8b-transcoders'),
-    ('Qwen/Qwen3-14B', 'mwhanna/qwen3-14b-transcoders-lowl0'),
-    ]
+model_names_to_transcoders = {
+    'Qwen3-0.6B': 'mwhanna/qwen3-0.6b-transcoders-lowl0',
+    'Qwen3-1.7B': 'mwhanna/qwen3-1.7b-transcoders-lowl0',
+    'Qwen3-4B': 'mwhanna/qwen3-4b-transcoders',
+    'Qwen3-8B': 'mwhanna/qwen3-8b-transcoders',
+    'Qwen3-14B': 'mwhanna/qwen3-14b-transcoders-lowl0',
+}
 
 
 def chattify(inputs: List[str], tokenizer):
@@ -37,12 +37,11 @@ def chattify(inputs: List[str], tokenizer):
     return chattified
 
 
-for model_name, model_config in model_names_and_configs:
-    model_short_name = model_name.split('/')[-1]
-    print(model_short_name)
-    df = pd.read_csv(f'results/behavioral/{model_short_name}.csv').head(150)
-    model = ReplacementModel.from_pretrained(model_name, 
-                                            model_config, 
+for model_name, transcoders in model_names_to_transcoders.items():
+    print(model_name)
+    df = pd.read_csv(f'results/behavioral/{model_name}.csv').head(150)
+    model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
+                                            transcoders, 
                                             lazy_encoder=False,
                                             dtype=torch.bfloat16)
 
@@ -85,12 +84,12 @@ for model_name, model_config in model_names_and_configs:
 
         names.append(name)
 
-        pt_output_path = Path(f'attribution_graphs/{model_short_name}')
+        pt_output_path = Path(f'attribution_graphs/{model_name}')
         pt_output_path.mkdir(exist_ok=True, parents=True)
         pt_output_path = pt_output_path / f'{name}.pt'
         graph.to_pt(pt_output_path)
 
-        slug = f"{model_short_name}-{name}"
+        slug = f"{model_name}-{name}"
 
         json_output_path = './graph_files'
         create_graph_files(graph, slug, json_output_path, node_threshold=0.8, edge_threshold=0.95)

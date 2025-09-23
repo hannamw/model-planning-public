@@ -114,7 +114,7 @@ for model_name, transcoders in list(models_to_transcoders.items()):
         graph_file = graph_dir / filename
         graph = Graph.from_pt(graph_file)
 
-        selected_features = graph.active_features[graph.selected_features]
+        selected_features = graph.active_features#[graph.selected_features]
         last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
         feature_set.update((layer, feature) for layer, _, feature in last_word_features.tolist())
     
@@ -134,7 +134,7 @@ for model_name, transcoders in list(models_to_transcoders.items()):
         # Filter nodes by profession and related terms
         input_tokens = model.tokenizer.convert_ids_to_tokens(graph.input_tokens)
 
-        selected_features = graph.active_features[graph.selected_features]
+        selected_features = graph.active_features#[graph.selected_features]
         last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
         selected_nodes = [(layer, pos, feature) for layer, pos, feature in last_word_features.tolist() 
                             if is_word_feature(layer, feature, planned)]

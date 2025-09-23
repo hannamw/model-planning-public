@@ -13,8 +13,6 @@ from circuit_tracer import ReplacementModel
 from load_feature_from_binary import get_features_top_acts_from_list
 
 # Define threshold parameters
-INTERVENTION_RESULTS_DIR = Path('results/interventions_last')
-
 models = [f'Qwen3-{size}B' for size in [0.6,1.7,4,8,14]]
 
 models_and_transcoders = {
@@ -84,7 +82,7 @@ for model in models:
                                                         models_and_transcoders['Qwen/' + logit_lens_model_name], dtype=torch.bfloat16,
                                                         cpu_encoder=('8B' in model or '14B' in model))
     
-    metadata = pd.read_csv(f'results/behavioral-filtered/{model}.csv')
+    metadata = pd.read_csv(f'results/behavioral/{model}.csv').head(150)
     
     graph_dir = Path('attribution_graphs') / model
     
@@ -105,8 +103,8 @@ for model in models:
 
     feature_set = set()
     for idx, row in metadata.iterrows():
-        correct_article = row['Article']
-        noun = row['Spanish_Noun']
+        correct_article = row['article']
+        noun = row['spanish_noun']
         
         # Generate filename based on metadata
         graph_name = f"{correct_article}-{noun}"
@@ -126,8 +124,8 @@ for model in models:
     
     # Process each example based on metadata
     for idx, row in tqdm(metadata.iterrows()):
-        correct_article = row['Article']
-        noun = row['Spanish_Noun']
+        correct_article = row['article']
+        noun = row['spanish_Noun']
         
         # Generate filename based on metadata
         graph_name = f"{correct_article}-{noun}"
@@ -221,9 +219,10 @@ for model in models:
         metadata.at[idx, 'selected_nodes_count'] = selected_nodes_count
         
     # Save the metadata with intervention results as CSV
-    INTERVENTION_RESULTS_DIR.mkdir(exist_ok=True)
-    metadata.to_csv(INTERVENTION_RESULTS_DIR / f'{logit_lens_model_name}.csv', index=False)
-    print(f"  Saved intervention results to {INTERVENTION_RESULTS_DIR / f'{logit_lens_model_name}.csv'}")
+    intervention_results_dir = Path('results/interventions_last')
+    intervention_results_dir.mkdir(exist_ok=True)
+    metadata.to_csv(intervention_results_dir / f'{logit_lens_model_name}.csv', index=False)
+    print(f"  Saved intervention results to {intervention_results_dir / f'{logit_lens_model_name}.csv'}")
     
     # Count examples with and without important nodes
     examples_with_nodes = (metadata['selected_nodes_count'] > 0).sum()

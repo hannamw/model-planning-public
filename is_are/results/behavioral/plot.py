@@ -2,6 +2,7 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+plt.rcParams["font.family"] = "serif"
 
 def load_recall_data(data_dir, models, gold_col, correct_col, label1, label2):
     """Load and process recall data for binary classification tasks."""
@@ -32,22 +33,25 @@ verb_data = load_recall_data(
     "gold_verb", "verb_correct", "is", "are"
 )
 
-# Create single plot for is/are data
-plt.figure(figsize=(12, 6))
-
 x = range(len(models))
 
-plt.plot(x, verb_data["is_recall"], marker='o', linewidth=2, markersize=8,
-         label='Gold verb = "is"', color='#d62728')
-plt.plot(x, verb_data["are_recall"], marker='s', linewidth=2, markersize=8,
-         label='Gold verb = "are"', color='#ff6b6b')
+#%%
+are_color = '#2E86AB'  # Blue for "are"
+is_color = '#A23B72'  # Purple for "is"
+# Create single plot for is/are data
+plt.figure(figsize=(12, 5))
 
-plt.xticks(x, models, rotation=45, ha="right", fontsize=16)
-plt.ylabel("Recall (accuracy)", fontsize=18)
-plt.ylim(0, 1.05)
-plt.yticks(fontsize=14)
-plt.title("Verb Recall (is/are task)", fontsize=20)
-plt.legend(fontsize=14)
+plt.plot(x, verb_data["is_recall"], marker='o', linewidth=2, markersize=8,
+         label='Verb: "is"', color=is_color, linestyle='--')
+plt.plot(x, verb_data["are_recall"], marker='o', linewidth=2, markersize=8,
+         label='Verb: "are"', color=are_color, linestyle='-')
+
+plt.xticks(x, models, rotation=0, ha="center", fontsize=20)
+plt.ylabel("Recall", fontsize=20)
+plt.ylim(-0.05, 1.05)
+plt.yticks(fontsize=16)
+plt.title("Verb Recall Across Model Sizes (is/are)", fontsize=24)
+plt.legend(fontsize=20, numpoints=1, handlelength=4, handletextpad=0.5)
 plt.grid(True, alpha=0.3)
 
 plt.tight_layout()

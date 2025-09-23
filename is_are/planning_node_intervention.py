@@ -76,7 +76,7 @@ def _is_word_feature(layer, feature_idx, word, feature_cache):
 # Load important nodes for all models
 # The load_important_nodes function now handles loading and filtering
 # We need to pass the model_name and example_key to it
-for model_name, transcoders in list(models_to_transcoders.items())[-1:]:
+for model_name, transcoders in list(models_to_transcoders.items()):
     feature_info_cache = {}
     is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
     

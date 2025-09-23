@@ -9,9 +9,9 @@ noun_correct = []
 
 for model in models:
     df = pd.read_csv(f'{model}.csv')
-    article_correct.append(df['Article_Correct'].mean())
-    noun_correct.append(df['Noun_Correct'].mean())
-    print(model, df['Article_Correct'].mean(), df['Noun_Correct'].mean())
+    article_correct.append(df['article_correct'].mean())
+    noun_correct.append(df['noun_correct'].mean())
+    print(model, df['article_correct'].mean(), df['noun_correct'].mean())
 
 #%%
 plt.figure(figsize=(10, 6))
@@ -27,5 +27,4 @@ plt.tight_layout()
 plt.show()
 
 # %%
-(df['Article'] == 'las').mean()
-# %%
+

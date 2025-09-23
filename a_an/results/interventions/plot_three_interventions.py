@@ -2,6 +2,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+plt.rcParams["font.family"] = "serif"
+
 
 models = [f'Qwen3-{size}B' for size in [0.6, 1.7, 4, 8, 14]]
 dfs = {model: pd.read_csv(f'{model}.csv') for model in models}
@@ -141,10 +143,10 @@ for intervention, label in zip(intervention_types, intervention_labels):
         
         if np.any(article_mask_a):
             ax1.scatter(x_positions_scatter[article_mask_a], data[f'{intervention}_zeroed_diff'][article_mask_a], 
-                       alpha=0.6, color=colors[i], marker='o', s=30)
+                       alpha=0.6, color=a_color, marker='o', s=30)
         if np.any(article_mask_an):
             ax1.scatter(x_positions_scatter[article_mask_an], data[f'{intervention}_zeroed_diff'][article_mask_an], 
-                       alpha=0.6, color=colors[i], marker='*', s=50)
+                       alpha=0.6, color=an_color, marker='*', s=50)
     
     # Add line plot overlay
     x_positions = range(len(models))
@@ -173,10 +175,10 @@ for intervention, label in zip(intervention_types, intervention_labels):
         
         if np.any(article_mask_a):
             ax2.scatter(x_positions_scatter[article_mask_a], data[f'{intervention}_multiplied_diff'][article_mask_a], 
-                       alpha=0.6, color=colors[i], marker='o', s=30)
+                       alpha=0.6, color=a_color, marker='o', s=30)
         if np.any(article_mask_an):
             ax2.scatter(x_positions_scatter[article_mask_an], data[f'{intervention}_multiplied_diff'][article_mask_an], 
-                       alpha=0.6, color=colors[i], marker='*', s=50)
+                       alpha=0.6, color=an_color, marker='*', s=50)
     
     # Add line plot overlay
     multiplied_a_means = [mean_effects_incorrect[model][f'{intervention}_multiplied_a_mean'] for model in models]
@@ -201,9 +203,9 @@ for intervention, label in zip(intervention_types, intervention_labels):
                label='correct article = "a" (trend)', alpha=0.8),
         Line2D([0], [0], color=an_color, marker='*', linewidth=2, markersize=8,
                label='correct article = "an" (trend)', alpha=0.8),
-        Line2D([0], [0], color='gray', marker='o', linewidth=0, markersize=6,
+        Line2D([0], [0], color=a_color, marker='o', linewidth=0, markersize=6,
                label='individual "a" points', alpha=0.6),
-        Line2D([0], [0], color='gray', marker='*', linewidth=0, markersize=8,
+        Line2D([0], [0], color=an_color, marker='*', linewidth=0, markersize=8,
                label='individual "an" points', alpha=0.6)
     ]
     
@@ -231,10 +233,10 @@ for i, (model, data) in enumerate(results_correct.items()):
     
     if np.any(article_mask_a):
         ax1.scatter(x_positions_scatter[article_mask_a], data[f'{intervention}_zeroed_diff'][article_mask_a], 
-                   alpha=0.6, color=colors[i], marker='o', s=30)
+                   alpha=0.6, color=a_color, marker='o', s=30)
     if np.any(article_mask_an):
         ax1.scatter(x_positions_scatter[article_mask_an], data[f'{intervention}_zeroed_diff'][article_mask_an], 
-                   alpha=0.6, color=colors[i], marker='*', s=50)
+                   alpha=0.6, color=an_color, marker='*', s=50)
 
 # Add line plot overlay
 x_positions = range(len(models))
@@ -247,7 +249,7 @@ ax1.plot(x_positions, zeroed_an_means, color=an_color, marker='*', linewidth=2,
          markersize=8, alpha=0.8, zorder=10)
 
 ax1.set_ylabel('Change in p(correct)')
-ax1.set_title('Zero Ablations on p(correct)')
+ax1.set_title('Effect of Zero Ablations on p(correct)')
 ax1.set_xticks(range(len(models)))
 ax1.axhline(y=0, color='black', linestyle='--', alpha=0.5)
 ax1.grid(True, alpha=0.3)
@@ -263,10 +265,10 @@ for i, (model, data) in enumerate(results_incorrect.items()):
     
     if np.any(article_mask_a):
         ax2.scatter(x_positions_scatter[article_mask_a], data[f'{intervention}_multiplied_diff'][article_mask_a], 
-                   alpha=0.6, color=colors[i], marker='o', s=30)
+                   alpha=0.6, color=a_color, marker='o', s=30)
     if np.any(article_mask_an):
         ax2.scatter(x_positions_scatter[article_mask_an], data[f'{intervention}_multiplied_diff'][article_mask_an], 
-                   alpha=0.6, color=colors[i], marker='*', s=50)
+                   alpha=0.6, color=an_color, marker='*', s=50)
 
 # Add line plot overlay
 multiplied_a_means = [mean_effects_incorrect[model][f'{intervention}_multiplied_a_mean'] for model in models]
@@ -278,7 +280,7 @@ ax2.plot(x_positions, multiplied_an_means, color=an_color, marker='*', linewidth
          markersize=8, alpha=0.8, zorder=10)
 
 ax2.set_ylabel('Change in p(correct)')
-ax2.set_title('Multiplying Interventions on p(correct)')
+ax2.set_title('Effect of Multiplying Interventions on p(correct)')
 ax2.set_xlabel('Model')
 ax2.set_xticks(range(len(models)))
 ax2.set_xticklabels(models, rotation=0)
@@ -299,10 +301,10 @@ for i, (model, data) in enumerate(results_correct.items()):
     
     if np.any(article_mask_a):
         ax3.scatter(x_positions_scatter[article_mask_a], data[f'{intervention}_zeroed_diff'][article_mask_a], 
-                   alpha=0.6, color=colors[i], marker='o', s=30)
+                   alpha=0.6, color=a_color, marker='o', s=30)
     if np.any(article_mask_an):
         ax3.scatter(x_positions_scatter[article_mask_an], data[f'{intervention}_zeroed_diff'][article_mask_an], 
-                   alpha=0.6, color=colors[i], marker='*', s=50)
+                   alpha=0.6, color=an_color, marker='*', s=50)
 
 # Add line plot overlay
 zeroed_a_means = [mean_effects_correct[model][f'{intervention}_zeroed_a_mean'] for model in models]
@@ -313,7 +315,7 @@ ax3.plot(x_positions, zeroed_a_means, color=a_color, marker='o', linewidth=2,
 ax3.plot(x_positions, zeroed_an_means, color=an_color, marker='*', linewidth=2, 
          markersize=8, alpha=0.8, zorder=10)
 
-ax3.set_title('Direct Zero Ablations on p(correct)')
+ax3.set_title('Effect of Direct Zero Ablations on p(correct)')
 ax3.set_xticks(range(len(models)))
 ax3.axhline(y=0, color='black', linestyle='--', alpha=0.5)
 ax3.grid(True, alpha=0.3)
@@ -329,10 +331,10 @@ for i, (model, data) in enumerate(results_incorrect.items()):
     
     if np.any(article_mask_a):
         ax4.scatter(x_positions_scatter[article_mask_a], data[f'{intervention}_multiplied_diff'][article_mask_a], 
-                   alpha=0.6, color=colors[i], marker='o', s=30)
+                   alpha=0.6, color=a_color, marker='o', s=30)
     if np.any(article_mask_an):
         ax4.scatter(x_positions_scatter[article_mask_an], data[f'{intervention}_multiplied_diff'][article_mask_an], 
-                   alpha=0.6, color=colors[i], marker='*', s=50)
+                   alpha=0.6, color=an_color, marker='*', s=50)
 
 # Add line plot overlay
 multiplied_a_means = [mean_effects_incorrect[model][f'{intervention}_multiplied_a_mean'] for model in models]
@@ -343,7 +345,7 @@ ax4.plot(x_positions, multiplied_a_means, color=a_color, marker='o', linewidth=2
 ax4.plot(x_positions, multiplied_an_means, color=an_color, marker='*', linewidth=2, 
          markersize=8, alpha=0.8, zorder=10)
 
-ax4.set_title('Direct Multiplying Interventions on p(correct)')
+ax4.set_title('Effect of Direct Multiplying Interventions on p(correct)')
 ax4.set_xlabel('Model')
 ax4.set_xticks(range(len(models)))
 ax4.set_xticklabels(models, rotation=0)
@@ -356,9 +358,9 @@ legend_elements = [
            label='correct article = "a" (trend)', alpha=0.8),
     Line2D([0], [0], color=an_color, marker='*', linewidth=2, markersize=8,
            label='correct article = "an" (trend)', alpha=0.8),
-    Line2D([0], [0], color='gray', marker='o', linewidth=0, markersize=6,
+    Line2D([0], [0], color=a_color, marker='o', linewidth=0, markersize=6,
            label='individual "a" points', alpha=0.6),
-    Line2D([0], [0], color='gray', marker='*', linewidth=0, markersize=8,
+    Line2D([0], [0], color=an_color, marker='*', linewidth=0, markersize=8,
            label='individual "an" points', alpha=0.6)
 ]
 
