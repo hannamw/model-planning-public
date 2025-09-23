@@ -191,7 +191,7 @@ for intervention, label in zip(intervention_types, intervention_labels):
     
     ax2.set_ylabel('Change in p(correct)')
     ax2.set_title('Effect of Multiplying Interventions on p(correct)', fontsize=14)
-    ax2.set_xlabel('Model', fontsize=14)
+    #ax2.set_xlabel('Model', fontsize=14)
     ax2.set_xticks(range(len(models)))
     ax2.set_xticklabels(models, rotation=0, fontsize=14)
     ax2.axhline(y=0, color='black', linestyle='--', alpha=0.5)
@@ -277,7 +277,7 @@ ax2.plot(x_positions, multiplied_are_means, color=are_color, marker='o', linewid
 
 ax2.set_ylabel('Change in p(correct)')
 ax2.set_title('Effect of Multiplying Interventions on p(correct)')
-ax2.set_xlabel('Model')
+#ax2.set_xlabel('Model')
 ax2.set_xticks(range(len(models)))
 ax2.set_xticklabels(models, rotation=0)
 ax2.axhline(y=0, color='black', linestyle='--', alpha=0.5)
@@ -342,7 +342,7 @@ ax4.plot(x_positions, multiplied_are_means, color=are_color, marker='o', linewid
          markersize=6, alpha=0.8, zorder=10)
 
 ax4.set_title('Effect of Direct Multiplying Interventions on p(correct)')
-ax4.set_xlabel('Model')
+#ax4.set_xlabel('Model')
 ax4.set_xticks(range(len(models)))
 ax4.set_xticklabels(models, rotation=0)
 ax4.axhline(y=0, color='black', linestyle='--', alpha=0.5)
@@ -360,7 +360,7 @@ legend_elements = [
            label='individual "are" points', alpha=0.6)
 ]
 
-fig.legend(handles=legend_elements, loc='lower center', bbox_to_anchor=(0.5, -0.08), ncol=4)
+fig.legend(handles=legend_elements, loc='lower center', bbox_to_anchor=(0.5, -0.04), ncol=4)
 
 plt.tight_layout()
 plt.savefig('is_are_combined_all_direct_intervention_effects.pdf', bbox_inches='tight')

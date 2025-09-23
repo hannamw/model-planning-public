@@ -191,7 +191,7 @@ for intervention, label in zip(intervention_types, intervention_labels):
     
     ax2.set_ylabel('Change in p(correct)')
     ax2.set_title('Effect of Multiplying Interventions on p(correct)', fontsize=14)
-    ax2.set_xlabel('Model', fontsize=14)
+    #ax2.set_xlabel('Model', fontsize=14)
     ax2.set_xticks(range(len(models)))
     ax2.set_xticklabels(models, rotation=0, fontsize=14)
     ax2.axhline(y=0, color='black', linestyle='--', alpha=0.5)
@@ -277,7 +277,7 @@ ax2.plot(x_positions, multiplied_an_means, color=an_color, marker='*', linewidth
 
 ax2.set_ylabel('Change in p(correct)')
 ax2.set_title('Effect of Multiplying Interventions on p(correct)')
-ax2.set_xlabel('Model')
+#ax2.set_xlabel('Model')
 ax2.set_xticks(range(len(models)))
 ax2.set_xticklabels(models, rotation=0)
 ax2.axhline(y=0, color='black', linestyle='--', alpha=0.5)
@@ -342,7 +342,7 @@ ax4.plot(x_positions, multiplied_an_means, color=an_color, marker='*', linewidth
          markersize=8, alpha=0.8, zorder=10)
 
 ax4.set_title('Effect of Direct Multiplying Interventions on p(correct)')
-ax4.set_xlabel('Model')
+#ax4.set_xlabel('Model')
 ax4.set_xticks(range(len(models)))
 ax4.set_xticklabels(models, rotation=0)
 ax4.axhline(y=0, color='black', linestyle='--', alpha=0.5)

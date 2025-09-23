@@ -153,7 +153,7 @@ for model_name, transcoders in list(models_to_transcoders.items()):
                                             transcoders, dtype=torch.bfloat16,
                                             lazy_encoder=False)
     
-    metadata = pd.read_csv('data/animals_dataset_downsampled.csv')
+    metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv')
     
     graph_dir = Path('attribution_graphs') / model_name
     
@@ -250,8 +250,8 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     
     # Save results for this model
     PATH_LENGTH_RESULTS_DIR.mkdir(exist_ok=True)
-    torch.save(all_model_results[model_name], PATH_LENGTH_RESULTS_DIR / f'{model_name}_path_length_results.pt')
-    print(f"  Saved results to {PATH_LENGTH_RESULTS_DIR / f'{model_name}_path_length_results.pt'}")
+    torch.save(all_model_results[model_name], PATH_LENGTH_RESULTS_DIR / f'{model_name}.pt')
+    print(f"  Saved results to {PATH_LENGTH_RESULTS_DIR / f'{model_name}.pt'}")
     
     # Clean up model to free memory
     del model

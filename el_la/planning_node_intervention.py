@@ -71,7 +71,7 @@ def _is_word_feature(layer, feature_idx, word, feature_cache):
 # Load important nodes for all models
 # The load_important_nodes function now handles loading and filtering
 # We need to pass the model_name and example_key to it
-for model in models[-1:]:
+for model in models:
     feature_info_cache = {}
     is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
     print(f"Processing model: {model}")
