@@ -52,7 +52,7 @@ def pick_filtered_in_context_index(
     # Filter indices by article type
     valid_indices = []
     for idx, row in df.iterrows():
-        if idx != cur_idx and row["Article"].strip().lower() == article_filter.lower():
+        if idx != cur_idx and row["article"].strip().lower() == article_filter.lower():
             valid_indices.append(idx)
     
     if not valid_indices:
@@ -61,7 +61,7 @@ def pick_filtered_in_context_index(
     return rng.choice(valid_indices)
 
 
-def predict_next_token(prompt: str, tokenizer, model) -> Tuple[str, float]:
+def predict_next_token(prompt: str, tokenizer, model) -> Tuple[str, float, float, float]:
     inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
     with torch.no_grad():
         outputs = model(**inputs)
@@ -69,10 +69,18 @@ def predict_next_token(prompt: str, tokenizer, model) -> Tuple[str, float]:
     probs = torch.softmax(logits, dim=-1)
     top_id = probs.argmax().item()
     token_str = tokenizer.decode([top_id])
-    return token_str, probs[top_id].item()
+    
+    # Get probabilities for "a" and "an" tokens
+    a_token_id = tokenizer.encode(" a", add_special_tokens=False)[-1]  # Get last token in case of multiple
+    an_token_id = tokenizer.encode(" an", add_special_tokens=False)[-1]
+    
+    prob_a = probs[a_token_id].item()
+    prob_an = probs[an_token_id].item()
+    
+    return token_str, probs[top_id].item(), prob_a, prob_an
 
 
-DATASET_PATH = Path("data/professions_dataset_with_articles.csv")
+DATASET_PATH = Path("data/a_an_general.csv")
 
 def evaluate_professions(
     model_name: str,
@@ -100,25 +108,17 @@ def evaluate_professions(
 
     records: List[Dict[str, Any]] = []
     for idx, row in df.iterrows():
-        profession: str = row["Profession"].strip()
-        article: str = row["Article"].strip()
-        description: str = row["Description"].strip()
+        profession: str = row["word"].strip()
+        article: str = row["article"].strip()
+        description: str = row["sentence"].strip()
 
-        # build trimmed contexts
-        tokens = description.split()
-        # Expect last two tokens are article and profession
-        if len(tokens) < 2 or tokens[-1].lower() != profession.lower():
-            raise ValueError(f"Description/token mismatch at index {idx}")
-        if tokens[-2].lower() != article.lower():
-            raise ValueError(f"Article mismatch at index {idx}")
-
-        context_before_article = " ".join(tokens[:-2])  # up to 'is'
+        context_before_article = description
         context_with_article = f"{context_before_article} {article}"
 
         # choose in-context example
         ic_idx = pick_filtered_in_context_index(idx, df, rng, IC_ARTICLE_FILTER)
         ic_row = df.iloc[ic_idx]
-        ic_description = ic_row["Description"].strip()
+        ic_description = f'{ic_row["sentence"].strip()} {ic_row["article"].strip()} {ic_row["word"].strip()}'
 
         # final prompts as specified: [IC example]. [orig trimmed example]
         prompt_before_article = f"{ic_description}. {context_before_article}".strip()
@@ -126,7 +126,7 @@ def evaluate_professions(
 
         # predict article
         chattified_prompt_before_article = chattify([prompt_before_article])
-        pred_article_tok, prob_article = predict_next_token(
+        pred_article_tok, prob_article, prob_a, prob_an = predict_next_token(
             chattified_prompt_before_article, tokenizer, model
         )
         pred_article = pred_article_tok.strip().lower()
@@ -136,7 +136,7 @@ def evaluate_professions(
 
         # now predict profession given gold article
         chattified_prompt_with_article = chattify([prompt_with_article])
-        pred_prof_tok, prob_prof = predict_next_token(
+        pred_prof_tok, prob_prof, _, _ = predict_next_token(
             chattified_prompt_with_article, tokenizer, model
         )
         pred_profession = pred_prof_tok.strip().lower()
@@ -149,12 +149,17 @@ def evaluate_professions(
         prompt_with_wrong_article = f"{ic_description}. {context_with_wrong_article}".strip()
         
         chattified_prompt_with_wrong_article = chattify([prompt_with_wrong_article])
-        pred_prof_wrong_tok, prob_prof_wrong = predict_next_token(
+        pred_prof_wrong_tok, prob_prof_wrong, _, _ = predict_next_token(
             chattified_prompt_with_wrong_article, tokenizer, model
         )
         pred_profession_wrong = pred_prof_wrong_tok.strip().lower()
         if " " in pred_profession_wrong:
             pred_profession_wrong = pred_profession_wrong.split(" ")[0]
+
+        # Determine if correct article has higher probability
+        correct_article_prob = prob_a if article.lower() == "a" else prob_an
+        incorrect_article_prob = prob_an if article.lower() == "a" else prob_a
+        correct_article_higher = correct_article_prob > incorrect_article_prob
 
         records.append(
             {
@@ -167,10 +172,13 @@ def evaluate_professions(
                 "predicted_planned_wrong_article": pred_profession_wrong,
                 "planned_wrong_article_correct": profession.lower().startswith(pred_profession_wrong),
                 "prob_article": prob_article,
+                "prob_a": prob_a,
+                "prob_an": prob_an,
+                "correct_article_higher": correct_article_higher,
                 "prob_planned": prob_prof,
                 "prob_planned_wrong_article": prob_prof_wrong,
-                "ic_planned": ic_row["Profession"].strip(),
-                "ic_article": ic_row["Article"].strip(),
+                "ic_planned": ic_row["word"].strip(),
+                "ic_article": ic_row["article"].strip(),
                 "ic_description": ic_description,
                 "prompt_before_article": chattified_prompt_before_article,
                 "prompt_with_article": chattified_prompt_with_article,
@@ -186,6 +194,7 @@ def evaluate_professions(
     article_acc = out_df["article_correct"].mean()
     profession_acc = out_df["planned_correct"].mean()
     profession_wrong_acc = out_df["planned_wrong_article_correct"].mean()
+    correct_article_higher_acc = out_df["correct_article_higher"].mean()
 
     per_article = (
         out_df.groupby("article")["article_correct"].mean().to_dict()
@@ -195,6 +204,7 @@ def evaluate_professions(
     print(f"Article accuracy: {article_acc:.3%}")
     for art, acc in per_article.items():
         print(f"  {art}: {acc:.3%}")
+    print(f"Correct article higher probability: {correct_article_higher_acc:.3%}")
     print(f"Planned accuracy (correct article): {profession_acc:.3%}")
     print(f"Planned accuracy (wrong article): {profession_wrong_acc:.3%}")
 
