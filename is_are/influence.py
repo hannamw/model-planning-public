@@ -160,8 +160,8 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     # Pre-load all features for this model
     feature_set = set()
     for _, row in metadata.iterrows():
-        relevant_terms = relevant_term_mapping[str(row['number'])]
-        graph_name = row['name']
+        relevant_terms = relevant_term_mapping[str(row['gold_number'])]
+        graph_name = row['filename']
         filename = graph_name + ".pt"
         graph_file = graph_dir / filename
         graph = Graph.from_pt(graph_file)
@@ -182,8 +182,8 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     
     # Process each example based on metadata
     for _, row in tqdm(metadata.iterrows()):
-        relevant_terms = relevant_term_mapping[str(row['number'])]
-        graph_name = row['name']
+        relevant_terms = relevant_term_mapping[str(row['gold_number'])]
+        graph_name = row['filename']
         filename = graph_name + ".pt"
         graph_file = graph_dir / filename
 
@@ -212,8 +212,8 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     cumsum_selected_influences = torch.stack(cumsum_selected_influences)
     
     # Create boolean masks for filtering
-    are_mask = metadata['answer'] == 'are'
-    is_mask = metadata['answer'] == 'is'
+    are_mask = metadata['gold_verb'] == 'are'
+    is_mask = metadata['gold_verb'] == 'is'
 
     def get_mean_influence(mask):
         """Calculate mean influence for each type of influence metric"""

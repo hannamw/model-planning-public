@@ -135,21 +135,19 @@ all_model_results = {}
 
 # Load important nodes for all models using feature-based approach
 # Features are loaded and cached, then filtered based on word content
-for model in models:
+for model_name in models:
     feature_info_cache = {}
     is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
-    print(f"Processing model: {model}")
+    print(f"Processing model: {model_name}")
     
     # Load model metadata
-    logit_lens_model_name = model
-
-    replacement_model = ReplacementModel.from_pretrained('Qwen/' + logit_lens_model_name, 
-                                                        models_and_transcoders['Qwen/' + logit_lens_model_name], dtype=torch.bfloat16,
+    model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
+                                                        models_and_transcoders['Qwen/' + model_name], dtype=torch.bfloat16,
                                                         cpu_encoder=False)
     
-    metadata = pd.read_csv(f'results/behavioral/{model}.csv').head(150)
+    metadata = pd.read_csv(f'results/behavioral/{model_name}.csv').head(150)
     
-    graph_dir = Path('attribution_graphs') / model
+    graph_dir = Path('attribution_graphs') / model_name
     
     # Initialize lists for different article types
     cumsum_path_influences = []
@@ -170,20 +168,21 @@ for model in models:
         graph_file = graph_dir / filename
         graph = Graph.from_pt(graph_file)
 
-        input_tokens = replacement_model.tokenizer.convert_ids_to_tokens(graph.input_tokens)
-        last_word = input_tokens.index(replacement_model.tokenizer.eos_token)
+        input_tokens = model.tokenizer.convert_ids_to_tokens(graph.input_tokens)
+        last_word = input_tokens.index(model.tokenizer.eos_token)
 
         selected_features = graph.active_features[graph.selected_features]
         last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
         feature_set.update((layer, feature) for layer, _, feature in last_word_features.tolist())
 
     # get all features at once
-    get_features_with_cache(list(feature_set), feature_info_cache, model)
+    get_features_with_cache(list(feature_set), feature_info_cache, model_name)
     
     # Process each example based on metadata
     for idx, row in tqdm(metadata.iterrows()):
         correct_article = row['article']
         noun = row['spanish_noun']
+        english_noun = row['english_noun']
         
         # Generate filename based on metadata
         graph_name = f"{correct_article}-{noun}"
@@ -196,13 +195,13 @@ for model in models:
         graph = Graph.from_pt(str(graph_file))
 
         # Filter nodes by profession and related terms
-        input_tokens = replacement_model.tokenizer.convert_ids_to_tokens(graph.input_tokens)
-        last_word = input_tokens.index(replacement_model.tokenizer.eos_token)
+        input_tokens = model.tokenizer.convert_ids_to_tokens(graph.input_tokens)
+        last_word = input_tokens.index(model.tokenizer.eos_token)
 
         selected_features = graph.active_features[graph.selected_features]
         last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
         selected_nodes = [(layer, pos, feature) for layer, pos, feature in last_word_features.tolist() 
-                            if is_word_feature(layer, feature, noun)]
+                            if is_word_feature(layer, feature, noun) or is_word_feature(layer, feature, english_noun)]
     
         total_influence, cumsum_total_influence, non_selected_influence, cumsum_non_selected_influence, selected_influence, cumsum_selected_influence = compute_path_length_influence(graph, selected_nodes)
         
@@ -277,7 +276,7 @@ for model in models:
     
     # Save results for this model
     PATH_LENGTH_RESULTS_DIR.mkdir(exist_ok=True)
-    torch.save(all_model_results[model], PATH_LENGTH_RESULTS_DIR / f'{logit_lens_model_name}.pt')
-    print(f"  Saved results to {PATH_LENGTH_RESULTS_DIR / f'{logit_lens_model_name}.pt'}")
-    del replacement_model
+    torch.save(all_model_results[model], PATH_LENGTH_RESULTS_DIR / f'{model_name}.pt')
+    print(f"  Saved results to {PATH_LENGTH_RESULTS_DIR / f'{model_name}.pt'}")
+    del model
     torch.cuda.empty_cache()

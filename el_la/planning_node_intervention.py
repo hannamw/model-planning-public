@@ -128,6 +128,7 @@ for model in models:
     for idx, row in tqdm(metadata.iterrows()):
         correct_article = row['article']
         noun = row['spanish_noun']
+        english_noun = row['english_noun']
         
         # Generate filename based on metadata
         graph_name = f"{correct_article}-{noun}"
@@ -146,7 +147,7 @@ for model in models:
         selected_features = graph.active_features[graph.selected_features]
         last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
         selected_nodes = [(layer, pos, feature) for layer, pos, feature in last_word_features.tolist() 
-                            if is_word_feature(layer, feature, noun)]
+                            if is_word_feature(layer, feature, noun) or is_word_feature(layer, feature, english_noun)]
         
         n_pos = graph.n_pos
         s = graph.input_string
@@ -221,7 +222,7 @@ for model in models:
         metadata.at[idx, 'selected_nodes_count'] = selected_nodes_count
         
     # Save the metadata with intervention results as CSV
-    intervention_results_dir = Path('results/interventions_last')
+    intervention_results_dir = Path('results/interventions')
     intervention_results_dir.mkdir(exist_ok=True)
     metadata.to_csv(intervention_results_dir / f'{logit_lens_model_name}.csv', index=False)
     print(f"  Saved intervention results to {intervention_results_dir / f'{logit_lens_model_name}.csv'}")

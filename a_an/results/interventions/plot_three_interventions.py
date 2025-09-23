@@ -363,7 +363,7 @@ legend_elements = [
 fig.legend(handles=legend_elements, loc='lower center', bbox_to_anchor=(0.5, -0.04), ncol=4)
 
 plt.tight_layout()
-plt.savefig('combined_all_direct_intervention_effects.pdf', bbox_inches='tight')
+plt.savefig('a_an_combined_all_direct_intervention_effects.pdf', bbox_inches='tight')
 plt.show()
 
 #%%
