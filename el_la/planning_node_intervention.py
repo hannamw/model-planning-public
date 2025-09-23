@@ -55,6 +55,8 @@ def get_features_with_cache(features: list[tuple[int,int]], cache: dict, model_n
 
 def _is_word_feature(layer, feature_idx, word, feature_cache):
     feature_info = feature_cache[(layer, feature_idx)]
+    if feature_info is None:
+        return False
     word_counts = 0
     for tokens, top_index in zip(feature_info['tokens'], feature_info['top_indices']):
         top_segment = ''.join(tokens[top_index - 10: top_index + 10])
@@ -80,7 +82,7 @@ for model in models:
 
     replacement_model = ReplacementModel.from_pretrained('Qwen/' + logit_lens_model_name, 
                                                         models_and_transcoders['Qwen/' + logit_lens_model_name], dtype=torch.bfloat16,
-                                                        cpu_encoder=('8B' in model or '14B' in model))
+                                                        cpu_encoder=False)
     
     metadata = pd.read_csv(f'results/behavioral/{model}.csv').head(150)
     
@@ -125,7 +127,7 @@ for model in models:
     # Process each example based on metadata
     for idx, row in tqdm(metadata.iterrows()):
         correct_article = row['article']
-        noun = row['spanish_Noun']
+        noun = row['spanish_noun']
         
         # Generate filename based on metadata
         graph_name = f"{correct_article}-{noun}"
@@ -177,8 +179,8 @@ for model in models:
             #print(sn.max(0).values)
             zero_interventions = [(*feat, 0) for feat in selected_nodes]
             multiply_interventions = [(*feat, 5 * original_acts[tuple(feat)]) for feat in selected_nodes]
-            logits_zeros, acts_zeros = replacement_model.feature_intervention(s, interventions=zero_interventions)
-            logits_multiply, acts_multiply = replacement_model.feature_intervention(s, interventions=multiply_interventions)
+            logits_zeros, acts_zeros = replacement_model.feature_intervention(s, interventions=zero_interventions, return_activations=False)
+            logits_multiply, acts_multiply = replacement_model.feature_intervention(s, interventions=multiply_interventions, return_activations=False)
             
             zerod_probs = torch.softmax(logits_zeros[0, -1, :], dim=-1)
             multiplied_probs = torch.softmax(logits_multiply[0, -1, :], dim=-1)
@@ -231,4 +233,6 @@ for model in models:
     print(f"  Processed {len(metadata)} total examples:")
     print(f"    - {examples_with_nodes} examples with important nodes (interventions performed)")
     print(f"    - {examples_without_nodes} examples without important nodes (original probabilities recorded)")
+    del model
+    torch.cuda.empty_cache()
 

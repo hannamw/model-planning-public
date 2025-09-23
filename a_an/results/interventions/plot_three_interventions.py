@@ -197,22 +197,18 @@ for intervention, label in zip(intervention_types, intervention_labels):
     ax2.axhline(y=0, color='black', linestyle='--', alpha=0.5)
     ax2.grid(True, alpha=0.3)
     
-    # Create simple 4-item legend as requested
+    # Create simple 2-item legend (removing trendlines from legend)
     legend_elements = [
-        Line2D([0], [0], color=a_color, marker='o', linewidth=2, markersize=6, 
-               label='correct article = "a" (trend)', alpha=0.8),
-        Line2D([0], [0], color=an_color, marker='*', linewidth=2, markersize=8,
-               label='correct article = "an" (trend)', alpha=0.8),
         Line2D([0], [0], color=a_color, marker='o', linewidth=0, markersize=6,
                label='individual "a" points', alpha=0.6),
         Line2D([0], [0], color=an_color, marker='*', linewidth=0, markersize=8,
                label='individual "an" points', alpha=0.6)
     ]
     
-    fig.legend(handles=legend_elements, loc='lower center', bbox_to_anchor=(0.5, -0.08), ncol=4)
+    fig.legend(handles=legend_elements, loc='lower center', bbox_to_anchor=(0.5, -0.08), ncol=2)
     
     plt.tight_layout()
-    plt.savefig(f'{intervention}_intervention_effects.pdf', bbox_inches='tight')
+    plt.savefig(f'a_an_{intervention}_intervention_effects.pdf', bbox_inches='tight')
     plt.show()
 
 #%%
