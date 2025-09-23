@@ -27,9 +27,12 @@ Create a directory `features/` and download each of the features for each of the
         1. `evaluate_professions.py`: gets behavioral results
         2. `compute_graphs.py`: computes graphs
         3. `rhyme_intervention_sample.py`: samples couplet completions from the model
-        4. The circuit verification scripts:
+        4. `count_features.py`: counts features present in couplet graphs
+        5. `rhyme_intervention_compare_contexts.py`: samples couplet completions from the model
+        6. The circuit verification scripts:
             - `eol_intervention.py`: tests the role of EOL features in the circuit.
             - `eol_intervention_rhyme.py`: tests the role of EOL features in the circuit with respect to rhyming.
             - `neol_intervention.py`: tests the role of NEOL features in the circuit.
             - `neol_intervention_attention.py`: tests the role of EOL features with respect to attention heads.
+
 5. The previous step suffices to replicate all of our work, but should you want to actually view the attribution graphs created, you can run `uv run circuit-tracer start-server --graph_file_dir [directory] --port [port]` to view them; for more details see the [`circuit-tracer` documentation](https://github.com/safety-research/circuit-tracer)
