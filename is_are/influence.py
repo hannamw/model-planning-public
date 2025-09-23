@@ -1,37 +1,23 @@
 #%%
 # Import additional required modules
-import re
-import json
 from pathlib import Path
-from typing import List
+from functools import partial, lru_cache
 
 import pandas as pd
 from tqdm import tqdm
 import torch
-import matplotlib.pyplot as plt
-from matplotlib.legend_handler import HandlerTuple
 import numpy as np
 
 from circuit_tracer.graph import Graph, normalize_matrix
+from circuit_tracer import ReplacementModel
+
+from load_feature_from_binary import get_features_top_acts_from_list
 
 # Define threshold parameters
-REQUIRED_PROFESSION_COUNT = 5
-REQUIRED_RELATED_TERMS_COUNT = 1000
-LAST_ONLY = True
-PATH_LENGTH_RESULTS_DIR = Path('results/path_length_last_new') if LAST_ONLY else Path('results/path_length_new')  # Directory for path length results
 
-models = ['qwen3-0.6b-relu-lowl0', 'qwen3-1.7b-relu-lowl0', 'qwen3-4b-relu', 'qwen3-8b-relu', 'qwen3-14b-relu-lowl0']
-model_sizes = [28,28, 36, 36, 40]
-#%%
-model_to_logit_lens = {
-    'qwen3-0.6b-relu-lowl0': 'Qwen3-0.6B',
-    'qwen3-1.7b-relu-lowl0': 'Qwen3-1.7B',
-    'qwen3-4b-relu': 'Qwen3-4B',
-    'qwen3-8b-relu': 'Qwen3-8B',
-    'qwen3-14b-relu-lowl0': 'Qwen3-14B'
-}
+PATH_LENGTH_RESULTS_DIR = Path('results/path_length')  # Directory for path length results
 
-logit_lens_to_transcoders = {
+models_to_transcoders = {
     'Qwen3-0.6B':"mwhanna/qwen3-0.6b-transcoders-lowl0",
     'Qwen3-1.7B':"mwhanna/qwen3-1.7b-transcoders-lowl0",
     'Qwen3-4B':"mwhanna/qwen3-4b-transcoders",
@@ -54,10 +40,18 @@ relevant_term_mapping = {
 }
 
 
-def load_top_logits(model_name, layer):
-    target = logit_lens_to_transcoders[model_name].split("/")[-1]
-    with open(f'../cache/top_logits/{target}-{layer}.json', 'r') as f:
-        return json.load(f)
+def get_features_with_cache(features: list[tuple[int,int]], cache: dict, model_name: str, verbose=False):
+    features_to_get = [feature for feature in features if feature not in cache]
+    if features_to_get:
+        new_features = get_features_top_acts_from_list(model_name, features_to_get, verbose=verbose)
+        cache.update(new_features)
+    return {feature: cache[feature] for feature in features if cache[feature] is not None}
+
+def _is_word_feature(layer, feature_idx, word, feature_cache):
+    feature_info = feature_cache[(layer, feature_idx)]
+    if feature_info is None:
+        return False
+    return term_in_logits(word, feature_info['top_logits'], feature_info['bottom_logits'])
 
 def term_in_logits(term:str, top: list[str], bottom: list[str], use_bottom=False, substring_ok=False, k=10):
     logits = top[-k:] + bottom[:k] if use_bottom else top[-k:]
@@ -100,8 +94,7 @@ def compute_path_length_influence(graph: Graph, selected_nodes=None):
         selected_features = torch.tensor(selected_nodes).unsqueeze(0)
         matches = torch.all(candidate_features == selected_features, dim=2)
         selected_nodes_mask = torch.any(matches, dim=1)  # this is of size graph.selected_features < A.size(0)
-        if LAST_ONLY:
-            selected_nodes_mask &= graph.active_features[graph.selected_features][:, 1] == (graph.n_pos - 1)
+        selected_nodes_mask &= graph.active_features[graph.selected_features][:, 1] == (graph.n_pos - 1)
         selected_mask[:len(selected_nodes_mask)] = selected_nodes_mask
 
         if not selected_mask.any():
@@ -150,21 +143,34 @@ all_model_results = {}
 # Load important nodes for all models
 # The load_important_nodes function now handles loading and filtering
 # We need to pass the model_name and example_key to it
-for model in models:
-    top_bottom_by_layer = {}
-    print(f"Processing model: {model}")
+for model_name, transcoders in list(models_to_transcoders.items()):
+    feature_info_cache = {}
+    is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
     
-    # Load model metadata
-    # Convert model name format from qwen3-0.6b-relu-lowl0 to Qwen3-0.6B
-    model_name_parts = model.split('-')
-    size_part = model_name_parts[1].upper()  # 0.6b -> 0.6B
-    if size_part.endswith('B'):
-        size_part = size_part[:-1] + 'B'
-    logit_lens_model_name = f"Qwen3-{size_part}"
+    print(f"Processing model: {model_name}")
+    
+    model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
+                                            transcoders, dtype=torch.bfloat16,
+                                            lazy_encoder=False)
     
     metadata = pd.read_csv('data/animals_dataset_downsampled.csv')
     
-    graph_dir = Path('graphs_diff') / logit_lens_model_name
+    graph_dir = Path('attribution_graphs') / model_name
+    
+    # Pre-load all features for this model
+    feature_set = set()
+    for _, row in metadata.iterrows():
+        relevant_terms = relevant_term_mapping[str(row['number'])]
+        graph_name = row['name']
+        filename = graph_name + ".pt"
+        graph_file = graph_dir / filename
+        graph = Graph.from_pt(graph_file)
+
+        selected_features = graph.active_features[graph.selected_features]
+        last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
+        feature_set.update((layer, feature) for layer, _, feature in last_word_features.tolist())
+    
+    get_features_with_cache(list(feature_set), feature_info_cache, model_name)
     
     # Initialize lists for different article types
     cumsum_path_influences = []
@@ -182,24 +188,11 @@ for model in models:
         graph_file = graph_dir / filename
 
         graph = Graph.from_pt(str(graph_file))
-
-        if not top_bottom_by_layer:
-            print("Loading for the first time")
-            for layer in range(graph.cfg.n_layers):
-                top_bottom_by_layer[layer] = load_top_logits(logit_lens_model_name, layer)
-            print("done")
         
-        node_tensor = graph.active_features[graph.selected_features]
-        node_list = node_tensor.tolist()
-
-        # Filter nodes by profession and related terms
-        selected_nodes = [(layer, pos, idx) for layer, pos, idx in node_list 
-                        if any(term_in_logits(term, top_bottom_by_layer[layer][1][idx], 
-                                            top_bottom_by_layer[layer][0][idx], k=5) for term in relevant_terms)]
-        
-        n_pos = graph.n_pos 
-        if LAST_ONLY and selected_nodes:
-            selected_nodes = [(layer, pos, idx) for layer, pos, idx in selected_nodes if pos == n_pos - 1]
+        selected_features = graph.active_features[graph.selected_features]
+        last_word_features = selected_features[selected_features[:, 1] == graph.n_pos - 1]
+        selected_nodes = [(layer, pos, feature) for layer, pos, feature in last_word_features.tolist() 
+                            if any(is_word_feature(layer, feature, term) for term in relevant_terms)]
     
         total_influence, cumsum_total_influence, non_selected_influence, cumsum_non_selected_influence, selected_influence, cumsum_selected_influence = compute_path_length_influence(graph, selected_nodes)
         
@@ -242,7 +235,7 @@ for model in models:
         }
 
     # Store results for this model, calculating means for each group
-    all_model_results[model] = {
+    all_model_results[model_name] = {
         'all': get_mean_influence(np.ones_like(are_mask, dtype=bool)),
         'are': get_mean_influence(are_mask),
         'is': get_mean_influence(is_mask),
@@ -257,7 +250,11 @@ for model in models:
     
     # Save results for this model
     PATH_LENGTH_RESULTS_DIR.mkdir(exist_ok=True)
-    torch.save(all_model_results[model], PATH_LENGTH_RESULTS_DIR / f'{logit_lens_model_name}_path_length_results.pt')
-    print(f"  Saved results to {PATH_LENGTH_RESULTS_DIR / f'{logit_lens_model_name}_path_length_results.pt'}")
+    torch.save(all_model_results[model_name], PATH_LENGTH_RESULTS_DIR / f'{model_name}_path_length_results.pt')
+    print(f"  Saved results to {PATH_LENGTH_RESULTS_DIR / f'{model_name}_path_length_results.pt'}")
+    
+    # Clean up model to free memory
+    del model
+    torch.cuda.empty_cache()
 
 # %%

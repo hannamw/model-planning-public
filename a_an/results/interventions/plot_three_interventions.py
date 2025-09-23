@@ -159,7 +159,7 @@ for intervention, label in zip(intervention_types, intervention_labels):
              markersize=8, alpha=0.8, zorder=10)
     
     ax1.set_ylabel('Change in p(correct)')
-    ax1.set_title(f'{label}\nEffect of Zero Ablations on p(correct)')
+    ax1.set_title(f'{label}\nEffect of Zero Ablations on p(correct)', fontsize=14)
     ax1.set_xticks(range(len(models)))
     ax1.axhline(y=0, color='black', linestyle='--', alpha=0.5)
     ax1.grid(True, alpha=0.3)
@@ -190,10 +190,10 @@ for intervention, label in zip(intervention_types, intervention_labels):
              markersize=8, alpha=0.8, zorder=10)
     
     ax2.set_ylabel('Change in p(correct)')
-    ax2.set_title('Effect of Multiplying Interventions on p(correct)')
-    ax2.set_xlabel('Model')
+    ax2.set_title('Effect of Multiplying Interventions on p(correct)', fontsize=14)
+    ax2.set_xlabel('Model', fontsize=14)
     ax2.set_xticks(range(len(models)))
-    ax2.set_xticklabels(models, rotation=0)
+    ax2.set_xticklabels(models, rotation=0, fontsize=14)
     ax2.axhline(y=0, color='black', linestyle='--', alpha=0.5)
     ax2.grid(True, alpha=0.3)
     
