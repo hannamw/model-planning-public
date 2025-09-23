@@ -360,7 +360,7 @@ legend_elements = [
            label='individual "an" points', alpha=0.6)
 ]
 
-fig.legend(handles=legend_elements, loc='lower center', bbox_to_anchor=(0.5, -0.08), ncol=4)
+fig.legend(handles=legend_elements, loc='lower center', bbox_to_anchor=(0.5, -0.04), ncol=4)
 
 plt.tight_layout()
 plt.savefig('combined_all_direct_intervention_effects.pdf', bbox_inches='tight')
