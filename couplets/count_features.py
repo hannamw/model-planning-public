@@ -230,5 +230,6 @@ for model_name in models:
             'pruned_counts': pruned_counts
         }
 
+    Path('results/feature_counts').mkdir(exist_ok=True)
     torch.save(to_save, f'results/feature_counts/{model_name}.pt')
 # %%

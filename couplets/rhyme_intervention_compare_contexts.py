@@ -2,6 +2,7 @@
 import os
 from pathlib import Path
 import re
+import string
 from collections import Counter
 from functools import partial, lru_cache
 
@@ -86,7 +87,10 @@ for model_name in models:
                                              cpu_encoder=False)
 
     graph_dir = Path(f'attribution_graphs/{model_name}')
-    metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv', index_col=0)
+    metadata = pd.read_csv(f'results/rhyme_intervention_sample/{model_name}.csv', index_col=0)
+
+    for column in 'intervention_temp_1.0_sample_1,intervention_temp_1.0_sample_2,intervention_temp_1.0_sample_3,intervention_temp_1.0_sample_4,intervention_temp_1.0_sample_5,temp_0.3_sample_1,temp_0.3_sample_2,temp_0.3_sample_3,temp_0.3_sample_4,temp_0.3_sample_5,temp_0.7_sample_1,temp_0.7_sample_2,temp_0.7_sample_3,temp_0.7_sample_4,temp_0.7_sample_5,temp_1.0_sample_1,temp_1.0_sample_2,temp_1.0_sample_3,temp_1.0_sample_4,temp_1.0_sample_5'.split(','):
+        del metadata[column]
 
     feature_set = set()
 
@@ -127,24 +131,6 @@ for model_name in models:
                                 for idx, second_last_word in zip(metadata.index, metadata['second_last_word'])]
 
     # Initialize columns for intervention results
-    metadata['found_valid_row'] = False
-    metadata['chosen_id'] = ''
-    metadata['chosen_index'] = 0
-    metadata['chosen_rhyme_group'] = ''
-    metadata['chosen_feature_count'] = 0
-    metadata['original_generation'] = ''
-    metadata['intervention_generation'] = ''
-    
-    # Initialize columns for intervention temperature sampling (5 samples at temp 1.0)
-    for i in range(5):
-        metadata[f'intervention_temp_1.0_sample_{i+1}'] = ''
-    
-    # Initialize columns for temperature-based generations (5 samples each)
-    temperatures = [0.3, 0.7, 1.0]
-    for temp in temperatures:
-        for i in range(5):
-            metadata[f'temp_{temp}_sample_{i+1}'] = ''
-
     for idx, row in metadata.iterrows():
         second_last_word = row['second_last_word']
         rhyme_group = row['rhyme_group']
@@ -153,95 +139,54 @@ for model_name in models:
         input_tokens = model.tokenizer.convert_ids_to_tokens(graph.input_tokens)
         last_word = input_tokens.index(model.tokenizer.eos_token)
 
+
+        chosen_id = metadata.at[idx, 'chosen_id']
+        acts = torch.sparse_coo_tensor(graph.active_features.t(), 
+                                        graph.activation_values, 
+                                        size=(graph.cfg.n_layers, graph.n_pos, model.transcoders.d_transcoder))
+        
+        downweight_interventions = [(layer, last_word - 2, feature, -3 * act) 
+                                for layer, feature, act in id_to_features_acts[id]]
+        new_word_interventions = [(layer, last_word - 2, feature, 7 * act) 
+                                for layer, feature, act in id_to_features_acts[chosen_id]]
+
         # Generate original text
         unthink_idx = input_tokens.index('</think>')
         input_text = model.tokenizer.decode(graph.input_tokens[:unthink_idx + 2])
-        original_generation = model.generate(input_text, do_sample=False)
-        # Strip input text, keeping only newly generated content
-        original_generation_stripped = re.sub(r'.*</think>\n\n', '', original_generation, flags=re.DOTALL).strip()
-        metadata.at[idx, 'original_generation'] = original_generation_stripped
+        original_generation_stripped = re.sub(r'^[{}]+|[{}]+$'.format(re.escape(string.punctuation), re.escape(string.punctuation)), '', metadata.at[idx, 'clean_completion'])
+        og_split = original_generation_stripped.split()
+        og_to_last, og_last = ' '.join(og_split[:-1]), og_split[-1]
         
-        # Generate temperature-based samples (5 samples each for temperatures 0.3, 0.7, 1.0)
-        for temp in temperatures:
-            for i in range(5):
-                temp_generation = model.generate(input_text, do_sample=True, temperature=temp, max_new_tokens=20)
-                # Strip input text, keeping only newly generated content
-                temp_generation_stripped = re.sub(r'.*</think>\n\n', '', temp_generation, flags=re.DOTALL).strip()
-                metadata.at[idx, f'temp_{temp}_sample_{i+1}'] = temp_generation_stripped
+        # Store intervention generation (strip input text)
+        new_generation_stripped = re.sub(r'^[{}]+|[{}]+$'.format(re.escape(string.punctuation), re.escape(string.punctuation)), '', metadata.at[idx, 'intervention_generation'])
+        new_split = new_generation_stripped.split()
+        new_to_last, new_last = ' '.join(new_split[:-1]), new_split[-1]
 
-        # select another word to replace it with
-        # different word, does have features, different rhyme group?
-        valid_rows = metadata[(metadata['feature_count'] > 0) & (metadata['rhyme_group'] != rhyme_group)]
+        orig_gen_intervention, _, _ = model.feature_intervention_generate(input_text + og_to_last, 
+                                                                     interventions=downweight_interventions + new_word_interventions, 
+                                                                     do_sample=False,
+                                                                     max_new_tokens=2,
+                                                                     return_activations=False)
+        orig_gen_intervention_stripped = re.sub(f'.*{og_to_last}', '', orig_gen_intervention, flags=re.DOTALL).strip().split()[0]
 
-        if not valid_rows.empty:
-            chosen_row_raw = valid_rows.sample(1)
-            chosen_row = chosen_row_raw.iloc[0]
-            chosen_index = chosen_row_raw.index[0]
-            chosen_rhyme_group = chosen_row['rhyme_group']
-            chosen_second_last_word = chosen_row['second_last_word']
-            chosen_id = f'{chosen_index}-{chosen_second_last_word}'
-            chosen_feature_count = chosen_row['feature_count']
-            
-            # Store successful intervention metadata
-            metadata.at[idx, 'found_valid_row'] = True
-            metadata.at[idx, 'chosen_id'] = chosen_id
-            metadata.at[idx, 'chosen_index'] = chosen_index
-            metadata.at[idx, 'chosen_rhyme_group'] = chosen_rhyme_group
-            metadata.at[idx, 'chosen_feature_count'] = chosen_feature_count
-            
-            acts = torch.sparse_coo_tensor(graph.active_features.t(), 
-                                            graph.activation_values, 
-                                            size=(graph.cfg.n_layers, graph.n_pos, model.transcoders.d_transcoder))
-            
-            downweight_interventions = [(layer, last_word - 2, feature, -3 * act) 
-                                    for layer, feature, act in id_to_features_acts[id]]
-            new_word_interventions = [(layer, last_word - 2, feature, 7 * act) 
-                                    for layer, feature, act in id_to_features_acts[chosen_id]]
+        new_gen_no_intervention = model.generate(input_text + new_to_last, do_sample=False, max_new_tokens=2)
+        new_gen_no_intervention_stripped = re.sub(f'.*{new_to_last}', '', new_gen_no_intervention, flags=re.DOTALL).strip().split()[0]
 
-            new_generation, new_logits, _ = model.feature_intervention_generate(
-                input_text, 
-                interventions=downweight_interventions + new_word_interventions, 
-                do_sample=False, 
-                return_activations=False,
-                max_new_tokens=20
-            )
-            
-            # Store intervention generation (strip input text)
-            new_generation_stripped = re.sub(r'.*</think>\n\n', '', new_generation, flags=re.DOTALL).strip()
-            metadata.at[idx, 'intervention_generation'] = new_generation_stripped
-            
-            # Generate intervention samples with temperature 1.0
-            for i in range(5):
-                intervention_temp_generation, _, _ = model.feature_intervention_generate(
-                    input_text, 
-                    interventions=downweight_interventions + new_word_interventions, 
-                    do_sample=True,
-                    temperature=1.0,
-                    return_activations=False,
-                    max_new_tokens=20
-                )
-                # Strip input text, keeping only newly generated content
-                intervention_temp_generation_stripped = re.sub(r'.*</think>\n\n', '', intervention_temp_generation, flags=re.DOTALL).strip()
-                metadata.at[idx, f'intervention_temp_1.0_sample_{i+1}'] = intervention_temp_generation_stripped
-            
-        else:
-            print(f"couldn't find valid row for {id}; using dummy data")
-            # Store dummy data for failed cases
-            metadata.at[idx, 'found_valid_row'] = False
-            metadata.at[idx, 'chosen_id'] = 'DUMMY_NO_VALID_ROW'
-            metadata.at[idx, 'chosen_index'] = -999
-            metadata.at[idx, 'chosen_rhyme_group'] = 'DUMMY_RHYME_GROUP'
-            metadata.at[idx, 'chosen_feature_count'] = -999
-            metadata.at[idx, 'intervention_generation'] = 'DUMMY_INTERVENTION_GENERATION'
-            
-            # Store dummy data for intervention temperature samples
-            for i in range(5):
-                metadata.at[idx, f'intervention_temp_1.0_sample_{i+1}'] = 'DUMMY_INTERVENTION_TEMP_GENERATION'
-
+        original_no_intervention = re.sub(r'^[{}]+|[{}]+$'.format(re.escape(string.punctuation), re.escape(string.punctuation)), '', og_last)
+        original_intervention = re.sub(r'^[{}]+|[{}]+$'.format(re.escape(string.punctuation), re.escape(string.punctuation)), '', orig_gen_intervention_stripped)
+        new_no_intervention = re.sub(r'^[{}]+|[{}]+$'.format(re.escape(string.punctuation), re.escape(string.punctuation)), '', new_gen_no_intervention_stripped)
+        new_intervention = re.sub(r'^[{}]+|[{}]+$'.format(re.escape(string.punctuation), re.escape(string.punctuation)), '', new_last)
+        
+        # Add token data to existing metadata dataframe
+        metadata.at[idx, 'og_to_last'] = og_to_last
+        metadata.at[idx, 'og_last'] = og_last
+        metadata.at[idx, 'new_to_last'] = new_to_last
+        metadata.at[idx, 'new_last'] = new_last
+        metadata.at[idx, 'original_no_intervention'] = original_no_intervention
+        metadata.at[idx, 'original_intervention'] = original_intervention
+        metadata.at[idx, 'new_no_intervention'] = new_no_intervention
+        metadata.at[idx, 'new_intervention'] = new_intervention
     # Ensure output directory exists
-    Path('results/rhyme_intervention_sample').mkdir(parents=True, exist_ok=True)
-    metadata.to_csv(f'results/rhyme_intervention_sample/{model_name}.csv')
-    del model
-    torch.cuda.empty_cache()
-
+    Path('results/rhyme_intervention_compare_contexts').mkdir(parents=True, exist_ok=True)
+    metadata.to_csv(f'results/rhyme_intervention_compare_contexts/{model_name}.csv')
 # %%

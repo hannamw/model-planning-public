@@ -135,7 +135,7 @@ all_model_results = {}
 
 # Load important nodes for all models using feature-based approach
 # Features are loaded and cached, then filtered based on word content
-for model_name in models[-1:]:
+for model_name in models:
     feature_info_cache = {}
     is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
     print(f"Processing model: {model_name}")
