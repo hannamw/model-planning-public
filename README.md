@@ -2,7 +2,7 @@
 
 This is the repository for the paper *Latent Planning Emerges with Scale*. In order to replicate the results reported in the paper, you will need a GPU with at least 40GB of VRAM. Perform the following steps:
 
-1. Make sure that you've pulled [`circuit-tracer`]() correctly as a submodule. If you forgot to pull the submodules too, you can use `git submodule update --init`
+1. Make sure that you've pulled [`circuit-tracer`](https://github.com/safety-research/circuit-tracer) correctly as a submodule. If you forgot to pull the submodules too, you can use `git submodule update --init`
 2. Create a virtual environment with all of the packages needed to run this paper. We recommend using [uv](https://docs.astral.sh/uv/), and have written this README assuming you use it, so just run `uv sync` in this directory. All of the python scripts that follow be run with `uv run [script]`.
 3. Download all of the feature files by running `./download_features.sh`. Note that this assumes you are using `uv`, but just remove the `uv run` if not.
 <!---
