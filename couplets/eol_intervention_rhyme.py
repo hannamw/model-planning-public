@@ -37,8 +37,7 @@ for model_name in models:
     transcoders_name = models_and_transcoders[whole_model_name]
     model = ReplacementModel.from_pretrained(whole_model_name, 
                                              transcoders_name,
-                                             dtype=torch.bfloat16, 
-                                             cpu_encoder=False)
+                                             dtype=torch.bfloat16)
 
     graph_dir = Path(f'attribution_graphs/{model_name}')
     metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv', index_col=0)
@@ -82,9 +81,9 @@ for model_name in models:
         stop_interventions = [(layer, last_word - 2, feature, -4 * acts[layer, last_word - 2, feature]) 
                                 for layer, feature in eol_features.keys()]
 
-        stopped_generation, _, _ = model.feature_intervention_generate(substring, stop_interventions, do_sample=False, return_activations=False, max_new_tokens=20)
+        stopped_generation, _, _ = model.feature_intervention_generate(substring, stop_interventions, do_sample=False, max_new_tokens=20)
 
-        final_logits, _ = model.feature_intervention(model.tokenizer.decode(graph.input_tokens), stop_interventions, return_activations=False)
+        final_logits, _ = model.feature_intervention(model.tokenizer.decode(graph.input_tokens), stop_interventions)
         #top_logit = torch.topk(final_logits.squeeze(0)[-1]).indices[0]
         stopped_generations.append(stopped_generation)
         #new_final_logits.append(top_logit)

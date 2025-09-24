@@ -81,8 +81,8 @@ for model in models:
     logit_lens_model_name = model
 
     replacement_model = ReplacementModel.from_pretrained('Qwen/' + logit_lens_model_name, 
-                                                        models_and_transcoders['Qwen/' + logit_lens_model_name], dtype=torch.bfloat16,
-                                                        cpu_encoder=False)
+                                                        models_and_transcoders['Qwen/' + logit_lens_model_name], 
+                                                        dtype=torch.bfloat16)
     
     metadata = pd.read_csv(f'results/behavioral/{model}.csv').head(150)
     

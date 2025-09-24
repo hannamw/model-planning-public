@@ -81,8 +81,7 @@ for model_name in models[-1:]:
     transcoders_name = models_and_transcoders[whole_model_name]
     model = ReplacementModel.from_pretrained(whole_model_name, 
                                              transcoders_name,
-                                             dtype=torch.bfloat16, 
-                                             cpu_encoder=False)
+                                             dtype=torch.bfloat16)
 
     def chattify(inputs: list[str]):
         all_inputs = []
@@ -174,7 +173,7 @@ for model_name in models[-1:]:
                                                                      interventions=downweight_interventions + new_word_interventions, 
                                                                      do_sample=False,
                                                                      max_new_tokens=2,
-                                                                     return_activations=False)
+                                                                    )
         orig_gen_intervention_stripped = re.sub(f'.*{og_to_last}', '', orig_gen_intervention, flags=re.DOTALL).strip().split()[0]
 
         new_gen_no_intervention = model.generate(input_text + new_to_last, do_sample=False, max_new_tokens=2)

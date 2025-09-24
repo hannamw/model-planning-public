@@ -42,7 +42,6 @@ for model_name, transcoders in model_names_to_transcoders.items():
     df = pd.read_csv(f'results/behavioral/{model_name}.csv').head(150)
     model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
                                             transcoders, 
-                                            lazy_encoder=False,
                                             dtype=torch.bfloat16)
 
     el_token = model.tokenizer(' el').input_ids[0]

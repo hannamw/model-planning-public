@@ -137,7 +137,6 @@ for model_name in models:
 
     model = ReplacementModel.from_pretrained(model_name, 
                                             models_and_transcoders['Qwen/' + model_name], 
-                                            cpu_encoder=False, 
                                             dtype=torch.bfloat16)
 
     feature_info_cache = {}
@@ -234,7 +233,7 @@ for model_name in models:
             for steer_strength in [3,5,7]:
                 interventions = [(l,slice(-1, None),f, steer_strength*a) for l,f,a in name_to_features[n]]
                 generation, _, _ = model.feature_intervention_generate(chattify([input_sentence]), 
-                                interventions, return_activations=False, do_sample=False)
+                                interventions, do_sample=False)
                 
                 # Create row for this specific intervention
                 intervention_row = base_data.copy()

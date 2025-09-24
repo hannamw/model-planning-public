@@ -150,8 +150,7 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     print(f"Processing model: {model_name}")
     
     model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
-                                            transcoders, dtype=torch.bfloat16,
-                                            lazy_encoder=False)
+                                            transcoders, dtype=torch.bfloat16)
     
     metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv')
     

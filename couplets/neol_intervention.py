@@ -37,8 +37,7 @@ for model_name in models:
     transcoders_name = models_and_transcoders[whole_model_name]
     model = ReplacementModel.from_pretrained(whole_model_name, 
                                              transcoders_name,
-                                             dtype=torch.bfloat16, 
-                                             lazy_encoder=False)
+                                             dtype=torch.bfloat16)
 
     graph_dir = Path(f'attribution_graphs/{model_name}')
     metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv', index_col=0)
@@ -88,7 +87,7 @@ for model_name in models:
         stop_interventions = [(layer, slice(-1, None), feature, 2 * acts[layer, graph.n_pos - 1, feature]) 
                                 for layer, feature in neol_features.keys()]
 
-        stopped_generation, _, _ = model.feature_intervention_generate(substring, stop_interventions, do_sample=False, return_activations=False)
+        stopped_generation, _, _ = model.feature_intervention_generate(substring, stop_interventions, do_sample=False)
 
 
         # take the whole string
@@ -99,7 +98,7 @@ for model_name in models:
 
         # continue generation
         continue_interventions = [(layer, slice(-1, None), feature, -2 * acts[layer, graph.n_pos - 1, feature]) for layer, feature in neol_features.keys()]
-        continued_generation, _, _ = model.feature_intervention_generate(original_input, continue_interventions, do_sample=False, return_activations=False)
+        continued_generation, _, _ = model.feature_intervention_generate(original_input, continue_interventions, do_sample=False)
 
         substrings.append(substring)
         stopped_generations.append(stopped_generation)

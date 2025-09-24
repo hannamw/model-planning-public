@@ -82,8 +82,7 @@ for model_name in models:
     transcoders_name = models_and_transcoders[whole_model_name]
     model = ReplacementModel.from_pretrained(whole_model_name, 
                                              transcoders_name,
-                                             dtype=torch.bfloat16, 
-                                             lazy_encoder=('8B' in model_name or '14B' in model_name))
+                                             dtype=torch.bfloat16)
 
     graph_dir = Path(f'attribution_graphs/{model_name}')
     metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv', index_col=0)
@@ -181,8 +180,7 @@ for model_name in models:
             new_generation, new_logits, _ = model.feature_intervention_generate(
                 input_text, 
                 interventions=downweight_interventions + new_word_interventions, 
-                do_sample=False, 
-                return_activations=False,
+                do_sample=False,
                 max_new_tokens=20
             )
             

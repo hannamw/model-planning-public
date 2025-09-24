@@ -41,7 +41,6 @@ for model_name, model_config in model_names_and_configs:
     print(model_short_name)
     model = ReplacementModel.from_pretrained(model_name, 
                                             model_config, 
-                                            lazy_encoder=False,
                                             dtype=torch.bfloat16)
 
     df = pd.read_csv(f'results/couplets/{model_short_name}.csv')
