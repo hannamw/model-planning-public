@@ -28,7 +28,7 @@ Create a directory `features/` and download each of the features for each of the
         2. `compute_graphs.py`: computes graphs
         3. `rhyme_intervention_sample.py`: samples couplet completions from the model
         4. `count_features.py`: counts features present in couplet graphs
-        5. `rhyme_intervention_compare_contexts.py`: samples couplet completions from the model
+        5. `rhyme_intervention_compare_contexts.py`: resamples endings of couplet to test backward planning
         6. The circuit verification scripts:
             - `eol_intervention.py`: tests the role of EOL features in the circuit.
             - `eol_intervention_rhyme.py`: tests the role of EOL features in the circuit with respect to rhyming.

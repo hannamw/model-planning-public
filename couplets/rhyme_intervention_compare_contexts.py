@@ -1,5 +1,4 @@
 #%%
-import os
 from pathlib import Path
 import re
 import string
@@ -71,13 +70,12 @@ models_and_transcoders = {
     'Qwen/Qwen3-14B':"mwhanna/qwen3-14b-transcoders-lowl0"
 }
 #%%
-for model_name in models:
+for model_name in models[-1:]:
     feature_info_cache = {}
 
     is_rhyme_word_feature = lru_cache(maxsize=None)(
         partial(_is_rhyme_feature, feature_cache=feature_info_cache)
     )
-
 
     whole_model_name = f"Qwen/{model_name}"
     transcoders_name = models_and_transcoders[whole_model_name]
@@ -85,6 +83,16 @@ for model_name in models:
                                              transcoders_name,
                                              dtype=torch.bfloat16, 
                                              cpu_encoder=False)
+
+    def chattify(inputs: list[str]):
+        all_inputs = []
+        for i, prompt in enumerate(inputs):
+            all_inputs.append({'role': ('assistant' if i % 2 else 'user'), 'content': prompt})
+        chattified = model.tokenizer.apply_chat_template(all_inputs, tokenize=False, add_generation_prompt=False)[:-11]
+        if chattified.endswith('<|im_end|>\n'):
+            chattified = chattified[:-len('<|im_end|>\n')]
+        return chattified
+
 
     graph_dir = Path(f'attribution_graphs/{model_name}')
     metadata = pd.read_csv(f'results/rhyme_intervention_sample/{model_name}.csv', index_col=0)
@@ -176,6 +184,33 @@ for model_name in models:
         original_intervention = re.sub(r'^[{}]+|[{}]+$'.format(re.escape(string.punctuation), re.escape(string.punctuation)), '', orig_gen_intervention_stripped)
         new_no_intervention = re.sub(r'^[{}]+|[{}]+$'.format(re.escape(string.punctuation), re.escape(string.punctuation)), '', new_gen_no_intervention_stripped)
         new_intervention = re.sub(r'^[{}]+|[{}]+$'.format(re.escape(string.punctuation), re.escape(string.punctuation)), '', new_last)
+
+        og_to_last_logits = model(chattify([og_to_last]))
+        new_to_last_logits = model(chattify([new_to_last]))
+        
+        # Get top-1 token identities and probabilities
+        og_probs = torch.softmax(og_to_last_logits.squeeze(0)[-1], dim=-1)
+        new_probs = torch.softmax(new_to_last_logits.squeeze(0)[ -1], dim=-1)
+        
+        og_top1_token_id = torch.argmax(og_to_last_logits.squeeze(0)[-1]).item()
+        new_top1_token_id = torch.argmax(new_to_last_logits.squeeze(0)[-1]).item()
+        
+        og_top1_token = model.tokenizer.decode([og_top1_token_id])
+        new_top1_token = model.tokenizer.decode([new_top1_token_id])
+        
+        # Get probabilities and logprobs for the actual last words
+        og_last_token_ids = model.tokenizer.encode(' ' + og_last, add_special_tokens=False)
+        new_last_token_ids = model.tokenizer.encode(' ' + new_last, add_special_tokens=False)
+        
+        # For multi-token words, we'll use the first token's probability
+        og_last_token_id = og_last_token_ids[0] if og_last_token_ids else None
+        new_last_token_id = new_last_token_ids[0] if new_last_token_ids else None
+        
+        og_last_prob = og_probs[og_last_token_id].item() if og_last_token_id is not None else 0.0
+        new_last_prob = new_probs[new_last_token_id].item() if new_last_token_id is not None else 0.0
+        
+        og_last_logprob = torch.log_softmax(og_to_last_logits.squeeze(0)[-1], dim=-1)[og_last_token_id].item() if og_last_token_id is not None else float('-inf')
+        new_last_logprob = torch.log_softmax(new_to_last_logits.squeeze(0)[-1], dim=-1)[new_last_token_id].item() if new_last_token_id is not None else float('-inf')
         
         # Add token data to existing metadata dataframe
         metadata.at[idx, 'og_to_last'] = og_to_last
@@ -186,7 +221,17 @@ for model_name in models:
         metadata.at[idx, 'original_intervention'] = original_intervention
         metadata.at[idx, 'new_no_intervention'] = new_no_intervention
         metadata.at[idx, 'new_intervention'] = new_intervention
+        
+        # Add top-1 token identities and probabilities/logprobs
+        metadata.at[idx, 'og_top1_token'] = og_top1_token
+        metadata.at[idx, 'new_top1_token'] = new_top1_token
+        metadata.at[idx, 'og_last_prob'] = og_last_prob
+        metadata.at[idx, 'new_last_prob'] = new_last_prob
+        metadata.at[idx, 'og_last_logprob'] = og_last_logprob
+        metadata.at[idx, 'new_last_logprob'] = new_last_logprob
     # Ensure output directory exists
     Path('results/rhyme_intervention_compare_contexts').mkdir(parents=True, exist_ok=True)
     metadata.to_csv(f'results/rhyme_intervention_compare_contexts/{model_name}.csv')
+    del model
+    torch.cuda.empty_cache()
 # %%

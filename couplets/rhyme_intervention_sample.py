@@ -1,9 +1,10 @@
 #%%
-import os
 from pathlib import Path
 import re
 from collections import Counter
 from functools import partial, lru_cache
+import random
+import numpy as np
 
 import pandas as pd
 import torch
@@ -69,8 +70,13 @@ models_and_transcoders = {
     'Qwen/Qwen3-8B':"mwhanna/qwen3-8b-transcoders",
     'Qwen/Qwen3-14B':"mwhanna/qwen3-14b-transcoders-lowl0"
 }
+
+
 #%%
 for model_name in models:
+    # SEED = 42
+    # random.seed(SEED)
+    # np.random.seed(SEED)
     feature_info_cache = {}
 
     is_rhyme_word_feature = lru_cache(maxsize=None)(
