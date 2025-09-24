@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "boto3>=1.38.42",
+    "circuit-tracer",
     "circuitsvis>=1.43.3",
     "indic-transliteration>=2.3.75",
     "ipykernel>=6.29.5",
@@ -18,3 +19,6 @@ dependencies = [
     "sentence-transformers>=5.0.0",
     "vllm>=0.9.1",
 ]
+
+[tool.uv.sources]
+circuit-tracer = { git = "https://github.com/safety-research/circuit-tracer.git" }
