@@ -88,8 +88,7 @@ for model_name in models:
     transcoders_name = models_and_transcoders[whole_model_name]
     model = ReplacementModel.from_pretrained(whole_model_name, 
                                              transcoders_name,
-                                             dtype=torch.bfloat16, 
-                                             cpu_encoder=False)
+                                             dtype=torch.bfloat16)
 
     graph_dir = Path(f'attribution_graphs/{model_name}')
     metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv', index_col=0)
@@ -208,7 +207,6 @@ for model_name in models:
                 input_text, 
                 interventions=downweight_interventions + new_word_interventions, 
                 do_sample=False, 
-                return_activations=False,
                 max_new_tokens=20
             )
             
@@ -223,7 +221,6 @@ for model_name in models:
                     interventions=downweight_interventions + new_word_interventions, 
                     do_sample=True,
                     temperature=1.0,
-                    return_activations=False,
                     max_new_tokens=20
                 )
                 # Strip input text, keeping only newly generated content

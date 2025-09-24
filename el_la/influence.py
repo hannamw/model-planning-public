@@ -142,8 +142,8 @@ for model_name in models:
     
     # Load model metadata
     model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
-                                                        models_and_transcoders['Qwen/' + model_name], dtype=torch.bfloat16,
-                                                        cpu_encoder=False)
+                                                        models_and_transcoders['Qwen/' + model_name], 
+                                                        dtype=torch.bfloat16,)
     
     metadata = pd.read_csv(f'results/behavioral/{model_name}.csv').head(150)
     

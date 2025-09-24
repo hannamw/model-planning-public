@@ -81,8 +81,7 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
     
     model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
-                                            transcoders, dtype=torch.bfloat16,
-                                            lazy_encoder=False)
+                                            transcoders, dtype=torch.bfloat16)
     
     metadata = pd.read_csv(f'results/attribution_metadata/{model_name}.csv')
     graph_dir = Path('attribution_graphs') / model_name
@@ -168,8 +167,8 @@ for model_name, transcoders in list(models_to_transcoders.items()):
             multiply_interventions = [(*feat, 5 * original_acts[tuple(feat)]) for feat in selected_nodes]
             
             # ALL intervention (unconstrained)
-            logits_zeros_all, _ = model.feature_intervention(s, interventions=zero_interventions, return_activations=False)
-            logits_multiply_all, _ = model.feature_intervention(s, interventions=multiply_interventions, return_activations=False)
+            logits_zeros_all, _ = model.feature_intervention(s, interventions=zero_interventions,)
+            logits_multiply_all, _ = model.feature_intervention(s, interventions=multiply_interventions,)
             
             zerod_probs_all = torch.softmax(logits_zeros_all[0, -1, :], dim=-1)
             multiplied_probs_all = torch.softmax(logits_multiply_all[0, -1, :], dim=-1)
@@ -182,10 +181,10 @@ for model_name, transcoders in list(models_to_transcoders.items()):
             # DIRECT intervention (constrained layers)
             logits_zeros_direct, _ = model.feature_intervention(s, interventions=zero_interventions, 
                                                                     constrained_layers=range(1, model.cfg.n_layers), 
-                                                                    return_activations=False)
+                                                                   )
             logits_multiply_direct, _ = model.feature_intervention(s, interventions=multiply_interventions, 
                                                                         constrained_layers=range(1, model.cfg.n_layers), 
-                                                                        return_activations=False)
+                                                                       )
             
             zerod_probs_direct = torch.softmax(logits_zeros_direct[0, -1, :], dim=-1)
             multiplied_probs_direct = torch.softmax(logits_multiply_direct[0, -1, :], dim=-1)

@@ -46,8 +46,7 @@ np.random.seed(42)
 for model_name, transcoders in list(models_and_transcoders.items())[-1:]:
     print(model_name)
     model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
-                                            transcoders, 
-                                            lazy_encoder=False, 
+                                            transcoders,  
                                             dtype=torch.bfloat16)
 
     # Load the dataset
