@@ -74,9 +74,9 @@ models_and_transcoders = {
 
 #%%
 for model_name in models:
-    # SEED = 42
-    # random.seed(SEED)
-    # np.random.seed(SEED)
+    SEED = 42
+    random.seed(SEED)
+    np.random.seed(SEED)
     feature_info_cache = {}
 
     is_rhyme_word_feature = lru_cache(maxsize=None)(
