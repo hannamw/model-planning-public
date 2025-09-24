@@ -74,8 +74,7 @@ for model_name, transcoders in list(models_to_transcoders.items()):
     is_word_feature = lru_cache(maxsize=None)(partial(_is_word_feature, feature_cache=feature_info_cache))
     
     model = ReplacementModel.from_pretrained('Qwen/' + model_name, 
-                                            transcoders, dtype=torch.bfloat16,
-                                            lazy_encoder=False)
+                                            transcoders, dtype=torch.bfloat16)
     
     metadata = pd.read_csv(f'results/graph_metadata/{model_name}.csv')
     graph_dir = Path('attribution_graphs') / model_name

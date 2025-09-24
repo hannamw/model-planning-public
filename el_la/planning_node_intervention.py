@@ -180,8 +180,8 @@ for model in models:
             #print(sn.max(0).values)
             zero_interventions = [(*feat, 0) for feat in selected_nodes]
             multiply_interventions = [(*feat, 5 * original_acts[tuple(feat)]) for feat in selected_nodes]
-            logits_zeros, acts_zeros = replacement_model.feature_intervention(s, interventions=zero_interventions, return_activations=False)
-            logits_multiply, acts_multiply = replacement_model.feature_intervention(s, interventions=multiply_interventions, return_activations=False)
+            logits_zeros, acts_zeros = replacement_model.feature_intervention(s, interventions=zero_interventions,)
+            logits_multiply, acts_multiply = replacement_model.feature_intervention(s, interventions=multiply_interventions,)
             
             zerod_probs = torch.softmax(logits_zeros[0, -1, :], dim=-1)
             multiplied_probs = torch.softmax(logits_multiply[0, -1, :], dim=-1)
