@@ -2,13 +2,9 @@
 
 This is the repository for the paper *Latent Planning Emerges with Scale*. In order to replicate the results reported in the paper, you will need a GPU with at least 40GB of VRAM. Perform the following steps:
 
-1. Make sure that you've pulled [`circuit-tracer`](https://github.com/safety-research/circuit-tracer) correctly as a submodule. If you forgot to pull the submodules too, you can use `git submodule update --init`
-2. Create a virtual environment with all of the packages needed to run this paper. We recommend using [uv](https://docs.astral.sh/uv/), and have written this README assuming you use it, so just run `uv sync` in this directory. All of the python scripts that follow be run with `uv run [script]`.
-3. Download all of the feature files by running `./download_features.sh`. Note that this assumes you are using `uv`, but just remove the `uv run` if not.
-<!---
-Create a directory `features/` and download each of the features for each of the publicly available `Qwen3` transcoders from [this collection](https://huggingface.co/collections/mwhanna/qwen-3-transcoders-68c3ed66393d1f86bff237a3), into a subdirectory with the same name as the model, e.g. `Qwen3-0.6B`. You can do this by running the command `huggingface-cli download [hf-repo-name] --include "features/*" --local-dir [model-name] --local-dir-use-symlinks False` within the `features` folder.
--->
-4. Run the experiment scripts in each of the following subdirectories, which correspond to one set of our experiments. The output directory for each script contains a file that can be run to produce that experiment's plots.
+1. Create a virtual environment with all of the packages needed to run this paper. We recommend using [uv](https://docs.astral.sh/uv/), and have written this README assuming you use it, so just run `uv sync` in this directory. All of the python scripts that follow be run with `uv run [script]`.
+2. Download all of the feature files by running `./download_features.sh`. Note that this assumes you are using `uv`, but just remove the `uv run` if not.
+3. Run the experiment scripts in each of the following subdirectories, which correspond to one set of our experiments. The output directory for each script contains a file that can be run to produce that experiment's plots.
     - `a_an`:
         1. `evaluate_professions.py`: gets behavioral results
         2. `compute_graphs.py`: computes graphs
@@ -35,4 +31,4 @@ Create a directory `features/` and download each of the features for each of the
             - `neol_intervention.py`: tests the role of NEOL features in the circuit.
             - `neol_intervention_attention.py`: tests the role of EOL features with respect to attention heads.
 
-5. The previous step suffices to replicate all of our work, but should you want to actually view the attribution graphs created, you can run `uv run circuit-tracer start-server --graph_file_dir [directory] --port [port]` to view them; for more details see the [`circuit-tracer` documentation](https://github.com/safety-research/circuit-tracer)
+4. The previous step suffices to replicate all of our work, but should you want to actually view the attribution graphs created, you can run `uv run circuit-tracer start-server --graph_file_dir [directory] --port [port]` to view them; for more details see the [`circuit-tracer` documentation](https://github.com/safety-research/circuit-tracer)
